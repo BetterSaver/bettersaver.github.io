@@ -28,7 +28,7 @@ pagination.pagerSize = 20
     info = "Bettersaver: Get KiwiSaver advice that's 100% expert and personalised so that you get better outcomes that reflect your values, goals & lifestyle."
 
     # analytics
-    google_analitycs_id = ''
+    google_analitycs_id = 'G-H9C5GHFGCB'
     
 [taxonomies]
     category = "categories"
