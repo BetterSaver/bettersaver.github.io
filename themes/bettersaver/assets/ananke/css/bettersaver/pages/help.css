@@ -1,0 +1,6 @@
+.help-list {
+    details:last-child {
+        border-bottom: 1px solid var(--grey-mid);
+        margin-bottom: var(--size-4);
+    }
+}

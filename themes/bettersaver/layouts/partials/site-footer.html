@@ -1,0 +1,62 @@
+<footer class="bottom-0 w-100" role="contentinfo">
+  <div class="footer pa3 w-80-ns center pt-8">
+
+    <div class="tc-m tc-l">
+      <img src="/images/logo-mark.svg" alt="BetterSaver" />
+    </div>
+
+    <div class="grid grid-cols-2 pb-8">
+      <div class="pr-4">
+        {{ if .Site.Menus.footer_left }}
+        <ul class="tr-l p-0">
+          {{ range .Site.Menus.footer_left }}
+          <li class="list f5 f4-ns fw4 pb-2">
+            <a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
+              title="{{ i18n " pageTitle" . }}">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+
+      <div class="footer-verticle-border">
+        {{ if .Site.Menus.footer_right }}
+        <ul class="pl-0 p-0">
+          {{ range .Site.Menus.footer_right }}
+          <li class="list f5 f4-ns fw4 pb-2">
+            <a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
+              title="{{ i18n " pageTitle" . }}">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bg-blue-navy text-white w-100 p-4">
+    <div class="grid grid-cols-3 f7">
+      <div class="flex items-end">&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+      </div>
+      <div>
+        <div class="grid grid-cols-3 items-center">
+          <div><img src="/images/footer-kiwisaver.png" alt="Kiwisaver" /></div>
+          <div><img src="/images/footer-airpoints.png" alt="Airpoints" /></div>
+          <div><img src="/images/footer-morningstar.png" alt="Morningstar" /></div>
+        </div>
+
+        <p>This website is operated by BetterSaver limited and is not endorsed by, or affiliated with,
+          the New Zealand
+          government or Inland Revenue. BetterSaver limited is using the KiwiSaver trade mark and logo under licence
+          from Inland Revenue. To view the official New Zealand government KiwiSaver website, please <a
+            href="https://www.ird.govt.nz/" target="_blank" class="white">click here</a>.</p>
+      </div>
+      <div class="flex items-end justify-self-end">{{ partial "social-follow.html" . }}</div>
+    </div>
+  </div>
+</footer>

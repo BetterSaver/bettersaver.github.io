@@ -1,0 +1,21 @@
+.fund-finder {
+    background: var(--blue-navy);
+    padding: var(--size-2);
+    color: white;
+    padding-block: 80px;
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+
+        button,
+        input {
+            border-radius: 25px;
+            margin: 0px;
+        }
+
+        button {
+            height: 45px;
+        }
+    }
+}

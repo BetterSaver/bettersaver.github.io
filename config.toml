@@ -1,105 +1,137 @@
-baseURL = 'https://bettersaver.co.nz'
+baseURL = 'http://bettersaver.co.nz/'
 languageCode = 'en-us'
-title = 'Bettersaver'
+title = 'Better Saver'
 theme = "bettersaver"
 
-pagination.pagerSize = 20
-
 [params]
-    legal_title = "Bettersaver"
+    google_analitycs_id = ""
+    description = "Better Saver is a website for saving money better."
+    keywords = "better, saver, money, saving, budget, finance"
 
-    # Meta ------------
-    description = "Bettersaver: Get KiwiSaver advice that's 100% expert and personalised so that you get better outcomes that reflect your values, goals & lifestyle."
-    keywords = "Bettersaver, Get KiwiSaver advice that's 100% expert and personalised so that you get better outcomes that reflect your values, goals & lifestyle."
-
-    # Global settings ------------
-    favicon_32 = "/imgs/favicon-32x32.png"
-    favicon_16 = "/imgs/favicon-16x16.png"
+    site_logo = "/images/logo.svg"
     
-    dateformat = "January 2, 2006"
+    favicon_32 = "/images/favicon-32x32.png"
+    favicon_16 = "/images/favicon-16x16.png"
     
-    # layout settings ------------
-    headerLayout = "left" # options: left, center, right
-    footerLayout = "left" # options: left
-    footerNewsletter = true
+    body_classes = "body-font bg-blue-navy"
 
-    # Blog ------------ 
-    author = "Bettersaver"
-    info = "Bettersaver: Get KiwiSaver advice that's 100% expert and personalised so that you get better outcomes that reflect your values, goals & lifestyle."
+    custom_css = [
+        "bettersaver/fonts.css", 
+        "bettersaver/var.css", 
+        "bettersaver/colours.css",
+        "bettersaver/utility.css", 
+        "bettersaver/spacing.css",
+        "bettersaver/base.css", 
+        "bettersaver/buttons.css",
+        "bettersaver/footer.css",
+        
+        "bettersaver/components/faq-small.css",
+        "bettersaver/components/fund-finder.css",
+        "bettersaver/components/site-header.css",
+        "bettersaver/components/what-customers-are-saying.css",
+        
+        "bettersaver/pages/homepage.css",
+        "bettersaver/pages/blog.css",
+        "bettersaver/pages/contact-us.css",
+        "bettersaver/pages/help.css",
+        
+        
+        
+    ]
 
-    # analytics
-    google_analitycs_id = 'G-H9C5GHFGCB'
-    
 [taxonomies]
-    category = "categories"
-    tag = "tags"
+  author = 'authors'
+  tags = 'tags'
+  title = 'title'
 
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
-
-# Menus
-# -------------------------------------
-# header
-[[menu.main]]
-    name = "Services"
-    weight = 1
-    url = "/#services"
-#[[menu.main]]
-#    name = "Weight Loss Surgery"
-#    weight = 2
-#    url = "/procedures/weight-loss-surgery"
-#[[menu.main]]
-#    name = "Registration"
-#    weight = 3
-#    url = "/patient-registration-form"
-[[menu.main]]
-    name = "Contact"
-    weight = 4
-    url  = "/#contact"
-
-
-# Footer (these add onto the header menu)
-# [[menu.footer]]
-#     name = "Terms and Conditions"
-#     weight = 1
-#     url  = "/terms-and-conditions"
-#[[menu.footer]]
-#    name = "Privacy policy"
-#    weight = 1
-#    url  = "/privacy-policy"
-
-
-# Social panel (leave empty to hide)
-[[menu.social]]
-    name = "fab fa-instagram"
-    weight = 1
-    url  = ""
-[[menu.social]]
-    name = "lni lni-facebook-original"
-    weight = 2
-    url  = ""
-[[menu.social]]
-    name = "fab fa-twitter"
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = 'tags'
     weight = 3
-    url  = "asd"
-[[menu.social]]
-    name = "fab fa-tiktok"
+  [[related.indices]]
+    name = 'title'
+    weight = 2
+  [[related.indices]]
+    name = 'authors'
+    weight = 1
+
+[menus]
+    [[menus.main]]
+    name = "How it works"
+    url = "/pages/how-it-works"
+    weight = 1
+
+    [[menus.main]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 2
+
+    [[menus.main]]
+    name = "Sign in"
+    url = "/pages/sign-in"
+    weight = 3
+
+    [[menus.main]]
+    name = "Find a fund"
+    url = "/pages/find-a-fund"
     weight = 4
-    url  = "ticktok"
-[[menu.social]]
-    name = "fab fa-youtube"
+    [menus.main.params]
+        class = "button"
+
+    # footer left
+    [[menus.footer_left]]
+    name = "BetterSaver home"
+    url = "/"
+    weight = 1
+
+    [[menus.footer_left]]
+    name = "KiwiSaver fund advisor"
+    url = "/pages/financial-tips"
+    weight = 2
+
+    [[menus.footer_left]]
+    name = "How it works"
+    url = "/pages/how-it-works"
+    weight = 3
+
+    [[menus.footer_left]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 4
+
+    [[menus.footer_left]]
+    name = "My account"
+    url = "/pages/find-a-fund"
     weight = 5
-    url  = "youtube"
-[[menu.social]]
-    name = "fab fa-linkedin-in"
-    weight = 6
-    url  = "asd"
-[[menu.social]]
-    name = "lni lni-envelope"
-    weight = 7
-    url  = ""
+
+    # footer right
+    [[menus.footer_right]]
+    name = "Advice disclosure"
+    url = "/pages/advice-disclosure"
+    weight = 1
+
+    [[menus.footer_right]]
+    name = "Terms & conditions"
+    url = "/pages/terms-and-conditions"
+    weight = 2
+
+    [[menus.footer_right]]
+    name = "Privacy policy"
+    url = "/pages/privacy-policy"
+    weight = 3
+
+    [[menus.footer_right]]
+    name = "Contact us"
+    url = "/contact-us"
+    weight = 4
+
+    [[menus.footer_right]]
+    name = "Help"
+    url = "/help/centre"
+    weight = 5
 
 
-    
+

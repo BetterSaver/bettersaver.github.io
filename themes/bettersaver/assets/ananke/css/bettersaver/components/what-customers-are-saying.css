@@ -1,0 +1,9 @@
+.what-customers-are-saying {
+    background: var(--grey-bg-mid) url('/images/bg-bettersaver-logo-mark.svg') no-repeat center center;
+    background-size: cover;
+    padding: var(--size-2);
+
+    >div {
+        max-width: var(--content-width-wide);
+    }
+}

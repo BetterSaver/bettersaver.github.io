@@ -1,0 +1,65 @@
+btn,
+button,
+a.button {
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--blue-navy);
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    border: 0px none;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: var(--white);
+        background-color: var(--blue-happy);
+    }
+
+    &.white {
+        color: var(--blue-navy);
+        background-color: var(--white);
+
+        &:hover {
+            background-color: var(--grey-bg-mid);
+        }
+    }
+
+    &.purple {
+        color: var(--white);
+        background-color: var(--purple);
+
+        &:hover {
+            background-color: var(--purple-contrast);
+        }
+    }
+
+    &.outline {
+        color: var(--blue-navy);
+        background-color: transparent;
+        border: 1px solid var(--blue-navy);
+
+        &:hover {
+            color: var(--white);
+            background-color: var(--blue-navy);
+        }
+
+        &.selected {
+            color: var(--white);
+            background-color: var(--blue-navy);
+        }
+    }
+
+    &.small {
+        padding: 5px 11px;
+        font-size: 12px;
+    }
+
+    &.mobile-center {
+        @media screen and (max-width: 768px) {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
+    }
+}

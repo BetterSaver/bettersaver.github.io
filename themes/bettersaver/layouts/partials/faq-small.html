@@ -1,0 +1,21 @@
+<section class="faq">
+    <img src="/images/illustration-spinning-top.png" alt="Frequently asked questions" />
+
+    <div class="grid grid-cols-2-auto gap-4 items-center content narrow">
+        <h2 class="mb-0">Frequently asked questions</h2>
+        <div><a href="/help/" class="button">See more FAQs</a></div>
+    </div>
+
+    <div class="content narrow">
+        {{ $helpFaq := where (where site.RegularPages "Section" "help") ".Params.include_in_faq" true }}
+        <ul>
+            {{ range $helpFaq }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+        {{ if eq (len $helpFaq) 0 }}
+        <p>No frequently asked questions available.</p>
+        {{ end }}
+    </div>
+
+</section>

@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="content blog">
+  <section class="">
+    {{- .Content -}}
+  </section>
+
+  {{/* All tags across the site, sorted by usage count */}}
+  <div class="tags pt-4 pb-8">
+    <a href="/financial-tips" class="button small outline">
+      All
+    </a>
+    {{ range $t := .Site.Taxonomies.tags.ByCount }}
+    {{ with $t.Page }}
+    <a href="{{ .RelPermalink }}"
+      class="button small outline {{ if eq .RelPermalink $.RelPermalink }}selected{{ end }}">
+      {{ $t.Term | title}}
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <section class="posts">
+    {{ range $i, $pg :=.Paginator.Pages }}
+
+    {{ if eq $i 0 }}
+    <div class="feature">
+      {{ .Render "summary-feature" }}
+    </div>
+    {{ else }}
+    <div class="">
+      {{ .Render "summary" }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </section>
+  {{- template "_internal/pagination.html" . -}}
+</article>
+{{ end }}

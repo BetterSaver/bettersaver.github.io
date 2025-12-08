@@ -1,0 +1,158 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'GeneralSans-Regular', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 14px 0;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 13px 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 12px 0;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 12px 0;
+}
+
+h6 {
+    font-size: 14px;
+    font-family: 'BureauSerif', serif;
+    font-weight: 500;
+    margin: 0 0 12px 0;
+}
+
+a,
+a:visited,
+a:active {
+    color: var(--link);
+    text-decoration: none;
+
+    &.white {
+        color: var(--white);
+    }
+}
+
+a:hover {
+    color: var(--link-inverse);
+
+    &.white {
+        color: var(--grey-bg-mid);
+    }
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+time {
+    color: var(--grey-mid);
+    font-size: small;
+}
+
+details {
+    border-top: 1px solid var(--grey-mid);
+    padding-inline: var(--size-1);
+    cursor: pointer;
+
+    summary {
+        padding-block: var(--size-1);
+        list-style-type: none;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: "\25C2";
+            right: 0;
+            top: 45%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+details[open] summary:after {
+    content: '\25BE';
+}
+
+/* Forms */
+form {}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    margin-top: var(--size-1);
+    padding: 12px 16px;
+    display: block;
+    margin-bottom: var(--size-1);
+    width: 100%;
+    border: 1px solid var(--grey-mid);
+    border-radius: 6px;
+}
+
+select {
+    padding: 5px var(--size-1);
+}
+
+
+/* page width */
+.content {
+    max-width: var(--content-width-wide);
+    margin: 0 auto;
+    padding: var(--size-2);
+
+    &.narrow {
+        max-width: var(--content-width-narrow);
+    }
+
+    &.mobile-full {
+        max-width: 100%;
+        padding: 0;
+
+        /* Tablet up */
+        @media screen and (min-width: 768px) {
+            max-width: var(--content-width-wide);
+            padding: var(--size-2);
+        }
+    }
+
+    &.narrow-mobile-full {
+        max-width: 100%;
+        padding: 0;
+
+        /* Tablet up */
+        @media screen and (min-width: 768px) {
+            max-width: var(--content-width-narrow);
+            padding: var(--size-2);
+        }
+    }
+}

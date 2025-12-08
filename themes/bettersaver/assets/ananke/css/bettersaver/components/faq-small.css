@@ -1,0 +1,19 @@
+section.faq {
+    position: relative;
+    padding-top: 397px;
+
+    img {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-top: 240px;
+
+        img {
+            top: 60px;
+        }
+    }
+}

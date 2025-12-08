@@ -1,0 +1,91 @@
+.tags {
+    a {
+        margin-right: 3px;
+    }
+}
+
+.card {
+    border-radius: 25px;
+    background: var(--grey-bg-light);
+
+    .post-image {
+        display: block;
+        border-radius: 25px 25px 0 0;
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.blog {
+    padding: var(--size-2);
+
+    .posts {
+        display: grid;
+        gap: var(--size-2);
+        grid-template-columns: 1fr;
+
+        /* Tablets */
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* Screens up */
+        @media screen and (min-width: 960px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .feature {
+            grid-column: 1 / -1;
+
+            .feature-card {
+                display: grid;
+                grid-template-columns: 1fr;
+                background: var(--grey-bg-light);
+                border-radius: 25px 25px 0 0;
+
+                /* Screens up */
+                @media screen and (min-width: 960px) {
+                    grid-template-columns: 1fr 2fr;
+                    border-radius: 25px 0 0 25px;
+                }
+
+
+                .post-image {
+                    display: block;
+                    border-radius: 25px 25px 0 0;
+                    min-height: 400px;
+                    background-size: cover;
+                    background-position: center;
+
+                    /* Screens up */
+                    @media screen and (min-width: 960px) {
+                        border-radius: 25px 0 0 25px;
+                    }
+                }
+
+                .published {
+
+                    /* Tablet up */
+                    @media screen and (min-width: 768px) {
+                        position: absolute;
+                        bottom: 40px;
+                        left: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-grey-fullpage-screen {
+    background-color: var(--grey-bg-mid);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}

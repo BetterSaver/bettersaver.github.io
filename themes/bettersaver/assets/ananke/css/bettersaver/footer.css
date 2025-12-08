@@ -1,0 +1,10 @@
+footer {
+    background: var(--gradient-footer);
+
+    .footer-verticle-border {
+        @media screen and (min-width: 600px) {
+            border-left: 1px solid rgba(36, 46, 84, 0.4);
+            padding-left: var(--size-4);
+        }
+    }
+}

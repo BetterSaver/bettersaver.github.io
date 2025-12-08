@@ -1,0 +1,59 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+{{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+<header>
+  {{ partial "site-navigation.html" .}}
+  <div class="title-area">
+    <div class="grid grid-cols-2 min-vh-100">
+      <div class="{{ .Site.Params.cover_dimming_class | default " var(--bg-grey-light)" }} flex-l items-center ph4">
+        <div class="copy text-blue-navy">
+          <h1 class="title">
+            {{ .Title | default .Site.Title }}
+          </h1>
+          {{ with .Params.description }}
+          <p class="description mb-4">
+            {{ . }}
+          </p>
+          {{ end }}
+
+          {{ if .Params.cta_text }}
+          <a href="{{ .Params.cta_link }}" class="button">
+            {{ .Params.cta_text }}
+          </a>
+          {{ end }}
+        </div>
+
+      </div>
+      <div class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
+      </div>
+    </div>
+
+    {{ if .Params.icon_path }}
+    <img src="{{ .Params.icon_path }}" alt="" class="feature-icon {{ .Params.icon_class | default " var(--bg-grey-light)" }}" />
+    {{ end }}
+  </div>
+</header>
+{{ else }}
+<header>
+  {{ partial "site-navigation.html" . }}
+  <div class="bg-grey-bg-light pt-8 title-area">
+    <div class="py-8 pl-3 relative">
+      <div class="copy {{ .Params.icon_class | default " mw7" }}">
+        <h1 class="text-blue-navy">
+          {{ replace .Title "-" " " | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+        <p>
+          {{ . }}
+        </p>
+        {{ end }}
+      </div>
+
+      {{ if .Params.icon_path }}
+      <img src="{{ .Params.icon_path }}" alt="" class="icon {{ .Params.icon_class | default " var(--bg-grey-light)"
+        }}" />
+      {{ end }}
+    </div>
+  </div>
+</header>
+{{ end }}
