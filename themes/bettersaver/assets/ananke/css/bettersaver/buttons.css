@@ -8,8 +8,8 @@ a.button {
     border-radius: 25px;
     border: 0px none;
     text-decoration: none;
-    transition: background-color 0.2s ease;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    cursor: pointer;
 
     &:hover {
         color: var(--white);

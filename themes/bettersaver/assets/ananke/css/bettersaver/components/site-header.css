@@ -1,10 +1,37 @@
+#site-nav-bar {
+    z-index: 11;
+    transition: all 0.5s ease-in-out;
+
+    &.scrolled {
+        background-color: var(--white);
+
+        a {
+            color: var(--blue-navy);
+
+            &:hover {
+                color: var(--blue-happy);
+            }
+        }
+
+        .button {
+            background-color: var(--purple);
+            color: var(--white);
+
+            &:hover {
+                background-color: var(--purple-contrast);
+                color: var(--white);
+            }
+        }
+    }
+}
+
 .title-area {
 
     .icon {
         position: absolute;
         bottom: -20px;
         max-width: 200px;
-        z-index: 100;
+        z-index: 10;
 
         &.help {
             right: 40%;

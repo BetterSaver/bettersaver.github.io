@@ -10,8 +10,8 @@ theme = "bettersaver"
 
     site_logo = "/images/logo.svg"
     
-    favicon_32 = "/images/favicon-32x32.png"
-    favicon_16 = "/images/favicon-16x16.png"
+    favicon_32 = "/favicon-32x32.png"
+    favicon_16 = "/favicon-16x16.png"
     
     body_classes = "body-font bg-blue-navy"
 
@@ -25,18 +25,17 @@ theme = "bettersaver"
         "bettersaver/buttons.css",
         "bettersaver/footer.css",
         
-        "bettersaver/components/faq-small.css",
+        "bettersaver/components/block-faq.css",
+        "bettersaver/components/block-customer-reviews.css",
+        "bettersaver/components/block-blog-recent.css",
         "bettersaver/components/fund-finder.css",
         "bettersaver/components/site-header.css",
-        "bettersaver/components/what-customers-are-saying.css",
         
         "bettersaver/pages/homepage.css",
         "bettersaver/pages/blog.css",
         "bettersaver/pages/contact-us.css",
         "bettersaver/pages/help.css",
-        
-        
-        
+
     ]
 
 [taxonomies]
@@ -71,12 +70,12 @@ theme = "bettersaver"
 
     [[menus.main]]
     name = "Sign in"
-    url = "/pages/sign-in"
+    url = "https://app.bettersaver.co.nz/login/email"
     weight = 3
 
     [[menus.main]]
     name = "Find a fund"
-    url = "/pages/find-a-fund"
+    url = "https://app.bettersaver.co.nz/kiwisaver/onboarding"
     weight = 4
     [menus.main.params]
         class = "button"
@@ -130,7 +129,7 @@ theme = "bettersaver"
 
     [[menus.footer_right]]
     name = "Help"
-    url = "/help/centre"
+    url = "/help"
     weight = 5
 
 

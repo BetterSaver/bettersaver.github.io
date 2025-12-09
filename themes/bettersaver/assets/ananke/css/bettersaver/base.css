@@ -78,9 +78,14 @@ time {
 }
 
 details {
-    border-top: 1px solid var(--grey-mid);
+    border-top: 1px solid var(--grey-bg-dark);
     padding-inline: var(--size-1);
     cursor: pointer;
+
+    &:last-child {
+        border-bottom: 1px solid var(--grey-bg-dark);
+        margin-bottom: var(--size-4);
+    }
 
     summary {
         padding-block: var(--size-1);

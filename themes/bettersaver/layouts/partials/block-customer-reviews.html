@@ -1,0 +1,86 @@
+<section class="customer-reviews" x-data="{
+    container: null,
+    input: null,
+    scrollBy: 322,
+    scrollMin: 0,
+    scrollMax: 0,
+    scrollAmount: 0,
+
+    init() {
+        this.container = document.getElementById('review-container');
+        this.input = document.getElementById('review-scroller');
+        this.scrollMax = this.input.clientWidth;
+    },
+    pushright() {
+        if(this.scrollAmount >= this.scrollMax) {
+            this.scrollAmount = this.scrollMax;
+        }
+        if(this.scrollAmount <= this.scrollMin) {
+            this.scrollAmount = 0;
+        }
+
+        this.input.scrollTo({
+            top: 0,
+            left: Math.min(this.scrollAmount += this.scrollBy, this.scrollMax),
+            behavior: 'smooth'
+        });
+        console.log('-> ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+    },
+    pushleft() {
+        if(this.scrollAmount <= this.scrollMin) {
+            this.scrollAmount = 0;
+        }
+        if(this.scrollAmount >= this.scrollMax) {
+            this.scrollAmount = this.scrollMax-this.scrollBy;
+        }
+
+        this.input.scrollTo({
+        top: 0,
+        left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
+        behavior: 'smooth'
+        });
+
+        console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+    },
+}">
+
+    <div class="py-12">
+        <div class="grid grid-cols-2-auto gap-2">
+            <h2>What customers are saying</h2>
+            <div>
+                <button class="outline" @click="pushleft()">&larr;</button>
+                <button class="outline" @click="pushright()">&rarr;</button>
+            </div>
+        </div>
+        <div id="review-container">
+            <div class="carousel" id="review-scroller">
+
+                {{ $customerReviews := where (where site.RegularPages "Section" "customer-reviews") ".Params.name" "!="
+                ""
+                }}
+                {{ range $customerReviews }}
+                <div class="review">
+                    <div class="grid grid-cols-auto-2 gap-1">
+                        {{ with .Params.img_src }}
+                        <img src="{{ . }}" alt="">
+                        {{ end }}
+                        <div>
+                            <div class="mb-1"><strong>{{ .Params.name }}</strong></div>
+                            <div class="stars text-utility-orange"
+                                x-text="Array({{ .Params.stars }}).fill('★').join('')"></div>
+                        </div>
+                    </div>
+
+                    {{ with .Params.review }}
+                    <div class="py-2">{{ . | markdownify }}</div>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                {{ if eq (len $customerReviews) 0 }}
+                <p>No customer reviews available.</p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

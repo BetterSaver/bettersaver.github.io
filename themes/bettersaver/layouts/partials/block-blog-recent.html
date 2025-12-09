@@ -1,0 +1,70 @@
+<section class="blog-recent" x-data="{
+    container: null,
+    input: null,
+    scrollBy: 372,
+    scrollMin: 0,
+    scrollMax: 0,
+    scrollAmount: 0,
+
+    init() {
+        this.container = document.getElementById('blog-recent-container');
+        this.input = document.getElementById('blog-recent-scroller');
+        this.scrollMax = this.input.clientWidth;
+    },
+    pushright() {
+        if(this.scrollAmount >= this.scrollMax) {
+            this.scrollAmount = this.scrollMax;
+        }
+        if(this.scrollAmount <= this.scrollMin) {
+            this.scrollAmount = 0;
+        }
+
+        this.input.scrollTo({
+            top: 0,
+            left: Math.min(this.scrollAmount += this.scrollBy, this.scrollMax),
+            behavior: 'smooth'
+        });
+        console.log('-> ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+    },
+    pushleft() {
+        if(this.scrollAmount <= this.scrollMin) {
+            this.scrollAmount = 0;
+        }
+        if(this.scrollAmount >= this.scrollMax) {
+            this.scrollAmount = this.scrollMax-this.scrollBy;
+        }
+
+        this.input.scrollTo({
+        top: 0,
+        left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
+        behavior: 'smooth'
+        });
+
+        console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+    },
+}">
+    <div>
+        <div class="grid grid-cols-2-auto">
+            <h2 class="text-blue-navy">KiwiSaver basics</h2>
+            <div>
+                <a href="/financial-tips" class="button">More Financial Tips</a>
+                <button class="outline" @click="pushleft()">&larr;</button>
+                <button class="outline" @click="pushright()">&rarr;</button>
+            </div>
+        </div>
+        <div id="blog-recent-container">
+            <div class="carousel" id="blog-recent-scroller">
+
+                <!-- List 10 recent financial tips posts -->
+                {{ $posts := where (where site.RegularPages "Section" "financial-tips") "title" "!=" "" }}
+                {{ range $posts }}
+                <div class="carousel-item">
+                    <div class="">
+                        {{ .Render "summary" }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

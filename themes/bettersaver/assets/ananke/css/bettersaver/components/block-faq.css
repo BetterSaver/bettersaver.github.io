@@ -1,6 +1,7 @@
 section.faq {
     position: relative;
     padding-top: 397px;
+    padding-bottom: var(--size-8);
 
     img {
         position: absolute;

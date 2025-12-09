@@ -3,19 +3,144 @@
 This template is the same as the default and is here to demonstrate that if you have a content directory called "post"
 you can create a layouts directory, just for that section.
 */}}
-<article class="pa3 pa4-ns nested-copy-line-height">
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" |
-    default "mid-gray" }}">
-    {{ .Content }}
-  </section>
-  <aside class="flex-ns flex-wrap justify-around mt5">
-    {{ range .Paginator.Pages }}
-    <div class="relative w-100 w-30-l mb4 bg-white">
-      {{ .Render "summary" }}
-    </div>
+<article class="content narrow pt-8">
+
+  <h6 class="mb-1">Get help with</h6>
+  <div class="tags pb-8">
+    <a href="#kiwiSaver_basics" class="button outline small">
+      KiwiSaver Basics
+    </a>
+    <a href="#transferring_leaving" class="button outline small">
+      Transferring & Leaving
+    </a>
+    <a href="#contributions" class="button outline small">
+      Contributions
+    </a>
+    <a href="#withdrawals" class="button outline small">
+      Withdrawals
+    </a>
+    <a href="#betterSaver_funds" class="button outline small">
+      BetterSaver & Funds
+    </a>
+    <a href="#my_account" class="button outline small">
+      My Account
+    </a>
+  </div>
+
+  <div id="kiwiSaver_basics" class="help-list">
+    <h6>KiwiSaver Basics</h6>
+
+    <!-- list all help pages in the kiwisaver_basics category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "kiwisaver_basics" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
     {{ end }}
-  </aside>
-  {{ template "_internal/pagination.html" . }}
+    {{ end }}
+  </div>
+
+  <div id="transferring_leaving" class="help-list">
+    <h6>Transferring &amp; Leaving</h6>
+
+    <!-- list all help pages in the transferring_leaving category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "transferring_leaving" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div id="contributions" class="help-list">
+    <h6>Contributions</h6>
+
+    <!-- list all help pages in the contributions category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "contributions" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div id="withdrawals" class="help-list">
+    <h6>Withdrawals</h6>
+
+    <!-- list all help pages in the withdrawals category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "withdrawals" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div id="betterSaver_funds" class="help-list">
+    <h6>BetterSaver &amp; Funds</h6>
+
+    <!-- list all help pages in the withdrawals category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "withdrawals" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  <div id="my_account" class="help-list">
+    <h6>My Account</h6>
+
+    <!-- list all help pages in the my_account category -->
+    {{ range .Site.RegularPages }}
+    {{ if eq .Params.category "my_account" }}
+    <details class="help-item">
+      <summary>
+        <h3 class="m-0">{{ .Title }}</h3>
+      </summary>
+
+      {{ with .Params.content }}
+      <div class="py-2">{{ . | markdownify }}</div>
+      {{ end }}
+    </details>
+    {{ end }}
+    {{ end }}
+  </div>
+
 </article>
-RS
+
 {{ end }}

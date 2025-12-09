@@ -9,4 +9,13 @@
     </div>
   </article>
 </div>
+
+{{ if .Params.page_block }}
+{{ partial .Params.page_block .}}
+{{ end }}
+
+{{ partial "block-faq.html" .}}
+
+{{ partial "block-customer-reviews.html" .}}
+
 {{ end }}

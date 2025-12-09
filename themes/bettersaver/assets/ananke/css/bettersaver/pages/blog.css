@@ -19,6 +19,7 @@
 
 .blog {
     padding: var(--size-2);
+    margin-bottom: var(--size-8);
 
     .posts {
         display: grid;
