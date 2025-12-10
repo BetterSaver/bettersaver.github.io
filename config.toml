@@ -28,6 +28,7 @@ theme = "bettersaver"
         "bettersaver/components/block-faq.css",
         "bettersaver/components/block-customer-reviews.css",
         "bettersaver/components/block-blog-recent.css",
+        "bettersaver/components/block-how-it-works.css",
         "bettersaver/components/fund-finder.css",
         "bettersaver/components/site-header.css",
         

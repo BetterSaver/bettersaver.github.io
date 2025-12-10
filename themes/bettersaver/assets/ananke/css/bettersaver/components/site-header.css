@@ -2,6 +2,44 @@
     z-index: 11;
     transition: all 0.5s ease-in-out;
 
+    a {
+        color: var(--blue-navy);
+
+        &:hover {
+            color: var(--blue-happy);
+        }
+    }
+
+    .button {
+        background-color: var(--purple);
+        color: var(--white);
+
+        &:hover {
+            background-color: var(--purple-contrast);
+            color: var(--white);
+        }
+    }
+
+    &.light {
+        a {
+            color: var(--white);
+
+            &:hover {
+                color: var(--grey-bg-light);
+            }
+        }
+
+        .button {
+            background-color: var(--white);
+            color: var(--blue-navy);
+
+            &:hover {
+                background-color: var(--grey-bg-light);
+                color: var(--blue-navy);
+            }
+        }
+    }
+
     &.scrolled {
         background-color: var(--white);
 

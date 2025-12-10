@@ -5,13 +5,14 @@
 
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
-<article class="content narrow pt-8">
+<article class="content narrow">
 
-  <div class="">
-    {{- .Content -}}
+  <div class="py-8">
+    <div>
+      {{- .Content -}}
+    </div>
+
+    {{ partial "form-contact.html" . }}
   </div>
-
-  {{ partial "form-contact.html" . }}
-
 </article>
 {{ end }}

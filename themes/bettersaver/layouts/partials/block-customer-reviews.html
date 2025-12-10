@@ -35,9 +35,9 @@
         }
 
         this.input.scrollTo({
-        top: 0,
-        left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
-        behavior: 'smooth'
+            top: 0,
+            left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
+            behavior: 'smooth'
         });
 
         console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
