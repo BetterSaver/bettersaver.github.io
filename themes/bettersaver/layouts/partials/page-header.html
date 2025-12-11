@@ -13,7 +13,7 @@
   }
 }">
   {{ partial "site-navigation.html" .}}
-  <div class="grid grid-cols-2 min-vh-100">
+  <div class="grid grid-cols-2 min-vh-100">dsa
     <div class="{{ .Site.Params.cover_dimming_class | default " var(--bg-grey-light)" }} flex-l items-center ph4">
       <div class="text-blue-navy">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title text-blue-navy">
@@ -26,7 +26,7 @@
         {{ end }}
 
         {{ if .Params.cta_text }}
-        <a href="{{ .Params.cta_link }}" class="button">
+        <a href="{{ .Params.cta_link }}" class="button mb-4">
           {{ .Params.cta_text }}
         </a>
         {{ end }}
@@ -43,11 +43,10 @@
   </div>
 </header>
 {{ else }}
-<header class="pt-8 relative">
-  <div class="pt-8">
-    {{ partial "site-navigation.html" . }}
+<header class="relative">
+  {{ partial "site-navigation.html" . }}
 
-    <div class="bg-grey-fullpage-screen"></div>
-  </div>
+  <div class="bg-grey-fullpage-screen pt-10"></div>
 </header>
+<div class="pt-10"></div>
 {{ end }}

@@ -5,7 +5,7 @@
   {{ partial "site-navigation.html" .}}
   <div class="title-area">
     <div class="grid grid-cols-2 min-vh-100">
-      <div class="{{ .Site.Params.cover_dimming_class | default " var(--bg-grey-light)" }} flex-l items-center ph4 pb-8">
+      <div class="{{ .Site.Params.cover_dimming_class | default " var(--bg-grey-light)" }} flex items-center ph4">
         <div class="copy text-blue-navy">
           <h1 class="title">
             {{ .Title | default .Site.Title }}
@@ -17,7 +17,7 @@
           {{ end }}
 
           {{ if .Params.cta_text }}
-          <a href="{{ .Params.cta_link }}" class="button">
+          <a href="{{ .Params.cta_link }}" class="button mb-4">
             {{ .Params.cta_text }}
           </a>
           {{ end }}

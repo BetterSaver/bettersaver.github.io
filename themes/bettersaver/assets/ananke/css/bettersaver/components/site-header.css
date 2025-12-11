@@ -41,7 +41,7 @@
 
         .button {
             background-color: var(--white);
-            color: var(--blue-navy);
+            color: var(--blue-navy) !important;
 
             &:hover {
                 background-color: var(--grey-bg-light);
@@ -78,6 +78,8 @@
 
     #menu-tablet {
         display: none;
+
+
     }
 
     #menu-desktop {
@@ -134,7 +136,7 @@
     .feature-icon {
         position: absolute;
         max-width: 200px;
-        z-index: 100;
+        z-index: 10;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -243,8 +245,8 @@ nav.phone-menu {
     #menu {
         position: fixed;
         top: 0;
-        left: 0;
-        width: 100vw;
+        right: 0;
+        width: 45vw;
         height: 100vh;
         margin: 0;
         display: grid;
@@ -254,12 +256,20 @@ nav.phone-menu {
         color: var(--white);
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
-        transform: translate(200%, 0);
+        transform: translate(400%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         padding-left: 20px;
 
+        @media screen and (max-width: 768px) {
+            width: 100vw;
+            transform-origin: 0% 0%;
+            transform: translate(200%, 0);
+            left: 0;
+        }
+
         ul {
             padding: 0;
+            list-style: none;
 
             li {
                 padding-block: 10px;
@@ -271,6 +281,12 @@ nav.phone-menu {
                     color: var(--white) !important;
                 }
             }
+        }
+
+        img.icon {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
         }
     }
 }
