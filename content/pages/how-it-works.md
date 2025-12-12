@@ -7,7 +7,7 @@ cta_text: Get started
 cta_link: /pages/how-it-works
 icon_path: /images/illustration-ballon.png
 page_block: block-how-it-works
-title: How it works
+title: 'BetterSaver: How it works'
 date: 2022-10-10T03:00:00.000Z
 draft: false
 ---

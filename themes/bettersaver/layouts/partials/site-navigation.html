@@ -1,4 +1,4 @@
-<nav class="fixed top w-full items-center {{ with .GetPage "how-it-works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}" role="navigation" id="site-nav-bar">
+<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}" role="navigation" id="site-nav-bar">
   <div>
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib text-blue-navy" id="logo">
       {{ with .Site.Params.site_logo }}
@@ -12,7 +12,7 @@
     <div class="flex-l items-center justify-end" id="menu-desktop">
         {{ partial "i18nlist.html" . }}
         {{ if .Site.Menus.main }}
-        <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0 mr3" }}">
+        <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0" }}">
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}">
             <a class="purple no-underline {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
@@ -27,10 +27,12 @@
       </div>
 
       <div id="menu-mobile">
+
         <div id="menu-tablet">
-          
+          <div><a href="https://app.bettersaver.co.nz/kiwisaver/onboarding" class="button white">Find a fund</a></div>
+          <div><a href="https://app.bettersaver.co.nz/login/email">Sign in</a></div>
         </div>
-        
+
         <!-- Mobile burger menu -->
         <nav role="navigation" class="phone-menu">
           <div id="menuToggle">
@@ -44,7 +46,7 @@
               <ul>
                 <li class="navigation-item"><a href="/" class="navigation-link">Home</a></li>
                 {{ range .Site.Menus.main }}
-                <li><a class="text-white {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}" title="{{ i18n " pageTitle"
+                <li><a class="text-white" href="{{ .URL }}" title="{{ i18n " pageTitle"
                   . }}">
                   {{ .Name }}
                 </a></li>
