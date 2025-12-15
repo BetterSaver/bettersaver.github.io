@@ -8,7 +8,7 @@ a.button {
     border-radius: 25px;
     border: 0px none;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.25s ease;
     cursor: pointer;
 
     &:hover {
@@ -31,6 +31,7 @@ a.button {
 
         &:hover {
             background-color: var(--purple-contrast);
+            color: var(--white);
         }
     }
 
@@ -38,21 +39,35 @@ a.button {
         color: var(--blue-navy);
         background-color: transparent;
         border: 1px solid var(--blue-navy);
+        outline: 0 none;
 
         &:hover {
             color: var(--white);
             background-color: var(--blue-navy);
+            border: 1px solid var(--blue-navy);
         }
 
         &.selected {
             color: var(--white);
             background-color: var(--blue-navy);
+            border: 1px solid var(--blue-navy) !important;
+        }
+
+        &.grey {
+            border: 1px solid var(--grey-bg-dark);
+
+            &:hover {
+                color: var(--white);
+                background-color: var(--blue-navy);
+                border: 1px solid var(--blue-navy);
+            }
         }
     }
 
     &.small {
         padding: 5px 11px;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: bold;
     }
 
     &.mobile-center {

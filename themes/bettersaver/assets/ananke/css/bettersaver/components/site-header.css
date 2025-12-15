@@ -3,13 +3,70 @@
     transition: all 0.5s ease-in-out;
     padding: var(--size-2);
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 
     #logo {
         z-index: 1001;
         display: inline-block;
         position: relative;
+        color: var(--blue-navy);
+        transition: color 0.25s ease-in-out;
+
+        svg {
+            transition: all 0.25s ease-in-out;
+
+
+            /* top right of n - right */
+            .closed1 {
+                stop-color: #9966FF;
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            .open1 {
+                stop-color: var(--white);
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            /* top right of n - left */
+            .closed2 {
+                stop-color: #99CCFF;
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            .open2 {
+                stop-color: var(--white);
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            /* bottom left of n - right */
+            .closed3 {
+                stop-color: #003399;
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            .open3 {
+                stop-color: var(--white);
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            /* bottom left of n - left */
+            .closed4 {
+                stop-color: #9966FF;
+                transition: stop-color 0.25s ease-in-out;
+            }
+
+            .open4 {
+                stop-color: var(--white);
+                transition: stop-color 0.25s ease-in-out;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .open #logo {
+            color: var(--white);
+        }
     }
 
     a {
@@ -31,25 +88,25 @@
     }
 
     &.light {
-        a {
-            color: var(--white);
+        @media screen and (min-width: 812px) {
+            a {
+                color: var(--white);
 
-            &:hover {
-                color: var(--grey-bg-light);
+                &:hover {
+                    color: var(--grey-bg-light);
+                }
             }
-        }
 
-        .button {
-            background-color: var(--white);
-            color: var(--blue-navy) !important;
-
-            &:hover {
-                background-color: var(--grey-bg-light);
+            .button {
+                background-color: var(--white);
                 color: var(--blue-navy);
-            }
-        }
 
-        @media screen and (min-width: 768px) {
+                &:hover {
+                    background-color: var(--grey-bg-light);
+                    color: var(--blue-navy);
+                }
+            }
+
             nav.phone-menu span {
                 background-color: var(--white) !important;
             }
@@ -98,6 +155,14 @@
 
     #menu-desktop {
         display: flex;
+
+        ul {
+            margin: 0;
+
+            li:last-child {
+                padding-right: 0 !important;
+            }
+        }
     }
 
     @media screen and (max-width: 1024px) {
@@ -130,6 +195,7 @@
 }
 
 .title-area {
+    position: relative;
 
     .icon {
         position: absolute;
@@ -147,12 +213,12 @@
         }
     }
 
-    .feature-icon {
+    img.feature-icon {
         position: absolute;
         max-width: 200px;
         z-index: 10;
         top: 50%;
-        left: 50%;
+        left: 45%;
         transform: translate(-50%, -50%);
     }
 
@@ -166,18 +232,69 @@
 
     .img {
         min-height: 300px;
+        position: relative;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: var(--size-2);
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: var(--blue-navy);
     }
 
     /* Tablet and down */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
 
-        >div>div {
-            padding-top: 100px;
+        >div {
+            grid-template-columns: 1fr;
+
+            >div {
+                padding-top: 100px;
+            }
         }
 
         .feature-icon,
         .icon {
-            display: none;
+            transform: translate(0%, 0%);
+            top: 53% !important;
+            left: 80% !important;
+        }
+
+        .footer-icons {
+            color: var(--white);
+            background-color: rgba(36, 46, 84, 0.8);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            grid-template-columns: 1fr 2fr;
+
+            >div {
+                padding: 0;
+
+                &:first-child {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .feature-icon,
+        .icon {
+            transform: translate(0%, 0%);
+            top: 60% !important;
+            left: 70% !important;
+        }
+
+        .footer-icons svg {
+            width: 100%;
         }
     }
 }
@@ -197,6 +314,8 @@ nav.phone-menu {
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
+        max-width: 20px;
+        margin-left: auto;
 
         input {
             display: flex;

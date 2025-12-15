@@ -6,6 +6,7 @@ cta_text: "Get started"
 cta_link: "/pages/how-it-works"
 icon_path: "/images/illustration-boat.png"
 page_block: "block-home"
+footer_icons: true
 ---
 
 ## Why BetterSaver?

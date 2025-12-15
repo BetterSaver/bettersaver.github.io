@@ -108,6 +108,10 @@
     padding-top: var(--size-12);
 }
 
+.pt-18 {
+    padding-top: 180px;
+}
+
 /* right */
 .pr-0 {
     padding-right: 0;

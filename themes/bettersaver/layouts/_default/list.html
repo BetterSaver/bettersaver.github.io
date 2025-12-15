@@ -6,13 +6,13 @@
 
   {{/* Blog Tags */}}
   <div class="tags pt-4 pb-8">
-    <a href="/financial-tips" class="button small outline selected">
+    <a href="/financial-tips" class="button small outline grey selected">
       All
     </a>
 
     {{ range $t := .Site.Taxonomies.tags.ByCount }}
     {{ with $t.Page }}
-    <a href="{{ .RelPermalink }}" class="button small outline mb-1">
+    <a href="{{ .RelPermalink }}" class="button small outline grey mb-1">
       {{ $t.Term | title }}
     </a>
     {{ end }}
