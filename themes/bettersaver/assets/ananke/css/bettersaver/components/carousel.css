@@ -3,7 +3,7 @@
     gap: var(--size-2);
     overflow: hidden;
     scroll-snap-type: x mandatory;
-    padding-block: var(--size-2);
+    padding: var(--size-2);
 
     .carousel-item {
         display: block;
@@ -11,12 +11,16 @@
         scroll-snap-stop: always;
         min-width: 280px;
 
+        /* Tablet */
         @media screen and (max-width: 1025px) {
-            min-width: 31.5%;
+            min-width: 30%;
+            scroll-snap-align: center;
         }
 
+        /* mobile */
         @media screen and (max-width: 767px) {
-            min-width: 100%;
+            min-width: 90%;
+            scroll-snap-align: center;
         }
 
         .card {

@@ -76,7 +76,7 @@
     <div>
         <div class="grid grid-cols-2-auto">
             <h2 class="text-blue-navy">KiwiSaver basics</h2>
-            <div class="flex gap-1">
+            <div class="flex gap-1 mobile-hidden">
                 <div><a href="/financial-tips" class="button mr-1">More Financial Tips</a></div>
                 <div><button class="outline arrow" @click="pushleft()"><svg width="24" height="24" viewBox="0 0 24 24"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center">
+    <div class="text-center pt-6">
         <progress value="25" max="100" x-model="scrollProgress"></progress>
     </div>
 </section>

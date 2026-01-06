@@ -4,6 +4,7 @@
 
 .grid {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .grid-cols-2-auto {
@@ -189,6 +190,31 @@ place-center {
         display: none;
     }
 }
+
+.mobile-show {
+
+    /* Tablet up */
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.tablet-hidden {
+
+    /* Tablet down */
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.tablet-show {
+
+    /* Tablet up */
+    @media screen and (min-width: 1024px) {
+        display: none;
+    }
+}
+
 
 .overflow {
     overflow: hidden;

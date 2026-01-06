@@ -1,9 +1,13 @@
 .blog-recent {
     background: var(--grey-bg-light);
-    padding: var(--size-8) var(--size-2);
+    padding: var(--size-8) 0;
 
     >div {
         max-width: var(--content-width-wide);
         margin: 0 auto;
+
+        >div:first-child {
+            padding: var(--size-2);
+        }
     }
 }
