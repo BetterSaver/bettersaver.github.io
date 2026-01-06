@@ -36,26 +36,78 @@
 </div>
 
 <!-- How it works -->
-<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-4" x-data="{step: 1}">
-    <div class="">
+<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-4" x-data="{
+    step: 1,
+    timer: null,
+    timerTime: 5000,
+
+    init() {
+        // timer to cycle through steps
+        this.startTimer();
+        this.progressBar();
+    },
+    startTimer() {
+        // clear existing timer and restart
+        clearInterval(this.timer);
+        this.timer = setInterval(() => {
+            this.step = (this.step % 3) + 1;
+            this.progressBar();
+        }, this.timerTime);
+    },
+    resetTimer() {
+        // delay
+        //setTimeout(() => {
+        this.progressBar();
+        this.startTimer();
+        //}, 5000);
+    },
+    setStep(step) {
+        clearInterval(this.timer);
+        this.step=step;
+        this.resetTimer();
+    },
+    progressBar() {
+        // reset all progress bars
+        document.querySelectorAll('.progress-step').forEach(progress=> {
+            progress.style.width = '100%';
+        });
+
+        const progress = document.getElementById(`step-${this.step}-progress`);
+        progress.style.width = '0%';
+
+        // let it progress over the duration of the slider
+        let progressWidth = 0;
+        const progressInterval = setInterval(() => {
+            progressWidth += 1;
+            progress.style.width = progressWidth + '%';
+            if (progressWidth >= 100) {
+                clearInterval(progressInterval);
+            }
+        }, this.timerTime / 100);
+    }
+}">
+    <div class="" x-intersect="startTimer(); progressBar()">
         <h2>How it works</h2>
         <p class="mb-4">KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as
             you
             go.</p>
 
         <ol>
-            <li @click="step = 1" x-bind:class="step === 1 ? 'active' : ''">
+            <li @click="setStep(1)" x-bind:class="step === 1 ? 'active' : ''">
+                <div class="progress-step" id="step-1-progress"></div>
                 <h5>Tell us your KiwiSaver preferences</h5>
                 <p>Your goals, your risk level, your ethics</p>
 
                 <div class="mobile-img-container one"></div>
             </li>
-            <li @click="step = 2" x-bind:class="step === 2 ? 'active' : ''">
+            <li @click="setStep(2)" x-bind:class="step === 2 ? 'active' : ''">
+                <div class="progress-step" id="step-2-progress"></div>
                 <h5>Get matched to a better fund</h5>
                 <p>We recommend the right fund, and handle the switch for you</p>
                 <div class="mobile-img-container two"></div>
             </li>
-            <li @click="step = 3" x-bind:class="step === 3 ? 'active' : ''">
+            <li @click="setStep(3)" x-bind:class="step === 3 ? 'active' : ''">
+                <div class="progress-step" id="step-3-progress"></div>
                 <h5>Track and improve your progress</h5>
                 <p>See how you're tracking toward your goals, and get rewarded along the way</p>
                 <div class="mobile-img-container three"></div>

@@ -5,7 +5,7 @@ you can create a layouts directory, just for that section.
 */}}
 <article class="content narrow pt-8">
 
-  <h6 class="mb-1">Get help with</h6>
+  <div class="mb-1"><strong>Get help with</strong></div>
   <div class="tags pb-8">
     <a href="#kiwiSaver_basics" class="button outline small mb-1">
       KiwiSaver Basics
@@ -28,7 +28,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="kiwiSaver_basics" class="help-list">
-    <h6>KiwiSaver Basics</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">KiwiSaver Basics</strong></div>
 
     <!-- list all help pages in the kiwisaver_basics category -->
     {{ range .Site.RegularPages }}
@@ -39,7 +39,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}
@@ -47,7 +47,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="transferring_leaving" class="help-list">
-    <h6>Transferring &amp; Leaving</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">Transferring &amp; Leaving</strong></div>
 
     <!-- list all help pages in the transferring_leaving category -->
     {{ range .Site.RegularPages }}
@@ -58,7 +58,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}
@@ -66,7 +66,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="contributions" class="help-list">
-    <h6>Contributions</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">Contributions</strong></div>
 
     <!-- list all help pages in the contributions category -->
     {{ range .Site.RegularPages }}
@@ -77,7 +77,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}
@@ -85,7 +85,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="withdrawals" class="help-list">
-    <h6>Withdrawals</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">Withdrawals</strong></div>
 
     <!-- list all help pages in the withdrawals category -->
     {{ range .Site.RegularPages }}
@@ -96,7 +96,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}
@@ -104,7 +104,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="betterSaver_funds" class="help-list">
-    <h6>BetterSaver &amp; Funds</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">BetterSaver &amp; Funds</strong></div>
 
     <!-- list all help pages in the withdrawals category -->
     {{ range .Site.RegularPages }}
@@ -115,7 +115,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}
@@ -123,7 +123,7 @@ you can create a layouts directory, just for that section.
   </div>
 
   <div id="my_account" class="help-list">
-    <h6>My Account</h6>
+    <div class="mb-1"><strong class="text-utility-blue-contrast">My Account</strong></div>
 
     <!-- list all help pages in the my_account category -->
     {{ range .Site.RegularPages }}
@@ -134,7 +134,7 @@ you can create a layouts directory, just for that section.
       </summary>
 
       {{ with .Params.content }}
-      <div class="py-2">{{ . | markdownify }}</div>
+      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
     </details>
     {{ end }}

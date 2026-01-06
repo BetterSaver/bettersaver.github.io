@@ -5,25 +5,5 @@
     >div {
         max-width: var(--content-width-wide);
         margin: 0 auto;
-
-        .carousel {
-            display: flex;
-            gap: var(--size-2);
-            overflow: hidden;
-            scroll-snap-type: x mandatory;
-            padding-block: var(--size-2);
-
-            .carousel-item {
-                display: inline-block;
-                scroll-snap-align: start;
-                scroll-snap-stop: always;
-                min-width: 372px;
-
-                .card {
-                    background: var(--white);
-                    min-height: 334px;
-                }
-            }
-        }
     }
 }

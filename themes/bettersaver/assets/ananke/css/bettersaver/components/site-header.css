@@ -166,6 +166,8 @@
     }
 
     @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr auto;
+
         #menu-mobile {
             display: grid;
         }
@@ -251,10 +253,6 @@
 
         >div {
             grid-template-columns: 1fr;
-
-            >div {
-                padding-top: 100px;
-            }
         }
 
         .feature-icon,
@@ -262,6 +260,20 @@
             transform: translate(0%, 0%);
             top: 53% !important;
             left: 80% !important;
+
+            &.financial-tips {
+                transform: translate(0%, 0%);
+                top: -80px !important;
+                left: 75% !important;
+            }
+        }
+
+        .copy {
+            max-width: 100%;
+
+            &.financial-tips {
+                max-width: 70%;
+            }
         }
 
         .footer-icons {
@@ -286,11 +298,19 @@
 
     @media screen and (max-width: 768px) {
 
+        &.feature>div:first-child>div {
+            padding-top: 100px;
+        }
+
         .feature-icon,
         .icon {
             transform: translate(0%, 0%);
             top: 60% !important;
             left: 70% !important;
+
+            &.financial-tips {
+                display: none;
+            }
         }
 
         .footer-icons svg {

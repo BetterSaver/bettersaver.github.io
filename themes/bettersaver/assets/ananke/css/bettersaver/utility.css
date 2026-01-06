@@ -225,3 +225,7 @@ place-center {
         border-right: 1px solid var(--grey-bg-mid);
     }
 }
+
+.rounded {
+    border-radius: 25px;
+}

@@ -23,23 +23,23 @@ const CustomerReviews: Collection = {
     options: [
         {
           value: '5',
-          label: '5',
+          label: '* * * * *',
         },
         {
           value: '4',
-          label: '4',
+          label: '* * * *',
         },
         {
           value: '3',
-          label: '3',
+          label: '* * *',
         },
         {
           value: '2',
-          label: '2',
+          label: '* *',
         },
         {
           value: '1',
-          label: '1',
+          label: '*',
         },
       ],
     },

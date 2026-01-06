@@ -6,6 +6,11 @@ const Page: Collection = {
   path: "content/pages",
   fields: [
     {
+      type: "boolean",
+      name: "draft",
+      label: "Draft",
+    },
+    {
       type: "string",
       name: "title",
       label: "Title",
@@ -16,11 +21,6 @@ const Page: Collection = {
       type: "datetime",
       label: "Date",
       name: "date",
-    },
-    {
-      type: "boolean",
-      name: "draft",
-      label: "Draft",
     },
     {
       type: "rich-text",

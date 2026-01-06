@@ -5,6 +5,7 @@ body {
     font-size: 16px;
     font-family: 'GeneralSans-Regular', sans-serif;
     font-weight: 400;
+    color: var(--blue-navy);
 }
 
 h1 {
@@ -73,6 +74,10 @@ h6 {
     }
 }
 
+strong {
+    font-family: 'GeneralSans-Semibold', sans-serif;
+}
+
 a,
 a:visited,
 a:active {
@@ -105,10 +110,16 @@ details {
     border-top: 1px solid var(--grey-bg-dark);
     padding-inline: var(--size-1);
     cursor: pointer;
+    list-style-type: none;
+    outline: none;
 
     &:last-child {
         border-bottom: 1px solid var(--grey-bg-dark);
         margin-bottom: var(--size-4);
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
     }
 
     summary {
@@ -116,18 +127,64 @@ details {
         list-style-type: none;
         position: relative;
 
+        h3 {
+            transition: color 0.15s ease-in-out;
+        }
+
         &:after {
             position: absolute;
-            content: "\25C2";
             right: 0;
-            top: 45%;
+            top: 50%;
+            content: ' ';
             transform: translateY(-50%);
+            height: 32px;
+            width: 32px;
+            background: url('/images/icons/detail_toggle_plus.svg') no-repeat center center;
         }
+    }
+
+    section {
+        opacity: 0;
+        transition: opacity 0.25s ease-out;
     }
 }
 
-details[open] summary:after {
-    content: '\25BE';
+details[open] {
+    summary {
+        &:after {
+            background: url('/images/icons/detail_toggle_minus.svg') no-repeat center center;
+        }
+    }
+
+    h3 {
+        color: var(--utility-purple);
+    }
+
+    section {
+        opacity: 1;
+    }
+}
+
+progress {
+    background-color: var(--grey-bg-mid);
+    border-radius: 6px;
+    height: 6px;
+    border: 0 none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--grey-bg-mid);
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--blue-navy);
+    border-radius: 6px;
+    transition: width 0.5s;
+}
+
+progress::-moz-progress-bar {
+    background-color: var(--blue-navy);
+    border-radius: 6px;
 }
 
 /* Forms */

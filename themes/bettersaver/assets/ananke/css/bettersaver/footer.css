@@ -7,4 +7,27 @@ footer {
             padding-left: var(--size-4);
         }
     }
+
+    .footer-logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--size-1);
+        align-items: center;
+
+        img {
+            max-height: 50px;
+        }
+    }
+
+    #footer-copy {
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+
+    #footer-copy-mobile {
+        @media screen and (min-width: 600px) {
+            display: none;
+        }
+    }
 }

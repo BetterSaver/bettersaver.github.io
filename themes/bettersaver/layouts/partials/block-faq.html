@@ -15,7 +15,7 @@
             </summary>
 
             {{ with .Params.content }}
-            <div class="py-2">{{ . | markdownify }}</div>
+            <section class="py-2">{{ . | markdownify }}</section>
             {{ end }}
         </details>
         {{ end }}

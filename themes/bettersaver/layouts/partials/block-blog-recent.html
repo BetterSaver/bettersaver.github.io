@@ -5,14 +5,28 @@
     scrollMin: 0,
     scrollMax: 0,
     scrollAmount: 0,
+    scrollProgress: 0,
+    scrollProgressOffset: 0, // try and smooth the prog bar out a bit
 
     init() {
         this.container = document.getElementById('blog-recent-container');
         this.input = document.getElementById('blog-recent-scroller');
-        this.scrollMax = this.input.clientWidth;
+        
+        this.scrollMax = this.input.scrollWidth;
+        const carouselItems = document.querySelectorAll('.carousel-item');
+
+        this.scrollBy = this.container.clientWidth;
+        if(window.screen.width < 768 && carouselItems.length) {
+            this.scrollBy = carouselItems[0].clientWidth
+        }
+
+        this.scrollProgressOffset = carouselItems.length > 0 ? carouselItems[0].clientWidth / carouselItems.length : 0;
+
+        // console.log(window.screen.width, this.scrollBy, this.input.scrollWidth);
     },
     pushright() {
-        if(this.scrollAmount >= this.scrollMax) {
+        // limit stops
+        if(parseFloat(this.scrollAmount) + (parseFloat(this.scrollBy) * 1.5) >= this.scrollMax) {
             this.scrollAmount = this.scrollMax;
         }
         if(this.scrollAmount <= this.scrollMin) {
@@ -24,35 +38,61 @@
             left: Math.min(this.scrollAmount += this.scrollBy, this.scrollMax),
             behavior: 'smooth'
         });
-        console.log('-> ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+
+        if( (window.screen.width < 768 && parseFloat(this.scrollAmount) + (parseFloat(this.scrollBy) * 1.5) >= this.scrollMax) ||
+            (window.screen.width >= 768 && parseFloat(this.scrollAmount) + (parseFloat(this.scrollBy) ) >= this.scrollMax)
+        ) {
+            this.scrollAmount = this.scrollMax;
+        }
+
+        this.scrollProgress = ((this.scrollAmount+this.scrollProgressOffset) / this.scrollMax)*100;
+
+        // console.log('-> ' +this.scrollMin + '|' + (parseFloat(this.scrollAmount) + parseFloat(this.scrollBy))+ '|' + this.scrollMax);
     },
     pushleft() {
         if(this.scrollAmount <= this.scrollMin) {
             this.scrollAmount = 0;
         }
         if(this.scrollAmount >= this.scrollMax) {
-            this.scrollAmount = this.scrollMax-this.scrollBy;
+            this.scrollAmount = this.scrollMax - this.scrollBy;
         }
 
         this.input.scrollTo({
-        top: 0,
-        left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
-        behavior: 'smooth'
+            top: 0,
+            left: Math.max(this.scrollAmount -= this.scrollBy, this.scrollMin),
+            behavior: 'smooth'
         });
 
-        console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
+        this.scrollProgress = ((this.scrollAmount+this.scrollProgressOffset) / this.scrollMax)*100;
+
+        if((this.scrollAmount <= this.scrollMin || this.scrollAmount <= 100) ) { 
+            this.scrollAmount=0;
+            this.scrollProgress=0; 
+        }
+
+        // console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
     },
 }">
     <div>
         <div class="grid grid-cols-2-auto">
             <h2 class="text-blue-navy">KiwiSaver basics</h2>
-            <div>
-                <a href="/financial-tips" class="button">More Financial Tips</a>
-                <button class="outline" @click="pushleft()">&larr;</button>
-                <button class="outline" @click="pushright()">&rarr;</button>
+            <div class="flex gap-1">
+                <div><a href="/financial-tips" class="button mr-1">More Financial Tips</a></div>
+                <div><button class="outline arrow" @click="pushleft()"><svg width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.96969 5.96979C9.26258 5.6769 9.73734 5.6769 10.0302 5.96979C10.3231 6.26268 10.3231 6.73744 10.0302 7.03034L5.81051 11.2501H21C21.4142 11.2501 21.75 11.5858 21.75 12.0001C21.7499 12.4142 21.4142 12.7501 21 12.7501H5.81051L10.0302 16.9698C10.3231 17.2627 10.3231 17.7374 10.0302 18.0303C9.73733 18.3232 9.26256 18.3232 8.96969 18.0303L3.46969 12.5303C3.19511 12.2558 3.17768 11.821 3.41793 11.5264L3.46969 11.4698L8.96969 5.96979Z"
+                                fill="currentColor" />
+                        </svg></button></div>
+                <div><button class="outline arrow" @click="pushright()"><svg width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.9697 5.96979C15.2626 5.6769 15.7374 5.6769 16.0303 5.96979L21.5303 11.4698L21.582 11.5264C21.8223 11.821 21.8049 12.2557 21.5303 12.5303L16.0303 18.0303C15.7374 18.3232 15.2626 18.3232 14.9697 18.0303C14.6769 17.7375 14.6769 17.2627 14.9697 16.9698L19.1895 12.7501H4C3.58581 12.7501 3.25004 12.4142 3.25 12.0001C3.25 11.5859 3.58579 11.2501 4 11.2501H19.1895L14.9697 7.03034C14.6769 6.73747 14.6769 6.26269 14.9697 5.96979Z"
+                                fill="currentColor" />
+                        </svg></button></div>
             </div>
         </div>
-        <div id="blog-recent-container">
+        <div id="blog-recent-container" x-swipe:right="pushleft()" x-swipe:left="pushright()">
             <div class="carousel" id="blog-recent-scroller">
 
                 <!-- List 10 recent financial tips posts -->
@@ -66,5 +106,8 @@
                 {{ end }}
             </div>
         </div>
+    </div>
+    <div class="text-center">
+        <progress value="25" max="100" x-model="scrollProgress"></progress>
     </div>
 </section>

@@ -1,0 +1,27 @@
+.carousel {
+    display: flex;
+    gap: var(--size-2);
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    padding-block: var(--size-2);
+
+    .carousel-item {
+        display: block;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        min-width: 280px;
+
+        @media screen and (max-width: 1025px) {
+            min-width: 31.5%;
+        }
+
+        @media screen and (max-width: 767px) {
+            min-width: 100%;
+        }
+
+        .card {
+            background: var(--white);
+            min-height: 334px;
+        }
+    }
+}

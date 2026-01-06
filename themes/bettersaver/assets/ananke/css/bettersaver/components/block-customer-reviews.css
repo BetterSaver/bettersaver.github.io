@@ -8,14 +8,7 @@
         margin: 0 auto;
 
         .carousel {
-            display: flex;
-            gap: var(--size-2);
-            overflow: hidden;
-            scroll-snap-type: x mandatory;
-            padding: var(--size-2);
-
             .review {
-                min-width: 322px;
                 background: var(--white);
                 padding: var(--size-3);
                 border-radius: var(--size-3);

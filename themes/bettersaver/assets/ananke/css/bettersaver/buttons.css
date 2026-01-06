@@ -10,6 +10,7 @@ a.button {
     text-decoration: none;
     transition: all 0.25s ease;
     cursor: pointer;
+    font-weight: bold;
 
     &:hover {
         color: var(--white);
@@ -60,6 +61,19 @@ a.button {
                 color: var(--white);
                 background-color: var(--blue-navy);
                 border: 1px solid var(--blue-navy);
+            }
+        }
+
+        &.arrow {
+            padding: 9px;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--size-1);
+
+            /* center svg */
+            svg {
+                display: block;
+                margin: 0 auto;
             }
         }
     }

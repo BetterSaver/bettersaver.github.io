@@ -71,6 +71,10 @@
     color: var(--utility-blue);
 }
 
+.text-utility-blue-contrast {
+    color: var(--utility-blue-contrast);
+}
+
 .text-utility-purple {
     color: var(--utility-purple);
 }
@@ -162,6 +166,10 @@
 
 .bg-utility-blue {
     background-color: var(--utility-blue);
+}
+
+.bg-utility-blue-contrast {
+    background-color: var(--utility-blue-contrast);
 }
 
 .bg-utility-purple {
