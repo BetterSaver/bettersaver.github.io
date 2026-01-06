@@ -40,6 +40,7 @@
     step: 1,
     timer: null,
     timerTime: 5000,
+    progressInterval: null,
 
     init() {
         // timer to cycle through steps
@@ -68,6 +69,7 @@
     },
     progressBar() {
         // reset all progress bars
+        clearInterval(this.progressInterval);
         document.querySelectorAll('.progress-step').forEach(progress=> {
             progress.style.width = '100%';
         });
@@ -77,11 +79,11 @@
 
         // let it progress over the duration of the slider
         let progressWidth = 0;
-        const progressInterval = setInterval(() => {
+        this.progressInterval = setInterval(() => {
             progressWidth += 1;
             progress.style.width = progressWidth + '%';
             if (progressWidth >= 100) {
-                clearInterval(progressInterval);
+                clearInterval(this.progressInterval);
             }
         }, this.timerTime / 100);
     }
