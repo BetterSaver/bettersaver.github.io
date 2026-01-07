@@ -55,24 +55,30 @@
         this.updateImg(step);
     },
     updateImg(step) {
-        const img = document.getElementById('img');
+        const img1 = document.getElementById('img-1');
+        const img2 = document.getElementById('img-2');
+        const img3 = document.getElementById('img-3');
 
-        img.classList.remove('sn-one-img');
-        img.classList.remove('sn-two-img');
-        img.classList.remove('sn-three-img');
+        // reset
+        img1.classList.remove('active');
+        img2.classList.remove('active');
+        img3.classList.remove('active');
 
+        // active
         if(step == 1){
-            img.classList.add('sn-one-img');
+            img1.classList.add('active');
         } else if(step == 2){
-            img.classList.add('sn-two-img');
+            img2.classList.add('active');
         } else if(step == 3){
-            img.classList.add('sn-three-img');
+            img3.classList.add('active');
         }
     }
 }">
     <div class="tablet-hidden">
         <div class="sticky-img-container">
-            <div id="img" class="img"></div>
+            <div id="img-1" class="img sn-one-img"></div>
+            <div id="img-2" class="img sn-two-img"></div>
+            <div id="img-3" class="img sn-three-img"></div>
         </div>
     </div>
     <div class="snaps" id="snaps">
