@@ -6,6 +6,7 @@ body {
     font-family: 'GeneralSans-Regular', sans-serif;
     font-weight: 400;
     color: var(--blue-navy);
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -112,6 +113,12 @@ details {
     cursor: pointer;
     list-style-type: none;
     outline: none;
+
+    &:hover {
+        h3 {
+            color: var(--utility-purple);
+        }
+    }
 
     &:last-child {
         border-bottom: 1px solid var(--grey-bg-dark);

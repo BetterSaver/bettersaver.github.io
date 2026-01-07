@@ -1,145 +1,156 @@
 {{ define "main" }}
-{{/*
-This template is the same as the default and is here to demonstrate that if you have a content directory called "post"
-you can create a layouts directory, just for that section.
-*/}}
-<article class="content narrow pt-8">
 
-  <div class="mb-1"><strong>Get help with</strong></div>
-  <div class="tags pb-8">
-    <a href="#kiwiSaver_basics" class="button outline small mb-1">
-      KiwiSaver Basics
-    </a>
-    <a href="#transferring_leaving" class="button outline small mb-1">
-      Transferring &amp; Leaving
-    </a>
-    <a href="#contributions" class="button outline small mb-1">
-      Contributions
-    </a>
-    <a href="#withdrawals" class="button outline small mb-1">
-      Withdrawals
-    </a>
-    <a href="#betterSaver_funds" class="button outline small mb-1">
-      BetterSaver &amp; Funds
-    </a>
-    <a href="#my_account" class="button outline small mb-1">
-      My Account
-    </a>
-  </div>
+<article class="py-8">
+  <div class="content narrow">
+    <div class="mb-1"><strong>Get help with</strong></div>
+    <div class="tags pb-4">
+      <a href="#kiwiSaver_basics" class="button outline small mb-1">
+        KiwiSaver Basics
+      </a>
+      <a href="#transferring_leaving" class="button outline small mb-1">
+        Transferring &amp; Leaving
+      </a>
+      <a href="#contributions" class="button outline small mb-1">
+        Contributions
+      </a>
+      <a href="#withdrawals" class="button outline small mb-1">
+        Withdrawals
+      </a>
+      <a href="#betterSaver_funds" class="button outline small mb-1">
+        BetterSaver &amp; Funds
+      </a>
+      <a href="#my_account" class="button outline small mb-1">
+        My Account
+      </a>
+    </div>
 
-  <div id="kiwiSaver_basics" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">KiwiSaver Basics</strong></div>
+    <div class="mb-4">
+      <a href="#contact-us" class="need-help mobile-show">
+        <img src="/images/icon-confused.svg" alt="Confused">
+        <div>Can't find an answer?<br /> If our FAQs fall short, email us!</div>
+      </a>
+    </div>
 
-    <!-- list all help pages in the kiwisaver_basics category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "kiwisaver_basics" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
+    <div id="kiwiSaver_basics" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">KiwiSaver Basics</strong></div>
 
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
+      <!-- list all help pages in the kiwisaver_basics category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "kiwisaver_basics" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
+
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
-  </div>
-
-  <div id="transferring_leaving" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">Transferring &amp; Leaving</strong></div>
-
-    <!-- list all help pages in the transferring_leaving category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "transferring_leaving" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
-
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
-  </div>
+    </div>
 
-  <div id="contributions" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">Contributions</strong></div>
+    <div id="transferring_leaving" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">Transferring &amp; Leaving</strong></div>
 
-    <!-- list all help pages in the contributions category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "contributions" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
+      <!-- list all help pages in the transferring_leaving category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "transferring_leaving" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
 
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
-  </div>
-
-  <div id="withdrawals" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">Withdrawals</strong></div>
-
-    <!-- list all help pages in the withdrawals category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "withdrawals" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
-
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
-  </div>
+    </div>
 
-  <div id="betterSaver_funds" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">BetterSaver &amp; Funds</strong></div>
+    <div id="contributions" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">Contributions</strong></div>
 
-    <!-- list all help pages in the withdrawals category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "withdrawals" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
+      <!-- list all help pages in the contributions category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "contributions" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
 
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
-  </div>
-
-  <div id="my_account" class="help-list">
-    <div class="mb-1"><strong class="text-utility-blue-contrast">My Account</strong></div>
-
-    <!-- list all help pages in the my_account category -->
-    {{ range .Site.RegularPages }}
-    {{ if eq .Params.category "my_account" }}
-    <details class="help-item">
-      <summary>
-        <h3 class="m-0">{{ .Title }}</h3>
-      </summary>
-
-      {{ with .Params.content }}
-      <section class="py-2">{{ . | markdownify }}</section>
       {{ end }}
-    </details>
-    {{ end }}
-    {{ end }}
+    </div>
+
+    <div id="withdrawals" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">Withdrawals</strong></div>
+
+      <!-- list all help pages in the withdrawals category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "withdrawals" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
+
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div id="betterSaver_funds" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">BetterSaver &amp; Funds</strong></div>
+
+      <!-- list all help pages in the withdrawals category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "withdrawals" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
+
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div id="my_account" class="help-list">
+      <div class="mb-1"><strong class="text-utility-blue-contrast">My Account</strong></div>
+
+      <!-- list all help pages in the my_account category -->
+      {{ range .Site.RegularPages }}
+      {{ if eq .Params.category "my_account" }}
+      <details class="help-item">
+        <summary>
+          <h3 class="m-0">{{ .Title }}</h3>
+        </summary>
+
+        {{ with .Params.content }}
+        <section class="py-2">{{ . | markdownify }}</section>
+        {{ end }}
+      </details>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="mt-8">
+      {{ partial "form-contact.html" . }}
+    </div>
+
   </div>
+
 
 </article>
 

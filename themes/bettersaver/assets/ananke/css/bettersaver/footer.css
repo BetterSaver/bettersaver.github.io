@@ -14,6 +14,10 @@ footer {
         gap: var(--size-1);
         align-items: center;
 
+        >div:first-child {
+            text-align: right;
+        }
+
         img {
             max-height: 50px;
         }

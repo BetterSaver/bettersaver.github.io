@@ -40,6 +40,7 @@ theme = "bettersaver"
         "bettersaver/pages/contact-us.css",
         "bettersaver/pages/help.css",
 
+        "bettersaver/display.css", # must be last
     ]
 
 [taxonomies]

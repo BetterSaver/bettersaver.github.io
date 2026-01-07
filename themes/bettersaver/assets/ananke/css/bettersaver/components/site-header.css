@@ -208,6 +208,17 @@
         &.help {
             right: 40%;
             max-width: 300px;
+
+            /* Tablet down */
+            @media screen and (max-width: 1024px) {
+                max-width: 200px;
+                left: 30% !important;
+            }
+
+            /* Mobile down */
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
         }
 
         &.financial-tips {
@@ -229,6 +240,11 @@
 
         &.help {
             max-width: 30%;
+
+            /* Mobile down */
+            @media screen and (max-width: 768px) {
+                max-width: 90%;
+            }
         }
     }
 
@@ -446,4 +462,35 @@ nav.phone-menu {
             right: 40px;
         }
     }
+}
+
+a.need-help {
+    bottom: 40px;
+    right: 40px;
+    background: var(--utility-blue-light);
+    color: var(--black);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: var(--link-invert);
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+#contact-us {
+    scroll-margin-top: 100px;
 }

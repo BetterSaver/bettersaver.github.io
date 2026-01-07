@@ -123,6 +123,14 @@
       {{ if .Params.icon_path }}
       <img src="{{ .Params.icon_path }}" alt="" class="icon {{ .Params.icon_class }}" />
       {{ end }}
+
+      {{ if .Params.need_help }}
+      <a href="#contact-us" class="need-help absolute mobile-hidden">
+        <img src="/images/icon-confused.svg" alt="Confused">
+        <div>Can't find an answer?<br /> If our FAQs fall short, email us!</div>
+      </a>
+      {{ end }}
+
     </div>
   </div>
 </header>
