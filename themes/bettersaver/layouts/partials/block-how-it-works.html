@@ -3,7 +3,7 @@
     <span class="text-purple-contrast">Here's how it works:</span>
 </div>
 
-<div class="block-how-it-works" x-data="{
+<div class="block-how-it-works content" x-data="{
     init() {
         const snaps = document.getElementById('snaps');
 
@@ -11,73 +11,74 @@
         const snOne = document.getElementById('sn-one');
         const snTwo = document.getElementById('sn-two');
         const snThree = document.getElementById('sn-three');
-
+    },
+    updateScrollTo(step) {
         const snOneNumber = document.getElementById('sn-one-number');
         const snTwoNumber = document.getElementById('sn-two-number');
         const snThreeNumber = document.getElementById('sn-three-number');
 
-        // window scroll jacking
-        window.addEventListener('scroll', function() {
+        if(step == 1) {
+            snOneNumber.classList.add('active');
+            snTwoNumber.classList.remove('active');
+            snThreeNumber.classList.remove('active');
+        } else if(step == 2) {
+            snOneNumber.classList.remove('active');
+            snTwoNumber.classList.add('active');
+            snThreeNumber.classList.remove('active');
+        } else if(step == 3) {
+            snOneNumber.classList.remove('active');
+            snTwoNumber.classList.remove('active');
+            snThreeNumber.classList.add('active');
+        }
 
-            if(window.scrollY < snaps.getBoundingClientRect().top || window.scrollY > snaps.getBoundingClientRect().top + Math.round(snaps.clientHeight)){
-                snaps.style.overflowY = 'auto';
-            }
-            console.log(window.scrollY, snaps.offsetTop, snaps.getBoundingClientRect().top + Math.round(snaps.clientHeight));
-        });
+        this.updateImg(step);
+    },
+    scrollTo(step) {
+        const snOne = document.getElementById('sn-one');
+        const snTwo = document.getElementById('sn-two');
+        const snThree = document.getElementById('sn-three');
 
-        // container scrolljacking
-        snaps.addEventListener('scroll', function() {
-            <!-- console.log(snaps.scrollTop, snTwo.offsetTop, snThree.offsetTop); -->
-            if(snaps.scrollTop < snTwo.offsetTop-200) {
-                snOneNumber.classList.add('active');
-                snTwoNumber.classList.remove('active');
-                snThreeNumber.classList.remove('active');
-            } else if(snaps.scrollTop >= snTwo.offsetTop-200 && snaps.scrollTop <= snThree.offsetTop-200) {
-                snOneNumber.classList.remove('active');
-                snTwoNumber.classList.add('active');
-                snThreeNumber.classList.remove('active');
-            } else if(snaps.scrollTop >= snThree.offsetTop-200) {
-                snOneNumber.classList.remove('active');
-                snTwoNumber.classList.remove('active');
-                snThreeNumber.classList.add('active');
-
-                snaps.style.overflowY = 'hidden';
-            }
-        });
-
-        // clicks
-        document.getElementById('sn-one-number').addEventListener('click', function() {
-            snaps.scrollTo({
-                top: 0,
-                left: 0,
+        if(step == 1) {
+            snOne.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        } else if(step == 2) {
+            snTwo.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        } else if(step == 3) {
+            snThree.scrollIntoView({ 
                 behavior: 'smooth'
             });
-            snaps.style.overflowY = 'auto';
-        });
-        document.getElementById('sn-two-number').addEventListener('click', function() {
-            snaps.scrollTo({
-                top: snTwo.offsetTop,
-                left: 0,
-                behavior: 'smooth'
-            });
-            snaps.style.overflowY = 'auto';
-        });
-        document.getElementById('sn-three-number').addEventListener('click', function() {
-            snaps.scrollTo({
-                top: snThree.offsetTop,
-                left: 0,
-                behavior: 'smooth'
-            });
-            snaps.style.overflowY = 'auto';
-        });
+        }
 
+        this.updateImg(step);
+    },
+    updateImg(step) {
+        const img = document.getElementById('img');
+
+        img.classList.remove('sn-one-img');
+        img.classList.remove('sn-two-img');
+        img.classList.remove('sn-three-img');
+
+        if(step == 1){
+            img.classList.add('sn-one-img');
+        } else if(step == 2){
+            img.classList.add('sn-two-img');
+        } else if(step == 3){
+            img.classList.add('sn-three-img');
+        }
     }
 }">
-
+    <div class="tablet-hidden">
+        <div class="sticky-img-container">
+            <div id="img" class="img"></div>
+        </div>
+    </div>
     <div class="snaps" id="snaps">
-        <div class="content grid grid-cols-2 gap-4 items-center" id="sn-one">
-            <div class="img"></div>
-            <div>
+        <div id="sn-one" x-intersect.threshold.50="updateScrollTo(1)">
+            <div class="img sn-one-img tablet-show"></div>
+            <div class="mb-4">
                 <h3>Tell us a little about you</h3>
                 <p>The right KiwiSaver fund depends on your life — not just your age. We start by understanding your
                     goals,
@@ -99,9 +100,9 @@
             </div>
         </div>
 
-        <div class="content grid grid-cols-2 gap-4 items-center" id="sn-two">
-            <div class="img"></div>
-            <div>
+        <div id="sn-two" x-intersect.threshold.70="updateScrollTo(2)">
+            <div class="img sn-two-img tablet-show"></div>
+            <div class="mb-4">
                 <h3>We find you a better fund - and handle the switch</h3>
                 <p>Most people are in a fund that's just not right for them. We analyse the entire market to find one
                     that suits you
@@ -130,9 +131,9 @@
             </div>
         </div>
 
-        <div class="content grid grid-cols-2 gap-4 items-center" id="sn-three">
-            <div class="img"></div>
-            <div>
+        <div id="sn-three" x-intersect.threshold.100="updateScrollTo(3)">
+            <div class="img sn-three-img tablet-show"></div>
+            <div class="mb-4">
                 <h3>Keep your KiwiSaver working harder</h3>
                 <p>Switching is just the start. We help you stay on track - and reward you for it. </p>
 
@@ -154,11 +155,11 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="mobile-hidden">
         <div id="sticky-numbering">
-            <div id="sn-one-number" class="active">1</div>
-            <div id="sn-two-number">2</div>
-            <div id="sn-three-number">3</div>
+            <div id="sn-one-number" class="active" @click="scrollTo(1)">1</div>
+            <div id="sn-two-number" @click="scrollTo(2)">2</div>
+            <div id="sn-three-number" @click="scrollTo(3)">3</div>
         </div>
     </div>
 </div>

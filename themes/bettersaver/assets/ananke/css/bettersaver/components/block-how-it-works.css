@@ -10,14 +10,25 @@
 .block-how-it-works {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
+    grid-template-columns: 1fr 1fr auto;
+    gap: var(--size-4);
     max-width: 1920px;
     margin: 0 auto;
 
+    @media (max-width: 1024px) {
+        grid-template-columns: 1fr auto;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
 
     #sticky-numbering {
         padding: var(--size-1);
+        position: sticky;
+        top: 0;
+        padding-top: 36vh;
+        padding-bottom: 30.5vh;
 
         >div {
             border: 1px solid var(--grey-mid);
@@ -37,10 +48,8 @@
     }
 
     .snaps {
-        /* height: 100vh; */
-        height: 690px;
         margin-block: var(--size-12);
-        overflow-y: auto;
+        /* overflow-y: auto; */
         scrollbar-width: none;
         /* For Firefox */
         scroll-snap-type: y mandatory;
@@ -51,33 +60,106 @@
         }
 
         >div {
-            margin-bottom: var(--size-10);
-            height: 690px;
             scroll-snap-align: center;
 
             &#sn-one {
-                .img {
-                    background: url('/images/homepage-how-it-works-1.png') no-repeat center center;
-                    background-size: contain;
-                    min-height: 50vh;
+                min-height: 62vh;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: var(--size-2);
+                align-items: center;
+                scroll-margin-top: 15vh;
+
+                @media (max-width: 1024px) {
+                    grid-template-columns: 1fr 1fr;
+                    scroll-margin-top: 10vh;
+                    align-items: start;
+                    min-height: auto;
+                }
+
+                @media (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                    min-height: auto;
+                    margin-bottom: var(--size-4);
                 }
             }
 
             &#sn-two {
-                .img {
-                    background: url('/images/homepage-how-it-works-2.png') no-repeat center center;
-                    background-size: contain;
-                    min-height: 50vh;
+                min-height: 100vh;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: var(--size-2);
+                align-items: center;
+
+                @media (max-width: 1024px) {
+                    scroll-margin-top: 10vh;
+                    grid-template-columns: 1fr 1fr;
+                    min-height: auto;
+                }
+
+                @media (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                    min-height: auto;
+                    margin-bottom: var(--size-4);
                 }
             }
 
             &#sn-three {
-                .img {
-                    background: url('/images/homepage-how-it-works-3.png') no-repeat center center;
-                    background-size: contain;
-                    min-height: 50vh;
+                min-height: 41vh;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: var(--size-2);
+                scroll-margin-top: 30vh;
+
+                @media (max-width: 1024px) {
+                    scroll-margin-top: 10vh;
+                    grid-template-columns: 1fr 1fr;
+                    min-height: auto;
+                }
+
+                @media (max-width: 768px) {
+                    grid-template-columns: 1fr;
+                    min-height: auto;
                 }
             }
+        }
+    }
+
+    /* imgs */
+    .sticky-img-container {
+        position: sticky;
+        top: 0;
+        padding-top: 15vh;
+        padding-bottom: 80px;
+    }
+
+    .sn-one-img {
+        background: url('/images/homepage-how-it-works-1.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
+        }
+    }
+
+    .sn-two-img {
+        background: url('/images/homepage-how-it-works-2.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
+        }
+    }
+
+    .sn-three-img {
+        background: url('/images/homepage-how-it-works-3.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
         }
     }
 }
