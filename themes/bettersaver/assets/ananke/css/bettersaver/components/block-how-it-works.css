@@ -131,47 +131,74 @@
         top: 0;
         padding-top: 15vh;
         padding-bottom: 80px;
+    }
 
-        div {
-            min-height: 60vh;
+    .sn-one-img {
+        background: url('/images/homepage-how-it-works-1.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (min-width: 1024px) {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        &.active {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
+        }
+    }
+
+    .sn-two-img {
+        background: url('/images/homepage-how-it-works-2.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
+        }
+
+        @media (min-width: 1024px) {
+            position: absolute;
+            width: 100%;
+            top: 15vh;
+            left: 0;
+            right: 0;
             opacity: 0;
             transition: opacity 0.3s ease;
 
             &.active {
                 opacity: 1;
             }
-
-            @media (max-width: 768px) {
-                min-height: 43vh;
-            }
-
-            &.sn-one-img {
-                background: url('/images/homepage-how-it-works-1.png') no-repeat right top;
-                background-size: contain;
-            }
-
-            &.sn-two-img {
-                background: url('/images/homepage-how-it-works-2.png') no-repeat right top;
-                background-size: contain;
-                position: absolute;
-                width: 100%;
-                top: 15vh;
-                left: 0;
-                right: 0;
-            }
-
-            &.sn-three-img {
-                background: url('/images/homepage-how-it-works-3.png') no-repeat right top;
-                background-size: contain;
-                position: absolute;
-                width: 100%;
-                top: 15vh;
-                left: 0;
-                right: 0;
-            }
         }
     }
 
+    .sn-three-img {
+        background: url('/images/homepage-how-it-works-3.png') no-repeat right top;
+        background-size: contain;
+        min-height: 60vh;
+
+        @media (max-width: 768px) {
+            min-height: 43vh;
+        }
+
+        @media (min-width: 1024px) {
+            position: absolute;
+            width: 100%;
+            top: 15vh;
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
 
 }
 
