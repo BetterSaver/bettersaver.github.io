@@ -7,4 +7,11 @@
     scroll-margin-top: 10vh;
 }
 
-.help-list {}
+.contact-us-form {
+    max-width: var(--content-width-narrow);
+    margin: var(--size-4) auto;
+
+    @media screen and (min-width: 768px) {
+        padding-inline: 20px;
+    }
+}

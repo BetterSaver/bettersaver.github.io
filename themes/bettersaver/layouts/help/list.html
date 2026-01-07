@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-<article class="py-8">
+<article>
   <div class="content narrow">
-    <div class="mb-1"><strong>Get help with</strong></div>
+    <div class="pt-4 mb-1"><strong>Get help with</strong></div>
     <div class="tags pb-4">
       <a href="#kiwiSaver_basics" class="button outline small mb-1">
         KiwiSaver Basics
@@ -27,7 +27,7 @@
     <div class="mb-4">
       <a href="#contact-us" class="need-help mobile-show">
         <img src="/images/icon-confused.svg" alt="Confused">
-        <div>Can't find an answer?<br /> If our FAQs fall short, email us!</div>
+        <div>Can't find an answer?<br /> If our FAQs fall short, <span class="text-blue-happy">email us</span>!</div>
       </a>
     </div>
 
@@ -144,14 +144,11 @@
       {{ end }}
       {{ end }}
     </div>
-
-    <div class="mt-8">
-      {{ partial "form-contact.html" . }}
-    </div>
-
   </div>
-
-
 </article>
+
+<div class="contact-us-form">
+  {{ partial "form-contact.html" . }}
+</div>
 
 {{ end }}

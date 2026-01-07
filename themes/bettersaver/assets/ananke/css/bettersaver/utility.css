@@ -217,3 +217,7 @@ place-center {
 .rounded {
     border-radius: 25px;
 }
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -99,7 +99,7 @@
                 {{ $posts := where (where site.RegularPages "Section" "financial-tips") "title" "!=" "" }}
                 {{ range $posts }}
                 <div class="carousel-item">
-                    <div class="">
+                    <div class="cursor-pointer" @click="window.location.href='{{ .RelPermalink }}'">
                         {{ .Render "summary" }}
                     </div>
                 </div>

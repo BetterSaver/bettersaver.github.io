@@ -114,12 +114,6 @@ details {
     list-style-type: none;
     outline: none;
 
-    &:hover {
-        h3 {
-            color: var(--utility-purple);
-        }
-    }
-
     &:last-child {
         border-bottom: 1px solid var(--grey-bg-dark);
         margin-bottom: var(--size-4);
@@ -147,6 +141,10 @@ details {
             height: 32px;
             width: 32px;
             background: url('/images/icons/detail_toggle_plus.svg') no-repeat center center;
+        }
+
+        &:hover:after {
+            background: url('/images/icons/detail_toggle_plus_hover.svg') no-repeat center center;
         }
     }
 
