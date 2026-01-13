@@ -15,7 +15,7 @@
         this.scrollMax = this.input.scrollWidth;
         const carouselItems = document.querySelectorAll('.carousel-item');
 
-        this.scrollBy = this.container.clientWidth;
+        this.scrollBy = this.container.clientWidth-40;
         if(window.screen.width < 768 && carouselItems.length) {
             this.scrollBy = carouselItems[0].clientWidth
         }
