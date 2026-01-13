@@ -8,6 +8,10 @@
     border-radius: 25px;
     background: var(--grey-bg-light);
 
+    .white {
+        background: var(--white);
+    }
+
     .post-image {
         display: block;
         border-radius: 25px 25px 0 0;
@@ -15,6 +19,10 @@
         background-size: cover;
         background-position: center;
     }
+}
+
+.white-card .card {
+    background: var(--white);
 }
 
 .blog {
