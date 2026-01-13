@@ -8,7 +8,7 @@
 <article class="content narrow">
   <header class="mb-4">
     {{ if .CurrentSection.Permalink }}
-    <aside class="instapaper_ignoref b helvetica tracked">
+    <aside class="">
       {{/*
       CurrentSection allows us to use the section title instead of inferring from the folder.
       https://gohugo.io/variables/page/#section-variables-and-methods
@@ -68,7 +68,7 @@
     {{ end }}
 
   </header>
-  <div class="">
+  <div id="blog-content">
     {{- .Content -}}
     {{- partial "tags.html" . -}}
     <div class="mt6 instapaper_ignoref">

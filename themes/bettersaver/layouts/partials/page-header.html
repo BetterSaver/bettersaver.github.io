@@ -43,7 +43,24 @@
   </div>
 </header>
 {{ else }}
-<header class="relative">
+<header class="relative" x-data="{
+  init() {
+    // resize grey bg to be near the bottom of the image, where ever that might land
+    const bg = document.querySelector('.bg-grey-fullpage-screen');
+    const blogContent = document.querySelector('#blog-content');
+    const top = this.getElementPosition(blogContent).top-100;
+    bg.style.height = top + 'px';
+  },
+  getElementPosition(element) {
+    const rect = element.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    return {
+        top: rect.top + scrollTop,
+        left: rect.left + scrollLeft
+    };
+  }
+}">
   {{ partial "site-navigation.html" . }}
 
   <div class="bg-grey-fullpage-screen pt-10"></div>
