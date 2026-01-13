@@ -11,13 +11,13 @@
     init() {
         this.container = document.getElementById('blog-recent-container');
         this.input = document.getElementById('blog-recent-scroller');
-        
+
         this.scrollMax = this.input.scrollWidth;
         const carouselItems = document.querySelectorAll('.carousel-item');
 
         this.scrollBy = this.container.clientWidth;
         if(window.screen.width < 768 && carouselItems.length) {
-            this.scrollBy = carouselItems[0].clientWidth+20
+            this.scrollBy = carouselItems[0].clientWidth
         }
 
         this.scrollProgressOffset = carouselItems.length > 0 ? carouselItems[0].clientWidth / carouselItems.length : 0;
