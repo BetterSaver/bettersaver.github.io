@@ -26,7 +26,7 @@ We may modify, amend, change or replace any of the terms, conditions or provisio
 
 Your continued use of our Online Services following notification of any changes to this Privacy Policy constitutes acceptance of those changes. If you do not agree with any aspect of the updated Privacy Policy, you must immediately cease all use of our Online Services.
 
-#### **1. WHAT INFORMATION DO WE COLLECT?**
+#### 1. WHAT INFORMATION DO WE COLLECT?
 
 (a) Information you provide
 
@@ -56,13 +56,13 @@ We may use "web beacons" (electronic images also known as pixel tags or clear gi
 
 We may also use Local Shared Objects, sometimes referred to as "Flash" cookies. Use of Local Shared Objects can help deter, detect and prevent fraud and can support our Online Services.
 
-#### **2. HOW IS YOUR PERSONAL INFORMATION USED?**
+#### 2. HOW IS YOUR PERSONAL INFORMATION USED?
 
 We may (and may authorise third parties to) use your Personal Information to facilitate the transfer of your KiwiSaver to a different provider, to help us develop, improve, manage, administer and facilitate our services and operations (including to provide the Online Services), to help us to develop our Online Services, to administer your account, for safety and security issues, for our own internal purposes (such as risk management, staff training, system development, and quality assurance), to conduct market research including the development and use of anonymised, aggregated data sets, for employment opportunities within and outside of our organisation, for any purpose permitted by law, and for any other use associated with such purposes or which you may authorise.
 
 In addition, we may use your Personal Information to promote and market our products and services, or the products and services of others. However, we will not do this by email or text (except as part of an email which facilitates, completes or confirms a transaction with you) unless we have your express or deemed consent to do so. These emails and texts will always include an "unsubscribe" facility (see section 6 for more information on email and text communication).
 
-#### **3. IN WHAT CIRCUMSTANCES MIGHT WE DISCLOSE YOUR PERSONAL INFORMATION?**
+#### 3. IN WHAT CIRCUMSTANCES MIGHT WE DISCLOSE YOUR PERSONAL INFORMATION?
 
 We do not sell, trade or rent your Personal Information to others.
 
@@ -74,7 +74,7 @@ In addition, we may provide statistics about our customers, traffic patterns and
 
 We will not otherwise disclose your Personal Information unless we believe on reasonable grounds that you have provided your authorisation. However, you should be aware that we may be required to disclose your Personal Information without your consent in order to comply with any court orders, subpoenas or other legal process or investigation including by tax or other regulatory authorities, if such disclosure is required by law. We may also disclose your Personal Information to the Financial Markets Authority as part of their oversight and regulation of our business. Where possible and appropriate, we will notify you if we are required by law to disclose your Personal Information.
 
-#### **4. STORAGE, SECURITY AND PRIVACY BREACHES**
+#### 4. STORAGE, SECURITY AND PRIVACY BREACHES
 
 We may store the Personal Information we collect from you on servers located in New Zealand or Australia. We will only keep your Personal Information for as long as we require it for the purpose for which it was collected. However, we may also be required to keep some of your Personal Information for specified periods of time, for example under certain laws relating to companies, money laundering, financial markets, and financial reporting legislation.
 
@@ -86,13 +86,13 @@ b) actions which prevent us from accessing your Personal Information on a tempor
 
 If your Personal Information is subject to a Privacy Breach which causes or is likely to cause serious harm, we will notify you and the Privacy Commissioner in accordance with our obligations under the Privacy Act 2020.
 
-#### **5. WHAT ABOUT LINKS TO OTHER WEBSITES?**
+#### 5. WHAT ABOUT LINKS TO OTHER WEBSITES?
 
 Our Online Services may contain links to other websites that are not under our control. These websites may use cookies. It is the responsibility of those third parties to collect appropriate consents from you in order to permit their own cookies (to the extent this is required by law) and to inform you about the cookies they use. You should check the Privacy Policy on all third party websites to ensure you are comfortable with third party cookies.
 
 We have no responsibility for linked websites, and provide them solely for your information and convenience. We specifically disclaim responsibility for their content, privacy practices and terms of use, and we make no endorsements, representations or warranties about their accuracy, content or thoroughness. Your disclosure of Personal Information to third party websites is at your own risk.
 
-#### **6. EMAIL AND TEXT COMMUNICATIONS**
+#### 6. EMAIL AND TEXT COMMUNICATIONS
 
 We are committed to complying with the Unsolicited Electronic Messages Act 2007.
 
@@ -102,7 +102,7 @@ You can unsubscribe from our email communications and/or text communications at 
 
 Once you have unsubscribed from the email or text communications, you will be removed from the corresponding marketing list as soon as is reasonably practicable.
 
-#### **7. HOW YOU CAN REQUEST ACCESS OR CORRECT YOUR PERSONAL INFORMATION OR REQUEST DELETION**
+#### 7. HOW YOU CAN REQUEST ACCESS OR CORRECT YOUR PERSONAL INFORMATION OR REQUEST DELETION
 
 In some cases, you may have the right to ask us to delete your personal information. You can make a request for it to be deleted by contacting us at [hello@bettersaver.co.nz](hello@bettersaver.co.nz). We may not be able to delete everything, but we will let you know if there is any information we can't delete and why. For instance, we may need to keep some information about our financial recording obligations.
 
