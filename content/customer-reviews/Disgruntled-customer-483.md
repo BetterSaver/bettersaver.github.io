@@ -2,6 +2,6 @@
 name: Disgruntled customer 483
 stars: '1'
 review: |
-  boo.
+  Didn't make me more money than my last provider
 ---
 
