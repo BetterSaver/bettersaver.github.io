@@ -1,6 +1,6 @@
 name: Deploy Staging Site  
  
-# Trigger on pushes to the staging branch  
+# Trigger on pushes to the staging branch
 on:  
   push:  
     branches: [ "staging" ]  
