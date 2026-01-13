@@ -1,10 +1,10 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy Hugo staging site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the staging branch
   push:
-    branches: ["main"]
+    branches: ["staging"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -51,7 +51,7 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
+          HUGO_ENVIRONMENT: staging
         run: |
           hugo \
             --minify \
@@ -71,7 +71,6 @@ jobs:
           destination_dir: .                        # Deploy to root of gh-pages  
           force_orphan: true                        # Keep gh-pages clean (only built files)
 
-
   # Deployment job
   # deploy:
   #   environment:
@@ -82,4 +81,4 @@ jobs:
   #   steps:
   #     - name: Deploy to GitHub Pages
   #       id: deployment
-  #       uses: actions/deploy-pages@v4
+  #       uses: actions/deploy-pages@v4  
