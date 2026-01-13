@@ -1,0 +1,6 @@
+{{ if .Site.Params.favicon_32 }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ relURL ($.Site.Params.favicon_32) }}">
+{{ end }}
+{{ if .Site.Params.favicon_16 }}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ relURL ($.Site.Params.favicon_16) }}">
+{{ end }}

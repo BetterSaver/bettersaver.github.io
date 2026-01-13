@@ -1,0 +1,132 @@
+.why-bettersaver {
+    max-width: var(--content-width-wide);
+    padding-inline: var(--size-2);
+    margin: 0 auto;
+
+    article {
+        max-width: 716px;
+        margin: 0 auto;
+    }
+}
+
+.how-it-works {
+    max-width: var(--content-width-wide);
+    margin: 0 auto;
+    padding-inline: var(--size-2);
+
+    ol {
+        list-style: none;
+        counter-reset: num;
+        padding: 0;
+        margin: 0;
+
+        li {
+            color: var(--grey-mid);
+            position: relative;
+            padding-left: 80px;
+            padding-block: 33px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+
+            .progress-step {
+                width: 100%;
+                height: 1px;
+                background-color: var(--grey-mid);
+                transition: width 0.1s ease;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            &.active {
+                color: var(--blue-navy);
+
+                &::before {
+                    content: counter(num) " ";
+                    font-size: 64px;
+                    color: var(--purple);
+                }
+            }
+
+            &::before {
+                counter-increment: num;
+                content: counter(num) " ";
+                font-size: 64px;
+                position: absolute;
+                left: 0;
+                top: 24px;
+                transition: color 0.3s ease;
+            }
+        }
+    }
+
+    .img-container {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        min-height: 668px;
+
+        /* Tablet down */
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        &.one {
+            background-image: url('/images/homepage-how-it-works-1.png');
+        }
+
+        &.two {
+            background-image: url('/images/homepage-how-it-works-2.png');
+        }
+
+        &.three {
+            background-image: url('/images/homepage-how-it-works-3.png');
+        }
+    }
+
+    .mobile-img-container {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        min-height: 335px;
+
+        /* Tablet up */
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        &.one {
+            display: none;
+            background-image: url('/images/homepage-how-it-works-1.png');
+        }
+
+        &.two {
+            display: none;
+            background-image: url('/images/homepage-how-it-works-2.png');
+        }
+
+        &.three {
+            display: none;
+            background-image: url('/images/homepage-how-it-works-3.png');
+        }
+    }
+
+    /* Tablet up */
+    @media screen and (max-width: 768px) {
+        .active .mobile-img-container {
+            &.one {
+                display: block
+            }
+
+            &.two {
+                display: block
+            }
+
+            &.three {
+                display: block
+            }
+        }
+    }
+}

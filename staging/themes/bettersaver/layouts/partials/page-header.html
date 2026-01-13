@@ -1,0 +1,52 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+{{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+<header x-data="{
+  init() {
+    window.addEventListener('scroll', function() {
+      if(window.scrollY > 0) {
+        document.getElementById('site-nav-bar').classList.add('scrolled');
+      } else {
+        document.getElementById('site-nav-bar').classList.remove('scrolled');
+      }
+    });
+  }
+}">
+  {{ partial "site-navigation.html" .}}
+  <div class="grid grid-cols-2 min-vh-100">
+    <div class="{{ .Site.Params.cover_dimming_class | default " bg-grey-bg-light" }} flex-l items-center ph4">
+      <div class="text-blue-navy">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title text-blue-navy">
+          {{ .Title | default .Site.Title }}
+        </h1>
+        {{ with .Params.description }}
+        <p class="fw1 f5 f3-l white-80 measure-wide-l mt3 text-blue-navy mb-4">
+          {{ . }}
+        </p>
+        {{ end }}
+
+        {{ if .Params.cta_text }}
+        <a href="{{ .Params.cta_link }}" class="button mb-4">
+          {{ .Params.cta_text }}
+        </a>
+        {{ end }}
+      </div>
+
+      {{ if .Params.icon_path }}
+      <div class="icon" style="background-image: url('{{ .Params.icon_path }}');">
+      </div>
+      {{ end }}
+
+    </div>
+    <div class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
+    </div>
+  </div>
+</header>
+{{ else }}
+<header class="relative">
+  {{ partial "site-navigation.html" . }}
+
+  <div class="bg-grey-fullpage-screen pt-10"></div>
+</header>
+<div class="pt-10"></div>
+{{ end }}

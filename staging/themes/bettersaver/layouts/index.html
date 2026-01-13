@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ partial "fund-finder.html" .}}
+
+{{ if .Params.page_block }}
+{{ partial .Params.page_block .}}
+{{ end }}
+
+{{ partial "block-customer-reviews.html" .}}
+
+{{ partial "block-faq.html" .}}
+
+{{ partial "block-blog-recent.html" .}}
+
+{{end}}

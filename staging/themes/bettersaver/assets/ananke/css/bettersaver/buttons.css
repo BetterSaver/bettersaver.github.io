@@ -1,0 +1,94 @@
+btn,
+button,
+a.button {
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--blue-navy);
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    border: 0px none;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:hover {
+        color: var(--white);
+        background-color: var(--blue-happy);
+    }
+
+    &.white {
+        color: var(--blue-navy);
+        background-color: var(--white);
+
+        &:hover {
+            background-color: var(--grey-bg-mid);
+        }
+    }
+
+    &.purple {
+        color: var(--white);
+        background-color: var(--purple);
+
+        &:hover {
+            background-color: var(--purple-contrast);
+            color: var(--white);
+        }
+    }
+
+    &.outline {
+        color: var(--blue-navy);
+        background-color: transparent;
+        border: 1px solid var(--blue-navy);
+        outline: 0 none;
+
+        &:hover {
+            color: var(--white);
+            background-color: var(--blue-navy);
+            border: 1px solid var(--blue-navy);
+        }
+
+        &.selected {
+            color: var(--white);
+            background-color: var(--blue-navy);
+            border: 1px solid var(--blue-navy) !important;
+        }
+
+        &.grey {
+            border: 1px solid var(--grey-bg-dark);
+
+            &:hover {
+                color: var(--white);
+                background-color: var(--blue-navy);
+                border: 1px solid var(--blue-navy);
+            }
+        }
+
+        &.arrow {
+            padding: 9px;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--size-1);
+
+            /* center svg */
+            svg {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &.small {
+        padding: 5px 11px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    &.mobile-center {
+        @media screen and (max-width: 768px) {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
+    }
+}

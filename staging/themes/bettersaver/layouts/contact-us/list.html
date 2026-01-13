@@ -1,0 +1,18 @@
+{{ define "header" }}
+{{/* We can override any block in the baseof file be defining it in the template */}}
+{{ partial "site-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<article class="content narrow">
+
+  <div class="py-8">
+    <div>
+      {{- .Content -}}
+    </div>
+
+    {{ partial "form-contact.html" . }}
+  </div>
+</article>
+{{ end }}

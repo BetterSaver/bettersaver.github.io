@@ -1,0 +1,87 @@
+{{ define "header" }}
+{{/* We can override any block in the baseof file be defining it in the template */}}
+{{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ $section := .Site.GetPage "section" .Section }}
+<article class="content narrow">
+  <header class="mb-4">
+    {{ if .CurrentSection.Permalink }}
+    <aside class="instapaper_ignoref b helvetica tracked">
+      {{/*
+      CurrentSection allows us to use the section title instead of inferring from the folder.
+      https://gohugo.io/variables/page/#section-variables-and-methods
+      */}}
+      <a href="{{ .CurrentSection.Permalink }}" class="button arrow small outline"> <svg width="24" height="24"
+          viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8.96969 5.96979C9.26258 5.6769 9.73734 5.6769 10.0302 5.96979C10.3231 6.26268 10.3231 6.73744 10.0302 7.03034L5.81051 11.2501H21C21.4142 11.2501 21.75 11.5858 21.75 12.0001C21.7499 12.4142 21.4142 12.7501 21 12.7501H5.81051L10.0302 16.9698C10.3231 17.2627 10.3231 17.7374 10.0302 18.0303C9.73733 18.3232 9.26256 18.3232 8.96969 18.0303L3.46969 12.5303C3.19511 12.2558 3.17768 11.821 3.41793 11.5264L3.46969 11.4698L8.96969 5.96979Z"
+            fill="currentColor" />
+        </svg><span>{{with .CurrentSection.Title}}{{.}}{{end}}</span></a>
+    </aside>
+    {{ end }}
+    {{ partial "social-share.html" . }}
+    <h1 class="f1 mt3 mb1">
+      {{- .Title -}}
+    </h1>
+
+    {{/*
+    Show "reading time" and "word count" but only if one of the following are true:
+    1) A global config `params` value is set `show_reading_time = true`
+    2) A section front matter value is set `show_reading_time = true`
+    3) A page front matter value is set `show_reading_time = true`
+    */}}
+    {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
+    <span class="f6 mv4 dib tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
+    <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
+    {{ end }}
+
+    {{ if .Params.description }}
+    <p class="f6 mv4 dib tracked">{{ .Params.description }}</p>
+    {{ end }}
+
+    <div class="pb-4">
+      {{ with .Params.author | default .Site.Params.author }}
+      <p class="tracked mb-0">
+        {{ $.Render "" }} <strong>
+          {{- if reflect.IsSlice . -}}
+          {{ delimit . ", " | markdownify }}
+          {{- else -}}
+          {{ . | markdownify }}
+          {{- end -}}
+        </strong>
+      </p>
+      {{ end }}
+
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      {{ if not .Date.IsZero }}
+      <time {{ printf `datetime="%s" ` (.Date.Format "2006-01-02T15:04:05Z07:00" ) | safeHTMLAttr }}>
+        {{- .Date | time.Format (default "2 January, 2006" .Site.Params.date_format) -}}
+      </time>
+      {{end}}
+
+    </div>
+
+    {{ if .Params.img_src }}
+    <img src="{{ .Params.img_src }}" alt="{{ .Params.imgAlt }}" class="rounded">
+    {{ end }}
+
+  </header>
+  <div class="">
+    {{- .Content -}}
+    {{- partial "tags.html" . -}}
+    <div class="mt6 instapaper_ignoref">
+      {{ if .Site.Config.Services.Disqus.Shortname }}
+      {{ template "_internal/disqus.html" . }}
+      {{ end }}
+      {{ if .Site.Params.commentoEnable }}
+      {{- partial "commento.html" . -}}
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+{{- partial "menu-contextual.html" . -}}
+
+{{ end }}

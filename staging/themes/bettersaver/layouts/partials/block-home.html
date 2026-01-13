@@ -1,0 +1,123 @@
+<!-- Why better saver -->
+<div class="why-bettersaver text-blue-navy">
+    <article class="py-8 text-center">
+        {{ .Content }}
+    </article>
+
+    <div class="grid grid-cols-3 gap-2 mb-8">
+        <div class="text-center">
+            <img src="/images/icon-money-magnifiging-glass.svg" alt="Smarter KiwiSaver advicein minutes" class="mb-2">
+            <h5>Smarter KiwiSaver advicein minutes</h5>
+            <p>We get to know you first - then match you with a fund that fits your life and goals.</p>
+        </div>
+
+        <div class="text-center">
+            <img src="/images/icon-money-binoculars.svg"
+                alt="See if you're in the right fund - or could be doing better" class="mb-2">
+            <h5>See if you're in the right fund - or could be doing better</h5>
+            <p>Use our quick check to find out if your current fund is one of the better ones.</p>
+        </div>
+
+        <div class="text-center">
+            <img src="/images/icon-chart-up.svg" alt="Track your progress toward first home or retirement goals"
+                class="mb-2">
+            <h5>Track your progress toward first home or retirement goals</h5>
+            <p>Stay on top of how your KiwiSaver's tracking - and what you can do to grow it faster.</p>
+        </div>
+
+        <!-- <div class="text-center">
+            <img src="/images/icon-trophy-a.svg" alt="Earn rewards for making better money decisions" class="mb-2">
+            <h5>Earn rewards for making better money decisions</h5>
+            <p>Get Airpoints Dollars<sup>&trade;</sup> just for getting your KiwiSaver sorted - smart moves should pay
+                off.
+            </p>
+        </div> -->
+    </div>
+</div>
+
+<!-- How it works -->
+<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-4" x-data="{
+    step: 1,
+    timer: null,
+    timerTime: 5000,
+    progressInterval: null,
+
+    init() {
+        // timer to cycle through steps
+        this.startTimer();
+        this.progressBar();
+    },
+    startTimer() {
+        // clear existing timer and restart
+        clearInterval(this.timer);
+        this.timer = setInterval(() => {
+            this.step = (this.step % 3) + 1;
+            this.progressBar();
+        }, this.timerTime);
+    },
+    resetTimer() {
+        // delay
+        //setTimeout(() => {
+        this.progressBar();
+        this.startTimer();
+        //}, 5000);
+    },
+    setStep(step) {
+        clearInterval(this.timer);
+        this.step=step;
+        this.resetTimer();
+    },
+    progressBar() {
+        // reset all progress bars
+        clearInterval(this.progressInterval);
+        document.querySelectorAll('.progress-step').forEach(progress=> {
+            progress.style.width = '100%';
+        });
+
+        const progress = document.getElementById(`step-${this.step}-progress`);
+        progress.style.width = '0%';
+
+        // let it progress over the duration of the slider
+        let progressWidth = 0;
+        this.progressInterval = setInterval(() => {
+            progressWidth += 1;
+            progress.style.width = progressWidth + '%';
+            if (progressWidth >= 100) {
+                clearInterval(this.progressInterval);
+            }
+        }, this.timerTime / 100);
+    }
+}">
+    <div class="" x-intersect="startTimer(); progressBar()">
+        <h2>How it works</h2>
+        <p class="mb-4">KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as
+            you
+            go.</p>
+
+        <ol>
+            <li @click="setStep(1)" x-bind:class="step === 1 ? 'active' : ''">
+                <div class="progress-step" id="step-1-progress"></div>
+                <h5>Tell us your KiwiSaver preferences</h5>
+                <p>Your goals, your risk level, your ethics</p>
+
+                <div class="mobile-img-container one"></div>
+            </li>
+            <li @click="setStep(2)" x-bind:class="step === 2 ? 'active' : ''">
+                <div class="progress-step" id="step-2-progress"></div>
+                <h5>Get matched to a better fund</h5>
+                <p>We recommend the right fund, and handle the switch for you</p>
+                <div class="mobile-img-container two"></div>
+            </li>
+            <li @click="setStep(3)" x-bind:class="step === 3 ? 'active' : ''">
+                <div class="progress-step" id="step-3-progress"></div>
+                <h5>Track and improve your progress</h5>
+                <p>See how you're tracking toward your goals, and get rewarded along the way</p>
+                <div class="mobile-img-container three"></div>
+            </li>
+        </ol>
+
+        <a href="#" class="button mobile-center">Get Started</a>
+    </div>
+
+    <div class="img-container" x-bind:class="step === 1 ? 'one' : step === 2 ? 'two' : 'three'"></div>
+</div>

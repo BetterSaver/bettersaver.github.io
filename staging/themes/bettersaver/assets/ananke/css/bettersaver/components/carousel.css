@@ -1,0 +1,37 @@
+.carousel {
+    display: flex;
+    gap: var(--size-2);
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    padding: var(--size-2);
+
+    .carousel-item {
+        display: block;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        min-width: 280px;
+
+        /* Tablet */
+        @media screen and (max-width: 1025px) {
+            min-width: 30%;
+            scroll-snap-align: center;
+        }
+
+        /* mobile */
+        @media screen and (max-width: 767px) {
+            min-width: 90%;
+            scroll-snap-align: center;
+        }
+
+        .card {
+            background: var(--white);
+            min-height: 334px;
+            transition: all 0.2s;
+
+            &:hover {
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                margin-top: -8px;
+            }
+        }
+    }
+}

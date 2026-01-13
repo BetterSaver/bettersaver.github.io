@@ -1,0 +1,184 @@
+<div class="text-blob title-font">
+    We make it easy to find a better fund, switch in minutes, and stay on track for the future you want.
+    <span class="text-purple-contrast">Here's how it works:</span>
+</div>
+
+<div class="block-how-it-works content" x-data="{
+    init() {
+        const snaps = document.getElementById('snaps');
+
+        // update numbers with scroll content
+        const snOne = document.getElementById('sn-one');
+        const snTwo = document.getElementById('sn-two');
+        const snThree = document.getElementById('sn-three');
+    },
+    updateScrollTo(step) {
+        const snOneNumber = document.getElementById('sn-one-number');
+        const snTwoNumber = document.getElementById('sn-two-number');
+        const snThreeNumber = document.getElementById('sn-three-number');
+
+        if(step == 1) {
+            snOneNumber.classList.add('active');
+            snTwoNumber.classList.remove('active');
+            snThreeNumber.classList.remove('active');
+        } else if(step == 2) {
+            snOneNumber.classList.remove('active');
+            snTwoNumber.classList.add('active');
+            snThreeNumber.classList.remove('active');
+        } else if(step == 3) {
+            snOneNumber.classList.remove('active');
+            snTwoNumber.classList.remove('active');
+            snThreeNumber.classList.add('active');
+        }
+
+        this.updateImg(step);
+    },
+    scrollTo(step) {
+        const snOne = document.getElementById('sn-one');
+        const snTwo = document.getElementById('sn-two');
+        const snThree = document.getElementById('sn-three');
+
+        if(step == 1) {
+            snOne.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        } else if(step == 2) {
+            snTwo.scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        } else if(step == 3) {
+            snThree.scrollIntoView({ 
+                behavior: 'smooth'
+            });
+        }
+
+        this.updateImg(step);
+    },
+    updateImg(step) {
+        const img1 = document.getElementById('img-1');
+        const img2 = document.getElementById('img-2');
+        const img3 = document.getElementById('img-3');
+
+        // reset
+        img1.classList.remove('active');
+        img2.classList.remove('active');
+        img3.classList.remove('active');
+
+        // active
+        if(step == 1){
+            img1.classList.add('active');
+        } else if(step == 2){
+            img2.classList.add('active');
+        } else if(step == 3){
+            img3.classList.add('active');
+        }
+    }
+}">
+    <div class="tablet-hidden">
+        <div class="sticky-img-container">
+            <div id="img-1" class="img sn-one-img"></div>
+            <div id="img-2" class="img sn-two-img"></div>
+            <div id="img-3" class="img sn-three-img"></div>
+        </div>
+    </div>
+    <div class="snaps" id="snaps">
+        <div id="sn-one" x-intersect.threshold.50="updateScrollTo(1)">
+            <div class="img sn-one-img tablet-show"></div>
+            <div class="mb-4">
+                <h3>Tell us a little about you</h3>
+                <p>The right KiwiSaver fund depends on your life — not just your age. We start by understanding your
+                    goals,
+                    comfort with
+                    risk, and what matters to you ethically.</p>
+
+                <div class="border-t border-b pt-2 mb-2">
+                    <h5>What we ask</h5>
+
+                    <ul>
+                        <li>Are you saving for your first home or for retirement?</li>
+                        <li>How do you feel about investment ups and downs?</li>
+                        <li>Do you want to avoid things like weapons, gambling, or fossil fuels?</li>
+                    </ul>
+
+                </div>
+
+                <p>It only takes a couple of minutes — and it's the foundation for better advice.</p>
+            </div>
+        </div>
+
+        <div id="sn-two" x-intersect.threshold.70="updateScrollTo(2)">
+            <div class="img sn-two-img tablet-show"></div>
+            <div class="mb-4">
+                <h3>We find you a better fund - and handle the switch</h3>
+                <p>Most people are in a fund that's just not right for them. We analyse the entire market to find one
+                    that suits you
+                    better.</p>
+
+                <div class="border-t border-b pt-2 mb-2">
+                    <h5>How we do it</h5>
+
+                    <ul>
+                        <li>We analyse over 300 KiwiSaver funds</li>
+                        <li>We look at performance, risk, fees, and where your money is invested</li>
+                        <li>We use independent data from Morningstar</li>
+                        <li>Every fund is rated from A+ to F, and we only recommend the best fit</li>
+                    </ul>
+
+                    <h5>If you're ready to switch</h5>
+
+                    <ul>
+                        <li>You give us the details we need (IRD number, ID, etc.)</li>
+                        <li>We handle the switch — fast, secure, and hassle-free</li>
+                        <li>You'll get updates along the way so you're never left wondering</li>
+                    </ul>
+
+                </div>
+                <p>It's simple, stress-free, and could make a real difference to your future.</p>
+            </div>
+        </div>
+
+        <div id="sn-three" x-intersect.threshold.100="updateScrollTo(3)">
+            <div class="img sn-three-img tablet-show"></div>
+            <div class="mb-4">
+                <h3>Keep your KiwiSaver working harder</h3>
+                <p>Switching is just the start. We help you stay on track - and reward you for it. </p>
+
+                <div class="border-t border-b pt-2 mb-2">
+                    <h5>What you get</h5>
+
+                    <ul>
+                        <li>A dashboard that shows how your KiwiSaver is tracking</li>
+                        <li>Tools to help you stay on course toward your goal - first home or retirement</li>
+                        <li>Helpful nudges to keep you moving forward</li>
+                        <!-- <li>Airpoints<sub>&trade;</sub> for smart financial actions - like quizzes, annual reviews, or
+                            referrals</li> -->
+                    </ul>
+
+                </div>
+
+                <p>Your life will change. Your KiwiSaver should keep up.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="mobile-hidden">
+        <div id="sticky-numbering">
+            <div id="sn-one-number" class="active" @click="scrollTo(1)">1</div>
+            <div id="sn-two-number" @click="scrollTo(2)">2</div>
+            <div id="sn-three-number" @click="scrollTo(3)">3</div>
+        </div>
+    </div>
+</div>
+
+<div class="faces text-center">
+    <img src="/images/faces.png" alt="faces" />
+
+    <div>
+        <h4>Ready to get started?</h4>
+        <p>Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get
+            advice
+            and
+            find a better fund.</p>
+        <a href="" class="button white">Get started now</a>
+    </div>
+</div>
