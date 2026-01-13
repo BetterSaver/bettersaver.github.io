@@ -40,7 +40,17 @@ pnpm build
 
 ## Deploying the Site
 
-This project can easily be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/). 
+#### Prod: 
+Branch: Main
+Hosted: Github pages
+
+Deploy is done through Github actions found in ./github/workflows/deploy.yml 
+
+#### Staging: 
+Branch: Staging
+Hosted: Cloudflare pages
+
+Deploy is done through a Cloudflare worker + wrangler. You can find the config file in /wrangler.jsonc & cfbuild.sh.
 
 ### Build settings
 
