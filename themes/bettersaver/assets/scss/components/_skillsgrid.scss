@@ -1,0 +1,16 @@
+ul.skills-grid {
+    display: grid;
+    gap: var(--spacing-1);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 0;
+    
+    li {
+        background: $blue-darker;
+        color: $white;
+        padding: var(--spacing-1);
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        list-style: none;
+    }
+}
