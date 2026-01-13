@@ -12,7 +12,7 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       '@tinacms/cli':
-        specifier: ^2.0.5
+        specifier: ^2.1.0
         version: 2.1.0(@codemirror/language@6.0.0)(@types/react@18.3.7)(abstract-level@1.0.4)(immer@10.1.1)(react-dnd-html5-backend@16.0.1)(react-dnd@16.0.1(@types/hoist-non-react-statics@3.3.5)(@types/react@18.3.7)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(rollup@3.29.4)(scheduler@0.27.0)(slate-dom@0.114.0(slate@0.114.0))(slate@0.114.0)(sucrase@3.35.0)(use-sync-external-store@1.5.0(react@19.2.0))
       react:
         specifier: ^19.2.0
@@ -5696,7 +5696,7 @@ snapshots:
       '@headlessui/react': 1.7.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-dialog': 1.1.14(@types/react@18.3.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-dropdown-menu': 2.1.6(@types/react@18.3.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@radix-ui/react-tooltip': 1.2.7(@types/react@18.3.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-tooltip': 1.2.8(@types/react@18.3.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-visually-hidden': 1.2.3(@types/react@18.3.7)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@types/codemirror': 5.60.15
       clsx: 1.2.1
