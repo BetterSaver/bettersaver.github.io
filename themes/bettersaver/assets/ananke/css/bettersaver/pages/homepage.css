@@ -66,6 +66,7 @@
         background-repeat: no-repeat;
         border-radius: 25px;
         min-height: 668px;
+        transition: background-image 0.2s ease-in-out;
 
         /* Tablet down */
         @media screen and (max-width: 768px) {
