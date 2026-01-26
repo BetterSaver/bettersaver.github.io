@@ -4,13 +4,13 @@ date: 2025-11-19T00:00:00.000Z
 draft: false
 ---
 
-## **Important Information About the BetterSaver Service**
+## Important Information About the BetterSaver Service
 
-**Licence information**
+#### Licence information
 
 BetterSaver Limited (FSP600609) (**BetterSaver**) holds a licence issued by the Financial Markets Authority to provide a financial advice service.
 
-**Nature and scope of financial advice service**
+#### Nature and scope of financial advice service
 
 BetterSaver provides you with financial advice in relation to KiwiSaver. We only provide advice on KiwiSaver schemes that we have advice arrangements for. We have arrangements with providers of the following KiwiSaver schemes:
 
@@ -26,7 +26,7 @@ This list may change from time to time. It is possible that a KiwiSaver scheme t
 
 We do not give advice on other investment or financial products from any other provider.
 
-**Fees**
+#### Fees
 
 BetterSaver does not charge you a fee to use the service, except where you choose to invest in the Milford KiwiSaver Plan.
 
@@ -42,7 +42,7 @@ You will not be charged for advice from a BetterSaver financial adviser. However
 
 You will also pay management and other fees and expenses out of your KiwiSaver investment. These are explained in the Product Disclosure Statement for your recommended KiwiSaver scheme.
 
-**Incentives**
+#### Incentives
 
 BetterSaver receives advice fees from the providers whose KiwiSaver schemes we advise on. If you decide to switch your KiwiSaver investment to one of these providers using BetterSaver then we will receive an advice fee from that provider for providing you with advice. The advice fee is currently 0.25% per annum of your KiwiSaver balance, for all providers. We receive the advice fee for as long as you remain a member of the relevant provider's KiwiSaver scheme and a BetterSaver client.
 
@@ -50,7 +50,7 @@ BetterSaver may also be reimbursed for costs associated with carrying out 'Know 
 
 To manage the conflicts of interest these incentives might pose, the BetterSaver software does not take into account the advice fees or other incentives we receive (other than the extra advice fee payable by Milford KiwiSaver Plan members) when making a recommendation. In addition, the advice provided by BetterSaver (including from a BetterSaver financial adviser) is subject to a quality assurance process that is designed to ensure the advice you receive is suitable.
 
-**Complaints**
+#### Complaints
 
 BetterSaver takes all complaints seriously. If you have a complaint about BetterSaver or the financial advice you receive you can make a complaint by contacting BetterSaver at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
 
@@ -68,7 +68,7 @@ Wellington 6143
 [info@ifso.nz  
 ](mailto:info@ifso.nz)ifso.nz
 
-**Duties**
+#### Duties
 
 We, and anyone who gives financial advice on our behalf, have legal duties relating to the way that we give advice.
 
@@ -81,13 +81,13 @@ We must:
 
 This is only a summary of the duties that we have. More information is available by contacting us, or by visiting the Financial Markets Authority website at [www.fma.govt.nz](http://www.fma.govt.nz).
 
-**Record keeping and personal information**
+#### Record keeping and personal information
 
 We will keep records about the advice we provide you through the BetterSaver service for at least seven years. These records will include personal information about you. Records relating to you will be made available to you as soon as practicable after you request them. Requests can be made by contacting BetterSaver at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
 
 The personal information we collect as part of the BetterSaver service is used in accordance with our privacy policy which is available on our [website](https://bettersaver.co.nz/terms-and-conditions/) along with our terms and conditions.
 
-**Contact us**
+#### Contact us
 
 You can contact us at:
 
@@ -98,7 +98,7 @@ Auckland, 1025
 
 Email: [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz)
 
-**Disclaimer**
+#### Disclaimer
 
 ![](/uploads/screen-shot-2021-03-05-at-5-15-56-pm.png)
 
