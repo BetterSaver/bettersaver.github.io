@@ -208,6 +208,7 @@ textarea {
     width: 100%;
     border: 1px solid var(--grey-mid);
     border-radius: 6px;
+    box-sizing: border-box;
 }
 
 select {

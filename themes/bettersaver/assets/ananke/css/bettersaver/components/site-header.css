@@ -478,6 +478,7 @@ nav.phone-menu {
 }
 
 a.need-help {
+    position: absolute;
     bottom: 40px;
     right: 40px;
     background: var(--utility-blue-light);
