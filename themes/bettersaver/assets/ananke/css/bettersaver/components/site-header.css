@@ -155,12 +155,24 @@
 
     #menu-desktop {
         display: flex;
+        align-items: center;
 
         ul {
             margin: 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+            font-size: 19px;
+            font-weight: bold;
 
-            li:last-child {
-                padding-right: 0 !important;
+
+            li {
+                padding-right: var(--size-2);
+                
+                &:last-child {
+                    padding-right: 0 !important;
+                }
             }
         }
     }

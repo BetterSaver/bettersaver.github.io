@@ -138,6 +138,10 @@ place-center {
     align-items: center;
 }
 
+.items-end {
+    align-items: end;
+}
+
 .items-baseline {
     align-items: baseline;
 }
@@ -158,6 +162,10 @@ place-center {
     align-self: center;
 }
 
+.flex {
+    display: flex;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
@@ -176,6 +184,10 @@ place-center {
 
 .h-full {
     height: 100%;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
 }
 
 .overflow {
@@ -220,4 +232,9 @@ place-center {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.cover {
+    background-size: cover;
+    background-position: top;
 }
