@@ -221,6 +221,10 @@ select {
     margin: 0 auto;
     padding: var(--size-2);
 
+    img {
+        width: 100%;
+    }
+
     &.narrow {
         max-width: var(--content-width-narrow);
     }
