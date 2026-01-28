@@ -65,6 +65,8 @@
     }
 
     @media screen and (max-width: 768px) {
+        padding: var(--size-2) 0 var(--size-2) var(--size-2);
+        
         .open #logo {
             color: var(--white);
         }
@@ -472,7 +474,7 @@ nav.phone-menu {
 
         img.icon {
             position: absolute;
-            bottom: 40px;
+            bottom: 115px;
             right: 40px;
         }
     }
