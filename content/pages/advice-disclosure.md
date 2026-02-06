@@ -1,105 +1,129 @@
 ---
+draft: false
 title: Advice disclosure
 date: 2025-11-19T00:00:00.000Z
-draft: false
 ---
 
-## Important Information About the BetterSaver Service
+BetterSaver Financial Advice Disclosure Statement
 
-#### Licence information
+Helping Kiwis make better KiwiSaver decisions — clearly, fairly, and with your best interests at heart.
 
-BetterSaver Limited (FSP600609) (**BetterSaver**) holds a licence issued by the Financial Markets Authority to provide a financial advice service.
+This Disclosure Statement is provided by BetterSaver Limited in accordance with the Financial Markets Conduct Act 2013. It explains how we work, how we’re paid, and your rights when receiving financial advice from us.
 
-#### Nature and scope of financial advice service
+Who we are
 
-BetterSaver provides you with financial advice in relation to KiwiSaver. We only provide advice on KiwiSaver schemes that we have advice arrangements for. We have arrangements with providers of the following KiwiSaver schemes:
+BetterSaver Limited (FSP 600609) is a licensed Financial Advice Provider. We help Kiwis make smarter KiwiSaver choices 
 
-* Aon KiwiSaver Scheme
-* Booster KiwiSaver Scheme
-* Pathfinder KiwiSaver Plan
-* Fisher Funds KiwiSaver Scheme
-* Fisher Funds TWO KiwiSaver Scheme
-* Generate KiwiSaver Scheme
-* Milford KiwiSaver Plan.
+The advice we give
 
-This list may change from time to time. It is possible that a KiwiSaver scheme that we do not advise on would also suit your needs, or might better suit your needs. We list all funds that meet our criteria on our website.
+We only give financial advice about KiwiSaver. This includes:
 
-We do not give advice on other investment or financial products from any other provider.
+•	Recommending KiwiSaver funds that match your goals, values, and risk profile
 
-#### Fees
+•	Explaining your options and helping you make informed decisions
 
-BetterSaver does not charge you a fee to use the service, except where you choose to invest in the Milford KiwiSaver Plan.
+•	Handling the switch to your new provider if you choose to move.
 
-If you invest in the Milford KiwiSaver Plan, you will be charged an advice fee from BetterSaver of 0.25% per annum. This fee will be deducted from your KiwiSaver balance at the end of each month. BetterSaver has negotiated for all members in Milford’s KiwiSaver Plan (receiving advice and service from BetterSaver) to receive a rebate of 0.20%* per annum. Milford pays this rebate to your KiwiSaver account at the end of each month. This means the effective cost of using BetterSaver with Milford’s KiwiSaver Plan is 0.05% per annum The reason we do this is because BetterSaver wants to keep the revenue received equal amongst all our providers and all other providers pay an advice fee directly to BetterSaver of 0.25% per annum.
+We do not provide advice about other investments, insurance, or lending products. Our advice may be personalised (specific to you) or class advice (general KiwiSaver guidance that does not take your circumstances into account).
 
-You will not be charged for advice from a BetterSaver financial adviser other than when you choose to invest in the Milford KiwiSaver Plan.
+How we work
 
-You will also pay management and other fees and expenses out of your KiwiSaver investment. These are explained in the Product Disclosure Statement for your recommended KiwiSaver scheme.
+BetterSaver reviews all KiwiSaver providers and all KiwiSaver funds in the market. We analyse more than 300 funds using independent data and our own rating methodology, considering factors such as returns, risk, fees, sustainability, and volatility. 
 
-\*0.20% p.a. rebate is applied to all Milford KiwiSaver Funds other than Milford KiwiSaver Cash. BetterSaver clients receive a 0.05% rebate for investments in Milford KiwiSaver Cash.
+Based on this analysis, we maintain a recommended fund list. 
 
-You will not be charged for advice from a BetterSaver financial adviser. However, if you decide to seek advice from a third party financial adviser they may charge you a fee for their services.
+A fund may appear on our recommended list whether or not the provider pays us, provided it meets our fund analysis criteria. Our advice is based on fund quality and suitability for your goals and risk level, not on whether the provider pays us.
 
-You will also pay management and other fees and expenses out of your KiwiSaver investment. These are explained in the Product Disclosure Statement for your recommended KiwiSaver scheme.
+If a fund does not appear on our recommended list, it will be because either:
 
-#### Incentives
+•	the fund did not meet our analysis criteria and is not recommended, or
 
-BetterSaver receives advice fees from the providers whose KiwiSaver schemes we advise on. If you decide to switch your KiwiSaver investment to one of these providers using BetterSaver then we will receive an advice fee from that provider for providing you with advice. The advice fee is currently 0.25% per annum of your KiwiSaver balance, for all providers. We receive the advice fee for as long as you remain a member of the relevant provider's KiwiSaver scheme and a BetterSaver client.
+•	there is not enough reliable data available for us to assess and recommend the fund.
 
-BetterSaver may also be reimbursed for costs associated with carrying out 'Know your Customer' checks on behalf of KiwiSaver providers.
+Ongoing advice and implementation
 
-To manage the conflicts of interest these incentives might pose, the BetterSaver software does not take into account the advice fees or other incentives we receive (other than the extra advice fee payable by Milford KiwiSaver Plan members) when making a recommendation. In addition, the advice provided by BetterSaver (including from a BetterSaver financial adviser) is subject to a quality assurance process that is designed to ensure the advice you receive is suitable.
+If you choose a recommended fund from a provider we have a commercial agreement with, we are able to:
 
-#### Complaints
+•	complete the signup and transfer process for you through our platform
 
-BetterSaver takes all complaints seriously. If you have a complaint about BetterSaver or the financial advice you receive you can make a complaint by contacting BetterSaver at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
+•	provide ongoing advice and support, including contribution guidance and fund reviews
 
-When we receive a complaint we will confirm receipt, then consider how we can resolve it and let you know. We may need to contact you for more information about your complaint. We aim to resolve complaints within 10 working days of receiving them, but sometimes we need more time. If we need more time we will contact you to let you know.
+•	continue monitoring your fund and make recommendations over time.
 
-If a resolution to your complaint cannot be reached or you are unhappy with the outcome of your complaint you can contact BetterSaver's independent dispute resolution scheme, free of charge, who may help resolve your complaint:
+If you choose a recommended fund from a provider that does not pay us:
 
-Insurance and Financial Services Ombudsman  
-Level 2, Solnet House  
-70 The Terrace  
-PO Box 10-845  
-Wellington 6143
+•	we can still provide advice on whether the fund is suitable for you
 
-0800 888 202  
-[info@ifso.nz  
-](mailto:info@ifso.nz)ifso.nz
+•	we will explain how you can join that fund directly through the provider’s website
 
-#### Duties
+•	however, we are not able to provide ongoing advice, monitoring, or implementation services for that fund.
 
-We, and anyone who gives financial advice on our behalf, have legal duties relating to the way that we give advice.
+This difference reflects the scope of services we are funded to provide, not the quality of the fund itself.
 
-We must:
+How we get paid
 
-* give priority to our clients’ interests by taking all reasonable steps to make sure our advice isn’t materially influenced by our own interests;
-* exercise care, diligence, and skill in providing the advice;
-* meet standards of competence, knowledge and skill set by the Code of Professional Conduct for Financial Advice Services (these are designed to make sure that we have the expertise needed to provide you with advice); and
-* meet standards of ethical behaviour, conduct and client care set by the Code of Professional Conduct for Financial Advice Services (these are designed to make sure that we treat you as we should and give you suitable advice).
+If you choose a fund from a provider we have a commercial agreement with, that provider pays us a commission. This is usually an upfront payment when you join and an ongoing annual payment while you remain in that fund. These payments do not increase the fees you pay your KiwiSaver provider.
 
-This is only a summary of the duties that we have. More information is available by contacting us, or by visiting the Financial Markets Authority website at [www.fma.govt.nz](http://www.fma.govt.nz).
+If you choose a recommended fund from a provider that does not pay us, we will not receive any payment for that advice.
 
-#### Record keeping and personal information
+A list of the providers we work with and the remuneration they pay us is available on request.
 
-We will keep records about the advice we provide you through the BetterSaver service for at least seven years. These records will include personal information about you. Records relating to you will be made available to you as soon as practicable after you request them. Requests can be made by contacting BetterSaver at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
+Managing conflicts of interest
 
-The personal information we collect as part of the BetterSaver service is used in accordance with our privacy policy which is available on our [website](https://bettersaver.co.nz/terms-and-conditions/) along with our terms and conditions.
+Because we are paid by some KiwiSaver providers, we have processes in place to ensure our advice is always based on your best interests.
 
-#### Contact us
+Our advisers do not receive bonuses or incentives for recommending one provider or fund over another.
 
-You can contact us at:
+To manage potential conflicts, we have:
 
-BetterSaver Limited  
-10F Morningside Drive,  
-Morningside,  
-Auckland, 1025
+•	A consistent, data-driven fund rating and recommendation process
 
-Email: [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz)
+•	Regular internal audits and compliance checks
 
-#### Disclaimer
+•	Adviser training and monitoring
 
-![](/uploads/screen-shot-2021-03-05-at-5-15-56-pm.png)
+•	A clear separation between commercial agreements and advice decisions.
 
-This website is operated by BetterSaver and is not endorsed by, or affiliated with, the New Zealand government or Inland Revenue. BetterSaver is using the KiwiSaver trade mark and logo under licence from Inland Revenue. To view the official New Zealand government KiwiSaver website, please click [here](http://www.ird.govt.nz/kiwisaver).
+Our duties to you
+
+The law requires us to:
+
+•	Give priority to your interests
+
+•	Exercise care, diligence, and skill
+
+•	Ensure our advice is suitable for you
+
+•	Meet the standards of competence, knowledge, and skill required by the Code of Professional Conduct for Financial Advice Services
+
+•	Meet the standards of ethical behaviour, conduct, and client care required by the Code of Professional Conduct for Financial Advice Services.
+
+What it costs you
+
+There is no cost to you for our KiwiSaver advice.
+
+We are paid by some KiwiSaver providers whose funds we recommend. If you choose a recommended fund that does not pay us, we will not receive payment.
+
+Complaints and disputes
+
+If you are unhappy with our service, please contact us first so we can try to resolve the issue.
+
+When we receive a complaint, we will acknowledge it promptly and investigate the issue fairly and independently. We aim to respond to complaints as soon as reasonably practicable and keep you informed of progress while we do so. We keep records of all complaints and the steps taken to resolve them.
+
+Email: TBC\@bettersaver.co.nz\[AH1.1]
+
+If we cannot resolve the issue to your satisfaction, you can contact Financial Services Complaints Limited (FSCL), our independent dispute resolution scheme. This service is free for you to use.
+
+Phone: 0800 347 257
+
+Email: complaints\@fscl.org.nz
+
+Website: www\.fscl.org.nz
+
+Our licence details
+
+BetterSaver Limited
+
+Financial Service Provider Register number: 600609
+
+Licensed by the Financial Markets Authority as a Financial Advice Provider under the Financial Markets Conduct Act 2013
