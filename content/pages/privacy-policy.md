@@ -28,17 +28,17 @@ Your continued use of our Online Services following notification of any changes 
 
 #### 1. WHAT INFORMATION DO WE COLLECT?
 
-(a) Information you provide
+**(a) Information you provide**
 
 You may give us information about yourself, such as your name, date of birth, address, email address, telephone number, IRD number, details about your KiwiSaver scheme such as your fund choice and PIR and details about your finances when, for example, you use or contact us via our Online Services.
 
-(b) Information collected about you
+**(b) Information collected about you**
 
 When you visit our Website or other Online Services, we may collect more information, such as the address of your Internet service provider, the name of the web page directing you, and your clicks and activity on our site.
 
 Clickstream data and other related information about visits to our Apps and related Online Services may be collected. In addition to this, usage and performance data through our Apps using various platform specific tracking technologies available to the Apps may be collected.
 
-(c) Information collected from third parties
+**(c) Information collected from third parties**
 
 Information may be collected about you from third parties such as your KiwiSaver provider, our third party affiliates or partner companies or from marketing or advertising companies who may provide us with such information as a part of their relationship with us. We may combine this information with other information that we hold.
 
@@ -46,7 +46,7 @@ Third party service providers may be allowed to use technologies including mobil
 
 Additional information may be collected about you when you use our Online Services.
 
-(d) Cookies and other monitoring devices
+**(d) Cookies and other monitoring devices**
 
 We may collect aggregated information by using cookies. Cookies are unique identification numbers like tags that are placed on the browser of internet users. The cookies do not in themselves identify users personally, but may link back to a database record about them. We may use cookies to track any aspect of our website or other Online Services.
 
