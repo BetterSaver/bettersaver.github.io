@@ -1,4 +1,5 @@
-baseURL = 'https://bettersaver.co.nz/'
+baseURL = 'https://bettersaver-staging.zac-40e.workers.dev/'
+appUrl = 'https://bettersaver-dev.web.app'
 languageCode = 'en-us'
 title = 'Better Saver'
 theme = "bettersaver"
@@ -75,12 +76,12 @@ theme = "bettersaver"
 
     [[menus.main]]
     name = "Sign in"
-    url = "https://app.bettersaver.co.nz/login/email"
+    url = "https://bettersaver-dev.web.app/login"
     weight = 3
 
     [[menus.main]]
     name = "Find a fund"
-    url = "https://app.bettersaver.co.nz/kiwisaver/onboarding"
+    url = "https://bettersaver-dev.web.app/kiwisaver/onboarding/flow/disclosure"
     weight = 4
     [menus.main.params]
         class = "button"
