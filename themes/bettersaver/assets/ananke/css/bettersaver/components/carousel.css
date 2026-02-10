@@ -9,7 +9,7 @@
         display: block;
         scroll-snap-align: start;
         scroll-snap-stop: always;
-        min-width: 280px;
+        min-width: 225px;
 
         /* Tablet */
         @media screen and (max-width: 1025px) {
