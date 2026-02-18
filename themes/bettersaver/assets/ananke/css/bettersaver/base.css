@@ -215,6 +215,11 @@ select {
     padding: 5px var(--size-1);
 }
 
+ul, ol {
+    li {
+        padding-left: 5px;
+    }
+}
 
 /* page width */
 .content {

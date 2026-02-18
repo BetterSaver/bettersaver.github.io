@@ -1,4 +1,12 @@
-<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}" role="navigation" id="site-nav-bar" x-data="{mobile_menu_open: false}">
+<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}" role="navigation" id="site-nav-bar" x-data="{
+    mobile_menu_open: false,
+    isLoggedIn: false,
+    dashboardUrl: '{{ .Site.Params.appUrl }}/dashboard',
+    init() {
+      const cookieName = '{{ .Site.Params.authCookieName }}';
+      this.isLoggedIn = document.cookie.split('; ').some(row => row.startsWith(cookieName + '='));
+    }
+  }">
   <div x-bind:class="mobile_menu_open ? 'open' : ''">
     <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib text-blue-navy" id="logo">
       {{ with .Site.Params.site_logo }}
@@ -49,12 +57,25 @@
         {{ if .Site.Menus.main }}
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection " rtl") "pr0 ml3" "pl0" }}">
           {{ range .Site.Menus.main }}
+          {{ if eq .Name "Sign in" }}
+          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}" x-show="!isLoggedIn" x-cloak>
+            <a class="purple no-underline" href="{{ .URL }}">
+              {{ .Name }}
+            </a>
+          </li>
+          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}" x-show="isLoggedIn" x-cloak>
+            <a class="purple no-underline" :href="dashboardUrl">
+              My Account
+            </a>
+          </li>
+          {{ else }}
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}">
             <a class="purple no-underline {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
               title="{{ i18n " pageTitle" . }}">
               {{ .Name }}
             </a>
           </li>
+          {{ end }}
           {{ end }}
         </ul>
         {{ end }}
@@ -64,7 +85,8 @@
       <div id="menu-mobile">
 
         <div id="menu-tablet">
-          <div class="text-right"><a href="{{ .Site.Params.appUrl }}/login/email">Sign in</a></div>
+          <div class="text-right" x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/login/email">Sign in</a></div>
+          <div class="text-right" x-show="isLoggedIn" x-cloak><a :href="dashboardUrl">My Account</a></div>
           <div><a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding" class="button white">Find a fund</a></div>
         </div>
 
@@ -81,10 +103,19 @@
               <ul>
                 <li class="navigation-item"><a href="/" class="navigation-link">Home</a></li>
                 {{ range .Site.Menus.main }}
+                {{ if eq .Name "Sign in" }}
+                <li x-show="!isLoggedIn" x-cloak><a class="text-white" href="{{ .URL }}">
+                  {{ .Name }}
+                </a></li>
+                <li x-show="isLoggedIn" x-cloak><a class="text-white" :href="dashboardUrl">
+                  My Account
+                </a></li>
+                {{ else }}
                 <li><a class="text-white" href="{{ .URL }}" title="{{ i18n " pageTitle"
                   . }}">
                   {{ .Name }}
                 </a></li>
+                {{ end }}
                 {{ end }}
               </ul>
 
