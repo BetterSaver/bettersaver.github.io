@@ -1,10 +1,11 @@
-baseURL = 'https://bettersaver-staging.zac-40e.workers.dev/'
-appUrl = 'https://bettersaver-dev.web.app'
+baseURL = 'localhost:1313'
 languageCode = 'en-us'
 title = 'Better Saver'
 theme = "bettersaver"
 
 [params]
+    appUrl = "http://localhost:4200"
+    authCookieName = "bs_auth"
     google_analitycs_id = ""
     description = "Better Saver is a website for saving money better."
     keywords = "better, saver, money, saving, budget, finance"
@@ -76,12 +77,12 @@ theme = "bettersaver"
 
     [[menus.main]]
     name = "Sign in"
-    url = "https://bettersaver-dev.web.app/login"
+    url = "http://localhost:4200/login"
     weight = 3
 
     [[menus.main]]
     name = "Find a fund"
-    url = "https://bettersaver-dev.web.app/kiwisaver/onboarding/flow/disclosure"
+    url = "http://localhost:4200/kiwisaver/onboarding/flow/disclosure"
     weight = 4
     [menus.main.params]
         class = "button"
