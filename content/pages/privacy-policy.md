@@ -48,19 +48,13 @@ We will use your personal information:
 
 We may disclose your personal information to:
 
-•	another company within our group;
-
-•	any business that supports our services and products, including any person that hosts or maintains any underlying IT system or data centre that we use to provide the website or other services and products;
-
-•	KiwiSaver managers, so that we can provide our services to you;
-
-•	other third parties (for anonymised statistical information);
-
-•	a person who can require us to supply your personal information (e.g. a regulatory authority);
-
-•	any other person authorised by the Act or another law (e.g. a law enforcement agency); or
-
-•	any other person authorised by you.
+* another company within our group;
+* any business that supports our services and products, including any person that hosts or maintains any underlying IT system or data centre that we use to provide the website or other services and products;
+* KiwiSaver managers, so that we can provide our services to you;
+* other third parties (for anonymised statistical information);
+* a person who can require us to supply your personal information (e.g. a regulatory authority);
+* any other person authorised by the Act or another law (e.g. a law enforcement agency); or
+* any other person authorised by you.
 
 A business that supports our services and products may be located outside New Zealand. This may mean your personal information may be held and processed outside New Zealand.
 
@@ -72,11 +66,11 @@ We are committed to protecting the security of your personal information and we 
 
 We will take reasonable steps to keep your personal information safe from loss, unauthorised activity, or other misuse.
 
-If your personal information is subject to a Privacy Breach that is likely to cause you serious harm, we will notify you and the Privacy Commissioner in accordance with our obligations under the Act.  
+If your personal information is subject to a Privacy Breach that is likely to cause you serious harm, we will notify you and the Privacy Commissioner in accordance with our obligations under the Act.
 
 We will only keep your personal information for as long as we require it for the purpose for which it was collected. However, we may also be required to keep some of your personal information for specified periods of time, for example under certain laws relating to companies, money laundering and financial reporting legislation.
 
-##### **Accessing and correcting your personal information\[AH5.1]**
+##### **Accessing and correcting your personal information**
 
 You may request access to your personal information held by us, or request that we update or correct any of your personal information held by us, by setting out your request in writing and sending it to us at [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz). Your email should provide evidence of who you are and set out the details of your request (e.g. the personal information, or the correction, that you are requesting).
 
