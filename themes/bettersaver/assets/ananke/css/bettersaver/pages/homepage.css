@@ -72,21 +72,10 @@
         @media screen and (max-width: 768px) {
             display: none;
         }
-
-        &.one {
-            background-image: url('/images/homepage-how-it-works-1.png');
-        }
-
-        &.two {
-            background-image: url('/images/homepage-how-it-works-2.png');
-        }
-
-        &.three {
-            background-image: url('/images/homepage-how-it-works-3.png');
-        }
     }
 
     .mobile-img-container {
+        display: none;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -97,37 +86,12 @@
         @media screen and (min-width: 768px) {
             display: none;
         }
-
-        &.one {
-            display: none;
-            background-image: url('/images/homepage-how-it-works-1.png');
-        }
-
-        &.two {
-            display: none;
-            background-image: url('/images/homepage-how-it-works-2.png');
-        }
-
-        &.three {
-            display: none;
-            background-image: url('/images/homepage-how-it-works-3.png');
-        }
     }
 
-    /* Tablet up */
+    /* Tablet down */
     @media screen and (max-width: 768px) {
         .active .mobile-img-container {
-            &.one {
-                display: block
-            }
-
-            &.two {
-                display: block
-            }
-
-            &.three {
-                display: block
-            }
+            display: block;
         }
     }
 }

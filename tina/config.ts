@@ -4,6 +4,7 @@ import Page from "./collections/page";
 import Help from "./collections/help";
 import FinancialTips from "./collections/financialtips";
 import CustomerReviews from "./collections/customerreviews";
+import Homepage from "./collections/homepage";
 
 export default defineConfig({
   clientId: process.env.TINA_CLIENT_ID!,
@@ -23,6 +24,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [Page, FinancialTips, Help, CustomerReviews],
+    collections: [Homepage, Page, FinancialTips, Help, CustomerReviews],
   },
 });
