@@ -3,7 +3,7 @@ title: "Helping Kiwis do way better with their KiwiSaver"
 description: "We analyse over 300 KiwiSaver funds to help you find the one that fits you best."
 featured_image: '/images/bg-home-woman.png'
 cta_text: "Get started"
-cta_link: "https:app.bettersaver/kiwisaver/onboarding/flow/disclosure"
+cta_link: "https://app.bettersaver.com/kiwisaver/onboarding/flow/disclosure"
 icon_path: "/images/illustration-boat.png"
 page_block: "block-home"
 footer_icons: true
