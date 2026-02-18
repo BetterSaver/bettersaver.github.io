@@ -5,17 +5,33 @@
       <img src="/images/logo-mark.svg" alt="BetterSaver" />
     </div>
 
-    <div class="grid grid-cols-2 pb-8">
+    <div class="grid grid-cols-2 pb-8" x-data="{
+      isLoggedIn: false,
+      dashboardUrl: '{{ .Site.Params.appUrl }}/dashboard',
+      init() {
+        const cookieName = '{{ .Site.Params.authCookieName }}';
+        this.isLoggedIn = document.cookie.split('; ').some(row => row.startsWith(cookieName + '='));
+      }
+    }">
       <div class="pr-4">
         {{ if .Site.Menus.footer_left }}
         <ul class="lh-menu">
           {{ range .Site.Menus.footer_left }}
-          <li class="pb-2">
-            <a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
-              title="{{ i18n " pageTitle" . }}">
-              {{ .Name }}
-            </a>
-          </li>
+            {{ if eq .Name "My account" }}
+            <li class="pb-2" x-show="isLoggedIn" >
+              <a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" x-bind:href="dashboardUrl"
+                title="{{ i18n " pageTitle" . }}">
+                {{ .Name }}
+              </a>
+            </li>
+            {{ else }}
+            <li class="pb-2">
+              <a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
+                title="{{ i18n " pageTitle" . }}">
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
           {{ end }}
         </ul>
         {{ end }}

@@ -7,6 +7,10 @@
     align-items: center;
     box-sizing: border-box;
 
+    ul {
+        padding-left: 0;
+    }
+
     #logo {
         z-index: 1001;
         display: inline-block;
@@ -151,7 +155,7 @@
 
     #menu-tablet {
         display: none;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr auto;
         align-items: center;
         gap: var(--size-2);
     }
@@ -165,7 +169,7 @@
             list-style: none;
             display: flex;
             align-items: center;
-            margin-right: 40px;
+            /* margin-right: 40px; */
             font-size: 19px;
             font-weight: bold;
 
@@ -244,11 +248,21 @@
 
     img.feature-icon {
         position: absolute;
-        max-width: 200px;
+        max-width: 280px;
         z-index: 10;
         top: 50%;
         left: 45%;
         transform: translate(-50%, -50%);
+
+        /* Tablet down */
+        @media screen and (max-width: 1024px) {
+            max-width: 200px;
+        }
+
+        /* Mobile down */
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
 
     .copy {
@@ -464,7 +478,7 @@ nav.phone-menu {
             li {
                 padding-block: 10px;
                 transition-delay: 2s;
-                display: block !important;
+                display: block;
                 font-size: 20px;
 
                 a {

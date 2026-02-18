@@ -59,18 +59,25 @@
           {{ range .Site.Menus.main }}
           {{ if eq .Name "Sign in" }}
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}" x-show="!isLoggedIn" x-cloak>
-            <a class="purple no-underline" href="{{ .URL }}">
+            <a class="no-underline" href="{{ .URL }}">
               {{ .Name }}
             </a>
           </li>
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}" x-show="isLoggedIn" x-cloak>
-            <a class="purple no-underline" :href="dashboardUrl">
+            <a class="no-underline" :href="dashboardUrl">
               My Account
+            </a>
+          </li>
+          {{ else if eq .Name "Find a fund" }}
+          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}" x-show="!isLoggedIn" x-cloak>
+            <a class="no-underline {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
+              title="{{ i18n " pageTitle" . }}">
+              {{ .Name }}
             </a>
           </li>
           {{ else }}
           <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection " rtl") "pl3" "pr3" }}">
-            <a class="purple no-underline {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
+            <a class="no-underline {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
               title="{{ i18n " pageTitle" . }}">
               {{ .Name }}
             </a>
@@ -87,7 +94,7 @@
         <div id="menu-tablet">
           <div class="text-right" x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/login/email">Sign in</a></div>
           <div class="text-right" x-show="isLoggedIn" x-cloak><a :href="dashboardUrl">My Account</a></div>
-          <div><a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding" class="button white">Find a fund</a></div>
+          <div x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding" class="button white">Find a fund</a></div>
         </div>
 
         <!-- Mobile burger menu -->
@@ -109,6 +116,11 @@
                 </a></li>
                 <li x-show="isLoggedIn" x-cloak><a class="text-white" :href="dashboardUrl">
                   My Account
+                </a></li>
+                {{ else if eq .Name "Find a fund" }}
+                <li x-show="!isLoggedIn" x-cloak><a class="text-white" href="{{ .URL }}" title="{{ i18n " pageTitle"
+                  . }}">
+                  {{ .Name }}
                 </a></li>
                 {{ else }}
                 <li><a class="text-white" href="{{ .URL }}" title="{{ i18n " pageTitle"

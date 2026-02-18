@@ -35,9 +35,10 @@
         padding-bottom: 30.5vh;
 
         >div {
+            text-align: center;
             border: 1px solid var(--grey-mid);
             border-radius: 100%;
-            padding: 5px 10px;
+            padding: 1px 10px;
             font-size: var(--size-2);
             font-family: 'BureauSerif', serif;
             color: var(--grey-mid);

@@ -95,7 +95,7 @@ theme = "bettersaver"
 
     [[menus.footer_left]]
     name = "KiwiSaver fund advisor"
-    url = "/pages/financial-tips"
+    url = "/pages/recommended-kiwisaver-funds"
     weight = 2
 
     [[menus.footer_left]]
@@ -110,7 +110,7 @@ theme = "bettersaver"
 
     [[menus.footer_left]]
     name = "My account"
-    url = "/pages/find-a-fund"
+    url = "gets-injected-in-page"
     weight = 5
 
     # footer right
