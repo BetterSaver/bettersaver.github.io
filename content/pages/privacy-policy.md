@@ -98,7 +98,7 @@ You can unsubscribe from our email communications and/or text communications at 
 
 Once you have unsubscribed from our email or text communications, you will be removed from the corresponding marketing list as soon as is reasonably practicable\[AH7.1].
 
-##### **Privacy Officer**
+##### P**rivacy Officer**
 
 We take your concerns seriously. If you have any concerns about privacy or the use or collection of your personal information by us, please contact our Privacy Officer at [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz).
 
