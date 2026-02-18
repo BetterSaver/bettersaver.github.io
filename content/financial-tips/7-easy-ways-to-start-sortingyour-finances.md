@@ -1,13 +1,12 @@
 ---
+draft: true
 tags:
   - Financial Insights
   - Fund Analysis
-author: William Tonkin-Howe
 date: 2025-11-19T00:00:00.000Z
+author: William Tonkin-Howe
 title: 7 easy ways to start sorting your finances
-description: >-
-  You know it’s important to sort your finances, but it’s the last thing you
-  want to do with your free time. Where do you even start?
+description: 'You know it’s important to sort your finances, but it’s the last thing you want to do with your free time. Where do you even start?'
 img_src: /uploads/blog-woman-sitting-on-floor.png
 ---
 
