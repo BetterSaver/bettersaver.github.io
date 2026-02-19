@@ -14,8 +14,8 @@ why_boxes:
     title: 'Personal KiwiSaver advice, fast'
     description: 'Answer a few quick questions and we will match you with a fund that fits your life, goals, and risk comfort.'
   - icon: /uploads/images/icon-money-binoculars.svg
-    title: See if you're in the right fund - or could be doing better
-    description: Use our quick check to find out if your current fund is one of the better ones.
+    title: Make sure your KiwiSaver still suits you
+    description: 'Your life changes. We will help you check your fund still makes sense, and point you to the next best step.'
   - icon: /uploads/images/icon-chart-up.svg
     title: Track your progress toward first home or retirement goals
     description: Stay on top of how your KiwiSaver's tracking - and what you can do to grow it faster.
