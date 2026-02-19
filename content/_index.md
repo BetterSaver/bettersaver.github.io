@@ -11,8 +11,8 @@ why_heading: Why BetterSaver?
 why_description: We help you get in the right KiwiSaver fund for your goals and risk comfort.
 why_boxes:
   - icon: /uploads/images/icon-money-magnifiging-glass.svg
-    title: 'Personal KiwiSaver advice, fast'
-    description: 'Answer a few quick questions and we will match you with a fund that fits your life, goals, and risk comfort.'
+    title: Built on real fund analysis
+    description: 'We assess funds using consistent criteria, not just past returns.'
   - icon: /uploads/images/icon-money-binoculars.svg
     title: Make sure your KiwiSaver still suits you
     description: 'Your life changes. We will help you check your fund still makes sense, and point you to the next best step.'
