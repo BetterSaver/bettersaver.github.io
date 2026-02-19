@@ -17,8 +17,8 @@ why_boxes:
     title: Advice that fits you
     description: Your goals and risk comfort come first.
   - icon: /uploads/images/icon-chart-up.svg
-    title: Know what you are on track
-    description: 'See how your KiwiSaver is tracking toward a first home or retirement, and the simple moves that can help you grow it faster.'
+    title: Clear and transparent
+    description: So you can decide with confidence.
 how_heading: How it works
 how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as you go.'
 how_steps:
