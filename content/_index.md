@@ -8,7 +8,7 @@ footer_icons: true
 title: Helping Kiwis do way better with their KiwiSaver
 description: We analyse over 300 KiwiSaver funds to help you find the one that fits you best.
 why_heading: Why BetterSaver?
-why_description: 'Most people pick a KiwiSaver fund once and never check it again. We help you make sure you are in the right fund, based on your goals and how you feel about risk.'
+why_description: Most people set their KiwiSaver once and never check it again. We help you make sure you are in the right fund for your goals and risk comfort.
 why_boxes:
   - icon: /uploads/images/icon-money-magnifiging-glass.svg
     title: 'Personal KiwiSaver advice, fast'
