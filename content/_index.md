@@ -17,8 +17,8 @@ why_boxes:
     title: Make sure your KiwiSaver still suits you
     description: 'Your life changes. We will help you check your fund still makes sense, and point you to the next best step.'
   - icon: /uploads/images/icon-chart-up.svg
-    title: Track your progress toward first home or retirement goals
-    description: Stay on top of how your KiwiSaver's tracking - and what you can do to grow it faster.
+    title: Know what you are on track
+    description: 'See how your KiwiSaver is tracking toward a first home or retirement, and the simple moves that can help you grow it faster.'
 how_heading: How it works
 how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as you go.'
 how_steps:
