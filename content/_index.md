@@ -14,8 +14,8 @@ why_boxes:
     title: Built on real fund analysis
     description: 'We assess funds using consistent criteria, not just past returns.'
   - icon: /uploads/images/icon-money-binoculars.svg
-    title: Make sure your KiwiSaver still suits you
-    description: 'Your life changes. We will help you check your fund still makes sense, and point you to the next best step.'
+    title: Advice that fits you
+    description: Your goals and risk comfort come first.
   - icon: /uploads/images/icon-chart-up.svg
     title: Know what you are on track
     description: 'See how your KiwiSaver is tracking toward a first home or retirement, and the simple moves that can help you grow it faster.'
