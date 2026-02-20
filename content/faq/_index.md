@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Frequently asked questions
-icon_path: /images/illustration-cards.png
+icon_path: /uploads/images/illustration-cards.png
 icon_class: help
 need_help: true
 tags_label: Get help with
@@ -10,13 +10,8 @@ sections:
     label: KiwiSaver Basics
     items:
       - title: I don't have KiwiSaver yet. How can I join?
-        content: >
-          Simply sign up at Bettersaver, we'll provide you with unbiased
-          recommendations as to which kiwisaver scheme may be best for you.
-          We'll pass your info on to your chosen fund provider and the IRD. If
-          you're an employee and meet the enrollment criteria, your employer
-          will sort out the paperwork. If you're self employed head to our
-          KiwiSaver Fund Advisor to find the right fund.
+        content: |
+          Simply sign up at Bettersaver, we'll provide you with unbiased recommendations as to which kiwisaver scheme may be best for you. We'll pass your info on to your chosen fund provider and the IRD. If you're an employee and meet the enrollment criteria, your employer will sort out the paperwork. If you're self employed head to our KiwiSaver Fund Advisor to find the right fund.
         include_in_faq: true
   - id: transferring_leaving
     label: Transferring & Leaving
@@ -34,5 +29,13 @@ sections:
       - title: This is a question
         content: |
           Hi ho
+  - id: FAQ
+    label: Can I switch KiwiSaver providers at any time
+    items:
+      - title: Can I switch KiwiSaver providers at any time
+        content: |
+          Yes. You can switch whenever you want.
+        include_in_faq: true
+  - {}
 ---
 
