@@ -27,7 +27,7 @@ how_steps:
     image: /uploads/homepage-how-it-works-1.png
   - title: Get matched to a better fund
     description: 'We recommend the right fund, and handle the switch for you'
-    image: /uploads/images/homepage-how-it-works-2.png
+    image: /uploads/homepage-how-it-works-2.png
   - title: Track and improve your progress
     description: 'See how you''re tracking toward your goals, and get rewarded along the way'
     image: /uploads/images/homepage-how-it-works-3.png
