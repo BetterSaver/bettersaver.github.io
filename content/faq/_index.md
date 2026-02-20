@@ -13,8 +13,6 @@ sections:
         content: |
           Simply sign up at Bettersaver, we'll provide you with unbiased recommendations as to which kiwisaver scheme may be best for you. We'll pass your info on to your chosen fund provider and the IRD. If you're an employee and meet the enrollment criteria, your employer will sort out the paperwork. If you're self employed head to our KiwiSaver Fund Advisor to find the right fund.
         include_in_faq: true
-  - id: transferring_leaving
-    label: Transferring & Leaving
   - id: contributions
     label: Contributions
   - id: withdrawals
@@ -52,13 +50,6 @@ sections:
           Usually no. KiwiSaver contributions are sent through payroll to Inland Revenue, so they will continue automatically after you switch providers.
 
           You only need to tell your employer if you want to change your contribution rate.
-        include_in_faq: true
-  - id: FAQ
-    label: General
-    items:
-      - title: How long does switching take?
-        content: |
-          Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
         include_in_faq: true
 ---
 
