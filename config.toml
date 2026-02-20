@@ -40,7 +40,7 @@ theme = "bettersaver"
         "bettersaver/pages/homepage.css",
         "bettersaver/pages/blog.css",
         "bettersaver/pages/contact-us.css",
-        "bettersaver/pages/help.css",
+        "bettersaver/pages/faq.css",
 
         "bettersaver/display.css", # must be last
     ]
@@ -70,10 +70,10 @@ theme = "bettersaver"
     url = "/pages/how-it-works"
     weight = 1
 
-    [[menus.main]]
-    name = "Financial tips"
-    url = "/financial-tips"
-    weight = 2
+    # [[menus.main]]
+    # name = "Financial tips"
+    # url = "/financial-tips"
+    # weight = 2
 
     [[menus.main]]
     name = "Sign in"
@@ -103,10 +103,10 @@ theme = "bettersaver"
     url = "/pages/how-it-works"
     weight = 3
 
-    [[menus.footer_left]]
-    name = "Financial tips"
-    url = "/financial-tips"
-    weight = 4
+    # [[menus.footer_left]]
+    # name = "Financial tips"
+    # url = "/financial-tips"
+    # weight = 4
 
     [[menus.footer_left]]
     name = "My account"
@@ -135,8 +135,8 @@ theme = "bettersaver"
     weight = 4
 
     [[menus.footer_right]]
-    name = "Help"
-    url = "/help"
+    name = "FAQs"
+    url = "/faq"
     weight = 5
 
 

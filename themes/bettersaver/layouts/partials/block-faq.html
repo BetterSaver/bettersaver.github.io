@@ -3,24 +3,31 @@
 
     <div class="grid grid-cols-2-auto gap-4 items-center content narrow">
         <h2 class="mb-0">Frequently asked questions</h2>
-        <div><a href="/help/" class="button">See more FAQs</a></div>
+        <div><a href="/faq/" class="button">See more FAQs</a></div>
     </div>
 
     <div class="content narrow">
-        {{ $helpFaq := where (where site.RegularPages "Section" "help") ".Params.include_in_faq" true }}
-        {{ range $helpFaq }}
-        <details class="help-item">
-            <summary>
-                <h3 class="m-0">{{ .Title }}</h3>
-            </summary>
-
-            {{ with .Params.content }}
-            <section class="py-2">{{ . | markdownify }}</section>
+        {{ $faqPage := site.GetPage "/faq" }}
+        {{ $hasItems := false }}
+        {{ with $faqPage }}
+          {{ range .Params.sections }}
+            {{ range .items }}
+              {{ if .include_in_faq }}
+                {{ $hasItems = true }}
+                <details class="help-item">
+                    <summary>
+                        <h3 class="m-0">{{ .title }}</h3>
+                    </summary>
+                    {{ with .content }}
+                    <section class="py-2">{{ . | markdownify }}</section>
+                    {{ end }}
+                </details>
+              {{ end }}
             {{ end }}
-        </details>
+          {{ end }}
         {{ end }}
 
-        {{ if eq (len $helpFaq) 0 }}
+        {{ if not $hasItems }}
         <p>No frequently asked questions available.</p>
         {{ end }}
     </div>

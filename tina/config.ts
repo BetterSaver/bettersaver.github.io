@@ -1,7 +1,7 @@
 import { defineConfig } from "tinacms";
 // import Post from "./collections/post";
 import Page from "./collections/page";
-import Help from "./collections/help";
+import FaqPage from "./collections/faq";
 import FinancialTips from "./collections/financialtips";
 import CustomerReviews from "./collections/customerreviews";
 import Homepage from "./collections/homepage";
@@ -24,6 +24,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [Homepage, Page, FinancialTips, Help, CustomerReviews],
+    collections: [Homepage, Page, FinancialTips, FaqPage, CustomerReviews],
   },
 });
