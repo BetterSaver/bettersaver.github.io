@@ -30,7 +30,7 @@ You must not use this website in any way that causes, or may cause, damage to th
 
 No articles or similar content on bettersaver.co.nz are financial advice and they should not be relied upon in making an investment decision. We recommend that you seek professional financial advice which takes into account your personal circumstances before making an investment decision, including (for advice on KiwiSaver) through our KiwiSaver advice service.
 
-We cannot guarantee that any information displayed on our website is the latest or up-to-date. We always try our best to keep information up to date but there may be times when the information is out of date. If you see any information that is out-of-date, please let us know at [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz).
+We cannot guarantee that any information displayed on our website is the latest or up-to-date. We always try our best to keep information up to date but there may be times when the information is out of date. If you see any information that is out-of-date, please let us know at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
 
 ##### **User content**
 
