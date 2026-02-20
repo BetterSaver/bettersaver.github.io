@@ -30,6 +30,14 @@ sections:
         content: |
           Yes. You can switch whenever you want.
         include_in_faq: true
-  - {}
+  - id: FAQ
+    label: Do I need to tell my employer
+    items:
+      - title: Do I need to tell my employer
+        content: |
+          Usually no. KiwiSaver contributions are sent through payroll to Inland Revenue, so they will continue automatically after you switch providers.
+
+          You only need to tell your employer if you want to change your contribution rate.
+        include_in_faq: true
 ---
 
