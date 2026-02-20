@@ -39,5 +39,12 @@ sections:
 
           You only need to tell your employer if you want to change your contribution rate.
         include_in_faq: true
+  - id: FAQ
+    label: How long does switching take?
+    items:
+      - title: How long does switching take?
+        content: |
+          Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
+        include_in_faq: true
 ---
 
