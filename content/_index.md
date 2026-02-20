@@ -10,7 +10,7 @@ description: We analyse over 300 KiwiSaver funds to help you find the one that f
 why_heading: Why BetterSaver?
 why_description: We give you KiwiSaver advice you can trust.
 why_boxes:
-  - icon: /uploads/images/icon-money-magnifiging-glass.svg
+  - icon: /uploads/icon-money-magnifiging-glass.svg
     title: Built on real fund analysis
     description: 'We assess funds using consistent criteria, not just past returns.'
   - icon: /uploads/images/icon-money-binoculars.svg
