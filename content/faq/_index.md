@@ -58,5 +58,6 @@ sections:
       - title: What does BetterSaver cost?
         content: |
           Your KiwiSaver fund fees are charged by the provider. BetterSaver may be paid by some providers if you join through us, and this does not add an extra fee to you. We explain how we are paid and any conflicts in our Disclosure Statement.
+        include_in_faq: true
 ---
 
