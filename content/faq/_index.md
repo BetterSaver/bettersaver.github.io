@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: Frequently asked questions
+description: Frequently asked questions Hmm
 icon_path: /uploads/illustration-cards.png
 icon_class: help
 need_help: true
