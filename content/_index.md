@@ -15,7 +15,7 @@ why_boxes:
     description: 'We assess funds using consistent criteria, not just past returns.'
   - icon: /uploads/icon-money-binoculars.svg
     title: Advice that fits you
-    description: Your goals and risk comfort come first.
+    description: 'Your goals and risk comfort come first. '
   - icon: /uploads/icon-trophy-a.svg
     title: Clear and transparent
     description: So you can decide with confidence.
