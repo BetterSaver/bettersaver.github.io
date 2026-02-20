@@ -13,7 +13,7 @@ why_boxes:
   - icon: /uploads/icon-money-magnifiging-glass.svg
     title: Built on real fund analysis
     description: 'We assess funds using consistent criteria, not just past returns.'
-  - icon: /uploads/images/icon-money-binoculars.svg
+  - icon: /uploads/icon-money-binoculars.svg
     title: Advice that fits you
     description: Your goals and risk comfort come first.
   - icon: /uploads/images/icon-chart-up.svg
