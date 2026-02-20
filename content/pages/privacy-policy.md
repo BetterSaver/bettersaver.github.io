@@ -72,7 +72,7 @@ We will only keep your personal information for as long as we require it for the
 
 ##### **Accessing and correcting your personal information**
 
-You may request access to your personal information held by us, or request that we update or correct any of your personal information held by us, by setting out your request in writing and sending it to us at [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz). Your email should provide evidence of who you are and set out the details of your request (e.g. the personal information, or the correction, that you are requesting).
+You may request access to your personal information held by us, or request that we update or correct any of your personal information held by us, by setting out your request in writing and sending it to us at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz). Your email should provide evidence of who you are and set out the details of your request (e.g. the personal information, or the correction, that you are requesting).
 
 We will review your request as soon as reasonably practicable. If we are unable to give you access to the information you have requested, we will give you reasons for this decision when we respond to your request.
 
@@ -94,12 +94,12 @@ We are committed to complying with the Unsolicited Electronic Messages Act 2007.
 
 By subscribing to emails and/or text communications, or otherwise providing your email address and/or mobile number, you consent to receiving emails and/or texts (as the case may be) that promote and market our products and services, or the products and services of others, from time to time.
 
-You can unsubscribe from our email communications and/or text communications at any time by clicking the "Unsubscribe" link in any promotional or marketing email or text received or by emailing [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz).
+You can unsubscribe from our email communications and/or text communications at any time by clicking the "Unsubscribe" link in any promotional or marketing email or text received or by emailing [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
 
 Once you have unsubscribed from our email or text communications, you will be removed from the corresponding marketing list as soon as is reasonably practicable\[AH7.1].
 
 ##### P**rivacy Officer**
 
-We take your concerns seriously. If you have any concerns about privacy or the use or collection of your personal information by us, please contact our Privacy Officer at [contact@bettersaver.co.nz](mailto:contact@bettersaver.co.nz).
+We take your concerns seriously. If you have any concerns about privacy or the use or collection of your personal information by us, please contact our Privacy Officer at [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz).
 
 We will respond as quickly as possible (our target response is 20 working days) and handle all complaints in a way that is fair and consistent. However, if you remain dissatisfied, you can make a formal complaint with Office of the Privacy Commissioner.
