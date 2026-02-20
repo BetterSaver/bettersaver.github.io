@@ -108,7 +108,7 @@ If you are unhappy with our service, please contact us first so we can try to re
 
 When we receive a complaint, we will acknowledge it promptly and investigate the issue fairly and independently. We aim to respond to complaints as soon as reasonably practicable and keep you informed of progress while we do so. We keep records of all complaints and the steps taken to resolve them.
 
-Email: [TBC@bettersaver.co.nz](mailto:TBC@bettersaver.co.nz)
+Email: [info@bettersaver.co.nz](mailto:info@bettersaver.co.nz)
 
 If we cannot resolve the issue to your satisfaction, you can contact Financial Services Complaints Limited (FSCL), our independent dispute resolution scheme. This service is free for you to use.
 
