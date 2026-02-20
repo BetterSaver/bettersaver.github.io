@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Frequently asked questions
-icon_path: /uploads/images/illustration-cards.png
+icon_path: /uploads/illustration-cards.png
 icon_class: help
 need_help: true
 tags_label: Get help with
