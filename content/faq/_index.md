@@ -52,6 +52,7 @@ sections:
       - title: Do you recommend funds that do not pay you?
         content: |
           Yes, sometimes. If a fund meets our analysis criteria and is on our recommended list, we can recommend it even if the provider does not pay us. In those cases, you may need to complete the join or switch directly on the provider’s website.
+        include_in_faq: true
   - id: FAQ
     label: What does BetterSaver cost?
     items:
