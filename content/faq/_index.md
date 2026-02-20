@@ -40,7 +40,7 @@ sections:
           You only need to tell your employer if you want to change your contribution rate.
         include_in_faq: true
   - id: FAQ
-    label: How long does switching take?
+    label: General
     items:
       - title: How long does switching take?
         content: |
