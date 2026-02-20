@@ -24,7 +24,7 @@ how_description: 'KiwiSaver made simple: find the right fund, switch fast, track
 how_steps:
   - title: Tell us your KiwiSaver preferences
     description: 'Your goals, your risk level, your ethics'
-    image: /uploads/images/homepage-how-it-works-1.png
+    image: /uploads/homepage-how-it-works-1.png
   - title: Get matched to a better fund
     description: 'We recommend the right fund, and handle the switch for you'
     image: /uploads/images/homepage-how-it-works-2.png
