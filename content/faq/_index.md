@@ -25,10 +25,6 @@ sections:
     label: My Account
   - id: test
     label: test
-    items:
-      - title: This is a question
-        content: |
-          Hi ho
   - id: FAQ
     label: Can I switch KiwiSaver providers at any time
     items:
