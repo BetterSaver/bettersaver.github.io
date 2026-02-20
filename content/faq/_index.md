@@ -23,8 +23,6 @@ sections:
     label: BetterSaver & Funds
   - id: my_account
     label: My Account
-  - id: test
-    label: test
   - id: FAQ
     label: Can I switch KiwiSaver providers at any time
     items:
