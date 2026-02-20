@@ -26,6 +26,10 @@ sections:
   - id: FAQ
     label: General
     items:
+      - title: What does BetterSaver cost?
+        content: |
+          Your KiwiSaver fund fees are charged by the provider. BetterSaver may be paid by some providers if you join through us, and this does not add an extra fee to you. We explain how we are paid and any conflicts in our Disclosure Statement.
+        include_in_faq: true
       - title: Can I switch KiwiSaver providers at any time
         content: |
           Yes. You can switch whenever you want.
@@ -35,10 +39,6 @@ sections:
           Usually no. KiwiSaver contributions are sent through payroll to Inland Revenue, so they will continue automatically after you switch providers.
 
           You only need to tell your employer if you want to change your contribution rate.
-        include_in_faq: true
-      - title: What does BetterSaver cost?
-        content: |
-          Your KiwiSaver fund fees are charged by the provider. BetterSaver may be paid by some providers if you join through us, and this does not add an extra fee to you. We explain how we are paid and any conflicts in our Disclosure Statement.
         include_in_faq: true
   - id: FAQ
     label: Do I need to tell my employer
