@@ -76,13 +76,13 @@ Medium risk, a more even blend of growth assets and income assets.
 
 Medium to higher risk, typically more exposure to shares and other growth assets. Best suited to longer timeframes.
 
-* ASB KiwiSaver Scheme Growth Fund
+* **ASB KiwiSaver Scheme Growth Fund**
 * Generate KiwiSaver Scheme Growth Fund
-* Investnow KiwiSaver Scheme Foundation Series Growth Fund
+* **Investnow KiwiSaver Scheme Foundation Series Growth Fund**
 * Milford KiwiSaver Plan Active Growth Fund
 * Pathfinder KiwiSaver Plan Growth Fund
 * Quaystreet KiwiSaver Scheme Growth Fund
-* Simplicirty KiwiSaver Scheme Growth Fund
+* **Simplicirty KiwiSaver Scheme Growth Fund**
 
 #### Aggressive
 
@@ -90,8 +90,8 @@ Higher risk, typically mostly shares. Best suited to longer timeframes and peopl
 
 * Booster KiwiSaver Scheme Geared Growth Fund
 * Milford KiwiSaver Plan Aggressive Fund
-* SBS Wealth KiwiSaver Scheme High Growth Fund
-* Superlife KiwiSaver Scheme High Growth Fund
+* **SBS Wealth KiwiSaver Scheme High Growth Fund**
+* **Superlife KiwiSaver Scheme High Growth Fund**
 
 ## Funds not currently recommended because they do not meet our criteria
 
