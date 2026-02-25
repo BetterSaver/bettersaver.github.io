@@ -63,7 +63,7 @@ Medium risk, a more even blend of growth assets and income assets.
 * Booster KiwiSaver Scheme Balanced Fund
 * Booster KiwiSaver Scheme Socially Responsible Balanced Fund
 * Fisher Funds KiwiSaver Plan Balanced Fund
-* Investnow KiwiSaver Scheme Foundation Series Balanced Fund
+* Investnow KiwiSaver Scheme Foundation Series Balanced Fund 
 * Investnow KiwiSaver Sceme Mercer Sustainable Balanced Fund
 * Mercer KiwiSaver Scheme Responsible Balanced Fund
 * Milford KiwiSaver Plan Balanced Fund
