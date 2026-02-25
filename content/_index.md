@@ -1,5 +1,5 @@
 ---
-featured_image: /images/bg-home-woman.png
+featured_image: /images/bg-home-woman.jpg
 cta_text: Get started
 cta_link: 'https://app.bettersaver.com/kiwisaver/onboarding/flow/disclosure'
 icon_path: /images/illustration-boat.png
