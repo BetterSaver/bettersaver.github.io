@@ -93,8 +93,13 @@ theme = "bettersaver"
     url = "/"
     weight = 1
 
+    # [[menus.footer_left]]
+    # name = "KiwiSaver fund advisor"
+    # url = "/pages/recommended-kiwisaver-funds"
+    # weight = 2
+
     [[menus.footer_left]]
-    name = "KiwiSaver fund advisor"
+    name = "Recommended KiwiSaver funds"
     url = "/pages/recommended-kiwisaver-funds"
     weight = 2
 
