@@ -5,7 +5,7 @@ cta_link: 'https://app.bettersaver.com/kiwisaver/onboarding/flow/disclosure'
 icon_path: /images/illustration-boat.png
 page_block: block-home
 footer_icons: true
-title: Your KiwiSaver could work harder.
+title: Could your KiwiSaver be working harder?
 description: We compare every KiwiSaver fund to find one that works harder for you
 why_heading: Why BetterSaver?
 why_description: We give you KiwiSaver advice you can trust.
