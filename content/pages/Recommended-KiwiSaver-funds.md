@@ -14,10 +14,6 @@ This page shows the funds we currently recommend, plus the funds we track that a
 
 If you want the best fit for you, get a recommendation. The right fund depends on your timeframe, how you feel about ups and downs, and any preferences you have about how your money is invested.
 
-Primary button: Get my KiwiSaver recommendation
-
-Secondary link: How we analyse funds
-
 ## The four categories on this page
 
 1. **Our recommended funds**
@@ -43,31 +39,59 @@ If you are not sure which risk type is right for you, start with a recommendatio
 
 Lower risk, typically more cash and bonds. Best suited to shorter timeframes.
 
-Insert recommended defensive funds here
+* Milford KiwiSaver Plan Cash Fund
 
 #### Conservative
 
 Lower to medium risk, usually a mix of income assets and a smaller amount of growth assets.
 
-Insert recommended conservative funds here
+* Booster KiwiSaver Scheme Conservative Fund
+* Fisher Funds KiwiSaver Plan Core Conservative Fund
+* Fisher Funds KiwiSaver Plan Conservative Fund
+* Milford KiwiSaver Plan Conservative Fund
+* Pathfinder KiwiSaver Plan Conservative Fund
+* Quaystreet KiwiSaver Scheme Conservative Fund
+
 
 #### Balanced
 
 Medium risk, a more even blend of growth assets and income assets.
 
-Insert recommended balanced funds here
+* AMP KiwiSaver Scheme Balanced Fund No. 2
+* ASB KiwiSaver Scheme Balanced Fund
+* BNZ KiwiSaver Scheme Balanced Fund
+* Booster KiwiSaver Scheme Balanced Fund
+* Booster KiwiSaver Scheme Socially Responsible Balanced Fund
+* Fisher Funds KiwiSaver Plan Balanced Fund
+* Investnow KiwiSaver Scheme Foundation Series Balanced Fund 
+* Investnow KiwiSaver Sceme Mercer Sustainable Balanced Fund
+* Mercer KiwiSaver Scheme Responsible Balanced Fund
+* Milford KiwiSaver Plan Balanced Fund
+* Pathfinder Kiwisaver Fund Balanced Fund
+* Quaystreet KiwiSaver Scheme Balanced Fund
+* Simplicity KiwiSaver Scheme Balanced Fund
+* Superlife KIwiSaver Scheme Balanced Fund
 
 #### Growth
 
 Medium to higher risk, typically more exposure to shares and other growth assets. Best suited to longer timeframes.
 
-Insert recommended growth funds here
+* **ASB KiwiSaver Scheme Growth Fund**
+* Generate KiwiSaver Scheme Growth Fund
+* **Investnow KiwiSaver Scheme Foundation Series Growth Fund**
+* Milford KiwiSaver Plan Active Growth Fund
+* Pathfinder KiwiSaver Plan Growth Fund
+* Quaystreet KiwiSaver Scheme Growth Fund
+* **Simplicirty KiwiSaver Scheme Growth Fund**
 
 #### Aggressive
 
 Higher risk, typically mostly shares. Best suited to longer timeframes and people comfortable with bigger ups and downs.
 
-Insert recommended aggressive funds here
+* Booster KiwiSaver Scheme Geared Growth Fund
+* Milford KiwiSaver Plan Aggressive Fund
+* **SBS Wealth KiwiSaver Scheme High Growth Fund**
+* **Superlife KiwiSaver Scheme High Growth Fund**
 
 ## Funds not currently recommended because they do not meet our criteria
 
