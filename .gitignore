@@ -10,3 +10,4 @@ hugo.darwin
 .devcontainer/.env
 .claude
 CLAUDE.md
+.dontcheckin

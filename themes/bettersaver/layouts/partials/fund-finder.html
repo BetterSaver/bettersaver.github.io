@@ -1,9 +1,164 @@
-<div class="fund-finder text-center">
-    <h2>Could your KiwiSaver fund be better?</h2>
-    <p>Find out in 30 seconds</p>
+{{/* Load funds data from JSON */}}
+{{ $fundsResource := resources.Get "ananke/data/funds.json" }}
+{{ $fundsData := $fundsResource | transform.Unmarshal }}
 
-    <form action="" method="POST" class="grid grid-cols-2-auto gap-4">
-        <input type="text" name="fund_name" placeholder="Search for my current fund" />
-        <button type="submit" class="button purple">Check My Fund</button>
-    </form>
+{{/* Extract "Find a fund" URL from menu */}}
+{{ $quizUrl := "" }}
+{{ range .Site.Menus.main }}
+  {{ if eq .Name "Find a fund" }}
+    {{ $quizUrl = .URL }}
+  {{ end }}
+{{ end }}
+
+<div class="fund-finder text-center"
+  x-data='{
+    funds: {{ $fundsData.funds | jsonify }},
+    query: "",
+    selectedFund: null,
+    showDropdown: false,
+    state: "search",
+    quizUrl: "{{ $quizUrl }}",
+
+    fundLabel(fund) {
+      return [fund.provider, fund.fund].join(" - ");
+    },
+
+    get filteredFunds() {
+      if (!this.query || this.query.length < 1) return [];
+      const q = this.query.toLowerCase();
+      return this.funds.filter(f =>
+        f.provider.toLowerCase().includes(q) ||
+        f.fund.toLowerCase().includes(q) ||
+        this.fundLabel(f).toLowerCase().includes(q)
+      );
+    },
+
+    selectFund(fund) {
+      this.selectedFund = fund;
+      this.query = this.fundLabel(fund);
+      this.showDropdown = false;
+    },
+
+    clearSearch() {
+      this.query = "";
+      this.selectedFund = null;
+      this.showDropdown = false;
+    },
+
+    checkFund() {
+      if (!this.selectedFund) return;
+      this.state = "loading";
+      setTimeout(() => {
+        this.state = "result";
+      }, 2000);
+    },
+
+    reset() {
+      this.state = "search";
+      this.query = "";
+      this.selectedFund = null;
+      this.showDropdown = false;
+    }
+  }'
+>
+
+  {{/* Search + Loading share a grid so they stay the same height */}}
+  <div class="fund-finder__states" x-show="state !== 'result'">
+
+    {{/* ===== SEARCH STATE ===== */}}
+    <div class="fund-finder__state fund-finder__search"
+      :class="{ 'is-active': state === 'search' }"
+    >
+      <h2>Could your KiwiSaver fund be better?</h2>
+      <p>Find out in 30 seconds</p>
+
+      <div class="fund-finder__form">
+        <div class="fund-finder__input-wrapper" @click.outside="showDropdown = false">
+          <svg class="fund-finder__search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            type="text"
+            name="fund_name"
+            placeholder="Search for my current fund"
+            x-model="query"
+            @focus="if (query.length > 0) showDropdown = true"
+            @input="showDropdown = true; selectedFund = null"
+            autocomplete="off"
+          />
+          <button
+            type="button"
+            class="fund-finder__clear-btn"
+            x-show="query.length > 0"
+            @click="clearSearch()"
+            aria-label="Clear search"
+          >&times;</button>
+
+          {{/* Dropdown */}}
+          <div class="fund-finder__dropdown" x-show="showDropdown && filteredFunds.length > 0" x-cloak>
+            <template x-for="fund in filteredFunds" :key="fund.provider + fund.fund">
+              <button
+                type="button"
+                class="fund-finder__dropdown-item"
+                @click="selectFund(fund)"
+                x-text="fundLabel(fund)"
+              ></button>
+            </template>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="button purple"
+          :disabled="!selectedFund"
+          @click="checkFund()"
+        >Check my fund</button>
+      </div>
+    </div>
+
+    {{/* ===== LOADING STATE ===== */}}
+    <div class="fund-finder__state fund-finder__state--slow fund-finder__loading"
+      :class="{ 'is-active': state === 'loading' }"
+    >
+      <img src="/images/logo-mark-color.png" alt="BetterSaver" class="fund-finder__loading-logo" />
+      <p>Analysing your fund</p>
+    </div>
+
+  </div>
+
+  {{/* ===== RESULT STATE — outside grid so it has its own height ===== */}}
+  <template x-if="state === 'result'">
+    <div class="fund-finder__result fund-finder__result--fade-in">
+      <div class="fund-finder__result-card">
+
+        {{/* Could be better (response === 1) */}}
+        <template x-if="selectedFund && selectedFund.grade !== 'A' && selectedFund.grade !== 'A+'">
+          <div class="fund-finder__result-content">
+            <img src="/images/illustration-loss.png" alt="" class="fund-finder__result-icon" />
+            <h3>Your current fund could be better!</h3>
+            <p class="fund-finder__result-subtitle">Many KiwiSaver funds outperform the <span x-text="fundLabel(selectedFund)"></span>.</p>
+            <p>Answer a few quick questions and we'll match you with the ideal KiwiSaver fund for your goals.</p>
+            <div class="fund-finder__result-actions">
+              <a :href="quizUrl" class="button purple">Take the quiz</a>
+              {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
+            </div>
+          </div>
+        </template>
+
+        {{/* Strong fund (response === 0) */}}
+        <template x-if="selectedFund && selectedFund.grade === 'A' || selectedFund.grade === 'A+'">
+          <div class="fund-finder__result-content">
+            <img src="/images/illustration-target.png" alt="" class="fund-finder__result-icon" />
+            <h3>That's a strong fund &ndash; but is it the best fit for you?</h3>
+            <p class="fund-finder__result-subtitle">Does the <span x-text="fundLabel(selectedFund)"></span> match your investment goals and ethical preferences?</p>
+            <p>Answer a few quick questions and we'll match you with the ideal KiwiSaver fund for your goals.</p>
+            <div class="fund-finder__result-actions">
+              <a :href="quizUrl" class="button purple">Take the quiz</a>
+              {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
+            </div>
+          </div>
+        </template>
+
+      </div>
+    </div>
+  </template>
+
 </div>

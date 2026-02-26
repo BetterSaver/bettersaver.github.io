@@ -1,0 +1,849 @@
+{
+    "funds": [
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Aggressive Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Milford Aggressive Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "Aggressive Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Geared Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Socially Responsible High Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Evidential KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Aggressive Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Focused Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Foundation Series High Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Milford Aggressive Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Kernel KiwiSaver Plan",
+            "fund": "High Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Koura KiwiSaver Scheme",
+            "fund": "Strategic High Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "MAS KiwiSaver Scheme",
+            "fund": "Aggressive Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Responsible High Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Aggressive Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Quaystreet KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "SBS Wealth KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Milford Aggressive Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "High Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Socially Responsible Geared Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Generate Focused Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Global Select Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Growth Fund No. 2",
+            "grade": "F"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Milford Active Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Aurora KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Shielded Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Socially Responsible Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Evidential KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Foundation Series Growth Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Mint Diversified Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Harbour Active Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Pathfinder Ethical Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Fisher Funds Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Smart Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Milford Active Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Salt Capital Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "MAS KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Responsible Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Active Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Pathfinder KiwiSaver Plan",
+            "fund": "Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Pie KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Quaystreet KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "SBS Wealth KiwiSaver Scheme",
+            "fund": "Focused Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Smartshares Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Pie Global Growth 2 Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Pathfinder Ethical Growth Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Summer KiwiSaver Scheme",
+            "fund": "Growth Selection",
+            "grade": "F"
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Growth Fund",
+            "grade": "F"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Balanced Fund No. 2",
+            "grade": "A"
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Balanced Fund No. 4",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Moderate Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Milford Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Balanced Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Conservative Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Balanced Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Conservative Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Default Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Default Saver Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Socially Responsible Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Socially Responsible Moderate Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Evidential KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Default Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Foundation Series Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Mercer Sustainable Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Kernel KiwiSaver Plan",
+            "fund": "Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Mas KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Mas KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Responsible Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Responsible Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Balanced Growth Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Conservative Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Pathfinder KiwiSaver Plan",
+            "fund": "Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Pie KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Quaystreet KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Smartshares Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "Default Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Summer KiwiSaver Scheme",
+            "fund": "Balanced Selection",
+            "grade": ""
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Balanced Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Default Balanced Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Moderate Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Defensive Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Conservative Fund No. 2",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Global Select Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Milford Conservative Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Aurora KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Core Conservative Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Conservative Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Kernel KiwiSaver Plan",
+            "fund": "Conservative Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Mas KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Responsible Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Conservative Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Pathfinder KiwiSaver Plan",
+            "fund": "Conservative Fund",
+            "grade": "A"
+        },
+        {
+            "provider": "Pie KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Quaystreet KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Sharesies KiwiSaver Scheme",
+            "fund": "Smartshares Conservative Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Summer KiwiSaver Scheme",
+            "fund": "Conservative Selection",
+            "grade": ""
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Defensive Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Conservative Fund",
+            "grade": ""
+        },
+        {
+            "provider": "AMP KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ Default KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ANZ KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "ASB KiwiSaver Scheme",
+            "fund": "NZ Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "BNZ KiwiSaver Scheme",
+            "fund": "First Home Buyer Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Booster KiwiSaver Scheme",
+            "fund": "Enhanced Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Fisher Funds KiwiSaver Plan",
+            "fund": "Cashplus Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Generate KiwiSaver Scheme",
+            "fund": "Cashplus Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Investnow KiwiSaver Scheme",
+            "fund": "Macquarie NZ Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Kernel KiwiSaver Plan",
+            "fund": "Cash Plus Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Koura KiwiSaver Scheme",
+            "fund": "New Zealand Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Mas KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Mercer KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "Milford KiwiSaver Plan",
+            "fund": "Kiwisaver Cash Fund",
+            "grade": "A+"
+        },
+        {
+            "provider": "Oneanswer KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        },
+        {
+            "provider": "SBS Wealth KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Simplicity KiwiSaver Scheme",
+            "fund": "Defensive Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Summer KiwiSaver Scheme",
+            "fund": "New Zealand Cash",
+            "grade": ""
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "UK Cash Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Superlife KiwiSaver Scheme",
+            "fund": "NZ Cash Fund",
+            "grade": "n/a"
+        },
+        {
+            "provider": "Westpac KiwiSaver Scheme",
+            "fund": "Cash Fund",
+            "grade": ""
+        }
+    ]
+}
