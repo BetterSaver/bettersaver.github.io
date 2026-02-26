@@ -3,19 +3,265 @@
     padding: var(--size-2);
     color: white;
     padding-block: 80px;
+    transition: height 0.4s ease;
+}
 
-    form {
-        max-width: 500px;
-        margin: 0 auto;
+/* ===== STATE GRID — stacks all states in same cell for smooth crossfade ===== */
 
-        button,
-        input {
-            border-radius: 25px;
-            margin: 0px;
-        }
+.fund-finder__states {
+    display: grid;
+}
 
-        button {
-            height: 45px;
-        }
+.fund-finder__state {
+    grid-row: 1;
+    grid-column: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+.fund-finder__state.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Loading state gets a slower fade-in */
+.fund-finder__state--slow {
+    transition: opacity 0.8s ease;
+}
+.fund-finder__state--slow.is-active {
+    transition: opacity 0.8s ease;
+}
+
+/* ===== SEARCH STATE ===== */
+
+.fund-finder__search h2 {
+    color: white;
+}
+
+.fund-finder__form {
+    max-width: 550px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    align-items: start;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.fund-finder__form .button {
+    border-radius: 25px;
+    height: 50px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.fund-finder__form .button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.fund-finder__input-wrapper {
+    position: relative;
+}
+
+.fund-finder__input-wrapper input {
+    border-radius: 25px;
+    margin: 0;
+    height: 50px;
+    padding-left: 44px;
+    padding-right: 40px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+.fund-finder__search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--grey-mid);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.fund-finder__clear-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: var(--grey-mid);
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+    z-index: 1;
+}
+
+.fund-finder__clear-btn:hover {
+    color: var(--blue-navy);
+}
+
+/* Dropdown */
+
+.fund-finder__dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    margin-top: 4px;
+    z-index: 1001;
+    overflow: hidden;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.fund-finder__dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    text-align: left;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--blue-navy);
+    font-size: 1rem;
+    border-radius: 0 !important;
+}
+
+.fund-finder__dropdown-item:hover {
+    background: var(--purple) !important;
+}
+
+/* ===== LOADING STATE ===== */
+
+.fund-finder__loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fund-finder__loading-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.fund-finder__loading p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+}
+
+/* ===== RESULT STATE ===== */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fund-finder__result--fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+.fund-finder__result {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fund-finder__result-card {
+    background: white;
+    border-radius: 20px;
+    padding: 48px 40px;
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
+    color: var(--blue-navy);
+    box-sizing: border-box;
+}
+
+.fund-finder__result-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+}
+
+.fund-finder__result-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    color: var(--blue-navy);
+}
+
+.fund-finder__result-subtitle {
+    color: var(--grey-dark, #555);
+    margin-bottom: 8px;
+}
+
+.fund-finder__result-card p {
+    color: var(--grey-dark, #555);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.fund-finder__result-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.fund-finder__result-actions .button {
+    border-radius: 25px;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: 600;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.button.outline {
+    background: transparent;
+    border: 2px solid var(--blue-navy);
+    color: var(--blue-navy);
+}
+
+.button.outline:hover {
+    background: var(--blue-navy);
+    color: white;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 600px) {
+    .fund-finder__form {
+        grid-template-columns: 1fr;
+    }
+
+    .fund-finder__form .button {
+        width: 100%;
+    }
+
+    .fund-finder__result-card {
+        padding: 32px 24px;
+    }
+
+    .fund-finder__result-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fund-finder__result-actions .button {
+        width: 100%;
+        text-align: center;
     }
 }
