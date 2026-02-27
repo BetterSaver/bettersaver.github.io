@@ -1,4 +1,5 @@
 import { Collection } from "tinacms";
+import seoFields from "../fields/seo";
 
 const Page: Collection = {
   name: "pages",
@@ -28,6 +29,7 @@ const Page: Collection = {
       label: "Body",
       isBody: true,
     },
+    ...seoFields,
   ],
 };
 
