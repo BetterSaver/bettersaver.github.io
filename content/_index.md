@@ -16,7 +16,7 @@ why_boxes:
   - icon: /uploads/icon-money-binoculars.svg
     title: Advice that fits you
     description: 'Your goals and risk comfort come first. '
-  - icon: /uploads/icon-trophy-a.svg
+  - icon: /uploads/icon-trophy-c.png
     title: Clear and transparent
     description: So you can decide with confidence.
 how_heading: How it works
