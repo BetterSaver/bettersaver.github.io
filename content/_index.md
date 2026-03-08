@@ -5,8 +5,8 @@ cta_link: 'https://app.bettersaver.com/kiwisaver/onboarding/flow/disclosure'
 icon_path: /images/illustration-boat.png
 page_block: block-home
 footer_icons: true
-title: Could your KiwiSaver be working harder?
-description: We compare every KiwiSaver fund to find one that works harder for you
+title: Find the Best KiwiSaver for You
+description: 'We analyse over 300 KiwiSaver options to help you choose the right one for your goals, whether that’s your first home or a better retirement.'
 why_heading: Why BetterSaver?
 why_description: We give you KiwiSaver advice you can trust.
 why_boxes:
@@ -16,7 +16,7 @@ why_boxes:
   - icon: /uploads/icon-money-binoculars.svg
     title: Advice that fits you
     description: 'Your goals and risk comfort come first. '
-  - icon: /uploads/icon-trophy-a.svg
+  - icon: /uploads/icon-trophy-c.png
     title: Clear and transparent
     description: So you can decide with confidence.
 how_heading: How it works
