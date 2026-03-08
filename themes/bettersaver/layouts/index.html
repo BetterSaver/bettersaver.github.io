@@ -1,9 +1,15 @@
-{{ define "title" }}
-    Home  | {{ .Site.Title }}
+{{ define "main" }}
+
+{{ partial "fund-finder.html" .}}
+
+{{ if .Params.page_block }}
+{{ partial .Params.page_block .}}
+{{ end }}
+
+{{ partial "block-customer-reviews.html" .}}
+
+{{ partial "block-faq.html" .}}
+
+{{/*  {{ partial "block-blog-recent.html" .}}  */}}
+
 {{end}}
-
-{{ define "header" }}{{ partial "header.html" . }}{{ end }}
-
-{{ define "content" }}{{ partial "home.html" . }}{{ end }}
-
-{{ define "footer" }}{{ partial "footer.html" . }}{{ end }}

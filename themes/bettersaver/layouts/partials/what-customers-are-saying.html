@@ -1,0 +1,30 @@
+<section class="what-customers-are-saying" x-data="{
+    data: [
+        {
+            'name': 'Abi F.', 
+            'stars': 5,
+            'text': 'Thanks BetterSaver for helping me find the right place to put my KiwiSaver. Friendly team always there to help and it’s easy to sign up!'
+        },
+        {
+            'name': 'John Doe', 
+            'stars': 4,
+            'text': 'Great service!'
+        },
+    ]
+}">
+    <div class="py-12">
+        <div class="grid grid-cols-2-auto gap-2">
+            <h2>What customers are saying</h2>
+            <div>Controls</div>
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+            <template x-for="(item, index) in data" :key="index">
+                <div class="customer-review">
+                    <h3 x-text="item.name"></h3>
+                    <div class="stars text-utility-orange" x-text="Array(item.stars).fill('★').join('')"></div>
+                    <p x-text="item.text"></p>
+                </div>
+            </template>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,90 @@
+<!-- Why better saver -->
+<div class="why-bettersaver text-blue-navy">
+    <article class="py-8 text-center">
+        {{ with .Params.why_heading }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .Params.why_description }}<p>{{ . }}</p>{{ end }}
+    </article>
+
+    <div class="grid grid-cols-3 gap-2 mb-8">
+        {{ range .Params.why_boxes }}
+        <div class="text-center">
+            <img src="{{ .icon }}" alt="{{ .title }}" class="mb-2">
+            <h5>{{ .title }}</h5>
+            <p>{{ .description }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<!-- How it works -->
+<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-4" x-data="{
+    step: 1,
+    timer: null,
+    timerTime: 5000,
+    progressInterval: null,
+    images: [{{ range $i, $step := .Params.how_steps }}{{ if $i }}, {{ end }}'{{ $step.image }}'{{ end }}],
+
+    init() {
+        // timer to cycle through steps
+        this.startTimer();
+        this.progressBar();
+    },
+    startTimer() {
+        // clear existing timer and restart
+        clearInterval(this.timer);
+        this.timer = setInterval(() => {
+            this.step = (this.step % 3) + 1;
+            this.progressBar();
+        }, this.timerTime);
+    },
+    resetTimer() {
+        this.progressBar();
+        this.startTimer();
+    },
+    setStep(step) {
+        clearInterval(this.timer);
+        this.step=step;
+        this.resetTimer();
+    },
+    progressBar() {
+        // reset all progress bars
+        clearInterval(this.progressInterval);
+        document.querySelectorAll('.progress-step').forEach(progress=> {
+            progress.style.width = '100%';
+        });
+
+        const progress = document.getElementById(`step-${this.step}-progress`);
+        progress.style.width = '0%';
+
+        // let it progress over the duration of the slider
+        let progressWidth = 0;
+        this.progressInterval = setInterval(() => {
+            progressWidth += 1;
+            progress.style.width = progressWidth + '%';
+            if (progressWidth >= 100) {
+                clearInterval(this.progressInterval);
+            }
+        }, this.timerTime / 100);
+    }
+}">
+    <div class="" x-intersect="startTimer(); progressBar()">
+        {{ with .Params.how_heading }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .Params.how_description }}<p class="mb-4">{{ . }}</p>{{ end }}
+
+        <ol>
+            {{ range $i, $step := .Params.how_steps }}
+            {{ $stepNum := add $i 1 }}
+            <li @click="setStep({{ $stepNum }})" x-bind:class="step === {{ $stepNum }} ? 'active' : ''">
+                <div class="progress-step" id="step-{{ $stepNum }}-progress"></div>
+                <h5>{{ $step.title }}</h5>
+                <p>{{ $step.description }}</p>
+                <div class="mobile-img-container" style="background-image: url({{ $step.image }})"></div>
+            </li>
+            {{ end }}
+        </ol>
+
+        <a href="#" class="button mobile-center">Get Started</a>
+    </div>
+
+    <div class="img-container" x-bind:style="'background-image: url(' + images[step-1] + ')'"></div>
+</div>

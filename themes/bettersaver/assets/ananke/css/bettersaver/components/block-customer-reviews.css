@@ -1,0 +1,27 @@
+.customer-reviews {
+    background: var(--grey-bg-mid) url('/images/bg-bettersaver-logo-mark.svg') no-repeat center center;
+    background-size: cover;
+
+    >div {
+        max-width: var(--content-width-wide);
+        margin: 0 auto;
+        position: relative;
+
+        >div:first-child {
+            padding: var(--size-2);
+        }
+
+        .carousel {
+            .review {
+                background: var(--white);
+                padding: var(--size-3);
+                border-radius: var(--size-3);
+            }
+        }
+    }
+
+    .mobile-google-rate {
+        margin: 0 auto;
+        width: 200px;
+    }
+}

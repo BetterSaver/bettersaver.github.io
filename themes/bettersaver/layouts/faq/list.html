@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<article>
+  <div class="content narrow">
+    {{ with .Params.tags_label }}
+    <div class="pt-4 mb-1"><strong>{{ . }}</strong></div>
+    {{ end }}
+    <div class="tags pb-4">
+      {{ range .Params.sections }}
+        {{ if .items }}
+        <a href="#{{ .id }}" class="button outline small mb-1">{{ .label }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="mb-4">
+      <a href="#contact-us" class="need-help mobile-show">
+        <img src="/images/icon-confused.svg" alt="Confused" />
+        <div>Can't find an answer?<br /> If our FAQs fall short, <span class="text-blue-happy">email us</span>!</div>
+      </a>
+    </div>
+
+    {{ range .Params.sections }}
+      {{ if .items }}
+      <div id="{{ .id }}" class="help-list">
+        <div class="mb-1"><strong class="text-utility-blue-contrast">{{ .label }}</strong></div>
+        {{ range .items }}
+        <details class="help-item">
+          <summary>
+            <h3 class="m-0">{{ .title }}</h3>
+          </summary>
+          {{ with .content }}
+          <section class="py-2">{{ . | markdownify }}</section>
+          {{ end }}
+        </details>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</article>
+
+<div class="contact-us-form">
+  {{ partial "form-contact.html" . }}
+</div>
+
+{{ end }}

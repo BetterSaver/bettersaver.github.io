@@ -1,0 +1,34 @@
+{{/* SEO meta tags - reads from .Params.seo object set via TinaCMS */}}
+
+{{/* Title tag: use seo.title if set, otherwise fall back to page title */}}
+<title>{{ with .Params.seo.title }}{{ . }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+{{/* Meta description: seo.description > .Description > .Summary > site default */}}
+<meta name="description"
+  content="{{ with .Params.seo.description }}{{ . }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}{{ end }}">
+
+{{/* Keywords */}}
+{{ with .Params.seo.keywords }}
+<meta name="keywords" content="{{ . }}">
+{{ end }}
+
+{{/* Robots: noindex override from seo fields */}}
+{{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+{{ $public := not .Params.private }}
+{{ if or .Params.seo.noindex (not (and $production $public)) }}
+<meta name="robots" content="noindex, nofollow">
+{{ else }}
+<meta name="robots" content="index, follow">
+{{ end }}
+
+{{/* Social share image from seo.image (Hugo internals read .Params.images which won't have this) */}}
+{{ with .Params.seo.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{ end }}
+
+{{/* OG image alt tag (Hugo internal templates don't output this) */}}
+{{ with .Params.seo.image_alt }}
+<meta property="og:image:alt" content="{{ . }}">
+<meta name="twitter:image:alt" content="{{ . }}">
+{{ end }}

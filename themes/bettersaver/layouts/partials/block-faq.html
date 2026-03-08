@@ -1,0 +1,35 @@
+<section class="faq">
+    <img src="/images/illustration-spinning-top.png" alt="Frequently asked questions" />
+
+    <div class="grid grid-cols-2-auto gap-4 items-center content narrow">
+        <h2 class="mb-0">Frequently asked questions</h2>
+        <div><a href="/faq/" class="button">See more FAQs</a></div>
+    </div>
+
+    <div class="content narrow">
+        {{ $faqPage := site.GetPage "/faq" }}
+        {{ $hasItems := false }}
+        {{ with $faqPage }}
+          {{ range .Params.sections }}
+            {{ range .items }}
+              {{ if .include_in_faq }}
+                {{ $hasItems = true }}
+                <details class="help-item">
+                    <summary>
+                        <h3 class="m-0">{{ .title }}</h3>
+                    </summary>
+                    {{ with .content }}
+                    <section class="py-2">{{ . | markdownify }}</section>
+                    {{ end }}
+                </details>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if not $hasItems }}
+        <p>No frequently asked questions available.</p>
+        {{ end }}
+    </div>
+
+</section>

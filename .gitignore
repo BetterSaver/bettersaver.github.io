@@ -5,3 +5,9 @@
 hugo.exe
 hugo.linux
 hugo.darwin
+
+.env
+.devcontainer/.env
+.claude
+CLAUDE.md
+.dontcheckin

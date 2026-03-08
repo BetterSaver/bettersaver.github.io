@@ -1,0 +1,20 @@
+<div class="card">
+
+  <div class="">
+    {{ if .Params.img_src }}
+    <a href="{{ .RelPermalink }}" class="post-image" style="background-image: url('{{ .Params.img_src }}');"></a>
+    {{ end }}
+
+    <div class="p-2">
+      <h4 class="mb-2">
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+      </h4>
+      <small>{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}</small>
+      <!-- <div class="">
+      {{ .Summary }}
+    </div> -->
+    </div>
+  </div>
+</div>
