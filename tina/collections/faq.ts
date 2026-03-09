@@ -1,4 +1,5 @@
 import { Collection } from "tinacms";
+import seoFields from "../fields/seo";
 
 const FaqPage: Collection = {
   name: "faqPage",
@@ -109,6 +110,7 @@ const FaqPage: Collection = {
         },
       ],
     },
+    ...seoFields,
   ],
 };
 

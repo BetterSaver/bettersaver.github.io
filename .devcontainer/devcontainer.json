@@ -1,7 +1,6 @@
 {
   "name": "Hugo + Claude + Python + Go",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "runArgs": ["--env-file", "${localWorkspaceFolder}/.devcontainer/.env"],
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.12"

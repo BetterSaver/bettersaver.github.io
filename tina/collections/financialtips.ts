@@ -1,4 +1,5 @@
 import { Collection } from "tinacms";
+import seoFields from "../fields/seo";
 
 const FinancialTips: Collection = {
   name: "financialtips",
@@ -50,6 +51,7 @@ const FinancialTips: Collection = {
       label: "Body",
       isBody: true,
     },
+    ...seoFields,
   ],
 };
 
