@@ -69,7 +69,7 @@
     <div class="fund-finder__state fund-finder__search"
       :class="{ 'is-active': state === 'search' }"
     >
-      <h2>Could your KiwiSaver fund be better?</h2>
+      <h2>Could your KiwiSaver be better?</h2>
       <p>Find out in 30 seconds</p>
 
       <div class="fund-finder__form">
@@ -133,9 +133,9 @@
         <template x-if="selectedFund && selectedFund.grade !== 'A' && selectedFund.grade !== 'A+'">
           <div class="fund-finder__result-content">
             <img src="/images/illustration-loss.png" alt="" class="fund-finder__result-icon" />
-            <h3>Your current fund could be better!</h3>
-            <p class="fund-finder__result-subtitle">Many KiwiSaver funds outperform the <br/><strong x-text="fundLabel(selectedFund)"></strong>.</p>
-            <p>Answer a few quick questions and we'll match you with the ideal KiwiSaver fund for your goals.</p>
+            <h3>Your KiwiSaver might not be working hard enough.</h3>
+            <p class="fund-finder__result-subtitle">Many funds outperform <br/><strong x-text="fundLabel(selectedFund)"></strong>.</p>
+            <p>Take our Fund Finder quiz to see if there is a better match for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
               <a :href="quizUrl" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
@@ -147,9 +147,9 @@
         <template x-if="selectedFund && selectedFund.grade === 'A' || selectedFund.grade === 'A+'">
           <div class="fund-finder__result-content">
             <img src="/images/illustration-target.png" alt="" class="fund-finder__result-icon" />
-            <h3>That's a strong fund &ndash; but is it the best fit for you?</h3>
-            <p class="fund-finder__result-subtitle">Does the <br/><strong x-text="fundLabel(selectedFund)"></strong> match your investment goals and ethical preferences?</p>
-            <p>Answer a few quick questions and we'll match you with the ideal KiwiSaver fund for your goals.</p>
+            <h3>That's a hard working KiwiSaver. But is it the right one for you?</h3>
+            <p class="fund-finder__result-subtitle">Even strong funds are not the best fit for everyone.</p>
+            <p>Take our Fund Finder quiz to see if <strong x-text="fundLabel(selectedFund)"></strong> matches your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
               <a :href="quizUrl" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
