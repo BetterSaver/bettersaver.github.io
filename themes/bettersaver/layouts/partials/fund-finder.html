@@ -25,12 +25,19 @@
 
     get filteredFunds() {
       if (!this.query || this.query.length < 1) return [];
-      const q = this.query.toLowerCase();
-      return this.funds.filter(f =>
-        f.provider.toLowerCase().includes(q) ||
-        f.fund.toLowerCase().includes(q) ||
-        this.fundLabel(f).toLowerCase().includes(q)
-      );
+      const words = this.query.toLowerCase().split(/\s+/).filter(w => w);
+      if (!words.length) return [];
+      return this.funds.filter(f => {
+        const label = this.fundLabel(f).toLowerCase();
+        return words.every(w => label.includes(w));
+      }).sort((a, b) => {
+        const aP = a.provider.toLowerCase();
+        const bP = b.provider.toLowerCase();
+        const q = words[0];
+        const aRank = aP.startsWith(q) ? 0 : aP.includes(q) ? 1 : 2;
+        const bRank = bP.startsWith(q) ? 0 : bP.includes(q) ? 1 : 2;
+        return aRank - bRank || aP.localeCompare(bP) || a.fund.toLowerCase().localeCompare(b.fund.toLowerCase());
+      });
     },
 
     selectFund(fund) {
