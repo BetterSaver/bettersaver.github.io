@@ -1,7 +1,7 @@
 ---
 featured_image: /images/bg-home-woman.jpg
 cta_text: Get started
-cta_link: 'https://app.bettersaver.com/kiwisaver/onboarding/flow/disclosure'
+cta_link: 'https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure'
 icon_path: /images/illustration-boat.png
 page_block: block-home
 footer_icons: true
