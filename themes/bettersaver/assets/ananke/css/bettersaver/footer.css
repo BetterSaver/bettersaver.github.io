@@ -43,13 +43,9 @@ footer {
 
     .footer-logos {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: var(--size-1);
         align-items: center;
-
-        >div:first-child {
-            text-align: right;
-        }
 
         img {
             max-height: 50px;
