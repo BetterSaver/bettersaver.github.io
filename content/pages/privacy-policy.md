@@ -10,7 +10,7 @@ BetterSaver Limited (we, us, our) complies with the Privacy Act 2020 (the Act) w
 
 This policy sets out how we will collect, use, disclose and protect your personal information.
 
-This policy does not limit or exclude any of your rights under the Act. If you wish to seek further information on the Act, see [www.privacy.org.nz](http://www.privacy.org.nz).
+This policy does not limit or exclude any of your rights under the Act. If you wish to seek further information on the Act, see [www.privacy.org.nz](https://www.privacy.org.nz).
 
 ##### **Changes to this policy**
 
