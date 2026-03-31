@@ -2,6 +2,7 @@
 {{ partial "site-header.html" . }}
 {{ end }}
 {{ define "main" }}
+{{ if .Content }}
 <div class="content">
   <article class="py-4">
     <div class="">
@@ -9,6 +10,7 @@
     </div>
   </article>
 </div>
+{{ end }}
 
 {{ if .Params.page_block }}
 {{ partial .Params.page_block .}}

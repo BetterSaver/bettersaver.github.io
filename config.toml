@@ -70,6 +70,11 @@ theme = "bettersaver"
     url = "/pages/how-it-works"
     weight = 1
 
+    [[menus.main]]
+    name = "About"
+    url = "/pages/about"
+    weight = 2
+
     # [[menus.main]]
     # name = "Financial tips"
     # url = "/financial-tips"
