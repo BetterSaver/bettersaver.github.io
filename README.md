@@ -52,6 +52,14 @@ Hosted: Cloudflare pages
 
 Deploy is done through a Cloudflare worker + wrangler. You can find the config file in /wrangler.jsonc & cfbuild.sh.
 
+## Release
+
+1. Branch off main
+2. Develop feature
+3. Merge into staging -> pushes to staging
+4. All TinaCMS work will also be saved to staging as it only runs on staging
+5. Merge staging into main to release to prod
+
 ### Build settings
 
 In general, the build settings will look like so:
