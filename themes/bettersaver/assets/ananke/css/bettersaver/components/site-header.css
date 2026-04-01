@@ -271,7 +271,7 @@
         }
 
         &.boat {
-            animation: boatSlideIn 0.8s ease-out both;
+            animation: boatSlideIn 0.8s ease-in-out both;
         }
     }
 
