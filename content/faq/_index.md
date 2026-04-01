@@ -45,5 +45,8 @@ sections:
       - title: How much do I need to contribute?
         content: |
           If you are employed and paid through PAYE, you can choose to contribute 3.5%, 4%, 6%, 8%, or 10% of your gross pay. If you do not choose, a default rate of 3.5% applies. If you are not paid through PAYE or not employed you can make voluntary contributions.
+      - title: Does my employer have to contribute?
+        content: |
+          Yes, your employer must contribute atleast the minimum rate of 3.5% if you are contributing atleast 3.5% yourself. Employers do not need to contribute more if you elect to, though some do.
 ---
 
