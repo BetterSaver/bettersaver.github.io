@@ -36,6 +36,9 @@ sections:
       - title: Do I have to be employed to join KiwiSaver?
         content: |
           No. If you are self employed, studying, or not currently working, you can still join by signing up directly with a KiwiSaver provider. You will not receive employer contributions unless you are in paid work, but you can still conribute, grow your savings and may still be eligible for the government contribution.
+      - title: Is the government allowed to take my KiwiSaver?
+        content: |
+          No. Your KiwiSaver is held for you under a trust structure. Your provider manages it, but it is your money.
   - {}
 ---
 
