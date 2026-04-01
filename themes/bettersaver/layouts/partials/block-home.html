@@ -10,14 +10,16 @@
         <div class="text-center">
             <img src="{{ .icon }}" alt="{{ .title }}" class="mb-2">
             <h5>{{ .title }}</h5>
-            <p>{{ .description }}</p>
+            <p class="font-light">{{ .description }}</p>
         </div>
         {{ end }}
     </div>
 </div>
 
+<hr class="divider" />
+
 <!-- How it works -->
-<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-4" x-data="{
+<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-8" x-data="{
     step: 1,
     timer: null,
     timerTime: 5000,
