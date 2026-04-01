@@ -48,5 +48,10 @@ sections:
       - title: Does my employer have to contribute?
         content: |
           Yes, your employer must contribute at least the minimum rate of 3.5% if you are contributing atleast 3.5% yourself. Employers do not need to contribute more if you elect to, though some do.
+      - title: Does the government contribute
+        content: |
+          Yes! The government contributes too, though the rules changed in 2025.
+
+          From 1 July 2025, the government contributes 25 cents for every $1 you put in, up to a maximum of $260.72 per year. To get the full amount, you need to contribute at least $1,042.86 of your own money between 1 July and 30 June each year.
 ---
 
