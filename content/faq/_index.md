@@ -39,6 +39,11 @@ sections:
       - title: Is the government allowed to take my KiwiSaver?
         content: |
           No. Your KiwiSaver is held for you under a trust structure. Your provider manages it, but it is your money, and the government can not access it.
-  - {}
+  - id: Contributions
+    label: 'Contributions '
+    items:
+      - title: How much do I need to contribute?
+        content: |
+          If you are employed and paid through PAYE, you can choose to contribute 3.5%, 4%, 6%, 8%, or 10% of your gross pay. If you do not choose, a default rate of 3.5% applies. If you are not paid through PAYE or not employed you can make voluntary contributions.
 ---
 
