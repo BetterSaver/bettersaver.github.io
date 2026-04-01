@@ -226,6 +226,10 @@
     font-family: 'BureauSerif', serif;
 }
 
+.font-light {
+    color: var(--grey-mid, rgba(36, 46, 84, 0.75));
+}
+
 
 .text-left {
     text-align: left;

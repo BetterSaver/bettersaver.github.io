@@ -13,21 +13,27 @@ h1 {
     font-size: 64px;
     font-family: 'BureauSerif', serif;
     font-weight: 500;
+    line-height: 110%;
     margin: 0 0 15px 0;
-
+    letter-spacing: -3%;
+    vertical-align: bottom;
+    
     @media screen and (max-width: 768px) {
         font-size: 48px;
     }
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 48px;
     font-family: 'BureauSerif', serif;
     font-weight: 500;
     margin: 0 0 14px 0;
+    line-height: 125%;
+    letter-spacing: -3%;
 
     @media screen and (max-width: 768px) {
         font-size: 28px;
+        letter-spacing: -2%;
     }
 }
 
@@ -36,6 +42,8 @@ h3 {
     font-family: 'BureauSerif', serif;
     font-weight: 500;
     margin: 0 0 13px 0;
+    line-height: 125%;
+    letter-spacing: -2%;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
@@ -47,9 +55,12 @@ h4 {
     font-family: 'BureauSerif', serif;
     font-weight: 500;
     margin: 0 0 12px 0;
+    line-height: 125%;
+    letter-spacing: -1%;
 
     @media screen and (max-width: 768px) {
         font-size: 20px;
+        letter-spacing: 0;
     }
 }
 
@@ -58,9 +69,13 @@ h5 {
     font-family: 'BureauSerif', serif;
     font-weight: 500;
     margin: 0 0 12px 0;
+    font-style: Medium;
+    line-height: 125%;
+    letter-spacing: -1%;
 
     @media screen and (max-width: 768px) {
         font-size: 16px;
+        letter-spacing: 0;
     }
 }
 
@@ -124,7 +139,7 @@ details {
     }
 
     summary {
-        padding-block: var(--size-1);
+        padding-block: var(--size-2);
         list-style-type: none;
         position: relative;
 
