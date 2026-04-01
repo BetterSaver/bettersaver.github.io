@@ -33,6 +33,9 @@ sections:
         content: |
           Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
         include_in_faq: true
+      - title: Do I have to be employed to join KiwiSaver?
+        content: |
+          No. If you are self employed, studying, or not currently working, you can still join by signing up directly with a KiwiSaver provider. You will not receive employer contributions unless you are in paid work, but you can still conribute, grow your savings and may still be eligible for the government contribution.
   - {}
 ---
 
