@@ -1,13 +1,13 @@
 baseURL = 'localhost:1313'
 languageCode = 'en-us'
-title = 'Better Saver'
+title = 'BetterSaver'
 theme = "bettersaver"
 
 [params]
     appUrl = "http://localhost:4200"
     authCookieName = "bs_auth"
 
-    description = "Better Saver is a website for saving money better."
+    description = "BetterSaver is a website for saving money better."
     keywords = "better, saver, money, saving, budget, finance"
 
     site_logo = "/images/logo.svg"
