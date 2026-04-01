@@ -116,7 +116,7 @@ Phone: 0800 347 257
 
 Email: [complaints@fscl.org.nz](mailto:complaints@fscl.org.nz)
 
-Website: [www.fscl.org.nz](http://www.fscl.org.nz)
+Website: [www.fscl.org.nz](https://www.fscl.org.nz)
 
 ##### **&#xA;Our licence details**
 
