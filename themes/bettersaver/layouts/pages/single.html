@@ -5,7 +5,7 @@
 {{ if .Content }}
 <div class="content">
   <article class="py-4">
-    <div class="">
+    <div class="{{ .Params.page_block }}">
       {{ .Content }}
     </div>
   </article>
@@ -16,7 +16,9 @@
 {{ partial .Params.page_block .}}
 {{ end }}
 
+{{ if .Params.faq }}
 {{ partial "block-faq.html" .}}
+{{ end }}
 
 {{ partial "block-customer-reviews.html" .}}
 

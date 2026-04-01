@@ -37,6 +37,7 @@ theme = "bettersaver"
         "bettersaver/components/site-header.css",
         "bettersaver/components/carousel.css",
         
+        "bettersaver/pages/about.css",
         "bettersaver/pages/homepage.css",
         "bettersaver/pages/blog.css",
         "bettersaver/pages/contact-us.css",

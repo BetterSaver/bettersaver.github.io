@@ -2,6 +2,7 @@
 draft: false
 title: Advice disclosure
 date: 2025-11-19T00:00:00.000Z
+faq: true
 ---
 
 ##### **Helping Kiwis make better KiwiSaver decisions — clearly, fairly, and with your best interests at heart.**
