@@ -43,7 +43,7 @@
         <ul class="rh-menu p-0">
           {{ range .Site.Menus.footer_right }}
             {{ if eq .Name "Contact us" }}
-              <li class="contact-us-li-offset">
+               <li class="contact-us-li-offset">
                 <div class="contact-us-link">
                     <h4 class="contact-us-title"><a class="white no-underline title-font {{ with .Params.class -}}{{ . }}{{ end -}}" href="{{ .URL }}"
                     title="{{ i18n " pageTitle" . }}">
