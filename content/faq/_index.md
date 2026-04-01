@@ -53,5 +53,12 @@ sections:
           Yes! The government contributes too, though the rules changed in 2025.
 
           From 1 July 2025, the government contributes 25 cents for every $1 you put in, up to a maximum of $260.72 per year. To get the full amount, you need to contribute at least $1,042.86 of your own money between 1 July and 30 June each year.
+      - title: Can I take a break from contributing?
+        content: |
+          Yes, you can! It's called a contributions holiday (or savings suspension), and you apply for it through Inland Revenue.
+
+          You can apply for a break ranging from 3 months up to 1 year, and you can reapply each year if needed
+
+          Taking a contributions holiday means your employer stops contributing too, so it's worth weighing up whether the break is worth losing that free money
 ---
 
