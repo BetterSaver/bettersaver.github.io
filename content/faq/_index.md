@@ -9,6 +9,10 @@ sections:
   - id: FAQ
     label: KiwiSaver Basics
     items:
+      - title: What is KiwiSaver?
+        content: |
+          KiwiSaver is a long term savings scheme set up by the New Zealand Government to help you build wealth for retirement. For many Kiwis, it ends up being their biggest or second biggest asset after their home. That is why being in the right fund matters.
+        include_in_faq: true
       - title: What does BetterSaver cost?
         content: |
           There is no cost to you for our KiwiSaver advice.
@@ -28,10 +32,6 @@ sections:
       - title: How long does switching take?
         content: |
           Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
-        include_in_faq: true
-      - title: What is KiwiSaver?
-        content: |
-          KiwiSaver is a long term savings scheme set up by the New Zealand Government to help you build wealth for retirement. For many Kiwis, it ends up being their biggest or second biggest asset after their home. That is why being in the right fund matters.
         include_in_faq: true
   - {}
 ---
