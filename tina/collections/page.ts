@@ -29,6 +29,11 @@ const Page: Collection = {
       label: "Body",
       isBody: true,
     },
+    {
+      type: "boolean",
+      name: "faq",
+      label: "Show FAQ",
+    },
     ...seoFields,
   ],
 };

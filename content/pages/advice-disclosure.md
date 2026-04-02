@@ -2,6 +2,7 @@
 draft: false
 title: Advice disclosure
 date: 2025-11-19T00:00:00.000Z
+faq: true
 ---
 
 ##### **Helping Kiwis make better KiwiSaver decisions — clearly, fairly, and with your best interests at heart.**
@@ -116,7 +117,7 @@ Phone: 0800 347 257
 
 Email: [complaints@fscl.org.nz](mailto:complaints@fscl.org.nz)
 
-Website: [www.fscl.org.nz](http://www.fscl.org.nz)
+Website: [www.fscl.org.nz](https://www.fscl.org.nz)
 
 ##### **&#xA;Our licence details**
 

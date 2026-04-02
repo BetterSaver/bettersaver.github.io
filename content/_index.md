@@ -3,6 +3,7 @@ featured_image: /images/bg-home-woman.jpg
 cta_text: Get started
 cta_link: 'https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure'
 icon_path: /images/illustration-boat.png
+icon_class: boat
 page_block: block-home
 footer_icons: true
 title: Find the Best KiwiSaver for You

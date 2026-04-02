@@ -6,6 +6,15 @@
     transition: height 0.4s ease;
 }
 
+.fund-finder h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.fund-finder__search > p {
+    margin-bottom: 32px;
+}
+
 /* ===== STATE GRID — stacks all states in same cell for smooth crossfade ===== */
 
 .fund-finder__states {
