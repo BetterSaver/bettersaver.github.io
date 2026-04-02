@@ -28,7 +28,7 @@ sections:
           Usually no. KiwiSaver contributions are sent through payroll to Inland Revenue, so they will continue automatically after you switch providers.
 
           You only need to tell your employer if you want to change your contribution rate.
-        include_in_faq: true
+        include_in_faq: false
       - title: How long does switching take?
         content: |
           Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
