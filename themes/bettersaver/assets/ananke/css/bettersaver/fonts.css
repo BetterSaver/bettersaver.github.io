@@ -237,6 +237,11 @@
 
 .text-center {
     text-align: center;
+
+    /* Mobile down */
+    @media screen and (max-width: 768px) {
+        text-align: left;
+    }
 }
 
 .text-right {

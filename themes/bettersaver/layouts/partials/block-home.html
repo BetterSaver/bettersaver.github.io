@@ -7,10 +7,12 @@
 
     <div class="grid grid-cols-3 gap-2 mb-8">
         {{ range .Params.why_boxes }}
-        <div class="text-center">
-            <img src="{{ .icon }}" alt="{{ .title }}" class="mb-2">
-            <h5>{{ .title }}</h5>
-            <p class="font-light">{{ .description }}</p>
+        <div class="text-center why-boxes">
+            <div><img src="{{ .icon }}" alt="{{ .title }}" class="mb-2"></div>
+            <div>
+                <h5>{{ .title }}</h5>
+                <p class="font-light">{{ .description }}</p>
+            </div>
         </div>
         {{ end }}
     </div>

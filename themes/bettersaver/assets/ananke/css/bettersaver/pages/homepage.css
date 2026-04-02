@@ -114,3 +114,15 @@
         }
     }
 }
+/* Tablet down */
+@media screen and (max-width: 768px) {
+    .why-boxes {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 16px;
+
+        img {
+            max-width: 120px;
+        }
+    }
+}
