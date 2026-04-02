@@ -71,6 +71,11 @@
     @media screen and (max-width: 768px) {
         padding: var(--size-2) 0 var(--size-2) var(--size-2);
         
+        svg {
+            height: 24px;
+            width: 156px;
+        }
+
         .open #logo {
             color: var(--white);
         }
@@ -151,6 +156,10 @@
         grid-template-columns: 1fr auto;
         align-items: center;
         gap: var(--size-2);
+
+        ul li {
+            padding-left: 0;
+        }
     }
 
     #menu-tablet {
@@ -268,6 +277,12 @@
         /* Mobile down */
         @media screen and (max-width: 768px) {
             display: none;
+
+            &.boat {
+                display: block;
+                position: absolute;
+                top: 50% !important;
+            }
         }
 
         &.boat {
@@ -422,7 +437,7 @@ nav.phone-menu {
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
-        max-width: 20px;
+        max-width: 23px;
         margin-left: auto;
 
         input {
@@ -438,9 +453,9 @@ nav.phone-menu {
 
         span {
             display: flex;
-            width: 20px;
+            width: 23px;
             height: 2px;
-            margin-bottom: 4px;
+            margin-bottom: 5px;
             position: relative;
             background: var(--blue-navy);
             border-radius: 2px;
