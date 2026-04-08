@@ -144,7 +144,7 @@
         <template x-if="selectedFund && selectedFund.grade !== 'A' && selectedFund.grade !== 'A+'">
           <div class="fund-finder__result-content">
             <img src="/images/illustration-loss.png" alt="" class="fund-finder__result-icon" />
-            <h3>BetterSaver Rating: Not recommended</h3>
+            <h3>BetterSaver Rating: <strong>Not recommended</strong></h3>
             <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is not currently one of BetterSaver's recommended KiwiSaver options.</p>
             <p>Take our free Fund Finder quiz to find a better KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
