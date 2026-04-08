@@ -10,6 +10,8 @@ theme = "bettersaver"
     description = "BetterSaver is a website for saving money better."
     keywords = "better, saver, money, saving, budget, finance"
 
+    gtm_id = "GTM-NTNKBMS"
+
     site_logo = "/images/logo.svg"
     
     favicon_32 = "/favicon-32x32.png"
@@ -150,6 +152,3 @@ theme = "bettersaver"
     url = "/faq"
     weight = 5
 
-[services]
-  [services.googleAnalytics]
-    ID = "GTM-NTNKBMS"
