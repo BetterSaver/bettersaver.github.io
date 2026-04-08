@@ -23,6 +23,10 @@
       return [fund.provider, fund.fund].join(" - ");
     },
 
+    fundGrade(fund) {
+      return fund.grade === "A+" || fund.grade === "A" || fund.grade === "B" ? fund.grade : "Not Recommended";
+    },
+
     get filteredFunds() {
       if (!this.query || this.query.length < 1) return [];
       const words = this.query.toLowerCase().split(/\s+/).filter(w => w);
@@ -140,9 +144,9 @@
         <template x-if="selectedFund && selectedFund.grade !== 'A' && selectedFund.grade !== 'A+'">
           <div class="fund-finder__result-content">
             <img src="/images/illustration-loss.png" alt="" class="fund-finder__result-icon" />
-            <h3>Your KiwiSaver might not be working hard enough.</h3>
-            <p class="fund-finder__result-subtitle">Many funds outperform <br/><strong x-text="fundLabel(selectedFund)"></strong>.</p>
-            <p>Take our Fund Finder quiz to see if there is a better match for your goals and risk comfort.</p>
+            <h3>BetterSaver Rating: Not recommended</h3>
+            <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is not currently one of BetterSaver's recommended KiwiSaver options.</p>
+            <p>Take our free Fund Finder quiz to find a better KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
               <a :href="quizUrl" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
@@ -154,9 +158,9 @@
         <template x-if="selectedFund && selectedFund.grade === 'A' || selectedFund.grade === 'A+'">
           <div class="fund-finder__result-content">
             <img src="/images/illustration-target.png" alt="" class="fund-finder__result-icon" />
-            <h3>That's a hard working KiwiSaver. But is it the right one for you?</h3>
-            <p class="fund-finder__result-subtitle">Even strong funds are not the best fit for everyone.</p>
-            <p>Take our Fund Finder quiz to see if <strong x-text="fundLabel(selectedFund)"></strong> matches your goals and risk comfort.</p>
+            <h3>BetterSaver Rating: <strong x-text="fundGrade(selectedFund)"></strong></h3>
+            <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is one of BetterSaver's recommended KiwiSaver options. Even strong funds are not the best fit for everyone.</p>
+            <p>Take our free Fund Finder quiz to see if it is the right KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
               <a :href="quizUrl" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
