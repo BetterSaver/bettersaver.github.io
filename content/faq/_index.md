@@ -60,5 +60,11 @@ sections:
           You can apply for a break ranging from 3 months up to 1 year, and you can reapply each year if needed
 
           Taking a contributions holiday means your employer stops contributing too, so it's worth weighing up whether the break is worth losing that free money
+  - id: Choosing the right fund
+    label: Choosing the right fund
+    items:
+      - title: What are the different KiwiSaver fund types?
+        content: |
+          Funds sit on a risk spectrum, from lower risk (Defensive, Conservative) through to higher risk (Balanced, Growth, Aggressive). Higher growth funds usually move around more in the short term, but have historically had better long term return potential. The right fund depends on your timeframe and your comfort with risk.
 ---
 
