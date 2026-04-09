@@ -72,5 +72,10 @@ sections:
       - title: Can I choose a fund based on my values?
         content: |
           Yes. You can tell us what you want to avoid (like weapons, tobacco, gambling, alcohol, or animal testing) and what you want to prioritise (like sustainability or investing in New Zealand). We factor that into your recommendation. Keep in mind that with KiwiSaver there is unlikely to be a perfect values match, but we can help you find a fund that closely aligns.
+      - title: How does BetterSaver’s recommendation work?
+        content: |
+          We start with your risk category, then narrow the market to funds we would genuinely recommend. From there, we rank the options based on fit: fees, performance and value, and your preferences if you choose them.
+
+          We are not a KiwiSaver provider. We do not have a fund to sell you. Our job is to find the best fit.
 ---
 
