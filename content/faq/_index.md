@@ -69,5 +69,8 @@ sections:
       - title: How do I know which fund is right for me?
         content: |
           That is exactly what BetterSaver is built for. We analyse over 300 KiwiSaver options to help you choose the right one for your goals, whether that’s your first home or a better retirement.
+      - title: Can I choose a fund based on my values?
+        content: |
+          Yes. You can tell us what you want to avoid (like weapons, tobacco, gambling, alcohol, or animal testing) and what you want to prioritise (like sustainability or investing in New Zealand). We factor that into your recommendation. Keep in mind that with KiwiSaver there is unlikely to be a perfect values match, but we can help you find a fund that closely aligns.
 ---
 
