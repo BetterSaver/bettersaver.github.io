@@ -90,5 +90,8 @@ sections:
       - title: Can I use my KiwiSaver to buy my first home?
         content: |
           Yes. If you have been a KiwiSaver member for at least three years, you should be able to withdraw most of your balance to help buy your first home, as long as you meet the rules.
+      - title: What can I withdraw for a first home?
+        content: |
+          In most cases you can withdraw your contributions, your employer contributions, government contributions, and investment returns. You must usually leave at least $1,000 in your KiwiSaver account.
 ---
 
