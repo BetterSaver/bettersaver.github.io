@@ -107,5 +107,8 @@ sections:
       - title: How does the BetterSaver process work?
         content: |
           You answer a short quiz, we recommend a fund, and if you want to switch, we can handle the sign up and transfer process for you. It is designed to be fast and simple.
+      - title: Is BetterSaver free to use?
+        content: |
+          Yes. The quiz and recommendation are free. You still pay your KiwiSaver fund fees to your chosen provider, as normal.
 ---
 
