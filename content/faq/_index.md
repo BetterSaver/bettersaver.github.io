@@ -110,5 +110,6 @@ sections:
       - title: Is BetterSaver free to use?
         content: |
           Yes. The quiz and recommendation are free. You still pay your KiwiSaver fund fees to your chosen provider, as normal.
+        include_in_faq: true
 ---
 
