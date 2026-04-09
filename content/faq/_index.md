@@ -104,5 +104,8 @@ sections:
           BetterSaver is an independent KiwiSaver advice platform. We compare the market and match you to a KiwiSaver fund that fits your situation: your goals, your risk comfort, your values, and fees.
 
           We are not a KiwiSaver provider
+      - title: How does the BetterSaver process work?
+        content: |
+          You answer a short quiz, we recommend a fund, and if you want to switch, we can handle the sign up and transfer process for you. It is designed to be fast and simple.
 ---
 
