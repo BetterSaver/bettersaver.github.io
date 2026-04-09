@@ -120,5 +120,6 @@ sections:
           Yes. We analyse the market, but only recommend funds that meet our quality criteria.
 
           Payments from providers do not impact our recommendations. If a provider does not support switching through BetterSaver it may limit our ongoing support.
+        include_in_faq: true
 ---
 
