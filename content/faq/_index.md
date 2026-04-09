@@ -87,5 +87,8 @@ sections:
       - title: When can I access my KiwiSaver savings?
         content: |
           KiwiSaver is usually locked in until 65. There are limited early access options, like buying your first home, significant financial hardship, serious illness, or permanently leaving New Zealand.
+      - title: Can I use my KiwiSaver to buy my first home?
+        content: |
+          Yes. If you have been a KiwiSaver member for at least three years, you should be able to withdraw most of your balance to help buy your first home, as long as you meet the rules.
 ---
 
