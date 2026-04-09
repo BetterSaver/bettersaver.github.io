@@ -81,5 +81,11 @@ sections:
       - title: Should I review my KiwiSaver fund regularly?
         content: |
           Yes. Most people never review it, but your life changes and your fund should sometimes change too. A quick annual check can make a real difference over time.
+  - id: Accessing your KiwiSaver
+    label: Accessing your KiwiSaver
+    items:
+      - title: When can I access my KiwiSaver savings?
+        content: |
+          KiwiSaver is usually locked in until 65. There are limited early access options, like buying your first home, significant financial hardship, serious illness, or permanently leaving New Zealand.
 ---
 
