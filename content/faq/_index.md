@@ -66,5 +66,8 @@ sections:
       - title: What are the different KiwiSaver fund types?
         content: |
           Funds sit on a risk spectrum, from lower risk (Defensive, Conservative) through to higher risk (Balanced, Growth, Aggressive). Higher growth funds usually move around more in the short term, but have historically had better long term return potential. The right fund depends on your timeframe and your comfort with risk.
+      - title: How do I know which fund is right for me?
+        content: |
+          That is exactly what BetterSaver is built for. We analyse over 300 KiwiSaver options to help you choose the right one for your goals, whether that’s your first home or a better retirement.
 ---
 
