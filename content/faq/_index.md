@@ -96,5 +96,13 @@ sections:
       - title: My partner has owned a home before. Can I still withdraw?
         content: |
           Possibly. First home withdrawal eligibility is assessed individually. If you are eligible, your partner’s history does not automatically block your withdrawal.
+  - id: About BetterSaver
+    label: About BetterSaver
+    items:
+      - title: What is BetterSaver?
+        content: |
+          BetterSaver is an independent KiwiSaver advice platform. We compare the market and match you to a KiwiSaver fund that fits your situation: your goals, your risk comfort, your values, and fees.
+
+          We are not a KiwiSaver provider
 ---
 
