@@ -78,5 +78,8 @@ sections:
 
           We are not a KiwiSaver provider. We do not have a fund to sell you. Our job is to find the best fit.
         include_in_faq: true
+      - title: Should I review my KiwiSaver fund regularly?
+        content: |
+          Yes. Most people never review it, but your life changes and your fund should sometimes change too. A quick annual check can make a real difference over time.
 ---
 
