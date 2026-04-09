@@ -13,12 +13,6 @@ sections:
         content: |
           KiwiSaver is a long term savings scheme set up by the New Zealand Government to help you build wealth for retirement. For many Kiwis, it ends up being their biggest or second biggest asset after their home. That is why being in the right fund matters.
         include_in_faq: true
-      - title: What does BetterSaver cost?
-        content: |
-          There is no cost to you for our KiwiSaver advice.
-
-          We are paid by some KiwiSaver providers whose funds we recommend. If you choose a recommended fund that does not pay us, we will not receive payment.
-        include_in_faq: true
       - title: Can I switch KiwiSaver providers at any time
         content: |
           Yes. You can switch whenever you want.
@@ -115,5 +109,8 @@ sections:
         content: |
           Providers will only promote their own funds. BetterSaver is independent, looks across the market, and gives you a straight answer about what fits you best.
         include_in_faq: true
+      - title: How are KiwiSaver funds rated?
+        content: |
+          We rate funds using independent data across things like long term performance after fees, fees and value for money, risk and volatility, and how each fund lines up with common ethical and holdings preferences.
 ---
 
