@@ -115,5 +115,10 @@ sections:
       - title: How are KiwiSaver funds rated?
         content: |
           We rate funds using independent data across things like long term performance after fees, fees and value for money, risk and volatility, and how each fund lines up with common ethical and holdings preferences.
+      - title: Do you compare the whole KiwiSaver market?
+        content: |
+          Yes. We analyse the market, but only recommend funds that meet our quality criteria.
+
+          Payments from providers do not impact our recommendations. If a provider does not support switching through BetterSaver it may limit our ongoing support.
 ---
 
