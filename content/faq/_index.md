@@ -93,5 +93,8 @@ sections:
       - title: What can I withdraw for a first home?
         content: |
           In most cases you can withdraw your contributions, your employer contributions, government contributions, and investment returns. You must usually leave at least $1,000 in your KiwiSaver account.
+      - title: My partner has owned a home before. Can I still withdraw?
+        content: |
+          Possibly. First home withdrawal eligibility is assessed individually. If you are eligible, your partner’s history does not automatically block your withdrawal.
 ---
 
