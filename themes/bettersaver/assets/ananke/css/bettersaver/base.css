@@ -94,6 +94,10 @@ strong {
     font-family: 'GeneralSans-Semibold', sans-serif;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 a,
 a:visited,
 a:active {
