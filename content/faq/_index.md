@@ -77,5 +77,6 @@ sections:
           We start with your risk category, then narrow the market to funds we would genuinely recommend. From there, we rank the options based on fit: fees, performance and value, and your preferences if you choose them.
 
           We are not a KiwiSaver provider. We do not have a fund to sell you. Our job is to find the best fit.
+        include_in_faq: true
 ---
 
