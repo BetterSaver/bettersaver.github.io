@@ -108,9 +108,9 @@ sections:
         content: |
           Yes. The quiz and recommendation are free. You still pay your KiwiSaver fund fees to your chosen provider, as normal.
         include_in_faq: true
-      - title: Why should I use BetterSaver instead of going directly to a provider?
+      - title: Should I just go direct to a provider?
         content: |
-          Providers will only promote their own funds. BetterSaver is independent, looks across the market, and gives you a straight answer about what fits you best.
+          Providers will only promote and recommend their own funds. BetterSaver is independent, looks across the market, and gives you a straight answer about what fits you best.
         include_in_faq: true
       - title: How are KiwiSaver funds rated?
         content: |
