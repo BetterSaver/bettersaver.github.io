@@ -33,6 +33,9 @@ sections:
       - title: Is the government allowed to take my KiwiSaver?
         content: |
           No. Your KiwiSaver is held for you under a trust structure. Your provider manages it, but it is your money, and the government can not access it.
+      - title: I do not have KiwiSaver yet. How can I join?
+        content: |
+          You can join KiwiSaver by signing up directly with a provider or via BetterSaver. BetterSaver can help you choose a fund from the start, then guide you through joining based on your goals and risk comfort.
   - id: Contributions
     label: 'Contributions '
     items:
