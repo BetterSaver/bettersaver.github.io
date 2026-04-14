@@ -1,8 +1,72 @@
-User-agent: *
+# robots.txt for BetterSaver
+# https://bettersaver.co.nz/
+
 {{/* robotstxt.org - if ENV production variable is false robots will be disallowed. */ -}}
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  -}}
+
+# ===========================================
+# AI Crawler Permissions for AEO/GEO
+# ===========================================
+
+# OpenAI Crawlers
+User-agent: OAI-SearchBot
 Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude) Crawlers
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity Crawlers
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI Crawlers
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Bing & Microsoft Crawlers
+User-agent: Bingbot
+Allow: /
+
+# Other AI/Answer Engine Crawlers
+User-agent: CCBot
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+
+# Meta AI Crawlers
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# ===========================================
+# Default Rules
+# ===========================================
+
+User-agent: *
+Allow: /
+
+# ===========================================
+# Sitemap
+# ===========================================
+
 Sitemap: {{ "/sitemap.xml" | absURL }}
 {{ else -}}
+User-agent: *
 Disallow: /
 {{ end -}}
