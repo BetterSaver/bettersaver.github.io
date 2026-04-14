@@ -1,7 +1,8 @@
 baseURL = 'localhost:1313'
-languageCode = 'en-us'
+languageCode = 'en-nz'
 title = 'BetterSaver'
 theme = "bettersaver"
+enableRobotsTXT = true
 
 [params]
     appUrl = "http://localhost:4200"
@@ -51,7 +52,6 @@ theme = "bettersaver"
 [taxonomies]
   author = 'authors'
   tags = 'tags'
-  title = 'title'
 
 [related]
   includeNewer = true
@@ -114,6 +114,11 @@ theme = "bettersaver"
     [[menus.footer_left]]
     name = "How it works"
     url = "/pages/how-it-works"
+    weight = 2
+
+    [[menus.footer_left]]
+    name = "About us"
+    url = "/pages/about"
     weight = 3
 
     # [[menus.footer_left]]
@@ -132,12 +137,12 @@ theme = "bettersaver"
     url = "/pages/advice-disclosure"
     weight = 1
 
-    [[menus.footer_left]]
+    [[menus.footer_right]]
     name = "Terms & conditions"
     url = "/pages/terms-and-conditions"
     weight = 6
 
-    [[menus.footer_left]]
+    [[menus.footer_right]]
     name = "Privacy policy"
     url = "/pages/privacy-policy"
     weight = 7
