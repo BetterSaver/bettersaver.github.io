@@ -52,7 +52,6 @@ enableRobotsTXT = true
 [taxonomies]
   author = 'authors'
   tags = 'tags'
-  title = 'title'
 
 [related]
   includeNewer = true

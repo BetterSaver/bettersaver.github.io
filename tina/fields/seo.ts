@@ -50,6 +50,13 @@ const seoFields: TinaField[] = [
         description:
           "When enabled, search engines will not index this page.",
       },
+      {
+        type: "boolean",
+        name: "sitemap_exclude",
+        label: "Exclude from sitemap",
+        description:
+          "When enabled, this page will not appear in the sitemap.xml file.",
+      },
     ],
   },
 ];
