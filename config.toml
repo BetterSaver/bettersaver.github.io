@@ -1,5 +1,5 @@
 baseURL = 'localhost:1313'
-languageCode = 'en-us'
+languageCode = 'en-nz'
 title = 'BetterSaver'
 theme = "bettersaver"
 enableRobotsTXT = true
