@@ -1,9 +1,13 @@
 ---
 featured_image: /images/bg-joe.jpg
 page_block: block-about
-title: "We're here to help you get more from your KiwiSaver"
-date: 2022-10-10T03:00:00.000Z
 draft: false
+title: We're here to help you get more from your KiwiSaver
+date: 2022-10-10T03:00:00.000Z
+seo:
+  title: About
+  description: We're here to help you get more from your KiwiSaver
+  keywords: 'about us, joe taylor'
 ---
 
 Most KiwiSaver providers are great at showing you data that makes them look good. What they’re not so good at is helping you figure out whether you’re actually in the right fund for your future.
@@ -15,9 +19,9 @@ For many people, KiwiSaver is their largest asset outside their home. But despit
 
 BetterSaver is an independent advice platform. We are not a KiwiSaver provider, so we aren’t limited to recommending just one set of funds. We use independent data from Morningstar, alongside our own analysis, to match you to a KiwiSaver fund that fits your specific situation, including your life stage, risk comfort, and any personal preferences.
 
-- We’ve done the heavy lifting: We have already analysed over 300 KiwiSaver options, so you don’t have to.
-- Simple & Transparent: Answer a few straightforward questions and we will help you understand whether your current fund is the right fit, or if there is a better option for you.
-- No Jargon: We explain everything in plain English, so you can feel confident in your choices.
+* We’ve done the heavy lifting: We have already analysed over 300 KiwiSaver options, so you don’t have to.
+* Simple & Transparent: Answer a few straightforward questions and we will help you understand whether your current fund is the right fit, or if there is a better option for you.
+* No Jargon: We explain everything in plain English, so you can feel confident in your choices.
 
 ## Who We Are
 
