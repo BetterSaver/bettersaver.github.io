@@ -1,6 +1,6 @@
 ---
 title: "Pages"
 sitemap_exclude: true
-_build:
+build:
   render: false
 ---

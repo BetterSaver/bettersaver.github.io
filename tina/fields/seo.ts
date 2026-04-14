@@ -57,6 +57,22 @@ const seoFields: TinaField[] = [
         description:
           "When enabled, this page will not appear in the sitemap.xml file.",
       },
+      {
+        type: "string",
+        name: "schema_type",
+        label: "Schema.org Page Type",
+        description:
+          "Override the auto-detected schema type for this page. Leave blank for automatic detection.",
+        options: [
+          { value: "", label: "Auto-detect" },
+          { value: "Article", label: "Article" },
+          { value: "AboutPage", label: "About Page" },
+          { value: "ContactPage", label: "Contact Page" },
+          { value: "FAQPage", label: "FAQ Page" },
+          { value: "Service", label: "Service" },
+          { value: "WebPage", label: "Web Page" },
+        ],
+      },
     ],
   },
 ];
