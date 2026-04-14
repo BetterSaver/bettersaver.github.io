@@ -1,5 +1,6 @@
 ---
 title: How we analyse KiwiSaver funds
+sitemap_exclude: true
 ---
 
 This page is here for transparency. It shows what we look for, how we compare funds, and why a fund does or does not make our recommended list.

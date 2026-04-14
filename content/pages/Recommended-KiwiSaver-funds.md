@@ -1,5 +1,6 @@
 ---
 title: Recommended KiwiSaver funds
+sitemap_exclude: true
 ---
 
 # Recommended KiwiSaver funds

@@ -1,5 +1,6 @@
 ---
 title: How to join and switch KiwiSaver providers
+sitemap_exclude: true
 ---
 
 # How to join and switch KiwiSaver providers
