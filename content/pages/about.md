@@ -5,9 +5,11 @@ draft: false
 title: We're here to help you get more from your KiwiSaver
 date: 2022-10-10T03:00:00.000Z
 seo:
-  title: About
-  description: We're here to help you get more from your KiwiSaver
+  title: About Us | BetterSaver
+  description: |
+    Meet the team behind BetterSaver - independent KiwiSaver advice built on data, not provider interest.
   keywords: 'about us, joe taylor'
+  schema_type: AboutPage
 ---
 
 Most KiwiSaver providers are great at showing you data that makes them look good. What they’re not so good at is helping you figure out whether you’re actually in the right fund for your future.
