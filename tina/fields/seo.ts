@@ -44,6 +44,13 @@ const seoFields: TinaField[] = [
         description: "Describe the social share image for accessibility.",
       },
       {
+        type: "string",
+        name: "canonical",
+        label: "Canonical URL",
+        description:
+          "Override the canonical URL for this page. Leave blank to use the page's own URL. Use only when this page duplicates content from elsewhere.",
+      },
+      {
         type: "boolean",
         name: "noindex",
         label: "Hide from search engines",

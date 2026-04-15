@@ -12,6 +12,9 @@
 <meta name="keywords" content="{{ . }}">
 {{ end }}
 
+{{/* Canonical URL: seo.canonical override > page's own Permalink */}}
+<link rel="canonical" href="{{ with .Params.seo.canonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}">
+
 {{/* Robots: noindex override from seo fields */}}
 {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
 {{ $public := not .Params.private }}
