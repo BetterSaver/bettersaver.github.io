@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 tags:
   - kiwisaver contribution rates
   - ' kiwisaver employer contribution rate, how much to contribute to kiwisaver'
