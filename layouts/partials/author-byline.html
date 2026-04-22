@@ -34,7 +34,7 @@
     {{- end }}
     <span class="author-byline__text">
       {{- if $link -}}
-        <a href="{{ $link }}" class="author-byline__name-link" rel="noopener">{{ $name }}</a>
+        <a href="{{ $link }}" class="author-byline__name-link" rel="noopener" target="_blank">{{ $name }}</a>
       {{- else -}}
         <span class="author-byline__name">{{ $name }}</span>
       {{- end -}}
