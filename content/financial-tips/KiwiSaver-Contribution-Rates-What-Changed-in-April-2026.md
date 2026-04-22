@@ -80,27 +80,27 @@ Here are a few things to keep in mind about the government contribution:
 
 ## Frequently Asked Questions
 
-What are the current KiwiSaver contribution rate options?
+**What are the current KiwiSaver contribution rate options?**
 
 As of 1 April 2026, the available employee contribution rates are 3%, 3.5% (the new default), 4%, 6%, 8% and 10%.
 
-Does my employer have to match my contribution rate?
+**Does my employer have to match my contribution rate?**
 
 Not exactly. Employers must contribute a minimum of 3.5% from 1 April 2026. If you choose to contribute at a higher rate, your employer is only obligated to contribute 3.5%. Some choose to match higher rates, but this is voluntary and depends on your employment agreement.
 
-Can I change my contribution rate whenever I want?
+**Can I change my contribution rate whenever I want?**
 
 Yes. You can switch between the available rates (3%, 3.5%, 4%, 6%, 8% or 10%) at any time. Talk to your employer's payroll team or update your rate through your myIR account.
 
-Will the rate go up again?
+**Will the rate go up again?**
 
 Yes. The default rate is scheduled to [increase from 3.5% to 4%](https://www.ird.govt.nz/kiwisaver-changes) on 1 April 2028.
 
-I'm self-employed. Does this affect me?
+**I'm self-employed. Does this affect me?**
 
 The automatic rate change applies to employees whose contributions are deducted through payroll. If you're self-employed, you choose how much to contribute voluntarily and can adjust this at any time. The government contribution still applies if you meet the $1,042.86 annual threshold.
 
-How do I apply for a temporary rate reduction?
+**How do I apply for a temporary rate reduction?**
 
 You can apply through your [myIR account](https://www.ird.govt.nz/updates/news-folder/2026/changes-to-the-kiwisaver-contribution-rate) for a temporary reduction back to 3%. This lasts for a period of between 3 and 12 months. After that, your rate will go back to 3.5%.
 
