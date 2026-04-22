@@ -3,9 +3,12 @@ draft: false
 tags:
   - kiwisaver contribution rates
   - ' kiwisaver employer contribution rate, how much to contribute to kiwisaver'
-author: Joe Taylor
+date: 2026-04-01T00:00:00.000Z
+author: content/authors/joe-taylor.md
 title: 'KiwiSaver Contribution Rates: What Changed in April 2026'
-description: 'The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026. Here''s what this means for your pay, your employer and your retirement.'
+description: >-
+  The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026.
+  Here's what this means for your pay, your employer and your retirement.
 img_src: /uploads/iStock-1698144375.jpg
 ---
 

@@ -50,7 +50,6 @@ enableRobotsTXT = true
     ]
 
 [taxonomies]
-  author = 'authors'
   tags = 'tags'
 
 [related]
@@ -63,9 +62,6 @@ enableRobotsTXT = true
   [[related.indices]]
     name = 'title'
     weight = 2
-  [[related.indices]]
-    name = 'authors'
-    weight = 1
 
 [menus]
     [[menus.main]]

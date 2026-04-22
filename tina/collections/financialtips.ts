@@ -5,6 +5,10 @@ const FinancialTips: Collection = {
   name: "financialtips",
   label: "Financial Tips",
   path: "content/financial-tips",
+  defaultItem: () => ({
+    draft: true,
+    date: new Date().toISOString(),
+  }),
   fields: [
     {
       type: "boolean",
@@ -21,11 +25,15 @@ const FinancialTips: Collection = {
       type: "datetime",
       label: "Date",
       name: "date",
+      required: true,
+      description:
+        "Publication date. Shown on the article and summary card. Defaults to the current date when creating a new article.",
     },
     {
-      type: "string",
+      type: "reference",
       name: "author",
       label: "Author",
+      collections: ["authors"],
     },
     {
       type: "string",

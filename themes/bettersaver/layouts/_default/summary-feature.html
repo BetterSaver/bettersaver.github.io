@@ -13,9 +13,12 @@
 
         <div class="mb-4"><a href="{{ .RelPermalink }}" class="button">Read more</a></div>
 
+        {{- $dateMeta := "" -}}
+        {{- if not .Date.IsZero -}}
+          {{- $dateMeta = .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
+        {{- end -}}
         <div class="published">
-            <div>{{ .Params.author }}</div>
-            <small>{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}</small>
+            {{ partial "author-byline.html" (dict "page" . "variant" "card" "meta" $dateMeta) }}
         </div>
     </div>
 </div>
