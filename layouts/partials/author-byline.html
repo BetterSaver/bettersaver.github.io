@@ -1,0 +1,52 @@
+{{- /*
+  Renders the author byline for a page whose `.Params.author` is a TinaCMS
+  reference path like `content/authors/joe-taylor.md`.
+
+  Params:
+    page:    Page context (defaults to dot).
+    variant: "full" (default) | "compact" | "card".
+    meta:    Optional HTML string rendered below the name (e.g. formatted date).
+*/ -}}
+{{- $page := .page | default . -}}
+{{- $variant := .variant | default "full" -}}
+{{- $meta := .meta | default "" -}}
+{{- $authorRef := $page.Params.author -}}
+
+{{- $author := "" -}}
+{{- with $authorRef -}}
+  {{- $lookup := . | strings.TrimPrefix "content/" | strings.TrimSuffix ".md" -}}
+  {{- $author = site.GetPage $lookup -}}
+{{- end -}}
+
+{{- if $author -}}
+  {{- $name := $author.Params.name | default $author.Title -}}
+  {{- $img := $author.Params.profile_image -}}
+  {{- $link := $author.Params.link -}}
+  {{- $wrapperClass := printf "author-byline author-byline--%s" $variant -}}
+
+  <span class="{{ $wrapperClass }}">
+    {{- with $img -}}
+      {{- if $link -}}
+        <a href="{{ $link }}" class="author-byline__avatar-link" rel="noopener">
+      {{- end -}}
+      <img src="{{ . }}" alt="{{ $name }}" class="author-avatar" loading="lazy">
+      {{- if $link }}</a>{{ end -}}
+    {{- end }}
+    <span class="author-byline__text">
+      {{- if $link -}}
+        <a href="{{ $link }}" class="author-byline__name-link" rel="noopener" target="_blank">{{ $name }}</a>
+      {{- else -}}
+        <span class="author-byline__name">{{ $name }}</span>
+      {{- end -}}
+      {{- with $meta }}<span class="author-byline__meta">{{ . | safeHTML }}</span>{{ end -}}
+    </span>
+  </span>
+{{- else if $authorRef -}}
+  {{- /* Fallback: front matter still holds a plain string name. */ -}}
+  <span class="author-byline author-byline--{{ $variant }}">
+    <span class="author-byline__text">
+      <span class="author-byline__name">{{ $authorRef }}</span>
+      {{- with $meta }}<span class="author-byline__meta">{{ . | safeHTML }}</span>{{ end -}}
+    </span>
+  </span>
+{{- end -}}

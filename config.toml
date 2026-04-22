@@ -50,7 +50,6 @@ enableRobotsTXT = true
     ]
 
 [taxonomies]
-  author = 'authors'
   tags = 'tags'
 
 [related]
@@ -63,9 +62,6 @@ enableRobotsTXT = true
   [[related.indices]]
     name = 'title'
     weight = 2
-  [[related.indices]]
-    name = 'authors'
-    weight = 1
 
 [menus]
     [[menus.main]]
@@ -78,10 +74,10 @@ enableRobotsTXT = true
     url = "/pages/about"
     weight = 2
 
-    # [[menus.main]]
-    # name = "Financial tips"
-    # url = "/financial-tips"
-    # weight = 2
+    [[menus.main]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 2
 
     [[menus.main]]
     name = "Sign in"
@@ -121,10 +117,10 @@ enableRobotsTXT = true
     url = "/pages/about"
     weight = 3
 
-    # [[menus.footer_left]]
-    # name = "Financial tips"
-    # url = "/financial-tips"
-    # weight = 4
+    [[menus.footer_left]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 4
 
     [[menus.footer_left]]
     name = "My account"
