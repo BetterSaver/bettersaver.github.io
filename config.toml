@@ -78,10 +78,10 @@ enableRobotsTXT = true
     url = "/pages/about"
     weight = 2
 
-    # [[menus.main]]
-    # name = "Financial tips"
-    # url = "/financial-tips"
-    # weight = 2
+    [[menus.main]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 2
 
     [[menus.main]]
     name = "Sign in"
@@ -121,10 +121,10 @@ enableRobotsTXT = true
     url = "/pages/about"
     weight = 3
 
-    # [[menus.footer_left]]
-    # name = "Financial tips"
-    # url = "/financial-tips"
-    # weight = 4
+    [[menus.footer_left]]
+    name = "Financial tips"
+    url = "/financial-tips"
+    weight = 4
 
     [[menus.footer_left]]
     name = "My account"
