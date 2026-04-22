@@ -34,8 +34,7 @@ However, the latter is subject to Employer Superannuation Contribution Tax (ESCT
 
 Whether the increase affects you depends on the rate you were already contributing at.
 
-If you were on the default 3% rate: Your rate has automatically increased to 3.5%. You'll see a slightly bigger deduction on your payslip and a slightly bigger employer contribution going into your KiwiSaver account.
-
+* If you were on the default 3% rate: Your rate has automatically increased to 3.5%. You'll see a slightly bigger deduction on your payslip and a slightly bigger employer contribution going into your KiwiSaver account.
 * If you were already contributing 4%, 5%, 8% or 10%: Your employee contribution rate stays the same. But if your employer was contributing the minimum 3%, their contribution has now increased to 3.5%, so you might still benefit from the change in that way.
 * If you’re self-employed or not currently working: The automatic employee/employer rate change doesn't directly apply to you, since there's no payroll deduction. You can still make voluntary contributions at whichever level you choose, and the government contribution still applies.
 * If you’re on a savings suspension (a contributions holiday): The new rate will apply when your suspension ends and contributions start up again.
