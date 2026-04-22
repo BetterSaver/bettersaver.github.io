@@ -6,13 +6,11 @@ tags:
 date: 2026-04-01T00:00:00.000Z
 author: content/authors/joe-taylor.md
 title: 'KiwiSaver Contribution Rates: What Changed in April 2026'
-description: >-
-  The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026.
-  Here's what this means for your pay, your employer and your retirement.
+description: 'The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026. Here''s what this means for your pay, your employer and your retirement.'
 img_src: /uploads/iStock-1698144375.jpg
 ---
 
-# KiwiSaver Contribution Rates Have Changed: What the Update Means for You
+## KiwiSaver Contribution Rates Have Changed: What the Update Means for You
 
 On 1 April 2026, the default KiwiSaver contribution rate increased from 3% to 3.5% for both employees and employers. If you're on the default rate, the change happens automatically with no forms, no phone calls and no action needed from you.
 
@@ -36,8 +34,7 @@ However, the latter is subject to Employer Superannuation Contribution Tax (ESCT
 
 Whether the increase affects you depends on the rate you were already contributing at.
 
-If you were on the default 3% rate: Your rate has automatically increased to 3.5%. You'll see a slightly bigger deduction on your payslip and a slightly bigger employer contribution going into your KiwiSaver account.
-
+* If you were on the default 3% rate: Your rate has automatically increased to 3.5%. You'll see a slightly bigger deduction on your payslip and a slightly bigger employer contribution going into your KiwiSaver account.
 * If you were already contributing 4%, 5%, 8% or 10%: Your employee contribution rate stays the same. But if your employer was contributing the minimum 3%, their contribution has now increased to 3.5%, so you might still benefit from the change in that way.
 * If you’re self-employed or not currently working: The automatic employee/employer rate change doesn't directly apply to you, since there's no payroll deduction. You can still make voluntary contributions at whichever level you choose, and the government contribution still applies.
 * If you’re on a savings suspension (a contributions holiday): The new rate will apply when your suspension ends and contributions start up again.
@@ -82,27 +79,27 @@ Here are a few things to keep in mind about the government contribution:
 
 ## Frequently Asked Questions
 
-What are the current KiwiSaver contribution rate options?
+**What are the current KiwiSaver contribution rate options?**
 
 As of 1 April 2026, the available employee contribution rates are 3%, 3.5% (the new default), 4%, 6%, 8% and 10%.
 
-Does my employer have to match my contribution rate?
+**Does my employer have to match my contribution rate?**
 
 Not exactly. Employers must contribute a minimum of 3.5% from 1 April 2026. If you choose to contribute at a higher rate, your employer is only obligated to contribute 3.5%. Some choose to match higher rates, but this is voluntary and depends on your employment agreement.
 
-Can I change my contribution rate whenever I want?
+**Can I change my contribution rate whenever I want?**
 
 Yes. You can switch between the available rates (3%, 3.5%, 4%, 6%, 8% or 10%) at any time. Talk to your employer's payroll team or update your rate through your myIR account.
 
-Will the rate go up again?
+**Will the rate go up again?**
 
 Yes. The default rate is scheduled to [increase from 3.5% to 4%](https://www.ird.govt.nz/kiwisaver-changes) on 1 April 2028.
 
-I'm self-employed. Does this affect me?
+**I'm self-employed. Does this affect me?**
 
 The automatic rate change applies to employees whose contributions are deducted through payroll. If you're self-employed, you choose how much to contribute voluntarily and can adjust this at any time. The government contribution still applies if you meet the $1,042.86 annual threshold.
 
-How do I apply for a temporary rate reduction?
+**How do I apply for a temporary rate reduction?**
 
 You can apply through your [myIR account](https://www.ird.govt.nz/updates/news-folder/2026/changes-to-the-kiwisaver-contribution-rate) for a temporary reduction back to 3%. This lasts for a period of between 3 and 12 months. After that, your rate will go back to 3.5%.
 
