@@ -23,7 +23,7 @@ We only give financial advice about KiwiSaver. This includes:
 
 •	Handling the switch to your new provider if you choose to move.
 
-We do not provide advice about other investments, insurance, or lending products. Our advice may be personalised (specific to you) or class advice (general KiwiSaver guidance that does not take your circumstances into account).
+We do not provide advice about other investments, insurance, or lending products.
 
 ##### &#xA;**How we work**
 
