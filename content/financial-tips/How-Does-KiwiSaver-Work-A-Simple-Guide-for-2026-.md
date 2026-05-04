@@ -14,11 +14,11 @@ img_src: /uploads/iStock-1031307498.jpg
 
 Most New Zealanders are in KiwiSaver, but a lot of people don’t fully understand how it works.
 
-It’s pretty common to have never looked closely at your plan or to be unsure about what happens to your money once it leaves your pay. 
+It’s pretty common to have never looked closely at your plan or to be unsure about what happens to your money once it leaves your pay.
 
 KiwiSaver is one of the most powerful financial tools available to us, but it’s also one of the least understood.
 
-This guide explains how it all works in plain language. You’ll learn how to join KiwiSaver, how much you and your employer contribute, what the government adds and how your money is invested. 
+This guide explains how it all works in plain language. You’ll learn how to join KiwiSaver, how much you and your employer contribute, what the government adds and how your money is invested.
 
 You’ll also find out whether your KiwiSaver is set up the right way, and what to do if it’s not.
 
@@ -26,11 +26,11 @@ You’ll also find out whether your KiwiSaver is set up the right way, and what 
 
 KiwiSaver is a voluntary, work-based savings scheme that the New Zealand government set up in 2007. It's designed to help you save for two things: retirement and, in some cases, your first home.
 
-The scheme works by pooling together money from your pay, your employer’s contribution and the government. 
+The scheme works by pooling together money from your pay, your employer’s contribution and the government.
 
 The money is then invested on your behalf through a KiwiSaver provider. Your provider manages the money in a fund of your choice (or one that's been chosen for you), and over time, your balance grows from the contributions and investment returns.
 
-Explained simply: you put money in, your employer puts money in, the government puts money in and it all gets invested to grow over time. 
+Explained simply: you put money in, your employer puts money in, the government puts money in and it all gets invested to grow over time.
 
 ## How to Join KiwiSaver
 
@@ -104,13 +104,13 @@ Are you saving for retirement, a first home or both? If you're building towards 
 
 #### Your Timeline
 
-How long until you’re planning to use the money? If you're decades from retirement, you generally have time to ride out market ups and downs, which means a growth fund might work in your favour. 
+How long until you’re planning to use the money? If you're decades from retirement, you generally have time to ride out market ups and downs, which means a growth fund might work in your favour.
 
 If you're planning to buy a first home in the next few years, a more conservative fund might be better to protect what you've saved.
 
 #### Your Comfort with Risk
 
-All investments involve some level of risk. A growth fund will usually deliver higher returns over the long term, but your balance will fluctuate more along the way. That can be unsettling if you're not expecting it. 
+All investments involve some level of risk. A growth fund will usually deliver higher returns over the long term, but your balance will fluctuate more along the way. That can be unsettling if you're not expecting it.
 
 A conservative fund is more stable but grows more slowly. Understanding how comfortable you are with those ups and downs helps you to decide which fund type you’d prefer.
 
@@ -122,29 +122,29 @@ This is where many Kiwis get stuck, and it's exactly the kind of decision Better
 
 ## Frequently Asked Questions
 
-#### Can I withdraw my KiwiSaver before retirement?
+**Can I withdraw my KiwiSaver before retirement?**
 
 In most cases, your KiwiSaver is locked in until you turn 65. The main exceptions are a first home purchase (you need to have been a member for at least three years), [significant financial hardship](https://sorted.org.nz/guides/kiwisaver/applying-for-a-kiwisaver-hardship-withdrawal/) or serious illness. When you do withdraw, the money is tax-free.
 
-#### What happens to my KiwiSaver if I change jobs?
+**What happens to my KiwiSaver if I change jobs?**
 
 Your KiwiSaver account moves with you. When you start a new job, your new employer will start making contributions to the same account. You don't need to do anything other than provide your KiwiSaver details to your new employer.
 
-#### Can I pause my KiwiSaver contributions?
+**Can I pause my KiwiSaver contributions?**
 
 Yes. You can apply for a savings suspension (also called a contributions holiday) through [Inland Revenue](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works). This pauses your employee contributions for between 3 and 12 months. Keep in mind that while your contributions are paused, your employer contributions also stop, and you could miss out on the full government contribution for that year.
 
-#### Is it too late to join KiwiSaver?
+**Is it too late to join KiwiSaver?**
 
 No. You can join at any age, and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution.
 
-#### How do I know if I'm in the right fund?
+**How do I know if I'm in the right fund?**
 
 If you've never actively chosen a fund, there's a good chance you're in a default fund that might not match your goals or timeline. The simplest way to check is to take BetterSaver's [fund finder quiz](https://bettersaver.co.nz/). It gives you a personalised recommendation based on your specific situation.
 
-#### How much should a 30 year old have in KiwiSaver?
+**How much should a 30 year old have in KiwiSaver?**
 
-There's no single answer, because it depends on when you joined, your contribution rate and your fund's returns. As a rough guide, if you've been contributing since your early twenties at the default rate, a balance of around $20,000 by age 30 is a reasonable benchmark. 
+There's no single answer, because it depends on when you joined, your contribution rate and your fund's returns. As a rough guide, if you've been contributing since your early twenties at the default rate, a balance of around $20,000 by age 30 is a reasonable benchmark.
 
 But the more important question is whether you're in the right fund and contributing enough going forward. That's what will make the biggest difference to your balance at retirement.
 
