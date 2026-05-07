@@ -1,5 +1,5 @@
 ---
-featured_image: /images/bg-joe.jpg
+featured_image: /images/how-we-analyse.jpg
 page_block: block-how-we-analyse
 draft: false
 title: How we analyse KiwiSaver options

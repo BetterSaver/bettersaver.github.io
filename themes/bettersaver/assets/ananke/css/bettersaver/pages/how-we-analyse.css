@@ -1,32 +1,8 @@
 /* "How we analyse" page — scoped under .how-we-analyse-page */
 
 .how-we-analyse-page {
-    --hwa-navy: #242E54;
-    --hwa-navy-80: rgba(36, 46, 84, .8);
-    --hwa-navy-70: rgba(36, 46, 84, .7);
-    --hwa-navy-55: rgba(36, 46, 84, .55);
-    --hwa-navy-15: rgba(36, 46, 84, .12);
-    --hwa-navy-6: rgba(36, 46, 84, .06);
-    --hwa-link: #0042C5;
-    --hwa-purple: #9966FF;
-    --hwa-purple-contrast: #7331F5;
-    --hwa-baby: #7DBEFF;
-    --hwa-baby-soft: #E0EEFF;
-    --hwa-happy: #003399;
-    --hwa-green: #00AC5B;
-    --hwa-green-soft: #E3F6ED;
-    --hwa-amber: #E89B2E;
-    --hwa-rose: #D55A5A;
-    --hwa-rose-soft: #FADFDF;
-    --hwa-paper: #FAF8F4;
-    --hwa-rule: rgba(36, 46, 84, .12);
-    --hwa-rule-soft: rgba(36, 46, 84, .07);
-    --hwa-sans: 'GeneralSans-Regular', system-ui, -apple-system, sans-serif;
-    --hwa-mono: ui-monospace, 'JetBrains Mono', monospace;
-    --hwa-serif: 'BureauSerif', Georgia, serif;
-
-    color: var(--hwa-navy);
-    font-family: var(--hwa-sans);
+    color: var(--blue-navy);
+    font-family: 'GeneralSans-Regular', sans-serif;
     line-height: 1.55;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
@@ -38,7 +14,7 @@
 }
 
 .how-we-analyse-page a {
-    color: var(--hwa-link);
+    color: var(--link);
     text-decoration: none;
 }
 
@@ -53,12 +29,12 @@
 }
 
 .how-we-analyse-page h2 {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 48px;
     font-weight: 500;
     letter-spacing: -.025em;
     line-height: 1.05;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     max-width: 780px;
     text-wrap: pretty;
     margin: 0 0 14px 0;
@@ -69,12 +45,12 @@
 }
 
 .how-we-analyse-page h3 {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 26px;
     font-weight: 500;
     letter-spacing: -.015em;
     line-height: 1.15;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     margin: 0;
 }
 
@@ -94,7 +70,7 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .16em;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     margin-bottom: 16px;
     display: inline-flex;
     align-items: center;
@@ -105,7 +81,7 @@
     content: '';
     width: 20px;
     height: 1px;
-    background: var(--hwa-navy-55);
+    background: var(--grey-light);
 }
 
 /* ======== BANDS ======== */
@@ -117,7 +93,7 @@
 }
 
 .how-we-analyse-page .band-cream {
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     padding: 96px 0;
 }
 
@@ -132,8 +108,8 @@
     justify-content: space-between;
     gap: 48px;
     padding: 32px 0;
-    border-top: 1px solid var(--hwa-rule-soft);
-    border-bottom: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
+    border-bottom: 1px solid var(--grey-bg-mid);
     flex-wrap: wrap;
 }
 
@@ -141,22 +117,30 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .14em;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     flex-shrink: 0;
 }
 
 .how-we-analyse-page .trust-logos {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    gap: 40px;
+    text-align: center;
+    gap: 14px;
     flex-wrap: wrap;
+}
+
+.how-we-analyse-page .t-logo img {
+    max-height: 40px;
+    display: block;
+    margin-left: auto;
 }
 
 .how-we-analyse-page .t-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .t-logo .mk-m {
@@ -168,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-weight: 600;
     font-size: 17px;
 }
@@ -177,12 +161,12 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-weight: 500;
     font-size: 11px;
 }
@@ -191,19 +175,19 @@
     width: 30px;
     height: 30px;
     border-radius: 6px;
-    background: var(--hwa-paper);
-    color: var(--hwa-navy);
+    background: var(--grey-bg-light);
+    color: var(--blue-navy);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-weight: 500;
     font-size: 13px;
-    border: 1px solid var(--hwa-rule);
+    border: 1px solid var(--grey-bg-dark);
 }
 
 .how-we-analyse-page .t-logo .tx {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -.005em;
@@ -218,11 +202,11 @@
 }
 
 .how-we-analyse-page .framing-body {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.3;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     letter-spacing: -.015em;
     text-wrap: pretty;
     margin-bottom: 24px;
@@ -234,12 +218,12 @@
 
 .how-we-analyse-page .framing-body strong {
     font-weight: 400;
-    background: linear-gradient(transparent 62%, rgba(125, 190, 255, .5) 62%);
+    color: var(--purple-contrast);
 }
 
 /* ======== PRINCIPLES ======== */
 .how-we-analyse-page .principles-head {
-    max-width: 720px;
+    /* max-width: 720px; */
     margin-bottom: 48px;
 }
 
@@ -249,9 +233,9 @@
 
 .how-we-analyse-page .principles-head p {
     font-size: 17px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.55;
-    max-width: 580px;
+    max-width: 680px;
 }
 
 .how-we-analyse-page .principles {
@@ -268,23 +252,23 @@
     flex-direction: column;
     gap: 16px;
     min-height: 340px;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     position: relative;
     overflow: hidden;
 }
 
 .how-we-analyse-page .principle .p-num {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 56px;
     font-weight: 400;
     line-height: .85;
     letter-spacing: -.03em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .principle .p-num em {
     font-style: italic;
-    color: var(--hwa-purple-contrast);
+    color: var(--purple-contrast);
 }
 
 .how-we-analyse-page .principle h3 {
@@ -295,19 +279,19 @@
 .how-we-analyse-page .principle p {
     font-size: 14.5px;
     line-height: 1.6;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     text-wrap: pretty;
 }
 
 .how-we-analyse-page .principle p strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 600;
 }
 
 .how-we-analyse-page .principle .p-viz {
     margin-top: auto;
     padding-top: 18px;
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
 }
 
 /* mini risk group chips */
@@ -323,9 +307,9 @@
     letter-spacing: .1em;
     padding: 5px 8px;
     border-radius: 999px;
-    background: var(--hwa-paper);
-    border: 1px solid var(--hwa-rule-soft);
-    color: var(--hwa-navy-70);
+    background: var(--grey-bg-light);
+    border: 1px solid var(--grey-bg-mid);
+    color: var(--grey-mid);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -344,9 +328,9 @@
 .how-we-analyse-page .risk-chip.aggressive .d { background: #D55A5A; }
 
 .how-we-analyse-page .risk-chip.sel {
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
-    border-color: var(--hwa-navy);
+    border-color: var(--blue-navy);
 }
 
 /* timeline viz */
@@ -364,12 +348,12 @@
     font-size: 9.5px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
 }
 
 .how-we-analyse-page .tl-bar .bar {
     height: 6px;
-    background: var(--hwa-rule);
+    background: var(--grey-bg-dark);
     border-radius: 999px;
     overflow: hidden;
     position: relative;
@@ -378,13 +362,13 @@
 .how-we-analyse-page .tl-bar .bar span {
     display: block;
     height: 100%;
-    background: var(--hwa-navy-15);
+    background: var(--grey-bg-dark);
     border-radius: 999px;
 }
 
-.how-we-analyse-page .tl-bar.ok .bar span { background: var(--hwa-green); width: 100%; }
-.how-we-analyse-page .tl-bar.cautious .bar span { background: var(--hwa-amber); width: 60%; }
-.how-we-analyse-page .tl-bar.excluded .bar span { background: var(--hwa-rose); width: 25%; }
+.how-we-analyse-page .tl-bar.ok .bar span { background: var(--utility-green-dark); width: 100%; }
+.how-we-analyse-page .tl-bar.cautious .bar span { background: var(--utility-orange-dark); width: 60%; }
+.how-we-analyse-page .tl-bar.excluded .bar span { background: var(--utility-red); width: 25%; }
 
 /* criteria viz */
 .how-we-analyse-page .crit-dots {
@@ -403,22 +387,22 @@
 .how-we-analyse-page .crit-dot .c {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background: var(--hwa-baby-soft);
-    color: var(--hwa-happy);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-weight: 500;
     font-size: 14px;
+    border-radius: 50%;
+    color: var(--purple-contrast);
+    border: 1px solid var(--purple-contrast);
 }
 
 .how-we-analyse-page .crit-dot .l {
     font-size: 8.5px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     text-align: center;
     line-height: 1.2;
 }
@@ -435,7 +419,7 @@
 
 .how-we-analyse-page .checks-head p {
     font-size: 17px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.6;
     max-width: 640px;
 }
@@ -452,7 +436,7 @@
 .how-we-analyse-page .deep.flip .deep-visual { order: 1; }
 
 .how-we-analyse-page .deep + .deep {
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .deep-copy .tagrow {
@@ -463,17 +447,17 @@
 }
 
 .how-we-analyse-page .deep-copy .big-num {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 72px;
     line-height: .85;
     letter-spacing: -.04em;
     font-weight: 400;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .deep-copy .big-num em {
     font-style: italic;
-    color: var(--hwa-purple-contrast);
+    color: var(--purple-contrast);
 }
 
 .how-we-analyse-page .deep-copy h2 {
@@ -483,26 +467,26 @@
 
 .how-we-analyse-page .deep-copy > p.intro {
     font-size: 16.5px;
-    color: var(--hwa-navy-80);
+    color: var(--grey-mid);
     line-height: 1.6;
     margin-bottom: 22px;
     max-width: 480px;
 }
 
 .how-we-analyse-page .deep-copy > p.intro strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 500;
 }
 
 .how-we-analyse-page .deep-copy .kicker {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-style: italic;
     font-size: 17px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.4;
     margin-top: 18px;
     padding-left: 14px;
-    border-left: 2px solid var(--hwa-baby);
+    border-left: 2px solid var(--blue-baby);
 }
 
 .how-we-analyse-page .micro-list {
@@ -510,7 +494,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
     padding: 18px 0 0 0;
     margin: 0;
 }
@@ -527,8 +511,8 @@
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: var(--hwa-baby-soft);
-    color: var(--hwa-happy);
+    background: var(--purple);
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -540,19 +524,19 @@
 
 .how-we-analyse-page .micro-list li p {
     font-size: 14.5px;
-    color: var(--hwa-navy-80);
+    color: var(--grey-mid);
     line-height: 1.55;
 }
 
 .how-we-analyse-page .micro-list li p strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 600;
 }
 
 /* visual frames */
 .how-we-analyse-page .vframe {
     background: #fff;
-    border: 1px solid var(--hwa-rule);
+    border: 1px solid var(--grey-bg-dark);
     border-radius: 24px;
     padding: 28px;
     box-shadow: 0 20px 40px -20px rgba(36, 46, 84, .2), 0 4px 12px -6px rgba(36, 46, 84, .1);
@@ -575,21 +559,21 @@
     font-size: 10.5px;
     letter-spacing: .14em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
 }
 
 .how-we-analyse-page .vframe .v-sub {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 22px;
     letter-spacing: -.01em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .vframe .v-meta {
     font-size: 10px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
 }
 
 .how-we-analyse-page .deep-visual {
@@ -601,7 +585,7 @@
     position: absolute;
     inset: 12px;
     border-radius: 32px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     z-index: 0;
 }
 
@@ -630,7 +614,7 @@
     font-size: 9px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     display: flex;
     justify-content: space-between;
     margin-top: 6px;
@@ -643,7 +627,7 @@
     font-size: 10px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
 }
 
 .how-we-analyse-page .perf-legend .sw {
@@ -661,7 +645,7 @@
     gap: 8px;
     margin-top: 14px;
     padding-top: 14px;
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .perf-stats .s {
@@ -674,19 +658,19 @@
     font-size: 9px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
 }
 
 .how-we-analyse-page .perf-stats .s .v {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 18px;
     letter-spacing: -.01em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .perf-stats .s .v em {
     font-style: italic;
-    color: var(--hwa-purple-contrast);
+    color: var(--purple-contrast);
 }
 
 /* fee ladder viz */
@@ -707,47 +691,47 @@
     font-size: 10px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
 }
 
 .how-we-analyse-page .fee-row .track {
     height: 14px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     border-radius: 999px;
     position: relative;
     overflow: hidden;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .fee-row .fill {
     height: 100%;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--hwa-baby) 0%, var(--hwa-purple) 100%);
+    background: linear-gradient(90deg, var(--blue-baby) 0%, var(--purple) 100%);
 }
 
 .how-we-analyse-page .fee-row .val {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 15px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     text-align: right;
     letter-spacing: -.005em;
 }
 
 .how-we-analyse-page .fee-row.hi .fill {
-    background: linear-gradient(90deg, var(--hwa-amber) 0%, var(--hwa-rose) 100%);
+    background: linear-gradient(90deg, var(--utility-orange-dark) 0%, var(--utility-red) 100%);
 }
 
 .how-we-analyse-page .fee-row.peer .fill {
-    background: var(--hwa-navy-15);
+    background: var(--grey-bg-dark);
 }
 
 .how-we-analyse-page .fee-caption {
     margin-top: 14px;
     padding-top: 14px;
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
     font-size: 13px;
-    color: var(--hwa-navy-70);
-    font-family: var(--hwa-serif);
+    color: var(--grey-mid);
+    font-family: 'BureauSerif', serif;
     font-style: italic;
     line-height: 1.4;
 }
@@ -767,16 +751,16 @@
     font-size: 10px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
 }
 
 .how-we-analyse-page .dd-row .trough {
     height: 22px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     border-radius: 6px;
     position: relative;
     overflow: hidden;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .dd-row .trough .dip {
@@ -784,25 +768,25 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: var(--hwa-rose-soft);
-    border-left: 2px solid var(--hwa-rose);
+    background: #FADFDF;
+    border-left: 2px solid var(--utility-red);
 }
 
 .how-we-analyse-page .dd-row.peer .trough .dip {
-    background: var(--hwa-navy-6);
-    border-left: 2px solid var(--hwa-navy-15);
+    background: var(--grey-bg-mid);
+    border-left: 2px solid var(--grey-bg-dark);
 }
 
 .how-we-analyse-page .dd-row .val {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 15px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     text-align: right;
     letter-spacing: -.005em;
 }
 
 .how-we-analyse-page .dd-row.good .val {
-    color: var(--hwa-green);
+    color: var(--utility-green-dark);
 }
 
 /* quality checklist */
@@ -818,16 +802,16 @@
     gap: 12px;
     align-items: center;
     padding: 10px 12px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     border-radius: 10px;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .ql-item .check {
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: var(--hwa-green);
+    background: var(--utility-green-dark);
     color: #fff;
     display: flex;
     align-items: center;
@@ -838,7 +822,7 @@
 
 .how-we-analyse-page .ql-item .label {
     font-size: 13px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     line-height: 1.35;
 }
 
@@ -846,7 +830,7 @@
     font-size: 9.5px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
 }
 
 /* ======== QUOTE ANCHOR ======== */
@@ -858,22 +842,22 @@
 }
 
 .how-we-analyse-page .quote-anchor .mark {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-style: italic;
     font-size: 88px;
     line-height: .4;
-    color: var(--hwa-baby);
+    color: var(--blue-baby);
     height: 40px;
     display: block;
 }
 
 .how-we-analyse-page .quote-anchor .body {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -.02em;
     line-height: 1.2;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     text-wrap: pretty;
 }
 
@@ -888,7 +872,7 @@
 .how-we-analyse-page .weighting-table-wrap {
     max-width: 760px;
     margin: 0 auto;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     border-radius: 16px;
     overflow: hidden;
 }
@@ -900,15 +884,15 @@
 }
 
 .how-we-analyse-page .weighting-table thead tr {
-    background: var(--hwa-paper);
-    border-bottom: 1px solid var(--hwa-rule-soft);
+    background: var(--grey-bg-light);
+    border-bottom: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .weighting-table th {
     text-align: right;
     padding: 14px 12px;
     font-weight: 600;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .weighting-table th:first-child {
@@ -921,7 +905,7 @@
 }
 
 .how-we-analyse-page .weighting-table tbody tr {
-    border-bottom: 1px solid var(--hwa-rule-soft);
+    border-bottom: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .weighting-table tbody tr:last-child {
@@ -931,7 +915,7 @@
 .how-we-analyse-page .weighting-table td {
     text-align: right;
     padding: 12px 12px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
 }
 
 .how-we-analyse-page .weighting-table td:first-child {
@@ -953,7 +937,7 @@
 
 .how-we-analyse-page .grades-head p {
     font-size: 17px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.6;
     max-width: 640px;
 }
@@ -967,7 +951,7 @@
 
 .how-we-analyse-page .gcard {
     background: #fff;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 28px 26px 26px;
     display: flex;
@@ -984,14 +968,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 28px;
     font-weight: 400;
     letter-spacing: -.02em;
     color: #fff;
 }
 
-.how-we-analyse-page .gcard.aplus .gbadge { background: var(--hwa-navy); }
+.how-we-analyse-page .gcard.aplus .gbadge { background: var(--blue-navy); }
 .how-we-analyse-page .gcard.a .gbadge { background: #3E4E8A; }
 .how-we-analyse-page .gcard.b .gbadge { background: #6A7AB7; }
 
@@ -1001,7 +985,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--hwa-green-soft);
+    background: #E3F6ED;
     color: #007A3A;
     font-size: 10px;
     padding: 4px 9px;
@@ -1016,28 +1000,28 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background: var(--hwa-green);
+    background: var(--utility-green-dark);
 }
 
 .how-we-analyse-page .gcard .glabel {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 22px;
     letter-spacing: -.015em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 400;
     line-height: 1.15;
 }
 
 .how-we-analyse-page .gcard .gdesc {
     font-size: 14px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.5;
     margin-top: auto;
 }
 
 .how-we-analyse-page .grades-low {
     background: #fff;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 28px 30px;
     display: flex;
@@ -1046,17 +1030,17 @@
 }
 
 .how-we-analyse-page .grades-low .title {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 22px;
     letter-spacing: -.015em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     line-height: 1.25;
     font-weight: 400;
 }
 
 .how-we-analyse-page .grades-low .title em {
     font-style: italic;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
 }
 
 .how-we-analyse-page .nr-band {
@@ -1065,9 +1049,9 @@
     gap: 32px;
     align-items: center;
     padding: 22px 24px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     border-radius: 16px;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .nr-band-left {
@@ -1082,13 +1066,13 @@
     align-items: center;
     gap: 10px;
     background: #fff;
-    border: 1.5px solid var(--hwa-navy);
+    border: 1.5px solid var(--blue-navy);
     border-radius: 999px;
     padding: 6px 14px 6px 6px;
 }
 
 .how-we-analyse-page .nr-pill-tag {
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
     font-size: 11px;
     font-weight: 600;
@@ -1099,7 +1083,7 @@
 
 .how-we-analyse-page .nr-pill-lab {
     font-size: 13px;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 500;
     letter-spacing: -.005em;
 }
@@ -1114,10 +1098,10 @@
     height: 26px;
     border-radius: 8px;
     background: #fff;
-    border: 1px solid var(--hwa-rule-soft);
-    font-family: var(--hwa-serif);
+    border: 1px solid var(--grey-bg-mid);
+    font-family: 'BureauSerif', serif;
     font-size: 13px;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1127,20 +1111,20 @@
 .how-we-analyse-page .nr-band-right p {
     font-size: 15px;
     line-height: 1.55;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
 }
 
 .how-we-analyse-page .nr-band-right p strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 500;
 }
 
 .how-we-analyse-page .nr-band-right .nr-note {
     margin-top: 10px;
     padding-top: 12px;
-    border-top: 1px dashed var(--hwa-navy-15);
+    border-top: 1px dashed var(--grey-bg-dark);
     font-size: 13.5px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     display: flex;
     gap: 10px;
     align-items: flex-start;
@@ -1151,9 +1135,9 @@
     font-size: 9.5px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     background: #fff;
-    border: 1px solid var(--hwa-navy-15);
+    border: 1px solid var(--grey-bg-dark);
     padding: 3px 8px;
     border-radius: 6px;
     font-weight: 500;
@@ -1163,7 +1147,7 @@
 .how-we-analyse-page .grades-callout {
     margin-top: 40px;
     background: #fff;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 36px;
     display: grid;
@@ -1173,10 +1157,10 @@
 }
 
 .how-we-analyse-page .grades-callout .h {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 28px;
     letter-spacing: -.02em;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     line-height: 1.2;
     font-weight: 400;
 }
@@ -1188,7 +1172,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    border-left: 1px solid var(--hwa-rule-soft);
+    border-left: 1px solid var(--grey-bg-mid);
     padding: 0 0 0 28px;
     margin: 0;
 }
@@ -1206,18 +1190,18 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: var(--hwa-navy-15);
+    background: var(--grey-bg-dark);
     margin-top: 9px;
 }
 
 .how-we-analyse-page .grades-callout ul li p {
     font-size: 14.5px;
-    color: var(--hwa-navy-80);
+    color: var(--grey-mid);
     line-height: 1.55;
 }
 
 .how-we-analyse-page .grades-callout ul li p strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 600;
 }
 
@@ -1230,7 +1214,7 @@
 
 .how-we-analyse-page .tcard {
     background: #fff;
-    border: 1px solid var(--hwa-rule-soft);
+    border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 36px 34px;
     display: flex;
@@ -1242,7 +1226,7 @@
     font-size: 10.5px;
     letter-spacing: .14em;
     text-transform: uppercase;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -1252,7 +1236,7 @@
     content: '';
     width: 16px;
     height: 1px;
-    background: var(--hwa-navy-55);
+    background: var(--grey-light);
 }
 
 .how-we-analyse-page .tcard h3 {
@@ -1261,12 +1245,12 @@
 
 .how-we-analyse-page .tcard p {
     font-size: 15px;
-    color: var(--hwa-navy-80);
+    color: var(--grey-mid);
     line-height: 1.6;
 }
 
 .how-we-analyse-page .tcard p strong {
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     font-weight: 600;
 }
 
@@ -1283,28 +1267,28 @@
     gap: 12px;
     align-items: center;
     padding: 10px 14px;
-    background: var(--hwa-paper);
+    background: var(--grey-bg-light);
     border-radius: 10px;
     font-size: 13.5px;
-    color: var(--hwa-navy);
-    border: 1px solid var(--hwa-rule-soft);
+    color: var(--blue-navy);
+    border: 1px solid var(--grey-bg-mid);
 }
 
 .how-we-analyse-page .tcard .ranked .r .n {
     font-size: 10px;
     letter-spacing: .12em;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     font-weight: 600;
 }
 
 .how-we-analyse-page .tcard .notice {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-style: italic;
     font-size: 15.5px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.45;
     padding-top: 12px;
-    border-top: 1px solid var(--hwa-rule-soft);
+    border-top: 1px solid var(--grey-bg-mid);
 }
 
 /* review cadence strip */
@@ -1314,14 +1298,14 @@
     gap: 28px;
     align-items: center;
     padding: 32px 36px;
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
     border-radius: 20px;
     margin-top: 32px;
 }
 
 .how-we-analyse-page .cadence .badge-c {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 56px;
     line-height: .85;
     letter-spacing: -.03em;
@@ -1331,11 +1315,11 @@
 
 .how-we-analyse-page .cadence .badge-c em {
     font-style: italic;
-    color: var(--hwa-baby);
+    color: var(--blue-baby);
 }
 
 .how-we-analyse-page .cadence .title {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 26px;
     letter-spacing: -.015em;
     line-height: 1.2;
@@ -1363,7 +1347,7 @@
 }
 
 .how-we-analyse-page .cadence .lab .big {
-    font-family: var(--hwa-serif);
+    font-family: 'BureauSerif', serif;
     font-size: 18px;
     color: #fff;
     text-transform: none;
@@ -1380,17 +1364,17 @@
 
 .how-we-analyse-page .faq-head p {
     font-size: 17px;
-    color: var(--hwa-navy-70);
+    color: var(--grey-mid);
     line-height: 1.55;
     max-width: 520px;
 }
 
-.how-we-analyse-page .faq-head a { color: var(--hwa-link); }
+.how-we-analyse-page .faq-head a { color: var(--link); }
 
 
 /* ======== buttons ======== */
 .how-we-analyse-page .btn-primary {
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
     padding: 14px 26px;
     border-radius: 999px;
@@ -1404,14 +1388,14 @@
 }
 
 .how-we-analyse-page .btn-primary:hover {
-    background: var(--hwa-purple);
+    background: var(--purple);
     transform: translateY(-1px);
     color: #fff;
 }
 
 .how-we-analyse-page .btn-ghost {
     background: transparent;
-    color: var(--hwa-navy);
+    color: var(--blue-navy);
     padding: 14px 26px;
     border-radius: 999px;
     font-size: 14px;
@@ -1419,13 +1403,13 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    border: 1.5px solid var(--hwa-navy);
+    border: 1.5px solid var(--blue-navy);
     transition: background .15s;
     text-decoration: none;
 }
 
 .how-we-analyse-page .btn-ghost:hover {
-    background: var(--hwa-navy);
+    background: var(--blue-navy);
     color: #fff;
 }
 
@@ -1465,7 +1449,7 @@
     font-size: 11.5px;
     text-transform: uppercase;
     letter-spacing: .14em;
-    color: var(--hwa-navy-55);
+    color: var(--grey-light);
     margin-top: 22px;
 }
 
@@ -1487,7 +1471,7 @@
     .how-we-analyse-page .grades-low { padding: 22px; }
     .how-we-analyse-page .nr-band { grid-template-columns: 1fr; gap: 18px; padding: 20px; }
     .how-we-analyse-page .grades-callout { grid-template-columns: 1fr; gap: 24px; padding: 28px; }
-    .how-we-analyse-page .grades-callout ul { border-left: none; border-top: 1px solid var(--hwa-rule-soft); padding-left: 0; padding-top: 18px; }
+    .how-we-analyse-page .grades-callout ul { border-left: none; border-top: 1px solid var(--grey-bg-mid); padding-left: 0; padding-top: 18px; }
     .how-we-analyse-page .twocol { grid-template-columns: 1fr; }
     .how-we-analyse-page .cadence { grid-template-columns: 1fr; gap: 16px; padding: 26px; }
     .how-we-analyse-page .cadence .lab { text-align: left; }
