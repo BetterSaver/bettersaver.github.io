@@ -1,0 +1,99 @@
+.page-404 {
+    min-height: calc(100vh - 80px);
+    padding: var(--size-10) var(--size-2) var(--size-12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        padding: var(--size-6) var(--size-2) var(--size-8);
+        min-height: 70vh;
+    }
+
+    .eyebrow {
+        font-family: 'BureauSerif', serif;
+        font-size: 88px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -3%;
+        margin-bottom: var(--size-2);
+
+        @media screen and (max-width: 768px) {
+            font-size: 64px;
+        }
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: var(--size-2);
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media screen and (max-width: 768px) {
+            font-size: 32px;
+        }
+    }
+
+    .lede {
+        font-size: 18px;
+        line-height: 1.55;
+        max-width: 480px;
+        margin: 0 auto var(--size-4);
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
+    .cta-row {
+        display: flex;
+        gap: var(--size-1);
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: var(--size-6);
+    }
+
+    .quick-links {
+        margin-top: var(--size-4);
+        padding-top: var(--size-4);
+        border-top: 1px solid var(--grey-bg-dark);
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quick-links-label {
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: var(--grey-light);
+        margin-bottom: var(--size-2);
+    }
+
+    .quick-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--size-1) var(--size-3);
+        justify-content: center;
+    }
+
+    .quick-links li {
+        padding: 0;
+    }
+
+    .quick-links a {
+        color: var(--blue-navy);
+        font-size: 16px;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.15s ease;
+
+        &:hover {
+            border-bottom-color: var(--blue-navy);
+        }
+    }
+}

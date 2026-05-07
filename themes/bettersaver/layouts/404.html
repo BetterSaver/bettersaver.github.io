@@ -1,6 +1,34 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }} {{ define
-"main" }}
-<article class="center cf pv5 measure-wide-l">
-  <h1>This is not the page you were looking for</h1>
-</article>
+{{ define "header" }}
+<header>
+  {{ partial "site-navigation.html" . }}
+</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="page-404 bg-grey-bg-light">
+  <div class="content narrow text-center">
+    <div class="eyebrow text-purple-contrast">404</div>
+    <h1 class="text-blue-navy">This isn't the page you were looking for.</h1>
+    <p class="text-grey-mid lede">
+      The link may be broken, or the page may have moved. Try one of the links below, or head back to our home page.
+    </p>
+
+    <div class="cta-row">
+      <a href="/" class="button">Back to home</a>
+      <a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding/flow/disclosure" class="button outline">Find a fund</a>
+    </div>
+
+    <div class="quick-links">
+      <div class="quick-links-label">Or jump to</div>
+      <ul>
+        <li><a href="/pages/how-it-works">How it works</a></li>
+        <li><a href="/pages/how-we-analyse">How we analyse</a></li>
+        <li><a href="/pages/about">About us</a></li>
+        <li><a href="/financial-tips">Financial tips</a></li>
+        <li><a href="/faq">FAQs</a></li>
+        <li><a href="/contact-us">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 {{ end }}

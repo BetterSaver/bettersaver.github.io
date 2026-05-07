@@ -45,6 +45,8 @@ enableRobotsTXT = true
         "bettersaver/pages/blog.css",
         "bettersaver/pages/contact-us.css",
         "bettersaver/pages/faq.css",
+        "bettersaver/pages/how-we-analyse.css",
+        "bettersaver/pages/404.css",
 
         "bettersaver/display.css", # must be last
     ]
@@ -113,19 +115,24 @@ enableRobotsTXT = true
     weight = 2
 
     [[menus.footer_left]]
+    name = "How we analyse"
+    url = "/pages/how-we-analyse"
+    weight = 3
+
+    [[menus.footer_left]]
     name = "About us"
     url = "/pages/about"
-    weight = 3
+    weight = 4
 
     [[menus.footer_left]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 4
+    weight = 5
 
     [[menus.footer_left]]
     name = "My account"
     url = "gets-injected-in-page"
-    weight = 5
+    weight = 6
 
     # footer right
     [[menus.footer_right]]
