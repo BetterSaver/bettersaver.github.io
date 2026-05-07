@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to Change Your KiwiSaver Provider
 ---
 
@@ -18,15 +19,15 @@ CTA: Find a scheme that fits. Switch online.
 
 ## How It Works
 
-###### **Step 1 - We confirm what matters to you. **
+###### \*\*Step 1 - We confirm what matters to you. \*\*
 
 A few quick questions about your timeframe, how you feel about market ups and downs, and any investment preferences. The aim is to match you to the right scheme - not just a default based on your age.
 
-###### **Step 2 - We show your recommended options. **
+###### \*\*Step 2 - We show your recommended options. \*\*
 
 You’ll see a scheme that matches your profile and meets our analysis criteria. Compare it against others in plain English, side by side. No jargon, no noise.
 
-###### **Step 3 - We guide you through the switch. **
+###### \*\*Step 3 - We guide you through the switch. \*\*
 
 Complete an application on the BetterSaver website. We capture what’s needed and pass it to your chosen provider to finalise. Most people are done in under 5 minutes.
 
