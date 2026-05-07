@@ -1,5 +1,6 @@
 ---
 sitemap_exclude: true
+draft: true
 title: How we analyse KiwiSaver funds
 ---
 
