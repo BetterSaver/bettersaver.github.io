@@ -1,9 +1,9 @@
 ---
 featured_image: /images/how-we-analyse.jpg
 page_block: block-how-we-analyse
+description: 'There are over 300 KiwiSaver options from around 30 providers. This page sets out how we compare them — what we assess, how we rate them, and the criteria a fund must meet to be on our recommended list.'
 draft: false
-title: How we analyse KiwiSaver options
-description: There are over 300 KiwiSaver options from around 30 providers. This page sets out how we compare them — what we assess, how we rate them, and the criteria a fund must meet to be on our recommended list.
+title: How we analyse KiwiSaver
 date: 2022-10-10T03:00:00.000Z
 seo:
   title: How We Analyse | BetterSaver
@@ -12,3 +12,4 @@ seo:
   keywords: 'how we analyse, kiwisaver methodology, fund grading, fund comparison'
   schema_type: WebPage
 ---
+
