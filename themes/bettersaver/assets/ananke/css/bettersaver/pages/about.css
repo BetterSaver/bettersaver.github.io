@@ -223,6 +223,7 @@
     letter-spacing: -.015em;
     text-wrap: pretty;
     margin-bottom: 24px;
+    padding-top: 40px;
 }
 .about-page .ab-framing-body em {
     font-style: italic;
