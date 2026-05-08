@@ -25,7 +25,8 @@
         </div>
 
       </div>
-      <div class="img cover bg-top" style="background-image: url('{{ $featured_image }}');">
+      {{ $fit := .Params.featured_image_fit | default "cover" }}
+      <div class="img {{ if eq $fit "contain" }}contain{{ else }}cover bg-top{{ end }}" style="background-image: url('{{ $featured_image }}');">
       </div>
     </div>
 

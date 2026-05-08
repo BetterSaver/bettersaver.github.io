@@ -93,6 +93,8 @@
 /* ======== TRUST STRIP ======== */
 .how-we-analyse-page .trust {
     padding: 0;
+    /* border-top: 1px solid var(--grey-bg-mid);
+    border-bottom: 1px solid var(--grey-bg-mid); */
 }
 
 .how-we-analyse-page .trust-inner {
@@ -101,8 +103,6 @@
     justify-content: space-between;
     gap: 48px;
     padding: 32px 0;
-    border-top: 1px solid var(--grey-bg-mid);
-    border-bottom: 1px solid var(--grey-bg-mid);
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1080px;
