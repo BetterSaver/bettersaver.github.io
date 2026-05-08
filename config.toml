@@ -45,6 +45,7 @@ enableRobotsTXT = true
         "bettersaver/pages/blog.css",
         "bettersaver/pages/contact-us.css",
         "bettersaver/pages/faq.css",
+        "bettersaver/pages/how-we-analyse.css",
 
         "bettersaver/display.css", # must be last
     ]
@@ -75,19 +76,24 @@ enableRobotsTXT = true
     weight = 2
 
     [[menus.main]]
+    name = "How we analyse"
+    url = "/pages/how-we-analyse"
+    weight = 3
+
+    [[menus.main]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 2
+    weight = 4
 
     [[menus.main]]
     name = "Sign in"
     url = "http://localhost:4200/login"
-    weight = 3
+    weight = 5
 
     [[menus.main]]
     name = "Find a fund"
     url = "http://localhost:4200/kiwisaver/onboarding/flow/disclosure"
-    weight = 4
+    weight = 6
     [menus.main.params]
         class = "button"
 
@@ -96,16 +102,6 @@ enableRobotsTXT = true
     name = "BetterSaver home"
     url = "/"
     weight = 1
-
-    # [[menus.footer_left]]
-    # name = "KiwiSaver fund advisor"
-    # url = "/pages/recommended-kiwisaver-funds"
-    # weight = 2
-
-    # [[menus.footer_left]]
-    # name = "Recommended KiwiSaver funds"
-    # url = "/pages/recommended-kiwisaver-funds"
-    # weight = 2
 
     [[menus.footer_left]]
     name = "How it works"
