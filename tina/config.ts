@@ -7,6 +7,8 @@ import FinancialTips from "./collections/financialtips";
 import CustomerReviews from "./collections/customerreviews";
 import Homepage from "./collections/homepage";
 import Authors from "./collections/authors";
+import HowToChangeProvider from "./collections/howtochangeprovider";
+import HowWeAnalyse from "./collections/howweanalyse";
 
 const DeployScreenPlugin = {
   __type: "screen",
@@ -53,6 +55,15 @@ export default defineConfig({
     return cms;
   },
   schema: {
-    collections: [Homepage, Page, FinancialTips, FaqPage, CustomerReviews, Authors],
+    collections: [
+      Homepage, 
+      HowToChangeProvider, 
+      HowWeAnalyse, 
+      Page, 
+      FinancialTips, 
+      FaqPage, 
+      CustomerReviews, 
+      Authors
+    ],
   },
 });
