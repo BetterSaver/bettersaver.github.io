@@ -114,10 +114,10 @@ enableRobotsTXT = true
     url = "/pages/how-it-works"
     weight = 2
 
-    [[menus.footer_left]]
-    name = "How we analyse"
-    url = "/pages/how-we-analyse"
-    weight = 3
+    # [[menus.footer_left]]
+    # name = "How we analyse"
+    # url = "/pages/how-we-analyse"
+    # weight = 3
 
     [[menus.footer_left]]
     name = "About us"
