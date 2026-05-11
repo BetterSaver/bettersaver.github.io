@@ -118,7 +118,7 @@
 
 .how-we-analyse-page .trust-logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: center;
     gap: 14px;
