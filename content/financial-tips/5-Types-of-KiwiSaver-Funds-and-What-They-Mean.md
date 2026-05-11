@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 tags:
   - kiwisaver fund types
   - what kiwisaver fund should i be in
@@ -73,7 +73,7 @@ This might suit you if: You're comfortable riding out short-term drops without p
 
 #### Aggressive Funds
 
-**Growth assets: **90% or more
+\*\*Growth assets: \*\*90% or more
 
 Aggressive funds put almost everything into growth assets. They offer the strongest potential for long-term growth, but also the largest and most frequent swings in balance. In a bad year, you could see your balance drop by 20% or more, and you need to be prepared to leave it alone and wait for the recovery.
 
