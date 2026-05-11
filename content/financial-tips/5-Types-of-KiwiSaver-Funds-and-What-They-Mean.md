@@ -43,7 +43,7 @@ KiwiSaver funds are grouped into five categories based on their proportion of gr
 
 Defensive funds are the lowest-risk option. Almost all your money is held in income assets like cash and bonds. Your balance is unlikely to drop significantly, but it won't grow much. There's also a real risk that returns won't keep pace with inflation over time, meaning your money could lose purchasing power, even as the number goes up.
 
-This might suit you if: You’re planning to withdraw your KiwiSaver within the next year or two and want to protect what you've already saved. For most people with a longer timeline, a defensive fund won't work hard enough.
+This might suit you if: You're planning to withdraw your KiwiSaver within the next year and want to protect what you've already saved. For most people with a longer timeline, a defensive fund won't work hard enough.
 
 #### Conservative Funds
 
@@ -51,7 +51,7 @@ This might suit you if: You’re planning to withdraw your KiwiSaver within the 
 
 Conservative funds hold a small share of growth assets alongside a larger share of cash and bonds. You'll see some movement in your balance (small ups and downs) but nothing dramatic. Returns over the long term tend to be moderate.
 
-This might suit you if: You have a low tolerance for seeing your balance drop, or if you're planning to withdraw within the next three to six years, like for a first home purchase. If you have other higher-risk investments outside KiwiSaver, a conservative fund can provide a stable counterbalance.
+This might suit you if: You have a low tolerance for seeing your balance drop, or you're planning to withdraw within the next two to three years. If you have other higher-risk investments outside KiwiSaver, a conservative fund can provide a stable counterbalance.
 
 #### Balanced Funds
 
@@ -59,9 +59,9 @@ This might suit you if: You have a low tolerance for seeing your balance drop, o
 
 Balanced funds sit in the middle. They hold a roughly even split between growth and income assets, which means there’s more potential for returns than conservative funds, but also more volatility. Your balance will move noticeably in both directions, particularly during market downturns, although it will also recover when markets rise.
 
-This is where most default KiwiSaver funds sit. If you were auto-enrolled and never made an active choice, you’re probably in a balanced fund. That's not necessarily wrong, but it's worth checking whether it matches your goals and timeline.
+This is where default KiwiSaver funds sit. If you were auto-enrolled and never made an active choice, you’re probably in a balanced fund. That's not necessarily wrong, but it's worth checking whether it matches your goals and timeline.
 
-This might suit you if: You're comfortable with moderate fluctuations and you’re planning to withdraw in roughly five to 12 years.
+This might suit you if: You're comfortable with moderate fluctuations and you're planning to withdraw in roughly four to six years.
 
 #### Growth Funds
 
@@ -69,7 +69,7 @@ This might suit you if: You're comfortable with moderate fluctuations and you’
 
 A KiwiSaver growth fund holds a large majority of its money in shares and property, with a smaller portion in cash and bonds. Over the long term, growth funds have the potential to deliver significantly higher returns than conservative or balanced options, but they come with significantly more volatility too. During market downturns, your balance can drop noticeably, and it may take months or even years to recover.
 
-This might suit you if: You're comfortable riding out short-term drops without panicking, and you don't plan to withdraw for at least 10 years. If you're in your 20s or 30s and saving for retirement, a KiwiSaver growth fund gives your money the longest runway to compound.
+This might suit you if: You're comfortable riding out short-term drops without panicking, and you don't plan to withdraw for at least seven to nine years. If you're in your 20s or 30s and saving for retirement, a growth fund gives your money room to compound.
 
 #### Aggressive Funds
 
@@ -77,7 +77,7 @@ This might suit you if: You're comfortable riding out short-term drops without p
 
 Aggressive funds put almost everything into growth assets. They offer the strongest potential for long-term growth, but also the largest and most frequent swings in balance. In a bad year, you could see your balance drop by 20% or more, and you need to be prepared to leave it alone and wait for the recovery.
 
-This might suit you if: You have a high tolerance for volatility and a long timeline of at least 10 to 15 years before you plan to withdraw. Aggressive funds are not for everyone, and they're typically best suited to people who understand investment risk and won't be tempted to switch funds during a downturn.
+This might suit you if: You have a high tolerance for volatility and a timeline of 10+ years before you plan to withdraw. Aggressive funds are not for everyone, and they're typically best suited to people who understand investment risk and won't be tempted to switch funds during a downturn.
 
 ## A Note on the Ranges
 
