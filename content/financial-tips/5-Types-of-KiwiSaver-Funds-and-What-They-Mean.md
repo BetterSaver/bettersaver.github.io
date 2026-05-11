@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 tags:
   - kiwisaver fund types
   - what kiwisaver fund should i be in
