@@ -41,9 +41,7 @@ KiwiSaver funds are grouped into five categories based on their proportion of gr
 
 **Growth assets:** Less than 10%
 
-Defensive funds are the lowest-risk option. Almost all your money is held in income assets like cash and bonds. Your balance is unlikely to drop significantly, but it won't grow much. There's also a real risk that returns won't keep pace with inflation over time, meaning your money could lose purchasing power, even as the
-
-number goes up.
+Defensive funds are the lowest-risk option. Almost all your money is held in income assets like cash and bonds. Your balance is unlikely to drop significantly, but it won't grow much. There's also a real risk that returns won't keep pace with inflation over time, meaning your money could lose purchasing power, even as the number goes up.
 
 This might suit you if: You’re planning to withdraw your KiwiSaver within the next year or two and want to protect what you've already saved. For most people with a longer timeline, a defensive fund won't work hard enough.
 
