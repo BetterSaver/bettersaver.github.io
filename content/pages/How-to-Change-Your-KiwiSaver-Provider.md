@@ -1,5 +1,5 @@
 ---
-featured_image: /images/bg-how-it-works-man.png
+featured_image: /images/bg-how-to-change-kiwisaver.jpg
 page_block: block-how-to-change-provider
 draft: false
 title: How to Change Your KiwiSaver Provider
