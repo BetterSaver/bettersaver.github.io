@@ -1,15 +1,15 @@
 ---
 draft: true
 date: 2026-05-11T01:45:16.869Z
-author: ''
+author: content/authors/joe-taylor.md
 title: 5 Types of KiwiSaver Funds and What They Mean
-description: 'Unless you’ve been taking an active interest in where your KiwiSaver money is being invested, there''s a good chance you’re in a fund that you never chose. '
+description: 'Not sure what KiwiSaver fund type suits you? Learn what the five types mean — from defensive to aggressive — and how to choose the right one for your goals. '
 img_src: /uploads/risk types.jpg
 ---
 
-5 Types of KiwiSaver Funds and What They Mean
+## 5 Types of KiwiSaver Funds and What They Mean
 
-Unless you’ve been taking an active interest in where your KiwiSaver money is being invested, there's a good chance you’re in a fund that you never chose. 
+Unless you’ve been taking an active interest in where your KiwiSaver money is being invested, there's a good chance you’re in a fund that you never chose.
 
 If you were automatically enrolled through a new job and never changed anything, your money will be sitting in a default fund, which is a balanced option selected on your behalf. That might not be a problem, but most people never look closely enough to find out.
 
@@ -37,7 +37,7 @@ Defensive Funds
 
 Growth assets: Less than 10%
 
-Defensive funds are the lowest-risk option. Almost all your money is held in income assets like cash and bonds. Your balance is unlikely to drop significantly, but it won't grow much. There's also a real risk that returns won't keep pace with inflation over time, meaning your money could lose purchasing power, even as the 
+Defensive funds are the lowest-risk option. Almost all your money is held in income assets like cash and bonds. Your balance is unlikely to drop significantly, but it won't grow much. There's also a real risk that returns won't keep pace with inflation over time, meaning your money could lose purchasing power, even as the
 
 number goes up.
 
@@ -79,7 +79,7 @@ This might suit you if: You have a high tolerance for volatility and a long time
 
 A Note on the Ranges
 
-There are no strict industry-wide rules for how KiwiSaver providers categorise their funds. One provider's "balanced" fund might hold 40% growth assets, while another's might hold 60%. 
+There are no strict industry-wide rules for how KiwiSaver providers categorise their funds. One provider's "balanced" fund might hold 40% growth assets, while another's might hold 60%.
 
 The category name gives you a general guide, but it's always worth checking the actual growth asset percentage of your specific fund. This is one of the details BetterSaver considers when making a personalised recommendation.
 
@@ -125,6 +125,6 @@ There's no single right answer. It depends on your timeline and risk tolerance. 
 
 Next Steps
 
-Your KiwiSaver fund type shapes how your money grows over time. The difference between the right fund and the wrong one can add up to tens of thousands of dollars over a working lifetime. 
+Your KiwiSaver fund type shapes how your money grows over time. The difference between the right fund and the wrong one can add up to tens of thousands of dollars over a working lifetime.
 
 If you're not sure whether your current fund is the right fit, take our free five-minute fund finder quiz to get a personalised recommendation based on what actually matters to you.
