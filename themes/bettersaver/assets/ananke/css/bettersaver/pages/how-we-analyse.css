@@ -503,16 +503,7 @@
 }
 
 .how-we-analyse-page .micro-list .bullet {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: var(--purple);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
-    font-weight: 600;
+    color: var(--purple);
     flex-shrink: 0;
     margin-top: 1px;
 }
