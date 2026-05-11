@@ -21,6 +21,18 @@
     padding: 0 32px;
 }
 
+.right-hand-large-image {
+    display: grid;
+    align-items: center;
+} 
+.right-hand-large-image img {
+    width: 100%;
+    max-width: 270px;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
 .how-we-analyse-page h2 {
     font-family: 'BureauSerif', serif;
     font-size: 48px;
@@ -231,7 +243,6 @@
     font-size: 17px;
     color: var(--grey-mid);
     line-height: 1.55;
-    max-width: 680px;
 }
 
 .how-we-analyse-page .principles {
@@ -303,7 +314,7 @@
     padding: 5px 8px;
     border-radius: 999px;
     background: var(--grey-bg-light);
-    border: 1px solid var(--grey-bg-mid);
+    border: 1px solid var(--blue-navy);
     color: var(--grey-mid);
     display: flex;
     align-items: center;
@@ -417,7 +428,6 @@
     font-size: 17px;
     color: var(--grey-mid);
     line-height: 1.6;
-    max-width: 640px;
 }
 
 .how-we-analyse-page .deep {
@@ -1162,6 +1172,14 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.how-we-analyse-page .tcard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    /* background: var(--grey-bg-light); */
+    margin: 15px auto;
 }
 
 .how-we-analyse-page .tcard .tlab {
