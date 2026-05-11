@@ -6,7 +6,7 @@ featured_image: /uploads/images/how-we-analyse.jpg
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
 framing_tag: The short version
-framing_heading: Like-for-like. *Long term.* More than a single number.
+framing_heading: Apples to apples. *Long term.* More than a single number.
 framing_body: 'Our methodology rests on three principles and **four core checks**. Every fund is compared only to its peers, across meaningful timeframes, on more than last year''s return.'
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a *category*.'
@@ -31,8 +31,8 @@ checks_subheading: 'A consistent set of checks across four areas. The goal is si
 checks_items:
   - number: '1'
     tag: Check one
-    title: Performance over *meaningful* timeframes.
-    intro: We look at performance over longer periods — typically **five to ten years** where available — rather than the most recent quarter or year.
+    title: Performance
+    intro: Returns matter. We compare each fund's return to its peer group. Funds beating their peers score higher.
     bullets:
       - text: 'We look at returns **after fees**, across a range of periods.'
       - text: A fund needs **at least five years** of returns before we will recommend it.
