@@ -1,6 +1,6 @@
 {{/* Schema.org JSON-LD structured data */}}
 
-{{/* Organization — every page */}}
+{{/* Organization — every page, never overridden */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15,6 +15,19 @@
   {{- end }}
 }
 </script>
+
+{{/* Page-level schema: if seo.custom_schema is set, emit that instead of the auto-generated blocks */}}
+{{- $custom := "" }}
+{{- with .Params.seo }}
+  {{- $custom = .custom_schema | default "" }}
+{{- end }}
+{{- $custom = $custom | strings.TrimSpace }}
+
+{{- if $custom }}
+<script type="application/ld+json">
+{{ $custom | safeJS }}
+</script>
+{{- else }}
 
 {{/* WebSite — homepage only */}}
 {{- if .IsHome }}
@@ -124,3 +137,5 @@
 {{ $article | jsonify (dict "indent" "  ") | safeJS }}
 </script>
 {{- end }}
+
+{{- end }}{{/* end if $custom */}}
