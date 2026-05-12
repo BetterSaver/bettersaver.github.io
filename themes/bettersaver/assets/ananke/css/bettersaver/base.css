@@ -1,3 +1,4 @@
+@layer legacy {
 html,
 body {
     padding: 0;
@@ -276,4 +277,5 @@ ul, ol {
             padding: var(--size-2);
         }
     }
+}
 }

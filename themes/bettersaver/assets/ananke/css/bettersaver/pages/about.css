@@ -1,3 +1,4 @@
+@layer legacy {
 /* About page — scoped under .about-page */
 
 .about-page {
@@ -544,4 +545,6 @@
     .about-page .ab-partner { grid-template-columns: 1fr; padding: 28px; }
     .about-page .band-blue,
     .about-page .band-cream { padding: 64px 0; }
+}
+
 }

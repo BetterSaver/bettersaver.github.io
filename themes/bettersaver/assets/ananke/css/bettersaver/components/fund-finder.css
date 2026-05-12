@@ -1,3 +1,4 @@
+@layer legacy {
 .fund-finder {
     background: var(--blue-navy);
     padding: var(--size-2);
@@ -278,4 +279,6 @@
         width: 100%;
         text-align: center;
     }
+}
+
 }

@@ -1,3 +1,4 @@
+@layer legacy {
 /* "How we analyse" page — scoped under .how-we-analyse-page */
 
 .how-we-analyse-page {
@@ -1426,4 +1427,6 @@
     .how-we-analyse-page .band-blue,
     .how-we-analyse-page .band-cream { padding: 64px 0; }
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
+}
+
 }

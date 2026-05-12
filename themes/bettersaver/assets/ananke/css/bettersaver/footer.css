@@ -1,3 +1,4 @@
+@layer legacy {
 footer {
     background: var(--gradient-footer);
 
@@ -88,4 +89,5 @@ footer {
             display: none;
         }
     }
+}
 }

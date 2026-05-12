@@ -4,10 +4,16 @@
   default element styling (h1–h6, ul, button, img, table, etc.). Re-introduce in a
   later step once templates are migrated and any preflight regressions are scoped.
 */
-@layer theme, components, utilities;
+/*
+  Layer order: `legacy` is declared first so its rules have the LOWEST priority.
+  Wrap every legacy CSS file's contents in `@layer legacy { ... }` (see
+  `themes/bettersaver/assets/ananke/css/bettersaver/*.css`) so Tailwind utilities
+  win all naming collisions (e.g. legacy `.grid`, `.sticky`, `.grid-cols-2`).
+*/
+@layer legacy, theme, components, utilities;
 
 @import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
 
 @source "../../../layouts/**/*.html";
 @source "../../../../../layouts/**/*.html";

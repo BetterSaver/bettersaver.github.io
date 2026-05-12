@@ -59,8 +59,13 @@ css asset directory we (unless condition below) add to aforementioned slice */}}
   {{/* We proceed to concatenate the $assets_to_concat */}}
   {{ $style := . | resources.Concat "ananke/css/main.css" }}
 
-  {{/* We then use toCSS to add sourceMap and minify */}}
+  {{/* We then use toCSS to add sourceMap and minify.
+       In dev (non-production), skip minify — Hugo's minifier strips the space in
+       `@media (width >= ...)` inside nested rules, dropping Tailwind v4 responsive
+       utilities (lg:, md:, etc.) in some browsers. */}}
+  {{ if eq (getenv "HUGO_ENV") "production" }}
   {{ $style = $style | minify }}
+  {{ end }}
   {{/* We fingerprint in production for cache busting purposes */}}
   {{ if eq (getenv "HUGO_ENV") "production" }}
     {{ $style = $style | fingerprint }}
