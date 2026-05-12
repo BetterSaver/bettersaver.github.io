@@ -101,7 +101,7 @@ grades_callout_bullets:
   - text: 'There wasn''t enough reliable data — for example, **less than five years** of returns.'
   - text: It sits **outside our category framework** — a single-sector fund that doesn't match one of our five categories.
 data_tag: Behind the analysis
-data_heading: Where our *data* comes from -- **and how we stay independent**
+data_heading: Where our *data* comes from
 data_cards:
   - label: Data sources
     title: 'We rely on *Morningstar*, and fill the gaps.'
@@ -143,7 +143,7 @@ faq_items:
 cta_heading: Find a *better* fund for your life.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
-cta_subnote: Takes 2-5 minutes -- and It's free!
+cta_subnote: Takes 2-5 minutes - and It's free!
 seo:
   title: How We Analyse | BetterSaver
   description: |
