@@ -111,13 +111,9 @@ faq_items:
     answer: There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches and is typically brief.
   - question: Can I change my KiwiSaver contribution rate?
     answer: 'Yes — but that''s **separate from switching providers**. To change how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
-  - question: How do I transfer my KiwiSaver to another bank?
-    answer: 'If your bank offers a KiwiSaver scheme that suits you, you can switch to it through BetterSaver. We''ll check it against our criteria and guide you through the switch if it''s on our recommended list.'
-  - question: Can you transfer your KiwiSaver to someone else?
-    answer: 'No. KiwiSaver accounts are **individual** — they can''t be transferred to another person. You can change which provider and scheme your own savings are invested in, but the account always stays in your name.'
 privacy_body: 'Your information stays yours — used only to **recommend, help you switch, and support you** as a member, with *secure online identity verification*.'
-cta_heading: Ready to check your *KiwiSaver scheme*?
-cta_body: We'll ask a few quick questions and recommend a scheme from our shortlist based on your situation and preferences. You stay in control the whole time.
+cta_heading: Ready to check your *KiwiSaver*?
+cta_body: We'll ask a few quick questions and recommend a fund from our recommended list based on your situation and preferences. You stay in control the whole time.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 seo:
