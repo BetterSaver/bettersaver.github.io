@@ -86,7 +86,7 @@ grades_cards:
     css_class: a
     status: Recommended
     label: Top performer
-    description: Performs well across all four checks.
+    description: Performs well overall.
   - badge: B
     css_class: b
     status: Recommended
