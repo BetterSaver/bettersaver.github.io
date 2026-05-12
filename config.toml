@@ -42,7 +42,6 @@ enableRobotsTXT = true
         "bettersaver/pages/about.css",
         "bettersaver/pages/homepage.css",
         "bettersaver/pages/blog.css",
-        "bettersaver/pages/contact-us.css",
         "bettersaver/pages/how-we-analyse.css",
 
         "bettersaver/display.css", # must be last
