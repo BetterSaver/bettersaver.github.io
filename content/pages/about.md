@@ -19,7 +19,7 @@ steps_items:
     title: Independent
     body: 'We''re not a KiwiSaver provider, so we''re not tied to any set of funds. Recommendations come from our own data-driven model — not commercial relationships. Any fees or commissions we receive are **fully disclosed**, in line with FMA requirements.'
   - number: '02'
-    title: Data over opinions
+    title: Data
     body: 'Recommendations are built on data from **Morningstar** — the global standard for independent fund data — combined with our own proprietary model that accounts for your situation. We review every fund **at least annually**, and more often when markets move.'
   - number: '03'
     title: 'Personalised, in plain English'
