@@ -66,7 +66,7 @@ checks_items:
       - text: 'Strategy: Does the fund invest the way it says? We compare actual holdings against the stated target.'
       - text: 'Scale: Is the fund big enough to operate efficiently?'
       - text: 'Stability: are the managers and strategy stable, or has there been significant turnover?'
-    kicker: ''
+    kicker: The aim is superior funds.
 quote_body: 'The goal is simple: Recommend funds that have a **strong performance track record**, fair fees, and are *well run*.'
 weighting_tag: How we weight the checks
 weighting_heading: The four checks *aren't* equal across all categories.
