@@ -47,7 +47,7 @@ checks_items:
 
     bullets:
       - text: We look at the **total annual fund charge**
-      - text: Funds with higher fees only escape the penalty when their returns over time clearly justify the cost.
+      - text: Funds with higher fees must clearly justify the cost.
     kicker: The aim is find funds with fair fees.
   - number: '3'
     tag: Check three
