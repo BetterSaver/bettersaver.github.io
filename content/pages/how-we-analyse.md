@@ -56,8 +56,7 @@ checks_items:
     intro: 'We look at how bumpy the ride has been. Measuring how much a fund''s returns swing from year to year, and score each fund against the average swing of its peer group. Smaller swings score higher.'
     bullets:
       - text: We assess the **size of past drawdowns**.
-      - text: We compare how the fund behaves **relative to its peer group**.
-      - text: A fund that looks strong in a bull market but **falls harder than peers** when markets turn isn't necessarily one worth holding long term.
+      - text: We compare a funds volatility **relative to its peer group**.
     kicker: The aim is to avoid surprises.
   - number: '4'
     tag: Check four
