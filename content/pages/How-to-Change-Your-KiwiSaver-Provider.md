@@ -2,7 +2,7 @@
 draft: false
 title: How to Change Your KiwiSaver
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
-featured_image: /uploads/images/bg-how-to-change-kiwisaver.jpg
+featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
@@ -31,7 +31,7 @@ need_items:
   - text: Your **email address** and **mobile number**.
   - text: 'Your **IRD number** (helpful, though not always required straight away).'
   - text: A form of **ID for online verification** — usually a driver licence or passport.
-need_image: /uploads/images/illustration-passport.svg
+need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 switch_tag: During the switch
 switch_heading: What happens when you switch KiwiSaver providers.
@@ -69,7 +69,7 @@ contrib_heading: Changing your KiwiSaver *contribution rate*.
 contrib_subheading: Switching providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver — rather than which provider holds it — that's done through your employer.
 contrib_title: 'Available rates: 3.5%, 4%, 6%, 8%, or 10%'
 contrib_sub: KiwiSaver contribution rates are set as a percentage of your before-tax pay. You can request a change at any time by giving your employer written notice.
-contrib_image: /uploads/images/illustration-shake.png
+contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time
 new_heading: Not in KiwiSaver yet?
