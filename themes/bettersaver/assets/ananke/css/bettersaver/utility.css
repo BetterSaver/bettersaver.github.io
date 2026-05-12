@@ -259,6 +259,12 @@ place-center {
     background-position: top;
 }
 
+.contain {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .divider {
     border: 0 none;
     border-top: 1px solid var(--grey-bg-mid);

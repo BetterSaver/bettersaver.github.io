@@ -16,7 +16,7 @@
       "version": "lts"
     }
   },
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code",
+  "postCreateCommand": "bash -c 'export NVM_DIR=/usr/local/share/nvm && . $NVM_DIR/nvm.sh && npm install -g @anthropic-ai/claude-code'",
   "customizations": {
     "vscode": {
       "extensions": [

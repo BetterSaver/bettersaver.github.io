@@ -1,0 +1,237 @@
+{{- $appUrl := .Site.Params.appUrl -}}
+<div class="how-we-analyse-page change-provider-page">
+
+  {{/* TRUST STRIP */}}
+  <!-- <div class="">
+    <section class="trust">
+      <div class="trust-inner">
+        <div class="trust-lab">Independent advice · Trusted data</div>
+        <div class="trust-logos">
+          <div class="t-count"><span>300+</span><span class="sub">KiwiSaver funds analysed</span></div>
+          <div class="t-logo"><a href="https://www.morningstar.com/business/brands/data-analytics"><img src="/images/logo-morningstar.png" alt="Morningstar"></a></div>
+          <div class="t-logo"><img src="/images/logo-fap.png" alt="Licensed FAP"></div>
+        </div>
+      </div>
+    </section>
+  </div> -->
+
+  {{/* INTRO / FRAMING */}}
+  <div class="py-9">
+    <div class="hwa-page">
+      <section>
+        <div class="framing">
+          <div>
+            <div class="section-tag">{{ .Params.intro_tag }}</div>
+            <h2>{{ .Params.intro_heading | markdownify }}</h2>
+          </div>
+          <div>
+            <p class="framing-body">{{ .Params.intro_body | markdownify }}</p>
+            <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:18px">{{ .Params.intro_body_2 | markdownify }}</p>
+            <a href="{{ replace .Params.intro_cta_url "{{appUrl}}" $appUrl | safeURL }}" class="button" style="margin-top:22px">{{ .Params.intro_cta_label }}</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  {{/* HOW IT WORKS — three steps */}}
+  <section class="band-blue">
+    <div class="hwa-page">
+      <div class="principles-head">
+        <div class="section-tag">{{ .Params.how_tag }}</div>
+        <h2>{{ .Params.how_heading | markdownify }}</h2>
+        <p>{{ .Params.how_subheading | markdownify }}</p>
+      </div>
+      <div class="principles">
+        {{ range .Params.how_steps }}
+        <article class="principle">
+          <div class="p-num">{{ .number }}</div>
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{/* WHAT YOU'LL NEED */}}
+  <section class="pb-9">
+    <div class="hwa-page">
+      <div class="checks-head">
+        <div class="section-tag">{{ .Params.need_tag }}</div>
+        <div class="grid grid-cols-2">
+          <div>
+            <div>
+              <h2>{{ .Params.need_heading | markdownify }}</h2>
+              <p>{{ .Params.need_subheading | markdownify }}</p>
+            </div>
+            <ul>
+              {{ range .Params.need_items }}
+              <li><p>{{ .text | markdownify }}</p></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="right-hand-large-image">
+            <img src="{{ .Params.need_image }}" alt="{{ .Params.need_image_alt }}" class="">
+          </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* WHAT HAPPENS WHEN YOU SWITCH */}}
+  <div class="band-blue">
+    <section class="hwa-page">
+      <div class="mb-2">
+        <div class="section-tag">{{ .Params.switch_tag }}</div>
+        <h2>{{ .Params.switch_heading | markdownify }}</h2>
+        <p>{{ .Params.switch_subheading | markdownify }}</p>
+      </div>
+      <ul class="micro-list" style="max-width:760px">
+        {{ range .Params.switch_items }}
+        <li><svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z" fill="currentColor"></path><path d="M6.5 10L9 12.5L14 7.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>{{ .text | markdownify }}</p></li>
+        {{ end }}
+      </ul>
+
+      <div class="twocol" style="margin-top:48px">
+        {{ range .Params.switch_cards }}
+        <div class="tcard">
+          <div class="tlab">{{ .label }}</div>
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  {{/* SWITCHING THROUGH BETTERSAVER */}}
+  <section class="pb-9">
+    <div class="hwa-page">
+      <div class="checks-head">
+        <div class="section-tag">{{ .Params.paths_tag }}</div>
+        <h2>{{ .Params.paths_heading | markdownify }}</h2>
+        <p>{{ .Params.paths_subheading | markdownify }}</p>
+      </div>
+
+      <div class="twocol">
+        {{ range .Params.paths_cards }}
+        <div class="tcard">
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+          <ul>
+            {{ range .bullets }}
+            <li><p>{{ .text | markdownify }}</p></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{/* CONTRIBUTION RATE */}}
+  <div class="band-blue">
+    <section class="hwa-page">
+      <div class="">
+        <div class="section-tag">{{ .Params.contrib_tag }}</div>
+        <h2>{{ .Params.contrib_heading | markdownify }}</h2>
+        <p>{{ .Params.contrib_subheading | markdownify }}</p>
+      </div>
+
+      <div class="cadence">
+        <div>
+          <div class="title">{{ .Params.contrib_title }}</div>
+          <div class="sub">{{ .Params.contrib_sub | markdownify }}</div>
+        </div>
+        <div class="badge-c"><img src="{{ .Params.contrib_image }}" alt="{{ .Params.contrib_image_alt }}"></div>
+      </div>
+
+    </section>
+  </div>
+
+  {{/* NOT IN KIWISAVER YET */}}
+  <section class="py-9">
+    <div class="hwa-page">
+      <div class="framing">
+        <div>
+          <div class="section-tag">{{ .Params.new_tag }}</div>
+          <h2>{{ .Params.new_heading | markdownify }}</h2>
+        </div>
+        <div>
+          <p class="framing-body">{{ .Params.new_body | markdownify }}</p>
+          <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:8px">{{ .Params.new_body_2 | markdownify }}</p>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  {{/* COSTS & PAYMENT */}}
+  <div class="band-blue">
+    <section class="hwa-page">
+      <div class="section-tag">{{ .Params.costs_tag }}</div>
+      <h2 style="margin-bottom:48px">{{ .Params.costs_heading | markdownify }}</h2>
+
+      <div class="twocol">
+        {{ range .Params.costs_cards }}
+        <div class="tcard">
+          <div class="tlab">{{ .label }}</div>
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+          {{ range .notices }}
+          <p class="notice">{{ .text | markdownify }}</p>
+          {{ end }}
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .image_alt }}" />
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  {{/* FAQ */}}
+  <section class="py-9">
+    <div class="hwa-page">
+      <section style="padding:24px 0">
+        <div class="faq-head">
+          <div class="grid grid-cols-2-auto gap-4 items-center content">
+            <div>
+              <h2>{{ .Params.faq_heading | markdownify }}</h2>
+              <p>{{ .Params.faq_subheading | markdownify }}</p>
+            </div>
+            <div class="text-right"><a href="{{ .Params.faq_button_url }}" class="button">{{ .Params.faq_button_label }}</a></div>
+        </div>
+        <div class="faq-list content narrow">
+          {{ range .Params.faq_items }}
+          <details class="help-item">
+            <summary><h4 class="m-0">{{ .question }}</h4></summary>
+            <section class="py-2">{{ .answer | markdownify }}</section>
+          </details>
+          {{ end }}
+        </div>
+      </section>
+    </div>
+  </section>
+
+  {{/* PRIVACY */}}
+  <div class="fund-finder">
+    <section style="padding:24px 0 72px">
+      <div class="quote-anchor">
+        <!-- <span class="mark">"</span> -->
+        <p class="body">{{ .Params.privacy_body | markdownify }}</p>
+      </div>
+    </section>
+  </div>
+
+  {{/* FINAL CTA */}}
+  <div class="hwa-page">
+    <section class="final-cta">
+      <h2>{{ .Params.cta_heading | markdownify }}</h2>
+      <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;max-width:560px;margin:0 auto 32px">{{ .Params.cta_body | markdownify }}</p>
+      <div class="btns">
+        <a class="button" href="{{ replace .Params.cta_button_url "{{appUrl}}" $appUrl | safeURL }}">{{ .Params.cta_button_label }}</a>
+      </div>
+    </section>
+  </div>
+
+</div>

@@ -13,19 +13,22 @@
     box-sizing: border-box;
 }
 
-.how-we-analyse-page a {
-    color: var(--link);
-    text-decoration: none;
-}
-
 .how-we-analyse-page .hwa-page {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 0 var(--size-2);
 }
 
-.how-we-analyse-page section {
-    padding: 72px 0;
+.right-hand-large-image {
+    display: grid;
+    align-items: center;
+} 
+.right-hand-large-image img {
+    width: 100%;
+    max-width: 270px;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .how-we-analyse-page h2 {
@@ -35,7 +38,7 @@
     letter-spacing: -.025em;
     line-height: 1.05;
     color: var(--blue-navy);
-    max-width: 780px;
+    /* max-width: 780px; */
     text-wrap: pretty;
     margin: 0 0 14px 0;
 }
@@ -99,7 +102,9 @@
 
 /* ======== TRUST STRIP ======== */
 .how-we-analyse-page .trust {
-    padding: 0 0 40px;
+    padding: 0;
+    /* border-top: 1px solid var(--grey-bg-mid);
+    border-bottom: 1px solid var(--grey-bg-mid); */
 }
 
 .how-we-analyse-page .trust-inner {
@@ -108,9 +113,9 @@
     justify-content: space-between;
     gap: 48px;
     padding: 32px 0;
-    border-top: 1px solid var(--grey-bg-mid);
-    border-bottom: 1px solid var(--grey-bg-mid);
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1080px;
 }
 
 .how-we-analyse-page .trust-lab {
@@ -123,7 +128,7 @@
 
 .how-we-analyse-page .trust-logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: center;
     gap: 14px;
@@ -210,6 +215,7 @@
     letter-spacing: -.015em;
     text-wrap: pretty;
     margin-bottom: 24px;
+    padding-top: 40px
 }
 
 .how-we-analyse-page .framing-body em {
@@ -235,7 +241,6 @@
     font-size: 17px;
     color: var(--grey-mid);
     line-height: 1.55;
-    max-width: 680px;
 }
 
 .how-we-analyse-page .principles {
@@ -259,15 +264,14 @@
 
 .how-we-analyse-page .principle .p-num {
     font-family: 'BureauSerif', serif;
-    font-size: 56px;
+    font-size: 64px;
     font-weight: 400;
     line-height: .85;
     letter-spacing: -.03em;
     color: var(--blue-navy);
 }
 
-.how-we-analyse-page .principle .p-num em {
-    font-style: italic;
+.how-we-analyse-page .principle .p-num {
     color: var(--purple-contrast);
 }
 
@@ -308,7 +312,7 @@
     padding: 5px 8px;
     border-radius: 999px;
     background: var(--grey-bg-light);
-    border: 1px solid var(--grey-bg-mid);
+    border: 1px solid var(--blue-navy);
     color: var(--grey-mid);
     display: flex;
     align-items: center;
@@ -391,11 +395,11 @@
     align-items: center;
     justify-content: center;
     font-family: 'BureauSerif', serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 14px;
     border-radius: 50%;
-    color: var(--purple-contrast);
-    border: 1px solid var(--purple-contrast);
+    color: var(--white);
+    background: var(--blue-navy);
 }
 
 .how-we-analyse-page .crit-dot .l {
@@ -409,8 +413,9 @@
 
 /* ======== FOUR CHECKS DEEP-DIVE ALT ROWS ======== */
 .how-we-analyse-page .checks-head {
-    max-width: 780px;
+    /* max-width: 780px; */
     margin-bottom: 12px;
+    padding-top: 96px;
 }
 
 .how-we-analyse-page .checks-head h2 {
@@ -421,7 +426,6 @@
     font-size: 17px;
     color: var(--grey-mid);
     line-height: 1.6;
-    max-width: 640px;
 }
 
 .how-we-analyse-page .deep {
@@ -455,8 +459,7 @@
     color: var(--blue-navy);
 }
 
-.how-we-analyse-page .deep-copy .big-num em {
-    font-style: italic;
+.how-we-analyse-page .deep-copy .big-num {
     color: var(--purple-contrast);
 }
 
@@ -508,16 +511,7 @@
 }
 
 .how-we-analyse-page .micro-list .bullet {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background: var(--purple);
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
-    font-weight: 600;
+    color: var(--purple);
     flex-shrink: 0;
     margin-top: 1px;
 }
@@ -539,14 +533,14 @@
     border: 1px solid var(--grey-bg-dark);
     border-radius: 24px;
     padding: 28px;
-    box-shadow: 0 20px 40px -20px rgba(36, 46, 84, .2), 0 4px 12px -6px rgba(36, 46, 84, .1);
+    /* box-shadow: 0 20px 40px -20px rgba(36, 46, 84, .2), 0 4px 12px -6px rgba(36, 46, 84, .1); */
     position: relative;
     z-index: 1;
 }
 
-.how-we-analyse-page .band-blue .vframe {
+/* .how-we-analyse-page .band-blue .vframe {
     box-shadow: 0 20px 40px -20px rgba(36, 46, 84, .25), 0 4px 12px -6px rgba(36, 46, 84, .15);
-}
+} */
 
 .how-we-analyse-page .vframe .v-head {
     display: flex;
@@ -700,13 +694,18 @@
     border-radius: 999px;
     position: relative;
     overflow: hidden;
-    border: 1px solid var(--grey-bg-mid);
+    display: flex;
 }
 
 .how-we-analyse-page .fee-row .fill {
+    display: block;
     height: 100%;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--blue-baby) 0%, var(--purple) 100%);
+    background: var(--blue-navy);
+}
+
+.how-we-analyse-page .fee-row.negative .fill {
+    margin-left: auto;
 }
 
 .how-we-analyse-page .fee-row .val {
@@ -717,13 +716,11 @@
     letter-spacing: -.005em;
 }
 
-.how-we-analyse-page .fee-row.hi .fill {
-    background: linear-gradient(90deg, var(--utility-orange-dark) 0%, var(--utility-red) 100%);
-}
-
-.how-we-analyse-page .fee-row.peer .fill {
-    background: var(--grey-bg-dark);
-}
+.how-we-analyse-page .fee-row.r-red .fill { background: var(--utility-red); }
+.how-we-analyse-page .fee-row.r-orange .fill { background: var(--utility-orange-dark); }
+.how-we-analyse-page .fee-row.r-navy .fill { background: var(--blue-navy); }
+.how-we-analyse-page .fee-row.r-purple .fill { background: var(--purple); }
+.how-we-analyse-page .fee-row.r-green .fill { background: var(--utility-green-dark); }
 
 .how-we-analyse-page .fee-caption {
     margin-top: 14px;
@@ -736,64 +733,15 @@
     line-height: 1.4;
 }
 
-/* drawdown viz */
-.how-we-analyse-page .dd-rows {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.how-we-analyse-page .dd-row {
-    display: grid;
-    grid-template-columns: 86px 1fr 62px;
-    gap: 12px;
-    align-items: center;
-    font-size: 10px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: var(--grey-mid);
-}
-
-.how-we-analyse-page .dd-row .trough {
-    height: 22px;
-    background: var(--grey-bg-light);
-    border-radius: 6px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--grey-bg-mid);
-}
-
-.how-we-analyse-page .dd-row .trough .dip {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #FADFDF;
-    border-left: 2px solid var(--utility-red);
-}
-
-.how-we-analyse-page .dd-row.peer .trough .dip {
-    background: var(--grey-bg-mid);
-    border-left: 2px solid var(--grey-bg-dark);
-}
-
-.how-we-analyse-page .dd-row .val {
-    font-family: 'BureauSerif', serif;
-    font-size: 15px;
-    color: var(--blue-navy);
-    text-align: right;
-    letter-spacing: -.005em;
-}
-
-.how-we-analyse-page .dd-row.good .val {
-    color: var(--utility-green-dark);
-}
-
 /* quality checklist */
 .how-we-analyse-page .ql-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.how-we-analyse-page .ql-list svg {
+    color: var(--utility-green-dark);
 }
 
 .how-we-analyse-page .ql-item {
@@ -837,7 +785,7 @@
 .how-we-analyse-page .quote-anchor {
     max-width: 860px;
     margin: 0 auto;
-    text-align: center;
+    
     padding: 40px 0 24px;
 }
 
@@ -846,7 +794,7 @@
     font-style: italic;
     font-size: 88px;
     line-height: .4;
-    color: var(--blue-baby);
+    color: var(--purple-contrast);
     height: 40px;
     display: block;
 }
@@ -857,24 +805,25 @@
     font-weight: 400;
     letter-spacing: -.02em;
     line-height: 1.2;
-    color: var(--blue-navy);
+    color: var(--white);
     text-wrap: pretty;
 }
 
 .how-we-analyse-page .quote-anchor .body em { font-style: italic; }
 
 .how-we-analyse-page .quote-anchor .body strong {
-    background: linear-gradient(transparent 62%, rgba(125, 190, 255, .5) 62%);
+    color: var(--purple-contrast);
     font-weight: 400;
 }
 
 /* ======== WEIGHTING TABLE ======== */
 .how-we-analyse-page .weighting-table-wrap {
-    max-width: 760px;
+    /* max-width: 760px; */
     margin: 0 auto;
     border: 1px solid var(--grey-bg-mid);
     border-radius: 16px;
-    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .how-we-analyse-page .weighting-table {
@@ -884,15 +833,15 @@
 }
 
 .how-we-analyse-page .weighting-table thead tr {
-    background: var(--grey-bg-light);
-    border-bottom: 1px solid var(--grey-bg-mid);
+    background: var(--blue-navy);
+    border-bottom: 1px solid var(--blue-navy);
 }
 
 .how-we-analyse-page .weighting-table th {
     text-align: right;
     padding: 14px 12px;
     font-weight: 600;
-    color: var(--blue-navy);
+    color: var(--white);
 }
 
 .how-we-analyse-page .weighting-table th:first-child {
@@ -929,7 +878,7 @@
 
 /* ======== GRADE SYSTEM ======== */
 .how-we-analyse-page .grades-head {
-    max-width: 780px;
+    /* max-width: 780px; */
     margin-bottom: 48px;
 }
 
@@ -949,6 +898,28 @@
     margin-bottom: 32px;
 }
 
+.how-we-analyse-page .grades-what-your-see {
+    background: #fff;
+    border: 1px solid var(--grey-bg-mid);
+    border-radius: 20px;
+    padding: 28px 30px;
+    margin-bottom: 32px;
+}
+
+.how-we-analyse-page .grades-what-your-see .h {
+    font-family: 'BureauSerif', serif;
+    font-size: 28px;
+    letter-spacing: -.02em;
+    color: var(--blue-navy);
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.how-we-analyse-page .grades-what-your-see p {
+    margin-bottom: 18px;
+}
+
 .how-we-analyse-page .gcard {
     background: #fff;
     border: 1px solid var(--grey-bg-mid);
@@ -962,22 +933,20 @@
 }
 
 .how-we-analyse-page .gcard .gbadge {
-    width: 56px;
-    height: 56px;
-    border-radius: 16px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'BureauSerif', serif;
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: bold;
     letter-spacing: -.02em;
-    color: #fff;
 }
 
-.how-we-analyse-page .gcard.aplus .gbadge { background: var(--blue-navy); }
-.how-we-analyse-page .gcard.a .gbadge { background: #3E4E8A; }
-.how-we-analyse-page .gcard.b .gbadge { background: #6A7AB7; }
+.how-we-analyse-page .gcard.aplus .gbadge { background: var(--utility-green-fade); border: 2px solid var(--utility-green-dark);}
+.how-we-analyse-page .gcard.a .gbadge { background: var(--utility-green-fade); border: 2px solid var(--utility-green-dark); }
+.how-we-analyse-page .gcard.b .gbadge { background: var(--utility-blue-fade); border: 2px solid var(--utility-blue-contrast); }
 
 .how-we-analyse-page .gcard .gbadge em { font-style: italic; }
 
@@ -1072,12 +1041,12 @@
 }
 
 .how-we-analyse-page .nr-pill-tag {
-    background: var(--blue-navy);
-    color: #fff;
+    border: 2px solid var(--utility-red);
+    background: var(--utility-red-fade);
     font-size: 11px;
     font-weight: 600;
     letter-spacing: .08em;
-    padding: 4px 9px;
+    padding: 9px 9px;
     border-radius: 999px;
 }
 
@@ -1096,16 +1065,17 @@
 .how-we-analyse-page .nr-letters span {
     width: 26px;
     height: 26px;
-    border-radius: 8px;
+    border-radius: 25px;
     background: #fff;
-    border: 1px solid var(--grey-bg-mid);
+    border: 2px solid var(--blue-navy);
+    background: var(--blue-navy);
     font-family: 'BureauSerif', serif;
     font-size: 13px;
-    color: var(--grey-light);
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .how-we-analyse-page .nr-band-right p {
@@ -1150,6 +1120,10 @@
     border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 36px;
+    
+}
+
+.how-we-analyse-page .copy-block {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
     gap: 40px;
@@ -1168,30 +1142,7 @@
 .how-we-analyse-page .grades-callout .h em { font-style: italic; }
 
 .how-we-analyse-page .grades-callout ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
     border-left: 1px solid var(--grey-bg-mid);
-    padding: 0 0 0 28px;
-    margin: 0;
-}
-
-.how-we-analyse-page .grades-callout ul li {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 12px;
-    align-items: start;
-    padding-left: 0;
-}
-
-.how-we-analyse-page .grades-callout ul li::before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--grey-bg-dark);
-    margin-top: 9px;
 }
 
 .how-we-analyse-page .grades-callout ul li p {
@@ -1220,6 +1171,14 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.how-we-analyse-page .tcard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    /* background: var(--grey-bg-light); */
+    margin: 15px auto;
 }
 
 .how-we-analyse-page .tcard .tlab {
@@ -1294,7 +1253,7 @@
 /* review cadence strip */
 .how-we-analyse-page .cadence {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto;
     gap: 28px;
     align-items: center;
     padding: 32px 36px;
@@ -1305,17 +1264,8 @@
 }
 
 .how-we-analyse-page .cadence .badge-c {
-    font-family: 'BureauSerif', serif;
-    font-size: 56px;
-    line-height: .85;
-    letter-spacing: -.03em;
-    color: #fff;
-    font-weight: 400;
-}
-
-.how-we-analyse-page .cadence .badge-c em {
-    font-style: italic;
-    color: var(--blue-baby);
+    color: var(--white);
+    text-align: right;
 }
 
 .how-we-analyse-page .cadence .title {
@@ -1332,7 +1282,7 @@
     font-size: 14.5px;
     color: rgba(255, 255, 255, .7);
     line-height: 1.55;
-    max-width: 540px;
+  
 }
 
 .how-we-analyse-page .cadence .lab {
@@ -1356,7 +1306,7 @@
 
 /* ======== FAQ ======== */
 .how-we-analyse-page .faq-head {
-    max-width: 720px;
+    /* max-width: 720px; */
     margin-bottom: 32px;
 }
 
@@ -1368,8 +1318,6 @@
     line-height: 1.55;
     max-width: 520px;
 }
-
-.how-we-analyse-page .faq-head a { color: var(--link); }
 
 
 /* ======== buttons ======== */
@@ -1475,7 +1423,10 @@
     .how-we-analyse-page .twocol { grid-template-columns: 1fr; }
     .how-we-analyse-page .cadence { grid-template-columns: 1fr; gap: 16px; padding: 26px; }
     .how-we-analyse-page .cadence .lab { text-align: left; }
-    .how-we-analyse-page .band-blue,
-    .how-we-analyse-page .band-cream { padding: 64px 0; }
+    .change-provider-page .cadence .badge-c, .how-we-analyse-page .cadence .badge-c { text-align: center; padding-top: 15px }
+    /* .how-we-analyse-page .band-blue,
+    .how-we-analyse-page .band-cream { padding: 64px 0; } */
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
+    .how-we-analyse-page .weighting-table { min-width: 560px; }
+    .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }
 }

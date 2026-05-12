@@ -21,8 +21,10 @@
     --link: #0042C5;
     --link-invert: #99CCFF;
 
+    --utility-green-fade: rgb(0, 214, 113, 12%);
     --utility-green: #00D671;
     --utility-green-dark: #00A356;
+    --utility-blue-fade: rgb(51, 156, 253, 12%);
     --utility-blue: #339CFD;
     --utility-blue-contrast: #0150EB;
     --utility-blue-light: rgba(125, 190, 255, 0.17);
@@ -30,6 +32,7 @@
     --utility-purple-dark: #783CF0;
     --utility-orange: #FFB236;
     --utility-orange-dark: #F6862A;
+    --utility-red-fade: rgb(241, 55, 92, 12%);
     --utility-red: #F1375C;
 
     --gradient-1: linear-gradient(180deg, rgba(153, 204, 255, 1) 0%, rgba(153, 102, 255, 1) 100%);

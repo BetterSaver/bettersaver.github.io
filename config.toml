@@ -72,24 +72,34 @@ enableRobotsTXT = true
     weight = 1
 
     [[menus.main]]
+    name = "How we analyse"
+    url = "/pages/how-we-analyse"
+    weight = 2
+
+    [[menus.main]]
+    name = "How to change your KiwiSaver"
+    url = "/pages/how-to-change-your-kiwisaver-provider"
+    weight = 3
+
+    [[menus.main]]
     name = "About"
     url = "/pages/about"
-    weight = 2
+    weight = 4
 
     [[menus.main]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 2
+    weight = 5
 
     [[menus.main]]
     name = "Sign in"
     url = "http://localhost:4200/login"
-    weight = 3
+    weight = 6
 
     [[menus.main]]
     name = "Find a fund"
     url = "http://localhost:4200/kiwisaver/onboarding/flow/disclosure"
-    weight = 4
+    weight = 7
     [menus.main.params]
         class = "button"
 
@@ -99,40 +109,35 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
 
-    # [[menus.footer_left]]
-    # name = "KiwiSaver fund advisor"
-    # url = "/pages/recommended-kiwisaver-funds"
-    # weight = 2
-
-    # [[menus.footer_left]]
-    # name = "Recommended KiwiSaver funds"
-    # url = "/pages/recommended-kiwisaver-funds"
-    # weight = 2
-
     [[menus.footer_left]]
     name = "How it works"
     url = "/pages/how-it-works"
     weight = 2
 
-    # [[menus.footer_left]]
-    # name = "How we analyse"
-    # url = "/pages/how-we-analyse"
-    # weight = 3
+    [[menus.footer_left]]
+    name = "How we analyse"
+    url = "/pages/how-we-analyse"
+    weight = 3
+
+    [[menus.footer_left]]
+    name = "How to change your KiwiSaver"
+    url = "/pages/how-to-change-your-kiwisaver-provider"
+    weight = 4
 
     [[menus.footer_left]]
     name = "About us"
     url = "/pages/about"
-    weight = 4
+    weight = 5
 
     [[menus.footer_left]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 5
+    weight = 6
 
     [[menus.footer_left]]
     name = "My account"
     url = "gets-injected-in-page"
-    weight = 6
+    weight = 7
 
     # footer right
     [[menus.footer_right]]

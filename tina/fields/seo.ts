@@ -80,6 +80,16 @@ const seoFields: TinaField[] = [
           { value: "WebPage", label: "Web Page" },
         ],
       },
+      {
+        type: "string",
+        name: "custom_schema",
+        label: "Custom JSON-LD Schema",
+        description:
+          "Paste raw JSON-LD here to override the auto-generated schema for this page. Leave blank to use the auto-generated schema (recommended). Validate with Google's Rich Results Test before publishing.",
+        ui: {
+          component: "textarea",
+        },
+      },
     ],
   },
 ];

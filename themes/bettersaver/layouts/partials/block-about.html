@@ -1,35 +1,129 @@
-{{/*  <section class="block-about text-blue-navy content narrow">
-    <div class="py-8">
-        <p>Most KiwiSaver providers are good at showing you data that makes them look good. What they're less good at is helping you figure out whether you're actually in the right fund for you.</p>
-        <p class="mb-4">Joe Taylor saw that problem playing out for friends and family — people not making the most of their KiwiSaver, not because they didn't care, but because the right advice was nowhere to be found. So he built BetterSaver to fix it.</p>
-    
-        <h2>How We Work</h2>
-        <p>BetterSaver is an independent advice platform. We don't have a fund to sell you. We use independent data to match you to the KiwiSaver scheme that actually fits your situation — considering your life stage, your comfort with risk, your personal values, and fees.</p>
-        <p class="mb-4">We've already analysed hundreds of KiwiSaver funds, so you don't have to. You answer a few straightforward questions, we build a picture of what you need, and we show you where you should be — in plain English.</p>
-    
-        <h2>Who We Are</h2>
-        <p>We're a small team of advice, data, and technology professionals. We built BetterSaver to make KiwiSaver advice more accessible and more trustworthy — keeping things clear and practical, so you can feel confident you're in the right fund for your goals and your risk comfort.</p>
-        <p class="mb-4">We operate with a high level of trust. We trust the data we use. We trust the people on our team. And we hope you'll trust us to give you reliable, independent guidance — because that's the only kind worth giving.</p>
-    
-        <h2>Meet the Founder</h2>
-        <p>BetterSaver founder Joe Taylor has more than 15 years of experience in financial services. He started it because he kept watching people leave money on the table — KiwiSaver being either their largest or second-largest asset, and yet most Kiwis had never had a proper conversation about whether they were in the right fund.</p>
-        <p>He leads a small, focused team and stays hands-on across the business — making sure BetterSaver has what it needs to do what it set out to do.</p>
-        <a href="https://www.linkedin.com/in/taylorja/" class="button" target="_blank" rel="noopener noreferrer">Connect with Joe on LinkedIn</a>
+{{- $appUrl := .Site.Params.appUrl -}}
+<div class="about-page">
 
-        <div class="grid grid-cols-2-auto gap-4">
-            <div>
-                <p>BetterSaver founder Joe Taylor has more than 15 years of experience in financial services. He started it because he kept watching people leave money on the table — KiwiSaver being either their largest or second-largest asset, and yet most Kiwis had never had a proper conversation about whether they were in the right fund.</p>
-                <p>He leads a small, focused team and stays hands-on across the business — making sure BetterSaver has what it needs to do what it set out to do.</p>
-                <a href="https://www.linkedin.com/in/taylorja/" class="button" target="_blank" rel="noopener noreferrer">Connect with Joe on LinkedIn</a>
-            </div>
-            <div class="text-center">
-                <img src="/images/bg-joe.jpg" alt="Joe Taylor, founder of BetterSaver" loading="lazy" class="rounded" style="max-width: 230px"/>
-            </div>
+  {{/* TRUST STRIP */}}
+  <!-- <div class="">
+    <section class="trust">
+      <div class="trust-inner">
+        <div class="trust-lab">Independent advice · Trusted data</div>
+        <div class="trust-logos">
+          <div class="t-count"><span>300+</span><span class="sub">KiwiSaver funds analysed</span></div>
+          <div class="t-logo"><a href="https://www.morningstar.com/business/brands/data-analytics"><img src="/images/logo-morningstar.png" alt="Morningstar"></a></div>
+          <div class="t-logo"><img src="/images/logo-fap.png" alt="Licensed FAP"></div>
         </div>
-    </div>
-</section> */}}
+      </div>
+    </section>
+  </div> -->
 
-<div class="px-2 text-center py-12">
-    <h2>See how your KiwiSaver stacks up</h2>
-    <a href="https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure" class="button">Get started — it's free</a>
+  {{/* FRAMING */}}
+  <div class="py-9">
+    <section class="ab-page">
+      <div class="ab-framing">
+        <div>
+          <div class="section-tag">{{ .Params.framing_tag }}</div>
+          <h2>{{ .Params.framing_heading | markdownify }}</h2>
+        </div>
+        <div>
+          <p class="ab-framing-body">{{ .Params.framing_body | markdownify }}</p>
+          {{ with .Params.framing_button_label }}
+          <a href="{{ $.Params.framing_button_url }}" class="button">{{ . }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  </div>
+
+  {{/* STEPS — three things we do differently */}}
+  <section class="band-blue">
+    <div class="ab-page">
+      <div class="ab-steps-head">
+        <div class="section-tag">{{ .Params.steps_tag }}</div>
+        <h2>{{ .Params.steps_heading | markdownify }}</h2>
+        <p>{{ .Params.steps_subheading | markdownify }}</p>
+      </div>
+      <div class="ab-steps">
+        {{ range .Params.steps_items }}
+        <article class="ab-step">
+          <div class="ab-step-num">{{ .number }}</div>
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .body | markdownify }}</p>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{/* STORY w/ illustration */}}
+  <div class="py-9 px-1">
+    <section class="ab-page ab-story">
+      <div class="ab-story-illo">
+        <img src="{{ .Params.story_image }}" alt="{{ .Params.story_image_alt }}">
+      </div>
+      <div>
+        <div class="section-tag">{{ .Params.story_tag }}</div>
+        <h2>{{ .Params.story_heading | markdownify }}</h2>
+        <p>{{ .Params.story_intro | markdownify }}</p>
+        <p class="small">{{ .Params.story_body | markdownify }}</p>
+        {{ with .Params.story_button_label }}
+        <a class="button" href="{{ $.Params.story_button_url }}" target="_blank" rel="noopener">{{ . }}</a>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  {{/* QUOTES */}}
+  <!-- <div class="py-9">
+    <section class="ab-page">
+      <div class="ab-quotes-head">
+        <div class="section-tag">{{ .Params.quotes_tag }}</div>
+        <h2>{{ .Params.quotes_heading | markdownify }}</h2>
+        <p>{{ .Params.quotes_subheading | markdownify }}</p>
+      </div>
+      <div class="ab-quotes-grid">
+        {{ range .Params.quotes_items }}
+        <article class="ab-quote">
+          <div class="ab-quote-mark">"</div>
+          <div class="ab-quote-body">{{ .body | markdownify }}</div>
+          <div class="ab-quote-attr">
+            <div class="ab-quote-avatar {{ .avatar_class }}">{{ .avatar_letter }}</div>
+            <div>
+              <div class="ab-quote-name">{{ .name }}</div>
+              <div class="ab-quote-meta">{{ .meta }}</div>
+            </div>
+          </div>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+  </div> -->
+
+  {{/* PARTNER */}}
+  <div class="fund-finder">
+    <section style="padding: 0px">
+      <div class="ab-partner">
+        <div>
+          <div class="ab-partner-title">{{ .Params.partner_title }}</div>
+          <div class="ab-partner-sub">{{ .Params.partner_sub | markdownify }}</div>
+        </div>
+        {{ with .Params.partner_button_label }}
+        <div><a class="button white" href="{{ $.Params.partner_button_url }}">{{ . }}</a></div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+
+  {{/* FINAL CTA */}}
+  <div class="ab-page">
+    <section class="ab-final-cta">
+      <h2>{{ .Params.cta_heading | markdownify }}</h2>
+      {{ with .Params.cta_button_label }}
+      {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
+      <a class="button" href="{{ $url }}">{{ . }}</a>
+      {{ end }}
+      {{ with .Params.cta_subnote }}
+      <div class="ab-subnote">{{ . }}</div>
+      {{ end }}
+    </section>
+  </div>
+
 </div>

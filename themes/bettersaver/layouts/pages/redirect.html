@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="refresh" content="0; url={{ .Params.redirect_to | default "/" }}">
+<script>window.location.replace("{{ .Params.redirect_to | default "/" }}");</script>
+</head>
+<body>
+<p>Redirecting to <a href="{{ .Params.redirect_to | default "/" }}">{{ .Params.redirect_to | default "/" }}</a>…</p>
+</body>
+</html>
