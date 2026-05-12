@@ -47,8 +47,8 @@ checks_items:
 
     bullets:
       - text: We look at the **total annual fund charge**
-      - text: Funds with higher fees must clearly justify the cost.
       - text: Lower fees generally score higher.
+      - text: Funds with higher fees must clearly justify the cost.
     kicker: The aim is find funds with fair fees.
   - number: '3'
     tag: Check three
