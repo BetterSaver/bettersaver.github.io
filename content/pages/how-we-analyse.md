@@ -41,14 +41,13 @@ checks_items:
     tag: Check two
     title: Fees
     intro: |+
-      Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charge against its peer group. Lower fees generally score higher. Funds with higher fees only escape the penalty when their returns over time clearly justify the cost.
+      Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charge against its peer group. Lower fees generally score higher.
 
 
 
     bullets:
       - text: |-
           We look at the **total annual fund charge**
-          Lower fees generally score higher.
           Funds with higher fees only escape the penalty when their returns over time clearly justify the cost
     kicker: ''
   - number: '3'
