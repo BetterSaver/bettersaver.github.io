@@ -66,8 +66,8 @@ paths_cards:
       - text: Our ongoing service may be more limited once you're with a non-participating provider.
 contrib_tag: Different from switching
 contrib_heading: Changing your KiwiSaver *contribution rate*.
-contrib_subheading: Switching providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver — rather than which provider holds it — that's done through your employer or directly with Inland Revenue.
-contrib_title: 'Available rates: 3%, 4%, 6%, 8%, or 10%'
+contrib_subheading: Switching providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver — rather than which provider holds it — that's done through your employer.
+contrib_title: 'Available rates: 3.5%, 4%, 6%, 8%, or 10%'
 contrib_sub: KiwiSaver contribution rates are set as a percentage of your before-tax pay. You can request a change at any time by giving your employer written notice.
 contrib_image: /uploads/images/illustration-shake.png
 contrib_image_alt: Annual refresh
@@ -97,7 +97,7 @@ faq_items:
   - question: Can I change my KiwiSaver provider?
     answer: 'Yes. You can change your KiwiSaver provider at any time. There''s **no lock-in period**, and you can switch as many times as you like. If you''re in a default scheme from when you first started work, switching is straightforward — BetterSaver can recommend a scheme that suits you now and guide you through it online.'
   - question: What is a default KiwiSaver scheme?
-    answer: 'When you start a new job in New Zealand, your employer is required to enrol you in KiwiSaver if you haven''t already joined. If you don''t choose a provider, you''re placed into one of **six government-selected default schemes**. These are legitimate schemes, but they''re not chosen to fit your personal situation — they''re a starting point.'
+    answer: 'When you start a new job in New Zealand, your employer is required to enrol you in KiwiSaver if you haven''t already joined. If you don''t choose a provider, you''re placed into one of **six government-selected default schemes**. These are all balanced funds, they''re not chosen to fit your personal situation — they''re a starting point.'
   - question: How do I change my KiwiSaver provider?
     answer: |
       Through BetterSaver, the process has three steps:
