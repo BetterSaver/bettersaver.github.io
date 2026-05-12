@@ -46,9 +46,10 @@ checks_items:
 
 
     bullets:
-      - text: |
-          We look at the **total annual fund charge** — and compare it to what the fund actually delivered, after fees, versus peers.
+      - text: |-
+          We look at the **total annual fund charge**
           Lower fees generally score higher.
+          Funds with higher fees only escape the penalty when their returns over time clearly justify the cost
     kicker: ''
   - number: '3'
     tag: Check three
