@@ -125,7 +125,7 @@ data_cards:
     ranked: []
 cadence_title: We refresh our analysis at minimum annually.
 cadence_sub: 'KiwiSaver is long-term, but funds change. Markets change. Fees, managers and strategies can change. If something material shifts between reviews, a fund can be added or removed at any time.'
-cadence_image: /uploads/images/illustration-hands-search.png
+cadence_image: /uploads/illustration-hands-search.png
 cadence_image_alt: Annual refresh
 faq_heading: About our methodology.
 faq_subheading: 'The questions that come up most often. Can''t see yours? [Talk to us](/contact-us).'
