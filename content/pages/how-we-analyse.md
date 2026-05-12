@@ -53,8 +53,8 @@ checks_items:
     kicker: ''
   - number: '3'
     tag: Check three
-    title: Consistency and *downside risk*.
-    intro: We look at how bumpy the ride has been — and how the fund held up when markets turned rough. This includes **past drawdowns** and behaviour relative to peers in weak markets.
+    title: Consistency
+    intro: 'We look at how bumpy the ride has been. Measuring how much a fund''s returns swing from year to year, and score each fund against the average swing of its peer group. Smaller swings score higher.'
     bullets:
       - text: We assess the **size of past drawdowns** across real market events.
       - text: We compare how the fund behaves **relative to its peer group** when markets are weak.
