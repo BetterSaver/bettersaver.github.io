@@ -137,7 +137,7 @@ faq_items:
   - question: How does BetterSaver compare KiwiSaver funds?
     answer: 'We sort each fund into one of five categories (Defensive, Conservative, Balanced, Growth, Aggressive) based on its asset allocation, then assess every fund against its peers across four core checks — Performance, Fees, Consistency, and Quality. Comparisons are always like for like.'
   - question: How far back does BetterSaver look at KiwiSaver fund performance?
-    answer: We focus on performance over meaningful timeframes — typically **five to ten years** where available. **Five years is our minimum bar** — funds with shorter track records are not recommended.
+    answer: 'We focus on performance over meaningful timeframes, typically **five to ten years** where available. **Five years is our minimum bar**. Funds with shorter track records are not recommended.'
   - question: How is a fund comparison different from picking the best-performing fund?
     answer: 'The best-performing fund over the last year is **not necessarily the right fund for you**. A meaningful comparison accounts for your risk level, your investment horizon, and fee impact over time — not just a single return figure.'
 cta_heading: Find a *better* fund for your life.
