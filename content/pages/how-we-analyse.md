@@ -139,7 +139,7 @@ faq_items:
   - question: How far back does BetterSaver look at KiwiSaver fund performance?
     answer: 'We focus on performance over meaningful timeframes, typically **five to ten years** where available. **Five years is our minimum bar**. Funds with shorter track records are not recommended.'
   - question: How is a fund comparison different from picking the best-performing fund?
-    answer: 'The best-performing fund over the last year is **not necessarily the right fund for you**. A meaningful comparison accounts for your risk level, your investment horizon, and fee impact over time — not just a single return figure.'
+    answer: 'The best-performing fund over the last quarter, last year etc. is **not necessarily the right fund for you**. A meaningful comparison accounts for performance, fees, consistency, quality — not just a single return figure.'
 cta_heading: Find a *better* fund for your life.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
