@@ -16,7 +16,7 @@ steps_heading: Three things we do differently.
 steps_subheading: 'A simple model, applied consistently — and it''s the reason Kiwis trust us with their biggest long-term investment.'
 steps_items:
   - number: '01'
-    title: Independent by design
+    title: Independent
     body: 'We''re not a KiwiSaver provider, so we''re not tied to any set of funds. Recommendations come from our own data-driven model — not commercial relationships. Any fees or commissions we receive are **fully disclosed**, in line with FMA requirements.'
   - number: '02'
     title: Data over opinions
