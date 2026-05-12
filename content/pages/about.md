@@ -1,4 +1,13 @@
 ---
+team_tag: Credentials
+team_heading: The team behind the advice.
+team_body: 'BetterSaver is a **licensed Financial Advice Provider**, operated by an experienced team led by Joe Taylor'
+team_meta:
+  - text: FSP 600609
+  - text: Est. 2018
+  - text: Auckland
+team_button_label: Connect with Joe on LinkedIn
+team_button_url: 'https://www.linkedin.com/in/taylorja/'
 draft: false
 title: We exist to help Kiwis get the most out of KiwiSaver
 description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
@@ -24,23 +33,12 @@ steps_items:
   - number: '03'
     title: 'Personalised, in plain English'
     body: 'Good advice has to be **personal** to be useful. Our fund finder learns your goals, timeframe and how you feel about risk — then explains why a particular fund is a better fit, without the jargon. From **first-home buyers** saving for a deposit to Kiwis thinking seriously about retirement.'
-story_image: /uploads/bg-joe.jpg
+story_image: /uploads/big_joe.jpg
 story_image_alt: 'Joe Taylor, founder of BetterSaver'
 story_tag: Our story
 story_heading: Why we started BetterSaver.
 story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *proper financial advice wasn't accessible*.
 story_body: 'Our founder Joe Taylor has spent more than 15 years in financial services in New Zealand and kept seeing the same story: Kiwis stuck in funds that weren''t right for them, simply because no one had ever given them proper advice. We built BetterSaver so a small nudge today — the right fund, the right provider, the right settings — can bounce through the rest of your working life.'
-story_button_label: Connect with Joe on LinkedIn
-story_button_url: https://www.linkedin.com/in/taylorja/
-team_tag: Credentials
-team_heading: The team behind the advice.
-team_body: 'BetterSaver is a **licensed Financial Advice Provider**, operated by an experienced team led by Joe Taylor'
-team_meta:
-  - text: FSP 600609
-  - text: Est. 2018
-  - text: Auckland
-team_button_label: Connect with Joe on LinkedIn
-team_button_url: 'https://www.linkedin.com/in/taylorja/'
 quotes_tag: What Kiwis say
 quotes_heading: 'Real Kiwis, real balances, real decisions.'
 quotes_subheading: A few of the thousands of messages we've had from BetterSaver members.
