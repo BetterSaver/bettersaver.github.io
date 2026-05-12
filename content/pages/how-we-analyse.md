@@ -74,7 +74,7 @@ weighting_heading: The four checks *aren't* equal across all categories.
 weighting_body: 'The right balance changes with risk level. A Defensive investor cares more about a smooth ride than chasing returns; an Aggressive investor cares more about returns than smoothness. We reflect that by weighting the four checks differently for each category:'
 grades_tag: The grade system
 grades_heading: From A+ to F *every fund we assess*.
-grades_subheading: Every fund we analyse is given an overall grade based on how it performs across the four core checks. A grade of B or above is the bar to make our recommended list. Funds that don't clear it are marked Not Recommended (NR).
+grades_subheading: 'Every fund we analyse is given an overall grade based on how it performs across the four core checks. A grade of B or above is the bar to make our recommended list. Funds that don''t clear it are marked Not Recommended (NR). '
 grades_cards:
   - badge: A*+*
     css_class: aplus
