@@ -62,10 +62,10 @@ checks_items:
     kicker: The aim is to avoid surprises.
   - number: '4'
     tag: Check four
-    title: Quality and *red flag* checks.
-    intro: Numbers alone aren't enough. We also look at **practical quality signals** — the things that tell you whether a fund is well run.
+    title: Quality
+    intro: Numbers alone aren't enough. We also check three practical signals that show whether a fund is well run.
     bullets:
-      - text: 'Does the fund **invest how they say?** We compare its actual asset allocation against the target it states, and check whether marketing language (e.g. "passive") matches the underlying construction.'
+      - text: 'Strategy: Does the fund invest the way it says? We compare actual holdings against the stated target, and check that marketing language (e.g. "passive") matches the construction.'
       - text: 'Is the fund of **reasonable scale**, with enough assets under management to operate efficiently?'
       - text: 'Are the managers and strategy **stable**, or has there been significant turnover?'
     kicker: ''
