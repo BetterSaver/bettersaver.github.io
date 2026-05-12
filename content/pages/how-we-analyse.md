@@ -39,10 +39,16 @@ checks_items:
     kicker: The aim is to avoid being swayed by a fund's latest hot streak.
   - number: '2'
     tag: Check two
-    title: Fees and *value*.
-    intro: Fees matter — they compound over decades. But **the cheapest fund isn't always the best**. We ask whether the fee is reasonable for what the fund is trying to deliver.
+    title: Fees
+    intro: |+
+      Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charge against its peer group. Lower fees generally score higher. Funds with higher fees only escape the penalty when their returns over time clearly justify the cost.
+
+
+
     bullets:
-      - text: 'We look at the **total annual fund charge** — and compare it to what the fund actually delivered, after fees, versus peers.'
+      - text: |
+          We look at the **total annual fund charge** — and compare it to what the fund actually delivered, after fees, versus peers.
+          Lower fees generally score higher.
     kicker: ''
   - number: '3'
     tag: Check three
