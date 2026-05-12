@@ -133,7 +133,7 @@ faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:
   - question: What do BetterSaver's fund grades mean?
-    answer: 'We grade every fund from A+ down to F based on how it performs across our four core checks. Funds rated **A+ (Top pick), A (Top performer), and B (Quality option)** are on our recommended list — typically around the top 10% of funds we analyse. Funds rated C, D, E, or F are shown publicly as **NR**, with no further detail. Signed-in users see the four-check pass/fail breakdown for every fund — but C-F funds still show as NR (no letter grade is revealed).'
+    answer: 'We grade every fund from A+ down to F based on how it performs across our four core checks. Funds rated A+ (Top pick), A (Top performer), and B (Quality option) are on our recommended list. Funds rated C, D, E, or F are shown publicly as NR — Not Recommended.'
   - question: What KiwiSaver fees should I look for when comparing funds?
     answer: The main fee to watch is the **total annual fund charge** (sometimes shown as the total expense ratio). We look at whether fees are reasonable relative to performance — a fund with higher fees needs to demonstrably justify the cost over time.
   - question: How does BetterSaver compare KiwiSaver funds?
