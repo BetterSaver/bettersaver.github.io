@@ -134,10 +134,8 @@ faq_button_url: /faq/
 faq_items:
   - question: What do BetterSaver's fund grades mean?
     answer: 'We grade every fund from A+ down to F based on how it performs across our four core checks. Funds rated A+ (Top pick), A (Top performer), and B (Quality option) are on our recommended list. Funds rated C, D, E, or F are shown publicly as NR — Not Recommended.'
-  - question: What KiwiSaver fees should I look for when comparing funds?
-    answer: The main fee to watch is the **total annual fund charge** (sometimes shown as the total expense ratio). We look at whether fees are reasonable relative to performance — a fund with higher fees needs to demonstrably justify the cost over time.
   - question: How does BetterSaver compare KiwiSaver funds?
-    answer: 'We sort each fund into one of five categories (Defensive, Conservative, Balanced, Growth, Aggressive) based on its asset allocation, then assess every fund against its peers across **four core checks** — long-term performance, fees, consistency, and quality. Comparisons are always like-for-like.'
+    answer: 'We sort each fund into one of five categories (Defensive, Conservative, Balanced, Growth, Aggressive) based on its asset allocation, then assess every fund against its peers across four core checks — Performance, Fees, Consistency, and Quality. Comparisons are always like for like.'
   - question: How far back does BetterSaver look at KiwiSaver fund performance?
     answer: We focus on performance over meaningful timeframes — typically **five to ten years** where available. **Five years is our minimum bar** — funds with shorter track records are not recommended.
   - question: How is a fund comparison different from picking the best-performing fund?
