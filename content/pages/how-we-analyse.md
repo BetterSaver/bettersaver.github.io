@@ -99,7 +99,7 @@ grades_callout_heading: C or below doesn't automatically mean *a bad fund* just 
 grades_callout_bullets:
   - text: It didn't **score strongly enough** against its peers in the same category.
   - text: 'There wasn''t enough reliable data — for example, **less than five years** of returns.'
-  - text: 'It sits **outside our category framework** — a single-sector fund, or a fund whose allocation doesn''t match one of our five categories.'
+  - text: It sits **outside our category framework** — a single-sector fund that doesn't match one of our five categories.
 data_tag: Behind the analysis
 data_heading: Where our *data* comes from.
 data_cards:
