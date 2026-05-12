@@ -110,7 +110,7 @@ faq_items:
   - question: Is my money out of the market when I switch KiwiSaver providers?
     answer: There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches and is typically brief.
   - question: Can I change my KiwiSaver contribution rate?
-    answer: 'Yes — but that''s **separate from switching providers**. To change how much of your pay goes into KiwiSaver (3%, 4%, 6%, 8%, or 10%), contact your employer or Inland Revenue directly.'
+    answer: 'Yes — but that''s **separate from switching providers**. To change how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
   - question: How do I transfer my KiwiSaver to another bank?
     answer: 'If your bank offers a KiwiSaver scheme that suits you, you can switch to it through BetterSaver. We''ll check it against our criteria and guide you through the switch if it''s on our recommended list.'
   - question: Can you transfer your KiwiSaver to someone else?
