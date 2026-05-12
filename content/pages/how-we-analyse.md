@@ -64,7 +64,7 @@ checks_items:
     title: Quality
     intro: Numbers alone aren't enough. We also check three practical signals that show whether a fund is well run.
     bullets:
-      - text: 'Strategy: Does the fund invest the way it says? We compare actual holdings against the stated target, and check that marketing language (e.g. "passive") matches the construction.'
+      - text: 'Strategy: Does the fund invest the way it says? We compare actual holdings against the stated target.'
       - text: 'Scale: Is the fund big enough to operate efficiently?'
       - text: 'Stability: are the managers and strategy stable, or has there been significant turnover?'
     kicker: ''
