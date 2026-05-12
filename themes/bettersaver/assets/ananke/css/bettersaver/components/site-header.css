@@ -269,10 +269,23 @@
         left: 45%;
         transform: translate(-50%, -50%);
 
+        &.boots {
+            top: 30% !important;
+            left: 50% !important;
+        }
+
         /* Tablet down */
         @media screen and (max-width: 1024px) {
             max-width: 200px;
+
+            &.boots {
+                display: block;
+                top: 43% !important;
+                left: 20% !important;
+            }
         }
+
+        
 
         /* Mobile down */
         @media screen and (max-width: 768px) {
@@ -283,6 +296,10 @@
                 position: absolute;
                 top: 50% !important;
             }
+
+             &.boots {
+                display: none;
+             }
         }
 
         &.boat {

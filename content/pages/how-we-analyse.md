@@ -3,6 +3,8 @@ draft: false
 title: How we analyse KiwiSaver
 description: 'There are over 300 KiwiSaver options from around 30 providers. This page sets out how we compare them, what we assess, how we rate them, and the criteria a fund must meet to be on our recommended list.'
 featured_image: /uploads/how-we-analyse.jpg
+icon_path: /images/illustration-stack.png
+icon_class: stack
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
 framing_tag: The short version
