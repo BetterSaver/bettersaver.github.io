@@ -64,7 +64,7 @@ checks_items:
     intro: Numbers alone aren't enough. We also check three practical signals that show whether a fund is well run.
     bullets:
       - text: Does the fund invest the way it says? We compare actual holdings against the stated target.
-      - text: 'Scale: Is the fund big enough to operate efficiently?'
+      - text: Is the provider/fund big enough.
       - text: 'Stability: are the managers and strategy stable, or has there been significant turnover?'
     kicker: The aim is to find superior funds.
 quote_body: 'The goal is simple: Recommend funds that have a **strong performance track record**, fair fees, and are *well run*.'
