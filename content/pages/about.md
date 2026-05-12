@@ -2,7 +2,7 @@
 draft: false
 title: We exist to help Kiwis get the most out of KiwiSaver
 description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
-featured_image: /uploads/images/bg-about.png
+featured_image: /uploads/illustration-newtons-cradle.svg
 featured_image_fit: contain
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
@@ -22,11 +22,10 @@ steps_items:
     title: Data
     body: 'Recommendations are built on data from **Morningstar** — the global standard for independent fund data — combined with our own proprietary model that accounts for your situation. We review every fund **at least annually**, and more often when markets move.'
   - number: '03'
-    title: Personalised, in plain English
-    body: "Good advice has to be **personal** to be useful. Our fund finder learns your goals, timeframe and how you feel about risk — then explains why a particular fund is a better fit, without the jargon. From **first-home buyers** saving for a deposit to Kiwis thinking seriously about retirement."
-
-story_image: /images/bg-joe.jpg
-story_image_alt: Joe Taylor, founder of BetterSaver
+    title: 'Personalised, in plain English'
+    body: 'Good advice has to be **personal** to be useful. Our fund finder learns your goals, timeframe and how you feel about risk — then explains why a particular fund is a better fit, without the jargon. From **first-home buyers** saving for a deposit to Kiwis thinking seriously about retirement.'
+story_image: /uploads/bg-joe.jpg
+story_image_alt: 'Joe Taylor, founder of BetterSaver'
 story_tag: Our story
 story_heading: Why we started BetterSaver.
 story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *proper financial advice wasn't accessible*.
