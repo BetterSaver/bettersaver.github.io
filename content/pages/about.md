@@ -22,7 +22,7 @@ steps_items:
     title: Data
     body: 'Recommendations are built on data from **Morningstar** — the global standard for independent fund data — combined with our own proprietary model that accounts for your situation. We review every fund **at least annually**, and more often when markets move.'
   - number: '03'
-    title: 'Personalised, in plain English'
+    title: Personalised
     body: 'Good advice has to be **personal** to be useful. Our fund finder learns your goals, timeframe and how you feel about risk — then explains why a particular fund is a better fit, without the jargon. From **first-home buyers** saving for a deposit to Kiwis thinking seriously about retirement.'
 story_image: /uploads/images/illustration-springball.svg
 story_image_alt: Illustration of a ball bouncing on a spring
