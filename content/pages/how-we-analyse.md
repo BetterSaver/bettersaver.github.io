@@ -145,7 +145,7 @@ faq_items:
 cta_heading: Find a *better* fund for your life.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
-cta_subnote: Takes 2-5 minutes
+cta_subnote: Takes 2-5 minutes - and It's free!
 seo:
   title: How We Analyse | BetterSaver
   description: |
