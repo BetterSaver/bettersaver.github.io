@@ -1,0 +1,53 @@
+/*
+  Tailwind v4 — parallel-run setup.
+  Preflight (base reset) intentionally omitted so existing custom CSS keeps owning
+  default element styling (h1–h6, ul, button, img, table, etc.). Re-introduce in a
+  later step once templates are migrated and any preflight regressions are scoped.
+*/
+@layer theme, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@source "../../../layouts/**/*.html";
+@source "../../../../../layouts/**/*.html";
+@source "../../../../../content/**/*.{html,md}";
+
+@theme {
+  /* Spacing scale: 10px increments to match existing custom CSS
+     mb-1 = 10px, mb-2 = 20px, mb-4 = 40px, mb-12 = 120px */
+  --spacing: 10px;
+
+  /* Breakpoints to match existing media queries (display.css, utility.css) */
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  /* Brand colors from var.css */
+  --color-blue-navy: #242E54;
+  --color-blue-happy: #003399;
+  --color-blue-baby: #99CCFF;
+
+  --color-purple: #9966FF;
+  --color-purple-contrast: #783CF0;
+  --color-purple-invert: #9966FF;
+
+  --color-grey-mid: rgba(36, 46, 84, 0.75);
+  --color-grey-light: rgba(36, 46, 84, 0.55);
+  --color-grey-very-light: rgba(36, 46, 84, 0.4);
+  --color-grey-bg-dark: #E5E7F0;
+  --color-grey-bg-mid: #ECEEF4;
+  --color-grey-bg-light: #F3F5F9;
+
+  --color-link: #0042C5;
+  --color-link-invert: #99CCFF;
+
+  --color-utility-green: #00D671;
+  --color-utility-green-dark: #00A356;
+  --color-utility-blue: #339CFD;
+  --color-utility-blue-contrast: #0150EB;
+  --color-utility-purple: #9966FF;
+  --color-utility-purple-dark: #783CF0;
+  --color-utility-orange: #FFB236;
+  --color-utility-orange-dark: #F6862A;
+  --color-utility-red: #F1375C;
+}
