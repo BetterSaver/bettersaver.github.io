@@ -93,13 +93,13 @@
             </div>
         </div>
         <div id="blog-recent-container" x-swipe:right="pushleft()" x-swipe:left="pushright()">
-            <div class="carousel" id="blog-recent-scroller">
+            <div class="flex gap-2 overflow-hidden snap-x snap-mandatory p-2" id="blog-recent-scroller">
 
                 <!-- List 10 recent financial tips posts -->
                 {{ $posts := where (where site.RegularPages "Section" "financial-tips") "title" "!=" "" }}
                 {{ range $posts }}
-                <div class="carousel-item">
-                    <div class="cursor-pointer" @click="window.location.href='{{ .RelPermalink }}'">
+                <div class="carousel-item block snap-always min-w-[90%] snap-center md:min-w-[30%] lg:min-w-[225px] lg:snap-start">
+                    <div class="cursor-pointer bg-white min-h-[334px] transition-all duration-200 hover:shadow-[0_4px_12px_rgba(0,0,0,0.1)] hover:-mt-[8px]" @click="window.location.href='{{ .RelPermalink }}'">
                         {{ .Render "summary" }}
                     </div>
                 </div>
