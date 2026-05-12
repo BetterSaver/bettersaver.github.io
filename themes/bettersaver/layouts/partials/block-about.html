@@ -54,7 +54,7 @@
   </section>
 
   {{/* STORY w/ illustration */}}
-  <div class="py-9">
+  <div class="py-9 px-1">
     <section class="ab-page ab-story">
       <div class="ab-story-illo">
         <img src="{{ .Params.story_image }}" alt="{{ .Params.story_image_alt }}">
@@ -106,7 +106,7 @@
           <div class="ab-partner-sub">{{ .Params.partner_sub | markdownify }}</div>
         </div>
         {{ with .Params.partner_button_label }}
-        <a class="button white" href="{{ $.Params.partner_button_url }}">{{ . }}</a>
+        <div><a class="button white" href="{{ $.Params.partner_button_url }}">{{ . }}</a></div>
         {{ end }}
       </div>
     </section>

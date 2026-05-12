@@ -13,12 +13,10 @@
     box-sizing: border-box;
 }
 
-
-
 .how-we-analyse-page .hwa-page {
     max-width: 1080px;
-    margin: 0 auto 40px auto;
-    padding: 0 32px;
+    margin: 0 auto;
+    padding: 0 var(--size-2);
 }
 
 .right-hand-large-image {
@@ -1426,8 +1424,8 @@
     .how-we-analyse-page .cadence { grid-template-columns: 1fr; gap: 16px; padding: 26px; }
     .how-we-analyse-page .cadence .lab { text-align: left; }
     .change-provider-page .cadence .badge-c, .how-we-analyse-page .cadence .badge-c { text-align: center; padding-top: 15px }
-    .how-we-analyse-page .band-blue,
-    .how-we-analyse-page .band-cream { padding: 64px 0; }
+    /* .how-we-analyse-page .band-blue,
+    .how-we-analyse-page .band-cream { padding: 64px 0; } */
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
     .how-we-analyse-page .weighting-table { min-width: 560px; }
     .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }

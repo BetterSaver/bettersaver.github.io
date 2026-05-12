@@ -20,7 +20,7 @@
 .about-page .ab-page {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 0 var(--size-2);
 }
 
 .about-page section {
