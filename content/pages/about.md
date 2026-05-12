@@ -1,7 +1,7 @@
 ---
 draft: false
 title: We exist to help Kiwis get the most out of KiwiSaver
-description: 'We''re an independent, licensed financial advice provider. We analyse over 300 KiwiSaver options with Morningstar data, to find the right one for you.'
+description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
 featured_image: /uploads/images/bg-about.png
 featured_image_fit: contain
 date: 2022-10-10T03:00:00.000Z
