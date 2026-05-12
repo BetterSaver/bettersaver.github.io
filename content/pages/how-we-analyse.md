@@ -104,7 +104,7 @@ grades_callout_bullets:
   - text: 'A Fund of funds that hold other funds as their underlying assets — are rated alongside every other peer fund and must clear the same four checks. They''re treated as their own distinct fund. '
   - text: 'It sits **outside our category framework** — a single-sector fund, or a fund whose allocation doesn''t match one of our five categories.'
 data_tag: Behind the analysis
-data_heading: Where our *data* comes from — and how we stay *independent*.
+data_heading: Where our *data* comes from.
 data_cards:
   - label: Data sources
     title: 'We rely on *Morningstar*, and fill the gaps.'
@@ -124,7 +124,7 @@ data_cards:
     title: Commissions *don't* influence our recommendations.
     description: BetterSaver may receive a commission from some KiwiSaver providers if you join or switch through our platform. **This does not increase your fund fees.**
     description_2: 'In practice, there are **more funds from providers we could be paid for that don''t make our recommended list** than there are on it. The list is driven by our criteria, not commercial arrangements.'
-    notice: Our analysis includes funds that pay us and funds that don't — as long as they meet our standards.
+    notice: 'Our recommended list includes funds that pay us and funds that don''t, as long as they meet our standards they make the list.'
     ranked: []
 cadence_title: We refresh our analysis at minimum annually.
 cadence_sub: 'KiwiSaver is long-term, but funds change. Markets change. Fees, managers and strategies can change. If something material shifts between reviews, a fund can be added or removed at any time.'
