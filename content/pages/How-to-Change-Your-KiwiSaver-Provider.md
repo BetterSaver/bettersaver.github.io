@@ -58,7 +58,7 @@ paths_cards:
       - text: 'Complete it in one flow, from start to finish.'
       - text: 'Clear updates on what happens next, and when.'
   - title: If your chosen provider *doesn't support* switching through BetterSaver
-    description: 'We can still recommend a scheme from a provider that isn''t on our direct-switch platform, as long as it meets our analysis criteria and we have enough data to assess it. In most cases, you can still complete the application on the BetterSaver website — we then pass it to the provider to finalise.'
+    description: 'We can still recommend a scheme from a provider that isn''t on our direct-switch platform, as long as it meets our analysis criteria. In most cases, you can still complete the application on the BetterSaver website — we then pass it to the provider to finalise.'
     bullets:
       - text: You can view the scheme and why it's recommended.
       - text: 'You complete the application on our site, and we pass it on to the provider.'
