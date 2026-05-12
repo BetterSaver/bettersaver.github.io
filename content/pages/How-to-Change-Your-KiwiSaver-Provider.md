@@ -20,7 +20,7 @@ how_steps:
     description: 'A few quick questions about your timeframe, how you feel about market ups and downs, and any investment preferences. The aim is to match you to the right scheme — **not just a default based on your age**.'
   - number: '02'
     title: We show your recommended options
-    description: 'You''ll see a scheme that matches your profile and meets our analysis criteria. **Compare it against others in plain English**, side by side. No jargon, no noise.'
+    description: 'You''ll see a fund that matches your profile and meets our analysis criteria. **Compare it against others in plain English**, side by side. No jargon, no noise.'
   - number: '03'
     title: We guide you through the switch
     description: Complete an application on the BetterSaver website. We capture what's needed and pass it to your chosen provider to finalise. **Most people are done in under 5 minutes.**
