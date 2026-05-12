@@ -81,7 +81,7 @@ costs_cards:
   - label: No extra cost to you
     title: Using BetterSaver doesn't cost you anything *extra*.
     description: You pay the same scheme fees you'd pay going directly to the provider.
-    image: /uploads/images/illustration-thumbs-up.png
+    image: /uploads/illustration-thumbs-up.png
     image_alt: Illustration of a thumbs up
   - label: Commissions & independence
     title: Commissions *don't* influence our recommendations.
