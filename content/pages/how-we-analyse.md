@@ -91,7 +91,7 @@ grades_cards:
     css_class: b
     status: Recommended
     label: Quality option
-    description: Meets our bar across all four checks.
+    description: Meets our bar to be recommended.
 grades_low_title: Grades *C through F* — shown publicly as *NR*.
 grades_low_body: 'Publicly, non-recommended funds show as **NR** — no letter, no underlying detail. Recommended funds (A+, A, B) show their grade.'
 grades_low_note_label: Signed in
