@@ -1267,6 +1267,7 @@
 
 .how-we-analyse-page .cadence .badge-c {
     color: var(--white);
+    text-align: right;
 }
 
 .how-we-analyse-page .cadence .title {
@@ -1424,6 +1425,7 @@
     .how-we-analyse-page .twocol { grid-template-columns: 1fr; }
     .how-we-analyse-page .cadence { grid-template-columns: 1fr; gap: 16px; padding: 26px; }
     .how-we-analyse-page .cadence .lab { text-align: left; }
+    .change-provider-page .cadence .badge-c { text-align: center; padding-top: 15px }
     .how-we-analyse-page .band-blue,
     .how-we-analyse-page .band-cream { padding: 64px 0; }
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
