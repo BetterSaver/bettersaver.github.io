@@ -28,11 +28,11 @@ story_image: /uploads/images/illustration-springball.svg
 story_image_alt: Illustration of a ball bouncing on a spring
 story_tag: Our story
 story_heading: Why we started BetterSaver.
-story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *no one ever gave them proper advice*.
-story_body: 'Joe Taylor has spent more than 15 years in financial services in New Zealand and kept seeing the same story: Kiwis stuck in funds that weren''t right for them, simply because no one had ever given them proper advice. We built BetterSaver so that a small nudge today — the right fund, the right provider, the right settings — can bounce through the rest of your working life.'
+story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *proper financial advice wasn't accessible*.
+story_body: 'Our founder Joe Taylor has spent more than 15 years in financial services in New Zealand and kept seeing the same story: Kiwis stuck in funds that weren''t right for them, simply because no one had ever given them proper advice. We built BetterSaver so a small nudge today — the right fund, the right provider, the right settings — can bounce through the rest of your working life.'
 team_tag: Credentials
 team_heading: The team behind the advice.
-team_body: 'BetterSaver is a **registered Financial Advice Provider**, operated by an experienced team that has all the important stuff covered — *advice, data science, engineering, marketing, design and legal compliance*.'
+team_body: 'BetterSaver is a **licensed Financial Advice Provider**, operated by an experienced team led by Joe Taylor'
 team_meta:
   - text: FSP 600609
   - text: Est. 2018
@@ -67,10 +67,10 @@ partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with New Zealand organisations offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
 partner_button_url: /contact-us
-cta_heading: See how your KiwiSaver *stacks up*.
-cta_button_label: Get started — it's free
+cta_heading: Find a *better* KiwiSaver today!
+cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
-cta_subnote: Takes 2–5 minutes
+cta_subnote: Takes 2–5 minutes - It's free
 seo:
   title: About Us | BetterSaver
   description: |
