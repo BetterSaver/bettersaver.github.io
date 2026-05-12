@@ -63,7 +63,7 @@ checks_items:
     title: Quality
     intro: Numbers alone aren't enough. We also check three practical signals that show whether a fund is well run.
     bullets:
-      - text: Does the fund invest the way it says? We compare actual holdings against the stated target.
+      - text: Does the fund invest the way it says?
       - text: Is the provider/fund big enough?
       - text: Are the managers and strategy stable?
     kicker: The aim is to find superior funds.
