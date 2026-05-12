@@ -11,7 +11,7 @@ framing_body: 'Our methodology rests on three principles and **four core checks*
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a *category*.'
 cats_body: 'We sort multi-asset KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund.'
-cats_body_2: 'Funds that hold only one asset class, say NZ shares only, or US bonds only **sit outside this framework**. They carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
+cats_body_2: 'Funds that hold only one asset class, say NZ shares only, or US bonds only, carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
 principles_tag: The principles
 principles_heading: What guides our analysis.
 principles_subheading: Three principles shape every recommendation we make. They're deliberately simple.
