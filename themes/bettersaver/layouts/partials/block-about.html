@@ -64,35 +64,15 @@
         <h2>{{ .Params.story_heading | markdownify }}</h2>
         <p>{{ .Params.story_intro | markdownify }}</p>
         <p class="small">{{ .Params.story_body | markdownify }}</p>
+        {{ with .Params.story_button_label }}
+        <a class="button" href="{{ $.Params.story_button_url }}" target="_blank" rel="noopener">{{ . }}</a>
+        {{ end }}
       </div>
     </section>
   </div>
 
-  {{/* JOE / TEAM */}}
-  <section class="band-blue">
-    <div class="ab-page">
-      <div>
-        <div class="section-tag">{{ .Params.team_tag }}</div>
-        <h2>{{ .Params.team_heading | markdownify }}</h2>
-        <p class="ab-lead">{{ .Params.team_body | markdownify }}</p>
-        {{ with .Params.team_meta }}
-        <div class="ab-joe-meta">
-          {{ range . }}
-          <span>{{ .text }}</span>
-          {{ end }}
-        </div>
-        {{ end }}
-        {{ with .Params.team_button_label }}
-        <div class="">
-          <a class="button" href="{{ $.Params.team_button_url }}" target="_blank" rel="noopener">{{ . }}</a>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-
   {{/* QUOTES */}}
-  <div class="py-9">
+  <!-- <div class="py-9">
     <section class="ab-page">
       <div class="ab-quotes-head">
         <div class="section-tag">{{ .Params.quotes_tag }}</div>
@@ -115,7 +95,7 @@
         {{ end }}
       </div>
     </section>
-  </div>
+  </div> -->
 
   {{/* PARTNER */}}
   <div class="fund-finder">

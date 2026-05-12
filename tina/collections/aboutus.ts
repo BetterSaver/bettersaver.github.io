@@ -164,46 +164,15 @@ const AboutUs: Collection = {
       label: "Story - Body",
       ui: { component: "textarea" },
     },
-
-    // TEAM
     {
       type: "string",
-      name: "team_tag",
-      label: "Team - Section Tag",
+      name: "story_button_label",
+      label: "Story - Button Label",
     },
     {
       type: "string",
-      name: "team_heading",
-      label: "Team - Heading",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
-      name: "team_body",
-      label: "Team - Body",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "object",
-      name: "team_meta",
-      label: "Team - Meta Items",
-      list: true,
-      ui: {
-        itemProps: (item) => ({ label: item?.text }),
-      },
-      fields: [
-        { type: "string", name: "text", label: "Text" },
-      ],
-    },
-    {
-      type: "string",
-      name: "team_button_label",
-      label: "Team - Button Label",
-    },
-    {
-      type: "string",
-      name: "team_button_url",
-      label: "Team - Button URL",
+      name: "story_button_url",
+      label: "Story - Button URL",
     },
 
     // QUOTES
