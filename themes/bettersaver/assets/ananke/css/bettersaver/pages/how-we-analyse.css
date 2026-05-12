@@ -824,7 +824,8 @@
     margin: 0 auto;
     border: 1px solid var(--grey-bg-mid);
     border-radius: 16px;
-    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .how-we-analyse-page .weighting-table {
@@ -1426,4 +1427,6 @@
     .how-we-analyse-page .band-blue,
     .how-we-analyse-page .band-cream { padding: 64px 0; }
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
+    .how-we-analyse-page .weighting-table { min-width: 560px; }
+    .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }
 }
