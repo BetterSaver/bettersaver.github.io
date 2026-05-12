@@ -98,7 +98,7 @@
         </div>
 
         <!-- Mobile burger menu -->
-        <nav role="navigation" class="phone-menu">
+        <nav role="navigation" class="phone-menu" @click.away="mobile_menu_open = false">
           <div id="menuToggle">
             <input type="checkbox" id="menu-trigger" x-model.debounce.220ms="mobile_menu_open"/>
             <span></span>
