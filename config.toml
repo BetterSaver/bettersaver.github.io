@@ -36,7 +36,6 @@ enableRobotsTXT = true
         "bettersaver/buttons.css",
         "bettersaver/footer.css",
         
-        "bettersaver/components/block-customer-reviews.css",
         "bettersaver/components/block-how-it-works.css",
         "bettersaver/components/fund-finder.css",
         "bettersaver/components/site-header.css",
