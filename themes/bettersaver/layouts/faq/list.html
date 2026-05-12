@@ -5,10 +5,10 @@
     {{ with .Params.tags_label }}
     <div class="pt-4 mb-1"><strong>{{ . }}</strong></div>
     {{ end }}
-    <div class="tags pb-4">
+    <div class="pb-4">
       {{ range .Params.sections }}
         {{ if .items }}
-        <a href="#{{ .id }}" class="button outline small mb-1">{{ .label }}</a>
+        <a href="#{{ .id }}" class="button outline small mb-1 mr-[3px]">{{ .label }}</a>
         {{ end }}
       {{ end }}
     </div>
