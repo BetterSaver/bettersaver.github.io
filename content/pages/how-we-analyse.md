@@ -10,11 +10,11 @@ framing_heading: Apples to apples. *Long term.* More than a single number.
 framing_body: 'Our methodology rests on three principles and **four core checks**. Every fund is compared only to its peers, across meaningful timeframes, on more than last year''s return.'
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a *category*.'
-cats_body: 'We sort multi-asset KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories — so we never compare a Growth fund to a Conservative fund.'
-cats_body_2: 'Funds that hold only one asset class — say, NZ shares only, or US bonds only — **sit outside this framework**. They carry concentrated risk that''s rarely the right fit for a long-term KiwiSaver investor, so we don''t put them on our recommended list.'
+cats_body: 'We sort multi-asset KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund.'
+cats_body_2: 'Funds that hold only one asset class, say NZ shares only, or US bonds only **sit outside this framework**. They carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
 principles_tag: The principles
 principles_heading: What guides our analysis.
-principles_subheading: Three principles shape every recommendation we make. They're deliberately simple — because fair comparison should be.
+principles_subheading: Three principles shape every recommendation we make. They're deliberately simple.
 principles_items:
   - number: '1'
     title: Like for like comparisons
@@ -92,16 +92,16 @@ grades_cards:
     status: Recommended
     label: Quality option
     description: Meets our bar to be recommended.
-grades_low_title: Grades *C through F* — shown publicly as *NR*.
-grades_low_body: 'Publicly, non-recommended funds show as **NR** — no letter, no underlying detail. Recommended funds (A+, A, B) show their grade.'
-grades_low_note_label: Signed in
-grades_low_note: Create a free account to see the four-check pass/fail breakdown for every fund. C-F funds still show as **NR** with no letter grade — but you'll see exactly which checks they passed or failed.
+grades_low_title: Grades *C through F* shown publicly as *NR*.
+grades_low_body: 'Funds that don''t meet our criteria shown NR, no letter grade. Recommended funds (A+, A, B) show their letter grade.'
+grades_low_note_label: ''
+grades_low_note: ''
 grades_callout_tag: Why a fund lands in NR
-grades_callout_heading: A C or below doesn't automatically mean *a bad fund* — just not one we're prepared to recommend today.
+grades_callout_heading: C or below doesn't automatically mean *a bad fund* just not one we're prepared to recommend today.
 grades_callout_bullets:
   - text: It didn't **score strongly enough** against its peers in the same category.
   - text: 'There wasn''t enough reliable data — for example, **less than five years** of returns.'
-  - text: It's a **fund-of-fund** whose underlying fund is already directly available in KiwiSaver from the same provider — there's no benefit going via the wrapper instead of holding the underlying directly.
+  - text: 'A Fund of funds that hold other funds as their underlying assets — are rated alongside every other peer fund and must clear the same four checks. They''re treated as their own distinct fund. '
   - text: 'It sits **outside our category framework** — a single-sector fund, or a fund whose allocation doesn''t match one of our five categories.'
 data_tag: Behind the analysis
 data_heading: Where our *data* comes from — and how we stay *independent*.
