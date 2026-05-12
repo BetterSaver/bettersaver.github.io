@@ -69,6 +69,18 @@
       this.query = "";
       this.selectedFund = null;
       this.showDropdown = false;
+    },
+
+    get quizHref() {
+      if (!this.selectedFund) return this.quizUrl;
+      const params = new URLSearchParams({
+        provider: this.selectedFund.provider,
+        fund: this.selectedFund.fund,
+        grade: this.selectedFund.grade,
+        source: "fund-finder"
+      });
+      const sep = this.quizUrl.includes("?") ? "&" : "?";
+      return this.quizUrl + sep + params.toString();
     }
   }'
 >
@@ -148,7 +160,7 @@
             <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is not currently one of BetterSaver's recommended KiwiSaver options.</p>
             <p class="bold">Take our free Fund Finder quiz to find a better KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
-              <a :href="quizUrl" class="button purple">Take the quiz</a>
+              <a :href="quizHref" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
             </div>
           </div>
@@ -162,7 +174,7 @@
             <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is one of BetterSaver's recommended KiwiSaver options. Even strong funds are not the best fit for everyone.</p>
             <p class="bold">Take our free Fund Finder quiz to see if it is the right KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
-              <a :href="quizUrl" class="button purple">Take the quiz</a>
+              <a :href="quizHref" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
             </div>
           </div>
