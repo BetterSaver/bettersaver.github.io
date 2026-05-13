@@ -1,10 +1,10 @@
 ---
+icon_path: /images/illustration-stack.png
+icon_class: stack
 draft: false
 title: How we analyse KiwiSaver
 description: 'There are over 300 KiwiSaver options from around 30 providers. This page sets out how we compare them, what we assess, how we rate them, and the criteria a fund must meet to be on our recommended list.'
 featured_image: /uploads/how-we-analyse.jpg
-icon_path: /images/illustration-stack.png
-icon_class: stack
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
 framing_tag: The short version
@@ -12,15 +12,15 @@ framing_heading: Apples to apples. *Long term.* More than a single number.
 framing_body: 'Our methodology rests on three principles and **four core checks**. Every fund is compared only to its peers, across meaningful timeframes, on more than last year''s return.'
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a *category*.'
-cats_body: 'We sort multi-asset KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund.'
-cats_body_2: 'Funds that hold only one asset class, say NZ shares only, or US bonds only, carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
+cats_body: 'We sort KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund for example.'
+cats_body_2: 'Funds that hold only one asset type, say NZ shares only, or US bonds only, carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
 principles_tag: The principles
 principles_heading: What guides our analysis.
 principles_subheading: Three principles shape every recommendation we make. They're deliberately simple.
 principles_items:
   - number: '1'
     title: Like for like comparisons
-    description: 'Within each category, every fund is scored against its peers. So a high mark means better than the alternatives in the same risk group, not better than every fund in the market.'
+    description: 'Within each category, every fund is scored against its peers. So a high mark means better than the alternatives in the same category, not better than every fund in the market.'
   - number: '2'
     title: Long-term evidence *beats* short-term noise
     description: Past returns don't guarantee future returns — but they do show how a fund has performed across different market conditions. We focus on **5-10 year windows** where available.
