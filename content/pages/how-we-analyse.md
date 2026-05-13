@@ -51,7 +51,7 @@ checks_items:
       - text: We look at the **total annual fund charges**
       - text: Lower fees generally score higher.
       - text: Funds with higher fees must clearly justify the cost.
-    kicker: The aim is find funds with fair fees.
+    kicker: The aim is to find funds with fair fees.
   - number: '3'
     tag: Check three
     title: Consistency
