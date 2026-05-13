@@ -34,7 +34,7 @@ checks_items:
   - number: '1'
     tag: Check one
     title: Performance
-    intro: Returns matter. We compare each fund's return to its peer group. Funds beating their peers score higher.
+    intro: Returns matter. We compare each fund's return to its peer group. Funds consistently beating their peers score higher.
     bullets:
       - text: 'We look at returns **after fees**, across a range of periods.'
       - text: A fund needs **at least five years** of returns before we will recommend it.
