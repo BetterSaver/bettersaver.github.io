@@ -1,10 +1,10 @@
 ---
+icon_path: /images/illustration-stack.png
+icon_class: stack
 draft: false
 title: How we analyse KiwiSaver
 description: 'There are over 300 KiwiSaver options from around 30 providers. This page sets out how we compare them, what we assess, how we rate them, and the criteria a fund must meet to be on our recommended list.'
 featured_image: /uploads/how-we-analyse.jpg
-icon_path: /images/illustration-stack.png
-icon_class: stack
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
 framing_tag: The short version
@@ -12,21 +12,21 @@ framing_heading: Apples to apples. *Long term.* More than a single number.
 framing_body: 'Our methodology rests on three principles and **four core checks**. Every fund is compared only to its peers, across meaningful timeframes, on more than last year''s return.'
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a *category*.'
-cats_body: 'We sort multi-asset KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund.'
-cats_body_2: 'Funds that hold only one asset class, say NZ shares only, or US bonds only, carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
+cats_body: 'We sort KiwiSaver funds into one of five risk-based categories, based on how their assets are split between growth and income. Every later comparison happens within these categories so we never compare a Growth fund to a Conservative fund for example.'
+cats_body_2: 'Funds that hold only one asset type, say NZ shares only, or US bonds only, carry concentrated risk that''s rarely the right fit for a KiwiSaver investor, so we don''t put them on our recommended list.'
 principles_tag: The principles
 principles_heading: What guides our analysis.
 principles_subheading: Three principles shape every recommendation we make. They're deliberately simple.
 principles_items:
   - number: '1'
     title: Like for like comparisons
-    description: 'Within each category, every fund is scored against its peers. So a high mark means better than the alternatives in the same risk group, not better than every fund in the market.'
+    description: 'Within each category, every fund is scored against its peers. So a high mark means better than the alternatives in the same category, not better than every fund in the market.'
   - number: '2'
     title: Long-term evidence *beats* short-term noise
     description: Past returns don't guarantee future returns — but they do show how a fund has performed across different market conditions. We focus on **5-10 year windows** where available.
   - number: '3'
     title: We look beyond a *single number*
-    description: 'Returns alone aren''t enough. We also assess fees, consistency, downside behaviour, and how the fund is run — so we recommend funds that are **consistently better**, not last year''s winner.'
+    description: 'Returns alone aren''t enough. We also assess fees, consistency, and how the fund is run — so we recommend funds that are **consistently better**, not last year''s winner.'
 checks_tag: The four core checks
 checks_heading: 'What we check, on every fund.'
 checks_subheading: 'A consistent set of checks across four areas. The goal is simple: Recommend funds that have a strong performance track record, fair fees, and are well run.'
@@ -34,7 +34,7 @@ checks_items:
   - number: '1'
     tag: Check one
     title: Performance
-    intro: Returns matter. We compare each fund's return to its peer group. Funds beating their peers score higher.
+    intro: Returns matter. We compare each fund's return to its peer group. Funds consistently beating their peers score higher.
     bullets:
       - text: 'We look at returns **after fees**, across a range of periods.'
       - text: A fund needs **at least five years** of returns before we will recommend it.
@@ -43,19 +43,19 @@ checks_items:
     tag: Check two
     title: Fees
     intro: |+
-      Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charge against its peer group.
+      Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charges against its peer group.
 
 
 
     bullets:
-      - text: We look at the **total annual fund charge**
+      - text: We look at the **total annual fund charges**
       - text: Lower fees generally score higher.
       - text: Funds with higher fees must clearly justify the cost.
-    kicker: The aim is find funds with fair fees.
+    kicker: The aim is to find funds with fair fees.
   - number: '3'
     tag: Check three
     title: Consistency
-    intro: 'We look at how bumpy the ride has been. Measuring how much a fund''s returns swing from year to year, and score each fund against the average swing of its peer group. Smaller swings score higher.'
+    intro: 'We look at how bumpy the ride has been. We measure how much a fund''s returns change from year to year, and score each fund against the average change of its category. Smaller changes score higher.'
     bullets:
       - text: We assess the **size of past drawdowns**.
       - text: We compare a fund's volatility **relative to its peer group**.
@@ -93,14 +93,14 @@ grades_cards:
     label: Quality option
     description: Meets our bar to be recommended.
 grades_low_title: Grades *C through F* shown publicly as *NR*.
-grades_low_body: 'Funds that don''t meet our criteria shown NR, no letter grade. Recommended funds (A+, A, B) show their letter grade.'
+grades_low_body: 'Funds that don''t meet our criteria to be recommended are shown as NR, with no letter grade. Recommended funds (A+, A, B) show their letter grade.'
 grades_low_note_label: ''
 grades_low_note: ''
 grades_callout_tag: Why a fund lands in NR
 grades_callout_heading: C or below doesn't automatically mean *a bad fund* just not one we're prepared to recommend today.
 grades_callout_bullets:
   - text: It didn't **score strongly enough** against its peers in the same category.
-  - text: 'There wasn''t enough reliable data — for example, **less than five years** of returns.'
+  - text: 'There wasn''t enough of a track record — for example, **less than five years** of returns.'
   - text: It sits **outside our category framework** — a single-sector fund that doesn't match one of our five categories.
 data_tag: Behind the analysis
 data_heading: Where our *data* comes from
@@ -122,10 +122,10 @@ data_cards:
   - label: Commissions & independence
     title: Commissions *don't* influence our recommendations.
     description: BetterSaver may receive a commission from some KiwiSaver providers if you join or switch through our platform. **This does not increase your fund fees.**
-    description_2: 'In practice, there are **more funds from providers we could be paid for that don''t make our recommended list** than there are on it. The list is driven by our criteria, not commercial arrangements.'
-    notice: 'Our recommended list includes funds that pay us and funds that don''t, as long as they meet our standards they make the list.'
+    description_2: '**In practice, there are more funds from providers we could be paid for that don''t make our recommended list than there are on it.** The list is driven by our criteria, not commercial arrangements.'
+    notice: Our recommended list includes funds that pay us and funds that don't; as long as they meet our standards they make the list.
     ranked: []
-cadence_title: We refresh our analysis at minimum annually.
+cadence_title: We refresh our analysis at a minimum annually.
 cadence_sub: 'KiwiSaver is long-term, but funds change. Markets change. Fees, managers and strategies can change. If something material shifts between reviews, a fund can be added or removed at any time.'
 cadence_image: /uploads/illustration-hands-search.png
 cadence_image_alt: Annual refresh
