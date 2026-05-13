@@ -93,7 +93,7 @@ grades_cards:
     label: Quality option
     description: Meets our bar to be recommended.
 grades_low_title: Grades *C through F* shown publicly as *NR*.
-grades_low_body: 'Funds that don''t meet our criteria shown NR, no letter grade. Recommended funds (A+, A, B) show their letter grade.'
+grades_low_body: 'Funds that don''t meet our criteria to be recommended are shown as NR, with no letter grade. Recommended funds (A+, A, B) show their letter grade.'
 grades_low_note_label: ''
 grades_low_note: ''
 grades_callout_tag: Why a fund lands in NR
