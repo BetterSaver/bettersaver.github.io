@@ -26,7 +26,7 @@ principles_items:
     description: Past returns don't guarantee future returns — but they do show how a fund has performed across different market conditions. We focus on **5-10 year windows** where available.
   - number: '3'
     title: We look beyond a *single number*
-    description: 'Returns alone aren''t enough. We also assess fees, consistency, downside behaviour, and how the fund is run — so we recommend funds that are **consistently better**, not last year''s winner.'
+    description: 'Returns alone aren''t enough. We also assess fees, consistency, and how the fund is run — so we recommend funds that are **consistently better**, not last year''s winner.'
 checks_tag: The four core checks
 checks_heading: 'What we check, on every fund.'
 checks_subheading: 'A consistent set of checks across four areas. The goal is simple: Recommend funds that have a strong performance track record, fair fees, and are well run.'
