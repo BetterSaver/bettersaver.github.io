@@ -55,7 +55,7 @@ checks_items:
   - number: '3'
     tag: Check three
     title: Consistency
-    intro: 'We look at how bumpy the ride has been. Measuring how much a fund''s returns swing from year to year, and score each fund against the average swing of its peer group. Smaller swings score higher.'
+    intro: 'We look at how bumpy the ride has been. We measure how much a fund''s returns change from year to year, and score each fund against the average change of its category. Smaller changes score higher.'
     bullets:
       - text: We assess the **size of past drawdowns**.
       - text: We compare a fund's volatility **relative to its peer group**.
