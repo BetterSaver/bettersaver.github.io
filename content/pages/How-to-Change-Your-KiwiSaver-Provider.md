@@ -1,10 +1,10 @@
 ---
+icon_path: /images/illustration-boots.svg
+icon_class: boots
 draft: false
 title: How to Change Your KiwiSaver
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
-icon_path: /images/illustration-boots.svg
-icon_class: boots
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
@@ -124,5 +124,96 @@ seo:
     Change your KiwiSaver provider online in minutes. BetterSaver recommends the right scheme for your situation and walks you through it online in minutes.
   keywords: 'how to change kiwisaver provider, change kiwisaver provider, transfer kiwisaver, change kiwisaver contribution'
   schema_type: WebPage
+  custom_schema: |
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#webpage",
+          "url": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/",
+          "name": "How to Change Your KiwiSaver Provider | BetterSaver",
+          "isPartOf": { "@id": "https://bettersaver.co.nz/#website" },
+          "description": "A comprehensive guide on how to switch KiwiSaver providers, the benefits of changing funds, and what you need to know before making the move.",
+          "breadcrumb": { "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#breadcrumb" },
+          "publisher": { "@id": "https://bettersaver.co.nz/#organization" },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How to change your KiwiSaver provider",
+              "item": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I change my KiwiSaver provider?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can change your KiwiSaver provider at any time. There’s no lock-in period, and you can switch as many times as you like. If you’re in a default scheme from when you first started work, switching is straightforward — BetterSaver can recommend a scheme that suits you now and guide you through it online."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a default KiwiSaver scheme?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "When you start a new job in New Zealand, your employer is required to enrol you in KiwiSaver if you haven’t already joined. If you don’t choose a provider, you’re placed into one of six government-selected default schemes. These are all balanced funds, they’re not chosen to fit your personal situation — they’re a starting point."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I change my KiwiSaver provider?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Through BetterSaver, the process has three steps: Answer a few quick questions about your situation and preferences. Review your recommended scheme and compare options. Complete an application online — we pass it to the provider to finalise."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does switching KiwiSaver providers take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We’ll keep you informed throughout the process."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my money out of the market when I switch KiwiSaver providers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There’s usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches and is typically brief."
+              }
+            },
+             {
+              "@type": "Question",
+              "name": "Can I change my KiwiSaver contribution rate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — but that’s separate from switching providers. To change how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%), contact your employer."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
