@@ -5,6 +5,8 @@ draft: false
 title: How to Change Your KiwiSaver
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
+icon_path: /images/illustration-boots.svg
+icon_class: boots
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
