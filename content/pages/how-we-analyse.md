@@ -152,5 +152,83 @@ seo:
     BetterSaver's KiwiSaver methodology — four core checks across performance, fees, consistency, and quality, with grades from A+ to F.
   keywords: 'how we analyse, kiwisaver methodology, fund grading, fund comparison'
   schema_type: WebPage
+  custom_schema: |
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/pages/how-we-analyse/#webpage",
+          "url": "https://bettersaver.co.nz/pages/how-we-analyse/",
+          "name": "How We Analyse KiwiSaver Funds | BetterSaver",
+          "isPartOf": { "@id": "https://bettersaver.co.nz/#website" },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://bettersaver.co.nz/uploads/how-we-analyse.jpg"
+          },
+          "description": "Learn about the BetterSaver methodology for analysing KiwiSaver funds, including our four core checks: Performance, Fees, Consistency, and Quality.",
+          "breadcrumb": { "@id": "https://bettersaver.co.nz/pages/how-we-analyse/#breadcrumb" },
+          "publisher": { "@id": "https://bettersaver.co.nz/#organization" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/pages/how-we-analyse/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How we analyse",
+              "item": "https://bettersaver.co.nz/pages/how-we-analyse/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/pages/how-we-analyse/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What do BetterSaver’s fund grades mean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We grade funds from A+ through to F. To ensure we only recommend the best, only funds with grades A+, A, and B make our recommended list. Any fund with a lower grade is still analysed but is displayed publicly as NR (Not Recommended)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does BetterSaver compare KiwiSaver funds?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We sort each fund into one of five categories (Defensive, Conservative, Balanced, Growth, Aggressive) based on its asset allocation, then assess every fund against its peers across four core checks — Performance, Fees, Consistency, and Quality. Comparisons are always like for like."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How far back does BetterSaver look at KiwiSaver fund performance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We focus on five and ten-year returns. Short-term performance can be misleading, so a fund must have at least five years of performance history to be considered for a recommendation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is a fund comparison different from picking the best-performing fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best-performing fund over the last quarter, last year etc. is not necessarily the right fund for you. A meaningful comparison accounts for performance, fees, consistency, quality — not just a single return figure."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
