@@ -92,9 +92,9 @@
       <div id="menu-mobile">
 
         <div id="menu-tablet">
-          <div class="text-right" x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/login/email">Sign in</a></div>
+          <div class="text-right" x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/login">Sign in</a></div>
           <div class="text-right" x-show="isLoggedIn" x-cloak><a :href="dashboardUrl">My Account</a></div>
-          <div x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding" class="button white">Find a fund</a></div>
+          <div x-show="!isLoggedIn" x-cloak><a href="{{ .Site.Params.appUrl }}/kiwisaver/onboarding/flow/disclosure" class="button white">Find a fund</a></div>
         </div>
 
         <!-- Mobile burger menu -->
