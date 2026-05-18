@@ -1,3 +1,4 @@
+@layer legacy {
 :root {
     /* colors */
     --white: #fff;
@@ -64,4 +65,5 @@
     /* content-widths */
     --content-width-wide: 1200px;
     --content-width-narrow: 820px;
+}
 }

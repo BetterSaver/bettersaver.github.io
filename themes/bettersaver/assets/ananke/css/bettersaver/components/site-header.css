@@ -1,3 +1,4 @@
+@layer legacy {
 #site-nav-bar {
     z-index: 11;
     transition: all 0.5s ease-in-out;
@@ -612,4 +613,5 @@ a.need-help {
         opacity: 1;
         transform: translate(-50%, -50%);
     }
+}
 }

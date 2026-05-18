@@ -1,3 +1,4 @@
+@layer legacy {
 /* "How we analyse" page — scoped under .how-we-analyse-page */
 
 .how-we-analyse-page {
@@ -1429,4 +1430,6 @@
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
     .how-we-analyse-page .weighting-table { min-width: 560px; }
     .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }
+}
+
 }

@@ -1,6 +1,6 @@
-<div class="tags pt-2">
+<div class="pt-2">
   {{ range .GetTerms "tags" }}
-  <a href="{{ .RelPermalink }}" class="button outline small">
+  <a href="{{ .RelPermalink }}" class="button outline small mr-[3px]">
     {{- .LinkTitle -}}
   </a>
   {{ end }}

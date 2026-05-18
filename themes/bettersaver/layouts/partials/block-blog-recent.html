@@ -1,4 +1,4 @@
-<section class="blog-recent" x-data="{
+<section class="bg-grey-bg-light py-8" x-data="{
     container: null,
     input: null,
     scrollBy: 372,
@@ -73,8 +73,8 @@
         // console.log('<- ' +this.scrollMin + '|' + this.scrollAmount+ '|' + this.scrollMax);
     },
 }">
-    <div>
-        <div class="grid grid-cols-2-auto">
+    <div class="mx-auto max-w-[1200px]">
+        <div class="grid grid-cols-2-auto p-2">
             <h2 class="text-blue-navy">KiwiSaver basics</h2>
             <div class="flex gap-1 mobile-hidden">
                 <div><a href="/financial-tips" class="button mr-1">More Financial Tips</a></div>
@@ -93,13 +93,13 @@
             </div>
         </div>
         <div id="blog-recent-container" x-swipe:right="pushleft()" x-swipe:left="pushright()">
-            <div class="carousel" id="blog-recent-scroller">
+            <div class="flex gap-2 overflow-hidden snap-x snap-mandatory p-2" id="blog-recent-scroller">
 
                 <!-- List 10 recent financial tips posts -->
                 {{ $posts := where (where site.RegularPages "Section" "financial-tips") "title" "!=" "" }}
                 {{ range $posts }}
-                <div class="carousel-item">
-                    <div class="cursor-pointer" @click="window.location.href='{{ .RelPermalink }}'">
+                <div class="carousel-item block snap-always min-w-[90%] snap-center md:min-w-[30%] lg:min-w-[225px] lg:snap-start">
+                    <div class="cursor-pointer bg-white min-h-[334px] transition-all duration-200 hover:shadow-[0_4px_12px_rgba(0,0,0,0.1)] hover:-mt-[8px]" @click="window.location.href='{{ .RelPermalink }}'">
                         {{ .Render "summary" }}
                     </div>
                 </div>

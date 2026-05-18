@@ -1,3 +1,4 @@
+@layer legacy {
 /* text */
 .text-white {
     color: var(--white);
@@ -190,4 +191,5 @@
 
 .bg-utility-red {
     background-color: var(--utility-red);
+}
 }
