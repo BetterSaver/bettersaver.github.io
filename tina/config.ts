@@ -9,6 +9,7 @@ import Homepage from "./collections/homepage";
 import Authors from "./collections/authors";
 import HowToChangeProvider from "./collections/howtochangeprovider";
 import HowWeAnalyse from "./collections/howweanalyse";
+import AboutUs from "./collections/aboutus";
 
 const DeployScreenPlugin = {
   __type: "screen",
@@ -56,10 +57,11 @@ export default defineConfig({
   },
   schema: {
     collections: [
-      Homepage, 
-      HowToChangeProvider, 
-      HowWeAnalyse, 
-      Page, 
+      Homepage,
+      HowToChangeProvider,
+      HowWeAnalyse,
+      AboutUs,
+      Page,
       FinancialTips, 
       FaqPage, 
       CustomerReviews, 

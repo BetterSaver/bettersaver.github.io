@@ -41,6 +41,7 @@ enableRobotsTXT = true
 
         "bettersaver/pages/about.css",
         "bettersaver/pages/how-we-analyse.css",
+        "bettersaver/pages/404.css",
 
         "bettersaver/display.css", # must be last
     ]

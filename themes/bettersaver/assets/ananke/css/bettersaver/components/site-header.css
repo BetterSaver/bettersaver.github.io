@@ -270,10 +270,23 @@
         left: 45%;
         transform: translate(-50%, -50%);
 
+        &.boots {
+            top: 44% !important;
+            left: 50% !important;
+        }
+
         /* Tablet down */
         @media screen and (max-width: 1024px) {
             max-width: 200px;
+
+            &.boots {
+                display: block;
+                top: 44% !important;
+                left: 20% !important;
+            }
         }
+
+        
 
         /* Mobile down */
         @media screen and (max-width: 768px) {
@@ -284,6 +297,10 @@
                 position: absolute;
                 top: 50% !important;
             }
+
+             &.boots {
+                display: none;
+             }
         }
 
         &.boat {
@@ -484,7 +501,7 @@ nav.phone-menu {
         input:checked~span {
             opacity: 1;
             transform: rotate(45deg) translate(0, 0);
-            background: var(--white);
+            background: var(--white) !important;
         }
 
         input:checked~span:nth-last-child(3) {
