@@ -129,4 +129,4 @@ There's no single right answer. It depends on your timeline and risk tolerance. 
 
 Your KiwiSaver fund type shapes how your money grows over time. The difference between the right fund and the wrong one can add up to tens of thousands of dollars over a working lifetime.
 
-If you're not sure whether your current fund is the right fit, take our free five-minute [fund finder quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure) to get a personalised recommendation based on what actually matters to you.
+If you're not sure whether your current fund is the right fit, take our free five-minute [fund finder quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure) to get a personalised recommendation based on what actually matters to you. 
