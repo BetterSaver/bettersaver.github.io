@@ -1,6 +1,4 @@
 ---
-icon_path: /images/illustration-boots.svg
-icon_class: boots
 draft: false
 title: How to Change Your KiwiSaver
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
