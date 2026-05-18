@@ -4,6 +4,6 @@
 sed -i -E "s|http://localhost:4200|https://staging-app.bettersaver.co.nz|g" config.toml
 sed -i -E "s|http://app.bettersaver.co.nz|https://staging-app.bettersaver.co.nz|g" config.toml
 
-# open config.toml and set baseURL to https://bettersaver-staging.zac-40e.workers.dev/
+# open config.toml and set baseURL to https://bettersaver-staging.zac-40e.workers.dev/ - fixes images not loading on staging site
 sed -i -E "s|^baseURL\s*=\s*['\"][^'\"]+['\"]|baseURL = 'https://bettersaver-staging.zac-40e.workers.dev/'|" config.toml
 
