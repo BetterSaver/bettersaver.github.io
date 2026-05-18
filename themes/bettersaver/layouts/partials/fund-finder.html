@@ -74,10 +74,7 @@
     get quizHref() {
       if (!this.selectedFund) return this.quizUrl;
       const params = new URLSearchParams({
-        provider: this.selectedFund.provider,
-        fund: this.selectedFund.fund,
-        grade: this.selectedFund.grade,
-        source: "fund-finder"
+        previousFundID: this.selectedFund.id
       });
       const sep = this.quizUrl.includes("?") ? "&" : "?";
       return this.quizUrl + sep + params.toString();
