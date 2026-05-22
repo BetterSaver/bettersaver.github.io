@@ -7,8 +7,8 @@ featured_image_fit: contain
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
 framing_tag: Why we exist
-framing_heading: Most providers show you the data that makes *them* look good.
-framing_body: They're less good at helping you figure out whether you're actually in the right fund for your future. *That's where BetterSaver comes in.*
+framing_heading: Most providers show you the data that makes them look good.
+framing_body: They're less good at helping you figure out whether you're actually in the right fund for your future. That's where BetterSaver comes in.
 framing_button_label: See exactly how it works
 framing_button_url: /pages/how-it-works
 steps_tag: Our approach
@@ -28,7 +28,7 @@ story_image: /uploads/big_joe.jpg
 story_image_alt: 'Joe Taylor, founder of BetterSaver'
 story_tag: Our story
 story_heading: Why we started BetterSaver.
-story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *proper financial advice wasn't accessible*.
+story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because proper financial advice wasn't accessible.
 story_body: 'Our founder Joe Taylor has spent more than 15 years in financial services in New Zealand and kept seeing the same story: Kiwis stuck in funds that weren''t right for them, simply because no one had ever given them proper advice. We built BetterSaver so a small nudge today — the right fund, the right provider, the right settings — can bounce through the rest of your working life.'
 story_button_label: Connect with Joe on LinkedIn
 story_button_url: 'https://www.linkedin.com/in/taylorja/'
@@ -60,7 +60,7 @@ partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with organisations throughout New Zealand offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
 partner_button_url: /contact-us
-cta_heading: Find a *better* KiwiSaver today!
+cta_heading: Find a better KiwiSaver today!
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 cta_subnote: Takes 2–5 minutes - It's free
