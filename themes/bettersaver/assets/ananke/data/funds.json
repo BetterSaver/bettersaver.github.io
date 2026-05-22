@@ -1,220 +1,94 @@
 {
   "funds": [
     {
-      "provider": "Pathfinder KiwiSaver Plan",
-      "fund": "Balanced Fund",
-      "grade": "A+",
-      "id": "0QgjO0932eb5FgTNP097"
+      "provider": "Test Provider A",
+      "fund": "Test Aggressive Fund #1 (Highest Risk)",
+      "grade": "",
+      "id": "test-aggressive-001"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
-      "fund": "Conservative Fund",
-      "grade": "A+",
-      "id": "1K2H9X6Vf6osp7IxzrYN"
+      "provider": "Test Provider B",
+      "fund": "Test Aggressive Fund #2 (Sustainable)",
+      "grade": "",
+      "id": "test-aggressive-002"
     },
     {
-      "provider": "Simplicity KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "B",
-      "id": "4QeVVD6CB7Hh0KfJ1RuY"
+      "provider": "Test Provider C",
+      "fund": "Test Aggressive Fund #3 (Max Returns)",
+      "grade": "",
+      "id": "test-aggressive-003"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Foundation Series Balanced Fund",
-      "grade": "A",
-      "id": "7LH1OsF4KLJnLRrR1B9A"
+      "provider": "Test Provider A",
+      "fund": "Test Balanced Fund #1 (Medium Risk)",
+      "grade": "",
+      "id": "test-balanced-001"
     },
     {
-      "provider": "Pathfinder KiwiSaver Plan",
-      "fund": "Growth Fund",
-      "grade": "A",
-      "id": "9TdSefnYPQRjnREcHfBl"
+      "provider": "Test Provider B",
+      "fund": "Test Balanced Fund #2 (Sustainable)",
+      "grade": "",
+      "id": "test-balanced-002"
     },
     {
-      "provider": "Milford KiwiSaver Plan",
-      "fund": "Active Growth Fund",
-      "grade": "A",
-      "id": "AL3cR7vX5xJjlT0qw3Fq"
+      "provider": "Test Provider C",
+      "fund": "Test Balanced Fund #3 (Mixed Ethics)",
+      "grade": "",
+      "id": "test-balanced-003"
     },
     {
-      "provider": "SBS Wealth KiwiSaver Scheme",
-      "fund": "High Growth Fund",
-      "grade": "A+",
-      "id": "BdiaHne1Ma99bXHC8ZKk"
+      "provider": "Test Provider A",
+      "fund": "Test Conservative Fund #1 (Low-Medium Risk)",
+      "grade": "",
+      "id": "test-conservative-001"
     },
     {
-      "provider": "Booster KiwiSaver Scheme",
-      "fund": "Shielded Growth Fund",
-      "grade": "B",
-      "id": "C9vkfZHdGO0U3ZnTrOm4"
+      "provider": "Test Provider B",
+      "fund": "Test Conservative Fund #2 (Sustainable)",
+      "grade": "",
+      "id": "test-conservative-002"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
-      "fund": "High Growth Fund",
-      "grade": "B",
-      "id": "CNwxEBuMT6Q0W2tzEnlt"
+      "provider": "Test Provider C",
+      "fund": "Test Conservative Fund #3 (Ethical)",
+      "grade": "",
+      "id": "test-conservative-003"
     },
     {
-      "provider": "Milford KiwiSaver Plan",
-      "fund": "Conservative Fund",
-      "grade": "A",
-      "id": "DD6AlSMcnzUfZEGZjK8E"
+      "provider": "Test Provider A",
+      "fund": "Test Defensive Fund #1 (Lowest Risk)",
+      "grade": "",
+      "id": "test-defensive-001"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Mercer Responsible Balanced Fund",
-      "grade": "A",
-      "id": "IxNP87QKXS2OhiXfHq2F"
+      "provider": "Test Provider B",
+      "fund": "Test Defensive Fund #2 (Sustainable)",
+      "grade": "",
+      "id": "test-defensive-002"
     },
     {
-      "provider": "ANZ KiwiSaver Scheme",
-      "fund": "Cash Fund",
-      "grade": "A+",
-      "id": "JUJMNXdPjcVlKn1MmJcD"
+      "provider": "Test Provider A",
+      "fund": "Test Growth Fund #1 (Medium-High Risk)",
+      "grade": "",
+      "id": "test-growth-001"
     },
     {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "B",
-      "id": "JvIxduCyh0oLIRlZEC71"
+      "provider": "Test Provider B",
+      "fund": "Test Growth Fund #2 (Sustainable)",
+      "grade": "",
+      "id": "test-growth-002"
     },
     {
-      "provider": "Generate KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "A",
-      "id": "PrBxwdmQtlKQSlKhBjfe"
+      "provider": "Test Provider C",
+      "fund": "Test Growth Fund #3 (High Ethics Exposure)",
+      "grade": "",
+      "id": "test-growth-003"
     },
     {
-      "provider": "ASB KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "B",
-      "id": "RnfGRK90mb0ZIm2ncg9t"
-    },
-    {
-      "provider": "Superlife KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "A",
-      "id": "Slnh5mH0SC0xNIggNVc6"
-    },
-    {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "B",
-      "id": "Tk7oEzXFPBNs3bJ0jlDq"
-    },
-    {
-      "provider": "ASB KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "B",
-      "id": "WgIbLUpYQPbk1XYlmpV0"
-    },
-    {
-      "provider": "Quaystreet KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "A+",
-      "id": "XBEI2DBiurlwbV8N2dKw"
-    },
-    {
-      "provider": "BNZ KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "B",
-      "id": "amFys8Af7XsEe0nPXTrB"
-    },
-    {
-      "provider": "Booster KiwiSaver Scheme",
-      "fund": "Socially Responsible Balanced Fund",
-      "grade": "A",
-      "id": "bfSP3krKllmqj1ZZAGqa"
-    },
-    {
-      "provider": "Simplicity KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "B",
-      "id": "cxaCMRKQYIqDBiB8DR8c"
-    },
-    {
-      "provider": "Pathfinder KiwiSaver Plan",
-      "fund": "Conservative Fund",
-      "grade": "A",
-      "id": "g7S6fDpLVtj2Hj19W8zF"
-    },
-    {
-      "provider": "Milford KiwiSaver Plan",
-      "fund": "Balanced Fund",
-      "grade": "A+",
-      "id": "h0uo8YBGrRT456miUtb6"
-    },
-    {
-      "provider": "Milford KiwiSaver Plan",
-      "fund": "Kiwisaver Cash Fund",
-      "grade": "A+",
-      "id": "icdroSHRR1bg4UWYyB9p"
-    },
-    {
-      "provider": "Fisher Funds KiwiSaver Plan",
-      "fund": "Balanced Fund",
-      "grade": "A+",
-      "id": "jNSLCXvFEPR4TPt81FHE"
-    },
-    {
-      "provider": "Fisher Funds KiwiSaver Plan",
-      "fund": "Conservative Fund",
-      "grade": "A+",
-      "id": "mMf4w4oFwaYEWtimImoi"
-    },
-    {
-      "provider": "Fisher Funds KiwiSaver Plan",
-      "fund": "Core Conservative Fund",
-      "grade": "A+",
-      "id": "oitD5rXom5QxVl6M8gsw"
-    },
-    {
-      "provider": "Westpac KiwiSaver Scheme",
-      "fund": "Defensive Conservative Fund",
-      "grade": "B",
-      "id": "p6FiOIGGSRSfdltWbw2F"
-    },
-    {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Conservative Fund",
-      "grade": "B",
-      "id": "qDxNFexP8n2I1ylwGoeQ"
-    },
-    {
-      "provider": "Quaystreet KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "A+",
-      "id": "r5ABW264uqFNbIk82MgD"
-    },
-    {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Foundation Series Growth Fund",
-      "grade": "A+",
-      "id": "rche9xDQ9z8EmWXhle0B"
-    },
-    {
-      "provider": "Booster KiwiSaver Scheme",
-      "fund": "Balanced Fund",
-      "grade": "A",
-      "id": "tS6vRtOz9Voxj50A9bcU"
-    },
-    {
-      "provider": "Mercer KiwiSaver Scheme",
-      "fund": "Responsible Balanced Fund",
-      "grade": "B",
-      "id": "vl8tns1dPAeghlkB7oKM"
-    },
-    {
-      "provider": "Milford KiwiSaver Plan",
-      "fund": "Aggressive Fund",
-      "grade": "A+",
-      "id": "w75EWgf2aQLTW0obxXQS"
-    },
-    {
-      "provider": "Booster KiwiSaver Scheme",
-      "fund": "Geared Growth Fund",
-      "grade": "A",
-      "id": "yrnALAq8754ukEN197na"
+      "provider": "Test Provider D",
+      "fund": "Test Single-Sector Fund #1 (Global Shares)",
+      "grade": "",
+      "id": "test-single-sector-001"
     }
   ]
 }
