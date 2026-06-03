@@ -88,12 +88,12 @@ enableRobotsTXT = true
 
     [[menus.main]]
     name = "Sign in"
-    url = "http://localhost:4200/login"
+    url = "http://localhost:4250/login"
     weight = 6
 
     [[menus.main]]
     name = "Find a fund"
-    url = "http://localhost:4200/kiwisaver/onboarding/flow/disclosure"
+    url = "http://localhost:4250/kiwisaver/onboarding/flow/disclosure"
     weight = 7
     [menus.main.params]
         class = "button"
