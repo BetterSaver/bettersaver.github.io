@@ -5,7 +5,7 @@ theme = "bettersaver"
 enableRobotsTXT = true
 
 [params]
-    appUrl = "http://localhost:4200"
+    appUrl = "http://localhost:4250"
     authCookieName = "bs_auth"
 
     description = "BetterSaver is a website for saving money better."
