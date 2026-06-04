@@ -3,6 +3,11 @@ html,
 body {
     padding: 0;
     margin: 0;
+    /* Clip decorative absolutely-positioned hero icons that intentionally peek
+       past the right edge on mobile, preventing phantom horizontal scroll.
+       `clip` (not `hidden`) avoids creating a scroll container, so sticky/fixed
+       nav and vertical scrolling are unaffected. */
+    overflow-x: clip;
     font-size: 16px;
     font-family: 'GeneralSans-Regular', sans-serif;
     font-weight: 400;

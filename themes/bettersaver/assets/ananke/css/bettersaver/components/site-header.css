@@ -227,6 +227,11 @@
 
 .title-area {
     position: relative;
+    /* Clip the decorative hero icon (e.g. the boat) which is positioned at
+       left:70-80% on mobile and would otherwise extend ~80px past the right
+       edge of the viewport, forcing the document width to ~510px and pushing
+       all page content (including the footer text) off-screen. */
+    overflow: hidden;
 
     .description {
         font-size: 20px;

@@ -5,7 +5,7 @@
         {{ with .Params.why_description }}<p>{{ . }}</p>{{ end }}
     </article>
 
-    <div class="grid grid-cols-3 gap-2 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mb-8">
         {{ range .Params.why_boxes }}
         <div class="text-center max-md:grid max-md:grid-cols-[auto_1fr] max-md:gap-[16px]">
             <div><img src="{{ .icon }}" alt="{{ .title }}" class="mb-2 max-md:max-w-[120px]"></div>
@@ -21,7 +21,7 @@
 <hr class="divider" />
 
 <!-- How it works -->
-<div class="max-w-[1200px] mx-auto px-2 py-8 text-blue-navy grid grid-cols-2 gap-8" x-data="{
+<div class="max-w-[1200px] mx-auto px-2 py-8 text-blue-navy grid grid-cols-1 md:grid-cols-2 gap-8" x-data="{
     step: 1,
     timer: null,
     timerTime: 5000,
