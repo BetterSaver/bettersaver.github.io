@@ -15,7 +15,7 @@
     {
       "provider": "Koura KiwiSaver Scheme",
       "fund": "New Zealand Cash Fund",
-      "grade": "B",
+      "grade": "NR",
       "id": "0fMenlW2y3pEF5v2Nyfx"
     },
     {
@@ -171,7 +171,7 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Defensive Conservative Fund",
-      "grade": "A",
+      "grade": "A+",
       "id": "81fAOmxIUWpTO1s18dle"
     },
     {
@@ -235,7 +235,7 @@
       "id": "AKYzqpkp6wKTs36YnGOL"
     },
     {
-      "provider": "Mas KiwiSaver Scheme",
+      "provider": "MAS KiwiSaver Scheme",
       "fund": "Moderate Fund",
       "grade": "NR",
       "id": "AcVnoiklDIPmf0JRgwo8"
@@ -397,7 +397,7 @@
       "id": "GPp9PcWWPERf631L2Bt6"
     },
     {
-      "provider": "Mas KiwiSaver Scheme",
+      "provider": "MAS KiwiSaver Scheme",
       "fund": "Balanced Fund",
       "grade": "NR",
       "id": "GfzAe8WbEQr3OJu4DyqK"
@@ -453,13 +453,13 @@
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Enhanced Cash Fund",
-      "grade": "NR",
+      "grade": "B",
       "id": "J2BshJXMv0DtGMbUh90v"
     },
     {
       "provider": "MAS KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "NR",
+      "grade": "B",
       "id": "J4dXiLFZUKOdWAfdXZoj"
     },
     {
@@ -601,14 +601,14 @@
       "id": "MApIUauZMveMwIz4qY42"
     },
     {
-      "provider": "Mas KiwiSaver Scheme",
+      "provider": "MAS KiwiSaver Scheme",
       "fund": "Cash Fund",
       "grade": "A+",
       "id": "MYHy70JRFB2p2UBootvN"
     },
     {
       "provider": "Milford KiwiSaver Plan",
-      "fund": "Kiwisaver Cash Fund",
+      "fund": "KiwiSaver Cash Fund",
       "grade": "A+",
       "id": "MljcNG2mm9tIHskbMPYC"
     },
@@ -705,7 +705,7 @@
     {
       "provider": "Generate KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "B",
+      "grade": "A",
       "id": "Otu6T0Ag3MEJjtBiyzll"
     },
     {
@@ -837,7 +837,7 @@
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Socially Responsible High Growth Fund",
-      "grade": "NR",
+      "grade": "B",
       "id": "Sfo8hwGiWFGRg3IPnqh3"
     },
     {
@@ -1063,7 +1063,7 @@
       "id": "a5Xi18vcwK3OGmPZ080s"
     },
     {
-      "provider": "Sharesies Kiwisaver",
+      "provider": "Sharesies KiwiSaver",
       "fund": "US500 Fund",
       "grade": "NR",
       "id": "a7i8N6QLSZRnUniTfKKB"
@@ -1113,7 +1113,7 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "A",
+      "grade": "A+",
       "id": "bR8aVJJ0wzTY4xxYJ0xf"
     },
     {
@@ -1147,7 +1147,7 @@
       "id": "cdIUyy9ZCqSQJ4UHsKDD"
     },
     {
-      "provider": "Mas KiwiSaver Scheme",
+      "provider": "MAS KiwiSaver Scheme",
       "fund": "Global Equities",
       "grade": "B",
       "id": "cedopMClbCN4eJaJsHpC"
@@ -1321,7 +1321,7 @@
       "id": "iv9rhahfoDlFOdDWsB05"
     },
     {
-      "provider": "Mas KiwiSaver Scheme",
+      "provider": "MAS KiwiSaver Scheme",
       "fund": "Conservative Fund",
       "grade": "NR",
       "id": "jUMn3Lfkobf82PPocoSK"
@@ -1359,7 +1359,7 @@
     {
       "provider": "Superlife KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "A+",
+      "grade": "A",
       "id": "lDXF7hXAdjmD76BRTn25"
     },
     {
@@ -1381,7 +1381,7 @@
       "id": "lhmsvCb1MMbsi8CrlGfI"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Cash Fund",
       "grade": "A+",
       "id": "lr9bVcXJVRjhAwJJeKof"
@@ -1401,7 +1401,7 @@
     {
       "provider": "Summer KiwiSaver Scheme",
       "fund": "Conservative Selection",
-      "grade": "A",
+      "grade": "B",
       "id": "mtVpyvVT8HtOoAQmwRCT"
     },
     {
@@ -1455,7 +1455,7 @@
     {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "NR",
+      "grade": "B",
       "id": "oiOoxJPZRzX4rTSBFljO"
     },
     {
