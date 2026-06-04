@@ -8,6 +8,134 @@ author: content/authors/joe-taylor.md
 title: 'How Does KiwiSaver Work? A Simple Guide for 2026 '
 description: 'Not sure how KiwiSaver works? This guide covers sign-up, contribution rates, employer matching, government contributions, and choosing the right fund. '
 img_src: /uploads/iStock-1031307498.jpg
+seo:
+  custom_schema: |-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/",
+          "url": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/",
+          "name": "How Does KiwiSaver Work? A Simple Guide for 2026 | BetterSaver",
+          "description": "Not sure how KiwiSaver works? This guide covers sign-up, contribution rates, employer matching, government contributions, and choosing the right fund.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://bettersaver.co.nz/#website",
+            "name": "BetterSaver",
+            "url": "https://bettersaver.co.nz/"
+          },
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/#breadcrumbs"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/#article",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/"
+          },
+          "headline": "How Does KiwiSaver Work? A Simple Guide for 2026",
+          "description": "Not sure how KiwiSaver works? This guide covers sign-up, contribution rates, employer matching, government contributions, and choosing the right fund.",
+          "url": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/",
+          "mainEntityOfPage": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/",
+          "datePublished": "2026-03-27T08:00:00+13:00",
+          "dateModified": "2026-03-27T08:00:00+13:00",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "BetterSaver",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://bettersaver.co.nz/images/logo.svg"
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I withdraw my KiwiSaver before retirement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In most cases, your KiwiSaver is locked in until you turn 65. The main exceptions are a first home purchase (you need to have been a member for at least three years), significant financial hardship or serious illness. When you do withdraw, the money is tax-free."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to my KiwiSaver if I change jobs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Your KiwiSaver account moves with you. When you start a new job, your new employer will start making contributions to the same account. You don't need to do anything other than provide your KiwiSaver details to your new employer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I pause my KiwiSaver contributions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can apply for a savings suspension (also called a contributions holiday) through Inland Revenue. This pauses your employee contributions for between 3 and 12 months. Keep in mind that while your contributions are paused, your employer contributions also stop, and you could miss out on the full government contribution for that year."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is it too late to join KiwiSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. You can join at any age, and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I know if I'm in the right fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If you've never actively chosen a fund, there's a good chance you're in a default fund that might not match your goals or timeline. The simplest way to check is to take BetterSaver's fund finder quiz. It gives you a personalised recommendation based on your specific situation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much should a 30 year old have in KiwiSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There's no single answer, because it depends on when you joined, your contribution rate and your fund's returns. As a rough guide, if you've been contributing since your early twenties at the default rate, a balance of around $20,000 by age 30 is a reasonable benchmark. But the more important question is whether you're in the right fund and contributing enough going forward. That's what will make the biggest difference to your balance at retirement."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "How Does KiwiSaver Work? A Simple Guide for 2026",
+              "item": "https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 ## The KiwiSaver Process Made Simple
