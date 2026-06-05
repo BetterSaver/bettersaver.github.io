@@ -1,11 +1,11 @@
-<footer class="bottom-0 w-100" role="contentinfo">
+<footer class="bottom-0 w-full" role="contentinfo">
   <div class="footer pt-8">
 
     <div class="logo-mark">
       <img src="/images/logo-mark.svg" alt="BetterSaver" />
     </div>
 
-    <div class="grid grid-cols-2 pb-8" x-data="{
+    <div class="grid grid-cols-1 min-[600px]:grid-cols-2 pb-8" x-data="{
       isLoggedIn: false,
       dashboardUrl: '{{ .Site.Params.appUrl }}/dashboard',
       init() {
@@ -76,13 +76,13 @@
 
   </div>
 
-  <div class="bg-blue-navy text-white w-100 py-4 px-2">
-    <div class="grid grid-cols-3 f7">
-      <div class="flex items-end text-x-small" id="footer-copy">&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . |
+  <div class="bg-blue-navy text-white w-full box-border p-4 max-[600px]:px-2">
+    <div class="grid grid-cols-1 min-[600px]:grid-cols-3 f7">
+      <div class="flex items-end text-x-small max-[600px]:hidden" id="footer-copy">&copy; {{ with .Site.Copyright | default .Site.Title }} {{ . |
         safeHTML }} {{
         now.Format "2006"}} {{ end }}
       </div>
-      <div class="text-center footer-logos">
+      <div class="text-center max-[600px]:text-left footer-logos">
         
         <div><img src="/images/footer-morningstar.png" alt="Morningstar" /></div>
         <p class="text-x-small">Data powered by <a href="https://www.morningstar.com/" target="_blank" class="white">Morningstar</a>.</p>
@@ -100,7 +100,7 @@
           </span>
         </div>
       </div>
-      <div class="flex items-end justify-self-end">{{ partial "social-follow.html" . }}</div>
+      <div class="flex items-end justify-self-end max-[600px]:justify-self-start">{{ partial "social-follow.html" . }}</div>
     </div>
   </div>
 </footer>

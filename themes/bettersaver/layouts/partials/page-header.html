@@ -13,7 +13,7 @@
   }
 }">
   {{ partial "site-navigation.html" .}}
-  <div class="grid grid-cols-2 min-vh-100">
+  <div class="relative overflow-x-clip grid grid-cols-1 md:grid-cols-2 min-vh-100">
     <div class="{{ .Site.Params.cover_dimming_class | default " bg-grey-bg-light" }} flex-l items-center p-4">
       <div class="text-blue-navy">
         <h1 class="mb-0 text-blue-navy">
@@ -68,7 +68,7 @@
 }">
   {{ partial "site-navigation.html" . }}
 
-  <div class="bg-grey-fullpage-screen pt-10"></div>
+  <div class="bg-grey-bg-mid absolute top-0 left-0 right-0 bottom-0 -z-[1] w-full h-[80vh] min-[600px]:h-[60vh] pt-10"></div>
 </header>
 <div class="pt-10"></div>
 {{ end }}

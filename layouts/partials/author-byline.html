@@ -18,35 +18,50 @@
   {{- $author = site.GetPage $lookup -}}
 {{- end -}}
 
+{{- /* Tailwind class strings, varying by $variant. */ -}}
+{{- $wrapperClass := "inline-flex items-center align-middle gap-3" -}}
+{{- $avatarClass := "w-[40px] h-[40px] rounded-full object-cover bg-grey-bg-light block" -}}
+{{- $nameClass := "font-semibold text-inherit no-underline" -}}
+{{- $nameLinkClass := "font-semibold text-inherit no-underline hover:underline" -}}
+{{- $metaClass := "text-[0.875rem] text-[#6c6c7a] mt-[2px]" -}}
+{{- if eq $variant "compact" -}}
+  {{- $avatarClass = "w-[28px] h-[28px] rounded-full object-cover bg-grey-bg-light block" -}}
+{{- else if eq $variant "card" -}}
+  {{- $wrapperClass = "inline-flex items-center align-middle gap-[14px]" -}}
+  {{- $avatarClass = "w-[56px] h-[56px] rounded-full object-cover bg-grey-bg-light block" -}}
+  {{- $nameClass = "font-semibold text-[1.125rem] text-inherit no-underline" -}}
+  {{- $nameLinkClass = "font-semibold text-[1.125rem] text-inherit no-underline hover:underline" -}}
+  {{- $metaClass = "text-[0.9375rem] text-[#6c6c7a] mt-[2px]" -}}
+{{- end -}}
+
 {{- if $author -}}
   {{- $name := $author.Params.name | default $author.Title -}}
   {{- $img := $author.Params.profile_image -}}
   {{- $link := $author.Params.link -}}
-  {{- $wrapperClass := printf "author-byline author-byline--%s" $variant -}}
 
   <span class="{{ $wrapperClass }}">
     {{- with $img -}}
       {{- if $link -}}
-        <a href="{{ $link }}" class="author-byline__avatar-link" rel="noopener">
+        <a href="{{ $link }}" class="inline-flex leading-none" rel="noopener">
       {{- end -}}
-      <img src="{{ . }}" alt="{{ $name }}" class="author-avatar" loading="lazy">
+      <img src="{{ . }}" alt="{{ $name }}" class="{{ $avatarClass }}" loading="lazy">
       {{- if $link }}</a>{{ end -}}
     {{- end }}
-    <span class="author-byline__text">
+    <span class="inline-flex flex-col justify-center leading-tight min-w-0">
       {{- if $link -}}
-        <a href="{{ $link }}" class="author-byline__name-link" rel="noopener" target="_blank">{{ $name }}</a>
+        <a href="{{ $link }}" class="{{ $nameLinkClass }}" rel="noopener" target="_blank">{{ $name }}</a>
       {{- else -}}
-        <span class="author-byline__name">{{ $name }}</span>
+        <span class="{{ $nameClass }}">{{ $name }}</span>
       {{- end -}}
-      {{- with $meta }}<span class="author-byline__meta">{{ . | safeHTML }}</span>{{ end -}}
+      {{- with $meta }}<span class="{{ $metaClass }}">{{ . | safeHTML }}</span>{{ end -}}
     </span>
   </span>
 {{- else if $authorRef -}}
   {{- /* Fallback: front matter still holds a plain string name. */ -}}
-  <span class="author-byline author-byline--{{ $variant }}">
-    <span class="author-byline__text">
-      <span class="author-byline__name">{{ $authorRef }}</span>
-      {{- with $meta }}<span class="author-byline__meta">{{ . | safeHTML }}</span>{{ end -}}
+  <span class="{{ $wrapperClass }}">
+    <span class="inline-flex flex-col justify-center leading-tight min-w-0">
+      <span class="{{ $nameClass }}">{{ $authorRef }}</span>
+      {{- with $meta }}<span class="{{ $metaClass }}">{{ . | safeHTML }}</span>{{ end -}}
     </span>
   </span>
 {{- end -}}

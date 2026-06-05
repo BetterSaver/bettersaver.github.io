@@ -1,3 +1,4 @@
+@layer legacy {
 /**
 * @license
 *
@@ -270,4 +271,6 @@
 
 .text-xx-large {
     font-size: 20px;
+}
+
 }

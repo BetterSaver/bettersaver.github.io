@@ -1,3 +1,4 @@
+@layer legacy {
 /* Display */
 .hidden {
     display: none;
@@ -33,4 +34,5 @@
     @media screen and (min-width: 1024px) {
         display: none !important;
     }
+}
 }

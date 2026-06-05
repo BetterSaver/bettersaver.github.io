@@ -22,9 +22,9 @@ https://gohugo.io/content-management/related/
 <div class="bg-grey-bg-light py-8">
   <div class="content narrow">
     <h3 class="">Read next</h3>
-    <div class="grid grid-cols-2 gap-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
       {{ range . }}
-      <div class="white-card">
+      <div class="[&_.card]:bg-white">
         {{ .Render "summary" }}
       </div>
       {{ end }}
