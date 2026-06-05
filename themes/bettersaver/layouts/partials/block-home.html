@@ -1,14 +1,14 @@
 <!-- Why better saver -->
-<div class="why-bettersaver text-blue-navy">
-    <article class="py-8 text-center">
+<div class="max-w-[1200px] mx-auto px-2 text-blue-navy">
+    <article class="max-w-[716px] mx-auto py-8 text-center">
         {{ with .Params.why_heading }}<h2>{{ . }}</h2>{{ end }}
         {{ with .Params.why_description }}<p>{{ . }}</p>{{ end }}
     </article>
 
-    <div class="grid grid-cols-3 gap-2 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mb-8">
         {{ range .Params.why_boxes }}
-        <div class="text-center why-boxes">
-            <div><img src="{{ .icon }}" alt="{{ .title }}" class="mb-2"></div>
+        <div class="text-center max-md:grid max-md:grid-cols-[auto_1fr] max-md:gap-[16px]">
+            <div><img src="{{ .icon }}" alt="{{ .title }}" class="mb-2 max-md:max-w-[120px]"></div>
             <div>
                 <h5>{{ .title }}</h5>
                 <p class="font-light">{{ .description }}</p>
@@ -21,7 +21,7 @@
 <hr class="divider" />
 
 <!-- How it works -->
-<div class="how-it-works py-8 text-blue-navy border-t grid grid-cols-2 gap-8" x-data="{
+<div class="max-w-[1200px] mx-auto px-2 py-8 text-blue-navy grid grid-cols-1 md:grid-cols-2 gap-8" x-data="{
     step: 1,
     timer: null,
     timerTime: 5000,
@@ -75,14 +75,15 @@
         {{ with .Params.how_heading }}<h2>{{ . }}</h2>{{ end }}
         {{ with .Params.how_description }}<p class="mb-4">{{ . }}</p>{{ end }}
 
-        <ol>
+        <ol class="list-none p-0 mb-4">
             {{ range $i, $step := .Params.how_steps }}
             {{ $stepNum := add $i 1 }}
-            <li @click="setStep({{ $stepNum }})" x-bind:class="step === {{ $stepNum }} ? 'active' : ''">
-                <div class="progress-step" id="step-{{ $stepNum }}-progress"></div>
+            <li @click="setStep({{ $stepNum }})" x-bind:class="step === {{ $stepNum }} ? 'active' : ''" class="group relative pl-8 py-[33px] cursor-pointer transition-colors duration-300 text-grey-mid [&.active]:text-blue-navy [&:last-child]:border-b [&:last-child]:border-grey-bg-dark">
+                <div class="progress-step absolute top-0 left-0 w-full h-px bg-grey-bg-dark transition-[width] duration-100 group-[.active]:bg-grey-mid" id="step-{{ $stepNum }}-progress"></div>
+                <span class="absolute top-[24px] left-0 text-[64px] title-font transition-colors duration-300 group-[.active]:text-purple">{{ $stepNum }}</span>
                 <h5>{{ $step.title }}</h5>
-                <p>{{ $step.description }}</p>
-                <div class="mobile-img-container" style="background-image: url({{ $step.image }})"></div>
+                <p class="m-0 text-grey-very-light group-[.active]:text-grey-mid">{{ $step.description }}</p>
+                <div class="hidden bg-cover bg-center bg-no-repeat rounded-[25px] min-h-[335px] mt-2 max-md:group-[.active]:block" style="background-image: url({{ $step.image }})"></div>
             </li>
             {{ end }}
         </ol>
@@ -90,5 +91,5 @@
         <a href="https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure" class="button mobile-center">Get Started</a>
     </div>
 
-    <div class="img-container" x-bind:style="'background-image: url(' + images[step-1] + ')'"></div>
+    <div class="bg-cover bg-center bg-no-repeat rounded-[25px] min-h-[668px] transition-[background-image] duration-200 ease-in-out max-md:hidden" x-bind:style="'background-image: url(' + images[step-1] + ')'"></div>
 </div>

@@ -1,3 +1,4 @@
+@layer legacy {
 /* PADDING */
 .p-auto {
     padding: auto;
@@ -779,4 +780,5 @@
 
 .my-12 {
     margin-block: var(--size-12);
+}
 }

@@ -1,9 +1,9 @@
-<div class="text-blob title-font">
+<div class="text-[28px] max-w-[727px] px-2 pt-12 mt-12 mx-auto text-left lg:text-center title-font">
     We make it easy to find a better fund, switch in minutes, and stay on track for the future you want.
     <br/><span class="text-purple-contrast">Here's how it works:</span>
 </div>
 
-<div class="block-how-it-works content" x-data="{
+<div class="relative grid grid-cols-1 md:grid-cols-[1fr_auto] lg:grid-cols-[1fr_1fr_auto] gap-4 max-w-[1920px] px-2 mx-auto" x-data="{
     init() {
         const snaps = document.getElementById('snaps');
 
@@ -75,15 +75,15 @@
     }
 }">
     <div class="tablet-hidden">
-        <div class="sticky-img-container">
-            <div id="img-1" class="img sn-one-img"></div>
-            <div id="img-2" class="img sn-two-img"></div>
-            <div id="img-3" class="img sn-three-img"></div>
+        <div class="sticky top-0 pt-[15vh] pb-8">
+            <div id="img-1" class="bg-[url('/images/homepage-how-it-works-1.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] lg:opacity-0 lg:transition-opacity lg:duration-300 lg:[&.active]:opacity-100"></div>
+            <div id="img-2" class="bg-[url('/images/homepage-how-it-works-2.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] lg:absolute lg:w-full lg:top-[15vh] lg:left-0 lg:right-0 lg:opacity-0 lg:transition-opacity lg:duration-300 lg:[&.active]:opacity-100"></div>
+            <div id="img-3" class="bg-[url('/images/homepage-how-it-works-3.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] lg:absolute lg:w-full lg:top-[15vh] lg:left-0 lg:right-0 lg:opacity-0 lg:transition-opacity lg:duration-300 lg:[&.active]:opacity-100"></div>
         </div>
     </div>
-    <div class="snaps" id="snaps">
-        <div id="sn-one" x-intersect.threshold.50="updateScrollTo(1)">
-            <div class="img sn-one-img tablet-show"></div>
+    <div class="my-12 snap-y snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" id="snaps">
+        <div id="sn-one" class="snap-center grid grid-cols-1 gap-2 mb-4 items-start [scroll-margin-top:10vh] md:grid-cols-2 md:mb-0 lg:grid-cols-1 lg:items-center lg:min-h-[62vh] lg:[scroll-margin-top:15vh]" x-intersect.threshold.50="updateScrollTo(1)">
+            <div class="bg-[url('/images/homepage-how-it-works-1.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
                 <h3>Tell us a little about you</h3>
                 <p>The right KiwiSaver fund depends on your life — not just your age. We start by understanding your
@@ -106,8 +106,8 @@
             </div>
         </div>
 
-        <div id="sn-two" x-intersect.threshold.70="updateScrollTo(2)">
-            <div class="img sn-two-img tablet-show"></div>
+        <div id="sn-two" class="snap-center grid grid-cols-1 gap-2 mb-4 items-center md:grid-cols-2 md:min-h-[80vh] md:mb-0 lg:grid-cols-1 lg:min-h-screen" x-intersect.threshold.70="updateScrollTo(2)">
+            <div class="bg-[url('/images/homepage-how-it-works-2.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
                 <h3>We find you a better fund - and handle the switch</h3>
                 <p>Most people are in a fund that's just not right for them. We analyse the entire market to find one
@@ -137,8 +137,8 @@
             </div>
         </div>
 
-        <div id="sn-three" x-intersect.threshold.100="updateScrollTo(3)">
-            <div class="img sn-three-img tablet-show"></div>
+        <div id="sn-three" class="snap-center grid grid-cols-1 gap-2 [scroll-margin-top:10vh] md:grid-cols-2 lg:grid-cols-1 lg:min-h-[41vh] lg:[scroll-margin-top:30vh]" x-intersect.threshold.100="updateScrollTo(3)">
+            <div class="bg-[url('/images/homepage-how-it-works-3.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
                 <h3>Keep your KiwiSaver working harder</h3>
                 <p>Switching is just the start. We help you stay on track - and reward you for it. </p>
@@ -162,18 +162,18 @@
         </div>
     </div>
     <div class="mobile-hidden">
-        <div id="sticky-numbering">
-            <div id="sn-one-number" class="active" @click="scrollTo(1)">1</div>
-            <div id="sn-two-number" @click="scrollTo(2)">2</div>
-            <div id="sn-three-number" @click="scrollTo(3)">3</div>
+        <div id="sticky-numbering" class="sticky top-0 px-1 pt-[36vh] pb-[30.5vh]">
+            <div id="sn-one-number" class="active text-center border border-grey-mid rounded-full px-[10px] py-px text-[20px] title-font text-grey-mid mb-1 cursor-pointer [&.active]:border-purple [&.active]:text-purple" @click="scrollTo(1)">1</div>
+            <div id="sn-two-number" class="text-center border border-grey-mid rounded-full px-[10px] py-px text-[20px] title-font text-grey-mid mb-1 cursor-pointer [&.active]:border-purple [&.active]:text-purple" @click="scrollTo(2)">2</div>
+            <div id="sn-three-number" class="text-center border border-grey-mid rounded-full px-[10px] py-px text-[20px] title-font text-grey-mid mb-1 cursor-pointer [&.active]:border-purple [&.active]:text-purple" @click="scrollTo(3)">3</div>
         </div>
     </div>
 </div>
 
-<div class="faces text-center">
-    <img src="/images/faces.png" alt="faces" />
+<div class="relative [background-image:var(--gradient-2)] text-white py-11 text-center">
+    <img src="/images/faces.png" alt="faces" class="absolute top-[-60px] left-1/2 -translate-x-1/2 max-w-[384px]" />
 
-    <div>
+    <div class="max-w-[668px] p-2 mx-auto">
         <h4>Ready to get started?</h4>
         <p>Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get
             advice

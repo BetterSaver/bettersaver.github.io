@@ -8,6 +8,138 @@ author: content/authors/joe-taylor.md
 title: 'KiwiSaver Contribution Rates: What Changed in April 2026'
 description: 'The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026. Here''s what this means for your pay, your employer and your retirement.'
 img_src: /uploads/iStock-1698144375.jpg
+seo:
+  custom_schema: |-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/",
+          "url": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/",
+          "name": "KiwiSaver Contribution Rates: What Changed in April 2026 | BetterSaver",
+          "description": "The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026. Here's what this means for your pay, your employer and your retirement.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://bettersaver.co.nz/#website",
+            "name": "BetterSaver",
+            "url": "https://bettersaver.co.nz/"
+          },
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/#breadcrumbs"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/#article",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/"
+          },
+          "headline": "KiwiSaver Contribution Rates: What Changed in April 2026",
+          "description": "The default KiwiSaver contribution rate rose from 3% to 3.5% on 1 April 2026. Here's what this means for your pay, your employer and your retirement.",
+          "url": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/",
+          "mainEntityOfPage": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/",
+          "datePublished": "2026-04-01T08:00:00+13:00",
+          "dateModified": "2026-04-01T08:00:00+13:00",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/in/taylorja"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "BetterSaver",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://bettersaver.co.nz/images/logo.svg"
+            }
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://bettersaver.co.nz/uploads/iStock-1698144375.jpg"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the current KiwiSaver contribution rate options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As of 1 April 2026, the available employee contribution rates are 3%, 3.5% (the new default), 4%, 6%, 8% and 10%."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does my employer have to match my contribution rate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not exactly. Employers must contribute a minimum of 3.5% from 1 April 2026. If you choose to contribute at a higher rate, your employer is only obligated to contribute 3.5%. Some choose to match higher rates, but this is voluntary and depends on your employment agreement."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I change my contribution rate whenever I want?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can switch between the available rates (3%, 3.5%, 4%, 6%, 8% or 10%) at any time. Talk to your employer’s payroll team or update your rate through your myIR account."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will the rate go up again?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The default rate is scheduled to increase from 3.5% to 4% on 1 April 2028."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "I’m self-employed. Does this affect me?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The automatic rate change applies to employees whose contributions are deducted through payroll. If you’re self-employed, you choose how much to contribute voluntarily and can adjust this at any time. The government contribution still applies if you meet the $1,042.86 annual threshold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I apply for a temporary rate reduction?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can apply through your myIR account for a temporary reduction back to 3%. This lasts for a period of between 3 and 12 months. After that, your rate will go back to 3.5%."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "KiwiSaver Contribution Rates: What Changed in April 2026",
+              "item": "https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/"
+            }
+          ]
+        }
+      ]
+    }</script>
 ---
 
 ## KiwiSaver Contribution Rates Have Changed: What the Update Means for You

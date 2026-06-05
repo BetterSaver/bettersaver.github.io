@@ -9,6 +9,118 @@ author: content/authors/joe-taylor.md
 title: 5 Types of KiwiSaver Funds and What They Mean
 description: 'Not sure what KiwiSaver fund type suits you? Learn what the five types mean — from defensive to aggressive — and how to choose the right one for your goals. '
 img_src: /uploads/risk types.jpg
+seo:
+  custom_schema: |-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/#article",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/"
+          },
+          "headline": "5 Types of KiwiSaver Funds and What They Mean",
+          "description": "Not sure what KiwiSaver fund type suits you? Learn what the five types mean — from defensive to aggressive — and how to choose the right one for your goals.",
+          "url": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/",
+          "mainEntityOfPage": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/",
+          "datePublished": "2026-11-01T08:00:00+13:00", 
+          "dateModified": "2026-11-01T08:00:00+13:00", 
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "BetterSaver",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://bettersaver.co.nz/uploads/risk%20types.jpg" 
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the different types of KiwiSaver funds?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are five types: defensive, conservative, balanced, growth and aggressive. They're categorised by the proportion of growth assets (shares and property) they hold, which determines their risk level and potential return. Defensive funds hold the least growth assets at under 10% and aggressive funds hold the most at 90%+."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What KiwiSaver fund should I be in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This is one of the most common questions people ask. The answer depends on your goals, your timeline, your comfort with risk and your values. Someone decades from retirement with a high risk tolerance might suit a growth or aggressive fund. Someone planning to buy a first home in three years might be better in a conservative fund. BetterSaver's fund finder quiz gives you a personalised recommendation based on your specific situation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a KiwiSaver growth fund better than a balanced fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not necessarily. It depends on your circumstances. A KiwiSaver growth fund has more potential for long-term returns, but also more volatility. If you have a long timeline and can handle short-term drops, a growth fund may work well. If you need your money sooner or prefer more stability, a balanced fund could be the better choice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I change my KiwiSaver fund type?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can switch fund types within your current provider or move to a different provider at any time. There's no fee for switching. The important thing is to make sure the fund you're moving to actually matches your goals and timeline, not just last year's performance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a default KiwiSaver fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If you were automatically enrolled in KiwiSaver and didn't choose a provider or fund, you were placed in a default fund. Default funds are balanced in their investment approach and meet certain responsible investment standards set by the Financial Markets Authority. They're a reasonable starting point, but they may not be the best fit for your specific situation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much of my KiwiSaver should be in growth assets?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There's no single right answer. It depends on your timeline and risk tolerance. As a general principle, the longer you have until you plan to withdraw, the more growth assets your fund can afford to hold. But the right percentage also depends on how you'd handle seeing your balance drop during a market downturn."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/#breadcrumbs",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "5 Types of KiwiSaver Funds and What They Mean",
+              "item": "https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 ## 5 Types of KiwiSaver Funds and What They Mean

@@ -1,13 +1,4 @@
 ---
-team_tag: Credentials
-team_heading: The team behind the advice.
-team_body: 'BetterSaver is a **licensed Financial Advice Provider**, operated by an experienced team led by Joe Taylor'
-team_meta:
-  - text: FSP 600609
-  - text: Est. 2018
-  - text: Auckland
-team_button_label: Connect with Joe on LinkedIn
-team_button_url: 'https://www.linkedin.com/in/taylorja/'
 draft: false
 title: We exist to help Kiwis get the most out of KiwiSaver
 description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
@@ -16,8 +7,8 @@ featured_image_fit: contain
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
 framing_tag: Why we exist
-framing_heading: Most providers show you the data that makes *them* look good.
-framing_body: They're less good at helping you figure out whether you're actually in the right fund for your future. *That's where BetterSaver comes in.*
+framing_heading: Most providers show you the data that makes them look good.
+framing_body: They're less good at helping you figure out whether you're actually in the right fund for your future. That's where BetterSaver comes in.
 framing_button_label: See exactly how it works
 framing_button_url: /pages/how-it-works
 steps_tag: Our approach
@@ -37,7 +28,7 @@ story_image: /uploads/big_joe.jpg
 story_image_alt: 'Joe Taylor, founder of BetterSaver'
 story_tag: Our story
 story_heading: Why we started BetterSaver.
-story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because *proper financial advice wasn't accessible*.
+story_intro: Too many Kiwis end up in the wrong KiwiSaver fund — simply because proper financial advice wasn't accessible.
 story_body: 'Our founder Joe Taylor has spent more than 15 years in financial services in New Zealand and kept seeing the same story: Kiwis stuck in funds that weren''t right for them, simply because no one had ever given them proper advice. We built BetterSaver so a small nudge today — the right fund, the right provider, the right settings — can bounce through the rest of your working life.'
 story_button_label: Connect with Joe on LinkedIn
 story_button_url: 'https://www.linkedin.com/in/taylorja/'
@@ -69,7 +60,7 @@ partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with organisations throughout New Zealand offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
 partner_button_url: /contact-us
-cta_heading: Find a *better* KiwiSaver today!
+cta_heading: Find a better KiwiSaver today!
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 cta_subnote: Takes 2–5 minutes - It's free
@@ -79,5 +70,62 @@ seo:
     Meet the team behind BetterSaver — independent KiwiSaver advice built on data, not provider interest.
   keywords: 'about us, joe taylor, kiwisaver advice, financial advice provider'
   schema_type: AboutPage
+  custom_schema: |
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://bettersaver.co.nz/pages/about/#webpage",
+          "url": "https://bettersaver.co.nz/pages/about/",
+          "name": "About BetterSaver | Independent KiwiSaver Advice",
+          "description": "Meet the team behind BetterSaver - independent KiwiSaver advice built on data, not provider interest.",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/pages/about/#founder"
+          }
+        },
+        {
+          "@type": ["FinancialService", "SoftwareApplication"],
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "logo": "https://bettersaver.co.nz//images//logo.svg",
+          "applicationCategory": "FinanceApplication",
+          "operatingSystem": "Web",
+          "description": "An independent KiwiSaver advice platform and digital tool using data to match users with funds that fit their life stage and risk profile.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NZ"
+          },
+          "founder": {
+            "@id": "https://bettersaver.co.nz/pages/about/#founder"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/bettersaver/"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://bettersaver.co.nz/pages/about/#founder",
+          "name": "Joe Taylor",
+          "jobTitle": "Founder",
+          "description": "Joe Taylor has over 15 years of experience in financial services and is the founder of BetterSaver.",
+          "url": "https://www.linkedin.com/in/taylorja/",
+          "knowsAbout": [
+            "KiwiSaver",
+            "Financial Services",
+            "Investment Advice"
+          ],
+          "worksFor": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          }
+        }
+      ]
+    }
+    </script>
 ---
 

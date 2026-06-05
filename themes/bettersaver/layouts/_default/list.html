@@ -1,29 +1,29 @@
 {{ define "main" }}
-<article class="content blog">
+<article class="content p-2 mb-8">
   <section class="">
     {{- .Content -}}
   </section>
 
   {{/* Blog Tags */}}
-  <div class="tags pt-4 pb-8">
-    <a href="/financial-tips" class="button small outline grey selected mb-1">
+  <div class="pt-4 pb-8">
+    <a href="/financial-tips" class="button small outline grey selected mr-[3px] mb-1">
       All
     </a>
 
     {{ range $t := .Site.Taxonomies.tags.ByCount }}
     {{ with $t.Page }}
-    <a href="{{ .RelPermalink }}" class="button small outline grey mb-1">
+    <a href="{{ .RelPermalink }}" class="button small outline grey mb-1 mr-[3px]">
       {{ $t.Term | title }}
     </a>
     {{ end }}
     {{ end }}
   </div>
 
-  <section class="posts">
+  <section class="grid gap-2 grid-cols-1 md:grid-cols-2 min-[960px]:grid-cols-4">
     {{ range $i, $pg :=.Paginator.Pages }}
 
     {{ if eq $i 0 }}
-    <div class="feature">
+    <div class="col-span-full">
       {{ .Render "summary-feature" }}
     </div>
     {{ else }}

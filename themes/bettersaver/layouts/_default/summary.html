@@ -1,8 +1,8 @@
-<div class="card">
+<div class="card rounded-[25px] bg-grey-bg-light">
 
   <div class="">
     {{ if .Params.img_src }}
-    <a href="{{ .RelPermalink }}" class="post-image" style="background-image: url('{{ .Params.img_src }}');"></a>
+    <a href="{{ .RelPermalink }}" class="block bg-cover bg-center rounded-t-[25px] min-h-[200px]" style="background-image: url('{{ .Params.img_src }}');"></a>
     {{ end }}
 
     <div class="p-2">

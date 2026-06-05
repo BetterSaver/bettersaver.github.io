@@ -1,4 +1,4 @@
-<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}" role="navigation" id="site-nav-bar" x-data="{
+<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}{{ if eq .Page.RelPermalink "/pages/how-to-change-your-kiwisaver-provider/" }} light {{ end }}" role="navigation" id="site-nav-bar" x-data="{
     mobile_menu_open: false,
     isLoggedIn: false,
     dashboardUrl: '{{ .Site.Params.appUrl }}/dashboard',

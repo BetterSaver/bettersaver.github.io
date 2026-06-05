@@ -1,3 +1,4 @@
+@layer legacy {
 btn,
 button,
 a.button {
@@ -92,4 +93,5 @@ a.button {
             margin: 0 auto;
         }
     }
+}
 }

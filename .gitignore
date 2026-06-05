@@ -1,6 +1,8 @@
 /public/
 /resources/_gen/
 /node_modules/
+/.pnpm-store/
+themes/bettersaver/assets/ananke/css/bettersaver/tailwind-built.css
 
 hugo.exe
 hugo.linux
