@@ -81,12 +81,6 @@
     gap: 10px;
 }
 
-.how-we-analyse-page .section-tag::before {
-    content: '';
-    width: 20px;
-    height: 1px;
-    background: var(--grey-light);
-}
 
 /* ======== BANDS ======== */
 .how-we-analyse-page .band-blue {
@@ -201,9 +195,6 @@
 
 /* ======== FRAMING ======== */
 .how-we-analyse-page .framing {
-    display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    gap: 64px;
     align-items: start;
 }
 
@@ -332,12 +323,6 @@
 .how-we-analyse-page .risk-chip.growth .d { background: #9966FF; }
 .how-we-analyse-page .risk-chip.aggressive .d { background: #D55A5A; }
 
-.how-we-analyse-page .risk-chip.sel {
-    background: var(--blue-navy);
-    color: #fff;
-    border-color: var(--blue-navy);
-}
-
 /* timeline viz */
 .how-we-analyse-page .tl-viz {
     display: flex;
@@ -415,7 +400,7 @@
 /* ======== FOUR CHECKS DEEP-DIVE ALT ROWS ======== */
 .how-we-analyse-page .checks-head {
     /* max-width: 780px; */
-    margin-bottom: 12px;
+    margin-bottom: var(--size-3);
     padding-top: 96px;
 }
 
@@ -1165,13 +1150,17 @@
 }
 
 .how-we-analyse-page .tcard {
-    background: #fff;
+    background: var(--grey-bg-mid);
     border: 1px solid var(--grey-bg-mid);
     border-radius: 20px;
     padding: 36px 34px;
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.how-we-analyse-page .tcard.white {
+    background: #fff;}
 }
 
 .how-we-analyse-page .tcard img {
@@ -1190,13 +1179,6 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-}
-
-.how-we-analyse-page .tcard .tlab::before {
-    content: '';
-    width: 16px;
-    height: 1px;
-    background: var(--grey-light);
 }
 
 .how-we-analyse-page .tcard h3 {
@@ -1277,6 +1259,10 @@
     font-weight: 400;
     margin-bottom: 6px;
     color: #fff;
+}
+
+.how-we-analyse-page .cadence .title span {
+    color: var(--purple-contrast);
 }
 
 .how-we-analyse-page .cadence .sub {
@@ -1430,6 +1416,33 @@
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
     .how-we-analyse-page .weighting-table { min-width: 560px; }
     .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }
+}
+
+/* ===== Issue #614 copy/formatting updates ===== */
+
+/* "How we analyse" — the four "The aim is to…" kicker punchlines:
+   purple, no italics, no bold. */
+.how-we-analyse-page .deep-copy .kicker {
+    font-style: normal;
+    color: var(--purple-contrast);
+}
+
+/* "How we analyse" data card — commission notice line in purple
+   (scoped to exclude the change-provider page, which reuses this stylesheet). */
+.how-we-analyse-page:not(.change-provider-page) .tcard .notice {
+    color: var(--purple-contrast);
+}
+
+/* Change-provider page overrides */
+.change-provider-page .tcard .notice { font-style: normal; }
+.change-provider-page .quote-anchor .body { text-align: center; }
+.change-provider-page .tcard .path-illo {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 160px;
+    border-radius: 0;
+    margin: 24px auto 0;
 }
 
 }

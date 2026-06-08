@@ -47,7 +47,7 @@
     letter-spacing: -.025em;
     line-height: 1.05;
     color: var(--blue-navy);
-    max-width: 780px;
+    /* max-width: 780px; */
     text-wrap: pretty;
     margin: 0 0 14px 0;
 }
@@ -92,12 +92,6 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-}
-.about-page .section-tag::before {
-    content: '';
-    width: 20px;
-    height: 1px;
-    background: var(--grey-light);
 }
 
 /* ======== HERO ======== */
@@ -210,9 +204,6 @@
 
 /* ======== FRAMING ======== */
 .about-page .ab-framing {
-    display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    gap: 64px;
     align-items: start;
 }
 .about-page .ab-framing-body {

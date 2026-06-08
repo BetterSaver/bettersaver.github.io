@@ -40,6 +40,16 @@ const HowWeAnalyse: Collection = {
       label: "Featured Image",
     },
     {
+      type: "image",
+      name: "icon_path",
+      label: "Hero Icon",
+    },
+    {
+      type: "string",
+      name: "icon_class",
+      label: "Hero Icon CSS Class",
+    },
+    {
       type: "datetime",
       name: "date",
       label: "Date",

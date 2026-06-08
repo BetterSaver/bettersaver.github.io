@@ -72,12 +72,6 @@ const AboutUs: Collection = {
     },
     {
       type: "string",
-      name: "framing_body",
-      label: "Framing - Body",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
       name: "framing_button_label",
       label: "Framing - Button Label",
     },

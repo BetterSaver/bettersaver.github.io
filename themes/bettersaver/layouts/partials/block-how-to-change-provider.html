@@ -25,7 +25,6 @@
             <h2>{{ .Params.intro_heading | markdownify }}</h2>
           </div>
           <div>
-            <p class="framing-body">{{ .Params.intro_body | markdownify }}</p>
             <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:18px">{{ .Params.intro_body_2 | markdownify }}</p>
             <a href="{{ replace .Params.intro_cta_url "{{appUrl}}" $appUrl | safeURL }}" class="button" style="margin-top:22px">{{ .Params.intro_cta_label }}</a>
           </div>
@@ -65,9 +64,9 @@
               <h2>{{ .Params.need_heading | markdownify }}</h2>
               <p>{{ .Params.need_subheading | markdownify }}</p>
             </div>
-            <ul>
+            <ul class="micro-list">
               {{ range .Params.need_items }}
-              <li><p>{{ .text | markdownify }}</p></li>
+              <li><svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z" fill="currentColor"></path><path d="M6.5 10L9 12.5L14 7.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>{{ .text | markdownify }}</p></li>
               {{ end }}
             </ul>
           </div>
@@ -94,7 +93,7 @@
 
       <div class="twocol" style="margin-top:48px">
         {{ range .Params.switch_cards }}
-        <div class="tcard">
+        <div class="tcard white">
           <div class="tlab">{{ .label }}</div>
           <h3>{{ .title | markdownify }}</h3>
           <p>{{ .description | markdownify }}</p>
@@ -123,6 +122,9 @@
             <li><p>{{ .text | markdownify }}</p></li>
             {{ end }}
           </ul>
+          {{ if .image }}
+          <img src="{{ .image }}" alt="{{ .image_alt }}" class="path-illo" />
+          {{ end }}
         </div>
         {{ end }}
       </div>
@@ -140,8 +142,8 @@
 
       <div class="cadence">
         <div>
-          <div class="title">{{ .Params.contrib_title }}</div>
-          <div class="sub">{{ .Params.contrib_sub | markdownify }}</div>
+          <div class="title">{{ .Params.contrib_title | safeHTML }}</div>
+          <div class="sub">{{ .Params.contrib_sub | safeHTML }}</div>
         </div>
         <div class="badge-c"><img src="{{ .Params.contrib_image }}" alt="{{ .Params.contrib_image_alt }}"></div>
       </div>
@@ -158,8 +160,7 @@
           <h2>{{ .Params.new_heading | markdownify }}</h2>
         </div>
         <div>
-          <p class="framing-body">{{ .Params.new_body | markdownify }}</p>
-          <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:8px">{{ .Params.new_body_2 | markdownify }}</p>
+          <!-- <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:8px">{{ .Params.new_body_2 | markdownify }}</p> -->
         </div>
       </div>
     </section>
@@ -189,6 +190,16 @@
     </section>
   </div>
 
+  {{/* PRIVACY */}}
+  <div class="fund-finder">
+    <section style="padding:24px 0 72px">
+      <div class="quote-anchor">
+        <!-- <span class="mark">"</span> -->
+        <p class="body">{{ .Params.privacy_body | markdownify }}</p>
+      </div>
+    </section>
+  </div>
+
   {{/* FAQ */}}
   <section class="py-9">
     <div class="hwa-page">
@@ -212,16 +223,6 @@
       </section>
     </div>
   </section>
-
-  {{/* PRIVACY */}}
-  <div class="fund-finder">
-    <section style="padding:24px 0 72px">
-      <div class="quote-anchor">
-        <!-- <span class="mark">"</span> -->
-        <p class="body">{{ .Params.privacy_body | markdownify }}</p>
-      </div>
-    </section>
-  </div>
 
   {{/* FINAL CTA */}}
   <div class="hwa-page">
