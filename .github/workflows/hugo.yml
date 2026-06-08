@@ -48,9 +48,12 @@ jobs:
         uses: actions/configure-pages@v6
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build Tailwind CSS
+        run: npm run build:css
       - name: Rewrite app URLs for production
-        run: sed -i 's|http://localhost:4200|https://app.bettersaver.co.nz|g' config.toml
-        run: sed -i 's|http://localhost:4250|https://app.bettersaver.co.nz|g' config.toml
+        run: |
+          sed -i 's|http://localhost:4200|https://app.bettersaver.co.nz|g' config.toml
+          sed -i 's|http://localhost:4250|https://app.bettersaver.co.nz|g' config.toml
       - name: Use production funds data
         run: cp themes/bettersaver/assets/ananke/data/funds-prod.json themes/bettersaver/assets/ananke/data/funds.json
       - name: Build with Hugo
