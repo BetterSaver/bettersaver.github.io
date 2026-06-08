@@ -114,10 +114,10 @@ faq_items:
   - question: Can I change my KiwiSaver contribution rate?
     answer: 'Yes — but that''s separate from switching providers. To change how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
-cta_heading: Ready to check your KiwiSaver?
-cta_body: We'll ask a few quick questions and recommend a fund from our recommended list based on your situation and preferences. You stay in control the whole time.
+cta_heading: Find a better KiwiSaver today
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
+cta_subnote: Takes 2–5 minutes & It's free
 seo:
   title: How to Change Your KiwiSaver Provider | BetterSaver
   description: |

@@ -502,12 +502,6 @@ const HowToChangeProvider: Collection = {
     },
     {
       type: "string",
-      name: "cta_body",
-      label: "Final CTA - Body",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
       name: "cta_button_label",
       label: "Final CTA - Button Label",
     },
@@ -517,6 +511,11 @@ const HowToChangeProvider: Collection = {
       label: "Final CTA - Button URL",
       description:
         "Use {{appUrl}} as a placeholder for the app URL, or a full path.",
+    },
+    {
+      type: "string",
+      name: "cta_subnote",
+      label: "Final CTA - Subnote",
     },
 
     ...seoFields,
