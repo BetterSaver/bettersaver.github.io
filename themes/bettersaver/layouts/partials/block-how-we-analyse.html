@@ -389,15 +389,20 @@
     </div>
   </section>
 
-  {{/* FINAL CTA */}}
-  <div class="hwa-page">
-    <section class="final-cta">
-      <h2>{{ .Params.cta_heading | markdownify }}</h2>
-      <div class="btns">
-        <a class="button" href="{{ replace .Params.cta_button_url "{{appUrl}}" $appUrl | safeURL }}">{{ .Params.cta_button_label }}</a>
-      </div>
-      <div class="subnote">{{ .Params.cta_subnote }}</div>
-    </section>
+  {{/* FINAL CTA — mirrors the About page "Find a better KiwiSaver today" section */}}
+  <div class="about-page">
+    <div class="ab-page">
+      <section class="ab-final-cta">
+        <h2>{{ .Params.cta_heading | markdownify }}</h2>
+        {{ with .Params.cta_button_label }}
+        {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
+        <a class="button" href="{{ $url }}">{{ . }}</a>
+        {{ end }}
+        {{ with .Params.cta_subnote }}
+        <div class="ab-subnote">{{ . }}</div>
+        {{ end }}
+      </section>
+    </div>
   </div>
 
 </div>

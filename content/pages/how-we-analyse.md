@@ -142,10 +142,10 @@ faq_items:
     answer: 'We focus on performance over meaningful timeframes, typically five to ten years where available. Five years is our minimum bar. Funds with shorter track records are not recommended.'
   - question: How is a fund comparison different from picking the best-performing fund?
     answer: 'The best-performing fund over the last quarter, last year etc. is not necessarily the right fund for you. A meaningful comparison accounts for performance, fees, consistency, quality — not just a single return figure.'
-cta_heading: Find a better fund today.
+cta_heading: Find a better KiwiSaver today
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
-cta_subnote: Takes 2-5 minutes - and It's free!
+cta_subnote: Takes 2–5 minutes & It's free
 seo:
   title: How We Analyse | BetterSaver
   description: |
