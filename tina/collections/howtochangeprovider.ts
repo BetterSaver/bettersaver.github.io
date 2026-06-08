@@ -42,6 +42,16 @@ const HowToChangeProvider: Collection = {
       label: "Featured Image",
     },
     {
+      type: "image",
+      name: "icon_path",
+      label: "Hero Icon",
+    },
+    {
+      type: "string",
+      name: "icon_class",
+      label: "Hero Icon CSS Class",
+    },
+    {
       type: "datetime",
       name: "date",
       label: "Date",
@@ -64,12 +74,6 @@ const HowToChangeProvider: Collection = {
       type: "string",
       name: "intro_heading",
       label: "Intro - Heading",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
-      name: "intro_body",
-      label: "Intro - Body",
       ui: { component: "textarea" },
     },
     {
@@ -298,6 +302,16 @@ const HowToChangeProvider: Collection = {
             },
           ],
         },
+        {
+          type: "image",
+          name: "image",
+          label: "Card Image",
+        },
+        {
+          type: "string",
+          name: "image_alt",
+          label: "Card Image Alt Text",
+        },
       ],
     },
 
@@ -350,12 +364,6 @@ const HowToChangeProvider: Collection = {
       type: "string",
       name: "new_heading",
       label: "New to KiwiSaver - Heading",
-    },
-    {
-      type: "string",
-      name: "new_body",
-      label: "New to KiwiSaver - Body",
-      ui: { component: "textarea" },
     },
     {
       type: "string",
@@ -494,12 +502,6 @@ const HowToChangeProvider: Collection = {
     },
     {
       type: "string",
-      name: "cta_body",
-      label: "Final CTA - Body",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
       name: "cta_button_label",
       label: "Final CTA - Button Label",
     },
@@ -509,6 +511,11 @@ const HowToChangeProvider: Collection = {
       label: "Final CTA - Button URL",
       description:
         "Use {{appUrl}} as a placeholder for the app URL, or a full path.",
+    },
+    {
+      type: "string",
+      name: "cta_subnote",
+      label: "Final CTA - Subnote",
     },
 
     ...seoFields,

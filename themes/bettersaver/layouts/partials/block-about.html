@@ -1,20 +1,6 @@
 {{- $appUrl := .Site.Params.appUrl -}}
 <div class="about-page">
 
-  {{/* TRUST STRIP */}}
-  <!-- <div class="">
-    <section class="trust">
-      <div class="trust-inner">
-        <div class="trust-lab">Independent advice · Trusted data</div>
-        <div class="trust-logos">
-          <div class="t-count"><span>300+</span><span class="sub">KiwiSaver funds analysed</span></div>
-          <div class="t-logo"><a href="https://www.morningstar.com/business/brands/data-analytics"><img src="/images/logo-morningstar.png" alt="Morningstar"></a></div>
-          <div class="t-logo"><img src="/images/logo-fap.png" alt="Licensed FAP"></div>
-        </div>
-      </div>
-    </section>
-  </div> -->
-
   {{/* FRAMING */}}
   <div class="py-9">
     <section class="ab-page">
@@ -24,7 +10,6 @@
           <h2>{{ .Params.framing_heading | markdownify }}</h2>
         </div>
         <div>
-          <p class="ab-framing-body">{{ .Params.framing_body | markdownify }}</p>
           {{ with .Params.framing_button_label }}
           <a href="{{ $.Params.framing_button_url }}" class="button">{{ . }}</a>
           {{ end }}
@@ -62,7 +47,7 @@
       <div>
         <div class="section-tag">{{ .Params.story_tag }}</div>
         <h2>{{ .Params.story_heading | markdownify }}</h2>
-        <p>{{ .Params.story_intro | markdownify }}</p>
+        {{ with .Params.story_intro }}<p>{{ . | markdownify }}</p>{{ end }}
         <p class="small">{{ .Params.story_body | markdownify }}</p>
         {{ with .Params.story_button_label }}
         <a class="button" href="{{ $.Params.story_button_url }}" target="_blank" rel="noopener">{{ . }}</a>
