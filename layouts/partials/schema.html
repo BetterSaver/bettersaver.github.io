@@ -24,9 +24,8 @@
 {{- $custom = $custom | strings.TrimSpace }}
 
 {{- if $custom }}
-<script type="application/ld+json">
-{{ $custom | safeJS }}
-</script>
+{{/* custom_schema already includes its own <script type="application/ld+json"> wrapper */}}
+{{ $custom | safeHTML }}
 {{- else }}
 
 {{/* WebSite — homepage only */}}
