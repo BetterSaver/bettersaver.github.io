@@ -39,9 +39,15 @@
       if (!this.query || this.query.length < 1) return [];
       const words = this.query.toLowerCase().split(/\s+/).filter(w => w);
       if (!words.length) return [];
+      const seen = new Set();
       return this.funds.filter(f => {
         const label = this.fundLabel(f).toLowerCase();
-        return words.every(w => label.includes(w));
+        if (!words.every(w => label.includes(w))) return false;
+        // Drop duplicate provider+fund entries (the prod dataset can list the
+        // same fund twice under different ids) so each fund appears once.
+        if (seen.has(label)) return false;
+        seen.add(label);
+        return true;
       }).sort((a, b) => {
         const aP = a.provider.toLowerCase();
         const bP = b.provider.toLowerCase();
@@ -122,7 +128,7 @@
 
           {{/* Dropdown */}}
           <div class="fund-finder__dropdown" x-show="showDropdown && filteredFunds.length > 0" x-cloak>
-            <template x-for="fund in filteredFunds" :key="fund.provider + fund.fund">
+            <template x-for="fund in filteredFunds" :key="fund.id">
               <button
                 type="button"
                 class="fund-finder__dropdown-item"
