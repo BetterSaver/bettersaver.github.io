@@ -1348,49 +1348,8 @@
     color: #fff;
 }
 
-/* ======== FINAL CTA ======== */
-.how-we-analyse-page .final-cta {
-    text-align: center;
-    padding: 112px 0;
-}
-
-.how-we-analyse-page .final-cta .section-tag { margin-bottom: 22px; }
-.how-we-analyse-page .final-cta .section-tag::before { display: none; }
-
-.how-we-analyse-page .final-cta h2 {
-    font-size: 68px;
-    margin: 0 auto 36px;
-    letter-spacing: -.03em;
-    line-height: 1;
-    text-align: center;
-    max-width: none;
-}
-
-.how-we-analyse-page .final-cta h2 em { font-style: italic; }
-
-.how-we-analyse-page .final-cta .btns {
-    display: flex;
-    gap: 14px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.how-we-analyse-page .final-cta .btn-primary {
-    font-size: 15px;
-    padding: 16px 32px;
-}
-
-.how-we-analyse-page .final-cta .subnote {
-    font-size: 11.5px;
-    text-transform: uppercase;
-    letter-spacing: .14em;
-    color: var(--grey-light);
-    margin-top: 22px;
-}
-
 /* ======== RESPONSIVE ======== */
 @media (max-width: 960px) {
-    .how-we-analyse-page .final-cta h2 { font-size: 40px; }
     .how-we-analyse-page h2 { font-size: 32px; }
     .how-we-analyse-page .deep-copy h2 { font-size: 28px; }
     .how-we-analyse-page .trust-inner { gap: 24px; flex-direction: column; align-items: flex-start; }

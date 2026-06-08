@@ -10,9 +10,16 @@
   {{ end }}
 {{ end }}
 
+{{/* Fund data is embedded in a JSON script block rather than inline in the
+     single-quoted x-data attribute. Embedding it in the attribute meant any fund
+     name containing an apostrophe would terminate the attribute early and silently
+     break the whole widget. jsonify escapes <, >, & so the data is safe inside a
+     <script type="application/json"> element. */}}
+<script type="application/json" id="fund-finder-data">{{ $fundsData.funds | jsonify | safeJS }}</script>
+
 <div class="fund-finder text-center"
   x-data='{
-    funds: {{ $fundsData.funds | jsonify }},
+    funds: JSON.parse(document.getElementById("fund-finder-data").textContent),
     query: "",
     selectedFund: null,
     showDropdown: false,
