@@ -6,15 +6,15 @@ title: 'Growth Fund vs Balanced Fund: Which Is Right for You?'
 description: Choosing between a KiwiSaver growth fund and balanced fund? We break down the real returns gap and how to decide which fund fits your timeline and goals in NZ.
 ---
 
-Growth Fund vs Balanced Fund: Which Is Right for You?
+## Growth Fund vs Balanced Fund: Which Is Right for You?
 
 A lot of people set up their KiwiSaver and never look at it again. But choosing between a growth fund and a balanced fund is important, as it can determine whether you retire with something like $350,000 vs. $420,000. That’s a gap of more than $70,000 from the same contributions, just by being in a different type of fund.
 
-In this article, you’ll learn the real difference between a growth fund and a balanced fund, what the returns data shows and how to use your timeline to decide on the right fund type for you. 
+In this article, you’ll learn the real difference between a growth fund and a balanced fund, what the returns data shows and how to use your timeline to decide on the right fund type for you.
 
 We’ll also give you some tips on what to expect when markets drop and how to choose without overthinking it
 
-The Difference Between a Growth Fund and a Balanced Fund
+## The Difference Between a Growth Fund and a Balanced Fund
 
 A KiwiSaver fund’s category (balanced or growth) is determined by how much of your money is invested in growth assets versus income assets.
 
@@ -62,29 +62,29 @@ Those with a longer runway ahead of them
 
 Bear in mind that there are no strict industry-wide rules on how providers label their funds. One provider’s “balanced” fund might hold 40% growth assets, while another’s might hold 60%. The label gives you a starting point, not the full story. The actual percentage matters more.
 
-What the Numbers Show
+## What the Numbers Show
 
-The Financial Markets Authority projects annual returns of 3.5% per year for balanced funds and 4.5% per year for growth funds (net of fees). 
+The Financial Markets Authority projects annual returns of 3.5% per year for balanced funds and 4.5% per year for growth funds (net of fees).
 
 These are intentionally conservative estimates. Real-world returns for many funds have been higher than these figures. Even so, that 1% annual gap compounds significantly.
 
-To put a dollar figure on it, a 30-year-old on an average salary contributing consistently could expect their balanced fund to grow to around $346,213 by retirement, versus $421,928 in a growth fund (a difference of over $75,000). 
+To put a dollar figure on it, a 30-year-old on an average salary contributing consistently could expect their balanced fund to grow to around $346,213 by retirement, versus $421,928 in a growth fund (a difference of over $75,000).
 
 That’s why the growth vs balanced decision is worth taking seriously.
 
-The Role of Your Timeline
+## The Role of Your Timeline
 
-Time is the most important factor in deciding between a growth fund and a balanced fund. Here’s the basic rule of thumb. 
+Time is the most important factor in deciding between a growth fund and a balanced fund. Here’s the basic rule of thumb.
 
-If You’re 7 or More Years From Withdrawal
+#### If You’re 7 or More Years From Withdrawal
 
 Being 7 or more years from withdrawal means a growth fund is usually worth considering. You’ve got enough time to ride out the ups and downs that happen with growth assets. Short-term drops aren’t as much of a concern when your money has years to recover before you need it.
 
-If You’re Withdrawing in the Next 4 to 6 Years
+#### If You’re Withdrawing in the Next 4 to 6 Years
 
 For a timeframe of 4 to 6 years, a balanced fund might be a better fit. The closer you get to needing your money, the less time you have to recover from a market dip. Locking in more income assets gives your balance some protection when it matters the most.
 
-If You’re Planning to Use KiwiSaver for a First Home Deposit
+#### If You’re Planning to Use KiwiSaver for a First Home Deposit
 
 A first home deposit goal makes your timeline more specific  and your fund decision more important. If your withdrawal is two to three years away, you might want to consider switching to a balanced or even conservative fund. A market drop right before you need your deposit can be damaging.
 
@@ -92,55 +92,55 @@ For anyone still building the foundations of how KiwiSaver works, our guide to h
 
 And if you’ve recently had a pay rise or changed jobs, it’s also worth checking your contribution rate. From 1 April 2026, the minimum employee and employer contribution rates both increased from 3% to 3.5%, which affects how much is going into your fund each week.
 
-What Happens When Markets Drop?
+## What Happens When Markets Drop?
 
 If you’re in a growth fund, your balance will usually fall more noticeably when markets go down. This is the trade-off for higher long-term returns but it can be unsettling if you’re not expecting it.
 
 The most common mistake people make is switching to a conservative or defensive fund after a market drop, essentially locking in their losses at the worst possible moment, then missing the recovery. When markets bounce back (and historically, they do), those who stayed in their growth fund recover, but those who switched don’t.
 
-Here are a few things worth remembering. 
+Here are a few things worth remembering.
 
-Volatility is Normal
+#### Volatility is Normal
 
 Growth funds have experienced drops of 15–20% or more in bad years, followed by strong recoveries. This is part of how they generate higher long-term returns.
 
-You Only “Lose” If You Sell
+#### You Only “Lose” If You Sell
 
 Your balance dropping on screen is not the same as losing money. It only becomes a real loss if you switch out and don’t benefit from the recovery.
 
-Your Response to Volatility Matters
+#### Your Response to Volatility Matters
 
 If a falling balance causes you to act impulsively, a growth fund might not be the right choice (not because of the fund, but because of how you’d react to it).
 
 Being honest with yourself about how you’d handle a market dip is a key part of the fund type decision.
 
-How to Decide Without Second-Guessing Yourself
+## How to Decide Without Second-Guessing Yourself
 
 There are four questions worth working through:
 
-1\. What am I saving for?
+#### 1. What am I saving for?
 
 Retirement, a first home deposit, or both? If you’re primarily saving for retirement and you’re decades away, growth assets give your money the longest possible time to compound. If a home deposit is on the horizon, your timeline may be shorter than you think.
 
-2\. How long until I’ll need the money?
+#### 2. How long until I’ll need the money?
 
 Ten-plus years: growth fund is worth considering. Five to ten years: balanced may be more appropriate. Under five years: a conservative fund might be the right call (speak to a financial adviser if you’re unsure).
 
-3\. How would I feel if my balance dropped 15%?
+#### 3. How would I feel if my balance dropped 15%?
 
 This is about emotional reality, not just financial logic. Could you leave it alone and trust the recovery? Or would a paper loss feel like a crisis? If seeing your balance fall would lead you to switch funds at the wrong time, the short-term comfort of a balanced fund might actually give you a better outcome.
 
-4\. Do I care where my money is invested?
+#### 4. Do I care where my money is invested?
 
 Not all KiwiSaver funds invest in the same things. Some hold stakes in weapons manufacturers, tobacco companies or fossil fuel producers. If that matters to you, it’s worth knowing that fund type (growth vs balanced) and ethical screening are separate decisions, but you can find funds that fit both criteria.
 
 These four questions don’t always point to the same answer, which is exactly why a personalised recommendation is more useful than a generic rule.
 
-Frequently Asked Questions
+## Frequently Asked Questions
 
 Is a growth fund better than a balanced fund?
 
-Not universally. It depends on your circumstances. A growth fund has the potential for higher long-term returns, but it also comes with more short-term volatility. If you have a timeline of 10 or more years and can handle seeing your balance fluctuate, a growth fund may outperform a balanced fund significantly over that period. 
+Not universally. It depends on your circumstances. A growth fund has the potential for higher long-term returns, but it also comes with more short-term volatility. If you have a timeline of 10 or more years and can handle seeing your balance fluctuate, a growth fund may outperform a balanced fund significantly over that period.
 
 If your withdrawal is closer, or if market swings would cause you to act impulsively, a balanced fund may deliver better outcomes for your situation.
 
