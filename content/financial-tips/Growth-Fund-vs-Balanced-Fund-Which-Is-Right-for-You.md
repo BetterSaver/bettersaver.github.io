@@ -4,6 +4,7 @@ date: 2026-06-08T21:51:46.128Z
 author: content/authors/joe-taylor.md
 title: 'Growth Fund vs Balanced Fund: Which Is Right for You?'
 description: Choosing between a KiwiSaver growth fund and balanced fund? We break down the real returns gap and how to decide which fund fits your timeline and goals in NZ.
+img_src: /uploads/iStock-1487212048-ai-modified-b7951138-c069-45ce-adb0-19f103b2a488.jpg
 ---
 
 ## Growth Fund vs Balanced Fund: Which Is Right for You?
