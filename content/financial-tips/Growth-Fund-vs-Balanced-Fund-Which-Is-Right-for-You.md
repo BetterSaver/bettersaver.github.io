@@ -27,49 +27,23 @@ Every KiwiSaver fund holds a mix of both growth and income assets. The higher th
 
 Here’s how the two fund types break down:
 
-Balanced Fund
-
-Growth Fund
-
-Growth assets
-
-35–65%
-
-65–90%
-
-Income assets
-
-35–65%
-
-10–35%
-
-Risk level
-
-Medium
-
-Medium-high
-
-Typical timeline
-
-4-6 years to withdrawal
-
-7+ years to withdrawal
-
-Best suited to
-
-Those approaching a milestone (home, retirement)
-
-Those with a longer runway ahead of them
+|                  | Balanced Fund                                    | Growth Fund                              |
+| ---------------- | ------------------------------------------------ | ---------------------------------------- |
+| Growth assets    | 35–65%                                           | 65–90%                                   |
+| Income assets    | 35–65%                                           | 10–35%                                   |
+| Risk level       | Medium                                           | Medium-high                              |
+| Typical timeline | 4-6 years to withdrawal                          | 7+ years to withdrawal                   |
+| Best suited to   | Those approaching a milestone (home, retirement) | Those with a longer runway ahead of them |
 
 Bear in mind that there are no strict industry-wide rules on how providers label their funds. One provider’s “balanced” fund might hold 40% growth assets, while another’s might hold 60%. The label gives you a starting point, not the full story. The actual percentage matters more.
 
 ## What the Numbers Show
 
-The Financial Markets Authority projects annual returns of 3.5% per year for balanced funds and 4.5% per year for growth funds (net of fees).
+[The Financial Markets Authority](https://www.fma.govt.nz/consumer/kiwisaver-and-superannuation/about-kiwisaver/kiwisaver-projections/) projects annual returns of 3.5% per year for balanced funds and 4.5% per year for growth funds (net of fees).
 
 These are intentionally conservative estimates. Real-world returns for many funds have been higher than these figures. Even so, that 1% annual gap compounds significantly.
 
-To put a dollar figure on it, a 30-year-old on an average salary contributing consistently could expect their balanced fund to grow to around $346,213 by retirement, versus $421,928 in a growth fund (a difference of over $75,000).
+To put a dollar figure on it, a 30-year-old on an average salary contributing consistently could expect their balanced fund to grow to around [$346,213 by retirement, versus $421,928 in a growth fund ](https://www.moneyhub.co.nz/moderate-vs-balanced-vs-growth-funds.html)(a difference of over $75,000).
 
 That’s why the growth vs balanced decision is worth taking seriously.
 
@@ -89,9 +63,9 @@ For a timeframe of 4 to 6 years, a balanced fund might be a better fit. The clos
 
 A first home deposit goal makes your timeline more specific  and your fund decision more important. If your withdrawal is two to three years away, you might want to consider switching to a balanced or even conservative fund. A market drop right before you need your deposit can be damaging.
 
-For anyone still building the foundations of how KiwiSaver works, our guide to how KiwiSaver works covers the basics.
+For anyone still building the foundations of how KiwiSaver works, our [guide to how KiwiSaver works](https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/) covers the basics.
 
-And if you’ve recently had a pay rise or changed jobs, it’s also worth checking your contribution rate. From 1 April 2026, the minimum employee and employer contribution rates both increased from 3% to 3.5%, which affects how much is going into your fund each week.
+And if you’ve recently had a pay rise or changed jobs, it’s also worth checking your [contribution rate](https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-april-2026/). From 1 April 2026, the minimum employee and employer contribution rates both increased from 3% to 3.5%, which affects how much is going into your fund each week.
 
 ## What Happens When Markets Drop?
 
@@ -139,36 +113,36 @@ These four questions don’t always point to the same answer, which is exactly w
 
 ## Frequently Asked Questions
 
-Is a growth fund better than a balanced fund?
+**Is a growth fund better than a balanced fund?**
 
 Not universally. It depends on your circumstances. A growth fund has the potential for higher long-term returns, but it also comes with more short-term volatility. If you have a timeline of 10 or more years and can handle seeing your balance fluctuate, a growth fund may outperform a balanced fund significantly over that period.
 
 If your withdrawal is closer, or if market swings would cause you to act impulsively, a balanced fund may deliver better outcomes for your situation.
 
-What does a balanced KiwiSaver fund actually invest in?
+**What does a balanced KiwiSaver fund actually invest in?**
 
 A balanced fund holds a mix of growth assets (typically shares and property) and income assets (normally bonds and cash). The split is usually somewhere between 35% and 65% growth assets, though this varies by provider. The mix is designed to offer moderate growth with lower volatility than a pure growth fund.
 
-Can I switch from a balanced fund to a growth fund?
+**Can I switch from a balanced fund to a growth fund?**
 
 Yes. You can switch fund types within your existing provider, or move to a different provider altogether. There’s no fee for switching KiwiSaver funds in New Zealand. The key is making sure the fund you’re switching to actually suits your timeline and goals, not just because it had strong returns last year.
 
-When should I switch from a growth fund to a balanced fund?
+**When should I switch from a growth fund to a balanced fund?**
 
 The most common reason to switch is a change in your timeline. If you’re approaching a first home withdrawal, or you’re within five to 10 years of retirement, it might be time to shift to a more conservative fund type to protect what you’ve built. Switching in response to a market downturn is generally not recommended, as this often means selling low and missing the recovery.
 
-What if I don’t know what fund I’m in?
+**What if I don’t know what fund I’m in?**
 
-Log into your KiwiSaver provider’s app or website, or check your annual statement. Your fund name will typically reflect its type. If you’re still unsure, BetterSaver’s free fund finder quiz can help.
+Log into your KiwiSaver provider’s app or website, or check your annual statement. Your fund name will typically reflect its type. If you’re still unsure, [BetterSaver’s free fund finder quiz](https://bettersaver.co.nz/) can help.
 
-Does my contribution rate affect which fund type I should be in?
+**Does my contribution rate affect which fund type I should be in?**
 
 Your contribution rate and fund type are separate decisions, but they work together. A higher contribution rate in a lower-performing fund might not outpace a lower contribution rate in a higher-performing fund. In April 2026, the minimum contribution rate increased to 3.5%. If you’re reassessing your KiwiSaver setup, it’s worth reviewing both decisions at the same time.
 
-What to Do Next
+## What to Do Next
 
 A growth fund and a balanced fund might sound like two versions of the same thing, but the difference in long-term outcomes can be significant.
 
 The right choice depends on how long you have until you need your money, how you’d respond to market volatility and what you’re trying to achieve. There’s no single right answer, but there is a right answer for your situation.
 
-BetterSaver’s free fund finder quiz takes around five minutes. It considers your goals, timeline, risk comfort and values, plus it gives you a personalised recommendation from across 300+ KiwiSaver funds in the New Zealand market.
+BetterSaver’s [free fund finder quiz](https://bettersaver.co.nz/) takes around five minutes. It considers your goals, timeline, risk comfort and values, plus it gives you a [personalised ](https://bettersaver.co.nz/)recommendation from across 300+ KiwiSaver funds in the New Zealand market.
