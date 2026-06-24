@@ -33,7 +33,7 @@ step3_body: 'Once you''re happy with our recommendation, we take care of everyth
 step3_get_heading: ''
 step3_get_items:
   - text: 'The switch is fast, secure, and handled entirely by us'
-  - text: Tools to help you stay on course toward your goal - first home or retirement
+  - text: Most switches complete within a few working days
   - text: Helpful nudges to keep you moving forward
 step3_footer: Your life will change. Your KiwiSaver should keep up.
 cta_heading: Ready to get started?
