@@ -25,7 +25,7 @@ step2_how_items:
   - text: 'Performance - how returns have tracked over time, risk-adjusted'
   - text: Fees - what you're actually paying and whether the returns justify it
   - text: Risk - how much your balance would move in a down market
-  - text: 'Every fund is rated from A+ to F, we only recommend funds that score B or higher'
+  - text: 'Where your money is invested - sectors, geographies, ethical screens'
 step2_ready_heading: If you're ready to switch
 step2_ready_items:
   - text: 'You give us the details we need (IRD number, ID, etc.)'
