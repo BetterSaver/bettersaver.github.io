@@ -26,17 +26,13 @@ step2_how_items:
   - text: Fees - what you're actually paying and whether the returns justify it
   - text: Risk - how much your balance would move in a down market
   - text: 'Where your money is invested - sectors, geographies, ethical screens'
-step2_ready_heading: If you're ready to switch
-step2_ready_items:
-  - text: 'You give us the details we need (IRD number, ID, etc.)'
-  - text: 'We handle the switch — fast, secure, and hassle-free'
-  - text: You'll get updates along the way so you're never left wondering
-step2_footer: 'It''s simple, stress-free, and could make a real difference to your future.'
-step3_heading: Keep your KiwiSaver working harder
-step3_body: Switching is just the start. We help you stay on track - and reward you for it.
-step3_get_heading: What you get
+step2_ready_heading: ''
+step2_footer: Most Kiwis end up in a scheme because it was their employer's default or their bank's first option. We look at the entire market to find what genuinely fits you.
+step3_heading: We Handle the KiwiSaver Switch
+step3_body: 'Once you''re happy with our recommendation, we take care of everything. You give us the details we need - IRD number, ID - and we handle the rest.'
+step3_get_heading: ''
 step3_get_items:
-  - text: A dashboard that shows how your KiwiSaver is tracking
+  - text: 'The switch is fast, secure, and handled entirely by us'
   - text: Tools to help you stay on course toward your goal - first home or retirement
   - text: Helpful nudges to keep you moving forward
 step3_footer: Your life will change. Your KiwiSaver should keep up.
