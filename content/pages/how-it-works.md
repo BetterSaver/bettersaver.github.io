@@ -2,7 +2,7 @@
 faq: true
 draft: false
 title: How Our KiwiSaver Advice Works
-description: 'Many Kiwis are in a KiwiSaver scheme they never really chose. BetterSaver gives you personalised KiwiSaver advice based on your goals, risk comfort, and what matters to you - then handles the switch. Here''s exactly how it works.'
+description: 'BetterSaver gives you personalised KiwiSaver advice based on your goals, risk comfort, and what matters to you - then handles the switch. Here''s exactly how it works.'
 featured_image: /uploads/bg-how-it-works-man.png
 icon_path: /uploads/illustration-ballon.png
 date: 2022-10-10T03:00:00.000Z
