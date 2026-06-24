@@ -7,8 +7,10 @@ featured_image: /uploads/bg-how-it-works-man.png
 icon_path: /uploads/illustration-ballon.png
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-it-works
-hero_heading: 'We make it easy to find a better fund, switch in minutes, and stay on track for the future you want.'
-hero_heading_highlight: 'Here''s how it works:'
+hero_heading: |-
+  If you go direct to a KiwiSaver provider, they'll recommend their own scheme. That's not a criticism - it's just how it works. Banks and fund managers are there to run their products, not to compare themselves to the competition.
+  BetterSaver is different. We're not affiliated with any provider. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.
+hero_heading_highlight: That's what independent KiwiSaver advice looks like - and it's what you should expect.
 step1_heading: Good KiwiSaver Advice Starts With You
 step1_body: |
   The right KiwiSaver fund depends on your life - your goals, how far away retirement or a first home is, and how comfortable you are with your balance going up and down along the way. That's what we ask about first.
