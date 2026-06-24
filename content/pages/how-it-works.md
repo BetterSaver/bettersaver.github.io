@@ -8,8 +8,8 @@ icon_path: /uploads/illustration-ballon.png
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-it-works
 hero_heading: |-
-  If you go direct to a KiwiSaver provider, they'll recommend their own scheme. That's not a criticism - it's just how it works. Banks and fund managers are there to run their products, not to compare themselves to the competition.
-  BetterSaver is different. We're not affiliated with any provider. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.
+  Go direct to a KiwiSaver provider and they'll recommend their own funds. Banks and fund managers run their products; they're not there to compare them to the competition.
+  BetterSaver is different. We compare the whole market, not just one provider's funds. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.
 hero_heading_highlight: That's what independent KiwiSaver advice looks like - and it's what you should expect.
 step1_heading: Good KiwiSaver Advice Starts With You
 step1_body: |
