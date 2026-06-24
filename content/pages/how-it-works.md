@@ -1,21 +1,22 @@
 ---
 faq: true
 draft: false
-title: 'BetterSaver: How it works'
-description: 'For many Kiwis, KiwiSaver will end up being their biggest asset - or second only to their home. We''re here to help you get better results from it.'
+title: How Our KiwiSaver Advice Works
+description: 'Many Kiwis are in a KiwiSaver scheme they never really chose. BetterSaver gives you personalised KiwiSaver advice based on your goals, risk comfort, and what matters to you - then handles the switch. Here''s exactly how it works.'
 featured_image: /uploads/bg-how-it-works-man.png
 icon_path: /uploads/illustration-ballon.png
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-it-works
 hero_heading: 'We make it easy to find a better fund, switch in minutes, and stay on track for the future you want.'
 hero_heading_highlight: 'Here''s how it works:'
-step1_heading: Tell us a little about you
-step1_body: 'The right KiwiSaver fund depends on your life — not just your age. We start by understanding your goals, comfort with risk, and what matters to you ethically.'
-step1_ask_heading: What we ask
+step1_heading: Good KiwiSaver Advice Starts With You
+step1_body: |
+  The right KiwiSaver fund depends on your life - your goals, how far away retirement or a first home is, and how comfortable you are with your balance going up and down along the way. That's what we ask about first.
+step1_ask_heading: 'What we need to understand:'
 step1_ask_items:
   - text: Are you saving for your first home or for retirement?
   - text: How do you feel about investment ups and downs?
-  - text: 'Do you want to avoid things like weapons, gambling, or fossil fuels?'
+  - text: 'Do you want to avoid things like weapons, gambling, or animal testing?'
 step1_footer: It only takes a couple of minutes — and it's the foundation for better advice.
 step2_heading: We find you a better fund - and handle the switch
 step2_body: Most people are in a fund that's just not right for them. We analyse the entire market to find one that suits you better.
