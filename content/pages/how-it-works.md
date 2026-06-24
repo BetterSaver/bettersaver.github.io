@@ -36,7 +36,7 @@ step3_get_items:
   - text: Most switches complete within a few working days
   - text: You'll get updates along the way - no radio silence
   - text: There's nothing to chase or organise on your end
-step3_footer: Your life will change. Your KiwiSaver should keep up.
+step3_footer: Switching KiwiSaver is genuinely easy. The hard part - knowing which scheme to move to - is what we're here for.
 cta_heading: Ready to get started?
 cta_body: Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get advice and find a better fund.
 cta_button_label: Get started now
