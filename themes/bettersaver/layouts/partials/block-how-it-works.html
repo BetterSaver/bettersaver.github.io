@@ -1,6 +1,6 @@
 <div class="text-[28px] max-w-[727px] px-2 pt-12 mt-12 mx-auto text-left lg:text-center title-font">
-    We make it easy to find a better fund, switch in minutes, and stay on track for the future you want.
-    <br/><span class="text-purple-contrast">Here's how it works:</span>
+    {{ .Params.hero_heading }}
+    <br/><span class="text-purple-contrast">{{ .Params.hero_heading_highlight }}</span>
 </div>
 
 <div class="relative grid grid-cols-1 md:grid-cols-[1fr_auto] lg:grid-cols-[1fr_1fr_auto] gap-4 max-w-[1920px] px-2 mx-auto" x-data="{
@@ -85,78 +85,66 @@
         <div id="sn-one" class="snap-center grid grid-cols-1 gap-2 mb-4 items-start [scroll-margin-top:10vh] md:grid-cols-2 md:mb-0 lg:grid-cols-1 lg:items-center lg:min-h-[62vh] lg:[scroll-margin-top:15vh]" x-intersect.threshold.50="updateScrollTo(1)">
             <div class="bg-[url('/images/homepage-how-it-works-1.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
-                <h3>Tell us a little about you</h3>
-                <p>The right KiwiSaver fund depends on your life — not just your age. We start by understanding your
-                    goals,
-                    comfort with
-                    risk, and what matters to you ethically.</p>
+                <h3>{{ .Params.step1_heading }}</h3>
+                <p>{{ .Params.step1_body }}</p>
 
                 <div class="border-t border-b pt-2 mb-2">
-                    <h5>What we ask</h5>
+                    <h5>{{ .Params.step1_ask_heading }}</h5>
 
                     <ul>
-                        <li>Are you saving for your first home or for retirement?</li>
-                        <li>How do you feel about investment ups and downs?</li>
-                        <li>Do you want to avoid things like weapons, gambling, or fossil fuels?</li>
+                        {{ range .Params.step1_ask_items }}<li>{{ .text }}</li>
+                        {{ end }}
                     </ul>
 
                 </div>
 
-                <p>It only takes a couple of minutes — and it's the foundation for better advice.</p>
+                <p>{{ .Params.step1_footer }}</p>
             </div>
         </div>
 
         <div id="sn-two" class="snap-center grid grid-cols-1 gap-2 mb-4 items-center md:grid-cols-2 md:min-h-[80vh] md:mb-0 lg:grid-cols-1 lg:min-h-screen" x-intersect.threshold.70="updateScrollTo(2)">
             <div class="bg-[url('/images/homepage-how-it-works-2.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
-                <h3>We find you a better fund - and handle the switch</h3>
-                <p>Most people are in a fund that's just not right for them. We analyse the entire market to find one
-                    that suits you
-                    better.</p>
+                <h3>{{ .Params.step2_heading }}</h3>
+                <p>{{ .Params.step2_body }}</p>
 
                 <div class="border-t border-b pt-2 mb-2">
-                    <h5>How we do it</h5>
+                    <h5>{{ .Params.step2_how_heading }}</h5>
 
                     <ul>
-                        <li>We analyse over 300 KiwiSaver funds</li>
-                        <li>We look at performance, risk, fees, and where your money is invested</li>
-                        <li>We use independent data from Morningstar</li>
-                        <li>Every fund is rated from A+ to F, we only recommend funds that score B or higher</li>
+                        {{ range .Params.step2_how_items }}<li>{{ .text }}</li>
+                        {{ end }}
                     </ul>
 
-                    <h5>If you're ready to switch</h5>
+                    <h5>{{ .Params.step2_ready_heading }}</h5>
 
                     <ul>
-                        <li>You give us the details we need (IRD number, ID, etc.)</li>
-                        <li>We handle the switch — fast, secure, and hassle-free</li>
-                        <li>You'll get updates along the way so you're never left wondering</li>
+                        {{ range .Params.step2_ready_items }}<li>{{ .text }}</li>
+                        {{ end }}
                     </ul>
 
                 </div>
-                <p>It's simple, stress-free, and could make a real difference to your future.</p>
+                <p>{{ .Params.step2_footer }}</p>
             </div>
         </div>
 
         <div id="sn-three" class="snap-center grid grid-cols-1 gap-2 [scroll-margin-top:10vh] md:grid-cols-2 lg:grid-cols-1 lg:min-h-[41vh] lg:[scroll-margin-top:30vh]" x-intersect.threshold.100="updateScrollTo(3)">
             <div class="bg-[url('/images/homepage-how-it-works-3.png')] bg-no-repeat bg-right-top bg-contain min-h-[43vh] md:min-h-[60vh] tablet-show"></div>
             <div class="mb-4">
-                <h3>Keep your KiwiSaver working harder</h3>
-                <p>Switching is just the start. We help you stay on track - and reward you for it. </p>
+                <h3>{{ .Params.step3_heading }}</h3>
+                <p>{{ .Params.step3_body }}</p>
 
                 <div class="border-t border-b pt-2 mb-2">
-                    <h5>What you get</h5>
+                    <h5>{{ .Params.step3_get_heading }}</h5>
 
                     <ul>
-                        <li>A dashboard that shows how your KiwiSaver is tracking</li>
-                        <li>Tools to help you stay on course toward your goal - first home or retirement</li>
-                        <li>Helpful nudges to keep you moving forward</li>
-                        <!-- <li>Airpoints<sub>&trade;</sub> for smart financial actions - like quizzes, annual reviews, or
-                            referrals</li> -->
+                        {{ range .Params.step3_get_items }}<li>{{ .text }}</li>
+                        {{ end }}
                     </ul>
 
                 </div>
 
-                <p>Your life will change. Your KiwiSaver should keep up.</p>
+                <p>{{ .Params.step3_footer }}</p>
 
             </div>
         </div>
@@ -174,11 +162,8 @@
     <img src="/images/faces.png" alt="faces" class="absolute top-[-60px] left-1/2 -translate-x-1/2 max-w-[384px]" />
 
     <div class="max-w-[668px] p-2 mx-auto">
-        <h4>Ready to get started?</h4>
-        <p>Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get
-            advice
-            and
-            find a better fund.</p>
-        <a href="https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure" class="button white">Get started now</a>
+        <h4>{{ .Params.cta_heading }}</h4>
+        <p>{{ .Params.cta_body }}</p>
+        <a href="{{ .Params.cta_button_url }}" class="button white">{{ .Params.cta_button_label }}</a>
     </div>
 </div>

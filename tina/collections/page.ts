@@ -6,7 +6,7 @@ const Page: Collection = {
   label: "Pages",
   path: "content/pages",
   match: {
-    exclude: "{How-to-Change-Your-KiwiSaver-Provider,how-we-analyse,about}",
+    exclude: "{How-to-Change-Your-KiwiSaver-Provider,how-we-analyse,about,how-it-works}",
   },
   fields: [
     {
