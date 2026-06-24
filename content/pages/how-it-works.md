@@ -34,7 +34,7 @@ step3_get_heading: ''
 step3_get_items:
   - text: 'The switch is fast, secure, and handled entirely by us'
   - text: Most switches complete within a few working days
-  - text: Helpful nudges to keep you moving forward
+  - text: You'll get updates along the way - no radio silence
 step3_footer: Your life will change. Your KiwiSaver should keep up.
 cta_heading: Ready to get started?
 cta_body: Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get advice and find a better fund.
