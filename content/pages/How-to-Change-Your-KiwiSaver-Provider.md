@@ -9,7 +9,7 @@ date: 2022-10-10T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
 intro_heading: 'Like most people, if you didn’t choose your KiwiSaver provider, you were likely placed in a default fund — one of six government selected funds.'
-intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time — there''s no lock-in, and the process is simpler than most people expect.'
+intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time, there''s no lock-in, and the process is simpler than most people expect.'
 intro_cta_label: Get my KiwiSaver recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 how_tag: How it works
