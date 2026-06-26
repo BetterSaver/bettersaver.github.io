@@ -224,17 +224,89 @@ const HowItWorks: Collection = {
       ui: { component: "textarea" },
     },
 
+    // WHY INDEPENDENT ADVICE MATTERS
+    {
+      type: "string",
+      name: "independent_tag",
+      label: "Independent - Section Tag",
+    },
+    {
+      type: "string",
+      name: "independent_heading",
+      label: "Independent - Heading",
+      ui: { component: "textarea" },
+    },
+    {
+      type: "object",
+      name: "independent_body",
+      label: "Independent - Body Paragraphs",
+      list: true,
+      ui: {
+        itemProps: (item) => ({ label: item?.text }),
+      },
+      fields: [
+        {
+          type: "string",
+          name: "text",
+          label: "Paragraph",
+          ui: { component: "textarea" },
+        },
+      ],
+    },
+
+    // WHO OUR ADVICE IS FOR
+    {
+      type: "string",
+      name: "audience_tag",
+      label: "Audience - Section Tag",
+    },
+    {
+      type: "string",
+      name: "audience_heading",
+      label: "Audience - Heading",
+      ui: { component: "textarea" },
+    },
+    {
+      type: "string",
+      name: "audience_intro",
+      label: "Audience - Intro",
+      ui: { component: "textarea" },
+    },
+    {
+      type: "string",
+      name: "audience_list_heading",
+      label: "Audience - List Heading",
+      ui: { component: "textarea" },
+    },
+    {
+      type: "object",
+      name: "audience_items",
+      label: "Audience - List Items",
+      list: true,
+      ui: {
+        itemProps: (item) => ({ label: item?.text }),
+      },
+      fields: [
+        {
+          type: "string",
+          name: "text",
+          label: "Item",
+          ui: { component: "textarea" },
+        },
+      ],
+    },
+    {
+      type: "string",
+      name: "audience_footer",
+      label: "Audience - Footer",
+      ui: { component: "textarea" },
+    },
+
     // FINAL CTA
     {
       type: "string",
       name: "cta_heading",
       label: "Final CTA - Heading",
-      ui: { component: "textarea" },
-    },
-    {
-      type: "string",
-      name: "cta_body",
-      label: "Final CTA - Body",
       ui: { component: "textarea" },
     },
     {
@@ -246,6 +318,13 @@ const HowItWorks: Collection = {
       type: "string",
       name: "cta_button_url",
       label: "Final CTA - Button URL",
+      description:
+        "Use {{appUrl}} as a placeholder for the app URL, or a full path.",
+    },
+    {
+      type: "string",
+      name: "cta_subnote",
+      label: "Final CTA - Subnote",
     },
 
     ...seoFields,

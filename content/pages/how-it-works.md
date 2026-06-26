@@ -35,9 +35,27 @@ step3_get_items:
   - text: 'Tools to keep you on course toward your goal, first home or retirement'
   - text: Prompts when something changes that might affect your advice
 step3_footer: Your KiwiSaver advice should stay current. We make sure it does.
-cta_heading: Ready to get started?
-cta_body: Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get advice and find a better fund.
-cta_button_label: Get started now
-cta_button_url: 'https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure'
+independent_tag: Independent advice
+independent_heading: Why Independent KiwiSaver Advice Matters
+independent_body:
+  - text: 'If you go direct to a KiwiSaver provider, they''ll recommend their own scheme. That''s not a criticism - it''s just how it works. Banks and fund managers are there to run their products, not to compare themselves to the competition.'
+  - text: 'BetterSaver is different. We''re not affiliated with any provider. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.'
+  - text: 'That''s what independent KiwiSaver advice looks like - and it''s what you should expect.'
+audience_tag: Who it's for
+audience_heading: Who Our KiwiSaver Advice Is For
+audience_intro: 'BetterSaver is for anyone who wants to know they''re in the right KiwiSaver scheme - which covers more Kiwis than you''d think.'
+audience_list_heading: 'You''ll find our KiwiSaver advice useful if:'
+audience_items:
+  - text: You've never reviewed which scheme you're in
+  - text: You joined automatically through your employer and stayed put
+  - text: You're a few years from buying your first home and need a different risk profile
+  - text: You want your money invested ethically - or want to avoid specific industries
+  - text: 'You''ve changed jobs, income, or financial situation'
+  - text: You're not sure whether your current fees are reasonable
+audience_footer: It's free. It takes a few minutes. And you'll know exactly where you stand.
+cta_heading: Find a better KiwiSaver today
+cta_button_label: Get my KiwiSaver recommendation
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
+cta_subnote: Takes 2–5 minutes & It's free
 ---
 

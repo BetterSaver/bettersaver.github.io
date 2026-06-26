@@ -21,16 +21,19 @@ why_boxes:
     title: Clear and transparent
     description: So you can decide with confidence.
 how_heading: How it works
-how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as you go.'
+how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals.'
 how_steps:
-  - title: Tell us your KiwiSaver preferences
+  - title: Tell us about you
     description: 'Your goals, your risk level, your ethics'
     image: /uploads/homepage-how-it-works-1.png
-  - title: Get matched to a better fund
-    description: 'We recommend the right fund, and handle the switch for you'
+  - title: We analyse the market
+    description: 'Over 300 schemes, rated on performance, fees and risk'
     image: /uploads/homepage-how-it-works-2.png
-  - title: Track and improve your progress
-    description: 'See how you''re tracking toward your goals, and get rewarded along the way'
+  - title: We handle the switch
+    description: 'Fast, secure, and done for you'
+    image: /uploads/homepage-how-it-works-3.png
+  - title: We keep it on track
+    description: 'Tools and nudges as your life changes'
     image: /uploads/homepage-how-it-works-3.png
 seo:
   custom_schema: |-
