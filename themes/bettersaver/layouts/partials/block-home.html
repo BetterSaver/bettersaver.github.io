@@ -37,7 +37,7 @@
         // clear existing timer and restart
         clearInterval(this.timer);
         this.timer = setInterval(() => {
-            this.step = (this.step % 3) + 1;
+            this.step = (this.step % {{ len .Params.how_steps }}) + 1;
             this.progressBar();
         }, this.timerTime);
     },

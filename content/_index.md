@@ -31,7 +31,7 @@ how_steps:
     image: /uploads/homepage-how-it-works-2.png
   - title: We handle the switch
     description: 'Fast, secure, and done for you'
-    image: /uploads/homepage-how-it-works-3.png
+    image: /uploads/homepage-how-it-works-2.png
   - title: We keep it on track
     description: 'Tools and nudges as your life changes'
     image: /uploads/homepage-how-it-works-3.png
