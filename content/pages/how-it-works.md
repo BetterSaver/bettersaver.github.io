@@ -34,7 +34,7 @@ step3_get_items:
   - text: A dashboard showing how your KiwiSaver is tracking
   - text: 'Tools to keep you on course toward your goal, first home or retirement'
   - text: Prompts when something changes that might affect your advice
-step3_footer: Switching KiwiSaver is genuinely easy. The hard part - knowing which scheme to move to - is what we're here for.
+step3_footer: Your KiwiSaver advice should stay current. We make sure it does.
 cta_heading: Ready to get started?
 cta_body: Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get advice and find a better fund.
 cta_button_label: Get started now
