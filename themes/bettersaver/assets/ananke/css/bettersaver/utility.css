@@ -141,4 +141,19 @@
     border-top: 1px solid var(--grey-bg-mid);
 }
 
+/* Italic serif emphasis line with an accent bar — used for closing "pull quote"
+   lines. Keep consistent site-wide; do not reproduce these styles inline.
+   Declarations use !important so the look stays identical inside scoped page
+   contexts (e.g. .how-we-analyse-page) that set more specific paragraph rules. */
+.pull-quote {
+    margin-top: 28px !important;
+    font-family: 'BureauSerif', serif !important;
+    font-style: italic !important;
+    font-size: 17px !important;
+    line-height: 1.4 !important;
+    color: var(--purple) !important;
+    padding-left: 14px !important;
+    border-left: 2px solid var(--blue-baby) !important;
+}
+
 }

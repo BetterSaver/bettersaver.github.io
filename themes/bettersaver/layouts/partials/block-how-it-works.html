@@ -168,8 +168,13 @@
       <div class="principles-head" style="margin-bottom:0">
         {{ with .Params.independent_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
         <h2>{{ .Params.independent_heading | markdownify }}</h2>
+        {{ $last := sub (len .Params.independent_body) 1 }}
         {{ range $i, $p := .Params.independent_body }}
+        {{ if eq $i $last }}
+        <p class="pull-quote">{{ $p.text | markdownify }}</p>
+        {{ else }}
         <p{{ if gt $i 0 }} style="margin-top:18px"{{ end }}>{{ $p.text | markdownify }}</p>
+        {{ end }}
         {{ end }}
       </div>
     </div>
@@ -192,7 +197,7 @@
       </ul>
      
       {{ with .Params.audience_footer }}
-      <p style="margin-top:28px;font-family:'BureauSerif',serif;font-style:italic;font-size:17px;color:var(--grey-mid);line-height:1.4;padding-left:14px;border-left:2px solid var(--blue-baby)">{{ . | markdownify }}</p>
+      <p class="pull-quote">{{ . | markdownify }}</p>
       {{ end }}
     </div>
   </section>
