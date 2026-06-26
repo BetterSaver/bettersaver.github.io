@@ -24,7 +24,7 @@ step2_how_heading: 'What we do:'
 step2_how_items:
   - text: 'Compare every fund on performance, fees, risk, and where your money is invested'
   - text: 'Find the fund that fits you, not just your employer''s default or your bank''s first option'
-  - text: Risk - how much your balance would move in a down market
+  - text: Handle the switch from start to finish once you're happy
   - text: 'Where your money is invested - sectors, geographies, ethical screens'
 step2_ready_heading: ''
 step2_footer: Most Kiwis end up in a scheme because it was their employer's default or their bank's first option. We look at the entire market to find what genuinely fits you.
