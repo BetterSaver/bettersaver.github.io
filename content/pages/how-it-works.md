@@ -25,14 +25,13 @@ step2_how_items:
   - text: 'Compare every fund on performance, fees, risk, and where your money is invested'
   - text: 'Find the fund that fits you, not just your employer''s default or your bank''s first option'
   - text: Handle the switch from start to finish once you're happy
-  - text: 'Where your money is invested - sectors, geographies, ethical screens'
 step2_ready_heading: ''
-step2_footer: Most Kiwis end up in a scheme because it was their employer's default or their bank's first option. We look at the entire market to find what genuinely fits you.
-step3_heading: We Handle the KiwiSaver Switch
-step3_body: 'Once you''re happy with our recommendation, we take care of everything. You give us the details we need - IRD number, ID - and we handle the rest.'
-step3_get_heading: ''
+step2_footer: 'Most switches complete within a few working days, with updates along the way and nothing to chase on your end.'
+step3_heading: We Keep Watching So You Don't Have To
+step3_body: 'Switching to a better scheme is the start. Your life changes: new job, new salary, closer to buying a home, thinking about retirement. Each of those moments can mean your KiwiSaver needs a second look.'
+step3_get_heading: 'What you get after you switch:'
 step3_get_items:
-  - text: 'The switch is fast, secure, and handled entirely by us'
+  - text: A dashboard showing how your KiwiSaver is tracking
   - text: Most switches complete within a few working days
   - text: You'll get updates along the way - no radio silence
   - text: There's nothing to chase or organise on your end
