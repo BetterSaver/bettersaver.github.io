@@ -32,9 +32,8 @@ step3_body: 'Switching to a better scheme is the start. Your life changes: new j
 step3_get_heading: 'What you get after you switch:'
 step3_get_items:
   - text: A dashboard showing how your KiwiSaver is tracking
-  - text: Most switches complete within a few working days
+  - text: 'Tools to keep you on course toward your goal, first home or retirement'
   - text: You'll get updates along the way - no radio silence
-  - text: There's nothing to chase or organise on your end
 step3_footer: Switching KiwiSaver is genuinely easy. The hard part - knowing which scheme to move to - is what we're here for.
 cta_heading: Ready to get started?
 cta_body: Most people don't realise how much money they're leaving on the table. It takes just a few minutes to get advice and find a better fund.
