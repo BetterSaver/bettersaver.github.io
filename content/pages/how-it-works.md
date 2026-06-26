@@ -18,11 +18,11 @@ step1_ask_items:
   - text: How do you feel about investment ups and downs?
   - text: 'Do you want to avoid things like weapons, gambling, or animal testing?'
 step1_footer: It takes a couple of minutes. And it's the foundation for everything - because KiwiSaver advice that doesn't start with your situation isn't really advice at all.
-step2_heading: How We Analyse the KiwiSaver Market
-step2_body: We analyse over 300 KiwiSaver options using independent data from Morningstar. Every scheme gets a rating - A+ through F - and we only ever recommend those that score a B or above.
-step2_how_heading: 'What we look at for every fund:'
+step2_heading: We Find Your Scheme and Handle the Switch
+step2_body: 'We analyse over 300 KiwiSaver options using independent data from Morningstar, rating every fund A+ through F and only recommending those that score B or above.'
+step2_how_heading: 'What we do:'
 step2_how_items:
-  - text: 'Performance - how returns have tracked over time, risk-adjusted'
+  - text: 'Compare every fund on performance, fees, risk, and where your money is invested'
   - text: Fees - what you're actually paying and whether the returns justify it
   - text: Risk - how much your balance would move in a down market
   - text: 'Where your money is invested - sectors, geographies, ethical screens'
