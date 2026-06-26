@@ -23,7 +23,7 @@ step2_body: 'We analyse over 300 KiwiSaver options using independent data from M
 step2_how_heading: 'What we do:'
 step2_how_items:
   - text: 'Compare every fund on performance, fees, risk, and where your money is invested'
-  - text: Fees - what you're actually paying and whether the returns justify it
+  - text: 'Find the fund that fits you, not just your employer''s default or your bank''s first option'
   - text: Risk - how much your balance would move in a down market
   - text: 'Where your money is invested - sectors, geographies, ethical screens'
 step2_ready_heading: ''
