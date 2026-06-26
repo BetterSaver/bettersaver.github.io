@@ -1,8 +1,5 @@
 ---
 draft: false
-tags:
-  - how does kiwisaver work
-  - 'how to join kiwisaver, kiwisaver explained'
 date: 2026-04-27T22:01:38.355Z
 author: content/authors/joe-taylor.md
 title: 'How Does KiwiSaver Work? A Simple Guide for 2026 '

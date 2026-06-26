@@ -1,15 +1,15 @@
 ---
 draft: false
-title: How to Change Your KiwiSaver
+title: How to Change KiwiSaver
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
-icon_path: /images/illustration-boots.svg
+icon_path: /uploads/images/illustration-boots.svg
 icon_class: boots
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
-intro_heading: Like most people, if you didn’t choose your KiwiSaver provider, you were likely placed in a default fund — one of six government selected funds.
-intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time — there''s no lock-in, and the process is simpler than most people expect.'
+intro_heading: 'Like most people, if you didn’t choose your KiwiSaver provider, you were likely placed in a default fund — one of six government selected funds.'
+intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time, there''s no lock-in, and the process is simpler than most people expect.'
 intro_cta_label: Get my KiwiSaver recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 how_tag: How it works
@@ -39,7 +39,7 @@ switch_heading: What happens when you switch KiwiSaver providers.
 switch_subheading: Your KiwiSaver account stays in your name throughout. You're moving your balance to a new provider and a new scheme — nothing is lost in the process.
 switch_items:
   - text: 'Employer contributions keep going as normal. In most cases, you don''t need to tell your employer.'
-  - text: 'Government contributions still apply. Switching doesn''t reset your member tax credit eligibility.'
+  - text: Government contributions still apply. Switching doesn't reset your member tax credit eligibility.
   - text: 'Your current provider transfers the value of your account to the new provider, which invests it into the scheme you chose.'
 switch_cards:
   - label: Timing
@@ -71,7 +71,7 @@ contrib_tag: Different from switching
 contrib_heading: Changing your KiwiSaver contribution rate.
 contrib_subheading: Switching providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver — rather than which provider holds it — that's done through your employer.
 contrib_title: '<span>Available rates:</span> 3.5%, 4%, 6%, 8%, or 10%'
-contrib_sub: 'KiwiSaver contribution rates are set as a percentage of your before-tax pay.<br/>You can request a change at any time by giving your employer written notice.'
+contrib_sub: KiwiSaver contribution rates are set as a percentage of your before-tax pay.<br/>You can request a change at any time by giving your employer written notice.
 contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time

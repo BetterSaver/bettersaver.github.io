@@ -1,9 +1,5 @@
 ---
 draft: false
-tags:
-  - kiwisaver fund types
-  - what kiwisaver fund should i be in
-  - kiwisaver growth fund
 date: 2026-05-11T01:45:16.869Z
 author: content/authors/joe-taylor.md
 title: 5 Types of KiwiSaver Funds and What They Mean

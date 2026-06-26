@@ -1,8 +1,5 @@
 ---
 draft: false
-tags:
-  - kiwisaver contribution rates
-  - ' kiwisaver employer contribution rate, how much to contribute to kiwisaver'
 date: 2026-04-01T00:00:00.000Z
 author: content/authors/joe-taylor.md
 title: 'KiwiSaver Contribution Rates: What Changed in April 2026'

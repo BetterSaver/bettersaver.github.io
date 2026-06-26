@@ -21,7 +21,7 @@ why_boxes:
     title: Clear and transparent
     description: So you can decide with confidence.
 how_heading: How it works
-how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals, and earn rewards as you go.'
+how_description: 'KiwiSaver made simple: find the right fund, switch fast, track your goals.'
 how_steps:
   - title: Tell us your KiwiSaver preferences
     description: 'Your goals, your risk level, your ethics'

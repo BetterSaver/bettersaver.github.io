@@ -9,6 +9,7 @@ import Homepage from "./collections/homepage";
 import Authors from "./collections/authors";
 import HowToChangeProvider from "./collections/howtochangeprovider";
 import HowWeAnalyse from "./collections/howweanalyse";
+import HowItWorks from "./collections/howitworks";
 import AboutUs from "./collections/aboutus";
 
 const DeployScreenPlugin = {
@@ -60,6 +61,7 @@ export default defineConfig({
       Homepage,
       HowToChangeProvider,
       HowWeAnalyse,
+      HowItWorks,
       AboutUs,
       Page,
       FinancialTips, 
