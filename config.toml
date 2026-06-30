@@ -72,7 +72,7 @@ enableRobotsTXT = true
     weight = 2
 
     [[menus.main]]
-    name = "How to change your KiwiSaver"
+    name = "How to change KiwiSaver"
     url = "/pages/how-to-change-your-kiwisaver-provider"
     weight = 3
 
@@ -115,7 +115,7 @@ enableRobotsTXT = true
     weight = 3
 
     [[menus.footer_left]]
-    name = "How to change your KiwiSaver"
+    name = "How to change KiwiSaver"
     url = "/pages/how-to-change-your-kiwisaver-provider"
     weight = 4
 
