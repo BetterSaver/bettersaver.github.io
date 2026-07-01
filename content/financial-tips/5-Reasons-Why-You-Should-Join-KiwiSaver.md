@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2026-06-15T23:14:29.887Z
 author: content/authors/joe-taylor.md
 title: 5 Reasons Why You Should Join KiwiSaver
@@ -9,7 +9,7 @@ img_src: /uploads/iStock-1982190154.jpg
 
 ## 5 Reasons Why You Should Join KiwiSaver
 
-KiwiSaver is one of those things most New Zealanders know they should probably be sorting out, but a lot of people still haven’t got around to it. 
+KiwiSaver is one of those things most New Zealanders know they should probably be sorting out, but a lot of people still haven’t got around to it.
 
 If you’re employed, you might already be enrolled without realising it. If you’re not, or you’ve opted out at some point, it’s worth understanding what you’re leaving behind.
 
@@ -51,7 +51,7 @@ To receive the full $260.72, you need to contribute at least $1,042.86 of your o
 
 The government calculates your contribution total annually on 30 June. If you haven’t put in enough by then, you’ll miss out on some or all of the top-up. It’s one of the most straightforward bits of “free money” in the New Zealand financial system, but you do have to qualify for it.
 
-The government contribution is available to most KiwiSaver members under 65 who are living in New Zealand, including self-employed people and those currently not working. The one exception is if your annual taxable income is above $180,000 (then you won’t be eligible). 
+The government contribution is available to most KiwiSaver members under 65 who are living in New Zealand, including self-employed people and those currently not working. The one exception is if your annual taxable income is above $180,000 (then you won’t be eligible).
 
 Even if you don’t have employer contributions coming in, you can still make voluntary deposits directly to your provider and receive the government’s top-up.
 
@@ -59,17 +59,17 @@ Even if you don’t have employer contributions coming in, you can still make vo
 
 #### Reason 3: Why Getting Started Early Matters More Than You Think
 
-Compounding is what happens when your investment returns start generating their own returns. Your money earns a return, that return gets added to your balance and then the whole larger balance earns the next return. 
+Compounding is what happens when your investment returns start generating their own returns. Your money earns a return, that return gets added to your balance and then the whole larger balance earns the next return.
 
 Over time, this snowball effect becomes the biggest driver of your KiwiSaver balance. It’s more powerful than any individual contribution.
 
-The earlier you start, the more pronounced this effect becomes. Imagine two people both earning $60,000 a year, contributing the minimum 3.5% with employer contributions matched at 3.5%. That’s about $350 per month going into KiwiSaver in total. 
+The earlier you start, the more pronounced this effect becomes. Imagine two people both earning $60,000 a year, contributing the minimum 3.5% with employer contributions matched at 3.5%. That’s about $350 per month going into KiwiSaver in total.
 
 Let’s say Person A starts at 25, Person B starts at 35. Assuming an average annual return of 6% (a rough long-term estimate for a balanced or growth fund), the difference in their retirement balances at 65 is substantial. This is not because Person B contributed less per month, but because Person A’s money had an extra decade to compound.
 
 The FMA's [2025 KiwiSaver Annual Report](https://www.fma.govt.nz/news/all-releases/media-releases/kiwisaver-annual-report-2025/) found that just under half of all KiwiSaver members are now invested in growth-category funds. The FMA called this shift "encouraging", reflecting the scheme's primary purpose as a long-term retirement investment.
 
-Fund type plays a role here too. A growth fund, which invests more heavily in shares, typically produces higher long-term returns than a conservative fund, but with more short-term variation. 
+Fund type plays a role here too. A growth fund, which invests more heavily in shares, typically produces higher long-term returns than a conservative fund, but with more short-term variation.
 
 If your retirement is decades away, you’re generally better placed to ride out the dips in exchange for higher growth. As retirement approaches, many people shift to a more conservative fund to protect what they’ve built.
 
