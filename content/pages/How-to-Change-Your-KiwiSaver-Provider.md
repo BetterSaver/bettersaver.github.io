@@ -119,7 +119,7 @@ cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:
-  title: How to Change Your KiwiSaver Provider | BetterSaver
+  title: How to Change KiwiSaver Provider | BetterSaver
   description: |
     Change your KiwiSaver provider online in minutes. BetterSaver recommends the right scheme for your situation and walks you through it online in minutes.
   keywords: 'how to change kiwisaver provider, change kiwisaver provider, transfer kiwisaver, change kiwisaver contribution'
@@ -133,7 +133,7 @@ seo:
           "@type": "WebPage",
           "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#webpage",
           "url": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/",
-          "name": "How to Change Your KiwiSaver Provider | BetterSaver",
+          "name": "How to Change KiwiSaver Provider | BetterSaver",
           "isPartOf": { "@id": "https://bettersaver.co.nz/#website" },
           "description": "A comprehensive guide on how to switch KiwiSaver providers, the benefits of changing funds, and what you need to know before making the move.",
           "breadcrumb": { "@id": "https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/#breadcrumb" },
