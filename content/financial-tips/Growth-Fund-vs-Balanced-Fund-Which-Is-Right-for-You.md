@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2026-06-08T21:51:46.128Z
 author: content/authors/joe-taylor.md
 title: 'Growth Fund vs Balanced Fund: Which Is Right for You?'
