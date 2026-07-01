@@ -247,6 +247,22 @@ ul, ol {
     }
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: var(--size-4);
+
+    th, td {
+        text-align: left;
+        padding: var(--size-1);
+        border-bottom: 1px solid var(--grey-bg-dark);
+    }
+
+    th {
+        font-weight: bold;
+    }
+}
+
 /* page width */
 .content {
     max-width: var(--content-width-wide);
