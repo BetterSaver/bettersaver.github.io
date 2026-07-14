@@ -5,6 +5,144 @@ author: content/authors/joe-taylor.md
 title: 5 Reasons Why You Should Join KiwiSaver
 description: 'Employer contributions, free government money and a head start on your first home. Here are five solid reasons why you should join KiwiSaver.'
 img_src: /uploads/iStock-1982190154.jpg
+seo:
+  custom_schema: |-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bettersaver.co.nz/images/logo.png"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/",
+          "name": "5 Reasons Why You Should Join KiwiSaver | BetterSaver",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "inLanguage": "en-NZ",
+          "primaryImageOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#primaryimage"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#article",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#webpage"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#webpage"
+          },
+          "headline": "5 Reasons Why You Should Join KiwiSaver",
+          "description": "Employer contributions, free government money and a head start on your first home. Here are five solid reasons why you should join KiwiSaver.",
+          "url": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/",
+          "datePublished": "2026-06-16",
+          "dateModified": "2026-06-16",
+          "inLanguage": "en-NZ",
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "KiwiSaver",
+            "retirement savings",
+            "first home",
+            "government contribution"
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "jobTitle": "Financial Writer",
+            "worksFor": {
+              "@id": "https://bettersaver.co.nz/#organization"
+            }
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#primaryimage",
+            "url": "https://bettersaver.co.nz/uploads/iStock-1982190154.jpg",
+            "caption": "5 Reasons Why You Should Join KiwiSaver"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#faq",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/5-reasons-why-you-should-join-kiwisaver/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is KiwiSaver compulsory in New Zealand?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "KiwiSaver is voluntary, but there's an automatic enrolment system in place. If you start a new job and you're aged between 18 and 65, your employer will automatically enrol you. You have an eight-week window to opt out if you choose to. After that, you can apply for a savings suspension, but you'll stop receiving employer contributions and government top-ups while that suspension is active."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I join KiwiSaver if I'm self-employed or not working?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Anyone who is a New Zealand citizen or entitled to live in New Zealand indefinitely and currently lives here can join KiwiSaver, regardless of employment status. If you're self-employed, you make voluntary contributions directly to your chosen provider. You can still qualify for the government contribution of up to $260.72 per year as long as you contribute at least $1,042.86 of your own money by 30 June."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much should I contribute to KiwiSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The minimum employee contribution rate is 3% of your gross pay. You can also elect to contribute 4%, 6%, 8%, or 10%. If your main goal is to get the full government contribution each year, you need to put in at least $1,042.86 of your own money annually, regardless of your employer's contributions. More than that is always beneficial, but the minimum still gets you employer contributions and the government top-up."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I use KiwiSaver to buy my first home?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, after three years of membership. You can withdraw most of your balance (excluding the government contribution) to put toward the purchase of your first home in New Zealand. The property needs to be your main residence. Your provider handles the withdrawal, and the process typically takes a few weeks. Plan well ahead of your settlement date."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to my KiwiSaver if I change jobs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Your KiwiSaver stays with you. It's not tied to your employer. When you move to a new job, your contributions continue going into the same fund through your new employer's payroll. You can also switch providers at any time if you want to move your balance to a different fund."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's the difference between a KiwiSaver provider and an advisor like BetterSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A KiwiSaver provider is the organisation that manages your money (ANZ, Milford, Simplicity and others). An advisor like BetterSaver is independent from all providers and helps you work out which one suits you best. BetterSaver analyses over 300 KiwiSaver funds and recommends the right fit for your goals, timeline, and values."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 ## 5 Reasons Why You Should Join KiwiSaver
