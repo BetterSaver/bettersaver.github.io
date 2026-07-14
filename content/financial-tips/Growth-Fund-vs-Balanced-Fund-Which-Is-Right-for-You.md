@@ -5,6 +5,137 @@ author: content/authors/joe-taylor.md
 title: 'Growth Fund vs Balanced Fund: Which Is Right for You?'
 description: Choosing between a KiwiSaver growth fund and balanced fund? We break down the real returns gap and how to decide which fund fits your timeline and goals in NZ.
 img_src: /uploads/iStock-1487212048-ai-modified-b7951138-c069-45ce-adb0-19f103b2a488.jpg
+seo:
+  custom_schema: |-
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bettersaver.co.nz/images/logo.svg"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/",
+          "name": "Growth Fund vs Balanced Fund: Which Is Right for You? | BetterSaver",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "inLanguage": "en-NZ",
+          "primaryImageOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#primaryimage"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#article",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#webpage"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#webpage"
+          },
+          "headline": "Growth Fund vs Balanced Fund: Which Is Right for You?",
+          "description": "Choosing between a KiwiSaver growth fund and balanced fund? We break down the real returns gap and how to decide which fund fits your timeline and goals in NZ.",
+          "url": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/",
+          "datePublished": "2026-06-09",
+          "dateModified": "2026-06-09",
+          "inLanguage": "en-NZ",
+          "articleSection": "Financial Tips",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "jobTitle": "Financial Writer",
+            "worksFor": {
+              "@id": "https://bettersaver.co.nz/#organization"
+            }
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#primaryimage",
+            "url": "https://bettersaver.co.nz/uploads/iStock-1487212048-ai-modified-b7951138-c069-45ce-adb0-19f103b2a488.jpg"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#faq",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is a growth fund better than a balanced fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not universally. It depends on your circumstances. A growth fund has the potential for higher long-term returns, but it also comes with more short-term volatility. If you have a timeline of 10 or more years and can handle seeing your balance fluctuate, a growth fund may outperform a balanced fund significantly over that period. If your withdrawal is closer, or if market swings would cause you to act impulsively, a balanced fund may deliver better outcomes for your situation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does a balanced KiwiSaver fund actually invest in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A balanced fund holds a mix of growth assets (typically shares and property) and income assets (normally bonds and cash). The split is usually somewhere between 35% and 65% growth assets, though this varies by provider. The mix is designed to offer moderate growth with lower volatility than a pure growth fund."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I switch from a balanced fund to a growth fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can switch fund types within your existing provider, or move to a different provider altogether. There's no fee for switching KiwiSaver funds in New Zealand. The key is making sure the fund you're switching to actually suits your timeline and goals, not just because it had strong returns last year."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When should I switch from a growth fund to a balanced fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The most common reason to switch is a change in your timeline. If you're approaching a first home withdrawal, or you're within five to 10 years of retirement, it might be time to shift to a more conservative fund type to protect what you've built. Switching in response to a market downturn is generally not recommended, as this often means selling low and missing the recovery."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What if I don't know what fund I'm in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Log into your KiwiSaver provider's app or website, or check your annual statement. Your fund name will typically reflect its type. If you're still unsure, BetterSaver's free fund finder quiz can help."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does my contribution rate affect which fund type I should be in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Your contribution rate and fund type are separate decisions, but they work together. A higher contribution rate in a lower-performing fund might not outpace a lower contribution rate in a higher-performing fund. In April 2026, the minimum contribution rate increased to 3.5%. If you're reassessing your KiwiSaver setup, it's worth reviewing both decisions at the same time."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 ## Growth Fund vs Balanced Fund: Which Is Right for You?
