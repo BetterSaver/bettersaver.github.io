@@ -55,7 +55,7 @@ audience_items:
 audience_footer: It's free. It takes a few minutes. And you'll know exactly where you stand.
 cta_heading: Find a better KiwiSaver today
 cta_button_label: Get my KiwiSaver recommendation
-cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
 ---
 

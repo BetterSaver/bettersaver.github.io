@@ -61,7 +61,7 @@ partner_button_label: Get in touch
 partner_button_url: /contact-us
 cta_heading: Find a better KiwiSaver today
 cta_button_label: Get my KiwiSaver recommendation
-cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure'
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:
   title: About Us | BetterSaver
