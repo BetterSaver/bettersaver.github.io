@@ -103,7 +103,7 @@
     <div class="fund-finder__state fund-finder__search"
       :class="{ 'is-active': state === 'search' }"
     >
-      <h2>Could your KiwiSaver investment be better?</h2>
+      <h2>We've rated 300+ KiwiSaver funds. What did yours get?</h2>
       <p>Find out in 30 seconds</p>
 
       <div class="fund-finder__form">
@@ -169,7 +169,7 @@
             <img src="/images/illustration-loss.png" alt="" class="fund-finder__result-icon" />
             <h3>BetterSaver Rating: <span class="text-utility-red">Not recommended</span><button type="button" @click="ratingsModalOpen = true" class="ml-1 inline-flex align-middle text-grey-mid hover:text-blue-navy bg-transparent border-0 p-0 cursor-pointer" aria-label="What do these ratings mean?"><svg fill="none" height="16" viewBox="0 0 16 16" width="16"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"></circle><text dominant-baseline="central" fill="currentColor" font-size="10" text-anchor="middle" x="8" y="9"> ? </text></svg></button></h3>
             <p class="fund-finder__result-subtitle"><strong x-text="fundLabel(selectedFund)"></strong> is not currently one of BetterSaver's recommended KiwiSaver options.</p>
-            <p class="bold">Take our free Fund Finder quiz to find a recommended KiwiSaver for your goals and risk comfort.</p>
+            <p class="bold">This isn't a recommendation for you. Take our free Fund Finder quiz to find a recommended KiwiSaver for your goals and risk comfort.</p>
             <div class="fund-finder__result-actions">
               <a :href="quizHref" class="button purple">Take the quiz</a>
               {{/*  <a :href="quizUrl" class="button outline">Compare funds myself</a>  */}}
@@ -228,7 +228,7 @@
         Quality &mdash; comparing each fund only to its peers in the same risk category (Defensive,
         Conservative, Balanced, Growth, Aggressive).
         <br /><br />
-        To be recommended, a fund needs at least 5 years of history and an overall grade of B or above.
+        To be a fund we will recommend, a fund needs at least 5 years of history and an overall grade of B or above.
       </p>
 
       <div class="flex flex-col gap-2 mb-3 text-left">
@@ -250,8 +250,12 @@
         </div>
       </div>
 
+      <p class="text-xs text-grey-light mb-2 leading-[1.4]">
+        We make recommendations specific to your goals and risk comfort out of the funds in our recommended fund list. Take our free fund finder quiz to find a recommended KiwiSaver for you.
+      </p>
+
       <p class="text-xs text-grey-light m-0 leading-[1.4]">
-        Past performance is not a reliable indicator of future returns. Ratings are updated at least annually.
+        Past performance is not a reliable indicator of future performance. Ratings are updated at least annually.
       </p>
     </div>
   </div>
