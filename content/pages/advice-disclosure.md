@@ -5,15 +5,15 @@ date: 2025-11-19T00:00:00.000Z
 faq: true
 ---
 
-##### **Helping Kiwis make better KiwiSaver decisions — clearly, fairly, and with your best interests at heart.**
+##### **Helping Kiwis make better KiwiSaver decisions, clearly, fairly, and with your best interests at heart.**
 
 This Disclosure Statement is provided by BetterSaver Limited in accordance with the Financial Markets Conduct Act 2013. It explains how we work, how we’re paid, and your rights when receiving financial advice from us.
 
-##### &#xA;**Who we are**
+##### **Who we are**
 
-BetterSaver Limited (FSP 600609) is a licensed Financial Advice Provider. We help Kiwis make smarter KiwiSaver choices
+BetterSaver Limited (FSP 600609) is a licensed Financial Advice Provider. We help Kiwis make smarter KiwiSaver choices.
 
-##### **&#xA;The advice we give**
+##### **The advice we give**
 
 We only give financial advice about KiwiSaver. This includes:
 
@@ -25,7 +25,7 @@ We only give financial advice about KiwiSaver. This includes:
 
 We do not provide advice about other investments, insurance, or lending products.
 
-##### &#xA;**How we work**
+##### **How we work**
 
 BetterSaver reviews all KiwiSaver providers and all KiwiSaver funds in the market. We analyse more than 300 funds using independent data and our own rating methodology, considering factors such as returns, risk, fees, sustainability, and volatility.
 
@@ -39,7 +39,7 @@ If a fund does not appear on our recommended list, it will be because either:
 
 •	there is not enough reliable data available for us to assess and recommend the fund.
 
-##### **&#xA;Ongoing advice and implementation**
+##### **Ongoing advice and implementation**
 
 If you choose a recommended fund from a provider we have a commercial agreement with, we are able to:
 
@@ -59,15 +59,33 @@ If you choose a recommended fund from a provider that does not pay us:
 
 This difference reflects the scope of services we are funded to provide, not the quality of the fund itself.
 
-##### **&#xA;How we get paid**
+We currently have commercial agreements covering funds within the following KiwiSaver schemes:
+
+•	Booster KiwiSaver Scheme
+
+•	Fisher Funds KiwiSaver Plan
+
+•	Generate KiwiSaver Scheme
+
+•	Milford KiwiSaver Plan
+
+•	Pathfinder KiwiSaver Plan
+
+•	QuayStreet KiwiSaver Scheme
+
+•	SBS Wealth KiwiSaver Scheme
+
+The providers we have commercial agreements with may change over time.
+
+##### **How we get paid**
 
 If you choose a fund from a provider we have a commercial agreement with, that provider pays us a commission. This is usually an upfront payment when you join and an ongoing annual payment while you remain in that fund. These payments do not increase the fees you pay your KiwiSaver provider.
 
 If you choose a recommended fund from a provider that does not pay us, we will not receive any payment for that advice.
 
-A list of the providers we work with and the remuneration they pay us is available on request.
+A list of the providers we have commercial agreements with is set out above. Details of the remuneration they pay us is available on request.
 
-##### **&#xA;Managing conflicts of interest**
+##### **Managing conflicts of interest**
 
 Because we are paid by some KiwiSaver providers, we have processes in place to ensure our advice is always based on your best interests.
 
@@ -83,7 +101,7 @@ To manage potential conflicts, we have:
 
 •	A clear separation between commercial agreements and advice decisions.
 
-##### **&#xA;Our duties to you**
+##### **Our duties to you**
 
 The law requires us to:
 
@@ -97,13 +115,13 @@ The law requires us to:
 
 •	Meet the standards of ethical behaviour, conduct, and client care required by the Code of Professional Conduct for Financial Advice Services.
 
-##### **&#xA;What it costs you**
+##### **What it costs you**
 
 There is no cost to you for our KiwiSaver advice.
 
 We are paid by some KiwiSaver providers whose funds we recommend. If you choose a recommended fund that does not pay us, we will not receive payment.
 
-##### **&#xA;Complaints and disputes**
+##### **Complaints and disputes**
 
 If you are unhappy with our service, please contact us first so we can try to resolve the issue.
 
@@ -117,9 +135,9 @@ Phone: 0800 347 257
 
 Email: [complaints@fscl.org.nz](mailto:complaints@fscl.org.nz)
 
-Website: [www.fscl.org.nz](https://www.fscl.org.nz)
+Website: [www.fscl.org.nz](http://www.fscl.org.nz)
 
-##### **&#xA;Our licence details**
+##### **Our licence details**
 
 BetterSaver Limited
 
