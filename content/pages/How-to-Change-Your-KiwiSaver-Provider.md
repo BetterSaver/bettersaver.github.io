@@ -1,6 +1,6 @@
 ---
 draft: false
-title: How to Change KiwiSaver
+title: How to Change Your KiwiSaver Provider
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
 icon_path: /uploads/images/illustration-boots.svg
@@ -10,7 +10,7 @@ page_block: block-how-to-change-provider
 intro_tag: Why switch
 intro_heading: 'Like most people, if you didn’t choose your KiwiSaver provider, you were likely placed in a default fund — one of six government selected funds.'
 intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time, there''s no lock-in, and the process is simpler than most people expect.'
-intro_cta_label: Get my KiwiSaver recommendation
+intro_cta_label: Get my fund recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 how_tag: How it works
 how_heading: Switch in three simple steps.
@@ -111,11 +111,11 @@ faq_items:
     answer: 'Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We''ll keep you informed throughout the process.'
   - question: Is my money out of the market when I switch KiwiSaver providers?
     answer: There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches and is typically brief.
-  - question: Can I change my KiwiSaver contribution rate?
-    answer: 'Yes — but that''s separate from switching providers. To change how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
+  - question: Can I change my KiwiSaver account contribution rate?
+    answer: 'Yes — but that''s separate from switching providers. To change how much of your pay goes into KiwiSaver account (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
-cta_heading: Find a better KiwiSaver today
-cta_button_label: Get my KiwiSaver recommendation
+cta_heading: Find a better KiwiSaver fund today
+cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:

@@ -33,7 +33,7 @@ sections:
       - title: Is the government allowed to take my KiwiSaver?
         content: |
           No. Your KiwiSaver is held for you under a trust structure. Your provider manages it, but it is your money, and the government can not access it.
-      - title: I do not have KiwiSaver yet. How can I join?
+      - title: I do not have a KiwiSaver account yet. How can I join?
         content: |
           You can join KiwiSaver by signing up directly with a provider or via BetterSaver. BetterSaver can help you choose a fund from the start, then guide you through joining based on your goals and risk comfort.
   - id: Contributions
@@ -106,7 +106,7 @@ sections:
           You answer a short quiz, we recommend a fund, and if you want to switch, we can handle the sign up and transfer process for you. It is designed to be fast and simple.
       - title: Is BetterSaver free to use?
         content: |
-          Yes. The quiz and recommendation are free. You still pay your KiwiSaver fund fees to your chosen provider, as normal.
+          Yes. The quiz and recommendation are free. You still pay the fund fees to your chosen provider, as normal.
         include_in_faq: true
       - title: Should I just go direct to a provider?
         content: |
@@ -117,7 +117,7 @@ sections:
           We rate funds using independent data across things like long term performance after fees, fees and value for money, risk and volatility, and how each fund lines up with common ethical and holdings preferences.
       - title: Do you compare the whole KiwiSaver market?
         content: |
-          Yes. We analyse the market, but only recommend funds that meet our quality criteria.
+          Yes. We analyse the whole market, but only recommend funds that meet our quality criteria.
 
           Payments from providers do not impact our recommendations. If a provider does not support switching through BetterSaver it may limit our ongoing support.
         include_in_faq: true

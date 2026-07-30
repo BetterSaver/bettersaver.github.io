@@ -1,14 +1,14 @@
 ---
-icon_path: /images/illustration-stack.png
-icon_class: stack
 draft: false
 title: How we analyse over 300 KiwiSaver options
 description: 'Wondering about the criteria a fund must meet to be on our recommended list? Here''s how we compare, assess and rate every fund.'
 featured_image: /uploads/how-we-analyse.jpg
+icon_path: /uploads/images/illustration-stack.png
+icon_class: stack
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
 framing_tag: Methodology
-framing_heading: Every fund is compared only to its peers, across meaningful timeframes, on more than last year's returns.
+framing_heading: 'Every fund is compared only to its peers, across meaningful timeframes, on more than last year''s returns.'
 framing_body: ''
 cats_tag: Categories
 cats_heading: 'First, every fund goes into a category.'
@@ -32,7 +32,7 @@ checks_heading: 'What we check, on every fund.'
 checks_subheading: 'A consistent set of checks across four areas. The goal is simple: Recommend funds that have a strong performance track record, fair fees, and are well run.'
 checks_items:
   - number: '1'
-    tag: 
+    tag: null
     title: Performance
     intro: Returns matter. We compare each fund's return to its peer group. Funds consistently beating their peers score higher.
     bullets:
@@ -40,7 +40,7 @@ checks_items:
       - text: A fund needs at least five years of returns before we will recommend it.
     kicker: The aim is to avoid being swayed by a fund's latest hot streak.
   - number: '2'
-    tag: 
+    tag: null
     title: Fees
     intro: |+
       Fees matter. But the cheapest fund isn't always the best. We score every fund on its total annual fund charges against its peer group.
@@ -53,7 +53,7 @@ checks_items:
       - text: Funds with higher fees must clearly justify the cost.
     kicker: The aim is to find funds with fair fees.
   - number: '3'
-    tag: 
+    tag: null
     title: Consistency
     intro: 'We look at how bumpy the ride has been. We measure how much a fund''s returns change from year to year, and score each fund against the average change of its category. Smaller changes score higher.'
     bullets:
@@ -61,7 +61,7 @@ checks_items:
       - text: We compare a fund's volatility relative to its peer group.
     kicker: The aim is to avoid surprises.
   - number: '4'
-    tag: 
+    tag: null
     title: Quality
     intro: Numbers alone aren't enough. We also check three practical signals that show whether a fund is well run.
     bullets:
@@ -112,7 +112,7 @@ data_cards:
     notice: ''
     ranked:
       - number: '01'
-        text: 'Morningstar — primary data relationship'
+        text: Morningstar — primary data relationship
       - number: '02'
         text: 'Disclose Register, Quarterly Fund Updates & PDSs'
       - number: '03'
@@ -142,8 +142,8 @@ faq_items:
     answer: 'We focus on performance over meaningful timeframes, typically five to ten years where available. Five years is our minimum bar. Funds with shorter track records are not recommended.'
   - question: How is a fund comparison different from picking the best-performing fund?
     answer: 'The best-performing fund over the last quarter, last year etc. is not necessarily the right fund for you. A meaningful comparison accounts for performance, fees, consistency, quality — not just a single return figure.'
-cta_heading: Find a better KiwiSaver today
-cta_button_label: Get my KiwiSaver recommendation
+cta_heading: Find a better KiwiSaver fund today
+cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:
