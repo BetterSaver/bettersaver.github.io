@@ -106,7 +106,7 @@ sections:
           You answer a short quiz, we recommend a fund, and if you want to switch, we can handle the sign up and transfer process for you. It is designed to be fast and simple.
       - title: Is BetterSaver free to use?
         content: |
-          Yes. The quiz and recommendation are free. You still pay your KiwiSaver fund fees to your chosen provider, as normal.
+          Yes. The quiz and recommendation are free. You still pay the fund fees to your chosen provider, as normal.
         include_in_faq: true
       - title: Should I just go direct to a provider?
         content: |
