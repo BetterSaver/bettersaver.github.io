@@ -6,7 +6,7 @@ icon_path: /images/illustration-boat.png
 icon_class: boat
 page_block: block-home
 footer_icons: true
-title: Find the Best KiwiSaver for You
+title: Find the Best KiwiSaver Fund for You
 description: 'We analyse over 300 KiwiSaver options to help you choose the right one for your goals, whether that’s your first home or a better retirement.'
 why_heading: Why BetterSaver?
 why_description: We give you KiwiSaver advice you can trust.

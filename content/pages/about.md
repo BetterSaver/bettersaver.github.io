@@ -7,7 +7,7 @@ featured_image_fit: contain
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
 framing_tag: Why we exist
-framing_heading: Most providers show you the data that makes them look good, but are less good at helping you figure out whether you're actually in the right fund for your future. That's where BetterSaver comes in.
+framing_heading: 'Most providers show you the data that makes them look good, but are less good at helping you figure out whether you''re actually in the right fund for your future. That''s where BetterSaver comes in.'
 framing_button_label: ''
 framing_button_url: ''
 steps_tag: Our approach
@@ -59,8 +59,8 @@ partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with organisations throughout New Zealand offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
 partner_button_url: /contact-us
-cta_heading: Find a better KiwiSaver today
-cta_button_label: Get my KiwiSaver recommendation
+cta_heading: Find a better KiwiSaver fund today
+cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:
