@@ -13,7 +13,7 @@ sections:
         content: |
           KiwiSaver is a long term savings scheme set up by the New Zealand Government to help you build wealth for retirement. For many Kiwis, it ends up being their biggest or second biggest asset after their home. That is why being in the right fund matters.
         include_in_faq: true
-      - title: Can I switch KiwiSaver providers at any time
+      - title: Can I switch KiwiSaver providers at any time?
         content: |
           Yes. You can switch whenever you want.
         include_in_faq: true
