@@ -31,7 +31,7 @@ step3_heading: We Keep Watching So You Don't Have To
 step3_body: 'Switching to a better scheme is the start. Your life changes: new job, new salary, closer to buying a home, thinking about retirement. Each of those moments can mean your KiwiSaver needs a second look.'
 step3_get_heading: 'What you get after you switch:'
 step3_get_items:
-  - text: A dashboard showing how your KiwiSaver is tracking
+  - text: A dashboard showing how your KiwiSaver account is tracking
   - text: 'Tools to keep you on course toward your goal, first home or retirement'
   - text: Prompts when something changes that might affect your advice
 step3_footer: Your KiwiSaver advice should stay current. We make sure it does.
@@ -53,7 +53,7 @@ audience_items:
   - text: 'You''ve changed jobs, income, or financial situation'
   - text: You're not sure whether your current fees are reasonable
 audience_footer: It's free. It takes a few minutes. And you'll know exactly where you stand.
-cta_heading: Find a better KiwiSaver today
+cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
