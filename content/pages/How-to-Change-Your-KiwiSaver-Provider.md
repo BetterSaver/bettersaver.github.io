@@ -28,7 +28,7 @@ how_steps:
     title: We guide you through the switch
     description: Complete an application on the BetterSaver website. We capture what's needed and pass it to your chosen provider to finalise. Most people are done in under 5 minutes.
 need_tag: Before you start
-need_heading: What you'll need.
+need_heading: What you'll need to change KiwiSaver.
 need_subheading: Having these handy speeds things up.
 need_items:
   - text: Your email address and mobile number.
