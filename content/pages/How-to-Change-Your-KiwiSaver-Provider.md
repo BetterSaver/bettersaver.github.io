@@ -91,7 +91,7 @@ costs_heading: What it costs and how we're paid.
 costs_cards:
   - label: No extra cost to you
     title: Using BetterSaver doesn't cost you anything extra.
-    description: You pay the same fees you'd pay directly to the provider.
+    description: You pay the same fees you'd pay directly to the provider. These are the provider's standard management fees - BetterSaver doesn't add anything on top.
     image: /uploads/illustration-unicorn.png
     image_alt: Illustration of a thumbs up
   - label: Commissions & independence
