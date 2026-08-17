@@ -81,8 +81,11 @@ contrib_sub: |-
 contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time
-new_heading: 'If you''re self-employed, have opted out previously, or are a new resident who hasn''t joined, you can still use BetterSaver to choose a scheme and join online.'
-new_body_2: 'The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.'
+new_heading: Joining KiwiSaver for the first time?
+new_body_2: |-
+  If you're self-employed, have opted out previously, or are a new resident who hasn't joined yet, you can still use BetterSaver to choose a scheme and join online.
+
+  The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.
 costs_tag: Transparency
 costs_heading: What it costs and how we're paid.
 costs_cards:
