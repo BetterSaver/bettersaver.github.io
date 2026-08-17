@@ -71,10 +71,13 @@ paths_cards:
       - text: The provider may contact you if they need anything further.
       - text: Our ongoing service may be more limited once you're with a non-participating provider.
 contrib_tag: Different from switching
-contrib_heading: Changing your KiwiSaver contribution rate.
-contrib_subheading: Switching providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver — rather than which provider holds it — that's done through your employer.
+contrib_heading: How to change your KiwiSaver contribution rate
+contrib_subheading: Switching Kiwisaver providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver - rather than which provider holds it - that's done through your employer.
 contrib_title: '<span>Available rates:</span> 3.5%, 4%, 6%, 8%, or 10%'
-contrib_sub: KiwiSaver contribution rates are set as a percentage of your before-tax pay.<br/>You can request a change at any time by giving your employer written notice.
+contrib_sub: |-
+  KiwiSaver contribution rates are set as a percentage of your before-tax pay.<br/>You can request a change at any time by giving your employer written notice.Your KiwiSaver contribution rate is a percentage of your before-tax pay. To change it, give your employer written notice - you can do this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the request.
+
+  Your employer contributes a minimum of 3.5% on top of whatever rate you choose.
 contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time
