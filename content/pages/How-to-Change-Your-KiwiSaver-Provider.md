@@ -15,7 +15,7 @@ intro_body_2: |
 intro_cta_label: Get my fund recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 how_tag: How it works
-how_heading: Switch in three simple steps.
+how_heading: Switch KiwiSaver providers in three simple steps.
 how_subheading: Most people are done in under five minutes. We guide you the whole way.
 how_steps:
   - number: '01'
