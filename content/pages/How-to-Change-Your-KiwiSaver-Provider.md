@@ -52,7 +52,7 @@ switch_cards:
     description: |
       There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches - usually within the same few business days as the transfer itself.
 paths_tag: Two paths
-paths_heading: Switching through BetterSaver.
+paths_heading: Switching KiwiSaver through BetterSaver.
 paths_subheading: 'Some providers connect directly with our platform. Others don''t. Either way, we can help.'
 paths_cards:
   - title: If your chosen provider supports switching through BetterSaver
