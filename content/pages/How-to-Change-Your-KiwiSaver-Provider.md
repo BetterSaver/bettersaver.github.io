@@ -126,7 +126,10 @@ faq_items:
     answer: |
       There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches -  usually within the same few business days as the transfer itself.
   - question: Can I change my KiwiSaver account contribution rate?
-    answer: 'Yes — but that''s separate from switching providers. To change how much of your pay goes into KiwiSaver account (3.5%, 4%, 6%, 8%, or 10%), contact your employer'
+    answer: |
+      Changing your contribution rate is separate from switching providers -  it's handled through your employer, not your KiwiSaver scheme.
+
+      Give your employer written notice stating the new percentage you'd like. Available rates are 3.5%, 4%, 6%, 8%, or 10% of your before-tax pay. You can change this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the notice.
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
