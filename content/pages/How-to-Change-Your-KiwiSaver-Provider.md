@@ -45,8 +45,8 @@ switch_items:
   - text: 'Your current provider transfers the value of your account to the new provider, which invests it into the scheme you chose.'
 switch_cards:
   - label: Timing
-    title: How long does switching take?
-    description: 'Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We''ll keep things clear throughout.'
+    title: How long does it take to switch KiwiSaver providers?
+    description: 'Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We''ll notify you once your switch is complete.'
   - label: Out of market
     title: Is my money out of the market during the switch?
     description: There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches and is typically brief.
