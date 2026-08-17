@@ -138,6 +138,14 @@ faq_items:
       - Look for emails or statements from a KiwiSaver provider - you'd have received something when you were first enrolled.
 
       Once you've confirmed who your provider is, BetterSaver can help you check whether the scheme still makes sense for your situation.
+  - question: What can I change about my KiwiSaver?
+    answer: |
+      There are two main things you can change:
+
+      Your provider and scheme - you can switch to a different KiwiSaver provider at any time. There's no lock-in, and BetterSaver can guide you through the process online in under five minutes.
+      Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) by notifying your employer in writing. This is handled directly with your employer and is separate from switching providers.
+
+      Both changes can be made independently, or at the same time.
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
