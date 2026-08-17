@@ -5,11 +5,13 @@ description: Your first KiwiSaver scheme was probably chosen for you. We help yo
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
 icon_path: /uploads/images/illustration-boots.svg
 icon_class: boots
-date: 2022-10-10T03:00:00.000Z
+date: 2026-08-17T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
-intro_heading: 'Like most people, if you didn’t choose your KiwiSaver provider, you were likely placed in a default fund — one of six government selected funds.'
-intro_body_2: 'BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn''t, and guides you through switching online. You can change your KiwiSaver provider at any time, there''s no lock-in, and the process is simpler than most people expect.'
+intro_heading: Should you switch your KiwiSaver provider?
+intro_body_2: |
+  Most people are enrolled in KiwiSaver automatically when they start their first job. If you didn’t choose a provider yourself, you were likely placed into a default scheme - one of six government-selected options. That’s fine as a starting point. But it might not be the right scheme for where you are now.
+  BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect.
 intro_cta_label: Get my fund recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 how_tag: How it works
