@@ -4,6 +4,11 @@ date: 2026-08-17T09:15:39.436Z
 author: content/authors/joe-taylor.md
 title: The First Home Buyer's Complete Guide to KiwiSaver
 description: 'Most first home buyers in New Zealand don’t realise how much of their deposit is already sitting in KiwiSaver, quietly growing with every payslip.'
+seo:
+  title: 'KiwiSaver First Home Withdrawal: The Complete Guide'
+  description: |
+    Planning to use your KiwiSaver for your first home deposit? This guide covers eligibility, how much you can withdraw and how the process works.
+  keywords: 'kiwisaver first home withdrawal, kiwisaver first home buyer, kiwisaver first home, first home grant kiwisaver'
 ---
 
 If you’ve been working and contributing for three or more years, there’s a good chance you can access almost all of your KiwiSaver balance to put toward your first home.
@@ -78,7 +83,7 @@ The KiwiSaver First Home Grant (a Kāinga Ora top-up of up to $5,000–$10,000 f
 
 But the [KiwiSaver first home withdrawal is still active](https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/), and it’s a completely separate mechanism. The grant was an extra top-up from the government, whereas the withdrawal is access to your own savings (plus contributions from your employer and the government’s annual top-up). Don’t let the grant’s discontinuation put you off using the withdrawal.
 
-If you were counting on the grant to bolster your deposit, the [First Home Loan](https://kaingaora.govt.nz/en_NZ/home-ownership/first-home-loan/) (also administered by Kāinga Ora) is still available. It lets eligible buyers purchase a home with as little as a 5% deposit instead of the standard 20%, subject to income caps. 
+If you were counting on the grant to bolster your deposit, the [First Home Loan](https://kaingaora.govt.nz/en_NZ/home-ownership/first-home-loan/) (also administered by Kāinga Ora) is still available. It lets eligible buyers purchase a home with as little as a 5% deposit instead of the standard 20%, subject to income caps.
 
 To be eligible, your before-tax income from the last 12 months must be $95,000 or less if you're an individual buyer without dependants, $150,000 or less if you're an individual buyer with one or more dependants or $150,000 or less combined if there are two or more buyers, regardless of dependants. Full eligibility criteria are on [Kāinga Ora's First Home Loan](https://kaingaora.govt.nz/en_NZ/home-ownership/first-home-loan/) page.
 
@@ -96,84 +101,50 @@ Getting the timing right is more important than most people realise. Rushing the
 
 ![](</uploads/Image 17-08-2026 at 12.35 PM.jpeg>)
 
-Step
-
-When to do it
-
-Check your three-year eligibility date
-
-Now (look up when you first joined KiwiSaver)
-
-Review your current fund type
-
-At least 12 months before planned purchase
-
-Switch to a more conservative fund if needed
-
-6–12 months before planned settlement
-
-Get a signed Sale and Purchase Agreement
-
-Before you can apply to withdraw
-
-Contact your KiwiSaver provider for withdrawal forms
-
-Immediately after signing
-
-Provide documents to your solicitor
-
-Well before settlement day
-
-KiwiSaver funds paid to your solicitor’s trust account
-
-On or before settlement day
-
 The application is handled by your KiwiSaver provider. Most process withdrawals within a few weeks, but timelines vary. The funds go directly to your solicitor, not to you, and are applied to settlement. Your solicitor manages the rest.
 
-Frequently Asked Questions
+## Frequently Asked Questions
 
-Can I Use My KiwiSaver to Buy a First Home If I’ve Owned Property Before?
+### Can I Use My KiwiSaver to Buy a First Home If I’ve Owned Property Before?
 
-Possibly. If you’ve previously owned property but no longer do, you may still qualify as a “previous home owner” through Kāinga Ora’s eligibility process. 
+Possibly. If you’ve previously owned property but no longer do, you may still qualify as a “previous home owner” through Kāinga Ora’s eligibility process.
 
-Kāinga Ora will assess whether your current financial position is similar to a first home buyer’s (for example, that you don’t have significant realisable assets above the regional cap). 
+Kāinga Ora will assess whether your current financial position is similar to a first home buyer’s (for example, that you don’t have significant realisable assets above the regional cap).
 
 If they determine you qualify, they’ll issue a letter that you forward to your KiwiSaver provider.
 
-Does the $1,000 Left Behind Come Back to Me?
+### Does the $1,000 Left Behind Come Back to Me?
 
-Yes. The $1,000 stays in your KiwiSaver account and keeps growing. It’s a minimum balance requirement, not a permanent deduction. 
+Yes. The $1,000 stays in your KiwiSaver account and keeps growing. It’s a minimum balance requirement, not a permanent deduction.
 
 Once you’re back to saving for retirement, your ongoing contributions are added on top of it.
 
-How Long Does the Withdrawal Process Take?
+### How Long Does the Withdrawal Process Take?
 
-Most KiwiSaver providers process first home withdrawals within a few weeks. The funds go directly to your solicitor’s trust account on or before settlement day (they don’t come through you). 
+Most KiwiSaver providers process first home withdrawals within a few weeks. The funds go directly to your solicitor’s trust account on or before settlement day (they don’t come through you).
 
 Allow enough time by starting the application as soon as you have a signed Sale and Purchase Agreement.
 
-Can My Partner and I Both Withdraw Our KiwiSaver?
+### Can My Partner and I Both Withdraw Our KiwiSaver?
 
-Yes, as long as you both independently meet the eligibility criteria (three years of membership, buying your first home and intending to live there). 
+Yes, as long as you both independently meet the eligibility criteria (three years of membership, buying your first home and intending to live there).
 
 Each withdrawal is assessed on the individual’s own eligibility, and the balances are withdrawn separately.
 
-Does the Government Contribution Get Withdrawn Too?
+### Does the Government Contribution Get Withdrawn Too?
 
 Yes. The government contribution (up to $260.72 per year) is included in what you can withdraw. IRD confirms that the government contribution can be withdrawn alongside your own and your employer’s contributions. You don’t have to leave it behind.
 
-The Most Important Steps
+#### The Most Important Steps
 
 If you’ve been in KiwiSaver for three or more years, the first home withdrawal is one of the most practical tools available to you as a first home buyer in New Zealand. It includes your contributions, your employer’s, the government’s annual top-up and your investment returns. This often ends up being a larger sum than people expect.
 
-The steps that matter the most are: 
+The steps that matter the most are:
 
-Checking your eligibility early
-
-Reviewing your fund type well before settlement,
-
-Giving your withdrawal application enough lead time. 
+* Checking your eligibility early
+* Reviewing your fund type well before settlement,
+* Giving your withdrawal application enough lead time.
 
 If you’re buying with a partner, run the eligibility check for both of you.
 
-Not sure whether your current KiwiSaver fund is the right fit for where you’re at? Take BetterSaver’s free fund finder quiz, which compares over 300 KiwiSaver funds and gives you a personalised recommendation in around five minutes. 
+Not sure whether your current KiwiSaver fund is the right fit for where you’re at? Take BetterSaver’s free fund finder quiz, which compares over 300 KiwiSaver funds and gives you a personalised recommendation in around five minutes.
