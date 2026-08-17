@@ -110,12 +110,15 @@ faq_items:
   - question: What is a default KiwiSaver scheme?
     answer: 'When you start a new job in New Zealand, your employer is required to enrol you in KiwiSaver if you haven''t already joined. If you don''t choose a provider, you''re placed into one of six government-selected default schemes. These are all balanced funds, they''re not chosen to fit your personal situation — they''re a starting point.'
   - question: How do I change my KiwiSaver provider?
-    answer: |
-      Through BetterSaver, the process has three steps:
+    answer: |+
+      Through BetterSaver, switching takes three steps:
 
-      - Answer a few quick questions about your situation and preferences.
-      - Review your recommended scheme and compare options.
-      - Complete an application online — we pass it to the provider to finalise.
+      - Answer a few quick questions about your situation, timeframe, and any investment preferences.
+      - Review your recommended KiwiSaver scheme and compare it against other options.
+      - Complete an application online -  we pass it to your chosen provider to finalise.
+
+      Most people are done in under five minutes. You can start any time at bettersaver.co.nz
+
   - question: How long does switching KiwiSaver providers take?
     answer: 'Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We''ll keep you informed throughout the process.'
   - question: Is my money out of the market when I switch KiwiSaver providers?
