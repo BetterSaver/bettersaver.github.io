@@ -130,6 +130,14 @@ faq_items:
       Changing your contribution rate is separate from switching providers -  it's handled through your employer, not your KiwiSaver scheme.
 
       Give your employer written notice stating the new percentage you'd like. Available rates are 3.5%, 4%, 6%, 8%, or 10% of your before-tax pay. You can change this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the notice.
+  - question: How do I find out who my KiwiSaver provider is?
+    answer: |
+      If you're not sure who holds your KiwiSaver, there are a few quick ways to check:
+
+      - Log in to myIR on the Inland Revenue website - your provider is listed under your KiwiSaver details.
+      - Look for emails or statements from a KiwiSaver provider - you'd have received something when you were first enrolled.
+
+      Once you've confirmed who your provider is, BetterSaver can help you check whether the scheme still makes sense for your situation.
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
