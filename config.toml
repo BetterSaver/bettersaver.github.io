@@ -46,6 +46,13 @@ enableRobotsTXT = true
         "bettersaver/display.css", # must be last
     ]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Allow raw HTML (e.g. <br/>) written in content/front-matter to render
+      # instead of being replaced with "<!-- raw HTML omitted -->".
+      unsafe = true
+
 [taxonomies]
   tags = 'tags'
 

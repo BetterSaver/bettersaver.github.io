@@ -33,8 +33,28 @@
     </div>
   </div>
 
+  {{/* WHY BETTERSAVER */}}
+  <section class="band-grey">
+    <div class="hwa-page">
+      <div class="checks-head prose-head">
+        <div class="section-tag">{{ .Params.why_tag }}</div>
+        <h2>{{ .Params.why_heading | markdownify }}</h2>
+        {{ .Params.why_body | markdownify }}
+      </div>
+
+      <div class="twocol">
+        {{ range .Params.why_cards }}
+        <div class="tcard white">
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
   {{/* HOW IT WORKS — three steps */}}
-  <section class="band-blue">
+  <section class="py-9">
     <div class="hwa-page">
       <div class="principles-head">
         <div class="section-tag">{{ .Params.how_tag }}</div>
@@ -50,6 +70,30 @@
         </article>
         {{ end }}
       </div>
+    </div>
+  </section>
+
+  {{/* FINDING YOUR CURRENT PROVIDER */}}
+  <section class="band-grey">
+    <div class="hwa-page">
+      <div class="checks-head prose-head">
+        <div class="section-tag">{{ .Params.who_tag }}</div>
+        <h2>{{ .Params.who_heading | markdownify }}</h2>
+        {{ .Params.who_body | markdownify }}
+      </div>
+
+      <div class="twocol">
+        {{ range .Params.who_cards }}
+        <div class="tcard white">
+          <h3>{{ .title | markdownify }}</h3>
+          <p>{{ .description | markdownify }}</p>
+        </div>
+        {{ end }}
+      </div>
+
+      {{ with .Params.who_footnote }}
+      <p class="prose-footnote">{{ . | markdownify }}</p>
+      {{ end }}
     </div>
   </section>
 
@@ -78,7 +122,7 @@
   </section>
 
   {{/* WHAT HAPPENS WHEN YOU SWITCH */}}
-  <div class="band-blue">
+  <div class="band-grey">
     <section class="hwa-page">
       <div class="mb-2">
         <div class="section-tag">{{ .Params.switch_tag }}</div>
@@ -132,7 +176,7 @@
   </section>
 
   {{/* CONTRIBUTION RATE */}}
-  <div class="band-blue">
+  <div class="band-grey">
     <section class="hwa-page">
       <div class="">
         <div class="section-tag">{{ .Params.contrib_tag }}</div>
@@ -156,25 +200,28 @@
     <div class="hwa-page">
       <div class="framing">
         <div>
-          <div class="section-tag">{{ .Params.new_tag }}</div>
+          {{ with .Params.new_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
           <h2>{{ .Params.new_heading | markdownify }}</h2>
         </div>
         <div>
-          <!-- <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:8px">{{ .Params.new_body_2 | markdownify }}</p> -->
+          <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:18px">{{ .Params.new_body_2 | markdownify }}</p>
+          {{ with .Params.new_cta_label }}
+          <a href="{{ $.Params.new_cta_url | safeURL }}" class="button" style="margin-top:22px">{{ . }}</a>
+          {{ end }}
         </div>
       </div>
-    </section>
+    </div>
   </section>
 
   {{/* COSTS & PAYMENT */}}
-  <div class="band-blue">
+  <div class="band-grey">
     <section class="hwa-page">
       <div class="section-tag">{{ .Params.costs_tag }}</div>
       <h2 style="margin-bottom:48px">{{ .Params.costs_heading | markdownify }}</h2>
 
       <div class="twocol">
         {{ range .Params.costs_cards }}
-        <div class="tcard">
+        <div class="tcard white">
           <div class="tlab">{{ .label }}</div>
           <h3>{{ .title | markdownify }}</h3>
           <p>{{ .description | markdownify }}</p>
@@ -190,6 +237,25 @@
     </section>
   </div>
 
+  {{/* WHICH SCHEME TO SWITCH TO */}}
+  <section class="pb-9">
+    <div class="hwa-page">
+      <div class="checks-head prose-head">
+        <div class="section-tag">{{ .Params.choose_tag }}</div>
+        <h2>{{ .Params.choose_heading | markdownify }}</h2>
+        {{ .Params.choose_body | markdownify }}
+      </div>
+
+      {{ with .Params.choose_cta_label }}
+      <a href="{{ $.Params.choose_cta_url | safeURL }}" class="button">{{ . }}</a>
+      {{ end }}
+
+      {{ with .Params.choose_footnote }}
+      <p class="prose-footnote">{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+  </section>
+
   {{/* PRIVACY */}}
   <div class="fund-finder">
     <section style="padding:24px 0 72px">
@@ -201,7 +267,7 @@
   </div>
 
   {{/* FAQ */}}
-  <section class="band-blue">
+  <section class="band-grey">
     <div class="hwa-page">
       <section>
         <div class="faq-head">
@@ -227,16 +293,7 @@
   {{/* FINAL CTA — mirrors the About page "Find a better KiwiSaver today" section */}}
   <div class="about-page">
     <div class="ab-page">
-      <section class="ab-final-cta">
-        <h2>{{ .Params.cta_heading | markdownify }}</h2>
-        {{ with .Params.cta_button_label }}
-        {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
-        <a class="button" href="{{ $url }}">{{ . }}</a>
-        {{ end }}
-        {{ with .Params.cta_subnote }}
-        <div class="ab-subnote">{{ . }}</div>
-        {{ end }}
-      </section>
+      {{ partial "final-cta.html" . }}
     </div>
   </div>
 
