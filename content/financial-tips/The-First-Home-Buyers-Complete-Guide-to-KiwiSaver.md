@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2026-08-17T09:15:39.436Z
 author: content/authors/joe-taylor.md
 title: The First Home Buyer's Complete Guide to KiwiSaver
@@ -55,7 +55,12 @@ The one exception is if you've ever transferred Australian superannuation saving
 
 Here’s a rough example of what your withdrawal situation can look like in practice:
 
-![](</uploads/Image 17-08-2026 at 12.22 PM.jpeg>)
+| Contributor                   | Annual input (3.5% on $65k salary) | Over 4 years   |
+| ----------------------------- | ---------------------------------- | -------------- |
+| Employee                      | $2,275                             | $9,100         |
+| Employer                      | $2,275                             | $9,100         |
+| Government contribution (max) | $260.72                            | $1,043         |
+| **Total contributions**       |                                    | Around $19,243 |
 
 Employer contributions are subject to ESCT (Employer Superannuation Contribution Tax), which means the amount credited to your KiwiSaver account will be slightly lower than the gross figure shown. The ESCT rate depends on your income.
 
@@ -99,7 +104,15 @@ Combining two KiwiSaver balances can make a meaningful difference to your joint 
 
 Getting the timing right is more important than most people realise. Rushing the application in the final weeks before settlement is one of the most common mistakes first home buyers make.
 
-![](</uploads/Image 17-08-2026 at 12.35 PM.jpeg>)
+| Step                                                   | When to do it                                 |
+| ------------------------------------------------------ | --------------------------------------------- |
+| Check your three-year eligibility date                 | Now (look up when you first joined KiwiSaver) |
+| Review your current fund type                          | At least 12 months before planned purchase    |
+| Switch to a more conservative fund if needed           | 6–12 months before planned settlement         |
+| Get a signed Sale and Purchase Agreement               | Before you can apply to withdraw              |
+| Contact your KiwiSaver provider for withdrawal forms   | Immediately after signing                     |
+| Provide documents to your solicitor                    | Well before settlement day                    |
+| KiwiSaver funds paid to your solicitor’s trust account | On or before settlement day                   |
 
 The application is handled by your KiwiSaver provider. Most process withdrawals within a few weeks, but timelines vary. The funds go directly to your solicitor, not to you, and are applied to settlement. Your solicitor manages the rest.
 
