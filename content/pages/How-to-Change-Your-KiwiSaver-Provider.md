@@ -9,7 +9,10 @@ date: 2026-08-17T03:00:00.000Z
 page_block: block-how-to-change-provider
 intro_tag: Why switch
 intro_heading: Should you switch your KiwiSaver provider?
-intro_body_2: "Most people are enrolled in KiwiSaver automatically when they start their first job. If you didn’t choose a provider yourself, you were likely placed into a default scheme - one of six government-selected options. That’s fine as a starting point. But it might not be the right scheme for where you are now. <br/><br/>BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect."
+intro_body_2: |-
+  Most people are enrolled in KiwiSaver automatically when they start their first job. If you didn’t choose a provider yourself, you were likely placed into a default scheme - one of six government-selected options. That’s fine as a starting point. But it might not be the right scheme for where you are now.
+
+  BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect.
 intro_cta_label: Get my fund recommendation
 intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 why_tag: Why BetterSaver
@@ -101,12 +104,18 @@ contrib_tag: Different from switching
 contrib_heading: How to change your KiwiSaver contribution rate
 contrib_subheading: Switching Kiwisaver providers and changing your contribution rate are two different things. If you want to adjust how much of your pay goes into KiwiSaver - rather than which provider holds it - that's done through your employer.
 contrib_title: '<span>Available rates:</span> 3.5%, 4%, 6%, 8%, or 10%'
-contrib_sub: Your KiwiSaver contribution rate is a percentage of your before-tax pay. To change it, give your employer written notice - you can do this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the request.<br/><br/>Your employer contributes a minimum of 3.5% on top of whatever rate you choose.
+contrib_sub: |-
+  Your KiwiSaver contribution rate is a percentage of your before-tax pay. To change it, give your employer written notice - you can do this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the request.
+
+  Your employer contributes a minimum of 3.5% on top of whatever rate you choose.
 contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time
 new_heading: Joining KiwiSaver for the first time?
-new_body_2: 'If you’re self-employed, have opted out previously, or are a new resident who hasn’t joined yet, you can still use BetterSaver to choose a scheme and join online.<br/><br/>The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.'
+new_body_2: |-
+  If you’re self-employed, have opted out previously, or are a new resident who hasn’t joined yet, you can still use BetterSaver to choose a scheme and join online.
+
+  The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.
 new_cta_label: Find out how to join KiwiSaver →
 new_cta_url: /pages/how-to-join-kiwisaver/
 costs_tag: Transparency

@@ -25,7 +25,7 @@
             <h2>{{ .Params.intro_heading | markdownify }}</h2>
           </div>
           <div>
-            <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:18px">{{ .Params.intro_body_2 | markdownify }}</p>
+            <div class="prose-copy">{{ .Params.intro_body_2 | markdownify }}</div>
             <a href="{{ replace .Params.intro_cta_url "{{appUrl}}" $appUrl | safeURL }}" class="button" style="margin-top:22px">{{ .Params.intro_cta_label }}</a>
           </div>
         </div>
@@ -187,7 +187,7 @@
       <div class="cadence">
         <div>
           <div class="title">{{ .Params.contrib_title | safeHTML }}</div>
-          <div class="sub">{{ .Params.contrib_sub | safeHTML }}</div>
+          <div class="sub">{{ .Params.contrib_sub | markdownify }}</div>
         </div>
         <div class="badge-c"><img src="{{ .Params.contrib_image }}" alt="{{ .Params.contrib_image_alt }}"></div>
       </div>
@@ -204,7 +204,7 @@
           <h2>{{ .Params.new_heading | markdownify }}</h2>
         </div>
         <div>
-          <p style="font-size:16px;color:var(--grey-mid);line-height:1.6;margin-top:18px">{{ .Params.new_body_2 | markdownify }}</p>
+          <div class="prose-copy">{{ .Params.new_body_2 | markdownify }}</div>
           {{ with .Params.new_cta_label }}
           <a href="{{ $.Params.new_cta_url | safeURL }}" class="button" style="margin-top:22px">{{ . }}</a>
           {{ end }}

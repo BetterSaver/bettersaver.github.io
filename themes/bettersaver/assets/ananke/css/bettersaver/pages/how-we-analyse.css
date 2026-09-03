@@ -1414,6 +1414,23 @@
     margin-bottom: 0;
 }
 
+/* Body copy rendered from markdown, so multi-paragraph values work. These
+   used to be <p> wrappers with inline styles, which couldn't legally hold the
+   <p> elements markdownify emits — content had to use <br/><br/> to break,
+   and TinaCMS strips those when it rewrites a field as a YAML block scalar.
+   .how-we-analyse-page p zeroes margins, hence the explicit p + p spacing. */
+.change-provider-page .prose-copy {
+    font-size: 16px;
+    color: var(--grey-mid);
+    line-height: 1.6;
+    margin-top: 18px;
+}
+
+.change-provider-page .prose-copy p + p,
+.change-provider-page .cadence .sub p + p {
+    margin-top: 14px;
+}
+
 /* Closing line that sits below a card row rather than above it. */
 .change-provider-page .prose-footnote {
     max-width: 780px;
