@@ -116,7 +116,7 @@ new_body_2: |-
   If you’re self-employed, have opted out previously, or are a new resident who hasn’t joined yet, you can still use BetterSaver to choose a scheme and join online.
 
   The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.
-new_cta_label: Find out how to join KiwiSaver →
+new_cta_label: Find out how to join KiwiSaver
 new_cta_url: /pages/how-to-join-kiwisaver/
 costs_tag: Transparency
 costs_heading: What it costs and how we're paid.
