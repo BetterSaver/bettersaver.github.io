@@ -4,6 +4,7 @@ date: 2026-08-17T09:15:39.436Z
 author: content/authors/joe-taylor.md
 title: The First Home Buyer's Complete Guide to KiwiSaver
 description: 'Most first home buyers in New Zealand don’t realise how much of their deposit is already sitting in KiwiSaver, quietly growing with every payslip.'
+img_src: /uploads/iStock-2196989096.jpg
 seo:
   title: 'KiwiSaver First Home Withdrawal: The Complete Guide'
   description: |
