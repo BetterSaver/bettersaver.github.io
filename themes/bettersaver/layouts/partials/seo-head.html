@@ -12,13 +12,16 @@
 <meta name="keywords" content="{{ . }}">
 {{ end }}
 
-{{/* Canonical URL: seo.canonical override > page's own Permalink */}}
+{{/* Canonical URL: seo.canonical override > page's own Permalink (none on 404 — it's served at arbitrary URLs) */}}
+{{ $is404 := eq .Kind "404" }}
+{{ if not $is404 }}
 <link rel="canonical" href="{{ with .Params.seo.canonical }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}">
+{{ end }}
 
 {{/* Robots: noindex override from seo fields */}}
 {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
 {{ $public := not .Params.private }}
-{{ if or .Params.seo.noindex (not (and $production $public)) }}
+{{ if or .Params.seo.noindex $is404 (not (and $production $public)) }}
 <meta name="robots" content="noindex, nofollow">
 {{ else }}
 <meta name="robots" content="index, follow">
