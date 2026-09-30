@@ -4,6 +4,7 @@ date: 2026-09-23T23:13:32.040Z
 author: content/authors/joe-taylor.md
 title: Is Your KiwiSaver Balance Dropping? What to Do Next
 description: 'You open your KiwiSaver balance, expecting it to have gone up a little bit as usual. Instead, it''s lower than last month. '
+img_src: /uploads/losing money.jpg
 seo:
   title: 'KiwiSaver Balance Dropping? What To Do Next '
   description: 'Seeing your KiwiSaver going down? Here''s why it happens, why panicking can lock in losses, and the 3 things worth doing instead. Free 2-min quiz.'
