@@ -3,7 +3,7 @@ draft: false
 title: How we analyse over 300 KiwiSaver options
 description: 'Wondering about the criteria a fund must meet to be on our recommended list? Here''s how we compare, assess and rate every fund.'
 featured_image: /uploads/how-we-analyse.jpg
-icon_path: /uploads/images/illustration-stack.png
+icon_path: /images/illustration-stack.png
 icon_class: stack
 date: 2022-10-10T03:00:00.000Z
 page_block: block-how-we-analyse
