@@ -18,9 +18,23 @@
           {{ end }}
 
           {{ if .Params.cta_text }}
-          <a href="{{ .Params.cta_link }}" class="button mb-4">
+          <a href="{{ replace (.Params.cta_link | default "") "{{appUrl}}" .Site.Params.appUrl | safeURL }}" class="button mb-4">
             {{ .Params.cta_text }}
           </a>
+          {{ end }}
+
+          {{ with .Params.cta_secondary_text }}
+          <a href="{{ $.Params.cta_secondary_link | safeURL }}" class="hero-secondary-link">{{ . }}</a>
+          {{ end }}
+
+          {{/* Review stamp: its own element with a stable class so the dates
+               can change without touching body copy. A key that is present
+               but blank shows the [Month Year] placeholder. */}}
+          {{ if or (isset .Params "review_last") (isset .Params "review_next") }}
+          <p class="review-stamp">
+            Last reviewed: {{ with .Params.review_last }}{{ time.Format "January 2006" . }}{{ else }}[Month Year]{{ end }}.
+            Next review: {{ with .Params.review_next }}{{ time.Format "January 2006" . }}{{ else }}[Month Year]{{ end }}.
+          </p>
           {{ end }}
         </div>
 

@@ -1,0 +1,82 @@
+{{/* JSON-LD for /recommended-kiwisaver-schemes/.
+
+     Picked up by layouts/partials/schema.html via the page's page_block, in
+     place of the auto-generated page schema (seo.custom_schema still wins).
+
+     Built from the same front matter that renders the page, so the tables,
+     FAQs and review date cannot drift from the schema:
+       WebPage        dateModified = review_last (omitted until set)
+       BreadcrumbList Home > page
+       ItemList       one ListItem per fund_groups row, in page order
+       FAQPage        every faq_items entry
+
+     Service page: never Article or BlogPosting.
+*/}}
+{{- $appUrl := .Site.Params.appUrl -}}
+{{- $url := .Permalink -}}
+{{- $title := .Params.seo.title | default .Title -}}
+{{- $description := .Params.seo.description | default .Description -}}
+
+{{- $webpage := dict
+  "@type" "WebPage"
+  "@id" (printf "%s#webpage" $url)
+  "url" $url
+  "name" $title
+  "description" $description
+  "inLanguage" "en-NZ"
+  "breadcrumb" (dict "@id" (printf "%s#breadcrumb" $url))
+  "mainEntity" (dict "@id" (printf "%s#recommended-funds" $url))
+  "publisher" (dict "@type" "Organization" "name" .Site.Title "url" .Site.BaseURL)
+-}}
+{{- with .Params.review_last }}
+  {{- $webpage = merge $webpage (dict "dateModified" (time.Format "2006-01-02" .)) }}
+{{- end }}
+
+{{- $breadcrumb := dict
+  "@type" "BreadcrumbList"
+  "@id" (printf "%s#breadcrumb" $url)
+  "itemListElement" (slice
+    (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL)
+    (dict "@type" "ListItem" "position" 2 "name" .Title "item" $url)
+  )
+-}}
+
+{{- $items := slice -}}
+{{- range .Params.fund_groups }}
+  {{- $risk := .name -}}
+  {{- range .funds }}
+    {{- $items = $items | append (dict
+      "@type" "ListItem"
+      "position" (add (len $items) 1)
+      "name" (printf "%s – %s" .provider .fund)
+      "description" (printf "%s. 5-year return %s p.a., total annual fee %s." $risk .return_5yr .fee)
+    ) }}
+  {{- end }}
+{{- end }}
+{{- $itemlist := dict
+  "@type" "ItemList"
+  "@id" (printf "%s#recommended-funds" $url)
+  "name" (.Params.funds_heading | default "Recommended KiwiSaver funds")
+  "itemListOrder" "https://schema.org/ItemListUnordered"
+  "numberOfItems" (len $items)
+  "itemListElement" $items
+-}}
+
+{{- $questions := slice -}}
+{{- range .Params.faq_items }}
+  {{- $answer := replace (.answer | default "") "{{appUrl}}" $appUrl | markdownify | plainify | htmlUnescape | strings.TrimSpace -}}
+  {{- $questions = $questions | append (dict
+    "@type" "Question"
+    "name" .question
+    "acceptedAnswer" (dict "@type" "Answer" "text" $answer)
+  ) }}
+{{- end }}
+
+{{- $graph := slice $webpage $breadcrumb $itemlist -}}
+{{- with $questions }}
+  {{- $graph = $graph | append (dict "@type" "FAQPage" "@id" (printf "%s#faq" $url) "mainEntity" .) }}
+{{- end }}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+</script>

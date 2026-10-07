@@ -1449,3 +1449,100 @@
     margin: 24px auto 0;
 }
 
+
+/* ===== Recommended KiwiSaver schemes (#735) ===== */
+
+.recommended-schemes-page .fund-group {
+    margin-top: 56px;
+}
+
+.recommended-schemes-page .fund-group h3 {
+    margin-bottom: 8px;
+}
+
+.recommended-schemes-page .fund-group > p {
+    max-width: 760px;
+    margin: 0 0 20px;
+    color: var(--grey-mid);
+}
+
+/* Real <table>s (they carry the ItemList schema). The wrapper scrolls
+   sideways on narrow screens rather than squashing the columns. */
+.recommended-schemes-page .fund-table-wrap {
+    border: 1px solid var(--grey-bg-mid);
+    border-radius: 16px;
+    background: var(--white);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.recommended-schemes-page .fund-table-wrap:focus-visible {
+    outline: 2px solid var(--purple-contrast);
+    outline-offset: 2px;
+}
+
+.recommended-schemes-page .fund-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-size: 14.5px;
+}
+
+.recommended-schemes-page .fund-table thead tr {
+    background: var(--blue-navy);
+}
+
+.recommended-schemes-page .fund-table th {
+    text-align: left;
+    padding: 14px 12px;
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.recommended-schemes-page .fund-table td {
+    text-align: left;
+    padding: 12px;
+    color: var(--blue-navy);
+    vertical-align: top;
+}
+
+.recommended-schemes-page .fund-table tbody tr {
+    border-bottom: 1px solid var(--grey-bg-mid);
+}
+
+.recommended-schemes-page .fund-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.recommended-schemes-page .fund-table th:first-child,
+.recommended-schemes-page .fund-table td:first-child {
+    padding-left: 18px;
+}
+
+.recommended-schemes-page .fund-table th:last-child,
+.recommended-schemes-page .fund-table td:last-child {
+    padding-right: 18px;
+}
+
+.recommended-schemes-page .fund-table .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.recommended-schemes-page .fund-table .partner {
+    text-align: center;
+}
+
+.recommended-schemes-page .fund-table-nr {
+    min-width: 900px;
+}
+
+.recommended-schemes-page .fund-table .reason p {
+    margin: 0;
+}
+
+.recommended-schemes-page .important-info {
+    max-width: 780px;
+}

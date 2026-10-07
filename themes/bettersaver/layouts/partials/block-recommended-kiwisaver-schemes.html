@@ -1,0 +1,201 @@
+{{/* "Recommended KiwiSaver schemes" page block (/recommended-kiwisaver-schemes/).
+
+     Service page, not a blog post: no byline or publish date. The review
+     stamp in the hero (site-header.html, review_last / review_next) does
+     that job.
+
+     Reuses the How we analyse / How to change provider section components.
+
+     Sections, in order:
+       choose_*         how we choose (prose + checks list + footer)
+       funds_*          one real <table> per fund_groups entry. The same
+                        rows feed the ItemList schema in
+                        schema-recommended-kiwisaver-schemes.html, so edit
+                        the data, not the markup.
+       nr_*             not-recommended table + "what it does not mean".
+                        Both only render once `not_recommended` has rows.
+       commissions_*    commissions and independence
+       faq_*            accordion (also emitted as FAQPage schema)
+       important_*      FAP disclosure / risk warning
+       cta_*            primary CTA repeated at the foot
+*/}}
+{{- $appUrl := .Site.Params.appUrl -}}
+{{- $check := `<svg class="bullet" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z" fill="currentColor"></path><path d="M6.5 10L9 12.5L14 7.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>` -}}
+<div class="how-we-analyse-page change-provider-page recommended-schemes-page">
+
+  {{/* HOW WE CHOOSE */}}
+  <section class="pb-9">
+    <div class="hwa-page">
+      <div class="checks-head prose-head">
+        <h2>{{ .Params.choose_heading | markdownify }}</h2>
+        {{ .Params.choose_body | markdownify }}
+      </div>
+      <ul class="micro-list" style="max-width:760px">
+        {{ range .Params.choose_checks }}
+        <li>{{ $check | safeHTML }}<p>{{ .text | markdownify }}</p></li>
+        {{ end }}
+      </ul>
+      {{ with .Params.choose_footer }}
+      <div class="prose-copy" style="max-width:760px">{{ . | markdownify }}</div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* RECOMMENDED FUNDS — one table per risk type */}}
+  <div class="band-grey" id="recommended-funds">
+    <section class="hwa-page">
+      <div class="prose-head mb-2">
+        <h2>{{ .Params.funds_heading | markdownify }}</h2>
+        {{ .Params.funds_body | markdownify }}
+      </div>
+
+      {{ range $i, $group := .Params.fund_groups }}
+      {{ $id := printf "funds-%s" ($group.name | urlize) }}
+      <div class="fund-group">
+        <h3 id="{{ $id }}">{{ $group.name }}</h3>
+        {{ with $group.description }}<p>{{ . | markdownify }}</p>{{ end }}
+        <div class="fund-table-wrap" role="region" aria-labelledby="{{ $id }}" tabindex="0">
+          <table class="fund-table" aria-labelledby="{{ $id }}">
+            <thead>
+              <tr>
+                <th scope="col">Provider</th>
+                <th scope="col">Fund</th>
+                <th scope="col" class="num">5yr return p.a.</th>
+                <th scope="col" class="num">Total annual fee</th>
+                <th scope="col" class="partner">Partner</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $group.funds }}
+              <tr>
+                <td>{{ .provider }}</td>
+                <td>{{ .fund }}</td>
+                <td class="num">{{ .return_5yr }}</td>
+                <td class="num">{{ .fee }}</td>
+                <td class="partner">{{ if .partner }}Yes{{ end }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .Params.funds_footnote }}
+      <p class="prose-footnote">{{ . | markdownify }}</p>
+      {{ end }}
+    </section>
+  </div>
+
+  {{/* NOT RECOMMENDED — held back until the lists are supplied */}}
+  {{ with .Params.not_recommended }}
+  <section class="pb-9">
+    <div class="hwa-page">
+      <div class="checks-head prose-head">
+        <h2 id="not-recommended">{{ $.Params.nr_heading | markdownify }}</h2>
+        {{ $.Params.nr_body | markdownify }}
+      </div>
+      <div class="fund-table-wrap" role="region" aria-labelledby="not-recommended" tabindex="0">
+        <table class="fund-table fund-table-nr" aria-labelledby="not-recommended">
+          <thead>
+            <tr>
+              <th scope="col">Provider</th>
+              <th scope="col">Fund</th>
+              <th scope="col">Risk type</th>
+              <th scope="col" class="num">5yr return p.a.</th>
+              <th scope="col" class="num">Total annual fee</th>
+              <th scope="col" class="partner">Partner</th>
+              <th scope="col">Why it is not on the list</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+            <tr>
+              <td>{{ .provider }}</td>
+              <td>{{ .fund }}</td>
+              <td>{{ .risk_type }}</td>
+              <td class="num">{{ .return_5yr }}</td>
+              <td class="num">{{ .fee }}</td>
+              <td class="partner">{{ if .partner }}Yes{{ end }}</td>
+              <td class="reason">{{ .reason | markdownify }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="band-grey">
+    <section class="hwa-page">
+      <div class="framing">
+        <div>
+          <h2>{{ $.Params.nr_meaning_heading | markdownify }}</h2>
+        </div>
+        <div>
+          <div class="prose-copy">{{ $.Params.nr_meaning_body | markdownify }}</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {{ end }}
+
+  {{/* COMMISSIONS AND INDEPENDENCE */}}
+  <div class="py-9">
+    <div class="hwa-page">
+      <section>
+        <div class="framing">
+          <div>
+            <h2>{{ .Params.commissions_heading | markdownify }}</h2>
+          </div>
+          <div>
+            <div class="prose-copy">{{ .Params.commissions_body | markdownify }}</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  {{/* FAQ */}}
+  <section class="band-grey">
+    <div class="hwa-page">
+      <section>
+        <div class="faq-head">
+          <div class="grid grid-cols-2-auto gap-4 items-center content">
+            <div>
+              <h2>{{ .Params.faq_heading | markdownify }}</h2>
+              <p>{{ .Params.faq_subheading | markdownify }}</p>
+            </div>
+            <div><a href="{{ .Params.faq_button_url }}" class="button">{{ .Params.faq_button_label }}</a></div>
+          </div>
+        </div>
+        <div class="faq-list content narrow">
+          {{ range .Params.faq_items }}
+          <details class="help-item">
+            <summary><h4 class="m-0">{{ .question }}</h4></summary>
+            <section class="py-2">{{ .answer | markdownify }}</section>
+          </details>
+          {{ end }}
+        </div>
+      </section>
+    </div>
+  </section>
+
+  {{/* IMPORTANT INFORMATION */}}
+  <div class="py-9">
+    <div class="hwa-page">
+      <section class="important-info">
+        <h2>{{ .Params.important_heading | markdownify }}</h2>
+        <div class="prose-copy">{{ replace (.Params.important_body | default "") "{{appUrl}}" $appUrl | markdownify }}</div>
+      </section>
+    </div>
+  </div>
+
+  {{/* FOOT CTA — repeats the hero's primary CTA */}}
+  <div class="about-page">
+    <div class="ab-page">
+      {{ partial "final-cta.html" . }}
+    </div>
+  </div>
+
+</div>

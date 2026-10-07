@@ -79,34 +79,39 @@ enableRobotsTXT = true
     weight = 2
 
     [[menus.main]]
+    name = "Recommended schemes"
+    url = "/recommended-kiwisaver-schemes/"
+    weight = 3
+
+    [[menus.main]]
     name = "How to join KiwiSaver"
     url = "/pages/how-to-join-kiwisaver"
-    weight = 3
+    weight = 4
 
     [[menus.main]]
     name = "How to change KiwiSaver"
     url = "/pages/how-to-change-your-kiwisaver-provider"
-    weight = 4
+    weight = 5
 
     [[menus.main]]
     name = "About"
     url = "/pages/about"
-    weight = 5
+    weight = 6
 
     [[menus.main]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 6
+    weight = 7
 
     [[menus.main]]
     name = "Sign in"
     url = "http://localhost:4250/login"
-    weight = 7
+    weight = 8
 
     [[menus.main]]
     name = "Find a fund"
     url = "http://localhost:4250/kiwisaver/onboarding/flow/disclosure/"
-    weight = 8
+    weight = 9
     [menus.main.params]
         class = "button"
 

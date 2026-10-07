@@ -9,6 +9,7 @@ import Homepage from "./collections/homepage";
 import Authors from "./collections/authors";
 import HowToChangeProvider from "./collections/howtochangeprovider";
 import HowToJoinKiwiSaver from "./collections/howtojoinkiwisaver";
+import RecommendedKiwiSaverSchemes from "./collections/recommendedkiwisaverschemes";
 import HowWeAnalyse from "./collections/howweanalyse";
 import HowItWorks from "./collections/howitworks";
 import AboutUs from "./collections/aboutus";
@@ -62,6 +63,7 @@ export default defineConfig({
       Homepage,
       HowToChangeProvider,
       HowToJoinKiwiSaver,
+      RecommendedKiwiSaverSchemes,
       HowWeAnalyse,
       HowItWorks,
       AboutUs,
