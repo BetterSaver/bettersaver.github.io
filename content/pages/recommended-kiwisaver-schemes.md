@@ -12,8 +12,8 @@ cta_secondary_text: How we analyse KiwiSaver schemes
 cta_secondary_link: /pages/how-we-analyse/
 # Review stamp under the hero CTA, and WebPage dateModified in the schema.
 # Leave blank to show the "[Month Year]" placeholder.
-review_last:
-review_next:
+review_last: 2026-10-01T00:00:00.000Z
+review_next: 2027-01-01T00:00:00.000Z
 choose_heading: How we choose the funds we recommend
 choose_body: |-
   We analyse over 300 KiwiSaver funds, and every one is assessed the same way. Each fund is compared only with others in the same risk category (Defensive, Conservative, Balanced, Growth or Aggressive), and it needs at least five years of returns before we'll recommend it.
@@ -26,7 +26,7 @@ choose_checks:
   - text: '**Downside risk.** How the fund behaved when markets fell, and how long it took to recover.'
   - text: '**Quality checks.** Fund size, how long the strategy has been running, changes in management, and anything that looks like a red flag.'
 choose_footer: |-
-  We use independent market data alongside the information providers publish themselves. The list is reviewed [quarterly], and a fund can be added or removed at any review.
+  We use independent market data alongside the information providers publish themselves. The list is reviewed quarterly, and a fund can be added or removed at any review.
 
   For the detail, see [how we analyse KiwiSaver schemes](/pages/how-we-analyse/).
 funds_heading: Our recommended KiwiSaver funds
@@ -104,7 +104,7 @@ fund_groups:
       - { provider: Milford KiwiSaver Plan, fund: Aggressive Fund, return_5yr: 9.3%, fee: 1.15%, partner: true }
       - { provider: SBS Wealth KiwiSaver Scheme, fund: High Growth Fund, return_5yr: 9.6%, fee: 1.17%, partner: true }
       - { provider: Superlife KiwiSaver Scheme, fund: High Growth Fund, return_5yr: 9.4%, fee: 0.73%, partner: false }
-funds_footnote: 'Returns are shown after fees and before tax, to 31 December 2025. Source: [confirm data source].'
+funds_footnote: 'Returns are shown after fees and before tax, to 31 December 2025. Source: Morningstar.'
 # The two "not recommended" sections only render once not_recommended has rows.
 nr_heading: Don’t see your fund on the recommended list?
 nr_body: 'These are the funds that do not currently make our list. Some fell short on one or more of our checks, some do not yet have the five-year track record we require, and some are single-sector funds that are too narrowly focused to be someone’s main KiwiSaver. [How we analyse KiwiSaver schemes](/pages/how-we-analyse/) explains exactly what a fund has to clear.'
@@ -135,13 +135,13 @@ faq_items:
   - question: Which KiwiSaver scheme performs best?
     answer: 'It depends on the timeframe and the risk type, and short term figures can be misleading. A growth fund will usually out-return a conservative fund over ten years, and usually fall further when markets drop. We look at returns over five and ten years against each fund’s peer group, so you are comparing like with like. Past performance is not a reliable indicator of future performance.'
   - question: How does BetterSaver decide which schemes to recommend?
-    answer: 'Five checks on every fund: performance against its peer group, fees relative to value, consistency of returns over time, behaviour in falling markets, and a set of quality indicators. We use independent market data and information published by providers, and we review the list [quarterly].'
+    answer: 'Five checks on every fund: performance against its peer group, fees relative to value, consistency of returns over time, behaviour in falling markets, and a set of quality indicators. We use independent market data and information published by providers, and we review the list quarterly.'
   - question: If a scheme is not on the recommended list, is it a bad scheme?
     answer: 'No. It means it did not meet our criteria at the last review, that it does not yet have the five years of comparable data we require, or that it is a single-sector fund we would not recommend as someone’s main KiwiSaver. It is not advice to leave that scheme, and funds move between the lists over time.'
   - question: Is BetterSaver independent?
     answer: 'Yes. BetterSaver is a licensed Financial Advice Provider (FSP 600609). We do not manage any KiwiSaver schemes ourselves. We may be paid a commission by some providers, but that does not affect which funds make the list. More funds from providers we could be paid for miss the list than make it.'
   - question: How often is this list updated?
-    answer: 'We review it [quarterly], and sooner if new performance data or fee disclosures change the picture. The last review date is shown at the top of this page.'
+    answer: 'We review it quarterly, and sooner if new performance data or fee disclosures change the picture. The last review date is shown at the top of this page.'
   - question: Can I switch KiwiSaver scheme through BetterSaver?
     answer: 'In most cases, yes. Once you have your recommendation you can complete the switch through BetterSaver and we handle the transfer with your new provider. Some providers do not support switching through our platform, and we will tell you if yours is one of them. See [how to switch your KiwiSaver provider](/pages/how-to-change-your-kiwisaver-provider/).'
 important_heading: Important information
