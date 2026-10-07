@@ -116,7 +116,7 @@ const RecommendedKiwiSaverSchemes: Collection = {
       name: "review_last",
       label: "Last reviewed",
       description:
-        "Shown as e.g. "Oct 2026" under the hero CTA. Also used as the page's dateModified in search results. Update it every time the lists are refreshed.",
+        "Shown as e.g. 'Oct 2026' under the hero CTA. Also used as the page's dateModified in search results. Update it every time the lists are refreshed.",
     },
     {
       type: "datetime",
