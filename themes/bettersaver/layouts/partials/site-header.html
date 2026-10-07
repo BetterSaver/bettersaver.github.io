@@ -32,8 +32,8 @@
                but blank shows the [Month Year] placeholder. */}}
           {{ if or (isset .Params "review_last") (isset .Params "review_next") }}
           <p class="review-stamp">
-            Last reviewed: {{ with .Params.review_last }}{{ time.Format "January 2006" . }}{{ else }}[Month Year]{{ end }}.
-            Next review: {{ with .Params.review_next }}{{ time.Format "January 2006" . }}{{ else }}[Month Year]{{ end }}.
+            Last reviewed: {{ with .Params.review_last }}{{ (time.AsTime .).Format "Jan 2006" }}{{ else }}[Month Year]{{ end }}.
+            Next review: {{ with .Params.review_next }}{{ (time.AsTime .).Format "Jan 2006" }}{{ else }}[Month Year]{{ end }}.
           </p>
           {{ end }}
         </div>
