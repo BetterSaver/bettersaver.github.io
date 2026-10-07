@@ -79,8 +79,8 @@ enableRobotsTXT = true
     weight = 2
 
     [[menus.main]]
-    name = "Recommended schemes"
-    url = "/recommended-kiwisaver-schemes/"
+    name = "Recommended funds"
+    url = "/recommended-kiwisaver-funds/"
     weight = 3
 
     [[menus.main]]

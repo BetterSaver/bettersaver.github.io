@@ -1,11 +1,11 @@
 ---
 draft: false
-title: Recommended KiwiSaver schemes
-url: /recommended-kiwisaver-schemes/
+title: Recommended KiwiSaver funds
+url: /recommended-kiwisaver-funds/
 description: 'Most people do not want a list of schemes. They want to know they are in the right one. Here is what we recommend, what we do not, and the reason for each.'
-featured_image: /uploads/bg-recommended-kiwisaver-schemes.jpg
+featured_image: /uploads/bg-recommended-kiwisaver-funds.jpg
 date: 2026-10-06T00:00:00.000Z
-page_block: block-recommended-kiwisaver-schemes
+page_block: block-recommended-kiwisaver-funds
 cta_text: Get my KiwiSaver recommendation
 cta_link: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_secondary_text: How we analyse KiwiSaver schemes

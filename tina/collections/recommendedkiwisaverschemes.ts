@@ -33,10 +33,10 @@ const fundRowFields = [
 
 const RecommendedKiwiSaverSchemes: Collection = {
   name: "recommendedkiwisaverschemes",
-  label: "Recommended KiwiSaver Schemes Page",
+  label: "Recommended KiwiSaver Funds Page",
   path: "content/pages",
   match: {
-    include: "recommended-kiwisaver-schemes",
+    include: "recommended-kiwisaver-funds",
   },
   format: "md",
   ui: {
