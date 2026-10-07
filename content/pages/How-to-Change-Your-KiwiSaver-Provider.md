@@ -187,7 +187,7 @@ choose_body: |
 
   BetterSaver assesses every KiwiSaver scheme in New Zealand against those four criteria, using data from Morningstar and fund providers. We review the list regularly and publish our full shortlist — including the schemes that don’t make the cut and why.
 choose_cta_label: View our recommended KiwiSaver schemes
-choose_cta_url: /recommended-funds/
+choose_cta_url: /recommended-kiwisaver-schemes/
 choose_footnote: 'If you’d rather skip straight to a recommendation, answer a few quick questions and we’ll match you with a scheme that suits your situation.'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
