@@ -22,7 +22,8 @@ choose_checks:
   - text: '**Fees against value.** Cheapest isn''t automatically best, and expensive isn''t automatically bad. We ask what the fee buys, real active management, ethical screening, proper service, and whether members actually get it. '
   - text: |
       **Consistency.** How bumpy the ride has been: how much returns moved around, how far the fund fell when markets dropped, and how long it took to recover.
-  - text: '**Quality checks.** Fund size, how long the strategy has been running, changes in management, and anything that looks like a red flag.'
+  - text: |
+      **Quality.** Numbers alone aren't enough. We also check whether the fund sticks to its stated strategy, how big it is, and how stable its management has been. 
 choose_footer: |-
   We use independent market data alongside the information providers publish themselves. The list is reviewed quarterly, and a fund can be added or removed at any review.
 
