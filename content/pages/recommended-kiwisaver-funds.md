@@ -21,7 +21,6 @@ choose_checks:
   - text: '**Performance against peers.** We compare each fund with others of the same risk type over five and ten years. Comparing a conservative fund with a growth fund tells you nothing useful.'
   - text: '**Fees against value.** A higher fee is not automatically a problem. A higher fee with nothing to show for it is.'
   - text: '**Consistency.** One strong year does not make a good fund. We look at whether returns hold up across different market conditions.'
-  - text: '**Downside risk.** How the fund behaved when markets fell, and how long it took to recover.'
   - text: '**Quality checks.** Fund size, how long the strategy has been running, changes in management, and anything that looks like a red flag.'
 choose_footer: |-
   We use independent market data alongside the information providers publish themselves. The list is reviewed quarterly, and a fund can be added or removed at any review.
