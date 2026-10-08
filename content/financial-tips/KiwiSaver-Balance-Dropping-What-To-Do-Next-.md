@@ -44,7 +44,7 @@ So when you see your KiwiSaver going down over a particular week or month, you'r
 
 A drop in your KiwiSaver balance isn't a loss until you actually sell or switch out of your investments. Until then, it's a paper movement.
 
-The price of the units you hold has gone down, but you still have the same number of units. If markets recover, as they historically have, your balance recovers with them, without you needing to do anything.
+The price of the units you hold has gone down, but you still have the same number of units. If markets recover, as they historically have, your balance can recover with them, without you needing to do anything.
 
 The danger is what happens when people react partway through a downturn. The government's independent money guidance service, Sorted, [describes this by comparing a downturn to a wave.](https://sorted.org.nz/blog/dont-switch-kiwisaver-funds-without-reading-this/)
 
@@ -110,7 +110,7 @@ Not based on the drop alone. A switch should reflect fund fit for your goals and
 
 ### Will I lose my KiwiSaver savings if the market crashes?
 
-Only if you sell or switch while prices are down. Staying invested means your balance can recover as markets do, as they have throughout KiwiSaver's history.
+A market crash itself doesn’t lock in a loss. That generally happens only if you sell or switch while prices are down.
 
 ### Should I stop contributing to KiwiSaver during a downturn?
 
