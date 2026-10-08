@@ -17,7 +17,7 @@ eligible_tag: Eligibility
 eligible_heading: Who can join KiwiSaver.
 eligible_subheading: 'KiwiSaver is open to you if you are:'
 eligible_items:
-  - text: A New Zealand citizen or permanent resident.
+  - text: 'A New Zealand citizen, or entitled to live in New Zealand indefinitely'
   - text: 'Living in New Zealand, or normally resident here.'
   - text: 'Any age — there’s no upper age limit, though the government contribution and compulsory employer contributions stop at 65.'
 eligible_footnote: 'You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).'
@@ -108,9 +108,9 @@ faq_items:
   - question: How long does it take to join KiwiSaver?
     answer: 'Applying through BetterSaver takes most people under 5 minutes. Once your application is submitted, your provider will confirm your enrolment and your contributions will begin from your next pay.'
 cta_heading: Start your KiwiSaver the right way
+cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
-cta_body: 'Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.'
 cta_subnote: Takes 2–5 minutes & It’s free
 seo:
   title: How to Join KiwiSaver | Choose Your Scheme | BetterSaver
@@ -217,3 +217,4 @@ seo:
     }
     </script>
 ---
+
