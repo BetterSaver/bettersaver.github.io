@@ -19,7 +19,7 @@ choose_body: |-
   We then run four checks:
 choose_checks:
   - text: '**Performance** After-fee returns compared with the fund''s peer group over five to ten years. Comparing a conservative fund with a growth fund tells you nothing useful. '
-  - text: '**Fees against value.** A higher fee is not automatically a problem. A higher fee with nothing to show for it is.'
+  - text: '**Fees against value.** Cheapest isn''t automatically best, and expensive isn''t automatically bad. We ask what the fee buys, real active management, ethical screening, proper service, and whether members actually get it. '
   - text: '**Consistency.** One strong year does not make a good fund. We look at whether returns hold up across different market conditions.'
   - text: '**Quality checks.** Fund size, how long the strategy has been running, changes in management, and anything that looks like a red flag.'
 choose_footer: |-
