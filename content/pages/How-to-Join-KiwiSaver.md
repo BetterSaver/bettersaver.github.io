@@ -80,10 +80,10 @@ faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:
   - question: Who can join KiwiSaver?
-    answer: |
-      KiwiSaver is open to New Zealand citizens and permanent residents who live, or normally live, in New Zealand. There's no upper age limit, so you can join at 65 or older. From 65, you won't get the government contribution, and your employer doesn't have to contribute, but you can still make your own contributions.
+    answer: |-
+      KiwiSaver is open to New Zealand citizens, and to anyone entitled to live in New Zealand indefinitely, who lives or normally lives here. There’s no upper age limit, so you can join at 65 or older. From 65, you won’t get the government contribution, and your employer doesn’t have to contribute, but you can still make your own contributions.
 
-      If you're self-employed, between jobs or returning from overseas, you can still join. You just won't get employer contributions unless you're employed.
+      If you’re self-employed, between jobs or returning from overseas, you can still join. You just won’t get employer contributions unless you’re employed.
   - question: Should I join KiwiSaver?
     answer: |
       For most people in New Zealand, yes. If you're employed, your employer has to contribute at least 3.5% of your gross pay on top of your own contributions. The government also adds 25 cents for every $1 you contribute, up to $260.72 a year, as long as you earn $180,000 or less.
