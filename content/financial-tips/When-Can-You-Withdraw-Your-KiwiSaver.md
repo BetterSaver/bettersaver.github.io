@@ -4,12 +4,13 @@ date: 2026-10-12T22:18:35.851Z
 author: content/authors/joe-taylor.md
 title: When Can You Withdraw Your KiwiSaver?
 description: 'KiwiSaver isn''t just locked away until you turn 65. Depending on your situation, you might be able to withdraw some or all of your savings earlier, whether you''re buying your first home, facing significant financial hardship, dealing with a serious illness or permanently leaving New Zealand.'
+img_src: /uploads/raining-money.jpg
 seo:
   title: 'KiwiSaver Withdrawal Rules: When Can You Access Your Money?'
   description: 'Here''s exactly when you can access your KiwiSaver, from retirement to buying your first home, hardship and more.'
 ---
 
-This article covers every scenario that allows a KiwiSaver withdrawal, what the eligibility criteria are and what you can't access in each case. 
+This article covers every scenario that allows a KiwiSaver withdrawal, what the eligibility criteria are and what you can't access in each case.
 
 If you're new to KiwiSaver and want the basics first, start with our [guide to how KiwiSaver works.](https://bettersaver.co.nz/financial-tips/how-does-kiwisaver-work-a-simple-guide-for-2026/)
 
@@ -19,11 +20,11 @@ If you're new to KiwiSaver and want the basics first, start with our [guide to h
 * After three years of membership, first home buyers can withdraw most of their balance toward a deposit
 * Significant financial hardship, serious illness and permanent emigration (except to Australia) are all grounds for early withdrawal
 * Hardship withdrawals don't include government contributions (only your contributions and your employer's)
-* If you’re emigrating to Australia, your KiwiSaver can be transferred to an Australian super fund, not withdrawn as cash. 
+* If you’re emigrating to Australia, your KiwiSaver can be transferred to an Australian super fund, not withdrawn as cash.
 
 ## Withdrawing at Retirement (Age 65)
 
-When you turn 65 (the same age you become eligible for NZ Super), you can access everything in your KiwiSaver account. This includes your own contributions, your employer's contributions, any government contributions you've accumulated over the years and all investment returns. 
+When you turn 65 (the same age you become eligible for NZ Super), you can access everything in your KiwiSaver account. This includes your own contributions, your employer's contributions, any government contributions you've accumulated over the years and all investment returns.
 
 You can take it all at once, draw it down gradually or leave it invested and withdraw as needed.
 
@@ -79,7 +80,7 @@ If approved, you can withdraw your own contributions and your employer's contrib
 
 Applications go through your KiwiSaver provider, not IRD, unless you're within your first two months of membership. Your provider assesses the application based on your financial circumstances and supporting documentation.
 
-Hardship withdrawals have risen sharply in recent years. According to the [FMA's 2025 KiwiSaver Annual Report](https://www.fma.govt.nz/assets/Reports/KiwiSaver-Annual-Report-2025.pdf), in the year to 31 March 2025, $443.6 million was withdrawn by 44,099 applicants (up 50.8% from the prior year) with an average withdrawal of $10,058. 
+Hardship withdrawals have risen sharply in recent years. According to the [FMA's 2025 KiwiSaver Annual Report](https://www.fma.govt.nz/assets/Reports/KiwiSaver-Annual-Report-2025.pdf), in the year to 31 March 2025, $443.6 million was withdrawn by 44,099 applicants (up 50.8% from the prior year) with an average withdrawal of $10,058.
 
 ## Serious Illness
 
@@ -143,13 +144,13 @@ Yes. At 65, you can withdraw part of your balance, leave the rest invested and c
 
 ### Is Your KiwiSaver Set Up the Right Way?
 
-KiwiSaver is often described as money locked away for retirement, and for most people, that's the right way to think about it. But your savings can be accessed early if: 
+KiwiSaver is often described as money locked away for retirement, and for most people, that's the right way to think about it. But your savings can be accessed early if:
 
 * You want to make a first home purchase
 * You’re experiencing significant financial hardship
 * You have a serious illness
 * You’re permanently emigrating (outside Australia)
-* You pass away. 
+* You pass away.
 
 In each case, the eligibility rules and what you can actually withdraw differ.
 
