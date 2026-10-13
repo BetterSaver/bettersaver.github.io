@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-10-12T21:32:51.087Z
+date: 2026-09-04T01:32:14.796Z
 author: content/authors/joe-taylor.md
 title: Is Your KiwiSaver Balance Dropping? What to Do Next
 description: 'You open your KiwiSaver balance, expecting it to have gone up a little bit as usual. Instead, it''s lower than last month. '
