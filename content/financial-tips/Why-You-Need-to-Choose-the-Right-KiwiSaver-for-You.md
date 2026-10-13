@@ -4,14 +4,15 @@ date: 2026-10-13T00:10:23.243Z
 author: content/authors/joe-taylor.md
 title: Why You Need to Choose the Right KiwiSaver for You
 description: 'Did you ever actually choose your KiwiSaver fund? If you’re like a lot of people, you were probably auto-enrolled by an employer and your money’s been sitting with the same provider ever since. That''s not a mistake, exactly, but it does mean your KiwiSaver could be performing better than it is right now.'
+img_src: /uploads/iStock-1381320238.jpg
 seo:
   title: Why You Need to Choose the Right KiwiSaver for You
   description: 'Not sure your KiwiSaver fund is right for you? Learn what to check for, what the wrong fund could cost  and how to switch with confidence.'
 ---
 
-Working out whether your fund is the best one for you only takes a few minutes and it’s much easier to switch providers than most people think. 
+Working out whether your fund is the best one for you only takes a few minutes and it’s much easier to switch providers than most people think.
 
-This article covers the four key factors that will help you decide if your KiwiSaver fund is a good fit and what it can cost you to stay in the wrong one. 
+This article covers the four key factors that will help you decide if your KiwiSaver fund is a good fit and what it can cost you to stay in the wrong one.
 
 We’ll also share a quick self-check you can carry out against your latest statement, outline how switching works and discuss why it’s a good idea to compare your fund with others across the entire market.
 
@@ -30,19 +31,19 @@ Your KiwiSaver fund is right for you when it matches your goals, timeline, comfo
 
 Are you saving towards buying your first home in the next few years or building a retirement fund you won't touch for decades? These two common KiwiSaver goals usually suit different types of funds.
 
-### Timeline 
+### Timeline
 
-The amount of risk you can comfortably take on depends on when you need the money. If you’re a decade or more away from withdrawing your funds, riding out a few bumps in the market is usually worthwhile. But when you’re a year or two out, a sharp drop right before you need to withdraw is problematic. 
+The amount of risk you can comfortably take on depends on when you need the money. If you’re a decade or more away from withdrawing your funds, riding out a few bumps in the market is usually worthwhile. But when you’re a year or two out, a sharp drop right before you need to withdraw is problematic.
 
-### Risk comfort 
+### Risk comfort
 
 Two people with the same timeline can have different tolerances for watching their balance dip in a downturn. A fund that keeps you up at night isn't the right one, even if the numbers say it should be.
 
-### Values 
+### Values
 
 You might not want your KiwiSaver invested in fossil fuels, weapons or tobacco. Ethical fund options can let you avoid that.
 
-We've broken down the different fund categories in our guide to [5 types of KiwiSaver funds](https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/), and compared two of the most common choices head-to-head in [Growth Fund vs Balanced Fund](https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/). 
+We've broken down the different fund categories in our guide to [5 types of KiwiSaver funds](https://bettersaver.co.nz/financial-tips/5-types-of-kiwisaver-funds-and-what-they-mean/), and compared two of the most common choices head-to-head in [Growth Fund vs Balanced Fund](https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/).
 
 ## What Staying in the Wrong Fund Actually Costs You
 
@@ -50,7 +51,7 @@ Staying in the wrong KiwiSaver fund can cost you the growth or safety you should
 
 If you never actively chose a fund, you're probably sitting in a default one. According to the [Financial Markets Authority](https://www.fma.govt.nz/consumer/kiwisaver-and-superannuation/about-kiwisaver/kiwisaver-default-funds/), default funds are assigned automatically to anyone who hasn’t made a specific choice. They’re balanced funds, meaning they offer a reasonable middle ground for someone who hasn't decided, but they’re not personalised for anyone in particular.
 
-As an example, picture two 25-year-olds with 40 years until retirement. One stays in a default balanced fund, whereas the other actively chooses a growth fund that’s better suited to a long timeline. Over four decades, the default option can lead to a noticeably smaller retirement balance because the fund type never matched the timeframe. 
+As an example, picture two 25-year-olds with 40 years until retirement. One stays in a default balanced fund, whereas the other actively chooses a growth fund that’s better suited to a long timeline. Over four decades, the default option can lead to a noticeably smaller retirement balance because the fund type never matched the timeframe.
 
 The reverse scenario is risky as well. If you’re planning to withdraw for a first home next year, a growth or aggressive fund is probably too volatile right now.
 
@@ -71,7 +72,7 @@ Start by finding your fund type and provider name on the statement, then conside
 
 Sorted’s guide [to picking the right fund](https://sorted.org.nz/guides/kiwisaver/kiwisaver-which-fund-suits/) makes an important point. It’s best not to base your decisions on last year's best-performing fund, as returns move around every year. Your timeline and risk comfort don't change nearly as often, so they're the more reliable things to plan around.
 
-It can be tempting to treat “lowest fee” as shorthand for “best fund”, but it isn't always. A slightly higher fee can be worth it if the fund's performance, service or ethical screening suits you better. 
+It can be tempting to treat “lowest fee” as shorthand for “best fund”, but it isn't always. A slightly higher fee can be worth it if the fund's performance, service or ethical screening suits you better.
 
 ## Switching KiwiSaver Funds Is Easier Than Most People Think
 
@@ -106,7 +107,7 @@ At least once a year, and any time your circumstances change (such as starting a
 
 ### Is a more expensive KiwiSaver fund always a better one?
 
-No. A higher fee can be worth it if the fund's performance, values-screening or service suit you better, but fees alone shouldn't be the deciding factor. 
+No. A higher fee can be worth it if the fund's performance, values-screening or service suit you better, but fees alone shouldn't be the deciding factor.
 
 ### Does it cost anything to use the BetterSaver Fund Finder Quiz?
 
