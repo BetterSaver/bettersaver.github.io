@@ -56,18 +56,6 @@ h3 {
     }
 }
 
-/* Breathing room between sections of blog articles. Direct children only, so
-   headings inside FAQ accordions (details > summary) keep their tight spacing.
-   These collapse with the preceding paragraph's 15px bottom margin, so they
-   are the total gap, not added on top of it. */
-#blog-content > h2 {
-    margin-top: 40px;
-}
-
-#blog-content > h3 {
-    margin-top: 24px;
-}
-
 h4 {
     font-size: 24px;
     font-family: 'BureauSerif', serif;
