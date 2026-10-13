@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2026-10-13T00:10:23.243Z
+draft: false
+date: 2026-09-04T01:32:14.796Z
 author: content/authors/joe-taylor.md
 title: Why You Need to Choose the Right KiwiSaver for You
 description: 'Did you ever actually choose your KiwiSaver fund? If you’re like a lot of people, you were probably auto-enrolled by an employer and your money’s been sitting with the same provider ever since. That''s not a mistake, exactly, but it does mean your KiwiSaver could be performing better than it is right now.'

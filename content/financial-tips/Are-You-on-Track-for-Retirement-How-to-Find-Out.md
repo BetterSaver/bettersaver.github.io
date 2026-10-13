@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2026-10-12T23:53:31.539Z
+draft: false
+date: 2026-10-05T01:22:02.801Z
 author: content/authors/joe-taylor.md
 title: Are You on Track for Retirement? How to Find Out
 description: 'If you''re in your 40s or 50s, you could be feeling like you should do something about your retirement but aren’t sure what that is. You might check your KiwiSaver balance now and then but maybe nobody has given you a proper way to check whether what you''re doing is enough.'
