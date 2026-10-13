@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2026-10-12T22:46:46.314Z
+draft: false
+date: 2026-09-28T19:53:39.496Z
 author: content/authors/joe-taylor.md
 title: 'Your KiwiSaver Questions Answered: The Most Common FAQs'
 description: 'KiwiSaver is simple in theory. You join, you contribute and your money grows. But you might have a few specific questions about it, such as “can I pause my contributions?”,  “what happens when I turn 65?” or “do I have to tell my employer if I switch providers?”'

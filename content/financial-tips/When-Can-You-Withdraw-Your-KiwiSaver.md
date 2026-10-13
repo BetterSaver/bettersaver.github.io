@@ -1,6 +1,6 @@
 ---
-draft: true
-date: 2026-10-12T22:18:35.851Z
+draft: false
+date: 2026-09-17T04:35:49.929Z
 author: content/authors/joe-taylor.md
 title: When Can You Withdraw Your KiwiSaver?
 description: 'KiwiSaver isn''t just locked away until you turn 65. Depending on your situation, you might be able to withdraw some or all of your savings earlier, whether you''re buying your first home, facing significant financial hardship, dealing with a serious illness or permanently leaving New Zealand.'
