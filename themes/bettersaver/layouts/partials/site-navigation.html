@@ -1,4 +1,9 @@
-<nav class="fixed top w-full items-center {{ with eq .Page.Title "BetterSaver: How it works" }} light {{ end }} {{ if eq .IsHome true }} light {{ end }}{{ if eq .Page.RelPermalink "/pages/how-to-change-your-kiwisaver-provider/" }} light {{ end }}" role="navigation" id="site-nav-bar" x-data="{
+{{/* Pages with a dark hero behind the nav need white link text and a white
+     burger (the `light` class). Keyed on permalink, not title: the title is
+     editable in TinaCMS, and a rename silently dropped how-it-works out of
+     this list once already. */}}
+{{- $lightNav := slice "/pages/how-it-works/" "/pages/how-to-change-your-kiwisaver-provider/" -}}
+<nav class="fixed top w-full items-center{{ if or .IsHome (in $lightNav .RelPermalink) }} light{{ end }}" role="navigation" id="site-nav-bar" x-data="{
     mobile_menu_open: false,
     isLoggedIn: false,
     dashboardUrl: '{{ .Site.Params.appUrl }}/dashboard',

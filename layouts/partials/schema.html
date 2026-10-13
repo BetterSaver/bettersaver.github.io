@@ -23,9 +23,22 @@
 {{- end }}
 {{- $custom = $custom | strings.TrimSpace }}
 
+{{/* A page block can ship its own schema as partials/schema-<block>.html,
+     generated from the same front matter as the page (e.g. Recommended
+     KiwiSaver schemes' ItemList). It replaces the auto-generated blocks. */}}
+{{- $blockSchema := "" }}
+{{- with .Params.page_block }}
+  {{- $candidate := printf "schema-%s.html" (strings.TrimPrefix "block-" .) }}
+  {{- if templates.Exists (printf "partials/%s" $candidate) }}
+    {{- $blockSchema = $candidate }}
+  {{- end }}
+{{- end }}
+
 {{- if $custom }}
 {{/* custom_schema already includes its own <script type="application/ld+json"> wrapper */}}
 {{ $custom | safeHTML }}
+{{- else if $blockSchema }}
+{{ partial $blockSchema . }}
 {{- else }}
 
 {{/* WebSite — homepage only */}}

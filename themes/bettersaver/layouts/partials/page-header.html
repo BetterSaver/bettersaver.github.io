@@ -43,32 +43,14 @@
   </div>
 </header>
 {{ else }}
-<header class="relative" x-data="{
-  init() {
-    setTimeout(() => {
-      this.resizeGreyBg();
-    }, 100);
-  },
-  resizeGreyBg() {
-    // resize grey bg to be near the bottom of the image, where ever that might land
-    const bg = document.querySelector('.bg-grey-fullpage-screen');
-    const blogContent = document.querySelector('#blog-content');
-    const top = this.getElementPosition(blogContent).top-200;
-    bg.style.height = top + 'px';
-  },
-  getElementPosition(element) {
-    const rect = element.getBoundingClientRect();
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-    return {
-        top: rect.top + scrollTop,
-        left: rect.left + scrollLeft
-    };
-  }
-}">
+<header class="relative">
   {{ partial "site-navigation.html" . }}
 
+  {{/* Pages with a hero image get their grey from .hero-image-offset in base.css,
+       which ends just above the image's bottom edge. */}}
+  {{ if not (and .IsPage .Params.img_src) }}
   <div class="bg-grey-bg-mid absolute top-0 left-0 right-0 bottom-0 -z-[1] w-full h-[80vh] min-[600px]:h-[60vh] pt-10"></div>
+  {{ end }}
 </header>
 <div class="pt-10"></div>
 {{ end }}

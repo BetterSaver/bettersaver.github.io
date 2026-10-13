@@ -1,0 +1,29 @@
+{{/* Final "Find a better KiwiSaver" CTA.
+
+     Shared by the About, How it works, How we analyse and How to change your
+     provider page blocks — previously copy-pasted into all four.
+
+     The outer wrappers (.about-page / .ab-page, and How it works' grey
+     background) stay at the call sites, because they differ per page.
+
+     Params:
+       cta_heading      — required, the headline
+       cta_body         — optional lead-in paragraph(s) above the button
+       cta_button_label — optional; button renders only if set
+       cta_button_url   — supports the {{appUrl}} placeholder
+       cta_subnote      — optional fine print below the button
+*/}}
+{{- $appUrl := .Site.Params.appUrl -}}
+<section class="ab-final-cta">
+  <h2>{{ .Params.cta_heading | markdownify }}</h2>
+  {{ with .Params.cta_body }}
+  <div class="ab-body">{{ . | markdownify }}</div>
+  {{ end }}
+  {{ with .Params.cta_button_label }}
+  {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
+  <a class="button" href="{{ $url }}">{{ . }}</a>
+  {{ end }}
+  {{ with .Params.cta_subnote }}
+  <div class="ab-subnote">{{ . | markdownify }}</div>
+  {{ end }}
+</section>

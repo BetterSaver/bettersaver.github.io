@@ -83,16 +83,11 @@
 
 
 /* ======== BANDS ======== */
-.how-we-analyse-page .band-blue {
+.how-we-analyse-page .band-grey {
     background: var(--grey-bg-light);
     padding: 96px 0;
     margin: 0;
     position: relative;
-}
-
-.how-we-analyse-page .band-cream {
-    background: var(--grey-bg-light);
-    padding: 96px 0;
 }
 
 /* ======== TRUST STRIP ======== */
@@ -524,7 +519,7 @@
     z-index: 1;
 }
 
-/* .how-we-analyse-page .band-blue .vframe {
+/* .how-we-analyse-page .band-grey .vframe {
     box-shadow: 0 20px 40px -20px rgba(36, 46, 84, .25), 0 4px 12px -6px rgba(36, 46, 84, .15);
 } */
 
@@ -569,13 +564,9 @@
     z-index: 0;
 }
 
-.how-we-analyse-page .band-blue .deep-visual::before {
+.how-we-analyse-page .band-grey .deep-visual::before {
     background: #fff;
     opacity: .6;
-}
-
-.how-we-analyse-page .band-cream .deep-visual::before {
-    background: #fff;
 }
 
 /* performance chart viz */
@@ -1160,7 +1151,7 @@
 }
 
 .how-we-analyse-page .tcard.white {
-    background: #fff;}
+    background: #fff;
 }
 
 .how-we-analyse-page .tcard img {
@@ -1370,8 +1361,7 @@
     .how-we-analyse-page .cadence { grid-template-columns: 1fr; gap: 16px; padding: 26px; }
     .how-we-analyse-page .cadence .lab { text-align: left; }
     .change-provider-page .cadence .badge-c, .how-we-analyse-page .cadence .badge-c { text-align: center; padding-top: 15px }
-    /* .how-we-analyse-page .band-blue,
-    .how-we-analyse-page .band-cream { padding: 64px 0; } */
+    /* .how-we-analyse-page .band-grey { padding: 64px 0; } */
     .how-we-analyse-page .quote-anchor .body { font-size: 24px; }
     .how-we-analyse-page .weighting-table { min-width: 560px; }
     .how-we-analyse-page .copy-block { grid-template-columns: 1fr; gap: 2px; }
@@ -1395,6 +1385,61 @@
 /* Change-provider page overrides */
 .change-provider-page .tcard .notice { font-style: normal; }
 .change-provider-page .quote-anchor .body { text-align: center; }
+/* ===== Alternating white / grey bands =====
+   Sections down this page alternate white → grey → white, the grey coming
+   from the shared `.band-grey` band.
+
+   Two knock-on fixes so the flipped sections still read correctly:
+   1. `.checks-head` carries its own 96px top padding for use on white
+      sections; inside a band that would stack on top of the band's own 96px.
+   2. `.principle` cards are hardcoded white to sit on the grey band. On this
+      page that band is now white, so the cards go grey to stay visible. */
+.change-provider-page .band-grey .checks-head {
+    padding-top: 0;
+}
+
+.change-provider-page .principle {
+    background: var(--grey-bg-mid);
+}
+
+/* Full-width intro copy ("Why BetterSaver", "Who am I with?"). These
+   checks-heads run the full page width, unlike the others which sit in a
+   two-column grid, so constrain the running copy to a readable measure and
+   keep the lead-in line tight against the cards below. */
+.change-provider-page .prose-head h2,
+.change-provider-page .prose-head p {
+    max-width: 780px;
+}
+.change-provider-page .prose-head p:last-child {
+    margin-bottom: 0;
+}
+
+/* Body copy rendered from markdown, so multi-paragraph values work. These
+   used to be <p> wrappers with inline styles, which couldn't legally hold the
+   <p> elements markdownify emits — content had to use <br/><br/> to break,
+   and TinaCMS strips those when it rewrites a field as a YAML block scalar.
+   .how-we-analyse-page p zeroes margins, hence the explicit p + p spacing. */
+.change-provider-page .prose-copy {
+    font-size: 16px;
+    color: var(--grey-mid);
+    line-height: 1.6;
+    margin-top: 18px;
+}
+
+.change-provider-page .prose-copy p + p,
+.change-provider-page .cadence .sub p + p {
+    margin-top: 14px;
+}
+
+/* Closing line that sits below a card row rather than above it. */
+.change-provider-page .prose-footnote {
+    max-width: 780px;
+    margin: 32px 0 0;
+    font-size: 17px;
+    color: var(--grey-mid);
+    line-height: 1.6;
+}
+
 .change-provider-page .tcard .path-illo {
     display: block;
     width: auto;
@@ -1404,3 +1449,100 @@
     margin: 24px auto 0;
 }
 
+
+/* ===== Recommended KiwiSaver funds (#735) ===== */
+
+.recommended-schemes-page .fund-group {
+    margin-top: 56px;
+}
+
+.recommended-schemes-page .fund-group h3 {
+    margin-bottom: 8px;
+}
+
+.recommended-schemes-page .fund-group > p {
+    max-width: 760px;
+    margin: 0 0 20px;
+    color: var(--grey-mid);
+}
+
+/* Real <table>s (they carry the ItemList schema). The wrapper scrolls
+   sideways on narrow screens rather than squashing the columns. */
+.recommended-schemes-page .fund-table-wrap {
+    border: 1px solid var(--grey-bg-mid);
+    border-radius: 16px;
+    background: var(--white);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.recommended-schemes-page .fund-table-wrap:focus-visible {
+    outline: 2px solid var(--purple-contrast);
+    outline-offset: 2px;
+}
+
+.recommended-schemes-page .fund-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-size: 14.5px;
+}
+
+.recommended-schemes-page .fund-table thead tr {
+    background: var(--blue-navy);
+}
+
+.recommended-schemes-page .fund-table th {
+    text-align: left;
+    padding: 14px 12px;
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.recommended-schemes-page .fund-table td {
+    text-align: left;
+    padding: 12px;
+    color: var(--blue-navy);
+    vertical-align: top;
+}
+
+.recommended-schemes-page .fund-table tbody tr {
+    border-bottom: 1px solid var(--grey-bg-mid);
+}
+
+.recommended-schemes-page .fund-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.recommended-schemes-page .fund-table th:first-child,
+.recommended-schemes-page .fund-table td:first-child {
+    padding-left: 18px;
+}
+
+.recommended-schemes-page .fund-table th:last-child,
+.recommended-schemes-page .fund-table td:last-child {
+    padding-right: 18px;
+}
+
+.recommended-schemes-page .fund-table .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.recommended-schemes-page .fund-table .partner {
+    text-align: center;
+}
+
+.recommended-schemes-page .fund-table-nr {
+    min-width: 900px;
+}
+
+.recommended-schemes-page .fund-table .reason p {
+    margin: 0;
+}
+
+.recommended-schemes-page .important-info {
+    max-width: 780px;
+}

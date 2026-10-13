@@ -163,7 +163,7 @@
 <div class="how-we-analyse-page">
 
   {{/* WHY INDEPENDENT ADVICE MATTERS */}}
-  <section class="band-blue">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="principles-head" style="margin-bottom:0">
         {{ with .Params.independent_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
@@ -207,15 +207,6 @@
 {{/* FINAL CTA — mirrors the About page "Find a better KiwiSaver today" section */}}
 <div class="about-page" style="background: var(--grey-bg-light)">
   <div class="ab-page">
-    <section class="ab-final-cta">
-      <h2>{{ .Params.cta_heading | markdownify }}</h2>
-      {{ with .Params.cta_button_label }}
-      {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
-      <a class="button" href="{{ $url }}">{{ . }}</a>
-      {{ end }}
-      {{ with .Params.cta_subnote }}
-      <div class="ab-subnote">{{ . }}</div>
-      {{ end }}
-    </section>
+    {{ partial "final-cta.html" . }}
   </div>
 </div>

@@ -19,7 +19,7 @@
   </div>
 
   {{/* STEPS — three things we do differently */}}
-  <section class="band-blue">
+  <section class="band-grey">
     <div class="ab-page">
       <div class="ab-steps-head">
         <div class="section-tag">{{ .Params.steps_tag }}</div>
@@ -99,16 +99,7 @@
 
   {{/* FINAL CTA */}}
   <div class="ab-page">
-    <section class="ab-final-cta">
-      <h2>{{ .Params.cta_heading | markdownify }}</h2>
-      {{ with .Params.cta_button_label }}
-      {{ $url := replace ($.Params.cta_button_url | default "") "{{appUrl}}" $appUrl }}
-      <a class="button" href="{{ $url }}">{{ . }}</a>
-      {{ end }}
-      {{ with .Params.cta_subnote }}
-      <div class="ab-subnote">{{ . }}</div>
-      {{ end }}
-    </section>
+    {{ partial "final-cta.html" . }}
   </div>
 
 </div>
