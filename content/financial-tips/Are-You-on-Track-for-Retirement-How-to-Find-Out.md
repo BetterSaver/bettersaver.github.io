@@ -4,6 +4,7 @@ date: 2026-10-12T23:53:31.539Z
 author: content/authors/joe-taylor.md
 title: Are You on Track for Retirement? How to Find Out
 description: 'If you''re in your 40s or 50s, you could be feeling like you should do something about your retirement but aren’t sure what that is. You might check your KiwiSaver balance now and then but maybe nobody has given you a proper way to check whether what you''re doing is enough.'
+img_src: /uploads/iStock-2152145175.jpg
 seo:
   title: Are You on Track for Retirement?
   description: 'Work out if your KiwiSaver and NZ Super will cover your retirement in NZ, with real numbers, a simple check and advice on your next steps.'
@@ -52,7 +53,7 @@ If you line those figures up against the retirement cost research, three gaps ap
 
 A couple wanting a “choices” (comfortable, not extravagant) retirement faces a shortfall of roughly $926 a week against their combined NZ Super, close to $48,200 a year that has to be found from somewhere else (KiwiSaver, other savings, an investment property or continuing to work in some capacity).
 
-The NZ Super amount was never designed to fund a comfortable lifestyle on its own. It's a universal base for everyone to top up. Knowing the actual size of the gap is what lets you plan around it. 
+The NZ Super amount was never designed to fund a comfortable lifestyle on its own. It's a universal base for everyone to top up. Knowing the actual size of the gap is what lets you plan around it.
 
 ## How to calculate whether you're on track
 
@@ -116,6 +117,6 @@ Yes, it's one of the more commonly overlooked levers. Many people stay in the sa
 
 ## Take stock of your KiwiSaver fund
 
-By now you have something most people never get around to building, which is an actual number, or a real method for finding one, instead of a vague sense that you should probably be doing more. 
+By now you have something most people never get around to building, which is an actual number, or a real method for finding one, instead of a vague sense that you should probably be doing more.
 
-The natural next step is checking your KiwiSaver balance, contribution rate and fund. BetterSaver's free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) can give you a quick, independent comparison across 300+ KiwiSaver funds to see whether yours still fits where you're headed. 
+The natural next step is checking your KiwiSaver balance, contribution rate and fund. BetterSaver's free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) can give you a quick, independent comparison across 300+ KiwiSaver funds to see whether yours still fits where you're headed.
