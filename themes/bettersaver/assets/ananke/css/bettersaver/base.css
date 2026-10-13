@@ -263,6 +263,29 @@ table {
     }
 }
 
+/* Article hero image that overhangs the grey page-top background.
+   The grey is a pseudo-element ending min(200px, 40%) above the image's bottom
+   edge; its spread box-shadow paints it up to the page top and out to both
+   viewport edges, and clip-path trims the shadow's downward spread so the cut
+   line stays put. Pure CSS, so it tracks image load, resize and title length.
+   page-header.html skips its fixed-height grey on pages with an img_src. */
+.hero-image-offset {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: min(200px, 40%);
+        z-index: -1;
+        background-color: var(--grey-bg-mid);
+        box-shadow: 0 0 0 200vmax var(--grey-bg-mid);
+        clip-path: inset(-200vmax -200vmax 0 -200vmax);
+    }
+}
+
 /* page width */
 .content {
     max-width: var(--content-width-wide);

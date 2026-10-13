@@ -64,7 +64,9 @@
     </div>
 
     {{ if .Params.img_src }}
-    <img src="{{ .Params.img_src }}" alt="{{ .Params.imgAlt }}" class="rounded">
+    <div class="hero-image-offset">
+      <img src="{{ .Params.img_src }}" alt="{{ .Params.imgAlt }}" class="rounded">
+    </div>
     {{ end }}
 
   </header>
