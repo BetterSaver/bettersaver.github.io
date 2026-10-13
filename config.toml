@@ -132,24 +132,34 @@ enableRobotsTXT = true
     weight = 3
 
     [[menus.footer_left]]
+    name = "Recommended funds"
+    url = "/recommended-kiwisaver-funds/"
+    weight = 4
+
+    [[menus.footer_left]]
+    name = "How to join KiwiSaver"
+    url = "/pages/how-to-join-kiwisaver"
+    weight = 5
+
+    [[menus.footer_left]]
     name = "How to change KiwiSaver"
     url = "/pages/how-to-change-your-kiwisaver-provider"
-    weight = 4
+    weight = 6
 
     [[menus.footer_left]]
     name = "About us"
     url = "/pages/about"
-    weight = 5
+    weight = 7
 
     [[menus.footer_left]]
     name = "Financial tips"
     url = "/financial-tips"
-    weight = 6
+    weight = 8
 
     [[menus.footer_left]]
     name = "My account"
     url = "gets-injected-in-page"
-    weight = 7
+    weight = 9
 
     # footer right
     [[menus.footer_right]]
