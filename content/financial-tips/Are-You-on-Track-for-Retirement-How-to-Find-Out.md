@@ -8,6 +8,186 @@ img_src: /uploads/iStock-2152145175.jpg
 seo:
   title: Are You on Track for Retirement?
   description: 'Work out if your KiwiSaver and NZ Super will cover your retirement in NZ, with real numbers, a simple check and advice on your next steps.'
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "description": "A New Zealand licensed Financial Advice Provider helping people compare KiwiSaver funds and find options suited to their goals, risk comfort and preferences."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/",
+          "name": "Are You on Track for Retirement? How to Find Out",
+          "description": "Learn how much retirement costs in New Zealand, how NZ Super fits in, and how to estimate your retirement savings gap using a practical four-step method.",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#article"
+          },
+          "hasPart": {
+            "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#faq"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Are You on Track for Retirement? How to Find Out",
+              "item": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#article",
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#webpage"
+          },
+          "headline": "Are You on Track for Retirement? How to Find Out",
+          "description": "A practical guide to retirement spending in New Zealand, NZ Super rates, calculating your retirement savings gap, and reviewing your KiwiSaver contributions and fund.",
+          "datePublished": "2026-10-05",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/in/taylorja"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "retirement planning New Zealand",
+            "retirement savings",
+            "NZ Super",
+            "KiwiSaver",
+            "retirement spending",
+            "KiwiSaver contributions",
+            "retirement savings gap",
+            "retirement calculator"
+          ],
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Retirement planning"
+            },
+            {
+              "@type": "Thing",
+              "name": "KiwiSaver"
+            },
+            {
+              "@type": "Thing",
+              "name": "New Zealand Superannuation"
+            },
+            {
+              "@type": "Thing",
+              "name": "Personal finance"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#faq",
+          "url": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/",
+          "name": "Are You on Track for Retirement? — Frequently Asked Questions",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/are-you-on-track-for-retirement-how-to-find-out/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much KiwiSaver do I need to retire in NZ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There’s no single number that fits everyone, but you can build your own using the four-step method above (target spending, subtract expected NZ Super, multiply by expected retirement length and compare to your current trajectory). It’s a useful starting point rather than a hard target."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is NZ Super enough to live on in retirement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For a no-frills lifestyle, NZ Super gets most people most of the way there, but generally still leaves a gap. For a more comfortable “choices” lifestyle, the gap is considerably larger, potentially several hundred dollars a week for a couple. It’s a solid floor, not a full retirement income on its own."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What’s the average KiwiSaver balance for my age?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Average balances vary widely by provider and are published periodically by Inland Revenue and individual fund managers, but averages can mislead, since they’re skewed by a relatively small number of very large balances. Your own target, based on your own spending and NZ Super entitlement, is a far more useful comparison."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can I do if I’m behind on retirement savings?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Start by getting a clear number, rather than staying in vague worry mode. From there, the main levers are reviewing your fund type, considering a higher contribution rate if you can afford it and checking you’re not paying unnecessarily high fees for your fund’s performance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I retire before 65 and still get NZ Super later?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can stop working and draw on other savings, including KiwiSaver, before 65, and NZ Super entitlement simply begins once you reach qualifying age and meet the residency requirements, regardless of when you stopped working."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does my KiwiSaver fund type matter as I get closer to retirement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it’s one of the more commonly overlooked levers. Many people stay in the same fund type for decades without reviewing it, even though their timeline and risk tolerance have changed substantially. It’s worth revisiting every few years, and especially in the decade before you plan to retire."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 In this article, we’ll use [the real NZ Super rates](https://www.workandincome.govt.nz/eligibility/seniors/superannuation/how-much-you-can-get.html) that apply from 1 April 2026 alongside [independent New Zealand research](https://financialadvice.nz/Common/Uploaded%20files/Research/Massey-University-NEW-ZEALAND-RETIREMENT-June-2025.pdf) to discuss what retirement actually costs, how far NZ Super gets you on its own and a simple method for sizing the gap in your own situation.
