@@ -57,5 +57,150 @@ cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_subnote: Takes 2–5 minutes & It's free
+seo:
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "description": "A New Zealand licensed Financial Advice Provider helping people compare KiwiSaver funds and find options suited to their goals, risk comfort and preferences."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/pages/how-it-works/#webpage",
+          "url": "https://bettersaver.co.nz/pages/how-it-works/",
+          "name": "How Our KiwiSaver Advice Works",
+          "description": "Learn how BetterSaver provides personalised KiwiSaver advice, compares funds, helps you switch providers, and supports you in tracking your financial goals.",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/pages/how-it-works/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/pages/how-it-works/#howto"
+          },
+          "hasPart": {
+            "@id": "https://bettersaver.co.nz/pages/how-it-works/#faq"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/pages/how-it-works/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "How Our KiwiSaver Advice Works",
+              "item": "https://bettersaver.co.nz/pages/how-it-works/"
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://bettersaver.co.nz/pages/how-it-works/#howto",
+          "name": "How BetterSaver's KiwiSaver advice process works",
+          "description": "BetterSaver helps people find a suitable KiwiSaver fund based on their goals, risk comfort and preferences, supports them through switching, and provides tools to monitor their progress.",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Tell us about your goals and preferences",
+              "text": "Answer questions about whether you're saving for your first home or retirement, how comfortable you are with investment ups and downs, and whether you have preferences about the industries your money supports."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Get your recommended KiwiSaver scheme",
+              "text": "BetterSaver analyses KiwiSaver options using independent data from Morningstar and compares funds on performance, fees, risk and investments. It identifies a scheme that fits your situation and helps you compare options."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Switch and track your progress",
+              "text": "Once you're happy with your recommendation, BetterSaver helps handle the switch. After switching, you can use a dashboard, tools and prompts to monitor your KiwiSaver progress and review whether your advice still suits your circumstances."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/pages/how-it-works/#faq",
+          "url": "https://bettersaver.co.nz/pages/how-it-works/",
+          "name": "How Our KiwiSaver Advice Works — Frequently Asked Questions",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/pages/how-it-works/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is KiwiSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "KiwiSaver is a long term savings scheme set up by the New Zealand Government to help you build wealth for retirement. For many Kiwis, it ends up being their biggest or second biggest asset after their home. That is why being in the right fund matters."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I switch KiwiSaver providers at any time?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can switch whenever you want."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is BetterSaver free to use?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The quiz and recommendation are free. You still pay the fund fees to your chosen provider, as normal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I just go direct to a provider?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Providers will only promote and recommend their own funds. BetterSaver is independent, looks across the market, and gives you a straight answer about what fits you best."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you compare the whole KiwiSaver market?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We analyse the whole market, but only recommend funds that meet our quality criteria. Payments from providers do not impact our recommendations. If a provider does not support switching through BetterSaver it may limit our ongoing support."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
