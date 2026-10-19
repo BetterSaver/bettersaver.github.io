@@ -10,6 +10,169 @@ seo:
   description: |
     Planning to use your KiwiSaver for your first home deposit? This guide covers eligibility, how much you can withdraw and how the process works.
   keywords: 'kiwisaver first home withdrawal, kiwisaver first home buyer, kiwisaver first home, first home grant kiwisaver'
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/",
+          "name": "The First Home Buyer's Complete Guide to KiwiSaver",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#article"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "The First Home Buyer's Complete Guide to KiwiSaver",
+              "item": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#article",
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#webpage"
+          },
+          "headline": "The First Home Buyer's Complete Guide to KiwiSaver",
+          "description": "A guide to using KiwiSaver to buy your first home in New Zealand, covering eligibility, withdrawal amounts, fund selection, the application process, buying with a partner and alternatives to the discontinued First Home Grant.",
+          "datePublished": "2026-08-17",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/in/taylorja"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "KiwiSaver first home withdrawal",
+            "first home buyer New Zealand",
+            "KiwiSaver withdrawal eligibility",
+            "KiwiSaver first home deposit",
+            "KiwiSaver fund types",
+            "First Home Loan",
+            "Kāinga Ora"
+          ],
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "KiwiSaver"
+            },
+            {
+              "@type": "Thing",
+              "name": "First-home buying"
+            },
+            {
+              "@type": "Thing",
+              "name": "Home deposits"
+            },
+            {
+              "@type": "Thing",
+              "name": "New Zealand personal finance"
+            }
+          ],
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#faq",
+          "url": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/the-first-home-buyers-complete-guide-to-kiwisaver/#webpage"
+          },
+          "inLanguage": "en-NZ",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I Use My KiwiSaver to Buy a First Home If I’ve Owned Property Before?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Possibly. If you’ve previously owned property but no longer do, you may still qualify as a previous home owner through Kāinga Ora’s eligibility process. Kāinga Ora will assess whether your current financial position is similar to that of a first-home buyer. If you qualify, they’ll issue a letter that you can forward to your KiwiSaver provider."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the $1,000 Left Behind Come Back to Me?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The $1,000 stays in your KiwiSaver account and continues to grow. It’s a minimum balance requirement, not a permanent deduction. Once you’re back to saving for retirement, your ongoing contributions are added on top of it."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How Long Does the Withdrawal Process Take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most KiwiSaver providers process first-home withdrawals within a few weeks. The funds go directly to your solicitor’s trust account on or before settlement day, rather than being paid to you. Start the application as soon as you have a signed Sale and Purchase Agreement."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can My Partner and I Both Withdraw Our KiwiSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, as long as you both independently meet the eligibility criteria, including at least three years of KiwiSaver membership, buying your first home and intending to live in it. Each withdrawal is assessed separately."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the Government Contribution Get Withdrawn Too?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The government contribution is included in the amount you can withdraw for an eligible first-home purchase, alongside your own contributions, your employer’s contributions and investment returns. You do not have to leave the government contribution behind."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 If you’ve been working and contributing for three or more years, there’s a good chance you can access almost all of your KiwiSaver balance to put toward your first home.
