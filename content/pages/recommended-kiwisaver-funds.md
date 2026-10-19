@@ -374,5 +374,283 @@ seo:
   title: Best KiwiSaver Schemes in NZ | Recommended Funds | BetterSaver
   description: 'See which KiwiSaver schemes BetterSaver recommends - and which ones we don''t. Independent analysis across performance, fees, and fund quality.'
   schema_type: WebPage
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "description": "A New Zealand licensed Financial Advice Provider helping people compare KiwiSaver funds and find options suited to their goals, risk comfort and preferences."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#webpage",
+          "url": "https://bettersaver.co.nz/recommended-kiwisaver-funds/",
+          "name": "Recommended KiwiSaver Funds",
+          "description": "Compare BetterSaver's recommended KiwiSaver funds across five risk categories: Defensive, Conservative, Balanced, Growth and Aggressive. Funds are assessed on performance, fees, consistency and quality.",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#fund-collections"
+          },
+          "hasPart": {
+            "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#faq"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Recommended KiwiSaver Funds",
+              "item": "https://bettersaver.co.nz/recommended-kiwisaver-funds/"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#fund-collections",
+          "name": "Recommended KiwiSaver funds by risk category",
+          "description": "KiwiSaver funds recommended by BetterSaver, grouped by risk category.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#defensive"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#conservative"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#balanced"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#growth"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#aggressive"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#defensive",
+          "name": "Recommended Defensive KiwiSaver Funds",
+          "description": "Lower-risk funds, typically holding more cash and bonds, suited to shorter timeframes or people who need their money soon.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"ANZ Default KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":2,"name":"ANZ KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":3,"name":"ASB KiwiSaver Scheme — NZ Cash Fund"},
+            {"@type":"ListItem","position":4,"name":"BNZ KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":5,"name":"Fisher Funds KiwiSaver Plan — Cash Fund"},
+            {"@type":"ListItem","position":6,"name":"Investnow KiwiSaver — Mercer Macquarie NZ Cash Fund"},
+            {"@type":"ListItem","position":7,"name":"Investnow KiwiSaver Scheme — Macquarie NZ Cash Fund"},
+            {"@type":"ListItem","position":8,"name":"MAS KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":9,"name":"Mercer KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":10,"name":"Milford KiwiSaver Plan — KiwiSaver Cash Fund"},
+            {"@type":"ListItem","position":11,"name":"OneAnswer KiwiSaver Scheme — Cash Fund"},
+            {"@type":"ListItem","position":12,"name":"Summer KiwiSaver Scheme — New Zealand Cash"},
+            {"@type":"ListItem","position":13,"name":"SuperLife KiwiSaver Scheme — NZ Cash Fund"},
+            {"@type":"ListItem","position":14,"name":"Westpac KiwiSaver Scheme — Cash Fund"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#conservative",
+          "name": "Recommended Conservative KiwiSaver Funds",
+          "description": "Lower-to-medium-risk funds that usually combine income assets with a smaller share of growth assets.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"BNZ KiwiSaver Scheme — First Home Buyer Fund"},
+            {"@type":"ListItem","position":2,"name":"Booster KiwiSaver Scheme — Capital Guaranteed"},
+            {"@type":"ListItem","position":3,"name":"Fisher Funds KiwiSaver Plan — Core Conservative Fund"},
+            {"@type":"ListItem","position":4,"name":"Investnow KiwiSaver — Milford Conservative Fund"},
+            {"@type":"ListItem","position":5,"name":"Milford KiwiSaver Plan — Conservative Fund"},
+            {"@type":"ListItem","position":6,"name":"Pathfinder KiwiSaver Plan — Conservative Fund"},
+            {"@type":"ListItem","position":7,"name":"QuayStreet KiwiSaver Scheme — Conservative Fund"},
+            {"@type":"ListItem","position":8,"name":"QuayStreet KiwiSaver Scheme — Income"},
+            {"@type":"ListItem","position":9,"name":"Summer KiwiSaver Scheme — Conservative Selection"},
+            {"@type":"ListItem","position":10,"name":"SuperLife KiwiSaver Scheme — Conservative Fund"},
+            {"@type":"ListItem","position":11,"name":"Westpac KiwiSaver Scheme — Conservative Fund"},
+            {"@type":"ListItem","position":12,"name":"Westpac KiwiSaver Scheme — Defensive Conservative Fund"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#balanced",
+          "name": "Recommended Balanced KiwiSaver Funds",
+          "description": "Medium-risk funds that combine growth assets and income assets.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"ASB KiwiSaver Scheme — Balanced Fund"},
+            {"@type":"ListItem","position":2,"name":"Investnow KiwiSaver — Milford Balanced Fund"},
+            {"@type":"ListItem","position":3,"name":"Investnow KiwiSaver Scheme — Foundation Series Balanced Fund"},
+            {"@type":"ListItem","position":4,"name":"Milford KiwiSaver Plan — Balanced Fund"},
+            {"@type":"ListItem","position":5,"name":"Pathfinder KiwiSaver Plan — Balanced Fund"},
+            {"@type":"ListItem","position":6,"name":"QuayStreet KiwiSaver Scheme — Balanced Fund"},
+            {"@type":"ListItem","position":7,"name":"QuayStreet KiwiSaver Scheme — Socially Responsible Investment"},
+            {"@type":"ListItem","position":8,"name":"SuperLife KiwiSaver Scheme — Balanced Fund"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#growth",
+          "name": "Recommended Growth KiwiSaver Funds",
+          "description": "Higher-risk funds that typically have greater exposure to shares and other growth assets, suited to longer investment timeframes.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"AMP KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":2,"name":"ASB KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":3,"name":"BNZ KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":4,"name":"Generate KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":5,"name":"Investnow KiwiSaver Scheme — Foundation Series Growth Fund"},
+            {"@type":"ListItem","position":6,"name":"MAS KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":7,"name":"Mercer KiwiSaver Scheme — Responsible Growth Fund"},
+            {"@type":"ListItem","position":8,"name":"Milford KiwiSaver Plan — Active Growth Fund"},
+            {"@type":"ListItem","position":9,"name":"Pathfinder KiwiSaver Plan — Growth Fund"},
+            {"@type":"ListItem","position":10,"name":"QuayStreet KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":11,"name":"Simplicity KiwiSaver Scheme — Growth Fund"},
+            {"@type":"ListItem","position":12,"name":"SuperLife KiwiSaver Scheme — Growth Fund"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#aggressive",
+          "name": "Recommended Aggressive KiwiSaver Funds",
+          "description": "Highest-risk funds, typically invested mostly in shares and suited to long investment timeframes and investors comfortable with larger market movements.",
+          "itemListOrder": "https://schema.org/ItemListUnordered",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"Booster KiwiSaver Scheme — Geared Growth Fund"},
+            {"@type":"ListItem","position":2,"name":"Booster KiwiSaver Scheme — Socially Responsible High Growth Fund"},
+            {"@type":"ListItem","position":3,"name":"Generate KiwiSaver Scheme — Focused Growth Fund"},
+            {"@type":"ListItem","position":4,"name":"MAS KiwiSaver Scheme — Global Equities"},
+            {"@type":"ListItem","position":5,"name":"Mercer KiwiSaver Scheme — Responsible Shares"},
+            {"@type":"ListItem","position":6,"name":"Milford KiwiSaver Plan — Aggressive Fund"},
+            {"@type":"ListItem","position":7,"name":"SBS Wealth KiwiSaver Scheme — High Growth Fund"},
+            {"@type":"ListItem","position":8,"name":"SuperLife KiwiSaver Scheme — High Growth Fund"}
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#faq",
+          "url": "https://bettersaver.co.nz/recommended-kiwisaver-funds/",
+          "name": "Recommended KiwiSaver Funds — Frequently Asked Questions",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/recommended-kiwisaver-funds/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best KiwiSaver scheme in New Zealand?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There is no single answer that works for everyone. The right scheme depends on your timeframe, your comfort with market ups and downs, and how you want your money invested. A fund that suits somebody retiring in three years is the wrong fund for somebody retiring in thirty. BetterSaver assesses every scheme in the market on performance, fees, consistency, downside risk and fund quality, then recommends the one that fits your situation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which KiwiSaver scheme performs best?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends on the timeframe and the risk type, and short term figures can be misleading. A growth fund will usually out-return a conservative fund over ten years, and usually fall further when markets drop. We look at returns over five and ten years against each fund’s peer group, so you are comparing like with like. Past performance is not a reliable indicator of future performance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does BetterSaver decide which schemes to recommend?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Five checks on every fund: performance against its peer group, fees relative to value, consistency of returns over time, behaviour in falling markets, and a set of quality indicators. We use independent market data and information published by providers, and we review the list quarterly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "If a scheme is not on the recommended list, is it a bad scheme?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. It means it did not meet our criteria at the last review, that it does not yet have the five years of comparable data we require, or that it is a single-sector fund we would not recommend as someone’s main KiwiSaver. It is not advice to leave that scheme, and funds move between the lists over time."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is BetterSaver independent?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. BetterSaver is a licensed Financial Advice Provider (FSP 600609). We do not manage any KiwiSaver schemes ourselves. We may be paid a commission by some providers, but that does not affect which funds make the list. More funds from providers we could be paid for miss the list than make it."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How often is this list updated?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We review it quarterly, and sooner if new performance data or fee disclosures change the picture. The last review date is shown at the top of this page."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I switch KiwiSaver scheme through BetterSaver?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In most cases, yes. Once you have your recommendation you can complete the switch through BetterSaver and we handle the transfer with your new provider. Some providers do not support switching through our platform, and we will tell you if yours is one of them. See how to switch your KiwiSaver provider."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
