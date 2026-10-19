@@ -8,6 +8,178 @@ img_src: /uploads/raining-money.jpg
 seo:
   title: 'KiwiSaver Withdrawal Rules: When Can You Access Your Money?'
   description: 'Here''s exactly when you can access your KiwiSaver, from retirement to buying your first home, hardship and more.'
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/",
+          "name": "KiwiSaver Withdrawal Rules: When Can You Access Your Money?",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#article"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "KiwiSaver Withdrawal Rules: When Can You Access Your Money?",
+              "item": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#article",
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#webpage"
+          },
+          "headline": "KiwiSaver Withdrawal Rules: When Can You Access Your Money?",
+          "description": "Learn when you can withdraw your KiwiSaver savings, including at retirement, for a first home, during financial hardship, due to serious illness or when permanently leaving New Zealand.",
+          "datePublished": "2026-09-17",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/in/taylorja"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "KiwiSaver withdrawals",
+            "KiwiSaver withdrawal rules",
+            "KiwiSaver hardship withdrawal",
+            "KiwiSaver first home withdrawal",
+            "KiwiSaver retirement withdrawal",
+            "KiwiSaver serious illness",
+            "KiwiSaver permanent emigration",
+            "New Zealand personal finance"
+          ],
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "KiwiSaver"
+            },
+            {
+              "@type": "Thing",
+              "name": "Retirement savings"
+            },
+            {
+              "@type": "Thing",
+              "name": "First-home withdrawals"
+            },
+            {
+              "@type": "Thing",
+              "name": "Financial hardship"
+            }
+          ],
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#faq",
+          "url": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/when-can-you-withdraw-your-kiwisaver/#webpage"
+          },
+          "inLanguage": "en-NZ",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I withdraw my KiwiSaver early if I need it for living expenses?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, but only if you meet the criteria for significant financial hardship. Being unable to meet minimum living expenses is one qualifying ground. Your application goes through your KiwiSaver provider, which assesses your circumstances and may request supporting documentation. If approved, you can withdraw your own contributions and your employer's contributions, but not the government contribution."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does a first home KiwiSaver withdrawal take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It typically takes 10–15 working days from when your provider receives a complete application. You'll need confirmation from your solicitor that the purchase is proceeding. Start the process early to make sure the funds are available in time for settlement."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I withdraw my KiwiSaver if I'm emigrating to Australia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, not as a cash withdrawal. If you're moving to Australia permanently, your KiwiSaver balance can be transferred to an Australian superannuation scheme, but it remains locked in the Australian super system. You can only access it under Australian retirement rules."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a hardship withdrawal affect my future KiwiSaver balance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Any amount you withdraw stops compounding for the rest of your working life. A $10,000 hardship withdrawal in your 30s could be worth considerably more by age 65 given compound investment returns over that time. That doesn't mean a hardship withdrawal is the wrong choice in a genuine crisis, but it's worth understanding the long-term trade-off."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to my KiwiSaver if I die before I turn 65?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Your KiwiSaver balance becomes part of your estate and is distributed according to your will. Your executor will need to notify your provider. Some providers allow you to nominate beneficiaries, which may simplify the process. It's worth checking with your provider and keeping your estate planning up to date."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I make a partial withdrawal from my KiwiSaver at retirement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. At age 65, you can withdraw part of your balance, leave the rest invested and continue to grow your savings. There's no requirement to take everything out at once. Many people prefer a gradual drawdown approach."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 This article covers every scenario that allows a KiwiSaver withdrawal, what the eligibility criteria are and what you can't access in each case.

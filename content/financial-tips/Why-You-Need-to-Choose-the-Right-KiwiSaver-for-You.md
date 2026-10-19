@@ -8,6 +8,182 @@ img_src: /uploads/iStock-1381320238.jpg
 seo:
   title: Why You Need to Choose the Right KiwiSaver for You
   description: 'Not sure your KiwiSaver fund is right for you? Learn what to check for, what the wrong fund could cost  and how to switch with confidence.'
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/",
+          "description": "A New Zealand licensed Financial Advice Provider helping people compare KiwiSaver funds and find options suited to their goals, risk comfort and preferences."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/",
+          "name": "Why You Need to Choose the Right KiwiSaver for You",
+          "description": "Learn how to choose the right KiwiSaver fund based on your goals, timeline, risk comfort, values and fees, and understand how to review and switch funds.",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#article"
+          },
+          "hasPart": {
+            "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#faq"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Why You Need to Choose the Right KiwiSaver for You",
+              "item": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#article",
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#webpage"
+          },
+          "headline": "Why You Need to Choose the Right KiwiSaver for You",
+          "description": "Learn the four key factors for choosing the right KiwiSaver fund, what staying in the wrong fund could cost, how to check your annual statement and how switching works.",
+          "datePublished": "2026-10-12",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ",
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "KiwiSaver",
+            "KiwiSaver funds",
+            "choosing a KiwiSaver fund",
+            "KiwiSaver fees",
+            "KiwiSaver providers",
+            "switching KiwiSaver funds",
+            "KiwiSaver risk",
+            "KiwiSaver investment goals"
+          ],
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "KiwiSaver"
+            },
+            {
+              "@type": "Thing",
+              "name": "Personal finance"
+            },
+            {
+              "@type": "Thing",
+              "name": "Investment funds"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#faq",
+          "url": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/",
+          "name": "Why You Need to Choose the Right KiwiSaver for You — FAQs",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/why-you-need-to-choose-the-right-kiwisaver-for-you/#webpage"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I know if I’m in the right KiwiSaver fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Check it against your goals, timeline, risk comfort and values, using the self-check table above. It’s a good idea to compare your options if your fund’s risk level doesn’t match how soon you need the money, or if you’re not comfortable with what it invests in. Our Fund Finder Quiz does this comparison for you in a few minutes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens if I never actively choose a KiwiSaver fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You’re placed in a default fund by your provider. It’s a balanced fund assigned automatically. This isn’t a bad option, but it’s not personalised to your specific timeline or goals."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can switching KiwiSaver funds cost me money?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not normally. Switching is a transfer between providers, not a withdrawal, so there’s typically no fee, no tax event and no loss of contributions. Some providers might apply small administration charges. Check your current provider’s terms if you’re unsure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How often should I review my KiwiSaver fund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "At least once a year, and any time your circumstances change (such as starting a new job, getting closer to buying a first home or approaching retirement). Checking your annual statement each year is a good habit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a more expensive KiwiSaver fund always a better one?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. A higher fee can be worth it if the fund’s performance, values-screening or service suit you better, but fees alone shouldn’t be the deciding factor."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it cost anything to use the BetterSaver Fund Finder Quiz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The quiz is free to use and gives you a personalised recommendation drawn from over 300 KiwiSaver funds, independent of any single provider."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 Working out whether your fund is the best one for you only takes a few minutes and it’s much easier to switch providers than most people think.

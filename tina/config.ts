@@ -26,7 +26,8 @@ const DeployScreenPlugin = {
   layout: "fullscreen",
   Component: () =>
     React.createElement("iframe", {
-      src: "/admin/deploy.html",
+      // Outside static/admin: `tinacms build` empties that folder.
+      src: "/deploy/",
       style: {
         width: "100%",
         height: "100%",
