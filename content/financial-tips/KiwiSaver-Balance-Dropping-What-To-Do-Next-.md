@@ -8,6 +8,177 @@ img_src: /uploads/losing money.jpg
 seo:
   title: 'KiwiSaver Balance Dropping? What To Do Next '
   description: 'Seeing your KiwiSaver going down? Here''s why it happens, why panicking can lock in losses, and the 3 things worth doing instead. Free 2-min quiz.'
+  custom_schema: |
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://bettersaver.co.nz/#organization",
+          "name": "BetterSaver",
+          "url": "https://bettersaver.co.nz/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bettersaver.co.nz/#website",
+          "url": "https://bettersaver.co.nz/",
+          "name": "BetterSaver",
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#webpage",
+          "url": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/",
+          "name": "Is Your KiwiSaver Balance Dropping? What to Do Next",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/#website"
+          },
+          "breadcrumb": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#breadcrumb"
+          },
+          "mainEntity": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#article"
+          },
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bettersaver.co.nz/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Financial Tips",
+              "item": "https://bettersaver.co.nz/financial-tips/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Is Your KiwiSaver Balance Dropping? What to Do Next",
+              "item": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#article",
+          "mainEntityOfPage": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#webpage"
+          },
+          "headline": "Is Your KiwiSaver Balance Dropping? What to Do Next",
+          "description": "Learn why your KiwiSaver balance can fall, why switching funds during a downturn can lock in losses, and what to do when markets are down.",
+          "datePublished": "2026-09-04",
+          "author": {
+            "@type": "Person",
+            "name": "Joe Taylor",
+            "url": "https://nz.linkedin.com/in/taylorja"
+          },
+          "publisher": {
+            "@id": "https://bettersaver.co.nz/#organization"
+          },
+          "articleSection": "Financial Tips",
+          "keywords": [
+            "KiwiSaver balance dropping",
+            "KiwiSaver market downturn",
+            "KiwiSaver fund switching",
+            "KiwiSaver investment losses",
+            "KiwiSaver contributions",
+            "KiwiSaver investment strategy",
+            "New Zealand personal finance"
+          ],
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "KiwiSaver"
+            },
+            {
+              "@type": "Thing",
+              "name": "Investment risk"
+            },
+            {
+              "@type": "Thing",
+              "name": "Market volatility"
+            },
+            {
+              "@type": "Thing",
+              "name": "Retirement savings"
+            }
+          ],
+          "inLanguage": "en-NZ"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#faq",
+          "url": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/",
+          "isPartOf": {
+            "@id": "https://bettersaver.co.nz/financial-tips/kiwisaver-balance-dropping-what-to-do-next-/#webpage"
+          },
+          "inLanguage": "en-NZ",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is it normal for my KiwiSaver balance to go down?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Most funds hold growth assets like shares and property, so their value moves with the market. Temporary dips are normal, not a sign anything is wrong."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I switch KiwiSaver funds when the market drops?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not based on the drop alone. A switch should reflect fund fit for your goals and risk comfort. Switching purely in reaction to a downturn often means selling low and locking in a loss."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will I lose my KiwiSaver savings if the market crashes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A market crash itself doesn’t lock in a loss. That generally happens only if you sell or switch while prices are down."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I stop contributing to KiwiSaver during a downturn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generally not. Pausing means missing out on buying units at a lower price, and risking some of the government contribution of up to $260.72 a year."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does it take for KiwiSaver to recover after a drop?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There’s no fixed timeline, but markets have historically recovered over months to a few years. That’s why KiwiSaver works best as a long-term investment, not one to check daily."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What’s the difference between my balance dropping and actually losing money?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A dropping balance is a paper movement in units you still hold. You lock in a real loss only once you sell or switch below what you bought in at."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
 If you're seeing your KiwiSaver balance dropping, don’t panic, as there's usually a simple reason behind it.
