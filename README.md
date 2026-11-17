@@ -6,6 +6,14 @@ This is a [Tina CMS](https://tina.io/) project for Hugo.
 - Clone the fork your local machine.
 - This starter assumes that you have Hugo installed on your local machine. If not, reference [this guide](https://gohugo.io/getting-started/installing/).
 
+## With make
+
+`make setup` once, then `make serve` (dev server and the Tina editor), `make test` (production
+build plus site checks), `make preview` (the production build, served locally) and `make build`.
+`make help` lists them. They use the Hugo version the production deploy uses, downloaded into
+`.tools/`, rather than whichever Hugo is installed, and they build Tailwind first. The `pnpm`
+commands below still work.
+
 ## Local Development
 
 Install the project's dependencies:

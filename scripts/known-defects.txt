@@ -1,0 +1,33 @@
+# Known site defects that `make test` excuses, one per line, as
+#
+#     <check>: <text that appears in the failure>
+#
+# Every entry must still occur: when a defect is fixed, `make test` fails with
+# "baseline N STALE" until you delete its line here. Never add a line to make
+# a new failure go away; fix the site, or say why not.
+#
+# All of these were on main, and on the live site, when the checks were first
+# run (2026-11-17). `make test-strict` shows them.
+
+# config.toml: languageCode = 'en-nz'. Hugo 0.158 replaced it with locale.
+build: project config key languageCode was deprecated
+
+# The theme (a fork of Ananke) reads .Site.LanguageCode and
+# .Language.LanguageDirection; Hugo 0.158 renamed both.
+build: .Site.LanguageCode was deprecated
+build: .Language.LanguageDirection was deprecated
+
+# themes/bettersaver/layouts/partials/site-footer.html asks for
+# i18n " pageTitle" (with a leading space) three times; no such key exists,
+# so those title attributes come out empty.
+build: MISSING_TRANSLATION|en| pageTitle
+
+# Each customer review is also published as a page of its own
+# (/customer-reviews/<name>/), with no meta description. They are kept out of
+# the sitemap but nothing marks them noindex. Six of them, one entry.
+pages: /customer-reviews/
+
+# content/financial-tips/Growth-Fund-vs-Balanced-Fund-Which-Is-Right-for-You.md
+# links to an article under a slug it no longer has (404 on the live site).
+# The article is at /financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/.
+links: /financial-tips/kiwisaver-contribution-rates-april-2026/

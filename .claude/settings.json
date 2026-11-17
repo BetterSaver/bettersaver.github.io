@@ -1,0 +1,57 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "autoAllowBashIfSandboxed": true,
+    "excludedCommands": [
+      "gh *",
+      "git push *",
+      "git fetch *",
+      "git pull *",
+      "orca-ide *",
+      "orca *",
+      "make serve*",
+      "make preview*"
+    ],
+    "network": {
+      "allowedDomains": [
+        "github.com",
+        "api.github.com",
+        "*.githubusercontent.com",
+        "registry.npmjs.org",
+        "bettersaver.co.nz",
+        "app.tina.io",
+        "content.tinajs.io"
+      ]
+    }
+  },
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Edit(./.env)",
+      "Read(./.env.*)",
+      "Read(./.devcontainer/.env)",
+      "Edit(./.devcontainer/.env)",
+      "Read(~/.ssh/id_*)",
+      "Read(~/.gnupg/**)",
+      "Read(~/.config/1Password/**)",
+      "Read(~/.config/BraveSoftware/**)",
+      "Read(~/.config/google-chrome/**)",
+      "Read(~/.mozilla/**)",
+      "Read(~/.local/share/keyrings/**)",
+      "Read(~/.claude/.credentials.json)",
+      "Read(~/.config/houston/**)",
+      "Read(~/.config/.wrangler/**)"
+    ],
+    "ask": [
+      "Bash(gh pr merge*)",
+      "Bash(gh workflow run*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f *)",
+      "Bash(git push * main*)",
+      "Bash(git push * staging*)",
+      "Bash(wrangler *)",
+      "Bash(npx wrangler *)"
+    ]
+  }
+}

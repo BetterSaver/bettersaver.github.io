@@ -10,6 +10,13 @@ hugo.darwin
 
 .env
 .devcontainer/.env
-.claude
+# Claude Code: everything stays local except the shared settings (the sandbox
+# and permission rules every developer and helper agent gets).
+.claude/*
+!.claude/settings.json
 CLAUDE.md
 .dontcheckin
+
+# make test / make preview output, and the pinned Hugo make setup downloads
+/.test/
+/.tools/
