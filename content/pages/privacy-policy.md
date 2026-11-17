@@ -87,7 +87,7 @@ If you post your personal information on the website’s message board or commen
 
 If you follow a link on our website to another site, the owner of that site will have its own privacy policy relating to your personal information. We suggest you review that site’s privacy policy before you provide personal information.
 
-We use cookies (an alphanumeric identifier that we transfer to your computer’s hard drive so that we can recognise your browser) to monitor your use of the website. The cookies do not, by themselves, personally identify users but may be linked to a database record about users. You may disable cookies by changing the settings on your browser, although this may mean that you cannot use all of the features of the website.
+We use cookies (an alphanumeric identifier that we transfer to your computer’s hard drive so that we can recognise your browser) to monitor your use of the website. The cookies do not, by themselves, personally identify users but may be linked to a database record about users. You may disable cookies by changing the settings on your browser, although this may mean that you cannot use all of the features of the website. We also use cookies and pixels from advertising platforms we work with, such as Meta, Google and TikTok, to understand how people find our website and to show relevant ads.
 
 ##### **Email and text communications**
 
