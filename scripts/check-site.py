@@ -39,8 +39,8 @@ External links are not fetched: the check must give the same answer offline
 and on CI, and a third-party site being down is not a defect in this one.
 Exit status is 1 if anything failed, and every failure is printed.
 
-The Tina admin (/admin/) and the deploy screen (/deploy/) are not public
-pages and are skipped by the pages check.
+The deploy screen (/deploy/) is not a public page and is skipped by the pages
+check.
 """
 
 import argparse
@@ -65,9 +65,9 @@ PLACEHOLDERS = [
     "localhost",
 ]
 
-# Built from static/, not pages of the site: the Tina admin and the deploy
-# screen it embeds. Their links are still checked.
-NOT_PAGES = ("/admin/", "/deploy/")
+# Built from static/, not a page of the site: the deploy screen the Tina admin
+# embeds. Its links are still checked.
+NOT_PAGES = ("/deploy/",)
 
 
 class Page(HTMLParser):

@@ -63,7 +63,8 @@ build_css() {
 # funds. Doing that here would leave both modified in your working tree.
 #
 # So: write the rewritten config into $1, and put the production funds where
-# a mount in that config lays them over the theme's copy. Prints the config's
+# a mount in that config lays them over the theme's copy. A third mount leaves
+# out static/admin/, which the deploy never has. Prints the config's
 # path; build with `hugo --config <that>`. Nothing tracked is touched.
 production_config() {
   local dir="$1" rel
@@ -75,6 +76,9 @@ production_config() {
     printf '\n# Added by scripts/lib.sh: the production funds, over the theme'"'"'s test funds.\n'
     printf '[[module.mounts]]\n  source = "assets"\n  target = "assets"\n'
     printf '[[module.mounts]]\n  source = "%s/assets"\n  target = "assets"\n' "$rel"
+    # static/admin/ is Tina's generated admin: gitignored, absent from the
+    # deploy's checkout, and rewritten by every `make serve`. Leave it out.
+    printf '[[module.mounts]]\n  source = "static"\n  target = "static"\n  files = ["! admin/index.html", "! admin/assets/**"]\n'
   } > "$dir/config.toml" || return 1
   printf '%s' "$rel/config.toml"
 }

@@ -31,3 +31,8 @@ pages: /customer-reviews/
 # links to an article under a slug it no longer has (404 on the live site).
 # The article is at /financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/.
 links: /financial-tips/kiwisaver-contribution-rates-april-2026/
+
+# static/deploy/index.html (the deploy screen the Tina admin embeds) links
+# back to /admin/. The production build has no Tina admin, so on the live
+# site that link is a 404. On staging, where the screen is used, it works.
+links: /deploy/: a href='/admin/'
