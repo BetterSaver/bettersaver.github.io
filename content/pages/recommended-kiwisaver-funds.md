@@ -389,7 +389,7 @@ fund_groups:
         return_5yr: 8.9%
         fee: 0.63%
         partner: false
-funds_footnote: 'Returns are shown after fees and before tax, to 31 December 2025. Source: Morningstar.'
+funds_footnote: 'Returns are shown after fees and before tax, to 30 September 2026. Source: Morningstar.'
 nr_heading: Don’t see your fund on the recommended list?
 nr_body: 'These are the funds that do not currently make our list. Some fell short on one or more of our checks, some do not yet have the five-year track record we require, and some are single-sector funds that are too narrowly focused to be someone’s main KiwiSaver. [How we analyse KiwiSaver schemes](/pages/how-we-analyse/) explains exactly what a fund has to clear.'
 not_recommended: []
