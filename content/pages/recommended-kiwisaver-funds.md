@@ -10,7 +10,7 @@ cta_text: Get my KiwiSaver recommendation
 cta_link: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
 cta_secondary_text: How we analyse KiwiSaver schemes
 cta_secondary_link: /pages/how-we-analyse/
-review_last: 2026-10-01T00:00:00.000Z
+review_last: 2026-11-18T00:00:00.000Z
 review_next: 2027-01-01T00:00:00.000Z
 choose_heading: How we choose the funds we recommend
 choose_body: |-
@@ -37,289 +37,359 @@ fund_groups:
   - name: Defensive funds
     description: 'Lower risk. Typically more cash and bonds. Best suited to short timeframes, or to people who need the money soon.'
     funds:
-      - provider: ANZ Default KiwiSaver Scheme
-        fund: Cash Fund
-        return_5yr: 3.5%
-        fee: 0.22%
-        partner: false
       - provider: ANZ KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.5%
+        return_5yr: 3.9%
         fee: 0.22%
         partner: false
       - provider: ASB KiwiSaver Scheme
         fund: NZ Cash Fund
-        return_5yr: 3.3%
+        return_5yr: 3.7%
         fee: 0.35%
         partner: false
       - provider: BNZ KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.4%
+        return_5yr: 3.8%
         fee: 0.30%
         partner: false
       - provider: Fisher Funds KiwiSaver Plan
         fund: Cash Fund
-        return_5yr: 3.5%
-        fee: 0.45%
+        return_5yr: 3.8%
+        fee: 0.47%
         partner: true
-      - provider: Investnow KiwiSaver
-        fund: Mercer Macquarie NZ Cash Fund
-        return_5yr: 3.4%
-        fee: 0.30%
+      - provider: GoalsGetter KiwiSaver Scheme
+        fund: Amova NZ Cash Fund
+        return_5yr: 4.0%
+        fee: 0.40%
         partner: false
-      - provider: Investnow KiwiSaver Scheme
-        fund: Macquarie NZ Cash Fund
-        return_5yr: 3.4%
-        fee: 0.30%
-        partner: false
-      - provider: Mas KiwiSaver Scheme
+      - provider: MAS KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.5%
+        return_5yr: 3.9%
         fee: 0.25%
         partner: false
       - provider: Mercer KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.3%
-        fee: 0.32%
+        return_5yr: 3.6%
+        fee: 0.33%
         partner: false
       - provider: Milford KiwiSaver Plan
-        fund: Kiwisaver Cash Fund
-        return_5yr: 3.4%
+        fund: KiwiSaver Cash Fund
+        return_5yr: 3.8%
         fee: 0.20%
         partner: true
-      - provider: Oneanswer KiwiSaver Scheme
+      - provider: OneAnswer KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.5%
+        return_5yr: 3.9%
         fee: 0.22%
+        partner: false
+      - provider: QuayStreet KiwiSaver Scheme
+        fund: Fixed Interest
+        return_5yr: 2.7%
+        fee: 0.75%
+        partner: true
+      - provider: Smart KiwiSaver Scheme
+        fund: NZ Bonds
+        return_5yr: 2.5%
+        fee: 0.54%
+        partner: false
+      - provider: Smart KiwiSaver Scheme
+        fund: NZ Cash Fund
+        return_5yr: 3.6%
+        fee: 0.52%
         partner: false
       - provider: Summer KiwiSaver Scheme
         fund: New Zealand Cash
-        return_5yr: 3.3%
-        fee: 0.62%
-        partner: false
-      - provider: Superlife KiwiSaver Scheme
-        fund: NZ Cash Fund
-        return_5yr: 3.3%
-        fee: 0.62%
+        return_5yr: 3.7%
+        fee: 0.50%
         partner: false
       - provider: Westpac KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.6%
+        return_5yr: 4.0%
         fee: 0.25%
         partner: false
   - name: Conservative funds
     description: Lower to medium risk. Usually a mix of income assets with a smaller share of growth assets.
     funds:
+      - provider: ASB KiwiSaver Scheme
+        fund: Conservative Fund
+        return_5yr: 3.4%
+        fee: 0.40%
+        partner: false
       - provider: BNZ KiwiSaver Scheme
         fund: First Home Buyer Fund
-        return_5yr: 3.4%
+        return_5yr: 3.7%
         fee: 0.45%
         partner: false
       - provider: Booster KiwiSaver Scheme
         fund: Capital Guaranteed
-        return_5yr: 3.4%
-        fee: 1.03%
+        return_5yr: 3.8%
+        fee: 0.91%
         partner: true
       - provider: Fisher Funds KiwiSaver Plan
         fund: Core Conservative Fund
-        return_5yr: 3.8%
-        fee: 0.51%
+        return_5yr: 3.7%
+        fee: 0.54%
         partner: true
-      - provider: Investnow KiwiSaver
+      - provider: InvestNow KiwiSaver Scheme
         fund: Milford Conservative Fund
-        return_5yr: 3.5%
-        fee: 0.87%
+        return_5yr: 3.0%
+        fee: 0.85%
         partner: false
       - provider: Milford KiwiSaver Plan
         fund: Conservative Fund
-        return_5yr: 3.5%
+        return_5yr: 3.0%
         fee: 0.85%
         partner: true
       - provider: Pathfinder KiwiSaver Plan
         fund: Conservative Fund
-        return_5yr: 3.7%
-        fee: 1.01%
+        return_5yr: 2.9%
+        fee: 1.17%
         partner: true
-      - provider: Quaystreet KiwiSaver Scheme
+      - provider: QuayStreet KiwiSaver Scheme
         fund: Conservative Fund
         return_5yr: 4.4%
-        fee: 0.86%
+        fee: 0.75%
         partner: true
-      - provider: Quaystreet KiwiSaver Scheme
+      - provider: QuayStreet KiwiSaver Scheme
         fund: Income
-        return_5yr: 4.2%
-        fee: 0.87%
+        return_5yr: 4.1%
+        fee: 0.75%
         partner: true
+      - provider: Smart KiwiSaver Scheme
+        fund: Conservative Fund
+        return_5yr: 3.5%
+        fee: 0.57%
+        partner: false
       - provider: Summer KiwiSaver Scheme
         fund: Conservative Selection
         return_5yr: 3.1%
-        fee: 0.87%
-        partner: false
-      - provider: Superlife KiwiSaver Scheme
-        fund: Conservative Fund
-        return_5yr: 3.6%
-        fee: 0.67%
+        fee: 0.75%
         partner: false
       - provider: Westpac KiwiSaver Scheme
         fund: Conservative Fund
-        return_5yr: 3.1%
+        return_5yr: 3.3%
         fee: 0.40%
         partner: false
       - provider: Westpac KiwiSaver Scheme
         fund: Defensive Conservative Fund
-        return_5yr: 3.0%
+        return_5yr: 3.2%
         fee: 0.40%
         partner: false
   - name: Balanced funds
     description: Medium risk. A more even blend of growth assets and income assets.
     funds:
+      - provider: AMP KiwiSaver Scheme
+        fund: Balanced Fund
+        return_5yr: 5.9%
+        fee: 0.80%
+        partner: false
       - provider: ASB KiwiSaver Scheme
         fund: Balanced Fund
-        return_5yr: 6.3%
+        return_5yr: 6.4%
         fee: 0.65%
         partner: false
-      - provider: Investnow KiwiSaver
-        fund: Milford Balanced Fund
-        return_5yr: 6.7%
-        fee: 1.05%
+      - provider: BNZ KiwiSaver Scheme
+        fund: Balanced Fund
+        return_5yr: 5.8%
+        fee: 0.45%
         partner: false
-      - provider: Investnow KiwiSaver Scheme
+      - provider: InvestNow KiwiSaver Scheme
         fund: Foundation Series Balanced Fund
-        return_5yr: 6.5%
-        fee: 0.36%
+        return_5yr: 6.1%
+        fee: 0.38%
+        partner: false
+      - provider: InvestNow KiwiSaver Scheme
+        fund: Milford Balanced Fund
+        return_5yr: 5.2%
+        fee: 1.15%
+        partner: false
+      - provider: Mercer KiwiSaver Scheme
+        fund: Responsible Balanced Fund
+        return_5yr: 5.0%
+        fee: 0.77%
         partner: false
       - provider: Milford KiwiSaver Plan
         fund: Balanced Fund
-        return_5yr: 6.9%
+        return_5yr: 5.5%
         fee: 1.05%
         partner: true
       - provider: Pathfinder KiwiSaver Plan
         fund: Balanced Fund
-        return_5yr: 6.2%
-        fee: 1.25%
+        return_5yr: 5.6%
+        fee: 1.30%
         partner: true
-      - provider: Quaystreet KiwiSaver Scheme
+      - provider: QuayStreet KiwiSaver Scheme
         fund: Balanced Fund
-        return_5yr: 9.1%
-        fee: 1.12%
+        return_5yr: 8.6%
+        fee: 1.00%
         partner: true
-      - provider: Quaystreet KiwiSaver Scheme
+      - provider: QuayStreet KiwiSaver Scheme
         fund: Socially Responsible Investment
-        return_5yr: 9.1%
-        fee: 1.12%
+        return_5yr: 8.3%
+        fee: 1.00%
         partner: true
-      - provider: Superlife KiwiSaver Scheme
+      - provider: SBS Wealth KiwiSaver Scheme
+        fund: Lifestages Balanced Option
+        return_5yr: 6.2%
+        fee: 1.10%
+        partner: false
+      - provider: Shaw and Partners KiwiSaver Scheme
         fund: Balanced Fund
-        return_5yr: 6.1%
-        fee: 0.70%
+        return_5yr: 5.3%
+        fee: 1.23%
+        partner: false
+      - provider: Simplicity KiwiSaver Scheme
+        fund: Balanced Fund
+        return_5yr: 6.0%
+        fee: 0.24%
+        partner: false
+      - provider: Smart KiwiSaver Scheme
+        fund: Balanced Fund
+        return_5yr: 5.7%
+        fee: 0.60%
+        partner: false
+      - provider: Westpac KiwiSaver Scheme
+        fund: Balanced Fund
+        return_5yr: 5.6%
+        fee: 0.50%
         partner: false
   - name: Growth funds
     description: Higher risk KiwiSaver investing. Typically more exposure to shares and other growth assets. Best suited to longer timeframes.
     funds:
       - provider: AMP KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 7.9%
-        fee: 0.85%
+        return_5yr: 7.7%
+        fee: 0.81%
         partner: false
       - provider: ASB KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 8.2%
+        return_5yr: 8.0%
         fee: 0.70%
         partner: false
       - provider: BNZ KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 7.5%
+        return_5yr: 7.4%
         fee: 0.45%
         partner: false
       - provider: Generate KiwiSaver Scheme
         fund: Growth Fund
         return_5yr: 7.4%
-        fee: 1.37%
+        fee: 1.25%
         partner: true
-      - provider: Investnow KiwiSaver Scheme
+      - provider: InvestNow KiwiSaver Scheme
         fund: Foundation Series Growth Fund
-        return_5yr: 8.7%
+        return_5yr: 8.0%
         fee: 0.38%
+        partner: false
+      - provider: InvestNow KiwiSaver Scheme
+        fund: Milford Active Growth Fund
+        return_5yr: 7.2%
+        fee: 1.05%
+        partner: false
+      - provider: InvestNow KiwiSaver Scheme
+        fund: Smart Growth Fund
+        return_5yr: 7.4%
+        fee: 0.51%
         partner: false
       - provider: MAS KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 7.4%
+        return_5yr: 7.5%
         fee: 0.98%
         partner: false
       - provider: Mercer KiwiSaver Scheme
         fund: Responsible Growth Fund
-        return_5yr: 7.0%
-        fee: 0.84%
+        return_5yr: 6.4%
+        fee: 0.86%
         partner: false
       - provider: Milford KiwiSaver Plan
         fund: Active Growth Fund
-        return_5yr: 9.7%
+        return_5yr: 7.1%
         fee: 1.05%
         partner: true
       - provider: Pathfinder KiwiSaver Plan
         fund: Growth Fund
-        return_5yr: 7.3%
-        fee: 1.37%
+        return_5yr: 6.6%
+        fee: 1.35%
         partner: true
-      - provider: Quaystreet KiwiSaver Scheme
+      - provider: QuayStreet KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 11.2%
-        fee: 1.37%
+        return_5yr: 10.5%
+        fee: 1.25%
         partner: true
+      - provider: Shaw and Partners KiwiSaver Scheme
+        fund: Growth Fund
+        return_5yr: 6.9%
+        fee: 1.29%
+        partner: false
       - provider: Simplicity KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 8.2%
-        fee: 0.25%
+        return_5yr: 8.3%
+        fee: 0.24%
         partner: false
-      - provider: Superlife KiwiSaver Scheme
+      - provider: Smart KiwiSaver Scheme
         fund: Growth Fund
-        return_5yr: 7.8%
-        fee: 0.71%
+        return_5yr: 7.3%
+        fee: 0.61%
+        partner: false
+      - provider: Westpac KiwiSaver Scheme
+        fund: Growth Fund
+        return_5yr: 6.8%
+        fee: 0.55%
         partner: false
   - name: Aggressive funds
     description: Highest risk. Typically mostly shares. Best suited to long timeframes and to people who are comfortable with bigger ups and downs.
     funds:
+      - provider: AMP KiwiSaver Scheme
+        fund: Aggressive Fund
+        return_5yr: 9.0%
+        fee: 0.82%
+        partner: false
       - provider: Booster KiwiSaver Scheme
         fund: Geared Growth Fund
-        return_5yr: 9.2%
-        fee: 1.50%
+        return_5yr: 8.1%
+        fee: 1.41%
         partner: true
       - provider: Booster KiwiSaver Scheme
         fund: Socially Responsible High Growth Fund
-        return_5yr: 9.0%
-        fee: 1.35%
+        return_5yr: 8.3%
+        fee: 1.24%
         partner: true
       - provider: Generate KiwiSaver Scheme
         fund: Focused Growth Fund
-        return_5yr: 8.7%
-        fee: 1.39%
+        return_5yr: 8.9%
+        fee: 1.27%
         partner: true
-      - provider: Mas KiwiSaver Scheme
+      - provider: MAS KiwiSaver Scheme
         fund: Global Equities
-        return_5yr: 9.0%
+        return_5yr: 9.3%
         fee: 0.98%
         partner: false
       - provider: Mercer KiwiSaver Scheme
         fund: Responsible Shares
-        return_5yr: 8.3%
-        fee: 0.95%
+        return_5yr: 7.9%
+        fee: 0.93%
         partner: false
       - provider: Milford KiwiSaver Plan
         fund: Aggressive Fund
-        return_5yr: 9.3%
+        return_5yr: 7.8%
         fee: 1.15%
         partner: true
       - provider: SBS Wealth KiwiSaver Scheme
         fund: High Growth Fund
-        return_5yr: 9.6%
-        fee: 1.17%
+        return_5yr: 9.7%
+        fee: 1.24%
         partner: true
-      - provider: Superlife KiwiSaver Scheme
-        fund: High Growth Fund
-        return_5yr: 9.4%
-        fee: 0.73%
+      - provider: SBS Wealth KiwiSaver Scheme
+        fund: Lifestages Aggressive Option
+        return_5yr: 9.9%
+        fee: 1.24%
         partner: false
-funds_footnote: 'Returns are shown after fees and before tax, to 31 December 2025. Source: Morningstar.'
+      - provider: Smart KiwiSaver Scheme
+        fund: High Growth Fund
+        return_5yr: 8.9%
+        fee: 0.63%
+        partner: false
+funds_footnote: 'Returns are shown after fees and before tax, to 30 September 2026. Source: Morningstar.'
 nr_heading: Don’t see your fund on the recommended list?
 nr_body: 'These are the funds that do not currently make our list. Some fell short on one or more of our checks, some do not yet have the five-year track record we require, and some are single-sector funds that are too narrowly focused to be someone’s main KiwiSaver. [How we analyse KiwiSaver schemes](/pages/how-we-analyse/) explains exactly what a fund has to clear.'
 not_recommended: []

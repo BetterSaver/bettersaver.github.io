@@ -1461,7 +1461,6 @@
 }
 
 .recommended-schemes-page .fund-group > p {
-    max-width: 760px;
     margin: 0 0 20px;
     color: var(--grey-mid);
 }
@@ -1543,6 +1542,17 @@
     margin: 0;
 }
 
-.recommended-schemes-page .important-info {
-    max-width: 780px;
+/* Running copy on this page fills the page width, as on How to join
+   KiwiSaver; this lifts the readable-measure caps .change-provider-page
+   sets for its own layout. */
+.recommended-schemes-page .prose-head h2,
+.recommended-schemes-page .prose-head p,
+.recommended-schemes-page .prose-footnote {
+    max-width: none;
+}
+
+/* Multi-paragraph intro copy under a section heading: .how-we-analyse-page p
+   zeroes margins, so space the paragraphs like .prose-copy does. */
+.recommended-schemes-page .prose-head p + p {
+    margin-top: 14px;
 }

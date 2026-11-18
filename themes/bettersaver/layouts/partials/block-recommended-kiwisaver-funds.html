@@ -30,13 +30,13 @@
         <h2>{{ .Params.choose_heading | markdownify }}</h2>
         {{ .Params.choose_body | markdownify }}
       </div>
-      <ul class="micro-list" style="max-width:760px">
+      <ul class="micro-list">
         {{ range .Params.choose_checks }}
         <li>{{ $check | safeHTML }}<p>{{ .text | markdownify }}</p></li>
         {{ end }}
       </ul>
       {{ with .Params.choose_footer }}
-      <div class="prose-copy" style="max-width:760px">{{ . | markdownify }}</div>
+      <div class="prose-copy">{{ . | markdownify }}</div>
       {{ end }}
     </div>
   </section>
