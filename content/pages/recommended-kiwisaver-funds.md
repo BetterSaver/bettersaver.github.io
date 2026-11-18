@@ -72,7 +72,7 @@ fund_groups:
         return_5yr: 3.4%
         fee: 0.20%
         partner: true
-      - provider: Oneanswer KiwiSaver Scheme
+      - provider: OneAnswer KiwiSaver Scheme
         fund: Cash Fund
         return_5yr: 3.5%
         fee: 0.22%
