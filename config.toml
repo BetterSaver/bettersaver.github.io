@@ -8,8 +8,8 @@ enableRobotsTXT = true
     appUrl = "http://localhost:4250"
     authCookieName = "bs_auth"
 
-    description = "BetterSaver is a website for saving money better."
-    keywords = "better, saver, money, saving, budget, finance"
+    description = "BetterSaver is a licensed financial advice provider that analyses over 300 KiwiSaver options to help you find the right fund for your goals."
+    keywords = "KiwiSaver, KiwiSaver advice, KiwiSaver funds, switch KiwiSaver, financial advice NZ"
 
     gtm_id = "GTM-NTNKBMS"
 
