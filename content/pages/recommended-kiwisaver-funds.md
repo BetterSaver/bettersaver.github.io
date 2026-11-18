@@ -37,11 +37,6 @@ fund_groups:
   - name: Defensive funds
     description: 'Lower risk. Typically more cash and bonds. Best suited to short timeframes, or to people who need the money soon.'
     funds:
-      - provider: ANZ Default KiwiSaver Scheme
-        fund: Cash Fund
-        return_5yr: 3.5%
-        fee: 0.22%
-        partner: false
       - provider: ANZ KiwiSaver Scheme
         fund: Cash Fund
         return_5yr: 3.5%
@@ -62,17 +57,7 @@ fund_groups:
         return_5yr: 3.5%
         fee: 0.45%
         partner: true
-      - provider: Investnow KiwiSaver
-        fund: Mercer Macquarie NZ Cash Fund
-        return_5yr: 3.4%
-        fee: 0.30%
-        partner: false
-      - provider: Investnow KiwiSaver Scheme
-        fund: Macquarie NZ Cash Fund
-        return_5yr: 3.4%
-        fee: 0.30%
-        partner: false
-      - provider: Mas KiwiSaver Scheme
+      - provider: MAS KiwiSaver Scheme
         fund: Cash Fund
         return_5yr: 3.5%
         fee: 0.25%
