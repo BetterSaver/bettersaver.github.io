@@ -77,6 +77,10 @@ fund_groups:
         return_5yr: 3.5%
         fee: 0.22%
         partner: false
+      - provider: QuayStreet KiwiSaver Scheme
+        fund: Fixed Interest
+        return_5yr: 2.71%
+        partner: true
       - provider: Summer KiwiSaver Scheme
         fund: New Zealand Cash
         return_5yr: 3.3%
@@ -89,13 +93,9 @@ fund_groups:
         partner: false
       - provider: Westpac KiwiSaver Scheme
         fund: Cash Fund
-        return_5yr: 3.6%
+        return_5yr: 3.98%
         fee: 0.25%
         partner: false
-      - provider: QuayStreet KiwiSaver Scheme
-        fund: Fixed Interest
-        return_5yr: 2.71%
-        partner: true
   - name: Conservative funds
     description: Lower to medium risk. Usually a mix of income assets with a smaller share of growth assets.
     funds:
