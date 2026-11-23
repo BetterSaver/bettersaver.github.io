@@ -160,12 +160,7 @@
 <p class="sec-body">That depends more on the fund than the provider. The right fund comes down to your timeframe and how you feel about ups and downs{{ if gt (len $funds) 1 }}, and {{ $prov }}'s funds span the categories above{{ end }}. Our ratings show which funds have earned their keep against similar funds.</p>
 </section>
 
-<section class="faq">
-<h2 class="rule-head">Common questions</h2>
-{{ range (partial "finder/faq-items.html" .) }}
-<details><summary><h3>{{ .q }}</h3><span class="faq-chev">{{ partial "finder/icon.html" (dict "name" "chevron-down" "size" 18) }}</span></summary><p>{{ .a }}</p></details>
-{{ end }}
-</section>
+{{ partial "finder/faq-block.html" . }}
 
 {{ partial "finder/cta-quiz.html" (dict "heading" "Is one of these the right fund for you?" "quiz" $g.quiz_url) }}
 {{ partial "finder/side-cards.html" (dict "already_title" (printf "I'm already with %s" $prov) "already_sub" "Get a free second opinion" "quiz" $g.quiz_url "booking" $g.booking_url) }}

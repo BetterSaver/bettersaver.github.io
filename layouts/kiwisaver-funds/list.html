@@ -103,12 +103,7 @@
 </section>
 
 <section class="fx-wrap">
-<section class="faq">
-<h2 class="rule-head">Common questions</h2>
-{{ range (partial "finder/faq-items.html" .) }}
-<details><summary><h3>{{ .q }}</h3><span class="faq-chev">{{ partial "finder/icon.html" (dict "name" "chevron-down" "size" 18) }}</span></summary><p>{{ .a }}</p></details>
-{{ end }}
-</section>
+{{ partial "finder/faq-block.html" . }}
 <section class="accuracy">
   <div><span class="acc-label">Data as at</span><span class="acc-value">{{ dateFormat "2 January 2006" site.Data.finder.review.data_as_at }}</span></div>
   <div><span class="acc-label">Last reviewed</span><span class="acc-value">{{ dateFormat "2 January 2006" site.Data.finder.review.last_reviewed }}</span></div>
