@@ -195,14 +195,6 @@ seo:
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What do BetterSaver’s fund grades mean?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We grade funds from A+ through to F. To ensure we only recommend the best, only funds with grades A+, A, and B make our recommended list. Any fund with a lower grade is still analysed but is displayed publicly as NR (Not Recommended)."
-              }
-            },
-            {
-              "@type": "Question",
               "name": "How does BetterSaver compare KiwiSaver funds?",
               "acceptedAnswer": {
                 "@type": "Answer",

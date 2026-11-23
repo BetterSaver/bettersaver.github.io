@@ -1,4 +1,10 @@
 {{- $appUrl := .Site.Params.appUrl -}}
+{{- /* The grade system section is hidden for now: the fund data shows Recommended / Not
+     recommended rather than letter grades. Set this to true to bring it back. The sections
+     after it swap between white and grey so the bands keep alternating either way. */ -}}
+{{- $showGrades := false -}}
+{{- /* FAQ items about the letter grades, hidden along with the section (matched by question). */ -}}
+{{- $gradeFaqs := slice "What do BetterSaver's fund grades mean?" -}}
 <div class="how-we-analyse-page">
 
   {{/* TRUST STRIP */}}
@@ -275,6 +281,7 @@
   </section>
 
   {{/* GRADES */}}
+  {{ if $showGrades }}
   <section class="band-grey" id="grades">
     <div class="hwa-page">
       <div class="grades-head">
@@ -323,10 +330,11 @@
       </div>
     </div>
   </section>
+  {{ end }}
 
   {{/* DATA & COMMISSIONS */}}
-  <div class="hwa-page">
-    <section class="py-9">
+  <section class="{{ if $showGrades }}py-9{{ else }}band-grey{{ end }}">
+    <div class="hwa-page">
       <div class="section-tag" style="margin-bottom:18px">{{ .Params.data_tag }}</div>
       <h2 style="margin-bottom:48px">{{ .Params.data_heading | markdownify }}</h2>
 
@@ -360,11 +368,11 @@
         </div>
         <div class="badge-c"><img src="{{ .Params.cadence_image }}" alt="{{ .Params.cadence_image_alt }}"></div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
   {{/* FAQ */}}
-  <section class="band-grey">
+  <section class="{{ if $showGrades }}band-grey{{ else }}py-9{{ end }}">
     <div class="hwa-page">
       <section>
         <div class="faq-head">
@@ -379,10 +387,12 @@
         </div>
         <div class="faq-list content narrow">
           {{ range .Params.faq_items }}
+          {{ if or $showGrades (not (in $gradeFaqs .question)) }}
           <details class="help-item">
             <summary><h4 class="m-0">{{ .question }}</h4></summary>
             <section class="py-2">{{ .answer | markdownify }}</section>
           </details>
+          {{ end }}
           {{ end }}
         </div>
       </section>
@@ -390,7 +400,7 @@
   </section>
 
   {{/* FINAL CTA — mirrors the About page "Find a better KiwiSaver today" section */}}
-  <div class="about-page">
+  <div class="about-page{{ if not $showGrades }} band-grey band-flush{{ end }}">
     <div class="ab-page">
       {{ partial "final-cta.html" . }}
     </div>
