@@ -3,17 +3,17 @@
     {
       "provider": "MAS KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "0CE7BBFx8OxWFStyCgUY"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "US Large Growth",
       "grade": "NR",
       "id": "0ROQF7a4guow7o9vXXm3"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Hedged Total World Fund",
       "grade": "NR",
       "id": "0Ru2p8DuXu4BMnRm3LRs"
@@ -23,6 +23,18 @@
       "fund": "Aggressive Fund",
       "grade": "NR",
       "id": "0laJn6a0Y1s76RdRA5QK"
+    },
+    {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Conservative Fund",
+      "grade": "NR",
+      "id": "0vUeT5JnBbgVP11UT6Ib"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Generate Balanced Fund",
+      "grade": "NR",
+      "id": "1B2mweHmOHyILiE5zwC3"
     },
     {
       "provider": "BNZ KiwiSaver Scheme",
@@ -37,82 +49,118 @@
       "id": "1YTSaF1a70haa6OGWwBs"
     },
     {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "NZ Fixed Interest",
       "grade": "NR",
       "id": "1aTTYzPIp7FFJ1EmRo8X"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series High Growth Fund",
       "grade": "NR",
       "id": "2F8mcAAFv4yB6FH2Syzw"
     },
     {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Balanced Fund",
+      "grade": "NR",
+      "id": "2G8f739b4g0UJRgkPc7N"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova NZ Corporate Bond Fund",
+      "grade": "NR",
+      "id": "2IPhgAh59A7aWsSjLbDt"
+    },
+    {
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Munro Global Growth Climate Leaders Fund",
+      "grade": "NR",
+      "id": "2dG9QLh81JA6m0lKq5eI"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Growth Fund (Lifesteps)",
+      "grade": "NR",
+      "id": "32FFPyxfQFNFdvQqyBul"
+    },
+    {
       "provider": "Pathfinder KiwiSaver Plan",
       "fund": "Growth Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "3KaVgj07414Fi2UNd1yk"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "3RINak8j8SQ7cNh4z3JM"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
-      "fund": "Balanced Fund",
+      "fund": "Aggressive Fund (Lifesteps)",
       "grade": "NR",
+      "id": "3puKBrpBdwjP1QMbBC3p"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Balanced Fund",
+      "grade": "Recommended",
       "id": "3v6wL4Wqhszxl2g6aCOH"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Smart Growth Fund",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Pie Aggressive Fund",
       "grade": "NR",
+      "id": "43LAe3MbwzDhB31TC5aV"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
+      "fund": "Smart Growth Fund",
+      "grade": "Recommended",
       "id": "43W0SFoh8mKAk7kBQ5Nx"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Property",
       "grade": "NR",
       "id": "4SpLRG5ycmwZHmWuwsAX"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Harbour Active Growth Fund",
-      "grade": "NR",
-      "id": "4YaDNBQaS2pEYzIHSepa"
-    },
-    {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "International Fixed Interest",
       "grade": "NR",
       "id": "4bOYqmjYyThYxJ17fg3S"
     },
     {
-      "provider": "AMP KiwiSaver",
-      "fund": "International Shares No.3",
+      "provider": "Shaw and Partners KiwiSaver Scheme",
+      "fund": "Conservative Fund",
       "grade": "NR",
-      "id": "4oZbhXzW7xvgf6TtYxvG"
+      "id": "4l6g2nl46sfs7MxLpBnQ"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "World Ex-US Fund",
       "grade": "NR",
       "id": "50jRGYjADuz3j1GYjG3V"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "International Equities",
       "grade": "NR",
       "id": "59EZ2BVBanMMx6vlI0Ee"
     },
     {
-      "provider": "AMP KiwiSaver",
+      "provider": "AMP KiwiSaver Scheme",
       "fund": "NZ Fixed Interest",
       "grade": "NR",
       "id": "5BPMsPrk6z2G0mMWNrQN"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 80",
+      "grade": "NR",
+      "id": "5BlthHmpzR2zMofG7ErI"
     },
     {
       "provider": "Pie KiwiSaver Scheme",
@@ -121,13 +169,13 @@
       "id": "5G94wov0lPSaaPXWjv9A"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Cash Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "5IvdJbFB6D7RWbcUFOma"
     },
     {
-      "provider": "Sharesies KiwiSaver",
+      "provider": "Sharesies KiwiSaver Scheme",
       "fund": "US500 Fund",
       "grade": "NR",
       "id": "5LUhLNxewtdysGfVWCpU"
@@ -139,7 +187,7 @@
       "id": "5M8DZTHhAdDI6YlPpE3b"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "NZ Property",
       "grade": "NR",
       "id": "5cbeR9btz95ANAIxTHbj"
@@ -151,13 +199,13 @@
       "id": "5klJgilLPEpnVCkuyrhE"
     },
     {
-      "provider": "Aurora KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
       "fund": "Liquidity Fund",
       "grade": "NR",
       "id": "5yvyNZ2s2vfYv5GKgmIb"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "World Ex-US NZD Hedged Fund",
       "grade": "NR",
       "id": "613qmcMU4Gb9M8ZAdMJs"
@@ -175,13 +223,13 @@
       "id": "7CtAwWFYCjMAa5rWpEZF"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Antipodes Global Value Fund – PIE",
       "grade": "NR",
       "id": "7XjVroV06dP9Mq2X59e3"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Europe",
       "grade": "NR",
       "id": "7aYJABJZu2xCV7cnDKJg"
@@ -193,15 +241,21 @@
       "id": "7ea44hZqUAjCVbQ26V86"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "US Large Value",
       "grade": "NR",
       "id": "7tXIXAhVjH1ynV1T3ibV"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Growth Fund",
+      "grade": "NR",
+      "id": "80yKcB9ysBc3Wroiw9wu"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Balanced Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "86E80oW3rrvtQf8MPv8X"
     },
     {
@@ -223,16 +277,34 @@
       "id": "8gLHKcwUXYsyPTpsnzVU"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Milford Aggressive Fund",
+      "grade": "NR",
+      "id": "8sDA1DdvMfXGUvo5pfRY"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Global Property",
       "grade": "NR",
       "id": "8vHcH8YpSDHYA53bbGti"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora Aggressive Fund",
+      "grade": "NR",
+      "id": "8wqHOuS4HTZJaDhYLB9E"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "US Small Cap",
       "grade": "NR",
       "id": "8yclDzkV0qPVWAd0IZf3"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 20",
+      "grade": "NR",
+      "id": "9e41Q8JDBtxajSIaHiiA"
     },
     {
       "provider": "Simplicity KiwiSaver Scheme",
@@ -241,25 +313,25 @@
       "id": "9jt4UyFWFtkpyfhsLupy"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Overseas Shares",
       "grade": "NR",
       "id": "9pThDkut8k92VzTyhoDE"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "UK Cash Fund",
       "grade": "NR",
       "id": "9sqJnW3WF7ObMhlrva1W"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Aust Dividend",
       "grade": "NR",
       "id": "9yA8HFxYxGq8egI3NUDX"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Castle Point 5 Oceans Fund",
       "grade": "NR",
       "id": "A0Ftt0NpBe1hhdlBKGMi"
@@ -277,7 +349,13 @@
       "id": "AcCV0rTuxpk6YxHhK9GP"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 40",
+      "grade": "NR",
+      "id": "AkqD5Iinn1SvmeMERDYY"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Generate Focused Growth Fund",
       "grade": "NR",
       "id": "Akz6nvnM3Ee3Xl0J2nO1"
@@ -289,13 +367,19 @@
       "id": "AptBJxrkT1f11EDWJ3IV"
     },
     {
+      "provider": "Booster KiwiSaver Scheme",
+      "fund": "Asset Class Balanced Fund",
+      "grade": "NR",
+      "id": "AtHzD5f7V52NRtbNIWzf"
+    },
+    {
       "provider": "Pie KiwiSaver Scheme",
       "fund": "Growth Fund",
       "grade": "NR",
       "id": "Az2loUbpeMpRsW8sbxpr"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "NZ 50 ESG Tilted",
       "grade": "NR",
       "id": "B24wjXsiXUBauD1tiNjA"
@@ -307,10 +391,28 @@
       "id": "B4T6rHpPkAEr3TPrYlah"
     },
     {
+      "provider": "Kōura KiwiSaver Scheme",
+      "fund": "Conservative Strategy",
+      "grade": "NR",
+      "id": "BOeq5oeusgybe7PQ6jmR"
+    },
+    {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Aggressive Fund",
+      "grade": "NR",
+      "id": "Bn0U6x32By5plDd8JqPy"
+    },
+    {
       "provider": "Generate KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "BnaT7YssOhQ8cCfgBcVv"
+    },
+    {
+      "provider": "Sharesies KiwiSaver Scheme",
+      "fund": "Total World Share Fund",
+      "grade": "NR",
+      "id": "CNyRTw4jVbV1dQhOJ7Ok"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
@@ -331,10 +433,16 @@
       "id": "D6khYXoHdFtKXQrXD16J"
     },
     {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Conservative Fund No. 2",
+      "provider": "NZ Funds KiwiSaver Scheme",
+      "fund": "Life Cycle - Age 65",
       "grade": "NR",
-      "id": "DOTrUGGfPPos6i5FPWcD"
+      "id": "DRHvrIP7Ld3VlHJ0FQQn"
+    },
+    {
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Harbour Balanced Fund",
+      "grade": "NR",
+      "id": "Dg9niwPRaQS0DkZJz4GU"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
@@ -343,13 +451,19 @@
       "id": "Di2fN5wzSlC5yZjvX6Nn"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Dividend",
       "grade": "NR",
       "id": "DqAW2RQJIYzHeCyopXT2"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 70",
+      "grade": "NR",
+      "id": "DsHDk3n2I5ifmLVA6vzv"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P Global Div Aristocrats",
       "grade": "NR",
       "id": "E06xtkOnlx3vrf0l4HcM"
@@ -357,8 +471,14 @@
     {
       "provider": "MAS KiwiSaver Scheme",
       "fund": "Global Equities",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "EGUjInKpgMO4LToVHO9K"
+    },
+    {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones Growth 0-50",
+      "grade": "NR",
+      "id": "EP7DBmVlxt7TL6jrg7i2"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
@@ -367,31 +487,43 @@
       "id": "ET2XuBgb5XZeWsoHkPMa"
     },
     {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "International Share",
       "grade": "NR",
       "id": "EcU5bmOCTDDwoJEZuTwj"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P Global 100 NZD Hedged",
       "grade": "NR",
       "id": "ElscmDTT6URVOw0BVrMo"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "Kōura KiwiSaver Scheme",
+      "fund": "Balanced Strategy",
+      "grade": "NR",
+      "id": "FFCgKPcxQLBdsqc1fetW"
+    },
+    {
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Growth Fund",
       "grade": "NR",
       "id": "FhKeCxi7TN3S6raCPpxv"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 65-75",
+      "grade": "NR",
+      "id": "Fm72A9iWfh0EhhnNmaIZ"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer Responsible Balanced Fund",
       "grade": "NR",
       "id": "Fv1ZFVCqAhqp8hPO9pFo"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series US Dividend Equity",
       "grade": "NR",
       "id": "GEYrko5swGCnQbcUHsca"
@@ -415,40 +547,52 @@
       "id": "GmBm45WROCTDbFH9C8bZ"
     },
     {
+      "provider": "Fisher Funds KiwiSaver Plan",
+      "fund": "Glidepath Age 75",
+      "grade": "NR",
+      "id": "Gq5RhUF2O9dIXJqJrtfO"
+    },
+    {
       "provider": "Sharesies KiwiSaver Scheme",
       "fund": "Pathfinder Ethical Growth Fund",
       "grade": "NR",
       "id": "GvsRhOTmh2VMJ5fjcCtR"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
-      "fund": "Fixed Interest",
+      "provider": "BCF KiwiSaver Scheme",
+      "fund": "BCF KiwiSaver Scheme",
       "grade": "NR",
+      "id": "GybzNeaEoOl9HRZOcZuF"
+    },
+    {
+      "provider": "QuayStreet KiwiSaver Scheme",
+      "fund": "Fixed Interest",
+      "grade": "Recommended",
       "id": "GyvxNfqIztpSPIPOB6KH"
     },
     {
       "provider": "ANZ KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "HDYiPmi7KcpRarOYCmZw"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer Global Listed Real Estate Fund",
       "grade": "NR",
       "id": "HF1NENZVh1c77NVFEnXr"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Christian KiwiSaver Scheme",
+      "fund": "Balanced Fund",
+      "grade": "NR",
+      "id": "HFrptSOgWRLyB455Yphz"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Global ESG",
       "grade": "NR",
       "id": "HlJyQXmMZ790DTHbCc4f"
-    },
-    {
-      "provider": "AMP KiwiSaver",
-      "fund": "International Shares No. 2",
-      "grade": "NR",
-      "id": "HleCHk91SMUvKSdnvPhz"
     },
     {
       "provider": "Westpac KiwiSaver Scheme",
@@ -457,70 +601,118 @@
       "id": "HwPyi638xFopYnO9f072"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Milford Active Growth Fund",
+      "grade": "NR",
+      "id": "Hx4Jbqj9qfZ3UrYUqpyP"
+    },
+    {
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Australian Equity",
       "grade": "NR",
       "id": "I1EpGYKMrKiQPgCL75sX"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Hunter Global Fixed Interest Fund",
       "grade": "NR",
       "id": "INku8OhMkUJHB3LPGeoH"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Hedged US 500 Fund",
       "grade": "NR",
       "id": "IqlLeo58lPC5DsnvyNgF"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Bonds",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "Is0QollOtgf8dKcDCByU"
+    },
+    {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Automatic Fund (Age 80)",
+      "grade": "NR",
+      "id": "IsYz1lotnsIEpXDSkqGz"
+    },
+    {
+      "provider": "Shaw and Partners KiwiSaver Scheme",
+      "fund": "Balanced Fund",
+      "grade": "Recommended",
+      "id": "JBP3Ebk8rVKmiHBbDpzO"
     },
     {
       "provider": "Generate KiwiSaver Scheme",
       "fund": "Focused Growth Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "JVMydxNuWynwMruoDzyW"
     },
     {
-      "provider": "Aurora KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
       "fund": "Conservative Fund",
       "grade": "NR",
       "id": "JYAXcfkeF8nL5hpx4omq"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Global Aggregate Bond Fund",
       "grade": "NR",
       "id": "JZsqKyFS8TDGWOBfnqfO"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series US 500 Fund",
       "grade": "NR",
       "id": "JzgH6g48bXRd63tQzOwJ"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mint Diversified Growth Fund",
       "grade": "NR",
       "id": "K44wAiWHsCtyU5oUaCWC"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora First Home Buyer Strategy",
+      "grade": "NR",
+      "id": "K9gYHA4FiD2gSqWacDP2"
+    },
+    {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 56-60",
+      "grade": "NR",
+      "id": "KOuYKafl4lbSMNgR0eff"
+    },
+    {
+      "provider": "Fisher Funds KiwiSaver Plan",
+      "fund": "Glidepath Age 55",
+      "grade": "NR",
+      "id": "KOxMkfh9cBcgDpnn5IIU"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Global Infrastructure",
       "grade": "NR",
       "id": "KXTm8wCnHBkNZ5tkplLH"
     },
     {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Milford Conservative Fund",
+      "grade": "NR",
+      "id": "KbClx7dwzIDg2xkdM9Bo"
+    },
+    {
       "provider": "Fisher Funds KiwiSaver Plan",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "KgVxFSdHSSBRLGdoOC0q"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 30",
+      "grade": "NR",
+      "id": "KjwYy92mrkVil7AuFDZ0"
     },
     {
       "provider": "ANZ Default KiwiSaver Scheme",
@@ -529,7 +721,7 @@
       "id": "KqBSZbWi2CaH7WdlRMCn"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Salt Enhanced Property",
       "grade": "NR",
       "id": "KqFOso1qoGtpaHkr6VU6"
@@ -537,68 +729,86 @@
     {
       "provider": "Milford KiwiSaver Plan",
       "fund": "Balanced Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "L3egcOZ9WTItyIKKwaTY"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Global ESG NZD Hedged",
       "grade": "NR",
       "id": "L7XMWkVp6x5mqsrTNlCG"
     },
     {
-      "provider": "AMP KiwiSaver",
+      "provider": "AMP KiwiSaver Scheme",
       "fund": "International Shares",
       "grade": "NR",
       "id": "LB1D0J4A9m9zcDgcnEo0"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Total Wld (NZD H)",
       "grade": "NR",
       "id": "LEZzAhO9dSKMdP9G7CcF"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer NZ Shares Passive Fund",
       "grade": "NR",
       "id": "LKw3hMrWVr7tOavAgX8c"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer Macquarie NZ Fixed Interest Fund",
       "grade": "NR",
       "id": "LLMvKZszwUSwUL2Q6Wid"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Smart Balanced Fund",
+      "grade": "NR",
+      "id": "LQRwYcaCxwXjXV6cWlbV"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Milford Conservative Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "Lhl0fJJEpJa3TGBLD6SA"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Christian KiwiSaver Scheme",
+      "fund": "Growth Fund",
+      "grade": "NR",
+      "id": "LoGPZKkIpfnZ2vllAk5h"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Australian Top 20",
       "grade": "NR",
       "id": "M4lKqIlkMF2B7ivHQ5EV"
     },
     {
-      "provider": "Koura KiwiSaver Scheme",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "Strategic High Growth Fund",
       "grade": "NR",
       "id": "M7iXwXUiYEI59PFgLoAF"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Salt Capital Growth Fund",
+      "provider": "Booster KiwiSaver Scheme",
+      "fund": "Asset Class Conservative Fund",
       "grade": "NR",
-      "id": "MKRmcno1uVdLIREfZncm"
+      "id": "MAJ1oV6Nu6bJf0r75fh0"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Mid Cap",
       "grade": "NR",
       "id": "MOJpxLPvTxx0FBpuhtVo"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Moderate Balanced Fund (Lifesteps)",
+      "grade": "NR",
+      "id": "MQg8zQVN5KgiTES3nFWl"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -607,28 +817,58 @@
       "id": "Mp5KZnnJZAnqvCwdbEqH"
     },
     {
-      "provider": "Generate KiwiSaver",
+      "provider": "Generate KiwiSaver Scheme",
       "fund": "Global Fund",
       "grade": "NR",
       "id": "N8AH2jMYdu3qqgnOD2IP"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Harbour Growth Fund",
+      "grade": "NR",
+      "id": "NIhTpXXFzN29kNwQpU3H"
+    },
+    {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Growth Fund",
+      "grade": "NR",
+      "id": "NJNEfWFwPKUjNAua0Qka"
+    },
+    {
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "High Growth Fund",
       "grade": "NR",
       "id": "NMaevBNTMxqcp2Ye9Z7k"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Pathfinder Ethical Growth Fund",
+      "grade": "NR",
+      "id": "NX3YPXjAs5ohCgWYpIxW"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer All Country Global Shares Index Fund",
       "grade": "NR",
       "id": "NZkYY9EkvrlS1Qf5lLy9"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Milford Aggressive Fund",
       "grade": "NR",
       "id": "NqjqElSHX7lxaefG8iZN"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Balanced Fund",
+      "grade": "NR",
+      "id": "NxzW7MTKWLwrX4IQfcXc"
+    },
+    {
+      "provider": "Maritime KiwiSaver Scheme",
+      "fund": "Conservative Portfolio",
+      "grade": "NR",
+      "id": "NzzmQFzZTSYWhMHJR9oo"
     },
     {
       "provider": "Generate KiwiSaver Scheme",
@@ -637,9 +877,15 @@
       "id": "O3vcQZrS5t2jmImbhs8R"
     },
     {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones Growth 56-60",
+      "grade": "NR",
+      "id": "OBwf5lA5U2CBbtZ1E2Vs"
+    },
+    {
       "provider": "Mercer KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "OIU9UxrXFD2d1v9SUcpa"
     },
     {
@@ -651,8 +897,20 @@
     {
       "provider": "Milford KiwiSaver Plan",
       "fund": "Active Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "OhnXztSlfHQZR63LXfix"
+    },
+    {
+      "provider": "Maritime KiwiSaver Scheme",
+      "fund": "Growth Portfolio",
+      "grade": "NR",
+      "id": "OjnZ39egoiAe3zE7elIO"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Goalsgetter Harbour Sustainable Impact Fund",
+      "grade": "NR",
+      "id": "Ond7S8OksuxUjxpQ83dP"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -661,21 +919,27 @@
       "id": "Otrrv3qCou9X6M5kpKd6"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 76+",
+      "grade": "NR",
+      "id": "P5cj6tj7NqNLpT7RIVat"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer Macquarie NZ Cash Fund",
-      "grade": "A",
+      "grade": "NR",
       "id": "POL65oX4dH72Qopveu5N"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "PWJI7KPDRBJGzeXUh8qi"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "High Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "PieUWJEq6sIPS4UuU5wj"
     },
     {
@@ -685,16 +949,46 @@
       "id": "Po2MKcIaFDs5uOdf1DxU"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "Fisher Funds KiwiSaver Plan",
+      "fund": "Glidepath Age 25",
+      "grade": "NR",
+      "id": "Px6TiYhRPu1Le4Fu7fR9"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Nasdaq-100",
       "grade": "NR",
       "id": "Q7QHcKZ6ad3umI1FvgvT"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 46-55",
+      "grade": "NR",
+      "id": "QCpeF0rG1jJkYvdLSyuU"
+    },
+    {
+      "provider": "Fisher Funds KiwiSaver Plan",
+      "fund": "Glidepath Age 65",
+      "grade": "NR",
+      "id": "Qep5bTNBBnW9fx0umPTh"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 60",
+      "grade": "NR",
+      "id": "QfcLFiRsQWaXUKHDTyyw"
+    },
+    {
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "NZ Equities",
       "grade": "NR",
       "id": "Qj3OuIcPbRtbl1WMvK63"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Balanced Fund (Lifesteps)",
+      "grade": "NR",
+      "id": "QoBeqFK3KxhOM3yFKHS4"
     },
     {
       "provider": "NZ Funds KiwiSaver Scheme",
@@ -703,16 +997,34 @@
       "id": "QvOAfS1cIph9VSqOKNLt"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "Shaw and Partners KiwiSaver Scheme",
+      "fund": "Growth Fund",
+      "grade": "Recommended",
+      "id": "Qw055ShwDseXAXiBiAEg"
+    },
+    {
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Balanced Growth Fund",
       "grade": "NR",
       "id": "QwonFuRMFPWp7AiFlxLw"
+    },
+    {
+      "provider": "SBS Wealth KiwiSaver Scheme",
+      "fund": "Lifestages Moderate Option",
+      "grade": "NR",
+      "id": "R2kqCWLeugTExFw9731Y"
     },
     {
       "provider": "Fisher Funds KiwiSaver Plan",
       "fund": "Cashplus Fund",
       "grade": "NR",
       "id": "R9hYEWixBhDWRs9rh7SP"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova NZ Cash Fund",
+      "grade": "Recommended",
+      "id": "RBfHJAmoBApLlVpx0RPX"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -723,23 +1035,23 @@
     {
       "provider": "ASB KiwiSaver Scheme",
       "fund": "NZ Cash Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "RweaIliCkFb89aBpaviy"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Russell Investments NZ Fixed Interest Fund",
       "grade": "NR",
       "id": "S4We4U80Z5puuY1eNCvJ"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Income",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "S8QPlf1NqaXvGq8y768R"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Overseas Non Govt Bd",
       "grade": "NR",
       "id": "SD3EQEyYCuKSAbw4flKN"
@@ -751,19 +1063,25 @@
       "id": "SKVETGqgibjCtqzdMXpb"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "US 500",
       "grade": "NR",
       "id": "SQ2vmJNq5sKOwiV6VcUl"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Conservative Fund",
       "grade": "NR",
       "id": "ST2D6LsoCehRBCSh5d0k"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Milford Balanced Fund",
+      "grade": "NR",
+      "id": "SZhLd5vDVUqPS0FtKUnj"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "US Mid Cap",
       "grade": "NR",
       "id": "Sc7InYKMBG4wh4RfMTck"
@@ -777,7 +1095,7 @@
     {
       "provider": "Pathfinder KiwiSaver Plan",
       "fund": "Balanced Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "T5kQ5XAejBFIP0BGwzUP"
     },
     {
@@ -787,10 +1105,22 @@
       "id": "T68SSw3eJfzGPf0hPy7q"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Australian Mid Cap",
       "grade": "NR",
       "id": "T76gF8bXH8wjoEifpGyC"
+    },
+    {
+      "provider": "SBS Wealth KiwiSaver Scheme",
+      "fund": "Lifestages Balanced Option",
+      "grade": "Recommended",
+      "id": "TDpARfZ7VaZMXOMtqoDk"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Goalsgetter Harbour Balanced Growth Fund",
+      "grade": "NR",
+      "id": "TRnioN5PyrVi7PovUyE5"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -799,10 +1129,16 @@
       "id": "TSS4r5kmoXrX7O99HC7D"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Socially Responsible Investment",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "TXGgKAqZtvmGpwpkSZXF"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Default Fund",
+      "grade": "NR",
+      "id": "Tc3L0zLtCJ1967gAvCNX"
     },
     {
       "provider": "SBS Wealth KiwiSaver Scheme",
@@ -811,13 +1147,19 @@
       "id": "TmoFzs2q5oQU2klwkOgF"
     },
     {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Generate Thematic Fund",
+      "grade": "NR",
+      "id": "TvrzwDYWuCHCdFDXifmb"
+    },
+    {
       "provider": "Simplicity KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "UCk6FiTwKRxlGJStBUUL"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Australia 100 Fund",
       "grade": "NR",
       "id": "URUyW6VuDBGahYG9RoO5"
@@ -829,37 +1171,55 @@
       "id": "Uey9XSjHLENuM6fK7OsQ"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "Australian Equities",
       "grade": "NR",
       "id": "UkSOCq3B3POhix2PsDJh"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Global Fixed Interest Fund",
+      "grade": "NR",
+      "id": "V6bRu3JpsHHfwn0BvXSY"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P Global Clean Energy",
       "grade": "NR",
       "id": "VMGpCcrozBnZUDxyap0i"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Milford Active Growth Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "VPZfbfnrQjM94ERR4LMM"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "Emerging Markets Equities",
       "grade": "NR",
       "id": "VQZZG5X5PmYxkt4S4EyA"
     },
     {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Cash Fund",
+      "grade": "NR",
+      "id": "VYKIP36O5Gxz3n2Xa5Uf"
+    },
+    {
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Australasian Share",
       "grade": "NR",
       "id": "VYnSZGHer0sjw7UqKFGd"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora Retirementplus Age 75",
+      "grade": "NR",
+      "id": "VaFHAg3ltQrdmepZOkG0"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mint Diversified Income Fund",
       "grade": "NR",
       "id": "Vyei24SxCDU62IRiDLIr"
@@ -877,19 +1237,37 @@
       "id": "WVpCpNyeS9GW9sE2CjMo"
     },
     {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Conservative Fund",
+      "grade": "NR",
+      "id": "Wgkv2pY0MNnmX06WdYuS"
+    },
+    {
+      "provider": "Booster KiwiSaver Scheme",
+      "fund": "Asset Class Growth Fund",
+      "grade": "NR",
+      "id": "WpLGepFTiCD14w6pNFsL"
+    },
+    {
       "provider": "Evidential KiwiSaver Scheme",
       "fund": "Growth Fund",
       "grade": "NR",
       "id": "WpVtZspKrdSpcI11bYtF"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Sri Equity Fund",
+      "grade": "NR",
+      "id": "X3t54AJ5rBRpszJOo0pK"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Australian Shares",
       "grade": "NR",
       "id": "XHR53vaZMO3vtoDuVqqM"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "Listed Property",
       "grade": "NR",
       "id": "XMvgpGolATSJZJCondYP"
@@ -897,17 +1275,17 @@
     {
       "provider": "Mercer KiwiSaver Scheme",
       "fund": "Responsible Shares",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "XQWFwDaaybwtAlvZF8i3"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "Global Fixed Interest",
       "grade": "NR",
       "id": "XRDAs86DVnlEyooEdKgS"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Australian Resources",
       "grade": "NR",
       "id": "XRXoD9tYIMkomn391on6"
@@ -921,26 +1299,44 @@
     {
       "provider": "Mercer KiwiSaver Scheme",
       "fund": "Responsible Growth Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "Xm5BT21tiLOoamWoli5a"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "OneAnswer KiwiSaver Scheme",
+      "fund": "Select International Share Fund",
+      "grade": "NR",
+      "id": "XmO7C6RNOmhaGE8DNi7h"
+    },
+    {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones Growth 51-55",
+      "grade": "NR",
+      "id": "XprZhEUvMIytg80nqhGM"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Asia Pacific",
       "grade": "NR",
       "id": "YJiGxB0FutcpZ01NobBe"
     },
     {
-      "provider": "Fisher Funds KiwiSaver Scheme",
-      "fund": "Conservative Fund",
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Growth Fund",
       "grade": "NR",
-      "id": "YgALxAiw7xSiZJmOZjk6"
+      "id": "YUi3LZjMeqAaRRVHC5De"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "NZ Commercial Property",
       "grade": "NR",
       "id": "YiT0piYai4Wm3gV7Ost2"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Smart High Growth Fund",
+      "grade": "NR",
+      "id": "YmHslo35Mu3SxCbflA3i"
     },
     {
       "provider": "MAS KiwiSaver Scheme",
@@ -955,7 +1351,7 @@
       "id": "YsS8B9e906ByaOCUae4u"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "Rest of World Equities",
       "grade": "NR",
       "id": "YvxvMo0qoVTioYFX26Fr"
@@ -967,7 +1363,13 @@
       "id": "ZSlKXeZA19Hmv4ypJPA4"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora Retirementplus Age 65",
+      "grade": "NR",
+      "id": "ZWSILM22tbxm9pMOGPld"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Global Infrastructure NZD Hedged",
       "grade": "NR",
       "id": "Ze34nS6bGfTI5mw6GscF"
@@ -979,7 +1381,7 @@
       "id": "Zj7kmOfiPtAC74n5KI1d"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Global Property NZD Hedged",
       "grade": "NR",
       "id": "Zo5yowFtfnteQLndGGNz"
@@ -987,38 +1389,44 @@
     {
       "provider": "BNZ KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "a5VT79vgaaUn6OdnIcRd"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "AE KiwiSaver Plan",
+      "fund": "AE KiwiSaver Plan",
+      "grade": "NR",
+      "id": "a6N88G67LV4yAHCb0Ztx"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Russell Investments Global Fixed Interest Fund",
       "grade": "NR",
       "id": "a8mZWMXOhzCyhqQLC38Z"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Overseas Bonds",
       "grade": "NR",
       "id": "aBKZ5EFJP85gwrdtoHON"
     },
     {
+      "provider": "Kōura KiwiSaver Scheme",
+      "fund": "Growth Strategy",
+      "grade": "NR",
+      "id": "aJUzDhWEz3HABoyniaIp"
+    },
+    {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Defensive Conservative Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "aLIFxPcmUm60XbEnoIBD"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "New Zealand Equities",
       "grade": "NR",
       "id": "aLbABKZIXRvfOWQrALp4"
-    },
-    {
-      "provider": "Fisher Funds KiwiSaver Scheme",
-      "fund": "Growth Fund",
-      "grade": "NR",
-      "id": "aTTYlfOlDRJigMNTjkJb"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -1027,9 +1435,9 @@
       "id": "aejLkALQ5nKFIKc7fFmh"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "afF8L0OpUsERtIGjtMjU"
     },
     {
@@ -1039,10 +1447,16 @@
       "id": "al0HUOiYPjDDGgwpBZww"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Harbour NZ Core Fixed Interest Fund",
       "grade": "NR",
       "id": "b0d4gRyrSZAAE0rXhQdV"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova High Growth Fund",
+      "grade": "NR",
+      "id": "b7lnPeNgC7UDwDdcMQel"
     },
     {
       "provider": "Pie KiwiSaver Scheme",
@@ -1051,13 +1465,13 @@
       "id": "b9gm3csI5Sg8MhqnLu78"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Shares",
       "grade": "NR",
       "id": "bCigo1UAG49HOsfiF71c"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "NZ Equity",
       "grade": "NR",
       "id": "bHtp0yAupJt8wVw4HgqJ"
@@ -1065,26 +1479,38 @@
     {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "bOzEwmPfsMDXDTyRKRr6"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mint Australasian Equity Fund",
       "grade": "NR",
       "id": "bcJBqGsYS2jGapPregcv"
     },
     {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones Growth 76+",
+      "grade": "NR",
+      "id": "bwpyWJEaiQRGW0qhGjIc"
+    },
+    {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Aggressive Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "c02ZVEDwVsR9vRzkDyUS"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "US Equities",
       "grade": "NR",
       "id": "c8LlrrN1BoDF75f41293"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Global Shares Fund",
+      "grade": "NR",
+      "id": "cL6wSa9bcsKWlv2eJ7Li"
     },
     {
       "provider": "Sharesies KiwiSaver Scheme",
@@ -1105,7 +1531,7 @@
       "id": "ciieh4aGcVdzJKkoKUVD"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "Clean Energy",
       "grade": "NR",
       "id": "crRFCm6L20xRM7Gxavkl"
@@ -1113,29 +1539,41 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "crZTlrZ3AgprfInE0kJe"
+    },
+    {
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Shares Fund",
+      "grade": "NR",
+      "id": "ctK7VJLuBH1BBYnXomc8"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Age Steps - Age 50",
+      "grade": "NR",
+      "id": "cwvZceVVy2JzhZvL5o0F"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Capital Guaranteed",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "cxNCJkx7ooJk3LGdcHMZ"
     },
     {
       "provider": "BNZ KiwiSaver Scheme",
       "fund": "First Home Buyer Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "cymvlJzMY1TPDrm6ah0n"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Balanced Fund No. 2",
-      "grade": "B",
+      "grade": "NR",
       "id": "dBvqCxWwbmtUJyPosl54"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Clarity Global Shares Fund",
       "grade": "NR",
       "id": "dSU1nWaOf3y4cl841rfq"
@@ -1155,29 +1593,23 @@
     {
       "provider": "Summer KiwiSaver Scheme",
       "fund": "Conservative Selection",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "e9gNTXmQfZvg1CbvpupM"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P 500",
       "grade": "NR",
       "id": "eRsVJvq2grkMP9QfIQ38"
     },
     {
-      "provider": "Investnow KiwiSaver",
-      "fund": "Salt Capital Growth",
-      "grade": "NR",
-      "id": "eS2rvydRBAjTLbd9Qkgq"
-    },
-    {
-      "provider": "AMP KiwiSaver",
+      "provider": "AMP KiwiSaver Scheme",
       "fund": "Australasian Shares",
       "grade": "NR",
       "id": "eazat4kKAaIhUfIF0aZG"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "NZ 20",
       "grade": "NR",
       "id": "ec3J9ghwMXfKogl4GvfK"
@@ -1185,14 +1617,14 @@
     {
       "provider": "Pathfinder KiwiSaver Plan",
       "fund": "Conservative Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "elZFgLJwKAcv5FhSK3nT"
     },
     {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Growth Fund No. 2",
+      "provider": "NZ Funds KiwiSaver Scheme",
+      "fund": "Life Cycle - Age 0-54",
       "grade": "NR",
-      "id": "eqmTsWMoVlpeY1KvgqVH"
+      "id": "esuZQsWub96wuOXgu5iu"
     },
     {
       "provider": "Mercer KiwiSaver Scheme",
@@ -1201,13 +1633,13 @@
       "id": "f4Ntwvo5mvcDfIcpo6aE"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "US Bond Fund",
       "grade": "NR",
       "id": "f8xqTEiDfgL9Mrg1rLoy"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Castle Point Trans-Tasman Fund",
       "grade": "NR",
       "id": "f8yDHZF84GCjhFWmRtNF"
@@ -1221,11 +1653,23 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "fTRHJNArlRmAVQFUXfaH"
     },
     {
-      "provider": "Generate KiwiSaver",
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Automatic Fund (Age 60)",
+      "grade": "NR",
+      "id": "fUTwuzR04qaOLn16dTsB"
+    },
+    {
+      "provider": "Sharesies KiwiSaver Scheme",
+      "fund": "Fisher Funds Growth Fund",
+      "grade": "NR",
+      "id": "fbAy22zgYJ1STcC7uEKd"
+    },
+    {
+      "provider": "Generate KiwiSaver Scheme",
       "fund": "Thematic Fund",
       "grade": "NR",
       "id": "ffZPA6VwZvO2OuBTRSjg"
@@ -1233,7 +1677,7 @@
     {
       "provider": "Milford KiwiSaver Plan",
       "fund": "Aggressive Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "g2RoHwG4gDTaE0CFSyZZ"
     },
     {
@@ -1245,14 +1689,20 @@
     {
       "provider": "ASB KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "gYlzQvEqosNlv7lqapKu"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "NZ Bond Fund",
       "grade": "NR",
       "id": "gaQgLfXD3GS8PMXqhgQf"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Conservative Fund (Lifesteps)",
+      "grade": "NR",
+      "id": "gdllO8gWxhzyr4638DHm"
     },
     {
       "provider": "NZ Funds KiwiSaver Scheme",
@@ -1263,7 +1713,7 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "h4FM6fYz3Q7XQxEPNI4d"
     },
     {
@@ -1273,7 +1723,7 @@
       "id": "h9CTTNQKyj2vM1wB2ufE"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "Global Equities",
       "grade": "NR",
       "id": "hAfYpB78uyOfkGYQKdtQ"
@@ -1285,16 +1735,28 @@
       "id": "hGYVvVQJzgtBcWLFsr4A"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Harbour Australasian Equity Focus Fund",
       "grade": "NR",
       "id": "hplPIbfgmoVEbjyDfkWD"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Te Ahumairangi Global Equity Fund",
       "grade": "NR",
       "id": "i5SXdqzXUSi6VYdfnY4D"
+    },
+    {
+      "provider": "Christian KiwiSaver Scheme",
+      "fund": "Income Fund",
+      "grade": "NR",
+      "id": "i6AC17KHsuJ0OEKNOnkm"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "S&P/Nzx NZ Government Bond Fund",
+      "grade": "NR",
+      "id": "iFTz0yAatdPswHCRsKp7"
     },
     {
       "provider": "Westpac KiwiSaver Scheme",
@@ -1303,13 +1765,13 @@
       "id": "iGio8GVThp5naYI4dfD0"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Russell Investments Global Shares Fund",
       "grade": "NR",
       "id": "iGx3FJKMI13os2vssjQ8"
     },
     {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Australasian Property",
       "grade": "NR",
       "id": "iN0B4a5J9UjUPZ73SS5L"
@@ -1317,20 +1779,38 @@
     {
       "provider": "ANZ Default KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "NR",
       "id": "iT0gm5o31xSi2x1Qlvmu"
     },
     {
-      "provider": "Generate KiwiSaver",
+      "provider": "Generate KiwiSaver Scheme",
       "fund": "Australasian Fund",
       "grade": "NR",
       "id": "iq8m7zuNRlLmpwbqasPI"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
+      "fund": "Salt Capital Growth Fund",
+      "grade": "NR",
+      "id": "it4CK6kZveTjZpx3FUE1"
+    },
+    {
+      "provider": "Pie KiwiSaver Scheme",
+      "fund": "KiwiSaver Aggressive Fund",
+      "grade": "NR",
+      "id": "it9T33FnRM8dOCjUuKy0"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Moderate Balanced Fund",
       "grade": "NR",
       "id": "j4rhaFAsHPMqaFlWii5H"
+    },
+    {
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Automatic Fund (Age 20)",
+      "grade": "NR",
+      "id": "jXrNRR331TV1F9npLWMN"
     },
     {
       "provider": "Simplicity KiwiSaver Scheme",
@@ -1345,19 +1825,43 @@
       "id": "jiRZd80JaIjIhiA3Y1Ql"
     },
     {
+      "provider": "Sharesies KiwiSaver Scheme",
+      "fund": "Milford Balanced Fund",
+      "grade": "NR",
+      "id": "jjVmVVyC18aUn4ePQjr9"
+    },
+    {
+      "provider": "NZ Funds KiwiSaver Scheme",
+      "fund": "Life Cycle - Age 75",
+      "grade": "NR",
+      "id": "jpPhWhNiSLaNg7S1ZQXT"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Global Select Balanced Growth Fund",
+      "grade": "NR",
+      "id": "jt5v5pEz3sXVa16sOlBz"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
+      "fund": "Fisher Funds Conservative Fund",
+      "grade": "NR",
+      "id": "jznLpqhHiPaIQhEY2X44"
+    },
+    {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "High Growth Fund",
       "grade": "NR",
       "id": "k702buYbj523OBAugqTy"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "kG8afLwgIeDIHUTvip4B"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Conservative Balanced Fund",
       "grade": "NR",
       "id": "kSK3cVvPCiQU4QUfDeki"
@@ -1369,19 +1873,31 @@
       "id": "kWj5vvrgCI1RfR2MAPpY"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Australian Property",
       "grade": "NR",
       "id": "kpDRz5jAO7oWuIL0eOT4"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones Growth 61-75",
+      "grade": "NR",
+      "id": "kqbPwlhzPcdbBtO1xw5Q"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
+      "fund": "Harbour Active Growth Fund",
+      "grade": "NR",
+      "id": "l9pUz5Aq7o41l4k2j3tO"
+    },
+    {
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "lCkZqsrc5rSvahcShuzP"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Russell Investments Hedged Global Shares Fund",
       "grade": "NR",
       "id": "lEtY5XMOAEIzw8yqK6oE"
@@ -1389,35 +1905,47 @@
     {
       "provider": "Milford KiwiSaver Plan",
       "fund": "Conservative Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "lbBUtOwnr6uZcrKStPVe"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Amova Ark Disruptive Innovation Fund",
+      "grade": "NR",
+      "id": "mS5U6ofjE1Ho3LFE13ad"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Salt Capital Growth Fund",
+      "grade": "NR",
+      "id": "nn2YLq3DOMMSMChQCzz1"
     },
     {
       "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "nrF6wrNuqjtlEmiBcMmb"
     },
     {
-      "provider": "Koura KiwiSaver",
-      "fund": "Koura Bitcoin",
+      "provider": "Kōura KiwiSaver Scheme",
+      "fund": "Bitcoin",
       "grade": "NR",
       "id": "ntMOy44DybxPgmEG9Top"
     },
     {
-      "provider": "OneAnswer KiwiSaver",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "International Property",
       "grade": "NR",
       "id": "o4pDfJSbg6hJXxLn4M5q"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Fisher Funds Growth Fund",
       "grade": "NR",
       "id": "oLHcU0GDqNZ3MgrXLmgE"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "S&P/NZX 50",
       "grade": "NR",
       "id": "ocrTHv4ajMb6ycYNcjkx"
@@ -1427,6 +1955,18 @@
       "fund": "High Growth Fund",
       "grade": "NR",
       "id": "okx4i6HuyukNKN8qcdWt"
+    },
+    {
+      "provider": "SBS Wealth KiwiSaver Scheme",
+      "fund": "Lifestages Conservative Option",
+      "grade": "NR",
+      "id": "pEMCa6x1JeLCrndnMSZ1"
+    },
+    {
+      "provider": "Fisher Funds KiwiSaver Plan",
+      "fund": "Glidepath Age 40",
+      "grade": "NR",
+      "id": "pILYprR7cL4nm91Zwc78"
     },
     {
       "provider": "Summer KiwiSaver Scheme",
@@ -1443,11 +1983,11 @@
     {
       "provider": "ASB KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "pcOKiJBC12tCP51LhvUW"
     },
     {
-      "provider": "Oneanswer KiwiSaver Scheme",
+      "provider": "OneAnswer KiwiSaver Scheme",
       "fund": "Balanced Fund",
       "grade": "NR",
       "id": "pdtvyGe5b8Z2rvLDI8bt"
@@ -1459,16 +1999,22 @@
       "id": "ph6w1b0twTyX6nYba4Hy"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Pathfinder Ethical Growth Fund",
       "grade": "NR",
       "id": "q3QPmrEoBvsVjKMwk14g"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P Global 100",
       "grade": "NR",
       "id": "qNP4Km7bkeoEhxqPNO5d"
+    },
+    {
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Balanced Fund",
+      "grade": "NR",
+      "id": "qQpmhERqiTTFkqz1DLKy"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
@@ -1484,15 +2030,27 @@
     },
     {
       "provider": "SBS Wealth KiwiSaver Scheme",
+      "fund": "Lifestages Aggressive Option",
+      "grade": "Recommended",
+      "id": "qa5sCdnYnJ2PDt5WwI07"
+    },
+    {
+      "provider": "SBS Wealth KiwiSaver Scheme",
       "fund": "High Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "qbgLVwsdW0XRrdq77Tia"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Enhanced Cash Fund",
-      "grade": "B",
+      "grade": "NR",
       "id": "qezmW2ErsR7gr2VWx6xB"
+    },
+    {
+      "provider": "Sharesies KiwiSaver Scheme",
+      "fund": "Generate Focused Growth Fund",
+      "grade": "NR",
+      "id": "rAqNEbhQc48kLIYTZIKo"
     },
     {
       "provider": "BNZ KiwiSaver Scheme",
@@ -1503,20 +2061,14 @@
     {
       "provider": "Fisher Funds KiwiSaver Plan",
       "fund": "Core Conservative Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "rED6R8kDXjda585oni0O"
     },
     {
-      "provider": "Summer KiwiSaver",
+      "provider": "Summer KiwiSaver Scheme",
       "fund": "New Zealand Fixed Interest",
       "grade": "NR",
       "id": "rRg27zlSNU2rxF4bOrgB"
-    },
-    {
-      "provider": "Investnow KiwiSaver Scheme",
-      "fund": "Macquarie NZ Cash Fund",
-      "grade": "A",
-      "id": "reik9MoKrfXbpV0Rz7CF"
     },
     {
       "provider": "Generate KiwiSaver Scheme",
@@ -1525,10 +2077,16 @@
       "id": "s18aTBQSQNqAh2BYoGSJ"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "Emerging Markets Fund",
       "grade": "NR",
       "id": "s3cZNEZeWf7kzC6YP8Cj"
+    },
+    {
+      "provider": "GoalsGetter KiwiSaver Scheme",
+      "fund": "Generate Focused Growth Fund",
+      "grade": "NR",
+      "id": "s70Q9vY9yZ8aV14N7GBY"
     },
     {
       "provider": "Mercer KiwiSaver Scheme",
@@ -1537,25 +2095,43 @@
       "id": "s9cpC7H9rb8CnBSf72wr"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Total World",
       "grade": "NR",
       "id": "sARWHIpTy2aVJFsLaWFy"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "SuperEasy KiwiSaver Superannuation Scheme",
+      "fund": "Automatic Fund (Age 40)",
+      "grade": "NR",
+      "id": "sV1DpmkuxrVqA940o7SO"
+    },
+    {
+      "provider": "SBS Wealth KiwiSaver Scheme",
+      "fund": "Lifestages Growth Option",
+      "grade": "NR",
+      "id": "sYcRYtFAhp2uCVBVr1tt"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "skIyuOOVpdn7R9yiaZwp"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Conservative Fund",
+      "grade": "NR",
+      "id": "syDRSSGgzuGvcc9VM5cB"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Mercer Responsible Hedged Global Fixed Interest Index Fund",
       "grade": "NR",
       "id": "t89sN4M2C2RNbzXdxrCY"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Top 10",
       "grade": "NR",
       "id": "tCQxRrY8l8GGCYBN7UuQ"
@@ -1569,23 +2145,23 @@
     {
       "provider": "MAS KiwiSaver Scheme",
       "fund": "Growth Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "u5HYn5PuH8tZNgstKzmd"
     },
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Geared Growth Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "uBxGmxDUgsFfHdZtIRkp"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Global ESG Fund",
       "grade": "NR",
       "id": "uPL8hiHEZzgjmHIWyYfz"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Income",
       "grade": "NR",
       "id": "uWiApnKXdyO9W01Cwmkl"
@@ -1597,22 +2173,40 @@
       "id": "uYlVsLQAYhnPq9cIonpA"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Emerging Markets",
       "grade": "NR",
       "id": "ud8KdieJIPWcjErwi0Q8"
     },
     {
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "Moderate Fund",
+      "grade": "NR",
+      "id": "udIG4VgStgv6qiPCMwNc"
+    },
+    {
+      "provider": "New Zealand Defence Force KiwiSaver Scheme",
+      "fund": "High Growth Fund",
+      "grade": "NR",
+      "id": "uel44EDk8GxFKlmkG83V"
+    },
+    {
       "provider": "BNZ KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A",
+      "grade": "Recommended",
       "id": "un32Yih1I5a66oWaUQ4w"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Overseas Shares Currency Hedged",
       "grade": "NR",
       "id": "uoQMITkGBZDiIQv8B0Bf"
+    },
+    {
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 36-45",
+      "grade": "NR",
+      "id": "upcWnHwsfC5cbsB6Ubhx"
     },
     {
       "provider": "BNZ KiwiSaver Scheme",
@@ -1621,43 +2215,73 @@
       "id": "v0x6FJW3KPS1BBVELFei"
     },
     {
-      "provider": "Aurora KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Pie Growth Fund",
+      "grade": "NR",
+      "id": "v4GWHwGsDcp6UM7Q92oM"
+    },
+    {
+      "provider": "Hive KiwiSaver Scheme",
       "fund": "Growth Fund",
       "grade": "NR",
       "id": "vBvvzRiGuPAvyndlvZ2s"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 61-64",
+      "grade": "NR",
+      "id": "vEWCzmbEP5CH2ADSMUc6"
+    },
+    {
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Total World Fund",
       "grade": "NR",
       "id": "vFAF0x5NcBSPThxJ1ZvN"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Pathfinder KiwiSaver Plan",
+      "fund": "KiwiSaver High Growth Fund",
+      "grade": "NR",
+      "id": "vQpw5YFmvbnvlLEvRteJ"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "NZ Top 50",
       "grade": "NR",
       "id": "vVQTutaBFwpZ4OJvFEAI"
     },
     {
-      "provider": "Koura KiwiSaver Scheme",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora Balanced Strategy",
+      "grade": "NR",
+      "id": "valGeKtuOonFwsEvHd5H"
+    },
+    {
+      "provider": "Maritime KiwiSaver Scheme",
+      "fund": "Balanced Portfolio",
+      "grade": "NR",
+      "id": "vrvx8S2Av8aMsldWxM6I"
+    },
+    {
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "New Zealand Cash Fund",
       "grade": "NR",
       "id": "vu24p5EPrvRtYUvRf59a"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "Altum",
-      "grade": "B",
+      "grade": "NR",
       "id": "vvcVjNVXU0QqWLTE8Q5q"
     },
     {
       "provider": "Simplicity KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "wS2XHB3ZD399500D4NxW"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "High Growth Fund",
       "grade": "NR",
       "id": "wWjmdWCrfYLQEZi5nDp8"
@@ -1665,17 +2289,17 @@
     {
       "provider": "Westpac KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "wc3X3kYXjVAFZDyBxljp"
     },
     {
       "provider": "ASB KiwiSaver Scheme",
       "fund": "Conservative Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "wfekLhHQe1xpbwJFNkVW"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "S&P 500 NZD Hedged",
       "grade": "NR",
       "id": "wwaxN08r2bPpljcCcZW4"
@@ -1687,16 +2311,10 @@
       "id": "x25hXQganQkhJufPYd0o"
     },
     {
-      "provider": "Koura KiwiSaver",
+      "provider": "Kōura KiwiSaver Scheme",
       "fund": "Fixed Interest",
       "grade": "NR",
       "id": "x6albrmIkmGz5W5Ak0rF"
-    },
-    {
-      "provider": "AMP KiwiSaver Scheme",
-      "fund": "Balanced Fund No. 4",
-      "grade": "NR",
-      "id": "xLeKZrbsDerSwuKQo8xp"
     },
     {
       "provider": "ANZ KiwiSaver Scheme",
@@ -1705,31 +2323,49 @@
       "id": "xN8RDxAKukIkd6lG4hso"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Generate KiwiSaver Scheme",
+      "fund": "Stepping Stones 0-35",
+      "grade": "NR",
+      "id": "xNlEo8qrzYf2exE5WDUp"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Ethica",
-      "grade": "B",
+      "grade": "NR",
       "id": "xVIPBYOaLIL8dHvebOUc"
     },
     {
       "provider": "Milford KiwiSaver Plan",
-      "fund": "KiwiSaver Cash Fund",
-      "grade": "A+",
+      "fund": "Kiwisaver Cash Fund",
+      "grade": "Recommended",
       "id": "xWkjEPI0HmIMGMui0mqC"
     },
     {
-      "provider": "Kernel KiwiSaver",
+      "provider": "Hive KiwiSaver Scheme",
+      "fund": "Aurora Retirementplus Age 50",
+      "grade": "NR",
+      "id": "xaN65acbDrGJyUU2FpWJ"
+    },
+    {
+      "provider": "AMP KiwiSaver Scheme",
+      "fund": "Moderate Fund (Lifesteps)",
+      "grade": "NR",
+      "id": "xnwNA67ESW8EuuTqhiUg"
+    },
+    {
+      "provider": "Kernel KiwiSaver Plan",
       "fund": "NZ Small & Mid Cap Opps",
       "grade": "NR",
       "id": "y4MgMuyjKiY4bWeivtxf"
     },
     {
-      "provider": "Quaystreet KiwiSaver Scheme",
+      "provider": "QuayStreet KiwiSaver Scheme",
       "fund": "International Equity (NZD Hedged)",
       "grade": "NR",
       "id": "yDKVJUOcQ9mWzWWPusoG"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "Aust Financials",
       "grade": "NR",
       "id": "yNuzX4ipUjW1PIeoIaMj"
@@ -1741,7 +2377,7 @@
       "id": "yZKM6u3TfRBsBakxRWSq"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Harbour T. Rowe Price Global Equity Fund",
       "grade": "NR",
       "id": "ygVBUAhtuWsGmMO0cd1A"
@@ -1755,7 +2391,7 @@
     {
       "provider": "Booster KiwiSaver Scheme",
       "fund": "Socially Responsible High Growth Fund",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "yoD2A7Oe60JMXUk3rWTc"
     },
     {
@@ -1771,7 +2407,7 @@
       "id": "z02NxlljNxxLFZWAq9wE"
     },
     {
-      "provider": "Superlife KiwiSaver Scheme",
+      "provider": "Smart KiwiSaver Scheme",
       "fund": "S&P/ASX 200",
       "grade": "NR",
       "id": "zCb3MrUhntLZYgZzuHDu"
@@ -1779,37 +2415,43 @@
     {
       "provider": "Mercer KiwiSaver Scheme",
       "fund": "Responsible Balanced Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "zM7bpJLIoQ0Dg9AVUAWa"
     },
     {
-      "provider": "Investnow KiwiSaver Scheme",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Foundation Series Growth Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "zPU81vPVIHbps7mnJVhl"
     },
     {
-      "provider": "Investnow KiwiSaver",
+      "provider": "InvestNow KiwiSaver Scheme",
       "fund": "Milford Balanced Fund",
-      "grade": "A+",
+      "grade": "Recommended",
       "id": "zZktfFG7wlpHKpDdDnii"
+    },
+    {
+      "provider": "Smart KiwiSaver Scheme",
+      "fund": "Castle Point 5 Oceans Fund",
+      "grade": "NR",
+      "id": "zmirlKdPvAIPMRYSFvxx"
     },
     {
       "provider": "Summer KiwiSaver Scheme",
       "fund": "New Zealand Cash",
-      "grade": "B",
+      "grade": "Recommended",
       "id": "zp6BSF4Lwz2A5e8Unmgk"
     },
     {
       "provider": "BNZ KiwiSaver Scheme",
       "fund": "Balanced Fund",
-      "grade": "NR",
+      "grade": "Recommended",
       "id": "zrMNQC7URHHu4Yl0zsYF"
     },
     {
       "provider": "AMP KiwiSaver Scheme",
       "fund": "Cash Fund",
-      "grade": "B",
+      "grade": "NR",
       "id": "zuCxoKOg3kSsyXky9x3Y"
     }
   ]
