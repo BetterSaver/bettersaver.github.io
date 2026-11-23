@@ -14,7 +14,7 @@ intro_body_2: |-
 
   BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect.
 intro_cta_label: Get my fund recommendation
-intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 why_tag: Why BetterSaver
 why_heading: Why switch your KiwiSaver provider through BetterSaver?
 why_body: |
@@ -192,7 +192,7 @@ choose_footnote: 'If you’d rather skip straight to a recommendation, answer a 
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
-cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_body: 'Not sure you’re in the right scheme? Tell us a bit about yourself and we’ll show you what your options look like. Switching KiwiSaver providers is easier than most people think.'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:

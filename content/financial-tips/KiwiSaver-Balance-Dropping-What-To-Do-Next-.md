@@ -193,7 +193,7 @@ Key takeaways:
 * Switching funds or cashing out during a downturn can lock in losses that would otherwise have recovered.
 * Continuing to contribute during a dip means your money (and the government's) buys in at a lower price.
 * Whether to switch funds should come down to fund fit (fees, performance and risk level), not fear.
-* Our free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) can show whether your current fund still matches your goals and timeline.
+* Our free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/goal) can show whether your current fund still matches your goals and timeline.
 
 ## Why your KiwiSaver balance can drop
 
@@ -241,7 +241,7 @@ A poor reason to switch is simply that your balance has dropped this month, or a
 
 If you're genuinely unsure whether you're in the right fund, that's worth checking. A Growth fund suits a very different situation to a Conservative one. Our comparison, [Growth Fund vs Balanced Fund: Which Is Right for You?](https://bettersaver.co.nz/financial-tips/growth-fund-vs-balanced-fund-which-is-right-for-you/), is a useful starting point.
 
-This is also where a tool like our [free Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) can help. It compares your current fund against 300+ others based on your goals, timeline and comfort with risk, so you can see in a few minutes whether your fund still fits.
+This is also where a tool like our [free Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/goal) can help. It compares your current fund against 300+ others based on your goals, timeline and comfort with risk, so you can see in a few minutes whether your fund still fits.
 
 ## Continuing to contribute is crucial
 
@@ -301,4 +301,4 @@ Seeing your KiwiSaver balance dropping is unsettling, but it's rarely a sign any
 
 Our advice is to keep contributing, and make sure you're in a fund that actually suits what you're trying to do, how long you've got and how much risk you're comfortable carrying.
 
-If you're not sure your current fund still fits, [BetterSaver's free Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) takes about 2 minutes and compares your fund against 300+ others to show where you stand.
+If you're not sure your current fund still fits, [BetterSaver's free Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/goal) takes about 2 minutes and compares your fund against 300+ others to show where you stand.

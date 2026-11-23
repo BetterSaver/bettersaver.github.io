@@ -110,7 +110,7 @@ enableRobotsTXT = true
 
     [[menus.main]]
     name = "Find a fund"
-    url = "http://localhost:4250/kiwisaver/onboarding/flow/disclosure/"
+    url = "http://localhost:4250/kiwisaver/onboarding/flow/goal"
     weight = 9
     [menus.main.params]
         class = "button"
