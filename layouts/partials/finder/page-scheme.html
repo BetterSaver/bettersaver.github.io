@@ -107,7 +107,7 @@
 {{ $f := . }}
 {{ $v := partial "finder/verdict-meta.html" (dict "fund" $f "cat" $cat) }}
 <div class="frow" id="{{ $f.fund_slug }}">
-<span class="frow-name">{{ $prov }} {{ or $f.fund_name $f.fund_label }}{{ if $f.risk }}<span class="frow-sub">{{ if eq $cat.label "Other" }}Other{{ else if $f.growth_pct }}{{ $f.growth_pct }}% growth assets{{ else }}{{ $cat.label }}{{ end }} &middot; risk {{ $f.risk }} of 7</span>{{ end }}</span>
+<span class="frow-name">{{ $prov }} {{ or $f.fund_name $f.fund_label }}{{ if $f.risk }}<span class="frow-sub">{{ if eq $cat.label "Other" }}Other{{ else if ne $f.growth_pct nil }}{{ $f.growth_pct }}% growth assets{{ else }}{{ $cat.label }}{{ end }} &middot; risk {{ $f.risk }} of 7</span>{{ end }}</span>
 <span class="verdict-pill {{ if $v.rec }}pill-rec{{ else }}pill-muted{{ end }}">{{ partial "finder/icon.html" (dict "name" $v.icon "size" 14) }}
 {{ $v.label }}</span>
 <span class="frow-why">{{ $v.reason }}</span>
