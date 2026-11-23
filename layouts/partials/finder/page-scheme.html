@@ -1,9 +1,11 @@
-{{- /* Scheme (provider) page, stage 1. Fund names are plain text; per-fund pages arrive with stage 2.
-     Data: site.Data.finder (schemes, funds, categories, review). Copy rules: everything on this page
-     is generated from the dataset. No ownership, history or default-provider claims: those aren't in the data. */ -}}
+{{- /* Scheme (provider) page, stage 1, per the v2 design. Fund names are plain text; per-fund
+     pages arrive with stage 2. Data: site.Data.finder (schemes, funds, categories, market,
+     review). Everything on this page is generated from the dataset: the Started / NZ-owned /
+     Default provider facts render only once those columns exist in the site-load CSV. */ -}}
 {{ $s := .Params.scheme }}
 {{ $g := .Site.Params.finder }}
 {{ $r := site.Data.finder.review }}
+{{ $mkt := site.Data.finder.market }}
 {{ $slug := $s.scheme_slug }}
 {{ $prov := $s.provider_name }}
 {{ $funds := slice }}
@@ -13,8 +15,7 @@
 
 {{- /* Performance stats: funds with a 5-yr return and a comparable group average */ -}}
 {{ $rated := slice }}{{ $above := slice }}
-{{ $wideFund := dict }}{{ $wideGap := -999.0 }}{{ $wideAvg := 0.0 }}
-{{ $deltaMin := 0.0 }}{{ $deltaMax := 0.0 }}{{ $deltaN := 0 }}
+{{ $wideFund := dict }}{{ $wideGap := -999.0 }}{{ $wideCat := dict }}
 {{ range $funds }}
   {{ $f := . }}
   {{ $cat := dict }}{{ range $cats }}{{ if eq .risk_type $f.risk_type }}{{ $cat = . }}{{ end }}{{ end }}
@@ -22,22 +23,19 @@
     {{ $rated = $rated | append $f }}
     {{ $gap := sub $f.ret5_pct $cat.group_avg_ret5 }}
     {{ if ge $gap 0.0 }}{{ $above = $above | append $f }}{{ end }}
-    {{ if gt $gap $wideGap }}{{ $wideGap = $gap }}{{ $wideFund = $f }}{{ $wideAvg = $cat.group_avg_ret5 }}{{ end }}
-    {{ if eq $f.public_rating "recommended" }}
-      {{ $d := mul 40000.0 (sub (math.Pow (add 1.0 (div $f.ret5_pct 100.0)) 5.0) (math.Pow (add 1.0 (div $cat.group_avg_ret5 100.0)) 5.0)) }}
-      {{ $d = mul (math.Round (div $d 100.0)) 100.0 }}
-      {{ if eq $deltaN 0 }}{{ $deltaMin = $d }}{{ $deltaMax = $d }}{{ else }}
-        {{ if lt $d $deltaMin }}{{ $deltaMin = $d }}{{ end }}
-        {{ if gt $d $deltaMax }}{{ $deltaMax = $d }}{{ end }}
-      {{ end }}
-      {{ $deltaN = add $deltaN 1 }}
-    {{ end }}
+    {{ if gt $gap $wideGap }}{{ $wideGap = $gap }}{{ $wideFund = $f }}{{ $wideCat = $cat }}{{ end }}
   {{ end }}
+{{ end }}
+{{ $wideDollar := 0.0 }}
+{{ if gt $wideGap 0.0 }}
+  {{ $d := mul 40000.0 (sub (math.Pow (add 1.0 (div $wideFund.ret5_pct 100.0)) 5.0) (math.Pow (add 1.0 (div $wideCat.group_avg_ret5 100.0)) 5.0)) }}
+  {{ $wideDollar = mul (math.Round (div $d 100.0)) 100.0 }}
 {{ end }}
 
 {{- /* Fee stats */ -}}
 {{ $cheap := index (sort $funds "fee_pct" "asc") 0 }}
 {{ $dear := index (sort $funds "fee_pct" "desc") 0 }}
+{{ $avgFee := $mkt.avg_fee_pct }}
 
 <section class="scheme-hero">
 <div class="scheme-hero-in">
@@ -46,42 +44,65 @@
 <span class="chev">{{ partial "finder/icon.html" (dict "name" "chevron-right" "size" 14) }}</span><span class="here">{{ $s.scheme_name }}</span>
 </nav>
 <h1>{{ $prov }} <strong>{{ strings.TrimPrefix (printf "%s " $prov) $s.scheme_name }}</strong></h1>
-<p class="lede">{{ $prov }} offers {{ len $funds }} KiwiSaver {{ if eq (len $funds) 1 }}fund{{ else }}funds{{ end }} for {{ lang.FormatNumberCustom 0 $s.members }} members, managing {{ $s.total_value }}. {{ if gt (len $rec) 0 }}{{ len $rec }} currently {{ if eq (len $rec) 1 }}meets{{ else }}meet{{ end }} our criteria.{{ else }}None currently meet our criteria.{{ end }}</p>
-<div class="hero-chips">
-{{ if gt (len $rec) 0 }}
-<span class="fx-chip">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 16) }}
-{{ len $rec }} {{ if eq (len $rec) 1 }}fund{{ else }}funds{{ end }} recommended</span>
-{{ end }}
-<span class="fx-chip">Reviewed {{ dateFormat "2 January 2006" $r.last_reviewed }}</span>
-<span class="fx-chip">By our licensed advice team</span>
-</div>
-<p class="route-line">
-{{ if $s.restricted }}
-<span class="route-icon">{{ partial "finder/icon.html" (dict "name" "alert" "size" 18) }}</span>
-<span>This is a restricted scheme, generally only open to specific employees or members, so most people can't switch to it.</span>
-{{ else if eq $s.partner_state "all" }}
-<span class="route-icon">{{ partial "finder/icon.html" (dict "name" "check-circle" "size" 18) }}</span>
-<span>You can switch to any {{ $prov }} fund through BetterSaver.</span>
-{{ else if eq $s.partner_state "some" }}
-<span class="route-icon">{{ partial "finder/icon.html" (dict "name" "check-circle" "size" 18) }}</span>
-<span>You can switch to some {{ $prov }} funds through BetterSaver; for the rest we'll point you to {{ $prov }}.</span>
-{{ else }}
-<span class="route-icon">{{ partial "finder/icon.html" (dict "name" "external-link" "size" 18) }}</span>
-<span>Switching to {{ $prov }} is done on their site; we'll show you how.</span>
-{{ end }}
-</p>
+<div class="hero-row">
+<a class="hero-funds-btn" href="#funds">All {{ len $funds }} {{ if eq (len $funds) 1 }}fund{{ else }}funds{{ end }}, rated <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v13M6.5 12.5L12 18l5.5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 <a class="howrate" href="{{ $g.how_we_rate_url }}">How we rate funds</a>
+</div>
 </div>
 </section>
 
 <article class="wrap-880 page-body scheme-page">
+
+<div class="facts-strip" aria-label="Quick facts">
+{{ with $s.provider_started }}
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5" stroke="currentColor" stroke-width="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="fact-label">Started</span><span class="fact-value">{{ . }}</span></div>
+{{ end }}
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v10M15 9.2c-.6-.9-1.7-1.4-3-1.4-1.8 0-3 .9-3 2.2 0 2.9 6 1.5 6 4.3 0 1.3-1.2 2.2-3 2.2-1.3 0-2.4-.5-3-1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><span class="fact-label">KiwiSaver FUM</span><span class="fact-value">{{ $s.total_value }}</span></div>
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h10M4 12h7M4 18h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 16.5l2.4 2.4L21 14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="fact-label">Make our list</span><span class="fact-value">{{ if gt (len $rec) 0 }}{{ len $rec }} of {{ len $funds }} funds{{ else }}None currently{{ end }}</span></div>
+{{ with $s.default_provider }}
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5l7 2.8v5.2c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6.3l7-2.8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span><span class="fact-label">Default provider</span><span class="fact-value">{{ . | title }}</span></div>
+{{ end }}
+{{ with $s.nz_owned }}
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s-6.5-5.3-6.5-10a6.5 6.5 0 0 1 13 0c0 4.7-6.5 10-6.5 10z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10.8" r="2.4" stroke="currentColor" stroke-width="2"/></svg></span><span class="fact-label">NZ-owned</span><span class="fact-value">{{ if eq (. | lower) "yes" }}<span class="yes-tick">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 18) }}Yes</span>{{ else }}{{ . | title }}{{ end }}</span></div>
+{{ end }}
+<div class="fact"><span class="fact-ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 12.5l3.2 3.2L17 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg></span><span class="fact-label">BetterSaver partner</span><span class="fact-value">{{ if eq $s.partner_state "all" }}<span class="yes-tick">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 18) }}Yes</span>{{ else if eq $s.partner_state "some" }}Some funds{{ else }}No{{ end }}</span></div>
+{{ if $s.restricted }}
+<div class="fact"><span class="fact-ico" aria-hidden="true">{{ partial "finder/icon.html" (dict "name" "alert" "size" 20) }}</span><span class="fact-label">Restricted scheme</span><span class="fact-value">Yes</span></div>
+{{ end }}
+</div>
 
 <section>
 <h2 class="rule-head">About <strong>{{ $prov }}</strong></h2>
 <p class="sec-body">{{ $s.about }}</p>
 </section>
 
-<section class="scheme-funds">
+<section>
+<h2 class="rule-head">How have <strong>{{ $prov }}</strong> funds performed?</h2>
+{{ if gt (len $rated) 0 }}
+<p class="sec-body">{{ if eq (len $above) 0 }}None of {{ $prov }}'s funds with a five-year record currently beat their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $rated) 1 }}{{ $prov }}'s one fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $above) (len $rated) }}Every {{ $prov }} fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} funds with a five-year record have beaten their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ end }}</p>
+{{ if gt $wideGap 0.0 }}
+<div class="delta-card">
+<div class="delta-body">
+<span class="delta-eyebrow">For context, the scheme's biggest gap</span>
+<div class="delta-row">
+<span class="delta-fig delta-up">+${{ lang.FormatNumberCustom 0 $wideDollar }}</span>
+<span class="delta-copy">more per <strong>$40,000</strong> over the past <strong>5 years</strong>. {{ $prov }} {{ or $wideFund.fund_name $wideFund.fund_label }} vs the average {{ $wideCat.label | lower }} fund, after fees.</span>
+</div>
+</div>
+<div class="delta-fine">Past performance isn't a reliable indicator of future returns.</div>
+</div>
+{{ end }}
+{{ else }}
+<p class="sec-body">We rate funds against their risk-group average once they have five years of returns history. {{ $prov }}'s funds aren't there yet, either because they're too new or because they sit in a single-sector group that isn't compared.</p>
+{{ end }}
+</section>
+
+<section>
+<h2 class="rule-head">Who might <strong>{{ $prov }}</strong> suit?</h2>
+<p class="sec-body">That depends more on the fund than the provider. The right fund comes down to your timeframe and how you feel about ups and downs{{ if gt (len $funds) 1 }}, and {{ $prov }}'s funds span the categories above{{ end }}. Our ratings show which funds have earned their keep against similar funds.</p>
+</section>
+
+<section class="scheme-funds" id="funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
 {{ range $cats }}
 {{ $cat := . }}
@@ -118,66 +139,75 @@
 </section>
 
 <section>
-<h2 class="rule-head">How have <strong>{{ $prov }}</strong> funds performed?</h2>
-{{ if gt (len $rated) 0 }}
-<p class="sec-body">{{ if eq (len $above) 0 }}None of {{ $prov }}'s funds with a five-year record currently beat their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $rated) 1 }}{{ $prov }}'s one fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $above) (len $rated) }}Every {{ $prov }} fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} funds with a five-year record have beaten their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ end }}</p>
-<div class="glance-panel">
-<div class="fact-grid perf-facts">
-<div class="fact"><span class="fact-label">Beat their group average</span><span class="fact-value">{{ len $above }} of {{ len $rated }}</span><span class="fact-note">Funds with a five-year record</span></div>
-{{ if gt $wideGap 0.0 }}
-<div class="fact"><span class="fact-label">Best performer</span><span class="fact-value">+{{ printf "%.2f%%" $wideGap }} a year</span><span class="fact-note">{{ or $wideFund.fund_name $wideFund.fund_label }}, above its group average</span></div>
-{{ end }}
-{{ if gt $deltaN 0 }}
-<div class="fact"><span class="fact-label">In dollar terms</span><span class="fact-value">{{ if eq $deltaMin $deltaMax }}+${{ lang.FormatNumberCustom 0 $deltaMin }}{{ else }}+${{ lang.FormatNumberCustom 0 $deltaMin }} to +${{ lang.FormatNumberCustom 0 $deltaMax }}{{ end }}</span><span class="fact-note">Per $40,000 over 5 years, recommended funds vs their group averages</span></div>
-{{ end }}
-</div>
-</div>
-<p class="table-fine">Past performance isn't a reliable indicator of future returns.</p>
-{{ else }}
-<p class="sec-body">We rate funds against their risk-group average once they have five years of returns history. {{ $prov }}'s funds aren't there yet, either because they're too new or because they sit in a single-sector group that isn't compared.</p>
-{{ end }}
-</section>
-
-<section>
 <h2 class="rule-head">What does <strong>{{ $prov }}</strong> charge?</h2>
-{{ $cheapYr := mul 40000.0 (div $cheap.fee_pct 100.0) }}
 {{ if eq (len $funds) 1 }}
-<p class="sec-body">The {{ or $cheap.fund_name $cheap.fund_label }} charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}.</p>
+<p class="sec-body">The {{ or $cheap.fund_name $cheap.fund_label }} charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
 {{ else if eq $cheap.fee_pct $dear.fee_pct }}
-<p class="sec-body">Every {{ $prov }} fund charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
+<p class="sec-body">Every {{ $prov }} fund charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
 {{ else }}
-<p class="sec-body">Fees range from {{ printf "%.2f%%" $cheap.fee_pct }} to {{ printf "%.2f%%" $dear.fee_pct }} a year across the scheme. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
+<p class="sec-body">Fees range from {{ printf "%.2f%%" $cheap.fee_pct }} to {{ printf "%.2f%%" $dear.fee_pct }} a year across the scheme. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
 {{ end }}
-<div class="explain-box">On a <strong>$40,000</strong> balance, {{ if eq (len $funds) 1 }}the {{ or $cheap.fund_name $cheap.fund_label }} costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ else }}the cheapest {{ $prov }} fund, the {{ or $cheap.fund_name $cheap.fund_label }}, costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ end }}
-<span class="explain-fine">How we work this out: the fund's total annual fee, applied to the balance shown for one year. It's an illustration, as the actual dollar amount changes with your balance.</span>
-</div>
 <div class="glance-panel">
 <div class="fact-grid fee-facts">
-<div class="fact"><span class="fact-label">Cheapest fund</span><span class="fact-value">{{ printf "%.2f%%" $cheap.fee_pct }}</span><span class="fact-note">{{ or $cheap.fund_name $cheap.fund_label }}</span></div>
+<div class="fact"><span class="fact-label">Cheapest fund</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $cheap.fee_pct 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $cheap.fee_pct }} &middot; {{ or $cheap.fund_name $cheap.fund_label }}</span></div>
 {{ if and (gt (len $funds) 1) (ne $cheap.fee_pct $dear.fee_pct) }}
-<div class="fact"><span class="fact-label">Most expensive</span><span class="fact-value">{{ printf "%.2f%%" $dear.fee_pct }}</span><span class="fact-note">{{ or $dear.fund_name $dear.fund_label }}</span></div>
+<div class="fact"><span class="fact-label">Most expensive</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $dear.fee_pct 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $dear.fee_pct }} &middot; {{ or $dear.fund_name $dear.fund_label }}</span></div>
 {{ end }}
-<div class="fact"><span class="fact-label">KiwiSaver average</span><span class="fact-value">{{ $g.market_avg_fee }}</span><span class="fact-note">Across all funds we rate</span></div>
+<div class="fact"><span class="fact-label">Average KiwiSaver fund</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $avgFee 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $avgFee }} &middot; across all funds we rate</span></div>
 </div>
 </div>
+<p class="fine-line">Total annual fee on a $40,000 balance, for illustration.</p>
 </section>
 
 <section>
-<h2 class="rule-head">Who might <strong>{{ $prov }}</strong> suit?</h2>
-<p class="sec-body">That depends more on the fund than the provider. The right fund comes down to your timeframe and how you feel about ups and downs{{ if gt (len $funds) 1 }}, and {{ $prov }}'s funds span the categories above{{ end }}. Our ratings show which funds have earned their keep against similar funds.</p>
+<h2 class="rule-head">How ethical and sustainable are <strong>{{ $prov }}</strong> funds?</h2>
+<div class="cmp-box">
+<div class="cmp-grid">
+<div class="cmp-head"><span class="cmp-pill">Lower is better</span></div>
+<div class="cmp-head">{{ $prov }} funds</div>
+<div class="cmp-head">All KiwiSaver funds</div>
+{{ range slice "Adult entertainment" "Alcohol" "Animal testing" "Civilian weapons" "Gambling" "Nuclear power" "Tobacco" "Weapons of war" }}
+{{ $band := index $s.ethics (lower .) }}
+{{ $mb := index $mkt.ethics . }}
+<div class="cmp-cell cmp-label">{{ . }}</div>
+<div class="cmp-cell {{ if or (eq $band "None") (eq $band "Low") }}cell-good{{ else if eq $band "Medium" }}cell-warn{{ else if $band }}cell-bad{{ end }}">{{ $band | default "No data" }}</div>
+<div class="cmp-cell {{ if or (eq $mb "None") (eq $mb "Low") }}cell-good{{ else if eq $mb "Medium" }}cell-warn{{ else if $mb }}cell-bad{{ end }}">{{ $mb | default "No data" }}</div>
+{{ end }}
+</div>
+</div>
+{{ if $s.sus_band }}
+<div class="cmp-box">
+<div class="cmp-grid">
+<div class="cmp-head"><span class="cmp-pill">Higher is better</span></div>
+<div class="cmp-head">{{ $prov }} funds</div>
+<div class="cmp-head">All KiwiSaver funds</div>
+<div class="cmp-cell cmp-label">Sustainability rating</div>
+<div class="cmp-cell {{ if or (eq $s.sus_band "High") (eq $s.sus_band "Very high") }}cell-good{{ else if eq $s.sus_band "Low" }}cell-warn{{ end }}">{{ $s.sus_band }}</div>
+<div class="cmp-cell">Average</div>
+</div>
+</div>
+{{ if gt $s.sus_above 0 }}
+<p class="sec-body">{{ $s.sus_above }} of the {{ $s.sus_rated }} rated {{ if eq $s.sus_rated 1 }}fund rates{{ else }}funds rate{{ end }} above average for sustainability against similar funds.</p>
+{{ end }}
+{{ end }}
+<p class="fine-line">Scheme levels are a simple average across the scheme's funds, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Single-sector funds included.</p>
 </section>
 
 {{ partial "finder/faq-block.html" . }}
 
-{{ partial "finder/cta-quiz.html" (dict "heading" "Is one of these the right fund for you?" "quiz" $g.quiz_url) }}
-
-<section class="accuracy">
-  <div><span class="acc-label">Data as at</span><span class="acc-value">{{ dateFormat "2 January 2006" $r.data_as_at }}</span></div>
-  <div><span class="acc-label">Last reviewed</span><span class="acc-value">{{ dateFormat "2 January 2006" $r.last_reviewed }}</span></div>
-  <div><span class="acc-label">Source</span><span class="acc-value">{{ $r.source_label }}</span></div>
-  <div><span class="acc-label">Next review</span><span class="acc-value">{{ dateFormat "2 January 2006" $r.next_review }}</span></div>
+<section class="cta-plain">
+<h2>Find a better KiwiSaver fund today</h2>
+<p class="cta-sub">Tell us a bit about yourself and we'll recommend a KiwiSaver scheme that fits your situation, whether you're joining for the first time or switching.</p>
+<a class="btn-navy" href="{{ $g.quiz_url }}">Get my KiwiSaver recommendation</a>
+<p class="cta-fine">Takes 2&ndash;5 minutes &amp; it's free</p>
 </section>
-<div class="page-footer">
-  <p class="fsp">{{ $g.fsp_line }}</p>
+
+<div class="review-band">
+  <div><span class="rb-label">Data as at</span><span class="rb-value">{{ dateFormat "2 January 2006" $r.data_as_at }}</span></div>
+  <div><span class="rb-label">Last reviewed</span><span class="rb-value">{{ dateFormat "2 January 2006" $r.last_reviewed }}, by our licensed advice team</span></div>
+  <div><span class="rb-label">Source</span><span class="rb-value">{{ $r.source_label }}</span></div>
+  <div><span class="rb-label">Next review</span><span class="rb-value">{{ dateFormat "2 January 2006" $r.next_review }}</span></div>
 </div>
+
+<p class="page-disclaimer">{{ $g.fsp_line }}</p>
 </article>

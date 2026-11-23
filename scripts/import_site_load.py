@@ -126,6 +126,71 @@ for s in sorted(schemes.values(), key=lambda x: x['scheme_name']):
     s['total_value_m'] = round(v / 1e6, 1)
     out_schemes.append(s)
 
+
+# --- ethics / sustainability (simple average of normalised scores across funds) ---
+ETHICS = [
+    ('Adult entertainment', 'adult_entertainment'),
+    ('Alcohol', 'alcohol'),
+    ('Animal testing', 'animal_testing'),
+    ('Civilian weapons', 'small_arms'),
+    ('Gambling', 'gambling'),
+    ('Nuclear power', 'nuclear'),
+    ('Tobacco', 'tobacco'),
+    ('Weapons of war', 'controversial_weapons'),
+]
+
+def band_of(avg):
+    if avg is None: return None
+    if avg <= 0.0: return 'None'
+    if avg <= 25.0: return 'Low'
+    if avg <= 50.0: return 'Medium'
+    if avg <= 75.0: return 'High'
+    return 'Very high'
+
+def mean(vals):
+    vals = [v for v in vals if v is not None]
+    return sum(vals) / len(vals) if vals else None
+
+def sus_score(r):
+    v = (r.get('sustainability_score') or '').strip()
+    try: return float(v)
+    except ValueError: return None
+
+def norm_score(r, prefix):
+    v = (r.get(prefix + '_score_normalised') or '').strip()
+    try: return float(v)
+    except ValueError: return None
+
+market = {'ethics': {}, 'avg_fee_pct': round(mean([num(r['fee_pct']) for r in rows]), 2)}
+for label, prefix in ETHICS:
+    market['ethics'][label] = band_of(mean([norm_score(r, prefix) for r in rows]))
+market_sus_mean = mean([sus_score(r) for r in rows])
+market['sustainability_mean'] = round(market_sus_mean, 1) if market_sus_mean is not None else None
+
+by_scheme = {}
+for r in rows:
+    by_scheme.setdefault(slugify(r['provider'].strip()), []).append(r)
+
+for s in out_schemes:
+    sub = by_scheme.get(s['scheme_slug'], [])
+    eth = {}
+    for label, prefix in ETHICS:
+        eth[label] = band_of(mean([norm_score(r, prefix) for r in sub]))
+    s['ethics'] = eth
+    sus = [sus_score(r) for r in sub]
+    sus_rated = [v for v in sus if v is not None]
+    s['sus_band'] = band_of(mean(sus_rated)) if sus_rated else None
+    s['sus_rated'] = len(sus_rated)
+    s['sus_above'] = sum(1 for v in sus_rated if market_sus_mean is not None and v > market_sus_mean)
+    # optional provider fact columns, pass through when the CSV gains them
+    first = sub[0] if sub else {}
+    for col in ('provider_started', 'nz_owned', 'default_provider'):
+        v = (first.get(col) or '').strip()
+        if v:
+            s[col] = v
+
+json.dump(market, open(os.path.join(OUT, 'market.json'), 'w'), indent=1)
+
 os.makedirs(OUT, exist_ok=True)
 json.dump(out_schemes, open(os.path.join(OUT, 'schemes.json'), 'w'), indent=1)
 json.dump(funds, open(os.path.join(OUT, 'funds.json'), 'w'), indent=1)
