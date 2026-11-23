@@ -4,8 +4,10 @@
 {{- $rec := eq $f.public_rating "recommended" -}}
 {{- $new := eq $f.public_rating "not_rated" -}}
 {{- $variant := $f.verdict_variant | default "" -}}
+{{- /* Two public states only: Recommended / Not currently recommended. Funds without five
+     years' history or a comparable group roll into Not currently recommended, with the
+     explainer carried in the reason line. */ -}}
 {{- $label := cond $rec "Recommended" "Not currently recommended" -}}
-{{- if $new }}{{ $label = "Not rated" }}{{ end -}}
 {{- $icon := cond $rec "check-circle-filled" "alert" -}}
 {{- $reason := "" -}}{{- $faqReason := "" -}}
 {{- if $rec -}}
@@ -19,13 +21,13 @@
   {{- end -}}
   {{- $faqReason = $reason -}}
 {{- else if eq $variant "no_group" -}}
-  {{- $reason = printf "We rate funds against their risk-group average, and %s funds don't have a comparable group, so this fund isn't currently rated." ($cat.label | lower) -}}
+  {{- $reason = printf "We rate funds against their risk-group average, and %s funds don't have a comparable group, so they sit outside our recommended list." ($cat.label | lower) -}}
   {{- $faqReason = $reason -}}
 {{- else if and (eq $variant "under_5_years") $f.launch_label $f.rating_expected_label -}}
   {{- $reason = printf "Launched %s. We rate funds once they have five years of history, expected %s." $f.launch_label $f.rating_expected_label -}}
   {{- $faqReason = printf "It launched in %s, and we rate funds once they have five years of history, which we expect in %s." $f.launch_label $f.rating_expected_label -}}
 {{- else -}}
-  {{- $reason = "We don't yet have five years of after-fee returns for this fund, so it isn't currently rated." -}}
+  {{- $reason = "Has under 5 years of history. We rate funds once they have five years of after-fee returns." -}}
   {{- $faqReason = $reason -}}
 {{- end -}}
 {{- return (dict "rec" $rec "new" $new "label" $label "icon" $icon "reason" $reason "faqReason" $faqReason) -}}
