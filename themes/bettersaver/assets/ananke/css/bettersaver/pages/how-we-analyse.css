@@ -90,6 +90,16 @@
     position: relative;
 }
 
+/* A grey band around content that brings its own vertical padding (the final CTA). */
+.how-we-analyse-page .band-grey.band-flush {
+    padding: 0;
+}
+
+/* Data cards sit on white when their section is a grey band. */
+.how-we-analyse-page .band-grey .tcard {
+    background: #fff;
+}
+
 /* ======== TRUST STRIP ======== */
 .how-we-analyse-page .trust {
     padding: 0;
