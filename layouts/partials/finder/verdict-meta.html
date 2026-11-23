@@ -4,10 +4,10 @@
 {{- $rec := eq $f.public_rating "recommended" -}}
 {{- $new := eq $f.public_rating "not_rated" -}}
 {{- $variant := $f.verdict_variant | default "" -}}
-{{- /* Two public states only: Recommended / Not currently recommended. Funds without five
-     years' history or a comparable group roll into Not currently recommended, with the
+{{- /* Two public states only: Recommended / Not recommended. Funds without five
+     years' history or a comparable group roll into Not recommended, with the
      explainer carried in the reason line. */ -}}
-{{- $label := cond $rec "Recommended" "Not currently recommended" -}}
+{{- $label := cond $rec "Recommended" "Not recommended" -}}
 {{- $icon := cond $rec "check-circle-filled" "alert" -}}
 {{- $reason := "" -}}{{- $faqReason := "" -}}
 {{- if $rec -}}
@@ -15,13 +15,14 @@
   {{- $reason = printf "Returns after fees above the %s group average over five years%s" $cat.label $feeClause -}}
   {{- $faqReason = printf "Over the past five years it returned more than the average %s fund after fees." $cat.label -}}
 {{- else if eq $variant "failed_check" -}}
-  {{- $reason = printf "Returns after fees below the %s group average over five years." $cat.label -}}
-  {{- if and $f.ret5_pct $cat.group_avg_ret5 (ge $f.ret5_pct $cat.group_avg_ret5) -}}
-    {{- $reason = printf "Didn't meet our criteria against other %s funds over five years." ($cat.label | lower) -}}
-  {{- end -}}
+  {{- $reason = printf "Didn't meet our criteria against other %s funds over five years." ($cat.label | lower) -}}
   {{- $faqReason = $reason -}}
 {{- else if eq $variant "no_group" -}}
-  {{- $reason = printf "We rate funds against their risk-group average, and %s funds don't have a comparable group, so they sit outside our recommended list." ($cat.label | lower) -}}
+  {{- if eq $cat.risk_type "single-sector" -}}
+    {{- $reason = "We don't recommend single-sector funds." -}}
+  {{- else -}}
+    {{- $reason = "We don't recommend funds that sit outside the main risk groups." -}}
+  {{- end -}}
   {{- $faqReason = $reason -}}
 {{- else if and (eq $variant "under_5_years") $f.launch_label $f.rating_expected_label -}}
   {{- $reason = printf "Launched %s, so it doesn't yet have the five years of history our criteria require. It gets there in %s." $f.launch_label $f.rating_expected_label -}}
