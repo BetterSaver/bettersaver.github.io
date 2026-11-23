@@ -232,7 +232,7 @@ fund_groups:
         fund: Lifestages Balanced Option
         return_5yr: 6.2%
         fee: 1.10%
-        partner: false
+        partner: true
       - provider: Shaw and Partners KiwiSaver Scheme
         fund: Balanced Fund
         return_5yr: 5.3%
