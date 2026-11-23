@@ -65,6 +65,51 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+  {{/* FAQ accordions: slide open and shut. Without this script, or with reduced motion,
+       <details> still toggles instantly as the browser does by default. */}}
+  <script>
+  (function () {
+    if (!Element.prototype.animate || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    document.querySelectorAll("details.help-item").forEach(function (item) {
+      var summary = item.querySelector("summary");
+      if (!summary) return;
+      var running = null;
+
+      function slide(from, to, done) {
+        item.style.overflow = "hidden";
+        item.style.boxSizing = "border-box";
+        var anim = item.animate({ height: [from + "px", to + "px"] }, { duration: 250, easing: "ease-in-out" });
+        running = anim;
+        anim.onfinish = function () {
+          if (running !== anim) return;
+          running = null;
+          item.style.overflow = "";
+          item.style.boxSizing = "";
+          done();
+        };
+      }
+
+      summary.addEventListener("click", function (event) {
+        event.preventDefault();
+        var from = item.offsetHeight;
+        if (running) { var old = running; running = null; old.cancel(); }
+        var closing = item.open && !item.classList.contains("is-closing");
+        if (closing) {
+          item.classList.add("is-closing");
+          var closed = summary.offsetHeight + (item.offsetHeight - item.clientHeight);
+          slide(from, closed, function () {
+            item.open = false;
+            item.classList.remove("is-closing");
+          });
+        } else {
+          item.classList.remove("is-closing");
+          item.open = true;
+          slide(from, item.offsetHeight, function () {});
+        }
+      });
+    });
+  })();
+  </script>
 </body>
 
 </html>
