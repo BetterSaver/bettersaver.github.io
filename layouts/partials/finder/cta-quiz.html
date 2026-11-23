@@ -1,0 +1,14 @@
+{{- /* Navy CTA card per handoff designs. dict: heading, quiz */ -}}
+<section class="cta-navy">
+  <div class="cta-illust" aria-hidden="true"></div>
+  <div class="cta-copy">
+    <h2>{{ .heading }}</h2>
+    <p>Answer a few questions and we'll match you to a fund. Takes about 2 minutes.</p>
+  </div>
+  <div class="cta-chips">
+    {{ range slice "Free" "Independent" "No obligation" }}
+    <span class="cta-chip"><span class="tick">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 16) }}</span>{{ . }}</span>
+    {{ end }}
+  </div>
+  <a class="btn-purple" href="{{ .quiz }}">Find out in 2 minutes</a>
+</section>

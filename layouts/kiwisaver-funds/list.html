@@ -1,0 +1,171 @@
+{{ define "head" }}
+{{ partial "head-additions.html" . }}
+{{ partial "finder/style.html" . }}
+{{ end }}
+
+{{ define "header" }}
+{{/* Nav only: the finder pages carry their own hero, so skip the theme's grey title band. */}}
+<header>{{ partial "site-navigation.html" . }}</header>
+{{ end }}
+
+{{ define "main" }}
+{{ $g := .Site.Params.finder }}
+{{ $schemes := slice }}
+{{ range site.Data.finder.schemes }}{{ if eq .status "open" }}{{ $schemes = $schemes | append . }}{{ end }}{{ end }}
+<div class="finder-scope">
+
+<section class="fx-hero">
+<div class="fx-wrap fx-hero-in">
+<div class="fx-hero-copy">
+<p class="fx-eyebrow">Fund finder</p>
+<h1 class="fx-h1">Find your own <em>better</em> KiwiSaver fund.</h1>
+<p class="fx-sub">Every KiwiSaver provider, rated on the same tests. Open any scheme to see its funds, fees and which ones currently make our list.</p>
+<div class="fx-chips">
+{{ range slice "Every provider" "Returns after fees" "No sign-up to browse" }}
+<span class="fx-chip">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 16) }}
+{{ . }}</span>
+{{ end }}
+</div>
+</div>
+<div class="fx-quiz-card">
+<div class="fx-quiz-head">
+<span class="fx-quiz-ico" aria-hidden="true">{{ partial "finder/icon.html" (dict "name" "help" "size" 30) }}</span>
+<span class="fx-quiz-title">Rather we pick for you?</span>
+</div>
+<p class="fx-quiz-sub">Answer a few quick questions and we'll match you to the fund that fits. Free, independent, about 2 minutes.</p>
+<a class="btn-purple fx-quiz-btn" href="{{ $g.quiz_url }}">Take the free quiz</a>
+</div>
+</div>
+</section>
+
+<section class="fx-wrap fx-filterwrap js-on">
+<div class="fx-filtercard">
+<label class="fx-search">
+<span class="search-ico">{{ partial "finder/icon.html" (dict "name" "search" "size" 18) }}</span>
+<input type="search" id="fx-q" placeholder="Search by scheme or provider, e.g. Milford" aria-label="Search">
+</label>
+<div class="fx-filterrow">
+</div>
+</div>
+</section>
+
+<section class="fx-wrap fx-list" id="finder">
+<div id="fx-schemes-view">
+<div class="fx-listhead">
+<div>
+<h2 class="fx-listtitle" id="fxs-title">Every scheme in the market</h2>
+<p class="fx-count" id="fxs-count">{{ len $schemes }} schemes, A to Z</p>
+</div>
+<p class="fx-hint">Tap a column heading to sort &middot; open a scheme for its funds</p>
+</div>
+<div class="fx-tablewrap">
+<div class="fx-table fx-stable" id="fxs-rows">
+<div class="fx-thead fxs-grid">
+<button type="button" class="fx-th fx-sort" data-ssort="name" data-state="asc">Scheme <i class="fx-arrow"></i></button>
+<span class="fx-th">Funds</span>
+<button type="button" class="fx-th fx-sort" data-ssort="rec" data-state="">Recommended <i class="fx-arrow"></i></button>
+<button type="button" class="fx-th fx-sort" data-ssort="avgfee" data-state="">Avg fee <i class="fx-arrow"></i></button>
+<button type="button" class="fx-th fx-sort" data-ssort="members" data-state="">Members <i class="fx-arrow"></i></button>
+<span></span>
+</div>
+{{ range sort $schemes "scheme_name" "asc" }}
+{{ $s := . }}
+{{ $n := 0 }}{{ $rec := 0 }}{{ $feeSum := 0.0 }}
+{{ range site.Data.finder.funds }}{{ if and (eq .scheme_slug $s.scheme_slug) (eq .status "open") }}
+{{ $n = add $n 1 }}
+{{ if eq .public_rating "recommended" }}{{ $rec = add $rec 1 }}{{ end }}
+{{ $feeSum = add $feeSum .fee_pct }}
+{{ end }}{{ end }}
+{{ $avgfee := cond (gt $n 0) (div $feeSum (float $n)) 0.0 }}
+<a class="fx-row fxs-grid fxs-row" href="/kiwisaver-funds/{{ $s.scheme_slug }}/" data-name="{{ lower $s.scheme_name }}" data-members="{{ $s.members }}" data-rec="{{ $rec }}" data-avgfee="{{ printf "%.3f" $avgfee }}">
+<span class="fx-fundid">
+<span class="fx-fundname">{{ $s.scheme_name }}{{ if $s.restricted }} <span class="fx-restpill">Restricted</span>{{ end }}</span>
+<span class="fx-fundsub">{{ $s.provider_name }}</span>
+</span>
+<span class="fx-cell-num">{{ $n }}</span>
+{{ if gt $rec 0 }}
+<span class="fx-cell-num">{{ $rec }} of {{ $n }}</span>
+{{ else }}
+<span class="fx-cell-num fx-na">None</span>
+{{ end }}
+<span class="fx-cell-num">{{ printf "%.2f%%" $avgfee }}</span>
+<span class="fx-cell-num">{{ lang.FormatNumberCustom 0 $s.members }}</span>
+<span class="row-chev">{{ partial "finder/icon.html" (dict "name" "chevron-right" "size" 18) }}</span>
+</a>
+{{ end }}
+</div>
+</div>
+<div class="fx-emptystate" id="fxs-empty" hidden>
+<p class="fx-empty-h">No schemes match that</p>
+<p class="fx-empty-sub">Try a shorter name.</p>
+</div>
+</div>
+</section>
+
+<section class="fx-wrap">
+<section class="faq">
+<h2 class="rule-head">Common questions</h2>
+{{ range (partial "finder/faq-items.html" .) }}
+<details><summary><h3>{{ .q }}</h3><span class="faq-chev">{{ partial "finder/icon.html" (dict "name" "chevron-down" "size" 18) }}</span></summary><p>{{ .a }}</p></details>
+{{ end }}
+</section>
+<section class="accuracy">
+  <div><span class="acc-label">Data as at</span><span class="acc-value">{{ dateFormat "2 January 2006" site.Data.finder.review.data_as_at }}</span></div>
+  <div><span class="acc-label">Last reviewed</span><span class="acc-value">{{ dateFormat "2 January 2006" site.Data.finder.review.last_reviewed }}</span></div>
+  <div><span class="acc-label">Source</span><span class="acc-value">{{ site.Data.finder.review.source_label }}</span></div>
+  <div><span class="acc-label">Next review</span><span class="acc-value">{{ dateFormat "2 January 2006" site.Data.finder.review.next_review }}</span></div>
+</section>
+<div class="page-footer">
+  <p class="fsp">{{ $g.fsp_line }}</p>
+</div>
+</section>
+
+</div>
+
+<script>
+(function () {
+  var root = document;
+  var sRowsBox = root.querySelector('#fxs-rows');
+  if (!sRowsBox) return;
+  var sRows = Array.prototype.slice.call(sRowsBox.querySelectorAll('.fxs-row'));
+  var q = root.querySelector('#fx-q');
+  var sTitle = root.querySelector('#fxs-title'), sCount = root.querySelector('#fxs-count'), sEmpty = root.querySelector('#fxs-empty');
+  var sSortBtns = Array.prototype.slice.call(root.querySelectorAll('[data-ssort]'));
+  var state = { ssort: 'name', sdir: 'asc' };
+
+  function applySchemes() {
+    var qv = (q && q.value || '').trim().toLowerCase();
+    var sorted = sRows.slice().sort(function (a, b) {
+      if (state.ssort === 'name') return (a.dataset.name < b.dataset.name ? -1 : 1) * (state.sdir === 'asc' ? 1 : -1);
+      var ka = parseFloat(a.dataset[state.ssort]) || 0, kb = parseFloat(b.dataset[state.ssort]) || 0;
+      return state.sdir === 'desc' ? kb - ka : ka - kb;
+    });
+    var shown = 0;
+    sorted.forEach(function (r) {
+      var ok = !qv || r.dataset.name.indexOf(qv) !== -1;
+      r.hidden = !ok;
+      if (ok) shown++;
+      sRowsBox.appendChild(r);
+    });
+    if (sEmpty) sEmpty.hidden = shown > 0;
+    root.querySelector('.fx-tablewrap').style.display = shown > 0 ? '' : 'none';
+    sTitle.textContent = qv ? 'Schemes matching “' + qv + '”' : 'Every scheme in the market';
+    sCount.textContent = shown + ' schemes, ' + (state.ssort === 'name' ? (state.sdir === 'asc' ? 'A to Z' : 'Z to A')
+      : state.ssort === 'rec' ? 'most recommended funds first'
+      : state.ssort === 'avgfee' ? (state.sdir === 'asc' ? 'lowest' : 'highest') + ' average fee first'
+      : 'most members first');
+    sSortBtns.forEach(function (b) { b.dataset.state = b.dataset.ssort === state.ssort ? state.sdir : ''; });
+  }
+
+  sSortBtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var k = b.dataset.ssort;
+      if (state.ssort === k) { state.sdir = state.sdir === 'asc' ? 'desc' : 'asc'; }
+      else { state.ssort = k; state.sdir = k === 'name' ? 'asc' : (k === 'avgfee' ? 'asc' : 'desc'); }
+      applySchemes();
+    });
+  });
+  if (q) q.addEventListener('input', applySchemes);
+})();
+</script>
+{{ end }}
