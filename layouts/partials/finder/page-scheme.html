@@ -83,18 +83,18 @@
 
 <section class="scheme-funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
-<div class="ftable-head">
-<span>Fund</span><span>Our rating</span><span>Why</span><span class="num">Fee</span><span class="num">5-yr return</span><span class="num">Group avg</span>
-</div>
 {{ range $cats }}
 {{ $cat := . }}
 {{ $catFunds := slice }}
 {{ range $funds }}{{ if eq .risk_type $cat.risk_type }}{{ $catFunds = $catFunds | append . }}{{ end }}{{ end }}
 {{ if gt (len $catFunds) 0 }}
 <div class="fgroup">
-<div class="fgroup-head">
+<div class="fgroup-head fgroup-grid">
+<div class="fg-name">
 <h3>{{ $cat.label }}</h3>
 {{ with $cat.group_avg_ret5 }}<span class="fgroup-avg">{{ $cat.label }} group average: <strong>{{ printf "%.2f%%" . }}</strong> a year over 5 years, after fees</span>{{ else }}<span class="fgroup-note">No group average: {{ $cat.label | lower }} funds aren't compared</span>{{ end }}
+</div>
+<span class="fg-col">Fee</span><span class="fg-col">5-yr return</span><span class="fg-col">Group avg</span>
 </div>
 {{ $sorted := sort $catFunds "ret5_pct" "desc" }}
 {{ $recFirst := where $sorted "public_rating" "recommended" }}
