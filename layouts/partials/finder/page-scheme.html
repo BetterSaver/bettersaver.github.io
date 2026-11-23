@@ -15,27 +15,14 @@
 
 {{- /* Performance stats: funds with a 5-yr return and a comparable group average */ -}}
 {{ $rated := slice }}{{ $above := slice }}
-{{ $wideFund := dict }}{{ $wideGap := -999.0 }}{{ $wideCat := dict }}
 {{ range $funds }}
   {{ $f := . }}
   {{ $cat := dict }}{{ range $cats }}{{ if eq .risk_type $f.risk_type }}{{ $cat = . }}{{ end }}{{ end }}
   {{ if and $f.ret5_pct $cat.group_avg_ret5 }}
     {{ $rated = $rated | append $f }}
-    {{ $gap := sub $f.ret5_pct $cat.group_avg_ret5 }}
-    {{ if ge $gap 0.0 }}{{ $above = $above | append $f }}{{ end }}
-    {{ if gt $gap $wideGap }}{{ $wideGap = $gap }}{{ $wideFund = $f }}{{ $wideCat = $cat }}{{ end }}
+    {{ if ge $f.ret5_pct $cat.group_avg_ret5 }}{{ $above = $above | append $f }}{{ end }}
   {{ end }}
 {{ end }}
-{{ $wideDollar := 0.0 }}
-{{ if gt $wideGap 0.0 }}
-  {{ $d := mul 40000.0 (sub (math.Pow (add 1.0 (div $wideFund.ret5_pct 100.0)) 5.0) (math.Pow (add 1.0 (div $wideCat.group_avg_ret5 100.0)) 5.0)) }}
-  {{ $wideDollar = mul (math.Round (div $d 100.0)) 100.0 }}
-{{ end }}
-
-{{- /* Fee stats */ -}}
-{{ $cheap := index (sort $funds "fee_pct" "asc") 0 }}
-{{ $dear := index (sort $funds "fee_pct" "desc") 0 }}
-{{ $avgFee := $mkt.avg_fee_pct }}
 
 <section class="scheme-hero">
 <div class="scheme-hero-in">
@@ -77,33 +64,29 @@
 </section>
 
 <section>
-<h2 class="rule-head">How have <strong>{{ $prov }}</strong> funds performed?</h2>
-{{ if gt (len $rated) 0 }}
-<p class="sec-body">{{ if eq (len $above) 0 }}None of {{ $prov }}'s funds with a five-year record currently beat their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $rated) 1 }}{{ $prov }}'s one fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $above) (len $rated) }}Every {{ $prov }} fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} funds with a five-year record have beaten their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ end }}</p>
-{{ if gt $wideGap 0.0 }}
-<div class="delta-card">
-<div class="delta-body">
-<span class="delta-eyebrow">For context, the scheme's biggest gap</span>
-<div class="delta-row">
-<span class="delta-fig delta-up">+${{ lang.FormatNumberCustom 0 $wideDollar }}</span>
-<span class="delta-copy">more per <strong>$40,000</strong> over the past <strong>5 years</strong>. {{ $prov }} {{ or $wideFund.fund_name $wideFund.fund_label }} vs the average {{ $wideCat.label | lower }} fund, after fees.</span>
-</div>
-</div>
-<div class="delta-fine">Past performance isn't a reliable indicator of future returns.</div>
-</div>
+<h2 class="rule-head">Where <strong>{{ $prov }}</strong> stands out, and where it doesn't</h2>
+<div class="sw-grid">
+<div class="sw-card">
+<span class="sw-eyebrow sw-good">Stands out</span>
+{{ range $s.sw_good }}
+<div class="sw-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#00D671"/><path d="M8 12.5l2.6 2.6L16 9.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>{{ . }}.</span></div>
 {{ end }}
-{{ else }}
-<p class="sec-body">We rate funds against their risk-group average once they have five years of returns history. {{ $prov }}'s funds aren't there yet, either because they're too new or because they sit in the Other category, which isn't compared against a group.</p>
+</div>
+<div class="sw-card">
+<span class="sw-eyebrow sw-warn">Worth weighing</span>
+{{ range $s.sw_warn }}
+<div class="sw-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#F6862A"/><path d="M8 12h8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg><span>{{ . }}.</span></div>
 {{ end }}
-</section>
-
-<section>
-<h2 class="rule-head">Who might <strong>{{ $prov }}</strong> suit?</h2>
-<p class="sec-body">That depends more on the fund than the provider. The right fund comes down to your timeframe and how you feel about ups and downs{{ if gt (len $funds) 1 }}, and {{ $prov }}'s funds span the categories above{{ end }}. Our ratings show which funds have earned their keep against similar funds.</p>
+</div>
+</div>
+<p class="fine-line">Every point above comes from the data on this page, refreshed at each review.</p>
 </section>
 
 <section class="scheme-funds" id="funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
+{{ if gt (len $rated) 0 }}
+<p class="sec-body">{{ len $above }} of the {{ len $rated }} rated {{ $prov }} {{ if eq (len $rated) 1 }}fund has{{ else }}funds have{{ end }} beaten their category {{ if eq (len $rated) 1 }}average{{ else }}averages{{ end }} after fees over five years. Green means the fund beats the average; orange means it trails it.</p>
+{{ end }}
 {{ range $cats }}
 {{ $cat := . }}
 {{ $catFunds := slice }}
@@ -115,50 +98,31 @@
 <h3>{{ $cat.label }}</h3>
 {{ with $cat.group_avg_ret5 }}<span class="fgroup-avg">{{ $cat.label }} group average: <strong>{{ printf "%.2f%%" . }}</strong> a year over 5 years, after fees</span>{{ else }}<span class="fgroup-note">No group average: funds in the {{ $cat.label }} category aren't compared</span>{{ end }}
 </div>
-<span class="fg-col">Fee</span><span class="fg-col">5-yr return</span><span class="fg-col">Group avg</span>
+<span class="fg-col">Fee</span><span class="fg-col">5-yr return</span>
 </div>
 {{ $sorted := sort $catFunds "ret5_pct" "desc" }}
 {{ $recFirst := where $sorted "public_rating" "recommended" }}
 {{ $rest := where $sorted "public_rating" "ne" "recommended" }}
 {{ range (append $rest $recFirst) }}
-{{ $v := partial "finder/verdict-meta.html" (dict "fund" . "cat" $cat) }}
-<div class="frow" id="{{ .fund_slug }}">
-<span class="frow-name">{{ $prov }} {{ or .fund_name .fund_label }}</span>
+{{ $f := . }}
+{{ $v := partial "finder/verdict-meta.html" (dict "fund" $f "cat" $cat) }}
+<div class="frow" id="{{ $f.fund_slug }}">
+<span class="frow-name">{{ $prov }} {{ or $f.fund_name $f.fund_label }}{{ if $f.risk }}<span class="frow-sub">{{ if eq $cat.label "Other" }}Other{{ else if $f.growth_pct }}{{ $f.growth_pct }}% growth assets{{ else }}{{ $cat.label }}{{ end }} &middot; risk {{ $f.risk }} of 7</span>{{ end }}</span>
 <span class="verdict-pill {{ if $v.rec }}pill-rec{{ else }}pill-muted{{ end }}">{{ partial "finder/icon.html" (dict "name" $v.icon "size" 14) }}
 {{ $v.label }}</span>
 <span class="frow-why">{{ $v.reason }}</span>
-<span class="frow-fee num">{{ printf "%.2f%%" .fee_pct }}</span>
-<span class="frow-ret num {{ if and .ret5_pct $cat.group_avg_ret5 }}{{ if ge .ret5_pct $cat.group_avg_ret5 }}ret-good{{ else }}ret-warn{{ end }}{{ else if not .ret5_pct }}ret-na{{ end }}">{{ if .ret5_pct }}{{ printf "%.2f%%" .ret5_pct }}{{ else }}Not yet available{{ end }}</span>
-<span class="frow-avg num">{{ with $cat.group_avg_ret5 }}{{ printf "%.2f%%" . }}{{ else }}&ndash;{{ end }}</span>
+<span class="frow-fee num">{{ with $cat.group_avg_fee }}<span class="val-chip {{ if le $f.fee_pct . }}val-good{{ else }}val-warn{{ end }}">{{ printf "%.2f%%" $f.fee_pct }}</span><span class="vs-avg">avg {{ printf "%.2f%%" . }}</span>{{ else }}{{ printf "%.2f%%" $f.fee_pct }}{{ end }}</span>
+<span class="frow-ret num {{ if not $f.ret5_pct }}ret-na{{ end }}">{{ if and $f.ret5_pct $cat.group_avg_ret5 }}<span class="val-chip {{ if ge $f.ret5_pct $cat.group_avg_ret5 }}val-good{{ else }}val-warn{{ end }}">{{ printf "%.2f%%" $f.ret5_pct }}</span><span class="vs-avg">avg {{ printf "%.2f%%" $cat.group_avg_ret5 }}</span>{{ else if $f.ret5_pct }}{{ printf "%.2f%%" $f.ret5_pct }}{{ else }}Not yet available{{ end }}</span>
 </div>
 {{ end }}
 </div>
 {{ end }}
 {{ end }}
-<p class="table-fine">Fees are total annual fees. Returns are average yearly returns after fees over five years, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Past performance isn't a reliable indicator of future returns.</p>
+<p class="table-fine">Fees are total annual fees. Returns are average yearly returns after fees over five years, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Green means better than the category average; orange means behind it. Past performance isn't a reliable indicator of future returns.</p>
 </section>
 
 <section>
-<h2 class="rule-head">What does <strong>{{ $prov }}</strong> charge?</h2>
-<p class="sec-body">On a <strong>$40,000 balance</strong>, here's what each fund's total annual fee comes to. Fees matter relative to what you get for them, which is why our ratings weigh every fund's fee against its returns after fees.</p>
-{{ $cheapCat := dict }}{{ $dearCat := dict }}
-{{ range $cats }}{{ if eq .risk_type $cheap.risk_type }}{{ $cheapCat = . }}{{ end }}{{ if eq .risk_type $dear.risk_type }}{{ $dearCat = . }}{{ end }}{{ end }}
-{{ $feeSum := 0.0 }}{{ range $funds }}{{ $feeSum = add $feeSum .fee_pct }}{{ end }}
-{{ $schemeAvg := div $feeSum (float (len $funds)) }}
-<div class="glance-panel">
-<div class="fact-grid fee-facts">
-<div class="fact"><span class="fact-label">Lowest fee</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $cheap.fee_pct 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $cheap.fee_pct }} &middot; {{ or $cheap.fund_name $cheap.fund_label }} &middot; {{ with $cheapCat.group_avg_fee }}the average {{ $cheapCat.label | lower }} fund charges {{ printf "%.2f%%" . }}{{ else }}the average ranked fund charges {{ printf "%.2f%%" $avgFee }}{{ end }}</span></div>
-{{ if and (gt (len $funds) 1) (ne $cheap.fee_pct $dear.fee_pct) }}
-<div class="fact"><span class="fact-label">Highest fee</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $dear.fee_pct 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $dear.fee_pct }} &middot; {{ or $dear.fund_name $dear.fund_label }} &middot; {{ with $dearCat.group_avg_fee }}the average fund in its category charges {{ printf "%.2f%%" . }}{{ else }}the average ranked fund charges {{ printf "%.2f%%" $avgFee }}{{ end }}</span></div>
-{{ end }}
-<div class="fact"><span class="fact-label">Scheme average</span><span class="fact-value">${{ lang.FormatNumberCustom 0 (mul (math.Round (div (mul 40000.0 (div $schemeAvg 100.0)) 10.0)) 10.0) }} a year</span><span class="fact-note">{{ printf "%.2f%%" $schemeAvg }} across all {{ len $funds }} {{ if eq (len $funds) 1 }}fund{{ else }}funds{{ end }} &middot; the average ranked fund charges {{ printf "%.2f%%" $avgFee }}</span></div>
-</div>
-</div>
-<p class="fine-line">Dollar figures are the total annual fee on a <strong>$40,000 balance</strong>, for illustration. Each fee is compared with the average for funds of the same category.</p>
-</section>
-
-<section>
-<h2 class="rule-head">How ethical and sustainable are <strong>{{ $prov }}</strong> funds?</h2>
+<h2 class="rule-head">How ethical are <strong>{{ $prov }}</strong> funds?</h2>
 <div class="cmp-box">
 <div class="cmp-grid">
 <div class="cmp-head"><span class="cmp-pill">Lower is better</span></div>
@@ -168,28 +132,69 @@
 {{ $band := index $s.ethics (lower .) }}
 {{ $mb := index $mkt.ethics . }}
 <div class="cmp-cell cmp-label">{{ . }}</div>
-<div class="cmp-cell {{ if or (eq $band "None") (eq $band "Low") }}cell-good{{ else if eq $band "Medium" }}cell-warn{{ else if $band }}cell-bad{{ end }}">{{ $band | default "No data" }}</div>
-<div class="cmp-cell {{ if or (eq $mb "None") (eq $mb "Low") }}cell-good{{ else if eq $mb "Medium" }}cell-warn{{ else if $mb }}cell-bad{{ end }}">{{ $mb | default "No data" }}</div>
+<div class="cmp-cell {{ if or (eq $band "None") (eq $band "Low") }}cell-good{{ else if eq $band "Medium" }}cell-warn{{ else if eq $band "High" }}cell-bad{{ else if $band }}cell-worst{{ end }}">{{ $band | default "No data" }}</div>
+<div class="cmp-cell {{ if or (eq $mb "None") (eq $mb "Low") }}cell-good{{ else if eq $mb "Medium" }}cell-warn{{ else if eq $mb "High" }}cell-bad{{ else if $mb }}cell-worst{{ end }}">{{ $mb | default "No data" }}</div>
 {{ end }}
 </div>
 </div>
+<div class="level-key" aria-label="Key">
+<span><i class="key-good"></i>None &middot; no direct exposure</span>
+<span><i class="key-good"></i>Low</span>
+<span><i class="key-warn"></i>Medium</span>
+<span><i class="key-bad"></i>High</span>
+<span><i class="key-worst"></i>Highest</span>
+</div>
+<p class="fine-line">How much of the scheme's money sits in each industry, levelled against all KiwiSaver funds. A simple average across the scheme's funds, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Funds in the Other category included.</p>
+</section>
+
 {{ if $s.sus_band }}
+<section>
+<h2 class="rule-head">How sustainable are <strong>{{ $prov }}</strong> funds?</h2>
 <div class="cmp-box">
 <div class="cmp-grid">
 <div class="cmp-head"><span class="cmp-pill">Higher is better</span></div>
 <div class="cmp-head">{{ $prov }} funds</div>
 <div class="cmp-head">All KiwiSaver funds</div>
 <div class="cmp-cell cmp-label">Sustainability rating</div>
-<div class="cmp-cell {{ if or (eq $s.sus_band "High") (eq $s.sus_band "Very high") }}cell-good{{ else if eq $s.sus_band "Low" }}cell-warn{{ end }}">{{ $s.sus_band }}</div>
-<div class="cmp-cell">Average</div>
+<div class="cmp-cell {{ if eq $s.sus_band "Highest" }}cell-best{{ else if eq $s.sus_band "High" }}cell-good{{ else if eq $s.sus_band "Medium" }}cell-warn{{ else if eq $s.sus_band "Low" }}cell-bad{{ else }}cell-worst{{ end }}">{{ $s.sus_band }}</div>
+{{ $msb := $mkt.sus_band }}
+<div class="cmp-cell {{ if eq $msb "Highest" }}cell-best{{ else if eq $msb "High" }}cell-good{{ else if eq $msb "Medium" }}cell-warn{{ else if eq $msb "Low" }}cell-bad{{ else if $msb }}cell-worst{{ end }}">{{ $msb | default "No data" }}</div>
 </div>
 </div>
-{{ if gt $s.sus_above 0 }}
-<p class="sec-body">{{ $s.sus_above }} of the {{ $s.sus_rated }} rated {{ if eq $s.sus_rated 1 }}fund rates{{ else }}funds rate{{ end }} above average for sustainability against similar funds.</p>
+<div class="level-key" aria-label="Key">
+<span><i class="key-worst"></i>None</span>
+<span><i class="key-bad"></i>Low</span>
+<span><i class="key-warn"></i>Medium</span>
+<span><i class="key-good"></i>High</span>
+<span><i class="key-best"></i>Highest</span>
+</div>
+{{ if gt $s.sus_high 0 }}
+<p class="sec-body">{{ $s.sus_high }} of the {{ $s.sus_rated }} rated {{ if eq $s.sus_rated 1 }}fund rates{{ else }}funds rate{{ end }} High or Highest for sustainability against similar funds.</p>
 {{ end }}
-{{ end }}
-<p class="fine-line">Scheme levels are a simple average across the scheme's funds, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Funds in the Other category included.</p>
+<p class="fine-line">Ratings measure how well a fund's holdings manage environmental, social and governance risk, against similar funds worldwide. Recalculated at each review from the same data. Powered by Morningstar, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.</p>
 </section>
+{{ end }}
+
+{{ if $s.consider }}
+<section>
+<h2 class="rule-head">Providers you might also consider</h2>
+<div class="prov-grid">
+{{ range $s.consider }}
+{{ $c := index (where site.Data.finder.schemes "scheme_slug" .) 0 }}
+{{ with $c }}
+<a class="side-card" href="/kiwisaver-funds/{{ .scheme_slug }}/">
+<span class="side-copy">
+<span class="side-title">{{ .scheme_name }}</span>
+<span class="side-sub">{{ .rec_count }} of {{ .fund_count }} {{ if eq .fund_count 1 }}fund{{ else }}funds{{ end }} recommended &middot; {{ printf "%.2f%%" .avg_fee_pct }} average fee</span>
+</span>
+<span class="side-chev"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+</a>
+{{ end }}
+{{ end }}
+</div>
+<p class="fine-line">Schemes you can switch to through BetterSaver. Every fund is rated on the same tests, partner or not.</p>
+</section>
+{{ end }}
 
 {{ partial "finder/faq-block.html" . }}
 

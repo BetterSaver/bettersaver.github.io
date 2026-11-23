@@ -12,10 +12,14 @@
 {{- $reason := "" -}}{{- $faqReason := "" -}}
 {{- if $rec -}}
   {{- $feeClause := cond (and $cat.group_avg_fee (le $f.fee_pct $cat.group_avg_fee)) ", fees below average, with consistent results." ", with consistent results." -}}
-  {{- $reason = printf "Returns after fees above the %s group average over five years%s" $cat.label $feeClause -}}
+  {{- $reason = printf "Returns after fees above the %s category average over five years%s" ($cat.label | lower) $feeClause -}}
   {{- $faqReason = printf "Over the past five years it returned more than the average %s fund after fees." $cat.label -}}
 {{- else if eq $variant "failed_check" -}}
-  {{- $reason = printf "Didn't meet our criteria against other %s funds over five years." ($cat.label | lower) -}}
+  {{- if and $f.ret5_pct $cat.group_avg_ret5 (lt $f.ret5_pct $cat.group_avg_ret5) -}}
+    {{- $reason = printf "Behind on returns after fees against other %s funds over five years." ($cat.label | lower) -}}
+  {{- else -}}
+    {{- $reason = printf "Didn't pass our consistency test against other %s funds over five years." ($cat.label | lower) -}}
+  {{- end -}}
   {{- $faqReason = $reason -}}
 {{- else if eq $variant "no_group" -}}
   {{- $reason = "Funds in the Other category aren't rated against a group." -}}

@@ -10,6 +10,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 9.65,
   "partnered": true,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -24,6 +26,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 8.88,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -38,6 +42,8 @@
   "fee_pct": 0.98,
   "ret5_pct": 9.33,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -52,6 +58,8 @@
   "fee_pct": 0.88,
   "ret5_pct": 9.13,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": true,
   "status": "open"
  },
@@ -66,6 +74,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 8.35,
   "partnered": true,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -80,6 +90,8 @@
   "fee_pct": 1.15,
   "ret5_pct": 7.75,
   "partnered": true,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -94,6 +106,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 9.88,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -108,6 +122,8 @@
   "fee_pct": 0.82,
   "ret5_pct": 8.99,
   "partnered": false,
+  "growth_pct": 94,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -122,6 +138,8 @@
   "fee_pct": 1.41,
   "ret5_pct": 8.11,
   "partnered": true,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -136,6 +154,8 @@
   "fee_pct": 1.27,
   "ret5_pct": 8.9,
   "partnered": true,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -150,6 +170,8 @@
   "fee_pct": 0.88,
   "ret5_pct": 7.57,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -164,6 +186,8 @@
   "fee_pct": 1.3,
   "ret5_pct": 7.58,
   "partnered": true,
+  "growth_pct": 99,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -178,6 +202,8 @@
   "fee_pct": 0.93,
   "ret5_pct": 7.92,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -192,6 +218,8 @@
   "fee_pct": 0.97,
   "ret5_pct": 8.53,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -206,6 +234,8 @@
   "fee_pct": 0.86,
   "ret5_pct": 8.28,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": true,
   "status": "open"
  },
@@ -220,6 +250,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 8.71,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -234,6 +266,8 @@
   "fee_pct": 1.3,
   "ret5_pct": 6.83,
   "partnered": true,
+  "growth_pct": 99,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -248,6 +282,8 @@
   "fee_pct": 2.01,
   "ret5_pct": 1.4,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -262,6 +298,8 @@
   "fee_pct": 1.42,
   "ret5_pct": -2.13,
   "partnered": false,
+  "growth_pct": 90,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -276,6 +314,8 @@
   "fee_pct": 1.48,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
@@ -292,6 +332,8 @@
   "fee_pct": 0.95,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -308,6 +350,8 @@
   "fee_pct": 0.95,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -324,6 +368,8 @@
   "fee_pct": 0.75,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 94,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "November 2023",
@@ -340,6 +386,8 @@
   "fee_pct": 0.45,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "November 2023",
@@ -356,6 +404,8 @@
   "fee_pct": 1.31,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "March 2022",
@@ -372,6 +422,8 @@
   "fee_pct": 0.8,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
@@ -388,6 +440,8 @@
   "fee_pct": 1.16,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 95,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "March 2025",
@@ -404,6 +458,8 @@
   "fee_pct": 1.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
@@ -420,6 +476,8 @@
   "fee_pct": 1.51,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -436,6 +494,8 @@
   "fee_pct": 1.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
@@ -452,6 +512,8 @@
   "fee_pct": 0.65,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "October 2026",
@@ -468,6 +530,8 @@
   "fee_pct": 1.6,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
@@ -484,6 +548,8 @@
   "fee_pct": 1.6,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
@@ -500,6 +566,8 @@
   "fee_pct": 0.37,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
@@ -516,6 +584,8 @@
   "fee_pct": 1.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2023",
@@ -532,6 +602,8 @@
   "fee_pct": 1.15,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2023",
@@ -548,6 +620,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2022",
@@ -564,6 +638,8 @@
   "fee_pct": 1.1,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2024",
@@ -580,6 +656,8 @@
   "fee_pct": 0.95,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -596,6 +674,8 @@
   "fee_pct": 1.29,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
@@ -612,6 +692,8 @@
   "fee_pct": 1.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2025",
@@ -628,6 +710,8 @@
   "fee_pct": 1.3,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 95,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
@@ -644,6 +728,8 @@
   "fee_pct": 1.31,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2025",
@@ -660,6 +746,8 @@
   "fee_pct": 1.15,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2024"
@@ -675,6 +763,8 @@
   "fee_pct": 0.24,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2023",
@@ -691,6 +781,8 @@
   "fee_pct": 0.7,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "September 2024",
@@ -707,6 +799,8 @@
   "fee_pct": 0.38,
   "ret5_pct": 7.95,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -721,6 +815,8 @@
   "fee_pct": 0.51,
   "ret5_pct": 7.44,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -735,6 +831,8 @@
   "fee_pct": 0.7,
   "ret5_pct": 7.98,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -749,6 +847,8 @@
   "fee_pct": 0.24,
   "ret5_pct": 8.3,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -763,6 +863,8 @@
   "fee_pct": 1.05,
   "ret5_pct": 7.13,
   "partnered": true,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -777,6 +879,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 10.48,
   "partnered": true,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -791,6 +895,8 @@
   "fee_pct": 0.45,
   "ret5_pct": 7.37,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -805,6 +911,8 @@
   "fee_pct": 0.86,
   "ret5_pct": 6.39,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -819,6 +927,8 @@
   "fee_pct": 1.05,
   "ret5_pct": 7.17,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -833,6 +943,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 6.1,
   "partnered": true,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -847,6 +959,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 7.36,
   "partnered": true,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -861,6 +975,8 @@
   "fee_pct": 0.81,
   "ret5_pct": 7.72,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -875,6 +991,8 @@
   "fee_pct": 0.55,
   "ret5_pct": 6.84,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -889,6 +1007,8 @@
   "fee_pct": 1.29,
   "ret5_pct": 6.92,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -903,6 +1023,8 @@
   "fee_pct": 0.98,
   "ret5_pct": 7.46,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -917,6 +1039,8 @@
   "fee_pct": 0.61,
   "ret5_pct": 7.34,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -931,6 +1055,8 @@
   "fee_pct": 1.17,
   "ret5_pct": 8.03,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -945,6 +1071,8 @@
   "fee_pct": 1.35,
   "ret5_pct": 6.6,
   "partnered": true,
+  "growth_pct": 70,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -959,6 +1087,8 @@
   "fee_pct": 0.89,
   "ret5_pct": 5.82,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -973,6 +1103,8 @@
   "fee_pct": 0.79,
   "ret5_pct": 6.79,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -987,6 +1119,8 @@
   "fee_pct": 0.95,
   "ret5_pct": 5.88,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1001,6 +1135,8 @@
   "fee_pct": 0.95,
   "ret5_pct": 5.88,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1015,6 +1151,8 @@
   "fee_pct": 1.15,
   "ret5_pct": 7.12,
   "partnered": false,
+  "growth_pct": 83,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1029,6 +1167,8 @@
   "fee_pct": 0.89,
   "ret5_pct": 4.84,
   "partnered": false,
+  "growth_pct": 63,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1043,6 +1183,8 @@
   "fee_pct": 0.89,
   "ret5_pct": 4.83,
   "partnered": false,
+  "growth_pct": 63,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1057,6 +1199,8 @@
   "fee_pct": 1.23,
   "ret5_pct": 5.53,
   "partnered": true,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1071,6 +1215,8 @@
   "fee_pct": 0.96,
   "ret5_pct": 5.88,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1085,6 +1231,8 @@
   "fee_pct": 1.37,
   "ret5_pct": 6.34,
   "partnered": false,
+  "growth_pct": 70,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1099,6 +1247,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 4.83,
   "partnered": false,
+  "growth_pct": 63,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1113,6 +1263,8 @@
   "fee_pct": 4.26,
   "ret5_pct": 7.01,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 7,
   "restricted": false,
   "status": "open"
  },
@@ -1127,6 +1279,8 @@
   "fee_pct": 1.03,
   "ret5_pct": 3.5,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -1141,6 +1295,8 @@
   "fee_pct": 1.04,
   "ret5_pct": 4.44,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1155,6 +1311,8 @@
   "fee_pct": 1.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2021",
@@ -1171,6 +1329,8 @@
   "fee_pct": 1.07,
   "ret5_pct": 3.14,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1185,6 +1345,8 @@
   "fee_pct": 1.21,
   "ret5_pct": 2.08,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -1199,6 +1361,8 @@
   "fee_pct": 1.29,
   "ret5_pct": 3.61,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1213,6 +1377,8 @@
   "fee_pct": 1.48,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 78,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
@@ -1229,6 +1395,8 @@
   "fee_pct": 1.23,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "March 2022",
@@ -1245,6 +1413,8 @@
   "fee_pct": 1.5,
   "ret5_pct": 7.29,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1259,6 +1429,8 @@
   "fee_pct": 0.7,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
@@ -1275,6 +1447,8 @@
   "fee_pct": 0.75,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
@@ -1291,6 +1465,8 @@
   "fee_pct": 1.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -1307,6 +1483,8 @@
   "fee_pct": 1.51,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -1323,6 +1501,8 @@
   "fee_pct": 1.28,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -1339,6 +1519,8 @@
   "fee_pct": 1.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
@@ -1355,6 +1537,8 @@
   "fee_pct": 1.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
@@ -1371,6 +1555,8 @@
   "fee_pct": 1.09,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -1387,6 +1573,8 @@
   "fee_pct": 1.02,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
@@ -1403,6 +1591,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 5.55,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -1417,6 +1607,8 @@
   "fee_pct": 0.51,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 80,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
@@ -1433,6 +1625,8 @@
   "fee_pct": 1.2,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2026",
@@ -1449,6 +1643,8 @@
   "fee_pct": 1.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 70,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
@@ -1465,6 +1661,8 @@
   "fee_pct": 0.65,
   "ret5_pct": 6.36,
   "partnered": false,
+  "growth_pct": 58,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1479,6 +1677,8 @@
   "fee_pct": 0.38,
   "ret5_pct": 6.06,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1493,6 +1693,8 @@
   "fee_pct": 1.0,
   "ret5_pct": 8.59,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1507,6 +1709,8 @@
   "fee_pct": 1.05,
   "ret5_pct": 5.52,
   "partnered": true,
+  "growth_pct": 61,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1521,6 +1725,8 @@
   "fee_pct": 0.24,
   "ret5_pct": 6.0,
   "partnered": false,
+  "growth_pct": 59,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1535,6 +1741,8 @@
   "fee_pct": 0.77,
   "ret5_pct": 5.02,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1549,6 +1757,8 @@
   "fee_pct": 1.19,
   "ret5_pct": 4.71,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1563,6 +1773,8 @@
   "fee_pct": 0.45,
   "ret5_pct": 5.75,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1577,6 +1789,8 @@
   "fee_pct": 0.5,
   "ret5_pct": 5.58,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1591,6 +1805,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 5.9,
   "partnered": false,
+  "growth_pct": 58,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1605,6 +1821,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 4.99,
   "partnered": false,
+  "growth_pct": 49,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1619,6 +1837,8 @@
   "fee_pct": 1.0,
   "ret5_pct": 8.26,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1633,6 +1853,8 @@
   "fee_pct": 1.1,
   "ret5_pct": 6.23,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1647,6 +1869,8 @@
   "fee_pct": 0.4,
   "ret5_pct": 4.35,
   "partnered": false,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1661,6 +1885,8 @@
   "fee_pct": 0.6,
   "ret5_pct": 5.72,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1675,6 +1901,8 @@
   "fee_pct": 1.23,
   "ret5_pct": 5.32,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1689,6 +1917,8 @@
   "fee_pct": 0.0,
   "ret5_pct": 4.12,
   "partnered": false,
+  "growth_pct": 50,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1703,6 +1933,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 4.42,
   "partnered": false,
+  "growth_pct": 55,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1717,6 +1949,8 @@
   "fee_pct": 0.6,
   "ret5_pct": 4.63,
   "partnered": false,
+  "growth_pct": 36,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1731,6 +1965,8 @@
   "fee_pct": 0.95,
   "ret5_pct": 4.23,
   "partnered": true,
+  "growth_pct": 40,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -1745,6 +1981,8 @@
   "fee_pct": 0.72,
   "ret5_pct": 5.25,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -1759,6 +1997,8 @@
   "fee_pct": 1.3,
   "ret5_pct": 5.62,
   "partnered": true,
+  "growth_pct": 51,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1773,6 +2013,8 @@
   "fee_pct": 0.7,
   "ret5_pct": 5.79,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1787,6 +2029,8 @@
   "fee_pct": 0.67,
   "ret5_pct": 3.77,
   "partnered": false,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1801,6 +2045,8 @@
   "fee_pct": 0.45,
   "ret5_pct": 4.27,
   "partnered": false,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1815,6 +2061,8 @@
   "fee_pct": 0.98,
   "ret5_pct": 5.76,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1829,6 +2077,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 5.89,
   "partnered": false,
+  "growth_pct": 58,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1843,6 +2093,8 @@
   "fee_pct": 0.86,
   "ret5_pct": 3.82,
   "partnered": false,
+  "growth_pct": 48,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1857,6 +2109,8 @@
   "fee_pct": 0.86,
   "ret5_pct": 3.82,
   "partnered": false,
+  "growth_pct": 48,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1871,6 +2125,8 @@
   "fee_pct": 1.14,
   "ret5_pct": 5.02,
   "partnered": true,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1885,6 +2141,8 @@
   "fee_pct": 0.79,
   "ret5_pct": 4.1,
   "partnered": false,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1899,6 +2157,8 @@
   "fee_pct": 1.21,
   "ret5_pct": 4.79,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1913,6 +2173,8 @@
   "fee_pct": 1.15,
   "ret5_pct": 5.25,
   "partnered": false,
+  "growth_pct": 61,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1927,6 +2189,8 @@
   "fee_pct": 0.86,
   "ret5_pct": 3.82,
   "partnered": false,
+  "growth_pct": 48,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1941,6 +2205,8 @@
   "fee_pct": 0.94,
   "ret5_pct": 4.05,
   "partnered": false,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1955,6 +2221,8 @@
   "fee_pct": 1.11,
   "ret5_pct": 4.6,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1969,6 +2237,8 @@
   "fee_pct": 1.0,
   "ret5_pct": 4.54,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -1983,6 +2253,8 @@
   "fee_pct": 0.71,
   "ret5_pct": 3.8,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -1997,6 +2269,8 @@
   "fee_pct": 1.16,
   "ret5_pct": 5.29,
   "partnered": false,
+  "growth_pct": 55,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2011,6 +2285,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 4.5,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2025,6 +2301,8 @@
   "fee_pct": 1.08,
   "ret5_pct": 2.93,
   "partnered": true,
+  "growth_pct": 40,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2039,6 +2317,8 @@
   "fee_pct": 0.84,
   "ret5_pct": 3.55,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2053,6 +2333,8 @@
   "fee_pct": 1.19,
   "ret5_pct": 5.29,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2067,6 +2349,8 @@
   "fee_pct": 1.09,
   "ret5_pct": 2.79,
   "partnered": true,
+  "growth_pct": 40,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2081,6 +2365,8 @@
   "fee_pct": 1.14,
   "ret5_pct": 3.15,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2095,6 +2381,8 @@
   "fee_pct": 1.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 61,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
@@ -2111,6 +2399,8 @@
   "fee_pct": 0.35,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2127,6 +2417,8 @@
   "fee_pct": 0.35,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 55,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2143,6 +2435,8 @@
   "fee_pct": 1.35,
   "ret5_pct": 5.27,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2157,6 +2451,8 @@
   "fee_pct": 0.36,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 55,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2173,6 +2469,8 @@
   "fee_pct": 1.24,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
@@ -2189,6 +2487,8 @@
   "fee_pct": 1.49,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -2205,6 +2505,8 @@
   "fee_pct": 1.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -2221,6 +2523,8 @@
   "fee_pct": 0.63,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "October 2026",
@@ -2237,6 +2541,8 @@
   "fee_pct": 1.4,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -2253,6 +2559,8 @@
   "fee_pct": 1.4,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
@@ -2269,6 +2577,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "November 2022",
@@ -2285,6 +2595,8 @@
   "fee_pct": 0.93,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
@@ -2301,6 +2613,8 @@
   "fee_pct": 0.71,
   "ret5_pct": 5.2,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -2315,6 +2629,8 @@
   "fee_pct": 0.76,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": true,
   "status": "open",
   "launch_label": "October 2021",
@@ -2331,6 +2647,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 4.52,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -2345,6 +2663,8 @@
   "fee_pct": 1.07,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "June 2026",
@@ -2361,6 +2681,8 @@
   "fee_pct": 0.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 60,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
@@ -2377,6 +2699,8 @@
   "fee_pct": 0.24,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 59,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2393,6 +2717,8 @@
   "fee_pct": 0.2,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2409,6 +2735,8 @@
   "fee_pct": 0.4,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 50,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
@@ -2425,6 +2753,8 @@
   "fee_pct": 0.4,
   "ret5_pct": 3.18,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2439,6 +2769,8 @@
   "fee_pct": 0.4,
   "ret5_pct": 3.33,
   "partnered": false,
+  "growth_pct": 25,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2453,6 +2785,8 @@
   "fee_pct": 0.54,
   "ret5_pct": 3.67,
   "partnered": true,
+  "growth_pct": 18,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2467,6 +2801,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 4.4,
   "partnered": true,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2481,6 +2817,8 @@
   "fee_pct": 0.43,
   "ret5_pct": 2.72,
   "partnered": false,
+  "growth_pct": 16,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2495,6 +2833,8 @@
   "fee_pct": 0.38,
   "ret5_pct": 2.68,
   "partnered": true,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2509,6 +2849,8 @@
   "fee_pct": 0.85,
   "ret5_pct": 2.98,
   "partnered": false,
+  "growth_pct": 18,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2523,6 +2865,8 @@
   "fee_pct": 0.85,
   "ret5_pct": 2.99,
   "partnered": true,
+  "growth_pct": 18,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2537,6 +2881,8 @@
   "fee_pct": 0.49,
   "ret5_pct": 2.6,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2551,6 +2897,8 @@
   "fee_pct": 0.4,
   "ret5_pct": 3.43,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2565,6 +2913,8 @@
   "fee_pct": 0.45,
   "ret5_pct": 3.66,
   "partnered": false,
+  "growth_pct": 15,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2579,6 +2929,8 @@
   "fee_pct": 0.43,
   "ret5_pct": 2.47,
   "partnered": false,
+  "growth_pct": 18,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2593,6 +2945,8 @@
   "fee_pct": 0.69,
   "ret5_pct": 2.67,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": true,
   "status": "open"
  },
@@ -2607,6 +2961,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 3.06,
   "partnered": false,
+  "growth_pct": 30,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2621,6 +2977,8 @@
   "fee_pct": 0.45,
   "ret5_pct": 2.71,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2635,6 +2993,8 @@
   "fee_pct": 0.78,
   "ret5_pct": 2.89,
   "partnered": false,
+  "growth_pct": 22,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2649,6 +3009,8 @@
   "fee_pct": 1.1,
   "ret5_pct": 2.99,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2663,6 +3025,8 @@
   "fee_pct": 0.57,
   "ret5_pct": 3.48,
   "partnered": false,
+  "growth_pct": 30,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2677,6 +3041,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 4.1,
   "partnered": true,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2691,6 +3057,8 @@
   "fee_pct": 0.94,
   "ret5_pct": 3.71,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2705,6 +3073,8 @@
   "fee_pct": 0.84,
   "ret5_pct": 2.47,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2719,6 +3089,8 @@
   "fee_pct": 1.17,
   "ret5_pct": 2.87,
   "partnered": true,
+  "growth_pct": 10,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2733,6 +3105,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 2.78,
   "partnered": true,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2747,6 +3121,8 @@
   "fee_pct": 0.6,
   "ret5_pct": 1.98,
   "partnered": false,
+  "growth_pct": 18,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2761,6 +3137,8 @@
   "fee_pct": 1.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 25,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2021",
@@ -2777,6 +3155,8 @@
   "fee_pct": 0.91,
   "ret5_pct": 3.8,
   "partnered": true,
+  "growth_pct": 10,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -2791,6 +3171,8 @@
   "fee_pct": 0.72,
   "ret5_pct": 2.78,
   "partnered": false,
+  "growth_pct": 33,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2805,6 +3187,8 @@
   "fee_pct": 0.24,
   "ret5_pct": 2.29,
   "partnered": false,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2819,6 +3203,8 @@
   "fee_pct": 0.98,
   "ret5_pct": 2.43,
   "partnered": false,
+  "growth_pct": 26,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2833,6 +3219,8 @@
   "fee_pct": 0.72,
   "ret5_pct": 2.77,
   "partnered": false,
+  "growth_pct": 33,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2847,6 +3235,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 2.23,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2861,6 +3251,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 2.51,
   "partnered": false,
+  "growth_pct": 25,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -2875,6 +3267,8 @@
   "fee_pct": 0.72,
   "ret5_pct": 2.77,
   "partnered": false,
+  "growth_pct": 33,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2889,6 +3283,8 @@
   "fee_pct": 1.01,
   "ret5_pct": 1.67,
   "partnered": false,
+  "growth_pct": 30,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2903,6 +3299,8 @@
   "fee_pct": 0.6,
   "ret5_pct": 1.98,
   "partnered": false,
+  "growth_pct": 18,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2917,6 +3315,8 @@
   "fee_pct": 1.11,
   "ret5_pct": 2.48,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -2931,6 +3331,8 @@
   "fee_pct": 1.23,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 18,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
@@ -2947,6 +3349,8 @@
   "fee_pct": 1.08,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 20,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
@@ -2963,6 +3367,8 @@
   "fee_pct": 1.05,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
@@ -2979,6 +3385,8 @@
   "fee_pct": 1.04,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
@@ -2995,6 +3403,8 @@
   "fee_pct": 0.93,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
@@ -3011,6 +3421,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 30,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "August 2025",
@@ -3027,6 +3439,8 @@
   "fee_pct": 0.75,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
@@ -3043,6 +3457,8 @@
   "fee_pct": 0.61,
   "ret5_pct": 2.46,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -3057,6 +3473,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 2.81,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": true,
   "status": "open"
  },
@@ -3071,6 +3489,8 @@
   "fee_pct": 0.47,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 30,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
@@ -3087,6 +3507,8 @@
   "fee_pct": 0.25,
   "ret5_pct": 3.92,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3101,6 +3523,8 @@
   "fee_pct": 0.22,
   "ret5_pct": 3.88,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3115,6 +3539,8 @@
   "fee_pct": 0.22,
   "ret5_pct": 3.89,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3129,6 +3555,8 @@
   "fee_pct": 0.25,
   "ret5_pct": 3.98,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3143,6 +3571,8 @@
   "fee_pct": 0.47,
   "ret5_pct": 3.84,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3157,6 +3587,8 @@
   "fee_pct": 0.2,
   "ret5_pct": 3.79,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3171,6 +3603,8 @@
   "fee_pct": 0.3,
   "ret5_pct": 3.78,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3185,6 +3619,8 @@
   "fee_pct": 0.23,
   "ret5_pct": 3.88,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3199,6 +3635,8 @@
   "fee_pct": 0.52,
   "ret5_pct": 3.57,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3213,6 +3651,8 @@
   "fee_pct": 0.35,
   "ret5_pct": 3.66,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3227,6 +3667,8 @@
   "fee_pct": 0.4,
   "ret5_pct": 3.95,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3241,6 +3683,8 @@
   "fee_pct": 0.33,
   "ret5_pct": 3.62,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3255,6 +3699,8 @@
   "fee_pct": 0.74,
   "ret5_pct": 2.54,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3269,6 +3715,8 @@
   "fee_pct": 0.34,
   "ret5_pct": 3.72,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3283,6 +3731,8 @@
   "fee_pct": 0.46,
   "ret5_pct": 3.5,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 2,
   "restricted": true,
   "status": "open"
  },
@@ -3297,6 +3747,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 2.71,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3311,6 +3763,8 @@
   "fee_pct": 0.54,
   "ret5_pct": 2.45,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3325,6 +3779,8 @@
   "fee_pct": 0.5,
   "ret5_pct": 3.66,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3339,6 +3795,8 @@
   "fee_pct": 0.56,
   "ret5_pct": 3.27,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open"
  },
@@ -3353,6 +3811,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 3.15,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3367,6 +3827,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 0.95,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3381,6 +3843,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 3.27,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open"
  },
@@ -3395,6 +3859,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 2.46,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3409,6 +3875,8 @@
   "fee_pct": 0.48,
   "ret5_pct": 1.49,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3423,6 +3891,8 @@
   "fee_pct": 0.56,
   "ret5_pct": 0.8,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3437,6 +3907,8 @@
   "fee_pct": 0.34,
   "ret5_pct": 1.35,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3451,6 +3923,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 2.03,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3465,6 +3939,8 @@
   "fee_pct": 0.64,
   "ret5_pct": 1.37,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3479,6 +3955,8 @@
   "fee_pct": 0.59,
   "ret5_pct": -0.48,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3493,6 +3971,8 @@
   "fee_pct": 0.7,
   "ret5_pct": 2.65,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3507,6 +3987,8 @@
   "fee_pct": 0.49,
   "ret5_pct": 5.39,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3521,6 +4003,8 @@
   "fee_pct": 0.65,
   "ret5_pct": 1.84,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3535,6 +4019,8 @@
   "fee_pct": 0.75,
   "ret5_pct": 0.32,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3549,6 +4035,8 @@
   "fee_pct": 0.54,
   "ret5_pct": 0.39,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3563,6 +4051,8 @@
   "fee_pct": 0.44,
   "ret5_pct": -1.29,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3577,6 +4067,8 @@
   "fee_pct": 0.53,
   "ret5_pct": -0.36,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3591,6 +4083,8 @@
   "fee_pct": 0.59,
   "ret5_pct": -1.11,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3605,6 +4099,8 @@
   "fee_pct": 0.5,
   "ret5_pct": -1.56,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3619,6 +4115,8 @@
   "fee_pct": 0.54,
   "ret5_pct": -0.97,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3633,6 +4131,8 @@
   "fee_pct": 0.58,
   "ret5_pct": -1.19,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3647,6 +4147,8 @@
   "fee_pct": 0.78,
   "ret5_pct": 0.06,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3661,6 +4163,8 @@
   "fee_pct": 1.12,
   "ret5_pct": 2.36,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3675,6 +4179,8 @@
   "fee_pct": 0.75,
   "ret5_pct": -1.39,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3689,6 +4195,8 @@
   "fee_pct": 0.4,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 2,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
@@ -3705,6 +4213,8 @@
   "fee_pct": 0.77,
   "ret5_pct": 3.37,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": true,
   "status": "open"
  },
@@ -3719,6 +4229,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 1.48,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3733,6 +4245,8 @@
   "fee_pct": 0.43,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
@@ -3749,6 +4263,8 @@
   "fee_pct": 0.4,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2024",
@@ -3765,6 +4281,8 @@
   "fee_pct": 0.3,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 4,
   "restricted": false,
   "status": "open",
   "launch_label": "July 2024",
@@ -3781,6 +4299,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open",
   "launch_label": "November 2022",
@@ -3797,6 +4317,8 @@
   "fee_pct": 0.46,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 0,
+  "risk": 1,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
@@ -3813,6 +4335,8 @@
   "fee_pct": 0.24,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 5,
+  "risk": 3,
   "restricted": false,
   "status": "open",
   "launch_label": "April 2023",
@@ -3829,6 +4353,8 @@
   "fee_pct": 0.82,
   "ret5_pct": 8.99,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3843,6 +4369,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 5.9,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3857,6 +4385,8 @@
   "fee_pct": 0.78,
   "ret5_pct": 2.89,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3871,6 +4401,8 @@
   "fee_pct": 1.09,
   "ret5_pct": 6.03,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3885,6 +4417,8 @@
   "fee_pct": 0.81,
   "ret5_pct": 7.72,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3899,6 +4433,8 @@
   "fee_pct": 0.8,
   "ret5_pct": 4.99,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3913,6 +4449,8 @@
   "fee_pct": 0.79,
   "ret5_pct": 4.1,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3927,6 +4465,8 @@
   "fee_pct": 1.16,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3941,6 +4481,8 @@
   "fee_pct": 1.21,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3955,6 +4497,8 @@
   "fee_pct": 1.13,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3969,6 +4513,8 @@
   "fee_pct": 0.94,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -3983,6 +4529,8 @@
   "fee_pct": 0.87,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -3997,6 +4545,8 @@
   "fee_pct": 1.27,
   "ret5_pct": 9.13,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4011,6 +4561,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 7.57,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4025,6 +4577,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 6.11,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4039,6 +4593,8 @@
   "fee_pct": 1.19,
   "ret5_pct": 5.61,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4053,6 +4609,8 @@
   "fee_pct": 1.14,
   "ret5_pct": 4.91,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4067,6 +4625,8 @@
   "fee_pct": 1.11,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -4081,6 +4641,8 @@
   "fee_pct": 1.08,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -4095,6 +4657,8 @@
   "fee_pct": 1.27,
   "ret5_pct": 9.36,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4109,6 +4673,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 7.57,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4123,6 +4689,8 @@
   "fee_pct": 1.24,
   "ret5_pct": 6.11,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4137,6 +4705,8 @@
   "fee_pct": 1.14,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4151,6 +4721,8 @@
   "fee_pct": 1.08,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -4165,6 +4737,8 @@
   "fee_pct": 1.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4179,6 +4753,8 @@
   "fee_pct": 1.38,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4193,6 +4769,8 @@
   "fee_pct": 1.29,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4207,6 +4785,8 @@
   "fee_pct": 1.91,
   "ret5_pct": 1.22,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4221,6 +4801,8 @@
   "fee_pct": 1.57,
   "ret5_pct": 0.74,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4235,6 +4817,8 @@
   "fee_pct": 1.5,
   "ret5_pct": 0.8,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4249,6 +4833,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 8.49,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -4263,6 +4849,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 8.95,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -4277,6 +4865,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 6.07,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -4291,6 +4881,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 3.58,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": true,
   "status": "open"
  },
@@ -4305,6 +4897,8 @@
   "fee_pct": 0.32,
   "ret5_pct": 2.44,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": true,
   "status": "open"
  },
@@ -4319,6 +4913,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 8.57,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4333,6 +4929,8 @@
   "fee_pct": 0.62,
   "ret5_pct": 7.29,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4347,6 +4945,8 @@
   "fee_pct": 0.62,
   "ret5_pct": 7.29,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4361,6 +4961,8 @@
   "fee_pct": 0.61,
   "ret5_pct": 6.89,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4375,6 +4977,8 @@
   "fee_pct": 0.6,
   "ret5_pct": 5.52,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4389,6 +4993,8 @@
   "fee_pct": 0.58,
   "ret5_pct": 4.06,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4403,6 +5009,8 @@
   "fee_pct": 0.56,
   "ret5_pct": 1.62,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -4417,6 +5025,8 @@
   "fee_pct": 0.74,
   "ret5_pct": 2.18,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4431,6 +5041,8 @@
   "fee_pct": 0.77,
   "ret5_pct": 12.39,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4445,6 +5057,8 @@
   "fee_pct": 1.19,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 98,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4459,6 +5073,8 @@
   "fee_pct": 1.18,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4473,6 +5089,8 @@
   "fee_pct": 1.18,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4487,6 +5105,8 @@
   "fee_pct": 1.45,
   "ret5_pct": 0.79,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 7,
   "restricted": false,
   "status": "open"
  },
@@ -4501,6 +5121,8 @@
   "fee_pct": 1.35,
   "ret5_pct": 9.07,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4515,6 +5137,8 @@
   "fee_pct": 1.13,
   "ret5_pct": 1.12,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4529,6 +5153,8 @@
   "fee_pct": 1.45,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4543,6 +5169,8 @@
   "fee_pct": 1.6,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4557,6 +5185,8 @@
   "fee_pct": 0.99,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4571,6 +5201,8 @@
   "fee_pct": 1.07,
   "ret5_pct": -0.24,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4585,6 +5217,8 @@
   "fee_pct": 1.06,
   "ret5_pct": 17.02,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4599,6 +5233,8 @@
   "fee_pct": 0.1,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4613,6 +5249,8 @@
   "fee_pct": 0.06,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4627,6 +5265,8 @@
   "fee_pct": 0.03,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4641,6 +5281,8 @@
   "fee_pct": 0.15,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4655,6 +5297,8 @@
   "fee_pct": 0.06,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4669,6 +5313,8 @@
   "fee_pct": 0.03,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4683,6 +5329,8 @@
   "fee_pct": 0.06,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4697,6 +5345,8 @@
   "fee_pct": 1.27,
   "ret5_pct": -3.19,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4711,6 +5361,8 @@
   "fee_pct": 1.2,
   "ret5_pct": 9.0,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4725,6 +5377,8 @@
   "fee_pct": 0.5,
   "ret5_pct": 12.54,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4739,6 +5393,8 @@
   "fee_pct": 1.38,
   "ret5_pct": 0.25,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4753,6 +5409,8 @@
   "fee_pct": 0.38,
   "ret5_pct": 1.11,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4767,6 +5425,8 @@
   "fee_pct": 1.19,
   "ret5_pct": 0.4,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4781,6 +5441,8 @@
   "fee_pct": 0.87,
   "ret5_pct": 14.18,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4795,6 +5457,8 @@
   "fee_pct": 0.89,
   "ret5_pct": 9.68,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4809,6 +5473,8 @@
   "fee_pct": 1.01,
   "ret5_pct": -2.22,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4823,6 +5489,8 @@
   "fee_pct": 0.61,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 98,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -4837,6 +5505,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4851,6 +5521,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4865,6 +5537,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4879,6 +5553,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4893,6 +5569,8 @@
   "fee_pct": 0.45,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4907,6 +5585,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4921,6 +5601,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4935,6 +5617,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4949,6 +5633,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4963,6 +5649,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -4977,6 +5665,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -4991,6 +5681,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5005,6 +5697,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5019,6 +5713,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5033,6 +5729,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5047,6 +5745,8 @@
   "fee_pct": 0.45,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5061,6 +5761,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5075,6 +5777,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5089,6 +5793,8 @@
   "fee_pct": 0.25,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5103,6 +5809,8 @@
   "fee_pct": 1.1,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 7,
   "restricted": false,
   "status": "open"
  },
@@ -5117,6 +5825,8 @@
   "fee_pct": 1.1,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 7,
   "restricted": false,
   "status": "open"
  },
@@ -5131,6 +5841,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 12.24,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5145,6 +5857,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 0.1,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5159,6 +5873,8 @@
   "fee_pct": 1.1,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5173,6 +5889,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 10.63,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5187,6 +5905,8 @@
   "fee_pct": 0.63,
   "ret5_pct": 13.8,
   "partnered": false,
+  "growth_pct": 99,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5201,6 +5921,8 @@
   "fee_pct": 1.0,
   "ret5_pct": -4.72,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5215,6 +5937,8 @@
   "fee_pct": 0.98,
   "ret5_pct": 1.13,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5229,6 +5953,8 @@
   "fee_pct": 1.0,
   "ret5_pct": 1.53,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5243,6 +5969,8 @@
   "fee_pct": 0.95,
   "ret5_pct": 11.93,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5257,6 +5985,8 @@
   "fee_pct": 0.91,
   "ret5_pct": 14.56,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5271,6 +6001,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 7.3,
   "partnered": true,
+  "growth_pct": 100,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -5285,6 +6017,8 @@
   "fee_pct": 1.26,
   "ret5_pct": 6.81,
   "partnered": true,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5299,6 +6033,8 @@
   "fee_pct": 1.15,
   "ret5_pct": 16.34,
   "partnered": true,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5313,6 +6049,8 @@
   "fee_pct": 1.15,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5327,6 +6065,8 @@
   "fee_pct": 1.25,
   "ret5_pct": 1.19,
   "partnered": true,
+  "growth_pct": 100,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -5341,6 +6081,8 @@
   "fee_pct": 1.21,
   "ret5_pct": null,
   "partnered": true,
+  "growth_pct": 98,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5355,6 +6097,8 @@
   "fee_pct": 1.49,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5369,6 +6113,8 @@
   "fee_pct": 0.12,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5383,6 +6129,8 @@
   "fee_pct": 0.09,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5397,6 +6145,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 8.52,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5411,6 +6161,8 @@
   "fee_pct": 0.89,
   "ret5_pct": 9.36,
   "partnered": false,
+  "growth_pct": 90,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5425,6 +6177,8 @@
   "fee_pct": 0.9,
   "ret5_pct": -3.27,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5439,6 +6193,8 @@
   "fee_pct": 0.9,
   "ret5_pct": 2.47,
   "partnered": false,
+  "growth_pct": 95,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -5453,6 +6209,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 13.77,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5467,6 +6225,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 11.93,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5481,6 +6241,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 13.79,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5495,6 +6257,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 9.82,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5509,6 +6273,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 1.99,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5523,6 +6289,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 18.56,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5537,6 +6305,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 8.52,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5551,6 +6321,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 12.45,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5565,6 +6337,8 @@
   "fee_pct": 1.26,
   "ret5_pct": 5.14,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 3,
   "restricted": false,
   "status": "open"
  },
@@ -5579,6 +6353,8 @@
   "fee_pct": 0.73,
   "ret5_pct": 9.67,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5593,6 +6369,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 12.23,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5607,6 +6385,8 @@
   "fee_pct": 0.58,
   "ret5_pct": -0.7,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5621,6 +6401,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 4.4,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5635,6 +6417,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 0.54,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5649,6 +6433,8 @@
   "fee_pct": 0.59,
   "ret5_pct": -3.33,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5663,6 +6449,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 0.3,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5677,6 +6465,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 1.41,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5691,6 +6481,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 0.28,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5705,6 +6497,8 @@
   "fee_pct": 0.58,
   "ret5_pct": 15.45,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5719,6 +6513,8 @@
   "fee_pct": 0.58,
   "ret5_pct": 10.99,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5733,6 +6529,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 10.24,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5747,6 +6545,8 @@
   "fee_pct": 0.59,
   "ret5_pct": 1.18,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5761,6 +6561,8 @@
   "fee_pct": 0.58,
   "ret5_pct": 10.47,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5775,6 +6577,8 @@
   "fee_pct": 0.58,
   "ret5_pct": 14.82,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5789,6 +6593,8 @@
   "fee_pct": 0.54,
   "ret5_pct": 16.92,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5803,6 +6609,8 @@
   "fee_pct": 0.57,
   "ret5_pct": 17.16,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5817,6 +6625,8 @@
   "fee_pct": 0.57,
   "ret5_pct": 15.49,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5831,6 +6641,8 @@
   "fee_pct": 0.57,
   "ret5_pct": 10.41,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 5,
   "restricted": false,
   "status": "open"
  },
@@ -5845,6 +6657,8 @@
   "fee_pct": 0.57,
   "ret5_pct": 9.98,
   "partnered": false,
+  "growth_pct": 100,
+  "risk": 6,
   "restricted": false,
   "status": "open"
  },
@@ -5859,6 +6673,8 @@
   "fee_pct": 1.24,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  },
@@ -5873,6 +6689,8 @@
   "fee_pct": 1.5,
   "ret5_pct": null,
   "partnered": false,
+  "growth_pct": null,
+  "risk": 4,
   "restricted": false,
   "status": "open"
  }
