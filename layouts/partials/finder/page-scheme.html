@@ -85,7 +85,7 @@
 <section class="scheme-funds" id="funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
 {{ if gt (len $rated) 0 }}
-<p class="sec-body">{{ len $above }} of the {{ len $rated }} rated {{ $prov }} {{ if eq (len $rated) 1 }}fund has{{ else }}funds have{{ end }} beaten their category {{ if eq (len $rated) 1 }}average{{ else }}averages{{ end }} after fees over five years. Green means the fund beats the average; orange means it trails it.</p>
+<p class="sec-body">{{ len $above }} of the {{ len $rated }} {{ $prov }} {{ if eq (len $rated) 1 }}fund{{ else }}funds{{ end }} with a five-year record {{ if eq (len $rated) 1 }}has{{ else }}have{{ end }} beaten the category average after fees. Green means the fund beats the average; orange means it trails it.</p>
 {{ end }}
 {{ range $cats }}
 {{ $cat := . }}
@@ -169,7 +169,7 @@
 <span><i class="key-best"></i>Highest</span>
 </div>
 {{ if gt $s.sus_high 0 }}
-<p class="sec-body">{{ $s.sus_high }} of the {{ $s.sus_rated }} rated {{ if eq $s.sus_rated 1 }}fund rates{{ else }}funds rate{{ end }} High or Highest for sustainability against similar funds.</p>
+<p class="sec-body">{{ $s.sus_high }} of the {{ $s.sus_rated }} {{ if eq $s.sus_rated 1 }}fund{{ else }}funds{{ end }} with a sustainability rating {{ if eq $s.sus_high 1 }}rates{{ else }}rate{{ end }} High or Highest against similar funds.</p>
 {{ end }}
 <p class="fine-line">Ratings measure how well a fund's holdings manage environmental, social and governance risk, against similar funds worldwide. Recalculated at each review from the same data. Powered by Morningstar, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.</p>
 </section>

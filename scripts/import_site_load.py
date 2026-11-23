@@ -251,25 +251,25 @@ for s in out_schemes:
     good, warn = [], []  # (score, text)
     if beats and rated:
         good.append((len(beats) / rated,
-            f"{len(beats)} of {rated} rated funds {'beats' if len(beats) == 1 else 'beat'} their category's average return over the last five years"))
+            f"{len(beats)} of its {rated} {'fund' if rated == 1 else 'funds'} with a five-year record {'beats' if len(beats) == 1 else 'beat'} the category average after fees"))
     if avg_fee is not None and mkt_fee and avg_fee < mkt_fee:
         good.append(((mkt_fee - avg_fee) / mkt_fee,
             f"Fees average {fmt_pct(avg_fee)} across its funds, below the market average of {fmt_pct(mkt_fee)}"))
     if sus_high and sus_rated:
         good.append((sus_high / len(sus_rated),
-            f"{sus_high} of {len(sus_rated)} rated funds score High or Highest for sustainability"))
+            f"{sus_high} of its {len(sus_rated)} {'fund' if len(sus_rated) == 1 else 'funds'} with a sustainability rating {'scores' if sus_high == 1 else 'score'} High or Highest"))
     if eth_low:
         good.append((len(eth_low) / 10.0,
             f"Little or no exposure in {len(eth_low)} of the 8 ethical areas we screen"))
 
     if trails and rated:
-        warn.append((len(trails) / rated,
-            f"{len(trails)} of {rated} rated funds {'trails' if len(trails) == 1 else 'trail'} their category's average return over five years"))
-        worst = min(trails, key=lambda p: p[1] - p[2])
-        gap = worst[2] - worst[1]
-        if gap >= 0.5 and len(trails) > 1:
-            warn.append((gap / 10.0,
-                f"{worst[0]} returned {fmt_pct(worst[1])} a year against a category average of {fmt_pct(worst[2])}"))
+        if len(trails) <= 2:
+            for name, ret5, peer in sorted(trails, key=lambda p: p[1] - p[2]):
+                warn.append(((peer - ret5) / 10.0 + 0.1,
+                    f"The {name} trails its category average after fees: {fmt_pct(ret5)} a year against {fmt_pct(peer)}"))
+        else:
+            warn.append((len(trails) / rated,
+                f"{len(trails)} of its {rated} funds with a five-year record trail the category average after fees"))
     if avg_fee is not None and mkt_fee and avg_fee > mkt_fee:
         warn.append(((avg_fee - mkt_fee) / mkt_fee,
             f"Fees average {fmt_pct(avg_fee)} across its funds, above the market average of {fmt_pct(mkt_fee)}"))
@@ -277,13 +277,13 @@ for s in out_schemes:
         warn.append((len(eth_high) / 8.0,
             "High or Highest exposure to " + ', '.join(eth_high[:3]).lower() + (" and more" if len(eth_high) > 3 else "")))
     if sus_rated and sus_high == 0:
-        warn.append((0.4, f"None of its {len(sus_rated)} sustainability-rated funds score above Medium"))
+        warn.append((0.4, f"None of its {len(sus_rated)} {'fund' if len(sus_rated) == 1 else 'funds'} with a sustainability rating scores above Medium"))
     if under5:
         warn.append((under5 / max(M, 1),
             f"{under5} of its {M} funds {'is' if under5 == 1 else 'are'} under five years old, too new to pass our rating test"))
     if rec_count < M:
         warn.append(((M - rec_count) / M * 0.9,
-            f"{M - rec_count} of {M} funds {'doesn&rsquo;t' if M - rec_count == 1 else 'don&rsquo;t'} make our recommended list".replace('&rsquo;', '\u2019')))
+            f"{M - rec_count} of its {M} funds {'doesn&rsquo;t' if M - rec_count == 1 else 'don&rsquo;t'} make our recommended list".replace('&rsquo;', '\u2019')))
 
     # honest fallbacks so each card has at least 2 lines
     if len(good) < 2:
