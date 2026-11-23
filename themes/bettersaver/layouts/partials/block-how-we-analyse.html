@@ -3,6 +3,8 @@
      recommended rather than letter grades. Set this to true to bring it back. The sections
      after it swap between white and grey so the bands keep alternating either way. */ -}}
 {{- $showGrades := false -}}
+{{- /* FAQ items about the letter grades, hidden along with the section (matched by question). */ -}}
+{{- $gradeFaqs := slice "What do BetterSaver's fund grades mean?" -}}
 <div class="how-we-analyse-page">
 
   {{/* TRUST STRIP */}}
@@ -385,10 +387,12 @@
         </div>
         <div class="faq-list content narrow">
           {{ range .Params.faq_items }}
+          {{ if or $showGrades (not (in $gradeFaqs .question)) }}
           <details class="help-item">
             <summary><h4 class="m-0">{{ .question }}</h4></summary>
             <section class="py-2">{{ .answer | markdownify }}</section>
           </details>
+          {{ end }}
           {{ end }}
         </div>
       </section>
