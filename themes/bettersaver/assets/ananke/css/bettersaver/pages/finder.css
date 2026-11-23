@@ -462,3 +462,8 @@ body.fx-traypad{padding-bottom:96px}
 .finder-scope .help-item summary h4{font-family:var(--font-display);font-weight:500}
 .finder-scope .faq-head .grid{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .finder-scope a.button{color:#fff}
+/* Category bars carry the numeric column labels so they stay visible as you scroll. */
+.fgroup-grid{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px 84px;column-gap:16px;align-items:center;padding:12px 0 12px 0}
+.fgroup-grid .fg-name{grid-column:1/span 3;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;padding-left:16px}
+.fgroup-head .fg-col{font:500 11px/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);text-align:right}
+@media(max-width:720px){.fgroup-head .fg-col{display:none}.fgroup-grid{display:flex;flex-wrap:wrap;justify-content:space-between;padding:12px 16px}.fgroup-grid .fg-name{padding-left:0}}
