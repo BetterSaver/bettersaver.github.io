@@ -19,7 +19,19 @@
   {{ else }}
   {{ $faqs = $faqs | append (dict "q" (printf "Is %s a good KiwiSaver provider?" $prov) "a" (printf "None of %s's %d KiwiSaver funds currently meet our criteria. Funds can move on or off our list at each review." $prov $total)) }}
   {{ end }}
-  {{ $faqs = $faqs | append (dict "q" (printf "What are %s's KiwiSaver fees?" $prov) "a" (printf "Annual fees across %s's KiwiSaver funds range from %.2f%% to %.2f%% of your balance. The average across all KiwiSaver funds is around %s." $prov $minFee $maxFee $g.market_avg_fee)) }}
+  {{ $mktFee := printf "%.2f%%" site.Data.finder.market.avg_fee_pct }}
+  {{ if eq $minFee $maxFee }}
+  {{ $faqs = $faqs | append (dict "q" (printf "What are %s's KiwiSaver fees?" $prov) "a" (printf "Every %s KiwiSaver fund charges an annual fee of %.2f%% of your balance. The average across all KiwiSaver funds is around %s." $prov $minFee $mktFee)) }}
+  {{ else }}
+  {{ $faqs = $faqs | append (dict "q" (printf "What are %s's KiwiSaver fees?" $prov) "a" (printf "Annual fees across %s's KiwiSaver funds range from %.2f%% to %.2f%% of your balance. The average across all KiwiSaver funds is around %s." $prov $minFee $maxFee $mktFee)) }}
+  {{ end }}
+  {{ with $s.nz_owned }}
+  {{ $a := "" }}
+  {{ if eq . "yes" }}{{ $a = printf "Yes, %s is New Zealand-owned." $prov }}{{ else }}{{ $a = printf "No, %s isn't New Zealand-owned." $prov }}{{ end }}
+  {{ if $s.default_provider }}{{ $a = printf "%s It's one of the government-appointed default KiwiSaver providers." $a }}{{ else }}{{ $a = printf "%s It isn't a default KiwiSaver provider." $a }}{{ end }}
+  {{ $a = printf "%s It manages %s in KiwiSaver savings." $a $s.total_value }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Is %s New Zealand-owned?" $prov) "a" $a) }}
+  {{ end }}
   {{ if gt $rec 0 }}
   {{ $which := "" }}
   {{ if eq $rec 1 }}{{ $which = printf "One: the %s." (index $recNames 0) }}{{ else }}{{ $which = printf "%d: the %s." $rec (delimit $recNames ", " " and the ") }}{{ end }}

@@ -194,10 +194,13 @@ for s in out_schemes:
     s['sus_above'] = sum(1 for v in sus_rated if market_sus_mean is not None and v > market_sus_mean)
     # optional provider fact columns, pass through when the CSV gains them
     first = sub[0] if sub else {}
-    for col in ('provider_started', 'nz_owned', 'default_provider'):
+    for col, key in (('provider_started', 'provider_started'), ('provider_nz_owned', 'nz_owned')):
         v = (first.get(col) or '').strip()
         if v:
-            s[col] = v
+            s[key] = v
+    # a scheme is a default provider when any of its funds is a default fund
+    if any((r.get('is_default_fund') or '').strip() == 'yes' for r in sub):
+        s['default_provider'] = 'yes'
 
 
 # --- v4: per-scheme stats, Stands out / Worth weighing bullets, consider list ---
