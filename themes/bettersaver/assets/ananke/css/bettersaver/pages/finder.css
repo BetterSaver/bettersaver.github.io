@@ -161,7 +161,7 @@
 .powered span:first-child{font:13px/1.2 var(--font-sans);color:var(--text-muted)}
 .ms-mark{font:600 16px/1 var(--font-sans);letter-spacing:.02em;color:#d0021b}
 .scheme-funds{display:flex;flex-direction:column;gap:16px}
-.ftable-head{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px;column-gap:16px;padding:0 0 4px}
+.ftable-head{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px 84px;column-gap:16px;padding:0 0 4px}
 .ftable-head span{font:500 12px/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted)}
 .ftable-head .num{text-align:right}
 .fgroup{display:flex;flex-direction:column}
@@ -170,7 +170,7 @@
 .fgroup-head h3{margin:0;font:600 16px/1.3 var(--font-sans);color:var(--bs-navy)}
 .fgroup-head span{font:13px/1.4 var(--font-sans);color:var(--text-muted)}
 .fgroup-head strong{font-weight:600;color:var(--bs-navy)}
-.frow{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px;column-gap:16px;align-items:center;padding:16px 0;border-bottom:1px solid var(--border-soft)}
+.frow{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px 84px;column-gap:16px;align-items:center;padding:16px 0;border-bottom:1px solid var(--border-soft)}
 .frow-name{font:600 15px/1.35 var(--font-sans);text-decoration:none;text-wrap:pretty}
 .frow .verdict-pill{justify-self:start;padding:5px 10px;font-size:12px}
 .frow-why{font:13px/1.5 var(--font-sans);color:var(--text-muted);text-wrap:pretty}
@@ -179,7 +179,7 @@
 .ret-warn{color:var(--warn-ink)!important}
 .ret-na{color:var(--text-muted)!important;font-weight:400!important}
 .table-fine{margin:0;font:13px/1.55 var(--font-sans);color:var(--text-muted);text-wrap:pretty}
-@media(max-width:720px){.ftable-head{display:none}.frow{grid-template-columns:minmax(0,1fr)auto;grid-template-areas:"name fee" "pill pill" "why why" "ret ret";row-gap:8px;padding:14px 0}.frow-name{grid-area:name}.frow .verdict-pill{grid-area:pill}.frow-why{grid-area:why}.frow-fee{grid-area:fee}.frow-ret{grid-area:ret;text-align:left!important}.fact-grid{grid-template-columns:1fr}.scheme-row{grid-template-columns:minmax(0,1fr)auto}.row-chev{display:none}}
+@media(max-width:720px){.ftable-head{display:none}.frow-avg{display:none}.frow{grid-template-columns:minmax(0,1fr)auto;grid-template-areas:"name fee" "pill pill" "why why" "ret ret";row-gap:8px;padding:14px 0}.frow-name{grid-area:name}.frow .verdict-pill{grid-area:pill}.frow-why{grid-area:why}.frow-fee{grid-area:fee}.frow-ret{grid-area:ret;text-align:left!important}.fact-grid{grid-template-columns:1fr}.scheme-row{grid-template-columns:minmax(0,1fr)auto}.row-chev{display:none}}
 .finder-controls{display:none}
 .finder-controls.js-on{display:flex;flex-wrap:wrap;gap:10px}
 .js-only.js-on{display:inline-flex}
@@ -451,3 +451,6 @@ body.fx-traypad{padding-bottom:96px}
 .fee-facts .fact{background:var(--surface-subtle);box-shadow:none}
 .fee-facts .fact-value{color:var(--bs-purple-contrast)}
 @media(max-width:640px){.fee-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Group avg column: muted desktop column; on phones the group header carries the average instead. */
+.frow .frow-avg{color:var(--text-muted);font-weight:400}
+@media(min-width:721px){.fgroup-avg{display:none}}

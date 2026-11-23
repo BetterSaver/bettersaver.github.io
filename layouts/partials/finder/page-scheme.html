@@ -84,7 +84,7 @@
 <section class="scheme-funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
 <div class="ftable-head">
-<span>Fund</span><span>Our rating</span><span>Why</span><span class="num">Fee</span><span class="num">5-yr return</span>
+<span>Fund</span><span>Our rating</span><span>Why</span><span class="num">Fee</span><span class="num">5-yr return</span><span class="num">Group avg</span>
 </div>
 {{ range $cats }}
 {{ $cat := . }}
@@ -94,7 +94,7 @@
 <div class="fgroup">
 <div class="fgroup-head">
 <h3>{{ $cat.label }}</h3>
-{{ with $cat.group_avg_ret5 }}<span>{{ $cat.label }} group average: <strong>{{ printf "%.2f%%" . }}</strong> a year over 5 years, after fees</span>{{ else }}<span>No group average: {{ $cat.label | lower }} funds aren't compared</span>{{ end }}
+{{ with $cat.group_avg_ret5 }}<span class="fgroup-avg">{{ $cat.label }} group average: <strong>{{ printf "%.2f%%" . }}</strong> a year over 5 years, after fees</span>{{ else }}<span class="fgroup-note">No group average: {{ $cat.label | lower }} funds aren't compared</span>{{ end }}
 </div>
 {{ $sorted := sort $catFunds "ret5_pct" "desc" }}
 {{ $recFirst := where $sorted "public_rating" "recommended" }}
@@ -108,33 +108,31 @@
 <span class="frow-why">{{ $v.reason }}</span>
 <span class="frow-fee num">{{ printf "%.2f%%" .fee_pct }}</span>
 <span class="frow-ret num {{ if and .ret5_pct $cat.group_avg_ret5 }}{{ if ge .ret5_pct $cat.group_avg_ret5 }}ret-good{{ else }}ret-warn{{ end }}{{ else if not .ret5_pct }}ret-na{{ end }}">{{ if .ret5_pct }}{{ printf "%.2f%%" .ret5_pct }}{{ else }}Not yet available{{ end }}</span>
+<span class="frow-avg num">{{ with $cat.group_avg_ret5 }}{{ printf "%.2f%%" . }}{{ else }}&ndash;{{ end }}</span>
 </div>
 {{ end }}
 </div>
 {{ end }}
 {{ end }}
 <p class="table-fine">Fees are total annual fees. Returns are average yearly returns after fees over five years, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Past performance isn't a reliable indicator of future returns.</p>
-<a class="compare-link" href="/kiwisaver-funds/">Compare {{ $prov }} funds with others {{ partial "finder/icon.html" (dict "name" "arrow-right" "size" 16) }}</a>
 </section>
 
 <section>
 <h2 class="rule-head">How have <strong>{{ $prov }}</strong> funds performed?</h2>
 {{ if gt (len $rated) 0 }}
-<p class="sec-body">{{ if eq (len $above) (len $rated) }}{{ if eq (len $rated) 1 }}{{ $prov }}'s one rated fund sits above its group average after fees over five years{{ else }}Every rated {{ $prov }} fund sits above its group average after fees over five years{{ end }}{{ else if gt (len $above) 0 }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} rated funds sit above their group average after fees over five years{{ else }}No {{ $prov }} fund currently sits above its group average after fees over five years{{ end }}, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ if gt $wideGap 0.0 }} The widest gap is the {{ or $wideFund.fund_name $wideFund.fund_label }}, {{ printf "%.2f%%" $wideFund.ret5_pct }} a year against a group average of {{ printf "%.2f%%" $wideAvg }}.{{ end }}</p>
-{{ else }}
-<p class="sec-body">We rate funds against their risk-group average once they have five years of returns history. {{ $prov }}'s funds aren't currently rated, either because they're too new or because they sit in a single-sector group that isn't compared.</p>
+<p class="sec-body">{{ if eq (len $above) 0 }}None of {{ $prov }}'s funds with a five-year record currently beat their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $rated) 1 }}{{ $prov }}'s one fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $above) (len $rated) }}Every {{ $prov }} fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} funds with a five-year record have beaten their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ end }}</p>
+<div class="fact-grid perf-facts">
+<div class="fact"><span class="fact-label">Beat their group average</span><span class="fact-value">{{ len $above }} of {{ len $rated }}</span><span class="fact-note">Funds with a five-year record</span></div>
+{{ if gt $wideGap 0.0 }}
+<div class="fact"><span class="fact-label">Best performer</span><span class="fact-value">+{{ printf "%.2f%%" $wideGap }} a year</span><span class="fact-note">{{ or $wideFund.fund_name $wideFund.fund_label }}, above its group average</span></div>
 {{ end }}
 {{ if gt $deltaN 0 }}
-<div class="delta-card">
-<div class="delta-body">
-<span class="delta-eyebrow">For context the recommended {{ if eq $deltaN 1 }}fund{{ else }}funds{{ end }} returned</span>
-<div class="delta-row">
-<span class="delta-fig delta-up">{{ if eq $deltaMin $deltaMax }}+${{ lang.FormatNumberCustom 0 $deltaMin }}{{ else }}+${{ lang.FormatNumberCustom 0 $deltaMin }} to +${{ lang.FormatNumberCustom 0 $deltaMax }}{{ end }}</span>
-<span class="delta-copy">more per <strong>$40,000</strong> over the past <strong>5 years</strong> vs. their group averages, after fees.</span>
+<div class="fact"><span class="fact-label">In dollar terms</span><span class="fact-value">{{ if eq $deltaMin $deltaMax }}+${{ lang.FormatNumberCustom 0 $deltaMin }}{{ else }}+${{ lang.FormatNumberCustom 0 $deltaMin }} to +${{ lang.FormatNumberCustom 0 $deltaMax }}{{ end }}</span><span class="fact-note">Per $40,000 over 5 years, recommended funds vs their group averages</span></div>
+{{ end }}
 </div>
-</div>
-<div class="delta-fine">Past performance isn't a reliable indicator of future returns.</div>
-</div>
+<p class="table-fine">Past performance isn't a reliable indicator of future returns.</p>
+{{ else }}
+<p class="sec-body">We rate funds against their risk-group average once they have five years of returns history. {{ $prov }}'s funds aren't there yet, either because they're too new or because they sit in a single-sector group that isn't compared.</p>
 {{ end }}
 </section>
 
