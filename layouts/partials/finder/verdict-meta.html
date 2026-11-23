@@ -24,10 +24,10 @@
   {{- $reason = printf "We rate funds against their risk-group average, and %s funds don't have a comparable group, so they sit outside our recommended list." ($cat.label | lower) -}}
   {{- $faqReason = $reason -}}
 {{- else if and (eq $variant "under_5_years") $f.launch_label $f.rating_expected_label -}}
-  {{- $reason = printf "Launched %s. We rate funds once they have five years of history, expected %s." $f.launch_label $f.rating_expected_label -}}
-  {{- $faqReason = printf "It launched in %s, and we rate funds once they have five years of history, which we expect in %s." $f.launch_label $f.rating_expected_label -}}
+  {{- $reason = printf "Launched %s, so it doesn't yet have the five years of history our criteria require. It gets there in %s." $f.launch_label $f.rating_expected_label -}}
+  {{- $faqReason = printf "It launched in %s and doesn't yet have the five years of history our criteria require, which it reaches in %s." $f.launch_label $f.rating_expected_label -}}
 {{- else -}}
-  {{- $reason = "Has under 5 years of history. We rate funds once they have five years of after-fee returns." -}}
+  {{- $reason = "Has under 5 years of history, and funds need five years of after-fee returns to meet our criteria." -}}
   {{- $faqReason = $reason -}}
 {{- end -}}
 {{- return (dict "rec" $rec "new" $new "label" $label "icon" $icon "reason" $reason "faqReason" $faqReason) -}}
