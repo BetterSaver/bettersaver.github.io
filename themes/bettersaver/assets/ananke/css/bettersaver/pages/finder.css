@@ -454,3 +454,11 @@ body.fx-traypad{padding-bottom:96px}
 /* Group avg column: muted desktop column; on phones the group header carries the average instead. */
 .frow .frow-avg{color:var(--text-muted);font-weight:400}
 @media(min-width:721px){.fgroup-avg{display:none}}
+/* Site-pattern FAQ block on finder pages (heading styles mirror how-we-analyse.css, which is page-scoped). */
+.finder-scope .faq-site{margin-top:48px}
+.finder-scope .faq-head{margin-bottom:32px}
+.finder-scope .faq-head h2{margin-bottom:12px}
+.finder-scope .faq-head p{font-size:17px;color:var(--text-muted);line-height:1.55;max-width:520px}
+.finder-scope .help-item summary h4{font-family:var(--font-display);font-weight:500}
+.finder-scope .faq-head .grid{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.finder-scope a.button{color:#fff}
