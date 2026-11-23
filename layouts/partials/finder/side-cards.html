@@ -1,0 +1,17 @@
+{{- /* Purple-tinted side cards under the CTA. dict: already_title, already_sub, quiz, booking */ -}}
+<div class="side-cards">
+  <a class="side-card" href="{{ .quiz }}">
+    <span class="side-copy">
+      <span class="side-title">{{ .already_title }}</span>
+      <span class="side-sub">{{ .already_sub }}</span>
+    </span>
+    <span class="side-chev">{{ partial "finder/icon.html" (dict "name" "chevron-right" "size" 18) }}</span>
+  </a>
+  <a class="side-card" href="{{ .booking }}" target="_blank" rel="noopener">
+    <span class="side-copy">
+      <span class="side-title">Questions?</span>
+      <span class="side-sub">Book a free 15 minute call with a human</span>
+    </span>
+    <span class="side-chev">{{ partial "finder/icon.html" (dict "name" "chevron-right" "size" 18) }}</span>
+  </a>
+</div>

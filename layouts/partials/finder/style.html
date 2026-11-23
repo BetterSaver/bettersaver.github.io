@@ -1,0 +1,4 @@
+{{- /* Finder stylesheet, loaded only on /kiwisaver-funds/ pages. */ -}}
+{{ $css := resources.Get "ananke/css/bettersaver/pages/finder.css" }}
+{{ if eq (getenv "HUGO_ENV") "production" }}{{ $css = $css | minify | fingerprint }}{{ end }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">

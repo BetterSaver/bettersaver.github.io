@@ -1,0 +1,34 @@
+{{- /* Returns a dict describing a fund's verdict, from the fund record + its category.
+     Usage: partial "verdict-meta.html" (dict "fund" $f "cat" $cat) */ -}}
+{{- $f := .fund -}}{{- $cat := .cat -}}
+{{- $rec := eq $f.public_rating "recommended" -}}
+{{- $new := eq $f.public_rating "not_rated" -}}
+{{- $variant := $f.verdict_variant | default "" -}}
+{{- /* Two public states only: Recommended / Not recommended. Funds without five
+     years' history or a comparable group roll into Not recommended, with the
+     explainer carried in the reason line. */ -}}
+{{- $label := cond $rec "Recommended" "Not recommended" -}}
+{{- $icon := cond $rec "check-circle-filled" "alert" -}}
+{{- $reason := "" -}}{{- $faqReason := "" -}}
+{{- if $rec -}}
+  {{- $feeClause := cond (and $cat.group_avg_fee (le $f.fee_pct $cat.group_avg_fee)) ", fees below average, with consistent results." ", with consistent results." -}}
+  {{- $reason = printf "Returns after fees above the %s group average over five years%s" $cat.label $feeClause -}}
+  {{- $faqReason = printf "Over the past five years it returned more than the average %s fund after fees." $cat.label -}}
+{{- else if eq $variant "failed_check" -}}
+  {{- $reason = printf "Didn't meet our criteria against other %s funds over five years." ($cat.label | lower) -}}
+  {{- $faqReason = $reason -}}
+{{- else if eq $variant "no_group" -}}
+  {{- if eq $cat.risk_type "single-sector" -}}
+    {{- $reason = "We don't recommend single-sector funds." -}}
+  {{- else -}}
+    {{- $reason = "We don't recommend funds that sit outside the main risk groups." -}}
+  {{- end -}}
+  {{- $faqReason = $reason -}}
+{{- else if and (eq $variant "under_5_years") $f.launch_label $f.rating_expected_label -}}
+  {{- $reason = printf "Launched %s, so it doesn't yet have the five years of history our criteria require. It gets there in %s." $f.launch_label $f.rating_expected_label -}}
+  {{- $faqReason = printf "It launched in %s and doesn't yet have the five years of history our criteria require, which it reaches in %s." $f.launch_label $f.rating_expected_label -}}
+{{- else -}}
+  {{- $reason = "Has under 5 years of history, and funds need five years of after-fee returns to meet our criteria." -}}
+  {{- $faqReason = $reason -}}
+{{- end -}}
+{{- return (dict "rec" $rec "new" $new "label" $label "icon" $icon "reason" $reason "faqReason" $faqReason) -}}

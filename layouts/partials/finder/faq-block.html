@@ -1,0 +1,21 @@
+{{- /* FAQ block matching the site-wide pattern (how-to-change, how-we-analyse pages):
+     serif heading with subline, See more FAQs button, base.css details rows. */ -}}
+<section class="faq-site">
+  <div class="faq-head">
+    <div class="grid grid-cols-2-auto gap-4 items-center content">
+      <div>
+        <h2>Frequently asked questions.</h2>
+        <p>The questions that come up most often. Can&rsquo;t see yours? <a href="/contact-us">Talk to us</a>.</p>
+      </div>
+      <div><a href="/faq/" class="button">See more FAQs</a></div>
+    </div>
+  </div>
+  <div class="faq-list content narrow">
+    {{ range (partial "finder/faq-items.html" .) }}
+    <details class="help-item">
+      <summary><h4 class="m-0">{{ .q }}</h4></summary>
+      <section class="py-2"><p>{{ .a }}</p></section>
+    </details>
+    {{ end }}
+  </div>
+</section>
