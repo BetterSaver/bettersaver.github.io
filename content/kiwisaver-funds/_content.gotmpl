@@ -1,0 +1,18 @@
+{{/* Content adapter: generates a page per scheme from data/finder/schemes.json.
+     Stage 1 is scheme level only. Fund and category pages arrive with stage 2. */}}
+{{ range site.Data.finder.schemes }}
+  {{ if eq .status "open" }}
+  {{ $scheme := . }}
+  {{ $page := dict
+    "path" .scheme_slug
+    "kind" "page"
+    "title" (printf "%s: funds, ratings and fees" .scheme_name)
+    "params" (dict
+      "record_type" "scheme"
+      "scheme" $scheme
+      "description" (printf "Independent ratings for every %s fund: which we recommend, fees, five-year returns and how to switch." .scheme_name)
+    )
+  }}
+  {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}
