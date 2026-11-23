@@ -10,7 +10,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$105 million",
-  "total_value_m": 105.3
+  "total_value_m": 105.3,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "amp-kiwisaver-scheme",
@@ -23,7 +36,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$10.8 billion",
-  "total_value_m": 10823.9
+  "total_value_m": 10823.9,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 23,
+  "sus_above": 8
  },
  {
   "scheme_slug": "anz-default-kiwisaver-scheme",
@@ -36,7 +62,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$1.7 billion",
-  "total_value_m": 1698.0
+  "total_value_m": 1698.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 5
  },
  {
   "scheme_slug": "anz-kiwisaver-scheme",
@@ -49,7 +88,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$19.3 billion",
-  "total_value_m": 19322.3
+  "total_value_m": 19322.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 4
  },
  {
   "scheme_slug": "asb-kiwisaver-scheme",
@@ -62,7 +114,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$22 billion",
-  "total_value_m": 22008.3
+  "total_value_m": 22008.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Low",
+   "Civilian weapons": "Low",
+   "Gambling": "High",
+   "Nuclear power": "Very high",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 3
  },
  {
   "scheme_slug": "bcf-kiwisaver-scheme",
@@ -75,7 +140,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$20 million",
-  "total_value_m": 19.8
+  "total_value_m": 19.8,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "bnz-kiwisaver-scheme",
@@ -88,7 +166,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$7.3 billion",
-  "total_value_m": 7340.6
+  "total_value_m": 7340.6,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Very high",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "High",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 7,
+  "sus_above": 4
  },
  {
   "scheme_slug": "booster-kiwisaver-scheme",
@@ -101,7 +192,20 @@
   "partner_state": "some",
   "partnered": true,
   "total_value": "$7.1 billion",
-  "total_value_m": 7126.0
+  "total_value_m": 7126.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Very high",
+  "sus_rated": 14,
+  "sus_above": 13
  },
  {
   "scheme_slug": "christian-kiwisaver-scheme",
@@ -114,7 +218,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$110 million",
-  "total_value_m": 110.4
+  "total_value_m": 110.4,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "evidential-kiwisaver-scheme",
@@ -127,7 +244,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$54 million",
-  "total_value_m": 54.5
+  "total_value_m": 54.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Low",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Very high"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 3,
+  "sus_above": 0
  },
  {
   "scheme_slug": "fisher-funds-kiwisaver-plan",
@@ -140,7 +270,20 @@
   "partner_state": "some",
   "partnered": true,
   "total_value": "$18.5 billion",
-  "total_value_m": 18484.5
+  "total_value_m": 18484.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Very high",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "High"
+  },
+  "sus_band": "High",
+  "sus_rated": 4,
+  "sus_above": 2
  },
  {
   "scheme_slug": "generate-kiwisaver-scheme",
@@ -153,7 +296,20 @@
   "partner_state": "some",
   "partnered": true,
   "total_value": "$10.9 billion",
-  "total_value_m": 10852.2
+  "total_value_m": 10852.2,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "High",
+   "Tobacco": "Low",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 8,
+  "sus_above": 4
  },
  {
   "scheme_slug": "goalsgetter-kiwisaver-scheme",
@@ -166,7 +322,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$145 million",
-  "total_value_m": 145.0
+  "total_value_m": 145.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "High",
+   "Civilian weapons": "None",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Low"
+  },
+  "sus_band": "High",
+  "sus_rated": 10,
+  "sus_above": 5
  },
  {
   "scheme_slug": "hive-kiwisaver-scheme",
@@ -179,7 +348,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$672 million",
-  "total_value_m": 672.4
+  "total_value_m": 672.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "Medium",
+   "Civilian weapons": "None",
+   "Gambling": "None",
+   "Nuclear power": "Low",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 1,
+  "sus_above": 1
  },
  {
   "scheme_slug": "investnow-kiwisaver-scheme",
@@ -192,7 +374,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$909 million",
-  "total_value_m": 908.7
+  "total_value_m": 908.7,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 33,
+  "sus_above": 10
  },
  {
   "scheme_slug": "kernel-kiwisaver-plan",
@@ -205,7 +400,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$1.6 billion",
-  "total_value_m": 1593.5
+  "total_value_m": 1593.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "High",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 22,
+  "sus_above": 8
  },
  {
   "scheme_slug": "k-ura-kiwisaver-scheme",
@@ -218,7 +426,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$534 million",
-  "total_value_m": 534.4
+  "total_value_m": 534.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 9,
+  "sus_above": 4
  },
  {
   "scheme_slug": "mas-kiwisaver-scheme",
@@ -231,7 +452,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$1.8 billion",
-  "total_value_m": 1775.8
+  "total_value_m": 1775.8,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Very high",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "High"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 3
  },
  {
   "scheme_slug": "maritime-kiwisaver-scheme",
@@ -244,7 +478,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$21 million",
-  "total_value_m": 20.8
+  "total_value_m": 20.8,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "mercer-kiwisaver-scheme",
@@ -257,7 +504,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$2.6 billion",
-  "total_value_m": 2641.9
+  "total_value_m": 2641.9,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "High",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 5
  },
  {
   "scheme_slug": "milford-kiwisaver-plan",
@@ -270,7 +530,20 @@
   "partner_state": "all",
   "partnered": true,
   "total_value": "$16.2 billion",
-  "total_value_m": 16232.3
+  "total_value_m": 16232.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "Low",
+   "Civilian weapons": "Low",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 1
  },
  {
   "scheme_slug": "nz-funds-kiwisaver-scheme",
@@ -283,7 +556,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$2.1 billion",
-  "total_value_m": 2087.1
+  "total_value_m": 2087.1,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "new-zealand-defence-force-kiwisaver-scheme",
@@ -296,7 +582,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$355 million",
-  "total_value_m": 355.0
+  "total_value_m": 355.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "High",
+   "Tobacco": "High",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 2
  },
  {
   "scheme_slug": "oneanswer-kiwisaver-scheme",
@@ -309,7 +608,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$2.9 billion",
-  "total_value_m": 2867.4
+  "total_value_m": 2867.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Low"
+  },
+  "sus_band": "High",
+  "sus_rated": 11,
+  "sus_above": 7
  },
  {
   "scheme_slug": "pathfinder-kiwisaver-plan",
@@ -322,7 +634,20 @@
   "partner_state": "all",
   "partnered": true,
   "total_value": "$711 million",
-  "total_value_m": 710.5
+  "total_value_m": 710.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "Low",
+   "Civilian weapons": "None",
+   "Gambling": "None",
+   "Nuclear power": "Very high",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Very high",
+  "sus_rated": 2,
+  "sus_above": 2
  },
  {
   "scheme_slug": "pie-kiwisaver-scheme",
@@ -335,7 +660,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$611 million",
-  "total_value_m": 610.5
+  "total_value_m": 610.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "Very high",
+   "Tobacco": "High",
+   "Weapons of war": "High"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 4,
+  "sus_above": 0
  },
  {
   "scheme_slug": "quaystreet-kiwisaver-scheme",
@@ -348,7 +686,20 @@
   "partner_state": "all",
   "partnered": true,
   "total_value": "$493 million",
-  "total_value_m": 492.6
+  "total_value_m": 492.6,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 11,
+  "sus_above": 1
  },
  {
   "scheme_slug": "sbs-wealth-kiwisaver-scheme",
@@ -361,7 +712,20 @@
   "partner_state": "some",
   "partnered": true,
   "total_value": "$1.1 billion",
-  "total_value_m": 1115.2
+  "total_value_m": 1115.2,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "Very high",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Very high",
+  "sus_rated": 6,
+  "sus_above": 6
  },
  {
   "scheme_slug": "sharesies-kiwisaver-scheme",
@@ -374,7 +738,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$1.1 billion",
-  "total_value_m": 1077.4
+  "total_value_m": 1077.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 2
  },
  {
   "scheme_slug": "shaw-and-partners-kiwisaver-scheme",
@@ -387,7 +764,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$17 million",
-  "total_value_m": 16.8
+  "total_value_m": 16.8,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "High",
+   "Civilian weapons": "Very high",
+   "Gambling": "Very high",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Very high"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 3,
+  "sus_above": 1
  },
  {
   "scheme_slug": "simplicity-kiwisaver-scheme",
@@ -400,7 +790,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$7.4 billion",
-  "total_value_m": 7371.7
+  "total_value_m": 7371.7,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "None",
+   "Nuclear power": "Low",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Very high",
+  "sus_rated": 5,
+  "sus_above": 5
  },
  {
   "scheme_slug": "smart-kiwisaver-scheme",
@@ -413,7 +816,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$3.2 billion",
-  "total_value_m": 3248.1
+  "total_value_m": 3248.1,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 29,
+  "sus_above": 7
  },
  {
   "scheme_slug": "summer-kiwisaver-scheme",
@@ -426,7 +842,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$351 million",
-  "total_value_m": 351.0
+  "total_value_m": 351.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 7,
+  "sus_above": 1
  },
  {
   "scheme_slug": "supereasy-kiwisaver-superannuation-scheme",
@@ -439,7 +868,20 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$144 million",
-  "total_value_m": 143.9
+  "total_value_m": 143.9,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  },
  {
   "scheme_slug": "westpac-kiwisaver-scheme",
@@ -452,6 +894,19 @@
   "partner_state": "none",
   "partnered": false,
   "total_value": "$13.5 billion",
-  "total_value_m": 13541.1
+  "total_value_m": 13541.1,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0
  }
 ]
