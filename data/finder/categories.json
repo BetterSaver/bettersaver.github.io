@@ -35,16 +35,9 @@
   "group_avg_fee": 1.15
  },
  {
-  "risk_type": "single-sector",
-  "label": "Single-sector",
-  "fund_count": 103,
-  "group_avg_ret5": null,
-  "group_avg_fee": null
- },
- {
   "risk_type": "other",
   "label": "Other",
-  "fund_count": 44,
+  "fund_count": 147,
   "group_avg_ret5": null,
   "group_avg_fee": null
  }
