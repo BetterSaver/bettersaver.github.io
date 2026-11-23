@@ -7,7 +7,7 @@ featured_image: /uploads/bg-recommended-kiwisaver-funds.jpg
 date: 2026-10-06T00:00:00.000Z
 page_block: block-recommended-kiwisaver-funds
 cta_text: Get my KiwiSaver recommendation
-cta_link: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+cta_link: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_secondary_text: How we analyse KiwiSaver schemes
 cta_secondary_link: /pages/how-we-analyse/
 review_last: 2026-11-18T00:00:00.000Z
@@ -232,7 +232,7 @@ fund_groups:
         fund: Lifestages Balanced Option
         return_5yr: 6.2%
         fee: 1.10%
-        partner: false
+        partner: true
       - provider: Shaw and Partners KiwiSaver Scheme
         fund: Balanced Fund
         return_5yr: 5.3%
@@ -383,13 +383,13 @@ fund_groups:
         fund: Lifestages Aggressive Option
         return_5yr: 9.9%
         fee: 1.24%
-        partner: false
+        partner: true
       - provider: Smart KiwiSaver Scheme
         fund: High Growth Fund
         return_5yr: 8.9%
         fee: 0.63%
         partner: false
-funds_footnote: 'Returns are shown after fees and before tax, to 30 September 2026. Source: Morningstar.'
+funds_footnote: 'Returns are shown after fees and before tax, to 30 September 2026. Source: Morningstar and Disclose Register'
 nr_heading: Don’t see your fund on the recommended list?
 nr_body: 'These are the funds that do not currently make our list. Some fell short on one or more of our checks, some do not yet have the five-year track record we require, and some are single-sector funds that are too narrowly focused to be someone’s main KiwiSaver. [How we analyse KiwiSaver schemes](/pages/how-we-analyse/) explains exactly what a fund has to clear.'
 not_recommended: []
@@ -434,11 +434,11 @@ important_body: |-
 
   All investing involves risk. KiwiSaver balances go up and down. Past performance is not a reliable indicator of future performance.
 
-  The lists on this page reflect our assessment at the last review date shown above. They are general information, not personalised advice about any particular scheme. For advice about your own situation, [get a recommendation]({{appUrl}}/kiwisaver/onboarding/flow/disclosure/).
+  The lists on this page reflect our assessment at the last review date shown above. They are general information, not personalised advice about any particular scheme. For advice about your own situation, [get a recommendation]({{appUrl}}/kiwisaver/onboarding/flow/goal).
 cta_heading: Find a better KiwiSaver fund today
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — whether you’re joining for the first time or switching.
 cta_button_label: Get my KiwiSaver recommendation
-cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_subnote: Takes 2–5 minutes & It’s free
 seo:
   title: Best KiwiSaver Schemes in NZ | Recommended Funds | BetterSaver

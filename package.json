@@ -24,14 +24,32 @@
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
     "@tinacms/auth": "^1.1.5",
-    "@tinacms/cli": "^4.0.2",
+    "@tinacms/cli": "^4.0.5",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "tinacms": "^3.14.4"
+    "tinacms": "^3.15.2"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.0",
     "concurrently": "^9.2.1",
     "tailwindcss": "^4.3.0"
+  },
+  "overrides": {
+    "postcss-selector-parser": "^6.1.5",
+    "katex": "^0.18.2",
+    "altair-express-middleware": "^8.5.8",
+    "altair-static": {
+      ".": "^8.5.8",
+      "zod": "^4.6.6"
+    }
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss-selector-parser": "^6.1.5",
+      "katex": "^0.18.2",
+      "altair-express-middleware": "^8.5.8",
+      "altair-static": "^8.5.8",
+      "altair-static>zod": "^4.6.6"
+    }
   }
 }

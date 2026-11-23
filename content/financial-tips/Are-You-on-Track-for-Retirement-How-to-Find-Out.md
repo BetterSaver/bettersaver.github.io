@@ -299,4 +299,4 @@ Yes, it's one of the more commonly overlooked levers. Many people stay in the sa
 
 By now you have something most people never get around to building, which is an actual number, or a real method for finding one, instead of a vague sense that you should probably be doing more.
 
-The natural next step is checking your KiwiSaver balance, contribution rate and fund. BetterSaver's free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/disclosure/) can give you a quick, independent comparison across 300+ KiwiSaver funds to see whether yours still fits where you're headed.
+The natural next step is checking your KiwiSaver balance, contribution rate and fund. BetterSaver's free [Fund Finder Quiz](https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/goal) can give you a quick, independent comparison across 300+ KiwiSaver funds to see whether yours still fits where you're headed.

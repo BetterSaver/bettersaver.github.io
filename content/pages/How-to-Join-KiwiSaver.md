@@ -12,7 +12,7 @@ intro_body_2: |-
 
   The catch: if you don’t choose a provider yourself, one gets chosen for you. BetterSaver helps you find a scheme that actually fits your situation, then guides you through joining online.
 intro_cta_label: Get my KiwiSaver recommendation
-intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 eligible_tag: Eligibility
 eligible_heading: Who can join KiwiSaver.
 eligible_subheading: 'KiwiSaver is open to you if you are:'
@@ -71,7 +71,7 @@ choose_body: |
 
   BetterSaver assesses every KiwiSaver scheme in New Zealand using data from Morningstar and fund providers, and we publish our reasoning in full — including the schemes that don’t make the cut and why.
 choose_cta_label: Get my KiwiSaver recommendation
-choose_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+choose_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse).'
 privacy_body: '**BetterSaver is a licensed Financial Advice Provider (FSP 600609).** Our advice is based on the information you provide and the information available about each scheme at the time. All investing involves risk — KiwiSaver values can go up and down, and past performance is not a reliable indicator of future performance.'
 faq_heading: Frequently asked questions.
@@ -110,7 +110,7 @@ faq_items:
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
-cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/disclosure/'
+cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_subnote: Takes 2–5 minutes & It’s free
 seo:
   title: How to Join KiwiSaver | Choose Your Scheme | BetterSaver
