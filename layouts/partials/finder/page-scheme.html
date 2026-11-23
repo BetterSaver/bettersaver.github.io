@@ -121,6 +121,7 @@
 <h2 class="rule-head">How have <strong>{{ $prov }}</strong> funds performed?</h2>
 {{ if gt (len $rated) 0 }}
 <p class="sec-body">{{ if eq (len $above) 0 }}None of {{ $prov }}'s funds with a five-year record currently beat their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $rated) 1 }}{{ $prov }}'s one fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else if eq (len $above) (len $rated) }}Every {{ $prov }} fund with a five-year record has beaten its group average after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ else }}{{ len $above }} of {{ $prov }}'s {{ len $rated }} funds with a five-year record have beaten their group averages after fees, as at {{ dateFormat "2 January 2006" $r.data_as_at }}.{{ end }}</p>
+<div class="glance-panel">
 <div class="fact-grid perf-facts">
 <div class="fact"><span class="fact-label">Beat their group average</span><span class="fact-value">{{ len $above }} of {{ len $rated }}</span><span class="fact-note">Funds with a five-year record</span></div>
 {{ if gt $wideGap 0.0 }}
@@ -129,6 +130,7 @@
 {{ if gt $deltaN 0 }}
 <div class="fact"><span class="fact-label">In dollar terms</span><span class="fact-value">{{ if eq $deltaMin $deltaMax }}+${{ lang.FormatNumberCustom 0 $deltaMin }}{{ else }}+${{ lang.FormatNumberCustom 0 $deltaMin }} to +${{ lang.FormatNumberCustom 0 $deltaMax }}{{ end }}</span><span class="fact-note">Per $40,000 over 5 years, recommended funds vs their group averages</span></div>
 {{ end }}
+</div>
 </div>
 <p class="table-fine">Past performance isn't a reliable indicator of future returns.</p>
 {{ else }}
@@ -149,12 +151,14 @@
 <div class="explain-box">On a <strong>$40,000</strong> balance, {{ if eq (len $funds) 1 }}the {{ or $cheap.fund_name $cheap.fund_label }} costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ else }}the cheapest {{ $prov }} fund, the {{ or $cheap.fund_name $cheap.fund_label }}, costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ end }}
 <span class="explain-fine">How we work this out: the fund's total annual fee, applied to the balance shown for one year. It's an illustration, as the actual dollar amount changes with your balance.</span>
 </div>
+<div class="glance-panel">
 <div class="fact-grid fee-facts">
 <div class="fact"><span class="fact-label">Cheapest fund</span><span class="fact-value">{{ printf "%.2f%%" $cheap.fee_pct }}</span><span class="fact-note">{{ or $cheap.fund_name $cheap.fund_label }}</span></div>
 {{ if and (gt (len $funds) 1) (ne $cheap.fee_pct $dear.fee_pct) }}
 <div class="fact"><span class="fact-label">Most expensive</span><span class="fact-value">{{ printf "%.2f%%" $dear.fee_pct }}</span><span class="fact-note">{{ or $dear.fund_name $dear.fund_label }}</span></div>
 {{ end }}
 <div class="fact"><span class="fact-label">KiwiSaver average</span><span class="fact-value">{{ $g.market_avg_fee }}</span><span class="fact-note">Across all funds we rate</span></div>
+</div>
 </div>
 </section>
 
