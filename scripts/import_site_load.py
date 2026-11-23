@@ -90,7 +90,7 @@ for r in rows:
                 try:
                     dt = datetime.strptime(d.split()[0], '%d/%m/%Y')
                     launch_label = dt.strftime('%B %Y')
-                    expected_label = dt.replace(year=dt.year + 5).strftime('%B %Y')
+                    expected_label = dt.replace(year=dt.year + 5, day=1).strftime('%B %Y')
                 except ValueError:
                     pass
 

@@ -750,7 +750,8 @@
   "risk": 5,
   "restricted": false,
   "status": "open",
-  "launch_label": "February 2024"
+  "launch_label": "February 2024",
+  "rating_expected_label": "February 2029"
  },
  {
   "fund_slug": "high-growth-fund",
