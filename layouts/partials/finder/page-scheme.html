@@ -140,12 +140,15 @@
 <h2 class="rule-head">What does <strong>{{ $prov }}</strong> charge?</h2>
 {{ $cheapYr := mul 40000.0 (div $cheap.fee_pct 100.0) }}
 {{ if eq (len $funds) 1 }}
-<p class="sec-body">The {{ or $cheap.fund_name $cheap.fund_label }} charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. On a $40,000 balance that's about ${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}.</p>
+<p class="sec-body">The {{ or $cheap.fund_name $cheap.fund_label }} charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}.</p>
 {{ else if eq $cheap.fee_pct $dear.fee_pct }}
-<p class="sec-body">Every {{ $prov }} fund charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. On a $40,000 balance that's about ${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
+<p class="sec-body">Every {{ $prov }} fund charges {{ printf "%.2f%%" $cheap.fee_pct }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
 {{ else }}
-<p class="sec-body">Fees range from {{ printf "%.2f%%" $cheap.fee_pct }} to {{ printf "%.2f%%" $dear.fee_pct }} a year across the scheme. On a $40,000 balance the cheapest fund, the {{ or $cheap.fund_name $cheap.fund_label }}, costs about ${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
+<p class="sec-body">Fees range from {{ printf "%.2f%%" $cheap.fee_pct }} to {{ printf "%.2f%%" $dear.fee_pct }} a year across the scheme. The average across all KiwiSaver funds we rate is around {{ $g.market_avg_fee }}. Fees matter relative to what you get for them, which is why our ratings weigh them against returns after fees.</p>
 {{ end }}
+<div class="explain-box">On a <strong>$40,000</strong> balance, {{ if eq (len $funds) 1 }}the {{ or $cheap.fund_name $cheap.fund_label }} costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ else }}the cheapest {{ $prov }} fund, the {{ or $cheap.fund_name $cheap.fund_label }}, costs about <strong>${{ lang.FormatNumberCustom 0 (mul (math.Round (div $cheapYr 10.0)) 10.0) }} a year</strong>.{{ end }}
+<span class="explain-fine">How we work this out: the fund's total annual fee, applied to the balance shown for one year. It's an illustration, as the actual dollar amount changes with your balance.</span>
+</div>
 <div class="fact-grid fee-facts">
 <div class="fact"><span class="fact-label">Cheapest fund</span><span class="fact-value">{{ printf "%.2f%%" $cheap.fee_pct }}</span><span class="fact-note">{{ or $cheap.fund_name $cheap.fund_label }}</span></div>
 {{ if and (gt (len $funds) 1) (ne $cheap.fee_pct $dear.fee_pct) }}
@@ -163,13 +166,6 @@
 {{ partial "finder/faq-block.html" . }}
 
 {{ partial "finder/cta-quiz.html" (dict "heading" "Is one of these the right fund for you?" "quiz" $g.quiz_url) }}
-{{ partial "finder/side-cards.html" (dict "already_title" (printf "I'm already with %s" $prov) "already_sub" "Get a free second opinion" "quiz" $g.quiz_url "booking" $g.booking_url) }}
-
-{{ partial "finder/explore-links.html" (dict "links" (slice
-  (dict "title" "All KiwiSaver funds" "sub" "Every scheme we rate" "href" "/kiwisaver-funds/")
-  (dict "title" "Recommended funds" "sub" "Funds we currently rate highly" "href" "/recommended-kiwisaver-funds/")
-  (dict "title" "How we rate funds" "sub" "The four checks we run" "href" $g.how_we_rate_url)
-)) }}
 
 <section class="accuracy">
   <div><span class="acc-label">Data as at</span><span class="acc-value">{{ dateFormat "2 January 2006" $r.data_as_at }}</span></div>
