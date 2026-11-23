@@ -383,7 +383,7 @@ fund_groups:
         fund: Lifestages Aggressive Option
         return_5yr: 9.9%
         fee: 1.24%
-        partner: false
+        partner: true
       - provider: Smart KiwiSaver Scheme
         fund: High Growth Fund
         return_5yr: 8.9%
