@@ -18,11 +18,7 @@
   {{- $reason = printf "Didn't meet our criteria against other %s funds over five years." ($cat.label | lower) -}}
   {{- $faqReason = $reason -}}
 {{- else if eq $variant "no_group" -}}
-  {{- if eq $cat.risk_type "single-sector" -}}
-    {{- $reason = "We don't recommend single-sector funds." -}}
-  {{- else -}}
-    {{- $reason = "We don't recommend funds that sit outside the main risk groups." -}}
-  {{- end -}}
+  {{- $reason = "Funds in the Other category aren't rated against a group." -}}
   {{- $faqReason = $reason -}}
 {{- else if and (eq $variant "under_5_years") $f.launch_label $f.rating_expected_label -}}
   {{- $reason = printf "Launched %s, so it doesn't yet have the five years of history our criteria require. It gets there in %s." $f.launch_label $f.rating_expected_label -}}

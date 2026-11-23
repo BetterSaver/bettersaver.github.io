@@ -13,7 +13,8 @@ from datetime import datetime
 CSV_PATH, AS_AT = sys.argv[1], sys.argv[2]
 OUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'finder')
 
-CAT_ORDER = ['Defensive', 'Conservative', 'Balanced', 'Growth', 'Aggressive', 'Single-sector', 'Other']
+CAT_ORDER = ['Defensive', 'Conservative', 'Balanced', 'Growth', 'Aggressive', 'Other']
+# Single-sector funds roll into Other on the public pages (v3 design)
 
 def slugify(s):
     return re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', s.lower())).strip('-')
@@ -34,7 +35,7 @@ rows = list(csv.DictReader(open(CSV_PATH, newline='', encoding='utf-8-sig')))
 # --- categories ---
 cats = []
 for label in CAT_ORDER:
-    sub = [r for r in rows if (r['category'].strip() or 'Other') == label]
+    sub = [r for r in rows if (('Other' if r['category'].strip() in ('', 'Single-sector') else r['category'].strip())) == label]
     ret = next((num(r['peer_avg_return_5yr']) for r in sub if num(r['peer_avg_return_5yr']) is not None), None)
     fee = next((num(r['peer_avg_fee_pct']) for r in sub if num(r['peer_avg_fee_pct']) is not None), None)
     cats.append({'risk_type': slugify(label), 'label': label, 'fund_count': len(sub),
@@ -54,7 +55,8 @@ for r in rows:
     scheme = r['provider'].strip()
     sslug = slugify(scheme)
     prov = short_name(scheme)
-    cat_label = r['category'].strip() or 'Other'
+    cat_label = r['category'].strip()
+    if cat_label in ('', 'Single-sector'): cat_label = 'Other'
     rtype = slugify(cat_label)
     rec = r['bettersaver_rating'].strip() == 'Recommended'
     ret5 = num(r['return_5yr_pct'])
