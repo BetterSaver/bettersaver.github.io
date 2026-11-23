@@ -1,24 +1,10 @@
 [
  {
-  "risk_type": "defensive",
-  "label": "Defensive",
-  "fund_count": 52,
-  "group_avg_ret5": 2.09,
-  "group_avg_fee": 0.54
- },
- {
-  "risk_type": "conservative",
-  "label": "Conservative",
+  "risk_type": "aggressive",
+  "label": "Aggressive",
   "fund_count": 46,
-  "group_avg_ret5": 2.89,
-  "group_avg_fee": 0.69
- },
- {
-  "risk_type": "balanced",
-  "label": "Balanced",
-  "fund_count": 66,
-  "group_avg_ret5": 4.96,
-  "group_avg_fee": 0.85
+  "group_avg_ret5": 7.56,
+  "group_avg_fee": 1.15
  },
  {
   "risk_type": "growth",
@@ -28,11 +14,25 @@
   "group_avg_fee": 1.04
  },
  {
-  "risk_type": "aggressive",
-  "label": "Aggressive",
+  "risk_type": "balanced",
+  "label": "Balanced",
+  "fund_count": 66,
+  "group_avg_ret5": 4.96,
+  "group_avg_fee": 0.85
+ },
+ {
+  "risk_type": "conservative",
+  "label": "Conservative",
   "fund_count": 46,
-  "group_avg_ret5": 7.56,
-  "group_avg_fee": 1.15
+  "group_avg_ret5": 2.89,
+  "group_avg_fee": 0.69
+ },
+ {
+  "risk_type": "defensive",
+  "label": "Defensive",
+  "fund_count": 52,
+  "group_avg_ret5": 2.09,
+  "group_avg_fee": 0.54
  },
  {
   "risk_type": "other",

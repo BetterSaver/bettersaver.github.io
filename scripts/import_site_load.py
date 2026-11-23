@@ -13,7 +13,7 @@ from datetime import datetime
 CSV_PATH, AS_AT = sys.argv[1], sys.argv[2]
 OUT = os.path.join(os.path.dirname(__file__), '..', 'data', 'finder')
 
-CAT_ORDER = ['Defensive', 'Conservative', 'Balanced', 'Growth', 'Aggressive', 'Other']
+CAT_ORDER = ['Aggressive', 'Growth', 'Balanced', 'Conservative', 'Defensive', 'Other']
 # Single-sector funds roll into Other on the public pages (v3 design)
 
 def slugify(s):
@@ -28,7 +28,10 @@ def money(n):
 
 def num(v):
     v = (v or '').strip()
-    return float(v) if v else None
+    try:
+        return float(v) if v else None
+    except ValueError:
+        return None
 
 rows = list(csv.DictReader(open(CSV_PATH, newline='', encoding='utf-8-sig')))
 
@@ -91,6 +94,9 @@ for r in rows:
                 except ValueError:
                     pass
 
+    growth = num(r.get('growth_target_pct')) 
+    if growth is None: growth = num(r.get('growth_actual_pct'))
+    risk = (r.get('risk_indicator') or '').strip()
     f = {
         'fund_slug': slugify(r['fund_name']),
         'scheme_slug': sslug,
@@ -102,6 +108,8 @@ for r in rows:
         'fee_pct': fee,
         'ret5_pct': ret5,
         'partnered': r['is_partner'].strip() == 'yes',
+        'growth_pct': (round(growth) if growth is not None else None),
+        'risk': (int(risk) if risk.isdigit() else None),
         'restricted': sslug in restricted_slugs,
         'status': 'open',
     }
@@ -147,7 +155,7 @@ def band_of(avg):
     if avg <= 25.0: return 'Low'
     if avg <= 50.0: return 'Medium'
     if avg <= 75.0: return 'High'
-    return 'Very high'
+    return 'Highest'
 
 def mean(vals):
     vals = [v for v in vals if v is not None]
@@ -191,6 +199,109 @@ for s in out_schemes:
         if v:
             s[col] = v
 
+
+# --- v4: per-scheme stats, Stands out / Worth weighing bullets, consider list ---
+funds_by_scheme = {}
+for f in funds:
+    funds_by_scheme.setdefault(f['scheme_slug'], []).append(f)
+cat_fee = {c['label']: c['group_avg_fee'] for c in cats}
+mkt_fee = market['avg_fee_pct']
+
+def fmt_pct(v):
+    s = f"{v:.2f}".rstrip('0').rstrip('.')
+    return s + '%'
+
+def sus_band_row(r):
+    return band_of(sus_score(r))
+
+for s in out_schemes:
+    sub = by_scheme.get(s['scheme_slug'], [])
+    sf = funds_by_scheme.get(s['scheme_slug'], [])
+    M = len(sf)
+    rec_count = sum(1 for f in sf if f['public_rating'] == 'recommended')
+    fees = [f['fee_pct'] for f in sf if f['fee_pct'] is not None]
+    avg_fee = round(mean(fees), 2) if fees else None
+    s['fund_count'] = M
+    s['rec_count'] = rec_count
+    s['avg_fee_pct'] = avg_fee
+
+    # performance vs category average (rows with both numbers)
+    perf = []
+    for r, f in zip(sub, sf):
+        ret5, peer = num(r['return_5yr_pct']), num(r['peer_avg_return_5yr'])
+        if ret5 is not None and peer is not None:
+            perf.append((f['fund_label'], ret5, peer))
+    rated = len(perf)
+    beats = [p for p in perf if p[1] > p[2]]
+    trails = [p for p in perf if p[1] < p[2]]
+    under5 = sum(1 for f in sf if f['verdict_variant'] == 'under_5_years')
+
+    # fund-level sustainability bands
+    sus_bands = [sus_band_row(r) for r in sub]
+    sus_rated = [b for b in sus_bands if b is not None]
+    sus_high = sum(1 for b in sus_rated if b in ('High', 'Highest'))
+    s['sus_high'] = sus_high
+
+    eth_low = [lbl for lbl, _ in ETHICS if s['ethics'][lbl] in ('None', 'Low')]
+    eth_high = [lbl for lbl, _ in ETHICS if s['ethics'][lbl] in ('High', 'Highest')]
+
+    good, warn = [], []  # (score, text)
+    if beats and rated:
+        good.append((len(beats) / rated,
+            f"{len(beats)} of {rated} rated funds {'beats' if len(beats) == 1 else 'beat'} their category's average return over the last five years"))
+    if avg_fee is not None and mkt_fee and avg_fee < mkt_fee:
+        good.append(((mkt_fee - avg_fee) / mkt_fee,
+            f"Fees average {fmt_pct(avg_fee)} across its funds, below the market average of {fmt_pct(mkt_fee)}"))
+    if sus_high and sus_rated:
+        good.append((sus_high / len(sus_rated),
+            f"{sus_high} of {len(sus_rated)} rated funds score High or Highest for sustainability"))
+    if eth_low:
+        good.append((len(eth_low) / 10.0,
+            f"Little or no exposure in {len(eth_low)} of the 8 ethical areas we screen"))
+
+    if trails and rated:
+        warn.append((len(trails) / rated,
+            f"{len(trails)} of {rated} rated funds {'trails' if len(trails) == 1 else 'trail'} their category's average return over five years"))
+        worst = min(trails, key=lambda p: p[1] - p[2])
+        gap = worst[2] - worst[1]
+        if gap >= 0.5 and len(trails) > 1:
+            warn.append((gap / 10.0,
+                f"{worst[0]} returned {fmt_pct(worst[1])} a year against a category average of {fmt_pct(worst[2])}"))
+    if avg_fee is not None and mkt_fee and avg_fee > mkt_fee:
+        warn.append(((avg_fee - mkt_fee) / mkt_fee,
+            f"Fees average {fmt_pct(avg_fee)} across its funds, above the market average of {fmt_pct(mkt_fee)}"))
+    if eth_high:
+        warn.append((len(eth_high) / 8.0,
+            "High or Highest exposure to " + ', '.join(eth_high[:3]).lower() + (" and more" if len(eth_high) > 3 else "")))
+    if sus_rated and sus_high == 0:
+        warn.append((0.4, f"None of its {len(sus_rated)} sustainability-rated funds score above Medium"))
+    if under5:
+        warn.append((under5 / max(M, 1),
+            f"{under5} of its {M} funds {'is' if under5 == 1 else 'are'} under five years old, too new to pass our rating test"))
+    if rec_count < M:
+        warn.append(((M - rec_count) / M * 0.9,
+            f"{M - rec_count} of {M} funds {'doesn&rsquo;t' if M - rec_count == 1 else 'don&rsquo;t'} make our recommended list".replace('&rsquo;', '\u2019')))
+
+    # honest fallbacks so each card has at least 2 lines
+    if len(good) < 2:
+        if avg_fee is not None and not any('Fees average' in t for _, t in good):
+            good.append((0.1, f"Fees average {fmt_pct(avg_fee)} across its funds"))
+        good.append((0.05, f"Manages {s['total_value']} for {s['members']:,} members"))
+    if len(warn) < 2 and not s['sus_rated']:
+        warn.append((0.1, "No sustainability data available for its funds"))
+
+    good.sort(key=lambda x: -x[0]); warn.sort(key=lambda x: -x[0])
+    s['sw_good'] = [t for _, t in good[:4]]
+    s['sw_warn'] = [t for _, t in warn[:4]]
+
+# consider: partner schemes, ranked by recommendation rate then size
+partners = [s for s in out_schemes if s['partnered']]
+partners.sort(key=lambda s: (-(s['rec_count'] / s['fund_count'] if s['fund_count'] else 0), -s['members']))
+for s in out_schemes:
+    s['consider'] = [p['scheme_slug'] for p in partners if p['scheme_slug'] != s['scheme_slug']][:3]
+
+
+market['sus_band'] = band_of(market_sus_mean)
 json.dump(market, open(os.path.join(OUT, 'market.json'), 'w'), indent=1)
 
 os.makedirs(OUT, exist_ok=True)
