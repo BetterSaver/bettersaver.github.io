@@ -2,71 +2,50 @@
  {
   "risk_type": "defensive",
   "label": "Defensive",
-  "fund_count": 50,
-  "group_avg_ret5": 2.24,
-  "group_avg_fee": 0.54,
-  "group_avg_exposure": "Medium",
-  "group_avg_sustainability": "High",
-  "suit_text": "Defensive funds generally suit money you'll need within the next couple of years, such as a first home deposit you're about to use, where avoiding a drop matters more than growth. They tend to be less suited to long-term retirement savings, where low returns cost you over time."
+  "fund_count": 52,
+  "group_avg_ret5": 2.09,
+  "group_avg_fee": 0.54
  },
  {
   "risk_type": "conservative",
   "label": "Conservative",
-  "fund_count": 42,
-  "group_avg_ret5": 3.13,
-  "group_avg_fee": 0.69,
-  "group_avg_exposure": "Medium",
-  "group_avg_sustainability": "High",
-  "suit_text": "Conservative funds generally suit money you'll need in the next two to five years, or savers who'd rather accept lower returns than watch their balance swing. They tend to be less suited to money with ten or more years to grow."
+  "fund_count": 46,
+  "group_avg_ret5": 2.89,
+  "group_avg_fee": 0.69
  },
  {
   "risk_type": "balanced",
   "label": "Balanced",
-  "fund_count": 64,
-  "group_avg_ret5": 5.15,
-  "group_avg_fee": 0.87,
-  "group_avg_exposure": "Medium",
-  "group_avg_sustainability": "High",
-  "suit_text": "Balanced funds generally suit money with five to ten years to grow, or savers who want growth but with smaller ups and downs than a growth fund. They're a common middle ground for people partway to retirement."
+  "fund_count": 66,
+  "group_avg_ret5": 4.96,
+  "group_avg_fee": 0.85
  },
  {
   "risk_type": "growth",
   "label": "Growth",
-  "fund_count": 50,
-  "group_avg_ret5": 6.52,
-  "group_avg_fee": 1.04,
-  "group_avg_exposure": "Medium",
-  "group_avg_sustainability": "High",
-  "suit_text": "Growth funds generally suit money you won't touch for ten years or more, such as savings for retirement, where there's time to ride out bigger ups and downs. They tend to be less suited to money you might need soon, for example a first home deposit in the next few years."
+  "fund_count": 52,
+  "group_avg_ret5": 6.35,
+  "group_avg_fee": 1.04
  },
  {
   "risk_type": "aggressive",
   "label": "Aggressive",
-  "fund_count": 45,
-  "group_avg_ret5": 7.52,
-  "group_avg_fee": 1.15,
-  "group_avg_exposure": "Medium",
-  "group_avg_sustainability": "High",
-  "suit_text": "Aggressive funds generally suit money with fifteen or more years to grow and savers comfortable with the biggest swings in exchange for the highest long-run returns. They tend to be less suited to anyone who'd be tempted to switch out after a bad year."
+  "fund_count": 46,
+  "group_avg_ret5": 7.56,
+  "group_avg_fee": 1.15
  },
  {
   "risk_type": "single-sector",
   "label": "Single-sector",
   "fund_count": 103,
   "group_avg_ret5": null,
-  "group_avg_fee": null,
-  "group_avg_exposure": null,
-  "group_avg_sustainability": null,
-  "suit_text": "Single-sector funds invest in one asset class, such as shares or cash, rather than a ready-made mix. They suit people building their own mix across several funds, and are harder to compare like for like, so we don't currently rate them."
+  "group_avg_fee": null
  },
  {
   "risk_type": "other",
   "label": "Other",
-  "fund_count": 42,
+  "fund_count": 44,
   "group_avg_ret5": null,
-  "group_avg_fee": null,
-  "group_avg_exposure": null,
-  "group_avg_sustainability": null,
-  "suit_text": "These funds don't fit a standard risk category, so they're harder to compare like for like and we don't currently rate them. Check the fund's own documents for who it suits."
+  "group_avg_fee": null
  }
 ]
