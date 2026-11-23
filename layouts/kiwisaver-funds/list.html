@@ -62,7 +62,7 @@
 <div class="fx-table fx-stable" id="fxs-rows">
 <div class="fx-thead fxs-grid">
 <button type="button" class="fx-th fx-sort" data-ssort="name" data-state="asc">Scheme <i class="fx-arrow"></i></button>
-<span class="fx-th">Funds</span>
+<button type="button" class="fx-th fx-sort" data-ssort="funds" data-state="">Funds <i class="fx-arrow"></i></button>
 <button type="button" class="fx-th fx-sort" data-ssort="rec" data-state="">Recommended <i class="fx-arrow"></i></button>
 <button type="button" class="fx-th fx-sort" data-ssort="avgfee" data-state="">Avg fee <i class="fx-arrow"></i></button>
 <button type="button" class="fx-th fx-sort" data-ssort="members" data-state="">Members <i class="fx-arrow"></i></button>
@@ -77,7 +77,7 @@
 {{ $feeSum = add $feeSum .fee_pct }}
 {{ end }}{{ end }}
 {{ $avgfee := cond (gt $n 0) (div $feeSum (float $n)) 0.0 }}
-<a class="fx-row fxs-grid fxs-row" href="/kiwisaver-funds/{{ $s.scheme_slug }}/" data-name="{{ lower $s.scheme_name }}" data-members="{{ $s.members }}" data-rec="{{ $rec }}" data-avgfee="{{ printf "%.3f" $avgfee }}">
+<a class="fx-row fxs-grid fxs-row" href="/kiwisaver-funds/{{ $s.scheme_slug }}/" data-name="{{ lower $s.scheme_name }}" data-members="{{ $s.members }}" data-funds="{{ $n }}" data-rec="{{ $rec }}" data-avgfee="{{ printf "%.3f" $avgfee }}">
 <span class="fx-fundid">
 <span class="fx-fundname">{{ $s.scheme_name }}{{ if $s.restricted }} <span class="fx-restpill">Restricted</span>{{ end }}</span>
 <span class="fx-fundsub">{{ $s.provider_name }}</span>
@@ -152,6 +152,7 @@
     sTitle.textContent = qv ? 'Schemes matching “' + qv + '”' : 'Every scheme in the market';
     sCount.textContent = shown + ' schemes, ' + (state.ssort === 'name' ? (state.sdir === 'asc' ? 'A to Z' : 'Z to A')
       : state.ssort === 'rec' ? 'most recommended funds first'
+      : state.ssort === 'funds' ? (state.sdir === 'desc' ? 'most' : 'fewest') + ' funds first'
       : state.ssort === 'avgfee' ? (state.sdir === 'asc' ? 'lowest' : 'highest') + ' average fee first'
       : 'most members first');
     sSortBtns.forEach(function (b) { b.dataset.state = b.dataset.ssort === state.ssort ? state.sdir : ''; });
