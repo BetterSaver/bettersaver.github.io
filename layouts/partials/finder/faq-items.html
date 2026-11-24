@@ -39,10 +39,8 @@
   {{ end }}
   {{ if $s.restricted }}
   {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "%s is a restricted scheme, generally only open to specific employees or members. If you're eligible, %s can tell you how to join." $s.scheme_name $prov)) }}
-  {{ else if eq $s.partner_state "all" }}
+  {{ else if $s.partnered }}
   {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "You can switch to %s funds through BetterSaver in about 2 minutes. %s arranges the transfer with your current provider, and your balance usually moves across in %s. Switching is free." $prov $prov $g.transfer_time)) }}
-  {{ else if eq $s.partner_state "some" }}
-  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "Some %s funds can be switched to through BetterSaver in about 2 minutes; for the others you'd join on %s's website, and we'll show you how. Either way %s arranges the transfer with your current provider, and switching is free." $prov $prov $prov)) }}
   {{ else }}
   {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "Switching to %s is done on their website, and we'll show you how. %s then arranges the transfer with your current provider. Switching is free." $prov $prov)) }}
   {{ end }}
