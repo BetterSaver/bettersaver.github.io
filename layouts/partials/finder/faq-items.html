@@ -35,12 +35,12 @@
   {{ if gt $rec 0 }}
   {{ $which := "" }}
   {{ if eq $rec 1 }}{{ $which = printf "One: the %s." (index $recNames 0) }}{{ else }}{{ $which = printf "%d: the %s." $rec (delimit $recNames ", " " and the ") }}{{ end }}
-  {{ $faqs = $faqs | append (dict "q" (printf "Which %s funds does BetterSaver recommend?" $prov) "a" (printf "%s The right one for you depends mostly on when you'll need the money, and our 2-minute check works that out." $which)) }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Which %s funds does BetterSaver recommend?" $prov) "a" (printf "%s The right one for you depends mostly on when you'll need the money, and our free quiz works that out in about 2 minutes." $which)) }}
   {{ end }}
   {{ if $s.restricted }}
   {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "%s is a restricted scheme, generally only open to specific employees or members. If you're eligible, %s can tell you how to join." $s.scheme_name $prov)) }}
   {{ else if $s.partnered }}
-  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "You can switch to %s funds through BetterSaver in about 2 minutes. %s arranges the transfer with your current provider, and your balance usually moves across in %s. Switching is free." $prov $prov $g.transfer_time)) }}
+  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "You can switch to any %s fund through BetterSaver in under 5 minutes. %s then arranges the transfer with your current provider. Switching is free." $prov $prov)) }}
   {{ else }}
   {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "Switching to %s is done on their website, and we'll show you how. %s then arranges the transfer with your current provider. Switching is free." $prov $prov)) }}
   {{ end }}

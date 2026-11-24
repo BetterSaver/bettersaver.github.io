@@ -18,10 +18,10 @@
 <div class="fx-wrap fx-hero-in">
 <div class="fx-hero-copy">
 <p class="fx-eyebrow">Fund finder</p>
-<h1 class="fx-h1">Find your own <em>better</em> KiwiSaver fund.</h1>
-<p class="fx-sub">Every KiwiSaver provider, rated on the same tests. Open any scheme to see its funds, fees and which ones currently make our list.</p>
+<h1 class="fx-h1">Compare KiwiSaver funds and providers</h1>
+<p class="fx-sub">Here’s every KiwiSaver provider, rated on the same tests to help you find your own <em>better</em> fund. Open any scheme to see its fees, returns and which funds currently <a href="{{ $g.how_we_rate_url }}" class="fx-sub-link">make our list</a>.</p>
 <div class="fx-chips">
-{{ range slice "Every provider" "Returns after fees" "No sign-up to browse" }}
+{{ range slice "Fees and returns, fund by fund" "Ethics and sustainability ratings" "See how your KiwiSaver fund stacks up" }}
 <span class="fx-chip">{{ partial "finder/icon.html" (dict "name" "check-circle-filled" "size" 16) }}
 {{ . }}</span>
 {{ end }}
@@ -30,9 +30,9 @@
 <div class="fx-quiz-card">
 <div class="fx-quiz-head">
 <span class="fx-quiz-ico" aria-hidden="true">{{ partial "finder/icon.html" (dict "name" "help" "size" 30) }}</span>
-<span class="fx-quiz-title">Rather we pick for you?</span>
+<span class="fx-quiz-title">Not sure which fund fits you?</span>
 </div>
-<p class="fx-quiz-sub">Answer a few quick questions and we'll match you to the fund that fits. Free, independent, about 2 minutes.</p>
+<p class="fx-quiz-sub">Your timeframe and comfort with ups and downs decide which fund fits. Answer a few quick questions to find out. Free, independent, about 2 minutes.</p>
 <a class="btn-purple fx-quiz-btn" href="{{ $g.quiz_url }}">Take the free quiz</a>
 </div>
 </div>
@@ -58,6 +58,7 @@
 </div>
 <p class="fx-hint">Tap a column heading to sort &middot; open a scheme for its funds</p>
 </div>
+<p class="fx-legend">A provider runs a scheme, and the scheme holds its funds; each page covers one scheme. Recommended counts the funds that currently pass <a href="{{ $g.how_we_rate_url }}">our tests</a>. Avg fee is the straight average across the scheme’s funds. “Restricted” schemes are only open to certain groups, like one employer’s staff.</p>
 <div class="fx-tablewrap">
 <div class="fx-table fx-stable" id="fxs-rows">
 <div class="fx-thead fxs-grid">
