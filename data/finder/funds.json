@@ -13,7 +13,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -29,7 +30,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average, with fees below the category average."
  },
  {
   "fund_slug": "global-equities",
@@ -45,7 +47,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average, with fees below the category average."
  },
  {
   "fund_slug": "shares-fund",
@@ -61,7 +64,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "socially-responsible-high-growth-fund",
@@ -77,7 +81,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -93,7 +98,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "lifestages-aggressive-option",
@@ -109,7 +115,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -125,7 +132,8 @@
   "growth_pct": 94,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average, with fees below the category average."
  },
  {
   "fund_slug": "geared-growth-fund",
@@ -141,7 +149,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "focused-growth-fund",
@@ -157,7 +166,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average."
  },
  {
   "fund_slug": "responsible-high-growth-fund",
@@ -173,7 +183,8 @@
   "growth_pct": 95,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the aggressive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -189,7 +200,8 @@
   "growth_pct": 99,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the aggressive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "responsible-shares",
@@ -205,7 +217,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the aggressive category average, with fees below the category average."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -221,7 +234,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Doesn't currently meet our combined returns, consistency, fees and quality criteria for the recommended list."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -237,7 +251,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "asset-class-growth-fund",
@@ -253,7 +268,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the aggressive category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "shielded-growth-fund",
@@ -269,7 +285,8 @@
   "growth_pct": 99,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the aggressive category average, with fees above the category average."
  },
  {
   "fund_slug": "growth-strategy",
@@ -285,7 +302,8 @@
   "growth_pct": 95,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the aggressive category average, with fees above the category average."
  },
  {
   "fund_slug": "inflation-strategy",
@@ -301,7 +319,8 @@
   "growth_pct": 90,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the aggressive category average, with fees above the category average."
  },
  {
   "fund_slug": "milford-aggressive-fund",
@@ -319,7 +338,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
-  "rating_expected_label": "February 2027"
+  "rating_expected_label": "February 2027",
+  "reason": "Launched February 2022 \u2014 our criteria need five years of history, which it reaches in February 2027."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -337,7 +357,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -355,7 +376,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Launched August 2023 \u2014 our criteria need five years of history, which it reaches in August 2028."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -373,7 +395,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "November 2023",
-  "rating_expected_label": "November 2028"
+  "rating_expected_label": "November 2028",
+  "reason": "Launched November 2023 \u2014 our criteria need five years of history, which it reaches in November 2028."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -391,7 +414,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "November 2023",
-  "rating_expected_label": "November 2028"
+  "rating_expected_label": "November 2028",
+  "reason": "Launched November 2023 \u2014 our criteria need five years of history, which it reaches in November 2028."
  },
  {
   "fund_slug": "socially-responsible-geared-growth-fund",
@@ -409,7 +433,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "March 2022",
-  "rating_expected_label": "March 2027"
+  "rating_expected_label": "March 2027",
+  "reason": "Launched March 2022 \u2014 our criteria need five years of history, which it reaches in March 2027."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -427,7 +452,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
-  "rating_expected_label": "April 2030"
+  "rating_expected_label": "April 2030",
+  "reason": "Launched April 2025 \u2014 our criteria need five years of history, which it reaches in April 2030."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -445,7 +471,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "March 2025",
-  "rating_expected_label": "March 2030"
+  "rating_expected_label": "March 2030",
+  "reason": "Launched March 2025 \u2014 our criteria need five years of history, which it reaches in March 2030."
  },
  {
   "fund_slug": "amova-high-growth-fund",
@@ -463,7 +490,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
-  "rating_expected_label": "July 2030"
+  "rating_expected_label": "July 2030",
+  "reason": "Launched July 2025 \u2014 our criteria need five years of history, which it reaches in July 2030."
  },
  {
   "fund_slug": "generate-focused-growth-fund",
@@ -481,7 +509,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "milford-aggressive-fund",
@@ -499,7 +528,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
-  "rating_expected_label": "July 2030"
+  "rating_expected_label": "July 2030",
+  "reason": "Launched July 2025 \u2014 our criteria need five years of history, which it reaches in July 2030."
  },
  {
   "fund_slug": "smart-high-growth-fund",
@@ -517,7 +547,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "October 2026",
-  "rating_expected_label": "October 2031"
+  "rating_expected_label": "October 2031",
+  "reason": "Launched October 2026 \u2014 our criteria need five years of history, which it reaches in October 2031."
  },
  {
   "fund_slug": "aurora-aggressive-fund",
@@ -535,7 +566,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
-  "rating_expected_label": "July 2031"
+  "rating_expected_label": "July 2031",
+  "reason": "Launched July 2026 \u2014 our criteria need five years of history, which it reaches in July 2031."
  },
  {
   "fund_slug": "pie-aggressive-fund",
@@ -553,7 +585,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
-  "rating_expected_label": "July 2031"
+  "rating_expected_label": "July 2031",
+  "reason": "Launched July 2026 \u2014 our criteria need five years of history, which it reaches in July 2031."
  },
  {
   "fund_slug": "foundation-series-high-growth-fund",
@@ -571,7 +604,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2025",
-  "rating_expected_label": "July 2030"
+  "rating_expected_label": "July 2030",
+  "reason": "Launched July 2025 \u2014 our criteria need five years of history, which it reaches in July 2030."
  },
  {
   "fund_slug": "generate-focused-growth-fund",
@@ -589,7 +623,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2023",
-  "rating_expected_label": "May 2028"
+  "rating_expected_label": "May 2028",
+  "reason": "Launched May 2023 \u2014 our criteria need five years of history, which it reaches in May 2028."
  },
  {
   "fund_slug": "milford-aggressive-fund",
@@ -607,7 +642,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2023",
-  "rating_expected_label": "July 2028"
+  "rating_expected_label": "July 2028",
+  "reason": "Launched July 2023 \u2014 our criteria need five years of history, which it reaches in July 2028."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -625,7 +661,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2022",
-  "rating_expected_label": "April 2027"
+  "rating_expected_label": "April 2027",
+  "reason": "Launched April 2022 \u2014 our criteria need five years of history, which it reaches in April 2027."
  },
  {
   "fund_slug": "strategic-high-growth-fund",
@@ -643,7 +680,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2024",
-  "rating_expected_label": "December 2029"
+  "rating_expected_label": "December 2029",
+  "reason": "Launched December 2024 \u2014 our criteria need five years of history, which it reaches in December 2029."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -661,7 +699,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Launched August 2023 \u2014 our criteria need five years of history, which it reaches in August 2028."
  },
  {
   "fund_slug": "kiwisaver-high-growth-fund",
@@ -679,7 +718,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
-  "rating_expected_label": "April 2030"
+  "rating_expected_label": "April 2030",
+  "reason": "Launched April 2025 \u2014 our criteria need five years of history, which it reaches in April 2030."
  },
  {
   "fund_slug": "kiwisaver-aggressive-fund",
@@ -697,7 +737,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2025",
-  "rating_expected_label": "May 2030"
+  "rating_expected_label": "May 2030",
+  "reason": "Launched May 2025 \u2014 our criteria need five years of history, which it reaches in May 2030."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -715,7 +756,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
-  "rating_expected_label": "April 2029"
+  "rating_expected_label": "April 2029",
+  "reason": "Launched April 2024 \u2014 our criteria need five years of history, which it reaches in April 2029."
  },
  {
   "fund_slug": "generate-focused-growth-fund",
@@ -733,7 +775,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2025",
-  "rating_expected_label": "December 2030"
+  "rating_expected_label": "December 2030",
+  "reason": "Launched December 2025 \u2014 our criteria need five years of history, which it reaches in December 2030."
  },
  {
   "fund_slug": "milford-aggressive-fund",
@@ -751,7 +794,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2024",
-  "rating_expected_label": "February 2029"
+  "rating_expected_label": "February 2029",
+  "reason": "Launched February 2024 \u2014 our criteria need five years of history, which it reaches in February 2029."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -769,7 +813,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2023",
-  "rating_expected_label": "April 2028"
+  "rating_expected_label": "April 2028",
+  "reason": "Launched April 2023 \u2014 our criteria need five years of history, which it reaches in April 2028."
  },
  {
   "fund_slug": "high-growth-fund",
@@ -787,7 +832,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "September 2024",
-  "rating_expected_label": "September 2029"
+  "rating_expected_label": "September 2029",
+  "reason": "Launched September 2024 \u2014 our criteria need five years of history, which it reaches in September 2029."
  },
  {
   "fund_slug": "foundation-series-growth-fund",
@@ -803,7 +849,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "smart-growth-fund",
@@ -819,7 +866,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -835,7 +883,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -851,7 +900,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "active-growth-fund",
@@ -867,7 +917,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -883,7 +934,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -899,7 +951,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "responsible-growth-fund",
@@ -915,7 +968,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "milford-active-growth-fund",
@@ -931,7 +985,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -947,7 +1002,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the growth category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "growth-fund",
@@ -963,7 +1019,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -979,7 +1036,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -995,7 +1053,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1011,7 +1070,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1027,7 +1087,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1043,7 +1104,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average, with fees below the category average."
  },
  {
   "fund_slug": "lifestages-growth-option",
@@ -1059,7 +1121,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the growth category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "growth-fund",
@@ -1075,7 +1138,8 @@
   "growth_pct": 70,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the growth category average."
  },
  {
   "fund_slug": "growth-selection",
@@ -1091,7 +1155,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1107,7 +1172,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "growth-fund",
@@ -1123,7 +1189,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1139,7 +1206,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "global-select-growth-fund",
@@ -1155,7 +1223,8 @@
   "growth_pct": 83,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the growth category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "balanced-growth-fund",
@@ -1171,7 +1240,8 @@
   "growth_pct": 63,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "balanced-growth-fund",
@@ -1187,7 +1257,8 @@
   "growth_pct": 63,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1203,7 +1274,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average, with fees above the category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1219,7 +1291,8 @@
   "growth_pct": 78,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "pathfinder-ethical-growth-fund",
@@ -1235,7 +1308,8 @@
   "growth_pct": 70,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average, with fees above the category average."
  },
  {
   "fund_slug": "balanced-growth-fund",
@@ -1251,7 +1325,8 @@
   "growth_pct": 63,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "ae-kiwisaver-plan",
@@ -1267,7 +1342,8 @@
   "growth_pct": null,
   "risk": 7,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the growth category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "growth-fund",
@@ -1283,7 +1359,8 @@
   "growth_pct": 80,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "fisher-funds-growth-fund",
@@ -1299,7 +1376,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average."
  },
  {
   "fund_slug": "growth-fund",
@@ -1317,7 +1395,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2021",
-  "rating_expected_label": "August 2026"
+  "rating_expected_label": "August 2026",
+  "reason": "Recent three-year returns are behind the growth category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "harbour-active-growth-fund",
@@ -1333,7 +1412,8 @@
   "growth_pct": 80,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average, with fees above the category average."
  },
  {
   "fund_slug": "mint-diversified-growth-fund",
@@ -1349,7 +1429,8 @@
   "growth_pct": 80,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average, with fees above the category average."
  },
  {
   "fund_slug": "amova-growth-fund",
@@ -1365,7 +1446,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the growth category average, with fees above the category average."
  },
  {
   "fund_slug": "milford-active-growth-fund",
@@ -1383,7 +1465,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
-  "rating_expected_label": "February 2027"
+  "rating_expected_label": "February 2027",
+  "reason": "Launched February 2022 \u2014 our criteria need five years of history, which it reaches in February 2027."
  },
  {
   "fund_slug": "socially-responsible-growth-fund",
@@ -1401,7 +1484,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "March 2022",
-  "rating_expected_label": "March 2027"
+  "rating_expected_label": "March 2027",
+  "reason": "Launched March 2022 \u2014 our criteria need five years of history, which it reaches in March 2027."
  },
  {
   "fund_slug": "growth-fund",
@@ -1417,7 +1501,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the growth category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1435,7 +1520,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
-  "rating_expected_label": "April 2030"
+  "rating_expected_label": "April 2030",
+  "reason": "Launched April 2025 \u2014 our criteria need five years of history, which it reaches in April 2030."
  },
  {
   "fund_slug": "growth-fund",
@@ -1453,7 +1539,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
-  "rating_expected_label": "April 2030"
+  "rating_expected_label": "April 2030",
+  "reason": "Launched April 2025 \u2014 our criteria need five years of history, which it reaches in April 2030."
  },
  {
   "fund_slug": "milford-active-growth-fund",
@@ -1471,7 +1558,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "pathfinder-ethical-growth-fund",
@@ -1489,7 +1577,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "salt-capital-growth-fund",
@@ -1507,7 +1596,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "harbour-growth-fund",
@@ -1525,7 +1615,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
-  "rating_expected_label": "July 2031"
+  "rating_expected_label": "July 2031",
+  "reason": "Launched July 2026 \u2014 our criteria need five years of history, which it reaches in July 2031."
  },
  {
   "fund_slug": "pie-growth-fund",
@@ -1543,7 +1634,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
-  "rating_expected_label": "July 2031"
+  "rating_expected_label": "July 2031",
+  "reason": "Launched July 2026 \u2014 our criteria need five years of history, which it reaches in July 2031."
  },
  {
   "fund_slug": "salt-capital-growth-fund",
@@ -1561,7 +1653,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Launched August 2023 \u2014 our criteria need five years of history, which it reaches in August 2028."
  },
  {
   "fund_slug": "growth-strategy",
@@ -1579,7 +1672,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
-  "rating_expected_label": "April 2029"
+  "rating_expected_label": "April 2029",
+  "reason": "Launched April 2024 \u2014 our criteria need five years of history, which it reaches in April 2029."
  },
  {
   "fund_slug": "growth-fund",
@@ -1595,7 +1689,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "smartshares-growth-fund",
@@ -1613,7 +1708,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
-  "rating_expected_label": "January 2028"
+  "rating_expected_label": "January 2028",
+  "reason": "Launched January 2023 \u2014 our criteria need five years of history, which it reaches in January 2028."
  },
  {
   "fund_slug": "fisher-funds-growth-fund",
@@ -1631,7 +1727,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2026",
-  "rating_expected_label": "February 2031"
+  "rating_expected_label": "February 2031",
+  "reason": "Launched February 2026 \u2014 our criteria need five years of history, which it reaches in February 2031."
  },
  {
   "fund_slug": "pathfinder-ethical-growth-fund",
@@ -1649,7 +1746,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
-  "rating_expected_label": "January 2028"
+  "rating_expected_label": "January 2028",
+  "reason": "Launched January 2023 \u2014 our criteria need five years of history, which it reaches in January 2028."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1665,7 +1763,8 @@
   "growth_pct": 58,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "foundation-series-balanced-fund",
@@ -1681,7 +1780,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1697,7 +1797,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1713,7 +1814,8 @@
   "growth_pct": 61,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1729,7 +1831,8 @@
   "growth_pct": 59,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "responsible-balanced-fund",
@@ -1745,7 +1848,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1761,7 +1865,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the balanced category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1777,7 +1882,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1793,7 +1899,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1809,7 +1916,8 @@
   "growth_pct": 58,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "moderate-balanced-fund",
@@ -1825,7 +1933,8 @@
   "growth_pct": 49,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Doesn't currently meet our combined returns, consistency, fees and quality criteria for the recommended list."
  },
  {
   "fund_slug": "socially-responsible-investment",
@@ -1841,7 +1950,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "lifestages-balanced-option",
@@ -1857,7 +1967,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -1873,7 +1984,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the balanced category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1889,7 +2001,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average, with fees below the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1905,7 +2018,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1921,7 +2035,8 @@
   "growth_pct": 50,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the balanced category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "balanced-selection",
@@ -1937,7 +2052,8 @@
   "growth_pct": 55,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -1953,7 +2069,8 @@
   "growth_pct": 36,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -1969,7 +2086,8 @@
   "growth_pct": 40,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -1985,7 +2103,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2001,7 +2120,8 @@
   "growth_pct": 51,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "ethica",
@@ -2017,7 +2137,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Doesn't currently meet our combined returns, consistency, fees and quality criteria for the recommended list."
  },
  {
   "fund_slug": "responsible-moderate-fund",
@@ -2033,7 +2154,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2049,7 +2171,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2065,7 +2188,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the balanced category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "balanced-fund-no-2",
@@ -2081,7 +2205,8 @@
   "growth_pct": 58,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "This fund is being wound up by its provider."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2097,7 +2222,8 @@
   "growth_pct": 48,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2113,7 +2239,8 @@
   "growth_pct": 48,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2129,7 +2256,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the balanced category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2145,7 +2273,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average."
  },
  {
   "fund_slug": "socially-responsible-balanced-fund",
@@ -2161,7 +2290,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "milford-balanced-fund",
@@ -2177,7 +2307,8 @@
   "growth_pct": 61,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the balanced category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2193,7 +2324,8 @@
   "growth_pct": 48,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2209,7 +2341,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2225,7 +2358,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "lifestages-moderate-option",
@@ -2241,7 +2375,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2257,7 +2392,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "castle-point-5-oceans-fund",
@@ -2273,7 +2409,8 @@
   "growth_pct": 55,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the balanced category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "mercer-responsible-balanced-fund",
@@ -2289,7 +2426,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "moderate-fund",
@@ -2305,7 +2443,8 @@
   "growth_pct": 40,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2321,7 +2460,8 @@
   "growth_pct": 60,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average."
  },
  {
   "fund_slug": "asset-class-balanced-fund",
@@ -2337,7 +2477,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the balanced category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "socially-responsible-moderate-fund",
@@ -2353,7 +2494,8 @@
   "growth_pct": 40,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "amova-balanced-fund",
@@ -2369,7 +2511,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the balanced category average, with fees above the category average."
  },
  {
   "fund_slug": "milford-balanced-fund",
@@ -2387,7 +2530,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
-  "rating_expected_label": "February 2027"
+  "rating_expected_label": "February 2027",
+  "reason": "Launched February 2022 \u2014 our criteria need five years of history, which it reaches in February 2027."
  },
  {
   "fund_slug": "default-fund",
@@ -2405,7 +2549,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "default-saver-fund",
@@ -2423,7 +2568,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2439,7 +2585,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the balanced category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "default-fund",
@@ -2457,7 +2604,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2475,7 +2623,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
-  "rating_expected_label": "May 2027"
+  "rating_expected_label": "May 2027",
+  "reason": "Launched May 2022 \u2014 our criteria need five years of history, which it reaches in May 2027."
  },
  {
   "fund_slug": "generate-balanced-fund",
@@ -2493,7 +2642,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "milford-balanced-fund",
@@ -2511,7 +2661,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "smart-balanced-fund",
@@ -2529,7 +2680,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "October 2026",
-  "rating_expected_label": "October 2031"
+  "rating_expected_label": "October 2031",
+  "reason": "Launched October 2026 \u2014 our criteria need five years of history, which it reaches in October 2031."
  },
  {
   "fund_slug": "aurora-balanced-strategy",
@@ -2547,7 +2699,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Launched August 2023 \u2014 our criteria need five years of history, which it reaches in August 2028."
  },
  {
   "fund_slug": "harbour-balanced-fund",
@@ -2565,7 +2718,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2026",
-  "rating_expected_label": "July 2031"
+  "rating_expected_label": "July 2031",
+  "reason": "Launched July 2026 \u2014 our criteria need five years of history, which it reaches in July 2031."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2583,7 +2737,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "November 2022",
-  "rating_expected_label": "November 2027"
+  "rating_expected_label": "November 2027",
+  "reason": "Launched November 2022 \u2014 our criteria need five years of history, which it reaches in November 2027."
  },
  {
   "fund_slug": "balanced-strategy",
@@ -2601,7 +2756,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
-  "rating_expected_label": "April 2029"
+  "rating_expected_label": "April 2029",
+  "reason": "Launched April 2024 \u2014 our criteria need five years of history, which it reaches in April 2029."
  },
  {
   "fund_slug": "balanced-portfolio",
@@ -2617,7 +2773,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "growth-portfolio",
@@ -2635,7 +2792,8 @@
   "restricted": true,
   "status": "open",
   "launch_label": "October 2021",
-  "rating_expected_label": "October 2026"
+  "rating_expected_label": "October 2026",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "balanced-fund",
@@ -2651,7 +2809,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "milford-balanced-fund",
@@ -2669,7 +2828,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "June 2026",
-  "rating_expected_label": "June 2031"
+  "rating_expected_label": "June 2031",
+  "reason": "Launched June 2026 \u2014 our criteria need five years of history, which it reaches in June 2031."
  },
  {
   "fund_slug": "smartshares-balanced-fund",
@@ -2687,7 +2847,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
-  "rating_expected_label": "January 2028"
+  "rating_expected_label": "January 2028",
+  "reason": "Launched January 2023 \u2014 our criteria need five years of history, which it reaches in January 2028."
  },
  {
   "fund_slug": "default-fund",
@@ -2705,7 +2866,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "default-fund",
@@ -2723,7 +2885,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "default-balanced-fund",
@@ -2741,7 +2904,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "December 2021",
-  "rating_expected_label": "December 2026"
+  "rating_expected_label": "December 2026",
+  "reason": "Launched December 2021 \u2014 our criteria need five years of history, which it reaches in December 2026."
  },
  {
   "fund_slug": "defensive-conservative-fund",
@@ -2757,7 +2921,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2773,7 +2938,8 @@
   "growth_pct": 25,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "core-conservative-fund",
@@ -2789,7 +2955,8 @@
   "growth_pct": 18,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2805,7 +2972,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "defensive-conservative-fund",
@@ -2821,7 +2989,8 @@
   "growth_pct": 16,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the conservative category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2837,7 +3006,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the conservative category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "milford-conservative-fund",
@@ -2853,7 +3023,8 @@
   "growth_pct": 18,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2869,7 +3040,8 @@
   "growth_pct": 18,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "responsible-conservative-fund",
@@ -2885,7 +3057,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the conservative category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2901,7 +3074,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "first-home-buyer-fund",
@@ -2917,7 +3091,8 @@
   "growth_pct": 15,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2933,7 +3108,8 @@
   "growth_pct": 18,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2949,7 +3125,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "conservative-selection",
@@ -2965,7 +3142,8 @@
   "growth_pct": 30,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2981,7 +3159,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees currently sit below the conservative category average \u2014 funds come off hold once that recovers."
  },
  {
   "fund_slug": "conservative-fund",
@@ -2997,7 +3176,8 @@
   "growth_pct": 22,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the conservative category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3013,7 +3193,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the conservative category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3029,7 +3210,8 @@
   "growth_pct": 30,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average, with fees below the category average."
  },
  {
   "fund_slug": "income",
@@ -3045,7 +3227,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "lifestages-conservative-option",
@@ -3061,7 +3244,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the conservative category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3077,7 +3261,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3093,7 +3278,8 @@
   "growth_pct": 10,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Holds its place on our recommended list against our returns, consistency, fees and quality criteria, reviewed each January."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3109,7 +3295,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3125,7 +3312,8 @@
   "growth_pct": 18,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3143,7 +3331,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2021",
-  "rating_expected_label": "August 2026"
+  "rating_expected_label": "August 2026",
+  "reason": "Recent three-year returns are behind the conservative category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "capital-guaranteed",
@@ -3159,7 +3348,8 @@
   "growth_pct": 10,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the conservative category average."
  },
  {
   "fund_slug": "conservative-balanced-fund",
@@ -3175,7 +3365,8 @@
   "growth_pct": 33,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3191,7 +3382,8 @@
   "growth_pct": 20,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average."
  },
  {
   "fund_slug": "global-select-conservative-fund",
@@ -3207,7 +3399,8 @@
   "growth_pct": 26,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-balanced-fund",
@@ -3223,7 +3416,8 @@
   "growth_pct": 33,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "amova-conservative-fund",
@@ -3239,7 +3433,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3255,7 +3450,8 @@
   "growth_pct": 25,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-balanced-fund",
@@ -3271,7 +3467,8 @@
   "growth_pct": 33,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "mint-diversified-income-fund",
@@ -3287,7 +3484,8 @@
   "growth_pct": 30,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3303,7 +3501,8 @@
   "growth_pct": 18,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average."
  },
  {
   "fund_slug": "asset-class-conservative-fund",
@@ -3319,7 +3518,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the conservative category average, with fees above the category average."
  },
  {
   "fund_slug": "milford-conservative-fund",
@@ -3337,7 +3537,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
-  "rating_expected_label": "February 2027"
+  "rating_expected_label": "February 2027",
+  "reason": "Launched February 2022 \u2014 our criteria need five years of history, which it reaches in February 2027."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3355,7 +3556,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
-  "rating_expected_label": "May 2027"
+  "rating_expected_label": "May 2027",
+  "reason": "Launched May 2022 \u2014 our criteria need five years of history, which it reaches in May 2027."
  },
  {
   "fund_slug": "milford-conservative-fund",
@@ -3373,7 +3575,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2024",
-  "rating_expected_label": "May 2029"
+  "rating_expected_label": "May 2029",
+  "reason": "Launched May 2024 \u2014 our criteria need five years of history, which it reaches in May 2029."
  },
  {
   "fund_slug": "aurora-first-home-buyer-strategy",
@@ -3391,7 +3594,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2023",
-  "rating_expected_label": "August 2028"
+  "rating_expected_label": "August 2028",
+  "reason": "Launched August 2023 \u2014 our criteria need five years of history, which it reaches in August 2028."
  },
  {
   "fund_slug": "fisher-funds-conservative-fund",
@@ -3409,7 +3613,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "February 2022",
-  "rating_expected_label": "February 2027"
+  "rating_expected_label": "February 2027",
+  "reason": "Launched February 2022 \u2014 our criteria need five years of history, which it reaches in February 2027."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3427,7 +3632,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "August 2025",
-  "rating_expected_label": "August 2030"
+  "rating_expected_label": "August 2030",
+  "reason": "Launched August 2025 \u2014 our criteria need five years of history, which it reaches in August 2030."
  },
  {
   "fund_slug": "conservative-strategy",
@@ -3445,7 +3651,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2024",
-  "rating_expected_label": "April 2029"
+  "rating_expected_label": "April 2029",
+  "reason": "Launched April 2024 \u2014 our criteria need five years of history, which it reaches in April 2029."
  },
  {
   "fund_slug": "conservative-portfolio",
@@ -3461,7 +3668,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "conservative-fund",
@@ -3477,7 +3685,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "smartshares-conservative-fund",
@@ -3495,7 +3704,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "January 2023",
-  "rating_expected_label": "January 2028"
+  "rating_expected_label": "January 2028",
+  "reason": "Launched January 2023 \u2014 our criteria need five years of history, which it reaches in January 2028."
  },
  {
   "fund_slug": "cash-fund",
@@ -3511,7 +3721,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3527,7 +3738,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3543,7 +3755,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3559,7 +3772,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3575,7 +3789,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "kiwisaver-cash-fund",
@@ -3591,7 +3806,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3607,7 +3823,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3623,7 +3840,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a scheme that's closed to new members."
  },
  {
   "fund_slug": "nz-cash-fund",
@@ -3639,7 +3857,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "nz-cash-fund",
@@ -3655,7 +3874,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "amova-nz-cash-fund",
@@ -3671,7 +3891,8 @@
   "growth_pct": null,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3687,7 +3908,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cashplus-fund",
@@ -3703,7 +3925,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the defensive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "mercer-macquarie-nz-cash-fund",
@@ -3719,7 +3942,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Not currently open to new investors \u2014 no current product disclosure statement on the register."
  },
  {
   "fund_slug": "cash-fund",
@@ -3735,7 +3959,8 @@
   "growth_pct": null,
   "risk": 2,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "fixed-interest",
@@ -3751,7 +3976,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average."
  },
  {
   "fund_slug": "nz-bonds",
@@ -3767,7 +3993,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average."
  },
  {
   "fund_slug": "new-zealand-cash",
@@ -3783,7 +4010,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are above the defensive category average, with fees below the category average."
  },
  {
   "fund_slug": "cash-fund",
@@ -3799,7 +4027,8 @@
   "growth_pct": 0,
   "risk": 2,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the defensive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "enhanced-cash-fund",
@@ -3815,7 +4044,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the defensive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "income",
@@ -3831,7 +4061,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "new-zealand-cash-fund",
@@ -3847,7 +4078,8 @@
   "growth_pct": 0,
   "risk": 1,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the defensive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "fixed-interest",
@@ -3863,7 +4095,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the defensive category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "russell-investments-nz-fixed-interest-fund",
@@ -3879,7 +4112,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "income",
@@ -3895,7 +4129,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "nz-fixed-interest",
@@ -3911,7 +4146,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "new-zealand-fixed-interest",
@@ -3927,7 +4163,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "mercer-macquarie-nz-fixed-interest-fund",
@@ -3943,7 +4180,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "overseas-bonds",
@@ -3959,7 +4197,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "amova-nz-corporate-bond-fund",
@@ -3975,7 +4214,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Returns are competitive, but fees are above the defensive category average and it falls short of our combined criteria."
  },
  {
   "fund_slug": "uk-cash-fund",
@@ -3991,7 +4231,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Doesn't currently meet our combined returns, consistency, fees and quality criteria for the recommended list."
  },
  {
   "fund_slug": "harbour-nz-core-fixed-interest-fund",
@@ -4007,7 +4248,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "global-fixed-interest",
@@ -4023,7 +4265,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "s-p-nzx-nz-government-bond-fund",
@@ -4039,7 +4282,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "mercer-responsible-hedged-global-fixed-interest-index-fund",
@@ -4055,7 +4299,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "hunter-global-fixed-interest-fund",
@@ -4071,7 +4316,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "global-aggregate-bond-fund",
@@ -4087,7 +4333,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "international-fixed-interest",
@@ -4103,7 +4350,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "overseas-non-govt-bd",
@@ -4119,7 +4367,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average."
  },
  {
   "fund_slug": "russell-investments-global-fixed-interest-fund",
@@ -4135,7 +4384,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "nz-fixed-interest",
@@ -4151,7 +4401,8 @@
   "growth_pct": 0,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "income-strategy",
@@ -4167,7 +4418,8 @@
   "growth_pct": 0,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Recent three-year returns are behind the defensive category average, which our rating weights most heavily."
  },
  {
   "fund_slug": "global-fixed-interest-fund",
@@ -4183,7 +4435,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "liquidity-fund",
@@ -4201,7 +4454,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
-  "rating_expected_label": "May 2027"
+  "rating_expected_label": "May 2027",
+  "reason": "Launched May 2022 \u2014 our criteria need five years of history, which it reaches in May 2027."
  },
  {
   "fund_slug": "bcf-kiwisaver-scheme",
@@ -4217,7 +4471,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "income-fund",
@@ -4233,7 +4488,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Five-year returns after fees are behind the defensive category average, with fees above the category average."
  },
  {
   "fund_slug": "cashplus-fund",
@@ -4251,7 +4507,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "May 2022",
-  "rating_expected_label": "May 2027"
+  "rating_expected_label": "May 2027",
+  "reason": "Launched May 2022 \u2014 our criteria need five years of history, which it reaches in May 2027."
  },
  {
   "fund_slug": "nz-bond-fund",
@@ -4269,7 +4526,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2024",
-  "rating_expected_label": "July 2029"
+  "rating_expected_label": "July 2029",
+  "reason": "Launched July 2024 \u2014 our criteria need five years of history, which it reaches in July 2029."
  },
  {
   "fund_slug": "us-bond-fund",
@@ -4287,7 +4545,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "July 2024",
-  "rating_expected_label": "July 2029"
+  "rating_expected_label": "July 2029",
+  "reason": "Launched July 2024 \u2014 our criteria need five years of history, which it reaches in July 2029."
  },
  {
   "fund_slug": "cash-plus-fund",
@@ -4305,7 +4564,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "November 2022",
-  "rating_expected_label": "November 2027"
+  "rating_expected_label": "November 2027",
+  "reason": "Launched November 2022 \u2014 our criteria need five years of history, which it reaches in November 2027."
  },
  {
   "fund_slug": "cash-fund",
@@ -4323,7 +4583,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2025",
-  "rating_expected_label": "April 2030"
+  "rating_expected_label": "April 2030",
+  "reason": "Launched April 2025 \u2014 our criteria need five years of history, which it reaches in April 2030."
  },
  {
   "fund_slug": "defensive-fund",
@@ -4341,7 +4602,8 @@
   "restricted": false,
   "status": "open",
   "launch_label": "April 2023",
-  "rating_expected_label": "April 2028"
+  "rating_expected_label": "April 2028",
+  "reason": "Launched April 2023 \u2014 our criteria need five years of history, which it reaches in April 2028."
  },
  {
   "fund_slug": "aggressive-fund-lifesteps",
@@ -4357,7 +4619,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "balanced-fund-lifesteps",
@@ -4373,7 +4636,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "conservative-fund-lifesteps",
@@ -4389,7 +4653,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "global-select-balanced-growth-fund",
@@ -4405,7 +4670,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "growth-fund-lifesteps",
@@ -4421,7 +4687,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "moderate-balanced-fund-lifesteps",
@@ -4437,7 +4704,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "moderate-fund-lifesteps",
@@ -4453,7 +4721,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "glidepath-age-25",
@@ -4469,7 +4738,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "glidepath-age-40",
@@ -4485,7 +4755,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "glidepath-age-55",
@@ -4501,7 +4772,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "glidepath-age-65",
@@ -4517,7 +4789,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "glidepath-age-75",
@@ -4533,7 +4806,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-0-35",
@@ -4549,7 +4823,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-36-45",
@@ -4565,7 +4840,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-46-55",
@@ -4581,7 +4857,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-56-60",
@@ -4597,7 +4874,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-61-64",
@@ -4613,7 +4891,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-65-75",
@@ -4629,7 +4908,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-76",
@@ -4645,7 +4925,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-growth-0-50",
@@ -4661,7 +4942,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-growth-51-55",
@@ -4677,7 +4959,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-growth-56-60",
@@ -4693,7 +4976,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-growth-61-75",
@@ -4709,7 +4993,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "stepping-stones-growth-76",
@@ -4725,7 +5010,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "aurora-retirementplus-age-50",
@@ -4741,7 +5027,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "aurora-retirementplus-age-65",
@@ -4757,7 +5044,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "aurora-retirementplus-age-75",
@@ -4773,7 +5061,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "life-cycle-age-0-54",
@@ -4789,7 +5078,8 @@
   "growth_pct": null,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "life-cycle-age-65",
@@ -4805,7 +5095,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "life-cycle-age-75",
@@ -4821,7 +5112,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "aggressive-fund",
@@ -4837,7 +5129,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "automatic-fund-age-20",
@@ -4853,7 +5146,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "automatic-fund-age-40",
@@ -4869,7 +5163,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "automatic-fund-age-60",
@@ -4885,7 +5180,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "automatic-fund-age-80",
@@ -4901,7 +5197,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": true,
-  "status": "open"
+  "status": "open",
+  "reason": "Part of a restricted scheme that most KiwiSavers can't join, so it sits outside our recommended list."
  },
  {
   "fund_slug": "age-steps-age-20",
@@ -4917,7 +5214,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-30",
@@ -4933,7 +5231,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-40",
@@ -4949,7 +5248,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-50",
@@ -4965,7 +5265,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-60",
@@ -4981,7 +5282,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-70",
@@ -4997,7 +5299,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "age-steps-age-80",
@@ -5013,7 +5316,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A lifecycle-style option that changes its mix with age, so it isn't rated against a single category."
  },
  {
   "fund_slug": "australasian-shares",
@@ -5029,7 +5333,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "international-shares",
@@ -5045,7 +5350,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australasian-fund",
@@ -5061,7 +5367,8 @@
   "growth_pct": 98,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-fund",
@@ -5077,7 +5384,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "thematic-fund",
@@ -5093,7 +5401,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "amova-ark-disruptive-innovation-fund",
@@ -5109,7 +5418,8 @@
   "growth_pct": null,
   "risk": 7,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "amova-global-shares-fund",
@@ -5125,7 +5435,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "amova-sri-equity-fund",
@@ -5141,7 +5452,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "generate-thematic-fund",
@@ -5157,7 +5469,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "munro-global-growth-climate-leaders-fund",
@@ -5173,7 +5486,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "antipodes-global-value-fund-pie",
@@ -5189,7 +5503,8 @@
   "growth_pct": 100,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "castle-point-trans-tasman-fund",
@@ -5205,7 +5520,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "clarity-global-shares-fund",
@@ -5221,7 +5537,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-global-esg-fund",
@@ -5237,7 +5554,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-hedged-total-world-fund",
@@ -5253,7 +5571,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-hedged-us-500-fund",
@@ -5269,7 +5588,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-nasdaq-100",
@@ -5285,7 +5605,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-total-world-fund",
@@ -5301,7 +5622,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-us-500-fund",
@@ -5317,7 +5639,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "foundation-series-us-dividend-equity",
@@ -5333,7 +5656,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "harbour-australasian-equity-focus-fund",
@@ -5349,7 +5673,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "harbour-t-rowe-price-global-equity-fund",
@@ -5365,7 +5690,8 @@
   "growth_pct": 98,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "mercer-all-country-global-shares-index-fund",
@@ -5381,7 +5707,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "mercer-global-listed-real-estate-fund",
@@ -5397,7 +5724,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "mercer-nz-shares-passive-fund",
@@ -5413,7 +5741,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "mint-australasian-equity-fund",
@@ -5429,7 +5758,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "russell-investments-global-shares-fund",
@@ -5445,7 +5775,8 @@
   "growth_pct": 100,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "russell-investments-hedged-global-shares-fund",
@@ -5461,7 +5792,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "salt-enhanced-property",
@@ -5477,7 +5809,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "te-ahumairangi-global-equity-fund",
@@ -5493,7 +5826,8 @@
   "growth_pct": 98,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-small-mid-cap-opps",
@@ -5509,7 +5843,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-500",
@@ -5525,7 +5860,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-500-nzd-hedged",
@@ -5541,7 +5877,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australia-100-fund",
@@ -5557,7 +5894,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "emerging-markets-fund",
@@ -5573,7 +5911,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-esg",
@@ -5589,7 +5928,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-esg-nzd-hedged",
@@ -5605,7 +5945,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-infrastructure",
@@ -5621,7 +5962,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-infrastructure-nzd-hedged",
@@ -5637,7 +5979,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-property-nzd-hedged",
@@ -5653,7 +5996,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-20",
@@ -5669,7 +6013,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-50-esg-tilted",
@@ -5685,7 +6030,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-commercial-property",
@@ -5701,7 +6047,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-global-100",
@@ -5717,7 +6064,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-global-100-nzd-hedged",
@@ -5733,7 +6081,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-global-clean-energy",
@@ -5749,7 +6098,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-global-div-aristocrats",
@@ -5765,7 +6115,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "world-ex-us-fund",
@@ -5781,7 +6132,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "world-ex-us-nzd-hedged-fund",
@@ -5797,7 +6149,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "bitcoin",
@@ -5813,7 +6166,8 @@
   "growth_pct": 99,
   "risk": 7,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "clean-energy",
@@ -5829,7 +6183,8 @@
   "growth_pct": 99,
   "risk": 7,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "emerging-markets-equities",
@@ -5845,7 +6200,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-equities",
@@ -5861,7 +6217,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-property",
@@ -5877,7 +6234,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "rest-of-world-equities",
@@ -5893,7 +6251,8 @@
   "growth_pct": 99,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-equities",
@@ -5909,7 +6268,8 @@
   "growth_pct": 99,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australasian-property",
@@ -5925,7 +6285,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australasian-share",
@@ -5941,7 +6302,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "international-property",
@@ -5957,7 +6319,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "international-share",
@@ -5973,7 +6336,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "select-international-share-fund",
@@ -5989,7 +6353,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "altum",
@@ -6005,7 +6370,8 @@
   "growth_pct": 100,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-equity",
@@ -6021,7 +6387,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "international-equities",
@@ -6037,7 +6404,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "international-equity-nzd-hedged",
@@ -6053,7 +6421,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-equity",
@@ -6069,7 +6438,8 @@
   "growth_pct": 100,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "focused-growth-fund",
@@ -6085,7 +6455,8 @@
   "growth_pct": 98,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "pie-global-growth-2-fund",
@@ -6101,7 +6472,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "total-world-share-fund",
@@ -6117,7 +6489,8 @@
   "growth_pct": null,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us500-fund",
@@ -6133,7 +6506,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-equities",
@@ -6149,7 +6523,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-equities",
@@ -6165,7 +6540,8 @@
   "growth_pct": 90,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "listed-property",
@@ -6181,7 +6557,8 @@
   "growth_pct": 95,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "new-zealand-equities",
@@ -6197,7 +6574,8 @@
   "growth_pct": 95,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "asia-pacific",
@@ -6213,7 +6591,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "aust-dividend",
@@ -6229,7 +6608,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "aust-financials",
@@ -6245,7 +6625,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-mid-cap",
@@ -6261,7 +6642,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-property",
@@ -6277,7 +6659,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-resources",
@@ -6293,7 +6676,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-shares",
@@ -6309,7 +6693,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "australian-top-20",
@@ -6325,7 +6710,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "castle-point-5-oceans-fund",
@@ -6341,7 +6727,8 @@
   "growth_pct": null,
   "risk": 3,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "emerging-markets",
@@ -6357,7 +6744,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "europe",
@@ -6373,7 +6761,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "global-property",
@@ -6389,7 +6778,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-dividend",
@@ -6405,7 +6795,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-mid-cap",
@@ -6421,7 +6812,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-property",
@@ -6437,7 +6829,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-shares",
@@ -6453,7 +6846,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-top-10",
@@ -6469,7 +6863,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "nz-top-50",
@@ -6485,7 +6880,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "overseas-shares",
@@ -6501,7 +6897,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "overseas-shares-currency-hedged",
@@ -6517,7 +6914,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-asx-200",
@@ -6533,7 +6931,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "s-p-nzx-50",
@@ -6549,7 +6948,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "total-wld-nzd-h",
@@ -6565,7 +6965,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "total-world",
@@ -6581,7 +6982,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-500",
@@ -6597,7 +6999,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-large-growth",
@@ -6613,7 +7016,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-large-value",
@@ -6629,7 +7033,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-mid-cap",
@@ -6645,7 +7050,8 @@
   "growth_pct": 100,
   "risk": 5,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "us-small-cap",
@@ -6661,7 +7067,8 @@
   "growth_pct": 100,
   "risk": 6,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "A single-sector fund without a fair peer group under our category-based rating."
  },
  {
   "fund_slug": "goalsgetter-harbour-balanced-growth-fund",
@@ -6677,7 +7084,8 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Not yet assigned to a rating category, so it isn't compared against a peer group."
  },
  {
   "fund_slug": "goalsgetter-harbour-sustainable-impact-fund",
@@ -6693,6 +7101,7 @@
   "growth_pct": null,
   "risk": 4,
   "restricted": false,
-  "status": "open"
+  "status": "open",
+  "reason": "Not yet assigned to a rating category, so it isn't compared against a peer group."
  }
 ]

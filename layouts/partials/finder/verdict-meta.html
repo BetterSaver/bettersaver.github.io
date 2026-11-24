@@ -10,7 +10,10 @@
 {{- $label := cond $rec "Recommended" "Not recommended" -}}
 {{- $icon := cond $rec "check-circle-filled" "alert" -}}
 {{- $reason := "" -}}{{- $faqReason := "" -}}
-{{- if $rec -}}
+{{- if $f.reason -}}
+  {{- $reason = $f.reason -}}
+  {{- $faqReason = $f.reason -}}
+{{- else if $rec -}}
   {{- $feeClause := cond (and $cat.group_avg_fee (le $f.fee_pct $cat.group_avg_fee)) ", fees below average, with consistent results." ", with consistent results." -}}
   {{- $reason = printf "Returns after fees above the %s category average over five years%s" ($cat.label | lower) $feeClause -}}
   {{- $faqReason = printf "Over the past five years it returned more than the average %s fund after fees." $cat.label -}}

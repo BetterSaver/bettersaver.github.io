@@ -115,6 +115,8 @@ for r in rows:
     }
     if launch_label: f['launch_label'] = launch_label
     if expected_label: f['rating_expected_label'] = expected_label
+    reason = (r.get('fund_list_reason') or '').strip()
+    if reason: f['reason'] = reason
     funds.append(f)
 
     s = schemes.setdefault(sslug, {
@@ -245,57 +247,11 @@ for s in out_schemes:
     sus_high = sum(1 for b in sus_rated if b in ('High', 'Highest'))
     s['sus_high'] = sus_high
 
-    eth_low = [lbl for lbl, _ in ETHICS if s['ethics'][lbl] in ('None', 'Low')]
-    eth_high = [lbl for lbl, _ in ETHICS if s['ethics'][lbl] in ('High', 'Highest')]
-
-    good, warn = [], []  # (score, text)
-    if beats and rated:
-        good.append((len(beats) / rated,
-            f"{len(beats)} of its {rated} {'fund' if rated == 1 else 'funds'} with a five-year record {'beats' if len(beats) == 1 else 'beat'} the category average after fees"))
-    if avg_fee is not None and mkt_fee and avg_fee < mkt_fee:
-        good.append(((mkt_fee - avg_fee) / mkt_fee,
-            f"Fees average {fmt_pct(avg_fee)} across its funds, below the market average of {fmt_pct(mkt_fee)}"))
-    if sus_high and sus_rated:
-        good.append((sus_high / len(sus_rated),
-            f"{sus_high} of its {len(sus_rated)} {'fund' if len(sus_rated) == 1 else 'funds'} with a sustainability rating {'scores' if sus_high == 1 else 'score'} High or Highest"))
-    if eth_low:
-        good.append((len(eth_low) / 10.0,
-            f"Little or no exposure in {len(eth_low)} of the 8 ethical areas we screen"))
-
-    if trails and rated:
-        if len(trails) <= 2:
-            for name, ret5, peer in sorted(trails, key=lambda p: p[1] - p[2]):
-                warn.append(((peer - ret5) / 10.0 + 0.1,
-                    f"The {name} trails its category average after fees: {fmt_pct(ret5)} a year against {fmt_pct(peer)}"))
-        else:
-            warn.append((len(trails) / rated,
-                f"{len(trails)} of its {rated} funds with a five-year record trail the category average after fees"))
-    if avg_fee is not None and mkt_fee and avg_fee > mkt_fee:
-        warn.append(((avg_fee - mkt_fee) / mkt_fee,
-            f"Fees average {fmt_pct(avg_fee)} across its funds, above the market average of {fmt_pct(mkt_fee)}"))
-    if eth_high:
-        warn.append((len(eth_high) / 8.0,
-            "High or Highest exposure to " + ', '.join(eth_high[:3]).lower() + (" and more" if len(eth_high) > 3 else "")))
-    if sus_rated and sus_high == 0:
-        warn.append((0.4, f"None of its {len(sus_rated)} {'fund' if len(sus_rated) == 1 else 'funds'} with a sustainability rating scores above Medium"))
-    if under5:
-        warn.append((under5 / max(M, 1),
-            f"{under5} of its {M} funds {'is' if under5 == 1 else 'are'} under five years old, too new to pass our rating test"))
-    if rec_count < M:
-        warn.append(((M - rec_count) / M * 0.9,
-            f"{M - rec_count} of its {M} funds {'doesn&rsquo;t' if M - rec_count == 1 else 'don&rsquo;t'} make our recommended list".replace('&rsquo;', '\u2019')))
-
-    # honest fallbacks so each card has at least 2 lines
-    if len(good) < 2:
-        if avg_fee is not None and not any('Fees average' in t for _, t in good):
-            good.append((0.1, f"Fees average {fmt_pct(avg_fee)} across its funds"))
-        good.append((0.05, f"Manages {s['total_value']} for {s['members']:,} members"))
-    if len(warn) < 2 and not s['sus_rated']:
-        warn.append((0.1, "No sustainability data available for its funds"))
-
-    good.sort(key=lambda x: -x[0]); warn.sort(key=lambda x: -x[0])
-    s['sw_good'] = [t for _, t in good[:4]]
-    s['sw_warn'] = [t for _, t in warn[:4]]
+    first = sub[0] if sub else {}
+    s['sw_good'] = [v.rstrip('.') for i in (1, 2, 3)
+                    if (v := (first.get(f'provider_positive_{i}') or '').strip())]
+    s['sw_warn'] = [v.rstrip('.') for i in (1, 2, 3)
+                    if (v := (first.get(f'provider_negative_{i}') or '').strip())]
 
 # consider: partner schemes, ranked by recommendation rate then size
 partners = [s for s in out_schemes if s['partnered']]

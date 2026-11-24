@@ -63,24 +63,30 @@
 <p class="sec-body">{{ $s.about }}</p>
 </section>
 
+{{ if or $s.sw_good $s.sw_warn }}
 <section>
-<h2 class="rule-head">Where <strong>{{ $prov }}</strong> stands out, and where it doesn't</h2>
+<h2 class="rule-head">{{ if and $s.sw_good $s.sw_warn }}Where <strong>{{ $prov }}</strong> stands out, and where it doesn't{{ else if $s.sw_good }}Where <strong>{{ $prov }}</strong> stands out{{ else }}Worth weighing with <strong>{{ $prov }}</strong>{{ end }}</h2>
 <div class="sw-grid">
+{{ if $s.sw_good }}
 <div class="sw-card">
 <span class="sw-eyebrow sw-good">Stands out</span>
 {{ range $s.sw_good }}
 <div class="sw-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#00D671"/><path d="M8 12.5l2.6 2.6L16 9.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>{{ . }}.</span></div>
 {{ end }}
 </div>
+{{ end }}
+{{ if $s.sw_warn }}
 <div class="sw-card">
 <span class="sw-eyebrow sw-warn">Worth weighing</span>
 {{ range $s.sw_warn }}
 <div class="sw-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#F6862A"/><path d="M8 12h8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg><span>{{ . }}.</span></div>
 {{ end }}
 </div>
+{{ end }}
 </div>
 <p class="fine-line">Every point above comes from the data on this page, refreshed at each review.</p>
 </section>
+{{ end }}
 
 <section class="scheme-funds" id="funds">
 <h2 class="rule-head"><strong>{{ $prov }}</strong> funds</h2>
