@@ -34,7 +34,8 @@
   ],
   "sw_warn": [
    "Its fund doesn't make our recommended list",
-   "Fees average 4.26% across its funds, above the market average of 0.82%"
+   "Fees average 4.26% across its funds, above the market average of 0.82%",
+   "Independent ethical-screen and sustainability data isn't currently available for this fund"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -212,7 +213,8 @@
    "Fees average 0.58% across its funds, below the market average of 0.82%"
   ],
   "sw_warn": [
-   "High exposure to gambling, nuclear power"
+   "High exposure to gambling, nuclear power",
+   "Independent ethical-screen data isn't available for 1 of its 6 funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -254,7 +256,8 @@
    "Its fund with a five-year record beats the category average after fees"
   ],
   "sw_warn": [
-   "Its fund doesn't make our recommended list"
+   "Its fund doesn't make our recommended list",
+   "Independent ethical-screen and sustainability data isn't currently available for this fund"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -387,7 +390,8 @@
   ],
   "sw_warn": [
    "3 of its 3 funds don't make our recommended list",
-   "Fees average 1.22% across its funds, above the market average of 0.82%"
+   "Fees average 1.22% across its funds, above the market average of 0.82%",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -738,7 +742,8 @@
    "2 of its 2 funds with a five-year record beat the category average after fees"
   ],
   "sw_warn": [
-   "13 of its 13 funds don't make our recommended list"
+   "13 of its 13 funds don't make our recommended list",
+   "Independent ethical-screen data isn't available for 2 of its 13 funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -781,7 +786,8 @@
   ],
   "sw_warn": [
    "4 of its 7 funds don't make our recommended list",
-   "High exposure to alcohol, weapons of war, animal testing"
+   "High exposure to alcohol, weapons of war, animal testing",
+   "Independent ethical-screen data isn't available for 1 of its 7 funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -823,7 +829,8 @@
    "Fees average 0.69% across its funds, below the market average of 0.82%"
   ],
   "sw_warn": [
-   "3 of its 3 funds don't make our recommended list"
+   "3 of its 3 funds don't make our recommended list",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -956,7 +963,7 @@
   "sw_warn": [
    "7 of its 7 funds don't make our recommended list",
    "3 of its 4 funds with a five-year record trail the category average after fees",
-   "Fees average 1.36% across its funds, above the market average of 0.82%"
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -1266,7 +1273,8 @@
   ],
   "sw_warn": [
    "11 of its 11 funds don't make our recommended list",
-   "High exposure to alcohol, civilian weapons"
+   "High exposure to alcohol, civilian weapons",
+   "Independent ethical-screen data isn't available for 4 of its 11 funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -1489,7 +1497,8 @@
   ],
   "sw_warn": [
    "8 of its 8 funds don't make our recommended list",
-   "3 of its 3 funds with a five-year record trail the category average after fees"
+   "3 of its 3 funds with a five-year record trail the category average after fees",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
   ],
   "consider": [
    "milford-kiwisaver-plan",
@@ -1533,7 +1542,9 @@
    "5 of its 6 funds with a five-year record beat the category average after fees",
    "Fees average 0.45% across its funds, below the market average of 0.82%"
   ],
-  "sw_warn": [],
+  "sw_warn": [
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
   "consider": [
    "milford-kiwisaver-plan",
    "pathfinder-kiwisaver-plan",
