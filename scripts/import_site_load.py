@@ -248,10 +248,22 @@ for s in out_schemes:
     s['sus_high'] = sus_high
 
     first = sub[0] if sub else {}
-    s['sw_good'] = [v.rstrip('.') for i in (1, 2, 3)
+
+    def norm_bullet(t):
+        # marketing rules: one five-level scale, singular variants
+        t = t.rstrip('.').replace('Very High', 'Highest').replace('Very high', 'Highest')
+        t = t.replace('1 of its 1 funds with a sustainability rating score',
+                      'Its only fund with a sustainability rating scores')
+        t = re.sub(r'\b1 of its 1 funds\b', 'its only fund', t)
+        return t
+
+    s['sw_good'] = [norm_bullet(v) for i in (1, 2, 3)
                     if (v := (first.get(f'provider_positive_{i}') or '').strip())]
-    s['sw_warn'] = [v.rstrip('.') for i in (1, 2, 3)
+    s['sw_warn'] = [norm_bullet(v) for i in (1, 2, 3)
                     if (v := (first.get(f'provider_negative_{i}') or '').strip())]
+    # a metric appears on one side only: drop the weaker complementary perf claim
+    if any('five-year record trail' in w for w in s['sw_warn']):
+        s['sw_good'] = [g for g in s['sw_good'] if 'five-year record beat' not in g]
 
 # consider: partner schemes, ranked by recommendation rate then size
 partners = [s for s in out_schemes if s['partnered']]

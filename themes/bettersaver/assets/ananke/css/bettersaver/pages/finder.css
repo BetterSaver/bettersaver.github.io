@@ -535,3 +535,11 @@ body.fx-traypad{padding-bottom:96px}
 .sw-item{display:flex;gap:10px;align-items:flex-start;font:400 14px/1.55 var(--font-sans);color:var(--text-default)}
 .sw-item svg{flex:none;margin-top:2px}
 .prov-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+/* v5: global table head, consider view line, index legend */
+.ftable-head{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)80px 100px;column-gap:16px;padding:0 0 6px}
+.ftable-head span{font:500 12px/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted)}
+.ftable-head .num{text-align:right}
+@media(max-width:720px){.ftable-head{display:none}}
+.side-view{display:block;margin-top:6px;font:600 13px/1.2 var(--font-sans);color:var(--bs-purple-contrast)}
+.fx-legend{font:400 13.5px/1.55 var(--font-sans);color:var(--text-muted);margin:-4px 0 12px;max-width:820px}
+.finder-scope .fx-sub-link{color:#fff;text-decoration:underline}
