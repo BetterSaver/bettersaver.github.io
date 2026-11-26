@@ -163,7 +163,7 @@ If you're wondering how to join KiwiSaver, there are three ways:
 
 #### Automatic Enrolment Through a New Job
 
-If you're 18 or over and start a new job in New Zealand, you'll automatically be enrolled in KiwiSaver. Your employer will give you an [IRD KS2](https://www.ird.govt.nz/index/all-forms-and-guides) form where you can select your contribution rate. You can opt out, but only between your 14th day and your eighth week of employment.
+If you're 18 to 65 and start a new job in New Zealand (on a contract longer than 28 days), you'll automatically be enrolled in Kiwisaver. Your employer will give you an [IRD KS2](https://www.ird.govt.nz/index/all-forms-and-guides) form where you can select your contribution rate. You can opt out, but only between your 14th day and your eighth week of employment.
 
 #### Opting in Through Your Employer
 
