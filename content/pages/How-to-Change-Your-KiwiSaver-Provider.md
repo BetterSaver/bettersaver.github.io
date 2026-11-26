@@ -178,10 +178,10 @@ faq_items:
   - question: Is my money out of the market when I switch KiwiSaver providers?
     answer: 'Yes, for part of the transfer. Your old provider sells your investments and sends the balance to your new provider as cash, so it isn''t invested while it moves.'
   - question: Can I change my KiwiSaver account contribution rate?
-    answer: |
+    answer: |-
       Changing your contribution rate is separate from switching providers -  it's handled through your employer, not your KiwiSaver scheme.
 
-      Give your employer written notice stating the new percentage you'd like. Available rates are 3.5%, 4%, 6%, 8%, or 10% of your before-tax pay. You can change this at any time, as many times as you like. Changes typically take effect from your next pay run once your employer has processed the notice.
+      Give your employer a KS2 form, or change it in myIR or through your provider. Available rates are 3.5%, 4%, 6%, 8% or 10% of your before-tax pay. You can change it once every 3 months, or sooner if your employer agrees. The new rate starts from your next pay.
   - question: How do I find out who my KiwiSaver provider is?
     answer: |
       If you're not sure who holds your KiwiSaver, there are a few quick ways to check:
