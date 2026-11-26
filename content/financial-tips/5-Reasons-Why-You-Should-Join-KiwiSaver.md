@@ -221,7 +221,7 @@ The withdrawal can include your own contributions, your employer’s contributio
 
 There are a few conditions to be aware of. You need to be a first-time buyer, although there are some exceptions if you’ve previously owned property but are in a financial position similar to a first home buyer. The property must be in New Zealand and will need to be your main residence. Your KiwiSaver provider handles the withdrawal application, and it typically takes a few weeks to process, so it’s something to factor in well before your settlement date.
 
-If you’re in your 20s or early 30s with homeownership as a goal, KiwiSaver is working towards two things at once: your deposit and your retirement. [Learn how to choose or change your KiwiSaver provider](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider) if you’re wondering whether your current fund is the right fit for this goal.
+If you’re in your 20s or early 30s with homeownership as a goal, KiwiSaver is working towards two things at once: your deposit and your retirement. [Learn how to choose or change your KiwiSaver provider](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) if you’re wondering whether your current fund is the right fit for this goal.
 
 #### Reason 5: NZ Super Probably Won’t Be Enough
 
@@ -231,7 +231,7 @@ For most people, NZ Super alone means a noticeable step down in lifestyle. If yo
 
 The good news is that consistent contributions over a working life, even at the minimum rate, can build a meaningful retirement balance alongside NZ Super. Add in employer contributions, government top-ups and compounding over 30 or 40 years, and the outcome is substantially better than relying on NZ Super alone.
 
-One thing worth considering: are you in the right fund for your timeline? [BetterSaver compares over 300 KiwiSaver funds](https://bettersaver.co.nz/pages/how-it-works) and recommends the best fit for your goals, timeline, and values. It’s independent advice and free to use.
+One thing worth considering: are you in the right fund for your timeline? [BetterSaver compares over 300 KiwiSaver funds](https://bettersaver.co.nz/pages/how-it-works/) and recommends the best fit for your goals, timeline, and values. It’s independent advice and free to use.
 
 ## Frequently Asked Questions
 
@@ -257,7 +257,7 @@ Your KiwiSaver stays with you. It’s not tied to your employer. When you move t
 
 **What’s the difference between a KiwiSaver provider and an advisor like BetterSaver?**
 
-A KiwiSaver provider is the organisation that manages your money (ANZ, Milford, Simplicity and others). An advisor like BetterSaver is independent from all providers and helps you work out which one suits you best. BetterSaver analyses over 300 KiwiSaver funds and recommends the right fit for your goals, timeline, and values. [Here’s how it works.](https://bettersaver.co.nz/pages/how-it-works)
+A KiwiSaver provider is the organisation that manages your money (ANZ, Milford, Simplicity and others). An advisor like BetterSaver is independent from all providers and helps you work out which one suits you best. BetterSaver analyses over 300 KiwiSaver funds and recommends the right fit for your goals, timeline, and values. [Here’s how it works.](https://bettersaver.co.nz/pages/how-it-works/)
 
 ## The Longer You Wait, The More You Leave Behind
 
