@@ -183,7 +183,7 @@ Once you’re a KiwiSaver member, your account is funded from three sources. Und
 
 As an employee, a percentage of your gross (before-tax) pay is deducted each payday and sent to your KiwiSaver account through Inland Revenue. The default contribution rate is 3.5% of your earnings. You can also choose to contribute at 4%, 6%, 8% or 10%.
 
-How much money you put into your KiwiSaver is a personal decision that depends on your income, your goals and what you can afford right now. A higher rate means less take-home pay but more going towards your future. You can[ change your contribution rate ](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works)at any time by contacting your employer or updating it through myIR.
+How much money you put into your KiwiSaver is a personal decision that depends on your income, your goals and what you can afford right now. A higher rate means less take-home pay but more going towards your future. You can [change your contribution rate](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works) once every 3 months through your employer, myIR or your provider.
 
 If you're self-employed, there's no automatic deduction. You make voluntary contributions directly to your provider at whatever amount and frequency suits you.
 
@@ -203,7 +203,7 @@ Each year, the government adds [25 cents for every $1 you contribute](https://ww
 
 At the current 3.5% default rate, anyone earning roughly $30,000 or more will hit that threshold through regular payroll deductions. If you earn less or contribute voluntarily, it's a good idea to check you're on track before 30 June each year. Falling short means leaving free money on the table.
 
-The government contribution is calculated on your personal contributions only. Employer contributions don't count. You must be aged between 18 and 65, and have an annual taxable income of $180,000 or under to be eligible.
+The government contribution is calculated on your personal contributions only. Employer contributions don't count. You must be aged between 16 and 65, and have an annual taxable income of $180,000 or under to be eligible.
 
 You may have heard this being referred to as the "member tax credit" (it's the same thing under a different name).
 
