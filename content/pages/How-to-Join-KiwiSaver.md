@@ -61,6 +61,7 @@ need_items:
   - text: Your email address and mobile number.
   - text: 'Your IRD number (helpful, though not always required straight away).'
   - text: A form of ID for online verification — usually a driver licence or passport.
+  - text: 'If you''re 16 or 17: a parent or legal guardian to co-sign.'
 need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 auto_tag: Automatic enrolment
