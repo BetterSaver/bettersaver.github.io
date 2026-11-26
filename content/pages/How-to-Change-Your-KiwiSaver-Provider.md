@@ -176,8 +176,7 @@ faq_items:
   - question: How long does switching KiwiSaver providers take?
     answer: 'About 2 weeks, according to Inland Revenue, though some switches finish sooner. Your balance isn''t invested for part of that time while it moves between providers as cash. We''ll keep you informed throughout.'
   - question: Is my money out of the market when I switch KiwiSaver providers?
-    answer: |
-      There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches -  usually within the same few business days as the transfer itself.
+    answer: 'Yes, for part of the transfer. Your old provider sells your investments and sends the balance to your new provider as cash, so it isn''t invested while it moves.'
   - question: Can I change my KiwiSaver account contribution rate?
     answer: |
       Changing your contribution rate is separate from switching providers -  it's handled through your employer, not your KiwiSaver scheme.
