@@ -265,7 +265,7 @@ One lever is fund type. Being in a fund that doesn't match your timeline is a dr
 
 A second lever is your contribution rate. Even a small step up, from 3.5% to 4%, say, compounds meaningfully over 10 or 20 years, because it's not just the extra contributions that grow, it's the returns on them too. [KiwiSaver Contribution Rates: What Changed in April 2026](https://bettersaver.co.nz/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/) walks through the current settings.
 
-The third is simply being willing to switch providers. Some people stay with a fund or provider that no longer suits them because switching sounds complicated, but it doesn't mean starting again. Your balance transfers across, and the process is quite straightforward. In [How to Change Your KiwiSaver Provider](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider), we explain the steps, and you can also [check out our explanation](https://bettersaver.co.nz/pages/how-we-analyse) of how BetterSaver compares options across the market.
+The third is simply being willing to switch providers. Some people stay with a fund or provider that no longer suits them because switching sounds complicated, but it doesn't mean starting again. Your balance transfers across, and the process is quite straightforward. In [How to Change Your KiwiSaver Provider](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider), we explain the steps, and you can also [check out our explanation](https://bettersaver.co.nz/pages/how-we-analyse/) of how BetterSaver compares options across the market.
 
 KiwiSaver is a decades-long project, and small changes made earlier tend to matter far more than the same changes made later.
 
