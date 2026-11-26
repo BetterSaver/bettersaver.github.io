@@ -25,7 +25,7 @@ sections:
         include_in_faq: false
       - title: How long does switching take?
         content: |
-          Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
+          About 2 weeks, according to Inland Revenue. Some switches finish sooner, depending on the providers involved and whether extra checks are needed.
         include_in_faq: false
       - title: Do I have to be employed to join KiwiSaver?
         content: |
