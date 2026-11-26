@@ -163,6 +163,8 @@ faq_items:
     answer: 'Yes. You can change your KiwiSaver provider at any time. There''s no lock-in period, and you can switch as many times as you like. If you''re in a default scheme from when you first started work, switching is straightforward — BetterSaver can recommend a scheme that suits you now and guide you through it online.'
   - question: Do I need to tell my old provider or my employer?
     answer: 'No. Your new provider contacts your old provider and Inland Revenue, and your employer''s deductions carry on as normal. You only need to talk to your employer if you also want to change your contribution rate.'
+  - question: Can I have two KiwiSaver providers?
+    answer: 'No. You can only belong to one KiwiSaver scheme at a time, so switching moves your whole balance to the new provider.'
   - question: What is a default KiwiSaver scheme?
     answer: 'When you start a new job in New Zealand, your employer is required to enrol you in KiwiSaver if you haven''t already joined. If you don''t choose a provider, you''re placed into one of six government-selected default schemes. These are all balanced funds, they''re not chosen to fit your personal situation — they''re a starting point.'
   - question: How do I change my KiwiSaver provider?
@@ -200,8 +202,6 @@ faq_items:
       Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) through your employer, myIR or your provider, once every 3 months. This is separate from switching providers.
 
       Both changes can be made independently, or at the same time.
-  - question: Can I have two KiwiSaver providers?
-    answer: 'No. You can only belong to one KiwiSaver scheme at a time, so switching moves your whole balance to the new provider.'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
