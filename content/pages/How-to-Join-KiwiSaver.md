@@ -113,9 +113,8 @@ cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_subnote: Takes 2–5 minutes & It’s free
 seo:
-  title: How to Join KiwiSaver | Choose Your Scheme | BetterSaver
-  description: |
-    Joining KiwiSaver? Don’t just take the default. BetterSaver helps you choose a scheme that fits your situation and guides you through applying online in minutes.
+  title: 'How to Join KiwiSaver: Who Can Join and How | BetterSaver '
+  description: 'Who can join KiwiSaver, how to apply and what you need. BetterSaver recommends a fund that fits you, then guides you through joining online in minutes.'
   keywords: 'kiwisaver eligibility, how to join kiwisaver, how to apply for kiwisaver, how to set up kiwisaver, who can join kiwisaver, open kiwisaver account, should i join kiwisaver, starting kiwisaver'
   schema_type: WebPage
   custom_schema: |
