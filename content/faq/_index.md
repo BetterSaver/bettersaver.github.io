@@ -15,7 +15,7 @@ sections:
         include_in_faq: true
       - title: Can I switch KiwiSaver providers at any time?
         content: |
-          Yes. You can switch whenever you want.
+          Yes. You can switch whenever you want. [See how switching works.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/)
         include_in_faq: true
       - title: Do I need to tell my employer?
         content: |
