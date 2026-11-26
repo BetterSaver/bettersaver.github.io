@@ -327,7 +327,7 @@ For a full step-by-step walkthrough of the process, see our guide on [How to Cha
 
 ### How long does switching take?
 
-According to Inland Revenue, the [transfer process typically takes around two weeks](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/making-changes-to-my-kiwisaver/changing-to-another-provider) from start to finish once you've applied with your new provider. Some providers charge a transfer fee, so confirm this with both your current and prospective provider before you commit.
+According to Inland Revenue, the [transfer process typically takes around two weeks](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/making-changes-to-my-kiwisaver/changing-to-another-provider) from start to finish once you've applied with your new provider. KiwiSaver providers don't charge a fee to transfer your balance.
 
 ### Can I be with more than one KiwiSaver provider at once?
 
