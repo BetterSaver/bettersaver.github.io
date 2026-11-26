@@ -124,6 +124,8 @@ faq_items:
     answer: 'No. You can''t join KiwiSaver on a temporary, visitor, work or student visa. You can join once you''re entitled to live in New Zealand indefinitely, for example with a resident visa, and you live here.'
   - question: Can I join KiwiSaver if I'm under 18?
     answer: 'Yes, through a KiwiSaver provider rather than your employer. At 16 or 17 you need a parent or legal guardian to co-sign. From 16 you can get the government contribution, and your employer must contribute if you contribute from your pay.'
+  - question: Is joining KiwiSaver compulsory?
+    answer: 'No. KiwiSaver is voluntary, but if you start a new job your employer enrols you automatically. You can opt out between week 2 and week 8 of that job.'
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
