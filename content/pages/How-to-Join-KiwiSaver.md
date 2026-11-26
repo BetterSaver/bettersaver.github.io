@@ -120,6 +120,8 @@ faq_items:
     answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do. If you were automatically enrolled, you can opt out between week 2 and week 8. If you joined yourself, you can''t opt out.'
   - question: How long does it take to join KiwiSaver?
     answer: 'Applying through BetterSaver takes most people under 5 minutes. Your provider confirms your membership, and if you''re employed, deductions start from your next pay. For new members, Inland Revenue holds contributions for 2 months (62 days) before passing them to your provider.'
+  - question: Can I join KiwiSaver on a work visa?
+    answer: 'No. You can''t join KiwiSaver on a temporary, visitor, work or student visa. You can join once you''re entitled to live in New Zealand indefinitely, for example with a resident visa, and you live here.'
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
