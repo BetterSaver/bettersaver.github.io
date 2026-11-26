@@ -56,6 +56,8 @@ sections:
 
           You can apply for a break ranging from 3 months up to 1 year, and you can reapply each year if needed
 
+          You can apply once you've been a member for 12 months (earlier only if you're in financial hardship)
+
           Taking a contributions holiday means your employer stops contributing too, so it's worth weighing up whether the break is worth losing that free money
   - id: Choosing the right fund
     label: Choosing the right fund
