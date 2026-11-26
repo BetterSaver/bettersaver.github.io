@@ -117,7 +117,7 @@ faq_items:
   - question: How do I open a KiwiSaver account without an employer?
     answer: 'You can apply directly through a KiwiSaver provider, or through BetterSaver. We’ll help you choose a scheme based on your situation, then guide you through the application online. You don’t need to be employed to join.'
   - question: What is the difference between joining and being automatically enrolled?
-    answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do.'
+    answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do. If you were automatically enrolled, you can opt out between week 2 and week 8. If you joined yourself, you can''t opt out.'
   - question: How long does it take to join KiwiSaver?
     answer: 'Applying through BetterSaver takes most people under 5 minutes. Your provider confirms your membership, and if you''re employed, deductions start from your next pay. For new members, Inland Revenue holds contributions for 2 months (62 days) before passing them to your provider.'
 cta_heading: Start your KiwiSaver the right way
