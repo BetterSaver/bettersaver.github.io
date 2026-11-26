@@ -1,20 +1,4 @@
 ---
-draft: false
-title: How to Change Your KiwiSaver Provider
-description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
-featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
-icon_path: /images/illustration-boots.svg
-icon_class: boots
-date: 2026-08-17T03:00:00.000Z
-page_block: block-how-to-change-provider
-intro_tag: Why switch
-intro_heading: Should you switch your KiwiSaver provider?
-intro_body_2: |-
-  Most people are enrolled in KiwiSaver automatically when they start their first job. If you didn’t choose a provider yourself, you were likely placed into a default scheme - one of six government-selected options. That’s fine as a starting point. But it might not be the right scheme for where you are now.
-
-  BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect.
-intro_cta_label: Get my fund recommendation
-intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 why_tag: Why BetterSaver
 why_heading: Why switch your KiwiSaver provider through BetterSaver?
 why_body: |
@@ -32,6 +16,48 @@ why_cards:
     description: Most people are done in under five minutes. We handle the paperwork and pass your application to the provider to finalise.
   - title: It’s transparent.
     description: 'We publish the full list of schemes we assess - including the ones we don’t recommend and why. You can read exactly [how we analyse KiwiSaver schemes](/pages/how-we-analyse) before you start.'
+who_tag: Who am I with?
+who_heading: How do I find out who my KiwiSaver provider is?
+who_body: |
+  Not sure who holds your KiwiSaver? You’re not alone. A lot of people were enrolled automatically when they started a job and haven’t looked at it since.
+
+  There are a few quick ways to check:
+who_cards:
+  - title: Log in to myIR on the Inland Revenue website.
+    description: Your KiwiSaver provider is listed under your KiwiSaver details.
+  - title: Look for emails or annual statements.
+    description: You’d have received correspondence when you were first enrolled - search your inbox for the name of a KiwiSaver provider.
+who_footnote: 'Once you know who your provider is, it’s worth taking five minutes to find out whether they’re still the right fit. BetterSaver can show you how your current scheme compares and whether switching makes sense for your situation.'
+new_cta_label: Find out how to join KiwiSaver
+new_cta_url: /pages/how-to-join-kiwisaver/
+choose_tag: Choosing a scheme
+choose_heading: Which KiwiSaver scheme should you switch to?
+choose_body: |
+  There’s no single answer - and anyone who says otherwise is oversimplifying. The right KiwiSaver scheme depends on your timeframe, how comfortable you are with your balance moving up and down, and whether you have any preferences about how your money is invested.
+
+  That said, there are four things worth looking at for any scheme: how it’s performed over the long term against comparable schemes, whether the fees are reasonable for what you’re getting, how consistent the returns have been through different market conditions, and whether there are any red flags in how the scheme is run.
+
+  BetterSaver assesses every KiwiSaver scheme in New Zealand against those four criteria, using data from Morningstar and fund providers. We review the list regularly and publish our full shortlist — including the schemes that don’t make the cut and why.
+choose_cta_label: View our recommended KiwiSaver schemes
+choose_cta_url: /recommended-kiwisaver-funds/
+choose_footnote: 'If you’d rather skip straight to a recommendation, answer a few quick questions and we’ll match you with a scheme that suits your situation.'
+cta_body: Not sure you’re in the right scheme? Tell us a bit about yourself and we’ll show you what your options look like. Switching KiwiSaver providers is easier than most people think.
+draft: false
+title: How to Change Your KiwiSaver Provider
+description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
+featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
+icon_path: /uploads/images/illustration-boots.svg
+icon_class: boots
+date: 2026-08-17T03:00:00.000Z
+page_block: block-how-to-change-provider
+intro_tag: Why switch
+intro_heading: Should you switch your KiwiSaver provider?
+intro_body_2: |-
+  Most people are enrolled in KiwiSaver automatically when they start their first job. If you didn’t choose a provider yourself, you were likely placed into a default scheme - one of six government-selected options. That’s fine as a starting point. But it might not be the right scheme for where you are now.
+
+  BetterSaver helps you check whether your current scheme still fits, recommends a better option if it doesn’t, and guides you through switching online. You can change your KiwiSaver provider at any time - there’s no lock-in, and the process is simpler than most people expect.
+intro_cta_label: Get my fund recommendation
+intro_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 how_tag: How it works
 how_heading: Switch KiwiSaver providers in three simple steps.
 how_subheading: Most people are done in under five minutes. We guide you the whole way.
@@ -45,18 +71,6 @@ how_steps:
   - number: '03'
     title: We guide you through the switch
     description: Complete an application on the BetterSaver website. We capture what's needed and pass it to your chosen provider to finalise. Most people are done in under 5 minutes.
-who_tag: Who am I with?
-who_heading: How do I find out who my KiwiSaver provider is?
-who_body: |
-  Not sure who holds your KiwiSaver? You’re not alone. A lot of people were enrolled automatically when they started a job and haven’t looked at it since.
-
-  There are a few quick ways to check:
-who_cards:
-  - title: Log in to myIR on the Inland Revenue website.
-    description: Your KiwiSaver provider is listed under your KiwiSaver details.
-  - title: Look for emails or annual statements.
-    description: 'You’d have received correspondence when you were first enrolled - search your inbox for the name of a KiwiSaver provider.'
-who_footnote: 'Once you know who your provider is, it’s worth taking five minutes to find out whether they’re still the right fit. BetterSaver can show you how your current scheme compares and whether switching makes sense for your situation.'
 need_tag: Before you start
 need_heading: What you'll need to change KiwiSaver.
 need_subheading: Having these handy speeds things up.
@@ -116,8 +130,6 @@ new_body_2: |-
   If you’re self-employed, have opted out previously, or are a new resident who hasn’t joined yet, you can still use BetterSaver to choose a scheme and join online.
 
   The process is the same: a few quick questions, a scheme recommendation, then an application with your chosen provider.
-new_cta_label: Find out how to join KiwiSaver
-new_cta_url: /pages/how-to-join-kiwisaver/
 costs_tag: Transparency
 costs_heading: What it costs and how we're paid.
 costs_cards:
@@ -178,27 +190,14 @@ faq_items:
       Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) by notifying your employer in writing. This is handled directly with your employer and is separate from switching providers.
 
       Both changes can be made independently, or at the same time.
-choose_tag: Choosing a scheme
-choose_heading: Which KiwiSaver scheme should you switch to?
-choose_body: |
-  There’s no single answer - and anyone who says otherwise is oversimplifying. The right KiwiSaver scheme depends on your timeframe, how comfortable you are with your balance moving up and down, and whether you have any preferences about how your money is invested.
-
-  That said, there are four things worth looking at for any scheme: how it’s performed over the long term against comparable schemes, whether the fees are reasonable for what you’re getting, how consistent the returns have been through different market conditions, and whether there are any red flags in how the scheme is run.
-
-  BetterSaver assesses every KiwiSaver scheme in New Zealand against those four criteria, using data from Morningstar and fund providers. We review the list regularly and publish our full shortlist — including the schemes that don’t make the cut and why.
-choose_cta_label: View our recommended KiwiSaver schemes
-choose_cta_url: /recommended-kiwisaver-funds/
-choose_footnote: 'If you’d rather skip straight to a recommendation, answer a few quick questions and we’ll match you with a scheme that suits your situation.'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
-cta_body: 'Not sure you’re in the right scheme? Tell us a bit about yourself and we’ll show you what your options look like. Switching KiwiSaver providers is easier than most people think.'
 cta_subnote: Takes 2–5 minutes & It's free
 seo:
-  title: How to Change KiwiSaver Provider | BetterSaver
-  description: |
-    Change your KiwiSaver provider online in minutes. BetterSaver recommends the right scheme for your situation and walks you through it online in minutes.
+  title: 'How to Change or Switch KiwiSaver Provider | BetterSaver '
+  description: Change or switch your KiwiSaver provider online. BetterSaver recommends a fund that fits you and sends your application to the provider.
   keywords: 'how to change kiwisaver provider, change kiwisaver provider, transfer kiwisaver, change kiwisaver contribution'
   schema_type: WebPage
   custom_schema: |
