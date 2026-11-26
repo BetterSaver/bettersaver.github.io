@@ -66,11 +66,15 @@ need_items:
 need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 auto_tag: Automatic enrolment
-auto_heading: What if I’m automatically enrolled through work?
+auto_heading: 'If you''re new to working, how do you enrol in KiwiSaver?'
 auto_body: |-
-  When you start a new job, your employer is required to automatically enrol you in KiwiSaver unless you opt out within the first few weeks. If you don’t choose a provider, you’re assigned to one of six government-selected default schemes.
+  Your employer enrols you automatically when you start a new job, if you're 18 to 65 and on a contract longer than 28 days. Deductions of 3.5% start from your first pay, unless you choose 4%, 6%, 8% or 10%. If you don't choose a provider, you're placed in your employer's chosen scheme or one of six default schemes.
 
-  You can opt out - but for most people, staying in makes financial sense given the employer contributions and government top-up. What you don’t have to accept is the default scheme. You can choose your own provider from day one, or switch after the fact.
+  You don't have to accept the default. You can choose your own provider before your first pay, or switch your KiwiSaver provider at any time after.
+
+  Can I opt out of KiwiSaver?
+
+  Only if you were automatically enrolled, and only between week 2 and week 8 of your new job. If you joined yourself, you can't opt out, but once you've been a member for 12 months you can take a savings suspension of 3 months to a year.
 auto_cta_label: How to change your KiwiSaver provider
 auto_cta_url: /pages/how-to-change-your-kiwisaver-provider/
 choose_tag: Ready to join
