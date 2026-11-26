@@ -119,7 +119,7 @@ faq_items:
   - question: What is the difference between joining and being automatically enrolled?
     answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do.'
   - question: How long does it take to join KiwiSaver?
-    answer: 'Applying through BetterSaver takes most people under 5 minutes. Once your application is submitted, your provider will confirm your enrolment and your contributions will begin from your next pay.'
+    answer: 'Applying through BetterSaver takes most people under 5 minutes. Your provider confirms your membership, and if you''re employed, deductions start from your next pay. For new members, Inland Revenue holds contributions for 2 months (62 days) before passing them to your provider.'
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
