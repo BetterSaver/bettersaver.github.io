@@ -95,8 +95,7 @@ switch_cards:
     description: 'Inland Revenue says changing provider takes about 2 weeks. Some transfers finish sooner, depending on the providers involved. We''ll notify you once your switch is complete.'
   - label: Out of market
     title: Is my money out of the market when I switch KiwiSaver?
-    description: |
-      There's usually a short processing period when your balance is transferred between providers. This is normal for KiwiSaver switches - usually within the same few business days as the transfer itself.
+    description: 'Yes, for part of the transfer. Your old provider sells your investments and sends your balance to your new provider as cash. It isn''t invested while it moves, so you won''t gain or lose from market movements in that time.'
 paths_tag: Two paths
 paths_heading: Switching KiwiSaver through BetterSaver.
 paths_subheading: 'Some providers connect directly with our platform. Others don''t. Either way, we can help.'
