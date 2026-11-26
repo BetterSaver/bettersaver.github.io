@@ -99,6 +99,12 @@ switch_cards:
   - label: Provider or Fund?
     title: Switching provider or switching fund?
     description: 'Switching fund moves your money to a different fund with the same provider, usually in your provider''s app or online account. Switching provider moves your whole balance to a different company. If your current provider already has a fund that suits you, switching fund may be all you need.'
+  - label: After Kiwisaver Switch
+    title: 'After you switch: what to check'
+    description: |-
+      Your PIR (prescribed investor rate) with your new provider, so you're taxed at the right rate.
+      Any direct debits for voluntary payments: point them to your new provider.
+      Your contribution rate. Switching provider doesn't change it.
 paths_tag: Two paths
 paths_heading: Switching KiwiSaver through BetterSaver.
 paths_subheading: 'Some providers connect directly with our platform. Others don''t. Either way, we can help.'
