@@ -43,7 +43,7 @@ choose_cta_url: /recommended-kiwisaver-funds/
 choose_footnote: 'If you’d rather skip straight to a recommendation, answer a few quick questions and we’ll match you with a scheme that suits your situation.'
 cta_body: Not sure you’re in the right scheme? Tell us a bit about yourself and we’ll show you what your options look like. Switching KiwiSaver providers is easier than most people think.
 draft: false
-title: How to Change Your KiwiSaver Provider
+title: How to Change or Switch KiwiSaver Provider
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
 icon_path: /uploads/images/illustration-boots.svg
@@ -75,9 +75,9 @@ need_tag: Before you start
 need_heading: What you'll need to change KiwiSaver.
 need_subheading: Having these handy speeds things up.
 need_items:
-  - text: Your email address and mobile number.
+  - text: The name of your current KiwiSaver provider (check myIR if you're not sure).
   - text: 'Your IRD number (helpful, though not always required straight away).'
-  - text: A form of ID for online verification — usually a driver licence or passport.
+  - text: A form of ID for online verification - usually a driver licence or passport.
 need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 switch_tag: During the switch
