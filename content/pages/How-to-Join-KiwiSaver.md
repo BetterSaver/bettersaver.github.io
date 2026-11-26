@@ -122,6 +122,8 @@ faq_items:
     answer: 'Applying through BetterSaver takes most people under 5 minutes. Your provider confirms your membership, and if you''re employed, deductions start from your next pay. For new members, Inland Revenue holds contributions for 2 months (62 days) before passing them to your provider.'
   - question: Can I join KiwiSaver on a work visa?
     answer: 'No. You can''t join KiwiSaver on a temporary, visitor, work or student visa. You can join once you''re entitled to live in New Zealand indefinitely, for example with a resident visa, and you live here.'
+  - question: Can I join KiwiSaver if I'm under 18?
+    answer: 'Yes, through a KiwiSaver provider rather than your employer. At 16 or 17 you need a parent or legal guardian to co-sign. From 16 you can get the government contribution, and your employer must contribute if you contribute from your pay.'
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
