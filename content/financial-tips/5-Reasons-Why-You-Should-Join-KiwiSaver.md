@@ -249,7 +249,7 @@ The minimum employee contribution rate is 3.5% of your gross pay. You can also e
 
 **Can I use KiwiSaver to buy my first home?**
 
-Yes, after three years of membership. You can withdraw most of your balance (excluding the government contribution) to put toward the purchase of your first home in New Zealand. The property needs to be your main residence. Your provider handles the withdrawal, and the process typically takes a few weeks. Plan well ahead of your settlement date.
+Yes, after three years of membership. You can withdraw most of your balance, including the government contribution, but must leave $1,000 in your account, to put toward the [purchase of your first home in New Zealand](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/getting-my-kiwisaver-funds-early/getting-my-kiwisaver-for-my-first-home). The property needs to be your main residence. Your provider handles the withdrawal, and the process typically takes a few weeks. Plan well ahead of your settlement date.
 
 **What happens to my KiwiSaver if I change jobs?**
 
