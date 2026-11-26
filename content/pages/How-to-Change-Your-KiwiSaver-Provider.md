@@ -85,6 +85,7 @@ switch_tag: During the switch
 switch_heading: What happens when you switch KiwiSaver providers.
 switch_subheading: Your KiwiSaver account stays in your name throughout. You're moving your balance to a new provider and a new scheme — nothing is lost in the process.
 switch_items:
+  - text: You don't need to tell your old provider. Your new provider contacts them and Inland Revenue for you.
   - text: 'Employer contributions keep going as normal. In most cases, you don''t need to tell your employer.'
   - text: Government contributions still apply. Switching doesn't reset your member tax credit eligibility.
   - text: 'Your current provider transfers the value of your account to the new provider, which invests it into your chosen scheme.'
