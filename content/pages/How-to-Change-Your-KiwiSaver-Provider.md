@@ -195,7 +195,7 @@ faq_items:
       There are two main things you can change:
 
       Your provider and scheme - you can switch to a different KiwiSaver provider at any time. There's no lock-in, and BetterSaver can guide you through the process online in under five minutes.
-      Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) by notifying your employer in writing. This is handled directly with your employer and is separate from switching providers.
+      Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) through your employer, myIR or your provider, once every 3 months. This is separate from switching providers.
 
       Both changes can be made independently, or at the same time.
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
