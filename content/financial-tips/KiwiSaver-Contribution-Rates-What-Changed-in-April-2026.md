@@ -218,7 +218,7 @@ Not exactly. Employers must contribute a minimum of 3.5% from 1 April 2026. If y
 
 **Can I change my contribution rate whenever I want?**
 
-Yes. The rates you can choose are 3.5% (the default), 4%, 6%, 8% and 10%. You can drop to 3% for 3 to 12 months with a temporary rate reduction through myIR. Talk to your employer's payroll team or update your rate through your myIR account.
+Yes, once every 3 months, or sooner if your employer agrees. Talk to your employer's payroll team, or change it in myIR or through your provider. The rates you can choose are 3.5% (the default), 4%, 6%, 8% and 10%. You can drop to 3% for 3 to 12 months with a temporary rate reduction through myIR. 
 
 **Will the rate go up again?**
 
