@@ -159,7 +159,7 @@ Explained simply: you put money in, your employer puts money in, the government 
 
 ## How to Join KiwiSaver
 
-If you're wondering how to join KiwiSaver, there are three ways:
+If you're wondering [how to join KiwiSaver](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/), there are three ways:
 
 #### Automatic Enrolment Through a New Job
 
@@ -261,7 +261,7 @@ Yes. You can apply for a savings suspension (also called a contributions holiday
 
 **Is it too late to join KiwiSaver?**
 
-No. You can join at any age, and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution.
+No. [You can join at any age](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/), and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution.
 
 **How do I know if I'm in the right fund?**
 
