@@ -26,7 +26,7 @@ step2_how_items:
   - text: 'Find the fund that fits you, not just your employer''s default or your bank''s first option'
   - text: Handle the switch from start to finish once you're happy
 step2_ready_heading: ''
-step2_footer: 'Most switches complete within a few working days, with updates along the way and nothing to chase on your end.'
+step2_footer: 'Most switches complete within about 2 weeks, with updates along the way and nothing to chase on your end.'
 step3_heading: We Keep Watching So You Don't Have To
 step3_body: 'Switching to a better scheme is the start. Your life changes: new job, new salary, closer to buying a home, thinking about retirement. Each of those moments can mean your KiwiSaver needs a second look.'
 step3_get_heading: 'What you get after you switch:'
