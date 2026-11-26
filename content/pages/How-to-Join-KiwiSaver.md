@@ -36,7 +36,7 @@ why_cards:
   - title: Employer contributions.
     description: 'If you’re employed, your employer must contribute a minimum of 3.5% of your before-tax pay on top of your own contributions. That’s money you don’t get if you save elsewhere.'
   - title: Government contributions.
-    description: 'The government adds 25 cents for every dollar you contribute, up to $260.72 a year. To get the full amount you need to contribute at least $1,042.86 between 1 July and 30 June, and earn $180,000 or less.'
+    description: 'The government adds 25 cents for every dollar you contribute, up to $260.72 a year. To get the full amount you need to contribute at least $1,042.86 between 1 July and 30 June, and earn $180,000 or less. It''s available from age 16 to 65.'
   - title: First home withdrawal.
     description: 'After three years in KiwiSaver, you may be able to withdraw most of your savings to put toward buying your first home. There are eligibility conditions - but for many first-home buyers, it’s a meaningful contribution to a deposit.'
   - title: If you’re self-employed.
