@@ -198,6 +198,8 @@ faq_items:
       Your contribution rate - you can adjust how much of your pay goes into KiwiSaver (3.5%, 4%, 6%, 8%, or 10%) through your employer, myIR or your provider, once every 3 months. This is separate from switching providers.
 
       Both changes can be made independently, or at the same time.
+  - question: Do I need to tell my old provider or my employer?
+    answer: 'No. Your new provider contacts your old provider and Inland Revenue, and your employer''s deductions carry on as normal. You only need to talk to your employer if you also want to change your contribution rate.'
 privacy_body: '**Your information stays yours** — used only to recommend, help you switch, and support you as a member, with secure online identity verification.'
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
