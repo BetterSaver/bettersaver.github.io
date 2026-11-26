@@ -19,7 +19,7 @@ eligible_subheading: 'KiwiSaver is open to you if you are:'
 eligible_items:
   - text: 'A New Zealand citizen, or entitled to live in New Zealand indefinitely'
   - text: 'Living in New Zealand, or normally resident here.'
-  - text: 'Any age — there’s no upper age limit, though the government contribution and compulsory employer contributions stop at 65.'
+  - text: 'Any age. There''s no upper age limit. The government contribution is available from age 16 to 65, and compulsory employer contributions stop at 65.'
 eligible_footnote: 'You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).'
 why_tag: Why join
 why_heading: Should I join KiwiSaver?
