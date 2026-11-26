@@ -20,7 +20,14 @@ eligible_items:
   - text: 'A New Zealand citizen, or entitled to live in New Zealand indefinitely'
   - text: 'Living in New Zealand, or normally resident here.'
   - text: 'Any age. There''s no upper age limit. The government contribution is available from age 16 to 65, and compulsory employer contributions stop at 65.'
-eligible_footnote: 'You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).'
+eligible_footnote: |-
+  You can't join KiwiSaver on a temporary, visitor, work or student visa. Once you're entitled to live in New Zealand indefinitely, for example with a resident visa, you can join.
+
+  Joining under 18
+
+  If you're under 18, you join through a KiwiSaver provider, not your employer. At 16 or 17, a parent or legal guardian co-signs your application. Under 16, a guardian applies for you.
+
+  You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).
 why_tag: Why join
 why_heading: Should I join KiwiSaver?
 why_body: |
