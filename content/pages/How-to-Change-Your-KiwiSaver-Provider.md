@@ -92,7 +92,7 @@ switch_items:
 switch_cards:
   - label: Timing
     title: How long does it take to switch KiwiSaver providers?
-    description: 'Switching usually takes a few business days, though it can sometimes take a little longer depending on the providers involved. We''ll notify you once your switch is complete.'
+    description: 'Inland Revenue says changing provider takes about 2 weeks. Some transfers finish sooner, depending on the providers involved. We''ll notify you once your switch is complete.'
   - label: Out of market
     title: Is my money out of the market when I switch KiwiSaver?
     description: |
