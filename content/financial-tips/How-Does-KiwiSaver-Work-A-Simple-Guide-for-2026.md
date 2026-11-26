@@ -181,7 +181,7 @@ Once you’re a KiwiSaver member, your account is funded from three sources. Und
 
 #### Your Contributions
 
-As an employee, a percentage of your gross (before-tax) pay is deducted each payday and sent to your KiwiSaver account through Inland Revenue. The default contribution rate is 3.5% of your earnings. You can also choose to contribute at 3%, 4%, 6%, 8% or 10%.
+As an employee, a percentage of your gross (before-tax) pay is deducted each payday and sent to your KiwiSaver account through Inland Revenue. The default contribution rate is 3.5% of your earnings. You can also choose to contribute at 4%, 6%, 8% or 10%.
 
 How much money you put into your KiwiSaver is a personal decision that depends on your income, your goals and what you can afford right now. A higher rate means less take-home pay but more going towards your future. You can[ change your contribution rate ](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works)at any time by contacting your employer or updating it through myIR.
 
