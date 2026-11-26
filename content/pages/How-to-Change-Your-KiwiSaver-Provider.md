@@ -96,6 +96,9 @@ switch_cards:
   - label: Out of market
     title: Is my money out of the market when I switch KiwiSaver?
     description: 'Yes, for part of the transfer. Your old provider sells your investments and sends your balance to your new provider as cash. It isn''t invested while it moves, so you won''t gain or lose from market movements in that time.'
+  - label: Provider or Fund?
+    title: Switching provider or switching fund?
+    description: 'Switching fund moves your money to a different fund with the same provider, usually in your provider''s app or online account. Switching provider moves your whole balance to a different company. If your current provider already has a fund that suits you, switching fund may be all you need.'
 paths_tag: Two paths
 paths_heading: Switching KiwiSaver through BetterSaver.
 paths_subheading: 'Some providers connect directly with our platform. Others don''t. Either way, we can help.'
