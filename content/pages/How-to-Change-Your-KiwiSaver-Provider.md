@@ -78,6 +78,7 @@ need_items:
   - text: The name of your current KiwiSaver provider (check myIR if you're not sure).
   - text: 'Your IRD number (helpful, though not always required straight away).'
   - text: A form of ID for online verification - usually a driver licence or passport.
+  - text: Your email address and mobile number.
 need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 switch_tag: During the switch
