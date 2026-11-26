@@ -153,7 +153,7 @@ If you’re employed, you might already be enrolled without realising it. If you
 
 KiwiSaver is a work-based savings scheme where your contributions are topped up by your employer, and in many cases, by the government too. It’s one of the few financial decisions where the structure itself does a lot of the heavy lifting for you.
 
-This article discusses five specific reasons why joining KiwiSaver is worth doing. It covers the money available to you right now, how it can help you into your first home and why starting earlier makes a bigger difference than most people expect.
+This article discusses five specific reasons why [joining KiwiSaver](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/) is worth doing. It covers the money available to you right now, how it can help you into your first home and why starting earlier makes a bigger difference than most people expect.
 
 Key takeaways:
 
@@ -241,7 +241,7 @@ KiwiSaver is voluntary, but there’s an automatic enrolment system in place. If
 
 **Can I join KiwiSaver if I’m self-employed or not working?**
 
-Yes. Anyone who is a New Zealand citizen or entitled to live in New Zealand indefinitely and currently lives here can join KiwiSaver, regardless of employment status. If you’re self-employed, you make voluntary contributions directly to your chosen provider. You can still qualify for the government contribution of up to $260.72 per year as long as you contribute at least $1,042.86 of your own money by 30 June.
+Yes. Anyone who is a New Zealand citizen or entitled to live in New Zealand indefinitely and currently lives here can[ join KiwiSaver](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/), regardless of employment status. If you’re self-employed, you make voluntary contributions directly to your chosen provider. You can still qualify for the government contribution of up to $260.72 per year as long as you contribute at least $1,042.86 of your own money by 30 June.
 
 **How much should I contribute to KiwiSaver?**
 
@@ -253,7 +253,7 @@ Yes, after three years of membership. You can withdraw most of your balance, inc
 
 **What happens to my KiwiSaver if I change jobs?**
 
-Your KiwiSaver stays with you. It’s not tied to your employer. When you move to a new job, your contributions continue going into the same fund through your new employer’s payroll. You can also switch providers at any time if you want to move your balance to a different fund.
+Your KiwiSaver stays with you. It’s not tied to your employer. When you move to a new job, your contributions continue going into the same fund through your new employer’s payroll. You can also [switch providers](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) at any time if you want to move your balance to a different fund.
 
 **What’s the difference between a KiwiSaver provider and an advisor like BetterSaver?**
 
@@ -261,7 +261,7 @@ A KiwiSaver provider is the organisation that manages your money (ANZ, Milford, 
 
 ## The Longer You Wait, The More You Leave Behind
 
-Joining KiwiSaver is one of the more straightforward financial decisions most Kiwis can make. The longer you wait, the more you leave behind, particularly when it comes to employer contributions and the compounding effect of time in the market.
+[Joining KiwiSaver ](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/)is one of the more straightforward financial decisions most Kiwis can make. The longer you wait, the more you leave behind, particularly when it comes to employer contributions and the compounding effect of time in the market.
 
 If you’re already enrolled but haven’t reviewed your fund in a while, that’s worth doing too. The right fund type makes a material difference to your long-term balance, and most Kiwis are in a default fund that may not be optimised for their stage of life.
 
