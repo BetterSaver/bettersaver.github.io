@@ -261,7 +261,7 @@ If you want the fuller picture of how contributions, funds and providers fit tog
 
 Anyone eligible [can join KiwiSaver directly](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver/joining-kiwisaver-if-im-self-employed-or-not-working) with a provider, including self-employed people, contractors and people who aren't currently working.
 
-Auto-enrolment only ever happens through an employer, so if you fall into this group, you'll need to apply directly rather than wait for it to happen on its own. The main difference is that there's no employer matching your contributions.
+Auto-enrolment only ever happens through an employer, so if you fall into this group, you'll need to [apply directly ](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/)rather than wait for it to happen on its own. The main difference is that there's no employer matching your contributions.
 
 You're still eligible for the annual government contribution, though, as long as you meet the minimum contribution threshold each year.
 
