@@ -39,7 +39,7 @@ independent_tag: Independent advice
 independent_heading: Why Independent KiwiSaver Advice Matters
 independent_body:
   - text: 'If you go direct to a KiwiSaver provider, they''ll recommend their own scheme. That''s not a criticism - it''s just how it works. Banks and fund managers are there to run their products, not to compare themselves to the competition.'
-  - text: 'BetterSaver is different. We''re not affiliated with any provider. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.'
+  - text: 'BetterSaver is different. We''re not affiliated with any provider. Payments from providers don''t influence which funds we recommend. Our advice is based on the data, your goals, and nothing else.'
   - text: That's what independent KiwiSaver advice looks like - and it's what you should expect.
 audience_tag: Who it's for
 audience_heading: Who Our KiwiSaver Advice Is For
