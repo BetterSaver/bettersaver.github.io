@@ -16,9 +16,9 @@
   </div> -->
 
   {{/* ANSWER FIRST — short direct answer to the page's question, above the intro.
-       A grey band of its own, so the white/grey zebra below it is unchanged. */}}
+       White, like every other page that opens with this hero. Sections below alternate grey/white from here, ending at the navy block. */}}
   {{ with .Params.answer_heading }}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="framing">
         <div>
@@ -34,7 +34,7 @@
   {{ end }}
 
   {{/* INTRO / FRAMING */}}
-  <div class="py-9">
+  <div class="band-grey">
     <div class="hwa-page">
       <section>
         <div class="framing">
@@ -52,7 +52,7 @@
   </div>
 
   {{/* WHY BETTERSAVER */}}
-  <section class="band-grey">
+  <section class="pb-9">
     <div class="hwa-page">
       <div class="checks-head prose-head">
         <div class="section-tag">{{ .Params.why_tag }}</div>
@@ -62,7 +62,7 @@
 
       <div class="twocol">
         {{ range .Params.why_cards }}
-        <div class="tcard white">
+        <div class="tcard">
           <h3>{{ .title | markdownify }}</h3>
           <p>{{ .description | markdownify }}</p>
         </div>
@@ -72,7 +72,7 @@
   </section>
 
   {{/* HOW IT WORKS — three steps */}}
-  <section class="py-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="principles-head">
         <div class="section-tag">{{ .Params.how_tag }}</div>
@@ -92,7 +92,7 @@
   </section>
 
   {{/* FINDING YOUR CURRENT PROVIDER */}}
-  <section class="band-grey">
+  <section class="pb-9">
     <div class="hwa-page">
       <div class="checks-head prose-head">
         <div class="section-tag">{{ .Params.who_tag }}</div>
@@ -102,7 +102,7 @@
 
       <div class="twocol">
         {{ range .Params.who_cards }}
-        <div class="tcard white">
+        <div class="tcard">
           <h3>{{ .title | markdownify }}</h3>
           <p>{{ .description | markdownify }}</p>
         </div>
@@ -116,7 +116,7 @@
   </section>
 
   {{/* WHAT YOU'LL NEED */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head">
         <div class="section-tag">{{ .Params.need_tag }}</div>
@@ -137,10 +137,11 @@
           </div>
       </div>
     </div>
+    </div>
   </section>
 
   {{/* WHAT HAPPENS WHEN YOU SWITCH */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="mb-2">
         <div class="section-tag">{{ .Params.switch_tag }}</div>
@@ -155,7 +156,7 @@
 
       <div class="twocol" style="margin-top:48px">
         {{ range .Params.switch_cards }}
-        <div class="tcard white">
+        <div class="tcard">
           <div class="tlab">{{ .label }}</div>
           <h3>{{ .title | markdownify }}</h3>
           <div class="tdesc">{{ .description | markdownify }}</div>
@@ -166,7 +167,7 @@
   </div>
 
   {{/* SWITCHING THROUGH BETTERSAVER */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head">
         <div class="section-tag">{{ .Params.paths_tag }}</div>
@@ -194,7 +195,7 @@
   </section>
 
   {{/* CONTRIBUTION RATE */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="">
         <div class="section-tag">{{ .Params.contrib_tag }}</div>
@@ -214,7 +215,7 @@
   </div>
 
   {{/* NOT IN KIWISAVER YET */}}
-  <section class="py-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="framing">
         <div>
@@ -232,14 +233,14 @@
   </section>
 
   {{/* COSTS & PAYMENT */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="section-tag">{{ .Params.costs_tag }}</div>
       <h2 style="margin-bottom:48px">{{ .Params.costs_heading | markdownify }}</h2>
 
       <div class="twocol">
         {{ range .Params.costs_cards }}
-        <div class="tcard white">
+        <div class="tcard">
           <div class="tlab">{{ .label }}</div>
           <h3>{{ .title | markdownify }}</h3>
           <p>{{ .description | markdownify }}</p>
@@ -256,7 +257,7 @@
   </div>
 
   {{/* WHICH SCHEME TO SWITCH TO — CTA links to /recommended-kiwisaver-funds/ */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head prose-head">
         <div class="section-tag">{{ .Params.choose_tag }}</div>

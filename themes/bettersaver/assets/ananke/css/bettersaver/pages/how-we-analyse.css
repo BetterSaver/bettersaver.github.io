@@ -1412,6 +1412,11 @@
     background: var(--grey-bg-mid);
 }
 
+/* A principle card on a grey band goes back to the base white. */
+.change-provider-page .band-grey .principle {
+    background: #fff;
+}
+
 /* Full-width intro copy ("Why BetterSaver", "Who am I with?"). These
    checks-heads run the full page width, unlike the others which sit in a
    two-column grid, so constrain the running copy to a readable measure and
