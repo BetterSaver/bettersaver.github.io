@@ -26,7 +26,7 @@ step2_how_items:
   - text: 'Find the fund that fits you, not just your employer''s default or your bank''s first option'
   - text: Handle the switch from start to finish once you're happy
 step2_ready_heading: ''
-step2_footer: 'Most switches complete within a few working days, with updates along the way and nothing to chase on your end.'
+step2_footer: 'Most switches complete within about 2 weeks, with updates along the way and nothing to chase on your end.'
 step3_heading: We Keep Watching So You Don't Have To
 step3_body: 'Switching to a better scheme is the start. Your life changes: new job, new salary, closer to buying a home, thinking about retirement. Each of those moments can mean your KiwiSaver needs a second look.'
 step3_get_heading: 'What you get after you switch:'
@@ -39,7 +39,7 @@ independent_tag: Independent advice
 independent_heading: Why Independent KiwiSaver Advice Matters
 independent_body:
   - text: 'If you go direct to a KiwiSaver provider, they''ll recommend their own scheme. That''s not a criticism - it''s just how it works. Banks and fund managers are there to run their products, not to compare themselves to the competition.'
-  - text: 'BetterSaver is different. We''re not affiliated with any provider. No scheme pays us to be recommended. Our advice is based on the data, your goals, and nothing else.'
+  - text: 'BetterSaver is different. We''re not affiliated with any provider. Payments from providers don''t influence which funds we recommend. Our advice is based on the data, your goals, and nothing else.'
   - text: That's what independent KiwiSaver advice looks like - and it's what you should expect.
 audience_tag: Who it's for
 audience_heading: Who Our KiwiSaver Advice Is For

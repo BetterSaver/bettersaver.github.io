@@ -15,7 +15,7 @@ sections:
         include_in_faq: true
       - title: Can I switch KiwiSaver providers at any time?
         content: |
-          Yes. You can switch whenever you want.
+          Yes. You can switch whenever you want. [See how switching works.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/)
         include_in_faq: true
       - title: Do I need to tell my employer?
         content: |
@@ -25,7 +25,7 @@ sections:
         include_in_faq: false
       - title: How long does switching take?
         content: |
-          Often a few business days. Sometimes it takes longer, depending on the providers involved and whether any extra checks are needed.
+          About 2 weeks, according to Inland Revenue. Some switches finish sooner, depending on the providers involved and whether extra checks are needed.
         include_in_faq: false
       - title: Do I have to be employed to join KiwiSaver?
         content: |
@@ -35,7 +35,7 @@ sections:
           No. Your KiwiSaver is held for you under a trust structure. Your provider manages it, but it is your money, and the government can not access it.
       - title: I do not have a KiwiSaver account yet. How can I join?
         content: |
-          You can join KiwiSaver by signing up directly with a provider or via BetterSaver. BetterSaver can help you choose a fund from the start, then guide you through joining based on your goals and risk comfort.
+          You can [join KiwiSaver](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/) by signing up directly with a provider or via BetterSaver. BetterSaver can help you choose a fund from the start, then guide you through joining based on your goals and risk comfort.
   - id: Contributions
     label: 'Contributions '
     items:
@@ -55,6 +55,8 @@ sections:
           Yes, you can! It's called a contributions holiday (or savings suspension), and you apply for it through Inland Revenue.
 
           You can apply for a break ranging from 3 months up to 1 year, and you can reapply each year if needed
+
+          You can apply once you've been a member for 12 months (earlier only if you're in financial hardship)
 
           Taking a contributions holiday means your employer stops contributing too, so it's worth weighing up whether the break is worth losing that free money
   - id: Choosing the right fund

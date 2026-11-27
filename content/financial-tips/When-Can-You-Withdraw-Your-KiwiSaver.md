@@ -214,8 +214,7 @@ Here's what you need to know:
 
 * You must have been a KiwiSaver member for at least three years
 * The property has to be in New Zealand and must be your primary residence, not an investment property
-* You can withdraw your own contributions and your employer's contributions, but you have to leave at least $1,000 in your account
-* Government contributions are not included in the first home withdrawal
+* You can withdraw your own contributions, your employer's contributions, the government contribution and returns, but you have to leave at least $1,000 in your account
 * Previously owning property overseas doesn't automatically disqualify you, as there are provisions for people in a similar financial position to a first home buyer.
 
 In the year to 31 March 2025, first home buyers withdrew $1.8 billion from KiwiSaver across 42,811 withdrawals, with an average withdrawal of nearly $41,000 per member (up 18% from the previous year, according to the [FMA](https://www.fma.govt.nz/assets/Reports/KiwiSaver-Annual-Report-2025.pdf)).

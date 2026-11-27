@@ -233,7 +233,7 @@ If your KiwiSaver balance drops by a few hundred dollars, you’re likely to be 
 
 It’s best not to switch funds because you’re concerned about a market downturn. There's a real difference between a good reason to switch and a poor one.
 
-Reasonable, evidence-based reasons to switch include consistent underperformance over several years (not one bad quarter), fees noticeably higher than comparable options, poor service or realising your fund's risk level no longer matches your timeline.
+Reasonable, evidence-based [reasons to switch](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) include consistent underperformance over several years (not one bad quarter), fees noticeably higher than comparable options, poor service or realising your fund's risk level no longer matches your timeline.
 
 [Sorted's guide on how to pick the right KiwiSaver fund for you](https://sorted.org.nz/guides/kiwisaver/kiwisaver-which-fund-suits/) frames this well. The right fund matches your investment mix to your goals and timeline, not predictions about where markets are headed next.
 
