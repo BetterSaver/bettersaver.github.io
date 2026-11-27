@@ -94,13 +94,12 @@
 <div class="ftable-head" aria-hidden="true">
 <span>Fund</span><span>Our rating</span><span>Why</span><span class="num">Fee</span><span class="num">5-yr return</span>
 </div>
-{{ $firstGroup := true }}
 {{ range $cats }}
 {{ $cat := . }}
 {{ $catFunds := slice }}
 {{ range $funds }}{{ if eq .risk_type $cat.risk_type }}{{ $catFunds = $catFunds | append . }}{{ end }}{{ end }}
 {{ if gt (len $catFunds) 0 }}
-<details class="fgroup"{{ if $firstGroup }} open{{ end }}>{{ $firstGroup = false }}
+<details class="fgroup"{{ if ne $cat.label "Other" }} open{{ end }}>
 <summary class="fgroup-head fgroup-grid">
 <div class="fg-name">
 <h3>{{ $cat.label }}</h3>
