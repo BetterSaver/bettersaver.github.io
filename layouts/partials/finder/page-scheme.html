@@ -94,19 +94,20 @@
 <div class="ftable-head" aria-hidden="true">
 <span>Fund</span><span>Our rating</span><span>Why</span><span class="num">Fee</span><span class="num">5-yr return</span>
 </div>
+{{ $firstGroup := true }}
 {{ range $cats }}
 {{ $cat := . }}
 {{ $catFunds := slice }}
 {{ range $funds }}{{ if eq .risk_type $cat.risk_type }}{{ $catFunds = $catFunds | append . }}{{ end }}{{ end }}
 {{ if gt (len $catFunds) 0 }}
-<div class="fgroup">
-<div class="fgroup-head fgroup-grid">
+<details class="fgroup"{{ if $firstGroup }} open{{ end }}>{{ $firstGroup = false }}
+<summary class="fgroup-head fgroup-grid">
 <div class="fg-name">
 <h3>{{ $cat.label }}</h3>
 {{ with $cat.group_avg_ret5 }}<span class="fgroup-avg">{{ $cat.label }} group average: <strong>{{ printf "%.2f%%" . }}</strong> a year over 5 years, after fees</span>{{ else }}<span class="fgroup-note">No group average: funds in the {{ $cat.label }} category aren't compared</span>{{ end }}
 </div>
-<span></span>
-</div>
+<span class="fg-count">{{ len $catFunds }} {{ if eq (len $catFunds) 1 }}fund{{ else }}funds{{ end }}</span>
+</summary>
 {{ $sorted := sort $catFunds "ret5_pct" "desc" }}
 {{ $recFirst := where $sorted "public_rating" "recommended" }}
 {{ $rest := where $sorted "public_rating" "ne" "recommended" }}
@@ -122,7 +123,7 @@
 <span class="frow-ret num {{ if not $f.ret5_pct }}ret-na{{ end }}">{{ if and $f.ret5_pct $cat.group_avg_ret5 }}<span class="val-chip {{ if gt $f.ret5_pct $cat.group_avg_ret5 }}val-good{{ else }}val-warn{{ end }}">{{ printf "%.2f%%" $f.ret5_pct }}</span><span class="vs-avg">avg {{ printf "%.2f%%" $cat.group_avg_ret5 }}</span>{{ else if $f.ret5_pct }}{{ printf "%.2f%%" $f.ret5_pct }}{{ else }}Not yet available{{ end }}</span>
 </div>
 {{ end }}
-</div>
+</details>
 {{ end }}
 {{ end }}
 <p class="table-fine">Fees are total annual fees. Returns are average yearly returns after fees over five years, as at {{ dateFormat "2 January 2006" $r.data_as_at }}. Green means better than the category average; orange means behind it. Past performance isn't a reliable indicator of future returns.</p>
