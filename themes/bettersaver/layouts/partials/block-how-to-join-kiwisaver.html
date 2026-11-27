@@ -23,22 +23,21 @@
 {{- $appUrl := .Site.Params.appUrl -}}
 <div class="how-we-analyse-page change-provider-page join-kiwisaver-page">
 
-  {{/* ANSWER FIRST — short direct answer to the page's question, above the intro */}}
+  {{/* ANSWER FIRST — short direct answer to the page's question, above the intro.
+       A grey band of its own, so the white/grey zebra below it is unchanged. */}}
   {{ with .Params.answer_heading }}
-  <div class="pt-9">
-    <div class="hwa-page">
-      <section>
-        <div class="framing">
-          <div>
-            {{ with $.Params.answer_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
-            <h2>{{ . | markdownify }}</h2>
-          </div>
-          <div>
-            <div class="prose-copy">{{ $.Params.answer_body | markdownify }}</div>
-          </div>
+  <div class="band-grey">
+    <section class="hwa-page">
+      <div class="framing">
+        <div>
+          {{ with $.Params.answer_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
+          <h2>{{ . | markdownify }}</h2>
         </div>
-      </section>
-    </div>
+        <div>
+          <div class="prose-copy">{{ $.Params.answer_body | markdownify }}</div>
+        </div>
+      </div>
+    </section>
   </div>
   {{ end }}
 
