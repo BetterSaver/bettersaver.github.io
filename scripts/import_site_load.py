@@ -26,6 +26,13 @@ def money(n):
     if n >= 1e9: return f"${n/1e9:.1f} billion".replace('.0 billion', ' billion')
     return f"${n/1e6:.0f} million"
 
+def no_emdash(t):
+    """Site-wide copy rule: no em dashes. Split into sentences instead."""
+    import re as _re
+    t = _re.sub(r'\s+\u2014\s+(\w)', lambda m: '. ' + m.group(1).upper(), t)
+    return t.replace('\u2014', '-')
+
+
 def num(v):
     v = (v or '').strip()
     try:
@@ -115,13 +122,13 @@ for r in rows:
     }
     if launch_label: f['launch_label'] = launch_label
     if expected_label: f['rating_expected_label'] = expected_label
-    reason = (r.get('fund_list_reason') or '').strip()
+    reason = no_emdash((r.get('fund_list_reason') or '').strip())
     if reason: f['reason'] = reason
     funds.append(f)
 
     s = schemes.setdefault(sslug, {
         'scheme_slug': sslug, 'scheme_name': scheme, 'provider_name': prov,
-        'members': 0, 'value_nzd': 0.0, 'about': r['provider_description'].strip(),
+        'members': 0, 'value_nzd': 0.0, 'about': no_emdash(r['provider_description'].strip()),
         'partner_flags': [], 'restricted': sslug in restricted_slugs, 'status': 'open',
     })
     s['members'] += int(num(r['num_investors']) or 0)
@@ -251,7 +258,7 @@ for s in out_schemes:
 
     def norm_bullet(t):
         # marketing rules: one five-level scale, singular variants
-        t = t.rstrip('.').replace('Very High', 'Highest').replace('Very high', 'Highest')
+        t = no_emdash(t.rstrip('.')).replace('Very High', 'Highest').replace('Very high', 'Highest')
         t = t.replace('1 of its 1 funds with a sustainability rating score',
                       'Its only fund with a sustainability rating scores')
         t = re.sub(r'\b1 of its 1 funds\b', 'its only fund', t)
