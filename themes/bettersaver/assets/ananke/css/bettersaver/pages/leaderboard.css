@@ -76,8 +76,11 @@
 .ribbon-head { text-align: center; }
 .ribbon-head h2 { margin: 0; font-size: clamp(30px, 3.2vw, 44px); line-height: 1.15; }
 .ribbon-card { background: #FFFFFF; border: 1px solid var(--border-soft); border-radius: 32px; box-shadow: 0 8px 40px -8px rgba(0,0,0,0.06); padding: 40px; margin-top: 24px; text-align: left; }
-.ribbon-scroll { overflow-x: auto; }
-.ribbon-grid { display: flex; flex-direction: column; gap: 14px; min-width: 760px; padding-top: 9px; }
+.ribbon-scroll { overflow-x: auto; position: relative; padding: 0 4px 4px 0; }
+.ribbon-scrollwrap { position: relative; }
+.ribbon-scrollwrap::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 36px; pointer-events: none; background: linear-gradient(90deg, rgba(255,255,255,0), #FFFFFF); opacity: 0; transition: opacity .15s ease; }
+.ribbon-scrollwrap:has(.ribbon-scroll.scrollable:not(.at-end))::after { opacity: 1; }
+.ribbon-grid { display: flex; flex-direction: column; gap: 14px; min-width: 760px; padding: 9px 5px 0 0; }
 .ribbon-row { display: flex; align-items: center; gap: 16px; }
 .ribbon-row .lab { width: 44px; flex: none; font: 600 13px/1.2 var(--font-sans); color: var(--text-muted); }
 .ticks { display: flex; gap: 2px; flex: 1 1 auto; min-width: 0; }
