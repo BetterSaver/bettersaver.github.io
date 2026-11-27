@@ -27,18 +27,22 @@
 .lb-scope .pill-btn.white { background: #FFFFFF; color: var(--navy); padding: 14px 28px; font-size: 15px; }
 .lb-scope .pill-btn.white:hover { background: var(--lavender); color: var(--navy); }
 
-/* Hero */
-.lb-hero { background: var(--lavender); display: flex; flex-wrap: wrap; }
-.lb-hero-copy { flex: 999 1 560px; min-width: 0; padding: 96px 64px 88px; display: flex; flex-direction: column; gap: 24px; justify-content: center; }
-.lb-hero-copy h1 { margin: 0; font-size: clamp(38px, 4.5vw, 64px); line-height: 1.1; max-width: 640px; color: var(--navy); }
+/* Hero: matches the finder index / how-we-analyse direction */
+.lb-hero { background: var(--lavender); }
+.lb-hero-in { max-width: 1160px; margin: 0 auto; padding: 64px 40px 72px; display: flex; flex-wrap: wrap; align-items: center; gap: 40px 56px; }
+.lb-hero-copy { flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+.lb-eyebrow { margin: 0; font: 600 12px/1.2 var(--font-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--purple-contrast); }
+.lb-hero-copy h1 { margin: 0; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.12; max-width: 640px; color: var(--navy); }
 .lb-hero-copy h1 em { font-style: normal; color: var(--purple-contrast); }
-.lb-hero-copy p { margin: 0; font-size: 20px; line-height: 1.55; color: var(--text-mid); max-width: 560px; }
-.lb-hero-art { flex: 1 1 420px; min-width: 0; padding: 72px 64px; display: flex; align-items: center; justify-content: center; }
-.lb-hero-card { background: #FFFFFF; border-radius: 32px; box-shadow: 0 8px 40px -8px rgba(0,0,0,0.08); padding: 40px; display: flex; flex-direction: column; gap: 20px; align-items: center; max-width: 360px; }
+.lb-sub { margin: 0; font-size: 17px; line-height: 1.6; color: var(--text-mid); max-width: 560px; }
+.lb-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.lb-chip { display: inline-flex; align-items: center; gap: 7px; padding: 7px 14px 7px 9px; border-radius: 9999px; background: #FFFFFF; border: 1px solid var(--border-soft); font: 500 13.5px/1.2 var(--font-sans); color: var(--navy); }
+.lb-hero-art { flex: 1 1 300px; min-width: 0; display: flex; justify-content: center; }
+.lb-hero-card { background: #FFFFFF; border-radius: 24px; box-shadow: 0 8px 40px -8px rgba(0,0,0,0.08); padding: 32px; display: flex; flex-direction: column; gap: 16px; align-items: center; max-width: 320px; width: 100%; }
 .mini-ribbon { display: flex; flex-direction: column; gap: 6px; width: 100%; }
 .mini-ribbon .r { display: flex; gap: 2px; }
 .mini-ribbon .r span { height: 20px; border-radius: 4px; }
-.mini-ribbon-cap { font-size: 14px; color: var(--text-muted); text-align: center; }
+.mini-ribbon-cap { font-size: 13.5px; color: var(--text-muted); text-align: center; }
 
 /* Navy statement bands */
 .lb-scope .band { background: var(--navy); color: #FFFFFF; text-align: center; padding: 72px 40px; }
@@ -111,7 +115,7 @@
 
 @media (max-width: 767px) {
   .lb-wrap { padding: 0 20px; }
-  .lb-hero-copy { padding: 48px 20px 40px; }
+  .lb-hero-in { padding: 40px 20px 48px; }
   .lb-hero-art { display: none; }
   .lb-scope .section-head { padding: 48px 0 16px; }
   .cat-pills { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
