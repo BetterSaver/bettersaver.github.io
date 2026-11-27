@@ -11,6 +11,8 @@
 {{ define "main" }}
 {{ $d := site.Data.leaderboard.leaderboard }}
 {{ $asOf := dateFormat "2 January 2006" $d.asOf }}
+{{ $sinceMonth := index (dict "1" "March" "2" "June" "3" "September" "4" "December") (printf "%d" $d.firstQuarter.q) }}
+{{ $since := printf "%s %d" $sinceMonth $d.firstQuarter.year }}
 <div class="lb-scope">
 
 <section class="lb-hero">
@@ -32,7 +34,7 @@
 
 <section class="band">
 <h2 class="serif">Someone is always #1. It&rsquo;s rarely the same someone for long.</h2>
-<p>{{ div $d.quarters 4 }} years of official data below. Count the colour changes.</p>
+<p>Every quarter since {{ $since }}, below. Count the colour changes.</p>
 </section>
 
 <div id="record">
@@ -48,8 +50,9 @@
 
 <section class="ribbon-section">
 <div class="lb-wrap ribbon-head">
-<h2 class="serif">Who has held #1, every quarter since {{ $d.firstQuarter.year }}</h2>
+<h2 class="serif" id="ribbon-heading">Who has held #1, every quarter since {{ $d.firstQuarter.year }}</h2>
 <p class="sub">Each block is one quarter of official data. Each colour is a different fund. <strong>Count the colour changes.</strong></p>
+<div class="cat-pills" id="cat-pills-ribbon" role="group" aria-label="KiwiSaver fund category"></div>
 <div class="ribbon-card">
 <div class="ribbon-scroll">
 <div class="ribbon-grid" id="ribbon"></div>
@@ -63,11 +66,11 @@
 <section class="lb-stats">
 <div class="stat-row">
 <span class="num" id="stat-changes">&ndash;</span>
-<span><span class="stat-title" id="stat-changes-title">times the 3 year #1 has changed in the last {{ div $d.quarters 4 }} years</span><span class="stat-sub">A new name at the top, again and again.</span></span>
+<span><span class="stat-title">times the 3 year #1 has changed since {{ $since }}</span><span class="stat-sub" id="stat-changes-sub"></span></span>
 </div>
-<div class="stat-row" id="stat-lastyear-row" hidden>
-<span class="num" id="stat-lastyear">&ndash;</span>
-<span><span class="stat-title" id="stat-lastyear-title"></span><span class="stat-sub">Last year&rsquo;s winner, this year&rsquo;s mid table.</span></span>
+<div class="stat-row">
+<span class="num" id="stat-holders">&ndash;</span>
+<span><span class="stat-title">different funds have held the 3 year #1 since {{ $since }}</span><span class="stat-sub" id="stat-lastyear-sub"></span></span>
 </div>
 </section>
 
@@ -94,31 +97,32 @@
 var DATA = {{ $d | jsonify | safeJS }};
 var PERIODS = [["p3", "3 years", "3 yr"], ["p5", "5 years", "5 yr"], ["p10", "10 years", "10 yr"]];
 var activeCat = "gro";
-var baseQ = DATA.firstQuarter.year * 4 + (DATA.firstQuarter.q - 1);
 
-function quarterLabel(i, short) {
-  var t = baseQ + i;
-  var q = t % 4 + 1, y = Math.floor(t / 4);
-  return "Q" + q + " " + (short ? String(y).slice(2) : y);
-}
-function colour(key) { return DATA.providers[key].colour; }
-function fname(key) { return DATA.providers[key].name; }
 function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
 
 function render() {
   var cat; DATA.categories.forEach(function (c) { if (c.id === activeCat) cat = c; });
+  var F = cat.funds;
+  function colour(key) { return F[key].colour; }
+  function fname(key) { return F[key].name; }
 
-  var pills = document.getElementById("cat-pills");
-  pills.innerHTML = "";
-  DATA.categories.forEach(function (c) {
-    var b = document.createElement("button");
-    b.type = "button";
-    b.className = "cat-pill";
-    b.textContent = c.label;
-    b.setAttribute("aria-pressed", c.id === activeCat ? "true" : "false");
-    b.addEventListener("click", function () { activeCat = c.id; render(); });
-    pills.appendChild(b);
+  /* One selection, shown in two places: both pill rows render from the same
+     state and clicking either updates everything. */
+  ["cat-pills", "cat-pills-ribbon"].forEach(function (id) {
+    var pills = document.getElementById(id);
+    pills.innerHTML = "";
+    DATA.categories.forEach(function (c) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "cat-pill";
+      b.textContent = c.label;
+      b.setAttribute("aria-pressed", c.id === activeCat ? "true" : "false");
+      b.addEventListener("click", function () { activeCat = c.id; render(); });
+      pills.appendChild(b);
+    });
   });
+  document.getElementById("ribbon-heading").textContent =
+    "Who has held #1 in " + cat.label + ", every quarter since " + DATA.firstQuarter.year;
 
   var podium = document.getElementById("podium");
   podium.innerHTML = "";
@@ -127,14 +131,16 @@ function render() {
     var col = document.createElement("div");
     col.className = "podium-col";
     col.innerHTML = '<div class="col-head"><span class="period serif">' + label + '</span><span class="note">annualised, after fees</span></div>';
-    cat.podium[key].forEach(function (row, i) {
+    cat.pods[key].forEach(function (row, i) {
+      var fund = row[0], ret = row[1], fee = row[2];
+      var note = cat.notes && cat.notes[fund];
       var div = document.createElement("div");
       div.className = "fund-row" + (i === 0 ? " first" : "");
       div.innerHTML =
         '<span class="rank">' + (i + 1) + '</span>' +
-        '<span class="bar" style="background:' + colour(row.fund) + '"></span>' +
-        '<span class="name">' + esc(fname(row.fund)) + (row.note ? '<span class="fund-note">' + esc(row.note) + '</span>' : '') + '</span>' +
-        '<span class="nums"><span class="ret">' + row.returnPct.toFixed(1) + '%</span><span class="fee">' + row.feePct.toFixed(2) + '% fee</span></span>';
+        '<span class="bar" style="background:' + colour(fund) + '"></span>' +
+        '<span class="name">' + esc(fname(fund)) + (note ? '<span class="fund-note">' + esc(note) + '</span>' : '') + '</span>' +
+        '<span class="nums"><span class="ret">' + ret.toFixed(1) + '%</span><span class="fee">' + fee.toFixed(2) + '% fee</span></span>';
       col.appendChild(div);
     });
     podium.appendChild(col);
@@ -145,14 +151,14 @@ function render() {
   var changes = 0;
   PERIODS.forEach(function (P) {
     var key = P[0], short = P[2];
-    var seq = cat.history[key];
+    var seq = cat.rib[key].split(" ");
     var row = document.createElement("div");
     row.className = "ribbon-row";
     var ticks = seq.map(function (f, i) {
       var isChange = i > 0 && seq[i - 1] !== f;
       if (key === "p3" && isChange) changes++;
       var cls = "tick" + (isChange ? " change" : "") + (i === seq.length - 1 ? " latest" : "");
-      return '<div class="' + cls + '" style="background:' + colour(f) + '" title="' + esc(quarterLabel(i, false) + ' · ' + fname(f)) + '"></div>';
+      return '<div class="' + cls + '" style="background:' + colour(f) + '" title="' + esc(DATA.quarterLabelsFull[i] + ' · ' + fname(f)) + '"></div>';
     }).join("");
     row.innerHTML = '<span class="lab">' + short + '</span><div class="ticks">' + ticks + '</div>';
     ribbon.appendChild(row);
@@ -161,7 +167,7 @@ function render() {
   axisRow.className = "ribbon-row";
   var axis = "";
   for (var i = 0; i < DATA.quarters; i++) {
-    axis += "<span>" + ((i % 4 === 0 || i === DATA.quarters - 1) ? quarterLabel(i, true) : "") + "</span>";
+    axis += "<span>" + ((i % 4 === 0 || i === DATA.quarters - 1) ? DATA.quarterLabels[i] : "") + "</span>";
   }
   axisRow.innerHTML = '<span class="lab"></span><div class="axis">' + axis + '</div>';
   ribbon.appendChild(axisRow);
@@ -170,7 +176,7 @@ function render() {
   legend.innerHTML = "";
   var seen = {};
   PERIODS.forEach(function (P) {
-    cat.history[P[0]].forEach(function (f) {
+    cat.rib[P[0]].split(" ").forEach(function (f) {
       if (seen[f]) return;
       seen[f] = true;
       var item = document.createElement("span");
@@ -180,20 +186,23 @@ function render() {
     });
   });
 
+  /* Teaching stats: computed from the data, never hardcoded. */
+  var h3 = cat.rib.p3.split(" ");
+  var holders = {};
+  h3.forEach(function (f) { holders[f] = true; });
+  var cadence = changes ? Math.round((h3.length - 1) / changes * 3) : 0;
   document.getElementById("stat-changes").textContent = changes;
-  document.getElementById("stat-changes-title").textContent =
-    "times the 3 year #1 has changed in " + cat.label.toLowerCase() + " over " + Math.floor(DATA.quarters / 4) + " years";
-
-  var ly = cat.lastYear;
-  var lyRow = document.getElementById("stat-lastyear-row");
-  if (ly && ly.rankNow) {
-    lyRow.hidden = false;
-    document.getElementById("stat-lastyear").textContent = ly.rankNow;
-    document.getElementById("stat-lastyear-title").textContent =
-      "where last year’s #1, " + fname(ly.fund) + ", ranks today";
-  } else {
-    lyRow.hidden = true;
-  }
+  document.getElementById("stat-changes-sub").textContent = "A new name at the top roughly every " + cadence + " months.";
+  document.getElementById("stat-holders").textContent = Object.keys(holders).length;
+  var ly = h3[h3.length - 5];
+  var lyName = fname(ly);
+  var lyRank = 0;
+  cat.pods.p3.forEach(function (e, i) { if (e[0] === ly) lyRank = i + 1; });
+  var lyLine;
+  if (lyRank === 1) { lyLine = "Last year’s winner, " + lyName + ", is still on top. For now."; }
+  else if (lyRank > 1) { lyLine = "Last year’s winner, " + lyName + ", now sits " + (lyRank === 2 ? "2nd" : "3rd") + "."; }
+  else { lyLine = "Last year’s winner, " + lyName + ", is no longer in the top 3."; }
+  document.getElementById("stat-lastyear-sub").textContent = lyLine;
 }
 
 render();
