@@ -256,7 +256,7 @@ A balanced fund holds a mix of growth assets (typically shares and property) and
 
 **Can I switch from a balanced fund to a growth fund?**
 
-Yes. You can switch fund types within your existing provider, or move to a different provider altogether. There’s no fee for switching KiwiSaver funds in New Zealand. The key is making sure the fund you’re switching to actually suits your timeline and goals, not just because it had strong returns last year.
+Yes. You can switch fund types within your existing provider, or [move to a different provider](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) altogether. There’s no fee for switching KiwiSaver funds in New Zealand. The key is making sure the fund you’re switching to actually suits your timeline and goals, not just because it had strong returns last year.
 
 **When should I switch from a growth fund to a balanced fund?**
 

@@ -261,7 +261,7 @@ If you want the fuller picture of how contributions, funds and providers fit tog
 
 Anyone eligible [can join KiwiSaver directly](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver/joining-kiwisaver-if-im-self-employed-or-not-working) with a provider, including self-employed people, contractors and people who aren't currently working.
 
-Auto-enrolment only ever happens through an employer, so if you fall into this group, you'll need to apply directly rather than wait for it to happen on its own. The main difference is that there's no employer matching your contributions.
+Auto-enrolment only ever happens through an employer, so if you fall into this group, you'll need to [apply directly ](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/)rather than wait for it to happen on its own. The main difference is that there's no employer matching your contributions.
 
 You're still eligible for the annual government contribution, though, as long as you meet the minimum contribution threshold each year.
 
@@ -321,13 +321,13 @@ You can only be with one KiwiSaver scheme at a time, so switching means moving y
 
 ### Do I need to tell my employer if I switch?
 
-You don't need to tell your employer when you switch providers. Once your new provider is confirmed with Inland Revenue, your employer's contributions continue as normal and are simply redirected to your new scheme, with no extra paperwork on your part.
+You don't need to tell your employer when you [switch providers](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/). Once your new provider is confirmed with Inland Revenue, your employer's contributions continue as normal and are simply redirected to your new scheme, with no extra paperwork on your part.
 
-For a full step-by-step walkthrough of the process, see our guide on [How to Change Your KiwiSaver Provider.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider)
+For a full step-by-step walkthrough of the process, see our guide on [How to Change Your KiwiSaver Provider.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/)
 
 ### How long does switching take?
 
-According to Inland Revenue, the [transfer process typically takes around two weeks](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/making-changes-to-my-kiwisaver/changing-to-another-provider) from start to finish once you've applied with your new provider. Some providers charge a transfer fee, so confirm this with both your current and prospective provider before you commit.
+According to Inland Revenue, the [transfer process typically takes around two weeks](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/making-changes-to-my-kiwisaver/changing-to-another-provider) from start to finish once you've applied with your new provider. KiwiSaver providers don't charge a fee to transfer your balance.
 
 ### Can I be with more than one KiwiSaver provider at once?
 

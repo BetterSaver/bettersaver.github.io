@@ -159,11 +159,11 @@ Explained simply: you put money in, your employer puts money in, the government 
 
 ## How to Join KiwiSaver
 
-If you're wondering how to join KiwiSaver, there are three ways:
+If you're wondering [how to join KiwiSaver](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/), there are three ways:
 
 #### Automatic Enrolment Through a New Job
 
-If you're 18 or over and start a new job in New Zealand, you'll automatically be enrolled in KiwiSaver. Your employer will give you an [IRD KS2](https://www.ird.govt.nz/index/all-forms-and-guides) form where you can select your contribution rate. You can opt out, but only between your 14th day and your eighth week of employment.
+If you're 18 to 65 and start a new job in New Zealand (on a contract longer than 28 days), you'll automatically be enrolled in Kiwisaver. Your employer will give you an [IRD KS2](https://www.ird.govt.nz/index/all-forms-and-guides) form where you can select your contribution rate. You can opt out, but only between your 14th day and your eighth week of employment.
 
 #### Opting in Through Your Employer
 
@@ -181,9 +181,9 @@ Once you’re a KiwiSaver member, your account is funded from three sources. Und
 
 #### Your Contributions
 
-As an employee, a percentage of your gross (before-tax) pay is deducted each payday and sent to your KiwiSaver account through Inland Revenue. The default contribution rate is 3.5% of your earnings. You can also choose to contribute at 3%, 4%, 6%, 8% or 10%.
+As an employee, a percentage of your gross (before-tax) pay is deducted each payday and sent to your KiwiSaver account through Inland Revenue. The default contribution rate is 3.5% of your earnings. You can also choose to contribute at 4%, 6%, 8% or 10%.
 
-How much money you put into your KiwiSaver is a personal decision that depends on your income, your goals and what you can afford right now. A higher rate means less take-home pay but more going towards your future. You can[ change your contribution rate ](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works)at any time by contacting your employer or updating it through myIR.
+How much money you put into your KiwiSaver is a personal decision that depends on your income, your goals and what you can afford right now. A higher rate means less take-home pay but more going towards your future. You can [change your contribution rate](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/how-kiwisaver-works) once every 3 months through your employer, myIR or your provider.
 
 If you're self-employed, there's no automatic deduction. You make voluntary contributions directly to your provider at whatever amount and frequency suits you.
 
@@ -203,7 +203,7 @@ Each year, the government adds [25 cents for every $1 you contribute](https://ww
 
 At the current 3.5% default rate, anyone earning roughly $30,000 or more will hit that threshold through regular payroll deductions. If you earn less or contribute voluntarily, it's a good idea to check you're on track before 30 June each year. Falling short means leaving free money on the table.
 
-The government contribution is calculated on your personal contributions only. Employer contributions don't count. You must be aged between 18 and 65, and have an annual taxable income of $180,000 or under to be eligible.
+The government contribution is calculated on your personal contributions only. Employer contributions don't count. You must be aged between 16 and 65, and have an annual taxable income of $180,000 or under to be eligible.
 
 You may have heard this being referred to as the "member tax credit" (it's the same thing under a different name).
 
@@ -261,7 +261,7 @@ Yes. You can apply for a savings suspension (also called a contributions holiday
 
 **Is it too late to join KiwiSaver?**
 
-No. You can join at any age, and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution.
+No. [You can join at any age](https://bettersaver.co.nz/pages/how-to-join-kiwisaver/), and there's no cut-off. Even if you're closer to retirement, the employer contributions and government contribution still apply, and every year of saving helps. If you're over 65, you can still join, although you won't receive the government contribution.
 
 **How do I know if I'm in the right fund?**
 

@@ -11,6 +11,8 @@
             {{ replace .Title "BetterSaver:" "<span class='text-purple-contrast'>BetterSaver:</span>" | safeHTML |
             default .Site.Title }}
           </h1>
+          {{/* Shown only on pages whose front matter sets `last_updated` (edited in Tina as "Last updated"). */}}
+          {{ with .Params.last_updated }}<p class="last-updated">Last updated {{ (time.In "Pacific/Auckland" (time.AsTime .)).Format "January 2006" }}</p>{{ end }}
           {{ with .Params.description }}
           <p class="description mb-4">
             {{ . }}

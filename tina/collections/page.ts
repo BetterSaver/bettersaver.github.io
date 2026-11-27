@@ -27,6 +27,14 @@ const Page: Collection = {
       name: "date",
     },
     {
+      type: "string",
+      name: "aliases",
+      label: "Redirect from (old URLs)",
+      description:
+        "Old addresses that should send visitors to this page, e.g. /about-us. Leave alone unless you know you need it.",
+      list: true,
+    },
+    {
       type: "rich-text",
       name: "body",
       label: "Body",

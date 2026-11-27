@@ -203,7 +203,7 @@ For a broader overview of how the whole scheme works (including contributions, e
 
 If you've never actively chosen a KiwiSaver fund, or if your circumstances have changed since you last looked, there's a real chance your current fund isn't the best fit.
 
-But switching funds is straightforward. You can change your fund type within your existing provider, or move to a different provider entirely. There's no fee for switching, and your money simply transfers across.
+But switching funds is straightforward. You can change your fund type within your existing provider, or [move to a different provider ](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/)entirely. There's no fee for switching, and your money simply transfers across.
 
 For a broader overview of how the whole scheme works, including contributions, employer matching, and the government contribution, read our guide to how KiwiSaver works.
 

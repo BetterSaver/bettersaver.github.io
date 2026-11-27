@@ -5,6 +5,9 @@ const FinancialTips: Collection = {
   name: "financialtips",
   label: "Financial Tips",
   path: "content/financial-tips",
+  match: {
+    exclude: "_index",
+  },
   defaultItem: () => ({
     draft: true,
     date: new Date().toISOString(),

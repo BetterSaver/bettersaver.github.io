@@ -5,6 +5,10 @@ description: Choose the right scheme from the start - not just the default one y
 featured_image: /uploads/bg-how-to-join-kiwisaver.jpg
 date: 2026-10-01T00:00:00.000Z
 page_block: block-how-to-join-kiwisaver
+last_updated: 2026-11-27T00:00:00.000Z
+answer_heading: How do I join KiwiSaver?
+answer_body: |-
+  You can join KiwiSaver if you're a New Zealand citizen or entitled to live here indefinitely, and you live or normally live in New Zealand. If you start a new job, your employer enrols you automatically. Otherwise, you apply directly with a KiwiSaver provider, or through BetterSaver, which recommends a fund that fits you first.
 intro_tag: Getting started
 intro_heading: Joining KiwiSaver starts with choosing a scheme.
 intro_body_2: |-
@@ -19,8 +23,15 @@ eligible_subheading: 'KiwiSaver is open to you if you are:'
 eligible_items:
   - text: 'A New Zealand citizen, or entitled to live in New Zealand indefinitely'
   - text: 'Living in New Zealand, or normally resident here.'
-  - text: 'Any age — there’s no upper age limit, though the government contribution and compulsory employer contributions stop at 65.'
-eligible_footnote: 'You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).'
+  - text: 'Any age. There''s no upper age limit. The government contribution is available from age 16 to 65, and compulsory employer contributions stop at 65.'
+eligible_footnote: |-
+  You can't join KiwiSaver on a temporary, visitor, work or student visa. Once you're entitled to live in New Zealand indefinitely, for example with a resident visa, you can join.
+
+  ### Joining under 18
+
+  If you're under 18, you join through a KiwiSaver provider, not your employer. At 16 or 17, a parent or legal guardian co-signs your application. Under 16, a guardian applies for you.
+
+  You’re generally not eligible if you’re an undischarged bankrupt or don’t meet the residency criteria. Inland Revenue publishes the [full KiwiSaver eligibility rules](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/joining-kiwisaver).
 why_tag: Why join
 why_heading: Should I join KiwiSaver?
 why_body: |
@@ -29,7 +40,7 @@ why_cards:
   - title: Employer contributions.
     description: 'If you’re employed, your employer must contribute a minimum of 3.5% of your before-tax pay on top of your own contributions. That’s money you don’t get if you save elsewhere.'
   - title: Government contributions.
-    description: 'The government adds 25 cents for every dollar you contribute, up to $260.72 a year. To get the full amount you need to contribute at least $1,042.86 between 1 July and 30 June, and earn $180,000 or less.'
+    description: 'The government adds 25 cents for every dollar you contribute, up to $260.72 a year. To get the full amount you need to contribute at least $1,042.86 between 1 July and 30 June, and earn $180,000 or less. It''s available from age 16 to 65.'
   - title: First home withdrawal.
     description: 'After three years in KiwiSaver, you may be able to withdraw most of your savings to put toward buying your first home. There are eligibility conditions - but for many first-home buyers, it’s a meaningful contribution to a deposit.'
   - title: If you’re self-employed.
@@ -54,14 +65,20 @@ need_items:
   - text: Your email address and mobile number.
   - text: 'Your IRD number (helpful, though not always required straight away).'
   - text: A form of ID for online verification — usually a driver licence or passport.
+  - text: 'If you''re 16 or 17: a parent or legal guardian to co-sign.'
+  - text: 'If you''re self-employed: the bank account you''ll make voluntary payments from.'
 need_image: /uploads/illustration-passport.svg
 need_image_alt: Illustration of a passport and identification
 auto_tag: Automatic enrolment
-auto_heading: What if I’m automatically enrolled through work?
+auto_heading: 'If you''re new to working, how do you enrol in KiwiSaver?'
 auto_body: |-
-  When you start a new job, your employer is required to automatically enrol you in KiwiSaver unless you opt out within the first few weeks. If you don’t choose a provider, you’re assigned to one of six government-selected default schemes.
+  Your employer enrols you automatically when you start a new job, if you're 18 to 65 and on a contract longer than 28 days. Deductions of 3.5% start from your first pay, unless you choose 4%, 6%, 8% or 10%. If you don't choose a provider, you're placed in your employer's chosen scheme or one of six default schemes.
 
-  You can opt out - but for most people, staying in makes financial sense given the employer contributions and government top-up. What you don’t have to accept is the default scheme. You can choose your own provider from day one, or switch after the fact.
+  You don't have to accept the default. You can choose your own provider before your first pay, or [switch your KiwiSaver provider](/pages/how-to-change-your-kiwisaver-provider/) at any time after.
+
+  ### Can I opt out of KiwiSaver?
+
+  Only if you were automatically enrolled, and only between week 2 and week 8 of your new job. If you joined yourself, you can't opt out, but once you've been a member for 12 months you can take a savings suspension of 3 months to a year.
 auto_cta_label: How to change your KiwiSaver provider
 auto_cta_url: /pages/how-to-change-your-kiwisaver-provider/
 choose_tag: Ready to join
@@ -72,10 +89,10 @@ choose_body: |
   BetterSaver assesses every KiwiSaver scheme in New Zealand using data from Morningstar and fund providers, and we publish our reasoning in full — including the schemes that don’t make the cut and why.
 choose_cta_label: Get my KiwiSaver recommendation
 choose_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
-choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse).'
+choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse/).'
 privacy_body: '**BetterSaver is a licensed Financial Advice Provider (FSP 600609).** Our advice is based on the information you provide and the information available about each scheme at the time. All investing involves risk — KiwiSaver values can go up and down, and past performance is not a reliable indicator of future performance.'
 faq_heading: Frequently asked questions.
-faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:
@@ -104,18 +121,23 @@ faq_items:
   - question: How do I open a KiwiSaver account without an employer?
     answer: 'You can apply directly through a KiwiSaver provider, or through BetterSaver. We’ll help you choose a scheme based on your situation, then guide you through the application online. You don’t need to be employed to join.'
   - question: What is the difference between joining and being automatically enrolled?
-    answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do.'
+    answer: 'When you start a new job, your employer automatically enrols you in KiwiSaver if you’re not already a member. If you don’t choose a provider, you’re placed into a default scheme. Joining actively means you choose your provider from the start - which is what BetterSaver helps you do. If you were automatically enrolled, you can opt out between week 2 and week 8. If you joined yourself, you can''t opt out.'
   - question: How long does it take to join KiwiSaver?
-    answer: 'Applying through BetterSaver takes most people under 5 minutes. Once your application is submitted, your provider will confirm your enrolment and your contributions will begin from your next pay.'
+    answer: 'Applying through BetterSaver takes most people under 5 minutes. Your provider confirms your membership, and if you''re employed, deductions start from your next pay. For new members, Inland Revenue holds contributions for 2 months (62 days) before passing them to your provider.'
+  - question: Can I join KiwiSaver on a work visa?
+    answer: 'No. You can''t join KiwiSaver on a temporary, visitor, work or student visa. You can join once you''re entitled to live in New Zealand indefinitely, for example with a resident visa, and you live here.'
+  - question: Can I join KiwiSaver if I'm under 18?
+    answer: 'Yes, through a KiwiSaver provider rather than your employer. At 16 or 17 you need a parent or legal guardian to co-sign. From 16 you can get the government contribution, and your employer must contribute if you contribute from your pay.'
+  - question: Is joining KiwiSaver compulsory?
+    answer: 'No. KiwiSaver is voluntary, but if you start a new job your employer enrols you automatically. You can opt out between week 2 and week 8 of that job.'
 cta_heading: Start your KiwiSaver the right way
 cta_body: Tell us a bit about yourself and we’ll recommend a KiwiSaver scheme that fits your situation — then guide you through joining online.
 cta_button_label: Get my KiwiSaver recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
 cta_subnote: Takes 2–5 minutes & It’s free
 seo:
-  title: How to Join KiwiSaver | Choose Your Scheme | BetterSaver
-  description: |
-    Joining KiwiSaver? Don’t just take the default. BetterSaver helps you choose a scheme that fits your situation and guides you through applying online in minutes.
+  title: 'How to Join KiwiSaver: Who Can Join and How | BetterSaver '
+  description: 'Who can join KiwiSaver, how to apply and what you need. BetterSaver recommends a fund that fits you, then guides you through joining online in minutes.'
   keywords: 'kiwisaver eligibility, how to join kiwisaver, how to apply for kiwisaver, how to set up kiwisaver, who can join kiwisaver, open kiwisaver account, should i join kiwisaver, starting kiwisaver'
   schema_type: WebPage
   custom_schema: |

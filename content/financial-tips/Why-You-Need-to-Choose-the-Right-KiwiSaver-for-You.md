@@ -186,7 +186,7 @@ seo:
     </script>
 ---
 
-Working out whether your fund is the best one for you only takes a few minutes and it’s much easier to switch providers than most people think.
+Working out whether your fund is the best one for you only takes a few minutes and it’s much easier to [switch providers](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) than most people think.
 
 This article covers the four key factors that will help you decide if your KiwiSaver fund is a good fit and what it can cost you to stay in the wrong one.
 
@@ -197,7 +197,7 @@ We’ll also share a quick self-check you can carry out against your latest stat
 * Your KiwiSaver fund should match your goals, timeline, comfort with risk and values.
 * If you never actively chose your fund, you're likely in a default one that’s not personalised to you.
 * Since 1 April 2026, the default contribution rate is 3.5% (rising to 4% from 1 April 2028), so it’s a good time to check your fund, not just your rate.
-* Switching funds or providers usually takes a few weeks, and your balance moves with you. Nothing is withdrawn or taxed.
+* [Switching funds](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/) or providers usually takes a few weeks, and your balance moves with you. Nothing is withdrawn or taxed.
 
 ## What to Consider When Assessing Your KiwiSaver Fund
 
