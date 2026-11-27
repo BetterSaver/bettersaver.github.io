@@ -1,0 +1,1202 @@
+{
+ "asOf": "2026-09-30",
+ "quarters": 24,
+ "firstQuarter": {
+  "q": 4,
+  "year": 2020
+ },
+ "providers": {
+  "fnd2177": {
+   "name": "OneAnswer NZ Fixed Interest",
+   "colour": "#DE73A3"
+  },
+  "fnd2178": {
+   "name": "OneAnswer International Fixed Interest",
+   "colour": "#7C1D6A"
+  },
+  "fnd2463": {
+   "name": "Smart NZ Bonds",
+   "colour": "#2D9CBE"
+  },
+  "fnd2472": {
+   "name": "Smart Overseas Bonds",
+   "colour": "#1D667C"
+  },
+  "fnd2473": {
+   "name": "Smart Overseas Non Govt Bd",
+   "colour": "#6268DA"
+  },
+  "fnd695": {
+   "name": "Simplicity Conservative Fund",
+   "colour": "#00A356"
+  },
+  "fnd2196": {
+   "name": "ANZ Default Conservative Balanced Fund",
+   "colour": "#8ABE2D"
+  },
+  "fnd2174": {
+   "name": "OneAnswer Conservative Balanced Fund",
+   "colour": "#DA62C3"
+  },
+  "fnd2175": {
+   "name": "OneAnswer Conservative Fund",
+   "colour": "#531347"
+  },
+  "fnd747": {
+   "name": "Milford Conservative Fund",
+   "colour": "#783CF0"
+  },
+  "fnd2187": {
+   "name": "ANZ Conservative Balanced Fund",
+   "colour": "#242E54"
+  },
+  "fnd748": {
+   "name": "Milford Balanced Fund",
+   "colour": "#4E10CB"
+  },
+  "fnd696": {
+   "name": "Simplicity Balanced Fund",
+   "colour": "#006636"
+  },
+  "fnd1287": {
+   "name": "Booster Socially Responsible Balanced Fund",
+   "colour": "#339CFD"
+  },
+  "fnd518": {
+   "name": "BNZ Balanced Fund",
+   "colour": "#2DAFBE"
+  },
+  "fnd2458": {
+   "name": "Smart Ethica",
+   "colour": "#134453"
+  },
+  "fnd531": {
+   "name": "ASB Balanced Fund",
+   "colour": "#2DBE4E"
+  },
+  "fnd3138": {
+   "name": "AE KiwiSaver Plan",
+   "colour": "#2DBE9D"
+  },
+  "fnd927": {
+   "name": "Generate Growth Fund",
+   "colour": "#F6862A"
+  },
+  "fnd750": {
+   "name": "Milford Active Growth Fund",
+   "colour": "#AC88F6"
+  },
+  "fnd519": {
+   "name": "BNZ Growth Fund",
+   "colour": "#1D727C"
+  },
+  "fnd2171": {
+   "name": "OneAnswer Growth Fund",
+   "colour": "#E48BD3"
+  },
+  "fnd2184": {
+   "name": "ANZ Growth Fund",
+   "colour": "#1F2747"
+  },
+  "fnd1286": {
+   "name": "Booster Geared Growth Fund",
+   "colour": "#0274DC"
+  },
+  "fnd1583": {
+   "name": "NZ Funds Growth Strategy",
+   "colour": "#2DBE30"
+  },
+  "fnd1288": {
+   "name": "Booster Socially Responsible High Growth Fund",
+   "colour": "#84C3FE"
+  },
+  "fnd18": {
+   "name": "Mercer Responsible Shares",
+   "colour": "#7DBEFF"
+  },
+  "fnd17": {
+   "name": "Mercer Responsible High Growth Fund",
+   "colour": "#2B95FF"
+  },
+  "fnd1579": {
+   "name": "NZ Funds Income Strategy",
+   "colour": "#1D7C1F"
+  },
+  "fnd9387": {
+   "name": "GoalsGetter Amova NZ Corporate Bond Fund",
+   "colour": "#BE2D84"
+  },
+  "fnd1191": {
+   "name": "Summer Global Fixed Interest",
+   "colour": "#BE2D72"
+  },
+  "fnd1159": {
+   "name": "MAS Balanced Fund",
+   "colour": "#A8BE2D"
+  },
+  "fnd2173": {
+   "name": "OneAnswer Balanced Fund",
+   "colour": "#9D2586"
+  },
+  "fnd555": {
+   "name": "Fisher Funds Growth Fund",
+   "colour": "#0150EB"
+  },
+  "fnd1581": {
+   "name": "NZ Funds Inflation Strategy",
+   "colour": "#62DA65"
+  },
+  "fnd1162": {
+   "name": "MAS Global Equities",
+   "colour": "#6E7C1D"
+  },
+  "fnd554": {
+   "name": "Fisher Funds Balanced Fund",
+   "colour": "#01349A"
+  },
+  "fnd1160": {
+   "name": "MAS Growth Fund",
+   "colour": "#C8DA62"
+  },
+  "fnd10585": {
+   "name": "Pie Balanced Fund",
+   "colour": "#78BE2D"
+  },
+  "fnd10586": {
+   "name": "Pie Growth Fund",
+   "colour": "#4E7C1D"
+  },
+  "fnd697": {
+   "name": "Simplicity Growth Fund",
+   "colour": "#00F581"
+  },
+  "fnd2465": {
+   "name": "Smart NZ Cash Fund",
+   "colour": "#8BCFE4"
+  },
+  "fnd550": {
+   "name": "Fisher Funds Cash Fund",
+   "colour": "#3F80FE"
+  },
+  "fnd2481": {
+   "name": "Smart Income",
+   "colour": "#25819D"
+  },
+  "fnd14932": {
+   "name": "Pathfinder Conservative Fund",
+   "colour": "#F1375C"
+  },
+  "fnd14931": {
+   "name": "Pathfinder Balanced Fund",
+   "colour": "#C80E33"
+  },
+  "fnd823": {
+   "name": "QuayStreet Balanced Fund",
+   "colour": "#DEA073"
+  },
+  "fnd14930": {
+   "name": "Pathfinder Growth Fund",
+   "colour": "#F6839A"
+  },
+  "fnd15503": {
+   "name": "Milford Aggressive Fund",
+   "colour": "#380B92"
+  },
+  "fnd825": {
+   "name": "QuayStreet Conservative Fund",
+   "colour": "#CF7330"
+  },
+  "fnd827": {
+   "name": "QuayStreet Income",
+   "colour": "#DAC062"
+  },
+  "fnd826": {
+   "name": "QuayStreet Growth Fund",
+   "colour": "#531813"
+  },
+  "fnd9386": {
+   "name": "GoalsGetter Amova NZ Cash Fund",
+   "colour": "#7C1D56"
+  },
+  "fnd2477": {
+   "name": "Smart Conservative Fund",
+   "colour": "#41B0D2"
+  },
+  "fnd1161": {
+   "name": "MAS Aggressive Fund",
+   "colour": "#495313"
+  },
+  "fnd339": {
+   "name": "Westpac Cash Fund",
+   "colour": "#73DED3"
+  },
+  "fnd2480": {
+   "name": "Smart High Growth Fund",
+   "colour": "#2D9CBE"
+  },
+  "fnd928": {
+   "name": "Generate Focused Growth Fund",
+   "colour": "#C65E08"
+  },
+  "fnd2176": {
+   "name": "OneAnswer Cash Fund",
+   "colour": "#D241B7"
+  },
+  "fnd1290": {
+   "name": "Booster Asset Class Growth Fund",
+   "colour": "#0C32FC"
+  },
+  "fnd480": {
+   "name": "QuayStreet Fixed Interest",
+   "colour": "#D17938"
+  },
+  "fnd824": {
+   "name": "QuayStreet Socially Responsible Investment",
+   "colour": "#9D8325"
+  },
+  "fnd2926": {
+   "name": "SBS Wealth High Growth Fund",
+   "colour": "#8B2DBE"
+  },
+  "fnd42061": {
+   "name": "SBS Wealth Lifestages Aggressive Option",
+   "colour": "#7C1D59"
+  },
+  "fnd2189": {
+   "name": "ANZ Cash Fund",
+   "colour": "#3C4D8D"
+  },
+  "fnd553": {
+   "name": "Fisher Funds Core Conservative Fund",
+   "colour": "#002366"
+  },
+  "fnd1276": {
+   "name": "Booster Capital Guaranteed",
+   "colour": "#9ACEFE"
+  },
+  "fnd809": {
+   "name": "Generate Moderate Fund",
+   "colour": "#F9B278"
+  },
+  "fnd20408": {
+   "name": "InvestNow Milford Conservative Fund",
+   "colour": "#5ABE2D"
+  },
+  "fnd42063": {
+   "name": "SBS Wealth Lifestages Balanced Option",
+   "colour": "#B062DA"
+  },
+  "fnd23957": {
+   "name": "InvestNow Milford Active Growth Fund",
+   "colour": "#3A7C1D"
+  },
+  "fnd37625": {
+   "name": "Kernel High Growth Fund",
+   "colour": "#FFB236"
+  },
+  "fnd39246": {
+   "name": "Generate Cashplus Fund",
+   "colour": "#8B4206"
+  },
+  "fnd39245": {
+   "name": "Generate Balanced Fund",
+   "colour": "#FBC79D"
+  },
+  "fnd37523": {
+   "name": "Booster Socially Responsible Geared Growth Fund",
+   "colour": "#EA0BFD"
+  },
+  "fnd15955": {
+   "name": "K\u014dura Fixed Interest",
+   "colour": "#A92DBE"
+  },
+  "fnd1289": {
+   "name": "Booster Asset Class Conservative Fund",
+   "colour": "#032AEF"
+  },
+  "fnd10584": {
+   "name": "Pie Conservative Fund",
+   "colour": "#A0DA62"
+  },
+  "fnd36250": {
+   "name": "BNZ Default Fund",
+   "colour": "#62CDDA"
+  },
+  "fnd20410": {
+   "name": "InvestNow Foundation Series Growth Fund",
+   "colour": "#87DA62"
+  },
+  "fnd20538": {
+   "name": "InvestNow Harbour NZ Core Fixed Interest Fund",
+   "colour": "#59D98D"
+  },
+  "fnd36390": {
+   "name": "InvestNow Fisher Funds Conservative Fund",
+   "colour": "#A7E48B"
+  },
+  "fnd9436": {
+   "name": "SBS Wealth Lifestages Conservative Option",
+   "colour": "#3D1353"
+  },
+  "fnd40599": {
+   "name": "Kernel Balanced Fund",
+   "colour": "#E38C00"
+  },
+  "fnd135": {
+   "name": "AMP Growth Fund",
+   "colour": "#BE2DB5"
+  },
+  "fnd532": {
+   "name": "ASB Growth Fund",
+   "colour": "#1D7C33"
+  },
+  "fnd1153": {
+   "name": "MAS Cash Fund",
+   "colour": "#D7E48B"
+  },
+  "fnd529": {
+   "name": "ASB Conservative Fund",
+   "colour": "#62DA7E"
+  },
+  "fnd136": {
+   "name": "AMP Aggressive Fund",
+   "colour": "#7C1D76"
+  },
+  "fnd134": {
+   "name": "AMP Balanced Fund",
+   "colour": "#DA62D3"
+  },
+  "fnd42062": {
+   "name": "SBS Wealth Lifestages Growth Option",
+   "colour": "#C58BE4"
+  },
+  "fnd20532": {
+   "name": "InvestNow Mercer Macquarie NZ Fixed Interest Fund",
+   "colour": "#4A9D25"
+  },
+  "fnd41804": {
+   "name": "Sharesies Smartshares Conservative Fund",
+   "colour": "#BEB62D"
+  },
+  "fnd38": {
+   "name": "New Zealand Defence Force Shares Fund",
+   "colour": "#2DBEAF"
+  }
+ },
+ "categories": [
+  {
+   "id": "def",
+   "label": "Defensive",
+   "funds": {
+    "fnd2177": "OneAnswer NZ Fixed Interest",
+    "fnd2178": "OneAnswer International Fixed Interest",
+    "fnd2463": "Smart NZ Bonds",
+    "fnd1579": "NZ Funds Income Strategy",
+    "fnd9387": "GoalsGetter Amova NZ Corporate Bond Fund",
+    "fnd1191": "Summer Global Fixed Interest",
+    "fnd2473": "Smart Overseas Non Govt Bd",
+    "fnd2472": "Smart Overseas Bonds",
+    "fnd2465": "Smart NZ Cash Fund",
+    "fnd550": "Fisher Funds Cash Fund",
+    "fnd9386": "GoalsGetter Amova NZ Cash Fund",
+    "fnd339": "Westpac Cash Fund",
+    "fnd2176": "OneAnswer Cash Fund",
+    "fnd2189": "ANZ Cash Fund",
+    "fnd480": "QuayStreet Fixed Interest",
+    "fnd39246": "Generate Cashplus Fund",
+    "fnd15955": "K\u014dura Fixed Interest",
+    "fnd20538": "InvestNow Harbour NZ Core Fixed Interest Fund",
+    "fnd20532": "InvestNow Mercer Macquarie NZ Fixed Interest Fund",
+    "fnd2481": "Smart Income",
+    "fnd1153": "MAS Cash Fund"
+   },
+   "podium": {
+    "p3": [
+     {
+      "fund": "fnd20538",
+      "returnPct": 7.51,
+      "feePct": 0.65
+     },
+     {
+      "fund": "fnd9387",
+      "returnPct": 5.93,
+      "feePct": 0.7
+     },
+     {
+      "fund": "fnd20532",
+      "returnPct": 5.85,
+      "feePct": 0.64
+     }
+    ],
+    "p5": [
+     {
+      "fund": "fnd339",
+      "returnPct": 3.98,
+      "feePct": 0.25
+     },
+     {
+      "fund": "fnd9386",
+      "returnPct": 3.95,
+      "feePct": 0.4
+     },
+     {
+      "fund": "fnd1153",
+      "returnPct": 3.92,
+      "feePct": 0.25
+     }
+    ],
+    "p10": [
+     {
+      "fund": "fnd2463",
+      "returnPct": 2.98,
+      "feePct": 0.54
+     },
+     {
+      "fund": "fnd480",
+      "returnPct": 2.98,
+      "feePct": 0.75
+     },
+     {
+      "fund": "fnd550",
+      "returnPct": 2.92,
+      "feePct": 0.47
+     }
+    ]
+   },
+   "history": {
+    "p3": [
+     "fnd2177",
+     "fnd1579",
+     "fnd1579",
+     "fnd1191",
+     "fnd2472",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd339",
+     "fnd9386",
+     "fnd9386",
+     "fnd9386",
+     "fnd9386",
+     "fnd1579",
+     "fnd9386",
+     "fnd480",
+     "fnd480",
+     "fnd20538",
+     "fnd20538",
+     "fnd20538",
+     "fnd20538"
+    ],
+    "p5": [
+     "fnd2472",
+     "fnd1579",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd9386",
+     "fnd9386",
+     "fnd9386",
+     "fnd1579",
+     "fnd339",
+     "fnd339",
+     "fnd339",
+     "fnd339",
+     "fnd339",
+     "fnd339"
+    ],
+    "p10": [
+     "fnd2473",
+     "fnd2473",
+     "fnd2473",
+     "fnd2473",
+     "fnd2473",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd2463",
+     "fnd480",
+     "fnd1579",
+     "fnd1579",
+     "fnd1579",
+     "fnd480",
+     "fnd480",
+     "fnd2463"
+    ]
+   },
+   "eligible": {
+    "p3": 46,
+    "p5": 42,
+    "p10": 28
+   }
+  },
+  {
+   "id": "con",
+   "label": "Conservative",
+   "funds": {
+    "fnd695": "Simplicity Conservative Fund",
+    "fnd2196": "ANZ Default Conservative Balanced Fund",
+    "fnd2174": "OneAnswer Conservative Balanced Fund",
+    "fnd2187": "ANZ Conservative Balanced Fund",
+    "fnd14932": "Pathfinder Conservative Fund",
+    "fnd825": "QuayStreet Conservative Fund",
+    "fnd827": "QuayStreet Income",
+    "fnd2477": "Smart Conservative Fund",
+    "fnd1276": "Booster Capital Guaranteed",
+    "fnd553": "Fisher Funds Core Conservative Fund",
+    "fnd747": "Milford Conservative Fund",
+    "fnd20408": "InvestNow Milford Conservative Fund",
+    "fnd1289": "Booster Asset Class Conservative Fund",
+    "fnd10584": "Pie Conservative Fund",
+    "fnd36390": "InvestNow Fisher Funds Conservative Fund",
+    "fnd9436": "SBS Wealth Lifestages Conservative Option",
+    "fnd529": "ASB Conservative Fund",
+    "fnd41804": "Sharesies Smartshares Conservative Fund",
+    "fnd2175": "OneAnswer Conservative Fund"
+   },
+   "podium": {
+    "p3": [
+     {
+      "fund": "fnd529",
+      "returnPct": 7.82,
+      "feePct": 0.4
+     },
+     {
+      "fund": "fnd36390",
+      "returnPct": 7.76,
+      "feePct": 0.93
+     },
+     {
+      "fund": "fnd41804",
+      "returnPct": 7.7,
+      "feePct": 0.47
+     }
+    ],
+    "p5": [
+     {
+      "fund": "fnd825",
+      "returnPct": 4.4,
+      "feePct": 0.75
+     },
+     {
+      "fund": "fnd827",
+      "returnPct": 4.1,
+      "feePct": 0.75
+     },
+     {
+      "fund": "fnd1276",
+      "returnPct": 3.79,
+      "feePct": 0.91
+     }
+    ],
+    "p10": [
+     {
+      "fund": "fnd2175",
+      "returnPct": 37.83,
+      "feePct": 0.6
+     },
+     {
+      "fund": "fnd825",
+      "returnPct": 4.58,
+      "feePct": 0.75
+     },
+     {
+      "fund": "fnd2477",
+      "returnPct": 4.47,
+      "feePct": 0.57
+     }
+    ]
+   },
+   "history": {
+    "p3": [
+     "fnd695",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd14932",
+     "fnd14932",
+     "fnd14932",
+     "fnd827",
+     "fnd14932",
+     "fnd827",
+     "fnd827",
+     "fnd14932",
+     "fnd1276",
+     "fnd827",
+     "fnd825",
+     "fnd825",
+     "fnd20408",
+     "fnd1289",
+     "fnd36390",
+     "fnd36390",
+     "fnd36390",
+     "fnd529"
+    ],
+    "p5": [
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd827",
+     "fnd827",
+     "fnd827",
+     "fnd827",
+     "fnd827",
+     "fnd2174",
+     "fnd553",
+     "fnd14932",
+     "fnd14932",
+     "fnd14932",
+     "fnd2477",
+     "fnd825",
+     "fnd825",
+     "fnd825",
+     "fnd825",
+     "fnd825",
+     "fnd825"
+    ],
+    "p10": [
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175",
+     "fnd2175"
+    ]
+   },
+   "eligible": {
+    "p3": 41,
+    "p5": 36,
+    "p10": 28
+   }
+  },
+  {
+   "id": "bal",
+   "label": "Balanced",
+   "funds": {
+    "fnd748": "Milford Balanced Fund",
+    "fnd696": "Simplicity Balanced Fund",
+    "fnd1287": "Booster Socially Responsible Balanced Fund",
+    "fnd2458": "Smart Ethica",
+    "fnd10585": "Pie Balanced Fund",
+    "fnd1159": "MAS Balanced Fund",
+    "fnd14931": "Pathfinder Balanced Fund",
+    "fnd823": "QuayStreet Balanced Fund",
+    "fnd824": "QuayStreet Socially Responsible Investment",
+    "fnd809": "Generate Moderate Fund",
+    "fnd42063": "SBS Wealth Lifestages Balanced Option",
+    "fnd39245": "Generate Balanced Fund",
+    "fnd36250": "BNZ Default Fund",
+    "fnd40599": "Kernel Balanced Fund",
+    "fnd134": "AMP Balanced Fund",
+    "fnd531": "ASB Balanced Fund",
+    "fnd518": "BNZ Balanced Fund",
+    "fnd554": "Fisher Funds Balanced Fund",
+    "fnd2173": "OneAnswer Balanced Fund"
+   },
+   "podium": {
+    "p3": [
+     {
+      "fund": "fnd40599",
+      "returnPct": 13.42,
+      "feePct": 0.25
+     },
+     {
+      "fund": "fnd824",
+      "returnPct": 13.15,
+      "feePct": 1.0
+     },
+     {
+      "fund": "fnd531",
+      "returnPct": 12.4,
+      "feePct": 0.65
+     }
+    ],
+    "p5": [
+     {
+      "fund": "fnd823",
+      "returnPct": 8.59,
+      "feePct": 1.0
+     },
+     {
+      "fund": "fnd824",
+      "returnPct": 8.26,
+      "feePct": 1.0
+     },
+     {
+      "fund": "fnd531",
+      "returnPct": 6.36,
+      "feePct": 0.65
+     }
+    ],
+    "p10": [
+     {
+      "fund": "fnd823",
+      "returnPct": 8.06,
+      "feePct": 1.0
+     },
+     {
+      "fund": "fnd748",
+      "returnPct": 7.76,
+      "feePct": 1.05
+     },
+     {
+      "fund": "fnd824",
+      "returnPct": 7.72,
+      "feePct": 1.0
+     }
+    ]
+   },
+   "history": {
+    "p3": [
+     "fnd748",
+     "fnd2458",
+     "fnd2458",
+     "fnd10585",
+     "fnd2458",
+     "fnd748",
+     "fnd14931",
+     "fnd14931",
+     "fnd748",
+     "fnd748",
+     "fnd14931",
+     "fnd823",
+     "fnd823",
+     "fnd823",
+     "fnd823",
+     "fnd823",
+     "fnd824",
+     "fnd824",
+     "fnd824",
+     "fnd824",
+     "fnd824",
+     "fnd40599",
+     "fnd40599",
+     "fnd40599"
+    ],
+    "p5": [
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd14931",
+     "fnd14931",
+     "fnd823",
+     "fnd748",
+     "fnd824",
+     "fnd823",
+     "fnd823",
+     "fnd823",
+     "fnd823",
+     "fnd823"
+    ],
+    "p10": [
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd748",
+     "fnd823",
+     "fnd748",
+     "fnd823"
+    ]
+   },
+   "eligible": {
+    "p3": 56,
+    "p5": 45,
+    "p10": 33
+   }
+  },
+  {
+   "id": "gro",
+   "label": "Growth",
+   "funds": {
+    "fnd3138": "AE KiwiSaver Plan",
+    "fnd927": "Generate Growth Fund",
+    "fnd750": "Milford Active Growth Fund",
+    "fnd555": "Fisher Funds Growth Fund",
+    "fnd10586": "Pie Growth Fund",
+    "fnd14930": "Pathfinder Growth Fund",
+    "fnd2171": "OneAnswer Growth Fund",
+    "fnd826": "QuayStreet Growth Fund",
+    "fnd23957": "InvestNow Milford Active Growth Fund",
+    "fnd697": "Simplicity Growth Fund",
+    "fnd135": "AMP Growth Fund",
+    "fnd532": "ASB Growth Fund",
+    "fnd1160": "MAS Growth Fund",
+    "fnd519": "BNZ Growth Fund",
+    "fnd20410": "InvestNow Foundation Series Growth Fund",
+    "fnd42062": "SBS Wealth Lifestages Growth Option",
+    "fnd2184": "ANZ Growth Fund"
+   },
+   "podium": {
+    "p3": [
+     {
+      "fund": "fnd697",
+      "returnPct": 15.54,
+      "feePct": 0.24
+     },
+     {
+      "fund": "fnd135",
+      "returnPct": 15.22,
+      "feePct": 0.81
+     },
+     {
+      "fund": "fnd1160",
+      "returnPct": 15.09,
+      "feePct": 0.98
+     }
+    ],
+    "p5": [
+     {
+      "fund": "fnd826",
+      "returnPct": 10.48,
+      "feePct": 1.25
+     },
+     {
+      "fund": "fnd697",
+      "returnPct": 8.3,
+      "feePct": 0.24
+     },
+     {
+      "fund": "fnd42062",
+      "returnPct": 8.03,
+      "feePct": 1.17
+     }
+    ],
+    "p10": [
+     {
+      "fund": "fnd697",
+      "returnPct": 9.89,
+      "feePct": 0.24
+     },
+     {
+      "fund": "fnd826",
+      "returnPct": 9.72,
+      "feePct": 1.25
+     },
+     {
+      "fund": "fnd750",
+      "returnPct": 9.68,
+      "feePct": 1.05
+     }
+    ]
+   },
+   "history": {
+    "p3": [
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd10586",
+     "fnd10586",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd826",
+     "fnd826",
+     "fnd3138",
+     "fnd826",
+     "fnd826",
+     "fnd826",
+     "fnd826",
+     "fnd697",
+     "fnd826",
+     "fnd826",
+     "fnd135",
+     "fnd697"
+    ],
+    "p5": [
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd3138",
+     "fnd14930",
+     "fnd14930",
+     "fnd750",
+     "fnd750",
+     "fnd826",
+     "fnd826",
+     "fnd826",
+     "fnd826",
+     "fnd826"
+    ],
+    "p10": [
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd750",
+     "fnd697"
+    ]
+   },
+   "eligible": {
+    "p3": 41,
+    "p5": 36,
+    "p10": 23
+   }
+  },
+  {
+   "id": "agg",
+   "label": "Aggressive",
+   "funds": {
+    "fnd1286": "Booster Geared Growth Fund",
+    "fnd1583": "NZ Funds Growth Strategy",
+    "fnd1288": "Booster Socially Responsible High Growth Fund",
+    "fnd1581": "NZ Funds Inflation Strategy",
+    "fnd1162": "MAS Global Equities",
+    "fnd15503": "Milford Aggressive Fund",
+    "fnd2480": "Smart High Growth Fund",
+    "fnd1290": "Booster Asset Class Growth Fund",
+    "fnd2926": "SBS Wealth High Growth Fund",
+    "fnd42061": "SBS Wealth Lifestages Aggressive Option",
+    "fnd928": "Generate Focused Growth Fund",
+    "fnd37625": "Kernel High Growth Fund",
+    "fnd37523": "Booster Socially Responsible Geared Growth Fund",
+    "fnd136": "AMP Aggressive Fund",
+    "fnd18": "Mercer Responsible Shares",
+    "fnd38": "New Zealand Defence Force Shares Fund",
+    "fnd17": "Mercer Responsible High Growth Fund",
+    "fnd1161": "MAS Aggressive Fund"
+   },
+   "podium": {
+    "p3": [
+     {
+      "fund": "fnd37625",
+      "returnPct": 19.03,
+      "feePct": 0.25
+     },
+     {
+      "fund": "fnd37523",
+      "returnPct": 18.4,
+      "feePct": 1.31
+     },
+     {
+      "fund": "fnd1162",
+      "returnPct": 18.28,
+      "feePct": 0.98
+     }
+    ],
+    "p5": [
+     {
+      "fund": "fnd42061",
+      "returnPct": 9.89,
+      "feePct": 1.24
+     },
+     {
+      "fund": "fnd2926",
+      "returnPct": 9.73,
+      "feePct": 1.24
+     },
+     {
+      "fund": "fnd38",
+      "returnPct": 9.13,
+      "feePct": 0.88
+     }
+    ],
+    "p10": [
+     {
+      "fund": "fnd1162",
+      "returnPct": 11.7,
+      "feePct": 0.98
+     },
+     {
+      "fund": "fnd1286",
+      "returnPct": 11.64,
+      "feePct": 1.41
+     },
+     {
+      "fund": "fnd928",
+      "returnPct": 10.66,
+      "feePct": 1.27
+     }
+    ]
+   },
+   "history": {
+    "p3": [
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1583",
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1583",
+     "fnd15503",
+     "fnd15503",
+     "fnd15503",
+     "fnd1290",
+     "fnd15503",
+     "fnd15503",
+     "fnd2926",
+     "fnd2926",
+     "fnd928",
+     "fnd37625",
+     "fnd37523",
+     "fnd37523",
+     "fnd37523",
+     "fnd37625",
+     "fnd37625",
+     "fnd37625"
+    ],
+    "p5": [
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1583",
+     "fnd1286",
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1288",
+     "fnd1286",
+     "fnd1288",
+     "fnd1288",
+     "fnd1286",
+     "fnd1288",
+     "fnd15503",
+     "fnd15503",
+     "fnd15503",
+     "fnd15503",
+     "fnd15503",
+     "fnd1290",
+     "fnd42061",
+     "fnd2926",
+     "fnd42061",
+     "fnd42061"
+    ],
+    "p10": [
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1583",
+     "fnd1286",
+     "fnd1286",
+     "fnd1583",
+     "fnd1583",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1286",
+     "fnd1162"
+    ]
+   },
+   "eligible": {
+    "p3": 28,
+    "p5": 19,
+    "p10": 17
+   }
+  }
+ ]
+}
