@@ -64,6 +64,44 @@ const HowToChangeProvider: Collection = {
         "Hugo partial name. Do not change unless you know what you are doing.",
     },
 
+    // LAST UPDATED (shown under the page title)
+    {
+      type: "datetime",
+      name: "last_updated",
+      label: "Last updated",
+      description:
+        "Shown under the page title as 'Last updated Month Year'. Change it when you update the page.",
+    },
+
+    // ANSWER FIRST (above the intro)
+    {
+      type: "string",
+      name: "answer_tag",
+      label: "Answer - Section Tag (optional)",
+    },
+    {
+      type: "string",
+      name: "answer_heading",
+      label: "Answer - Heading",
+      description: "Leave blank to hide this section.",
+      ui: { component: "textarea" },
+    },
+    {
+      type: "string",
+      name: "answer_body",
+      label: "Answer - Body",
+      ui: { component: "textarea" },
+    },
+
+    {
+      type: "string",
+      name: "aliases",
+      label: "Redirect from (old URLs)",
+      description:
+        "Old addresses that should send visitors to this page, e.g. /about-us. Leave alone unless you know you need it.",
+      list: true,
+    },
+
     // INTRO / FRAMING
     {
       type: "string",

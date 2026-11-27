@@ -4,6 +4,8 @@ title: Helping Kiwis make better KiwiSaver decisions.
 description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
 featured_image: /uploads/illustration-newtons-cradle.svg
 featured_image_fit: contain
+aliases:
+  - /about-us
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
 framing_tag: Why we exist

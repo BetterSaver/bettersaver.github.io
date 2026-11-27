@@ -46,10 +46,16 @@ draft: false
 title: How to Change or Switch KiwiSaver Provider
 description: Your first KiwiSaver scheme was probably chosen for you. We help you choose one for yourself.
 featured_image: /uploads/bg-how-to-change-kiwisaver.jpg
-icon_path: /uploads/images/illustration-boots.svg
+icon_path: /images/illustration-boots.svg
 icon_class: boots
 date: 2026-08-17T03:00:00.000Z
 page_block: block-how-to-change-provider
+last_updated: 2026-11-27T00:00:00.000Z
+aliases:
+  - /blog/switch-kiwisaver-providers
+answer_heading: How do I change my KiwiSaver provider?
+answer_body: |-
+  To change your KiwiSaver provider, you apply to the new provider, either directly or through BetterSaver. You don't need to contact your old provider or your employer. Your new provider arranges the transfer of your balance and tells Inland Revenue. [Inland Revenue](https://www.ird.govt.nz/kiwisaver/kiwisaver-individuals/making-changes-to-my-kiwisaver/changing-to-another-provider) says the process takes about 2 weeks.
 intro_tag: Why switch
 intro_heading: Should you switch your KiwiSaver provider?
 intro_body_2: |-
@@ -75,7 +81,7 @@ need_tag: Before you start
 need_heading: What you'll need to change KiwiSaver.
 need_subheading: Having these handy speeds things up.
 need_items:
-  - text: The name of your current KiwiSaver provider (check myIR if you're not sure).
+  - text: The name of your current KiwiSaver provider (check [myIR](https://myir.ird.govt.nz/) if you're not sure).
   - text: 'Your IRD number (helpful, though not always required straight away).'
   - text: A form of ID for online verification - usually a driver licence or passport.
   - text: Your email address and mobile number.
@@ -102,9 +108,9 @@ switch_cards:
   - label: After Kiwisaver Switch
     title: 'After you switch: what to check'
     description: |-
-      Your PIR (prescribed investor rate) with your new provider, so you're taxed at the right rate.
-      Any direct debits for voluntary payments: point them to your new provider.
-      Your contribution rate. Switching provider doesn't change it.
+      - Your PIR (prescribed investor rate) with your new provider, so you're taxed at the right rate.
+      - Any direct debits for voluntary payments: point them to your new provider.
+      - Your contribution rate. Switching provider doesn't change it.
 paths_tag: Two paths
 paths_heading: Switching KiwiSaver through BetterSaver.
 paths_subheading: 'Some providers connect directly with our platform. Others don''t. Either way, we can help.'
@@ -131,7 +137,7 @@ contrib_title: '<span>Available rates:</span> 3.5%, 4%, 6%, 8%, or 10%'
 contrib_sub: |-
   Your KiwiSaver contribution rate is a percentage of your before-tax pay. To change it, give your employer a KiwiSaver deduction form (KS2), or change it in myIR or through your provider. You can change your rate once every 3 months, or sooner if your employer agrees. The new rate starts from your next pay. 
 
-  Read what changed with KiwiSaver contribution rates in April 2026.
+  Read [what changed with KiwiSaver contribution rates in April 2026](/financial-tips/kiwisaver-contribution-rates-what-changed-in-april-2026/).
 contrib_image: /uploads/illustration-shake.png
 contrib_image_alt: Annual refresh
 new_tag: Joining for the first time

@@ -1450,6 +1450,34 @@
     line-height: 1.6;
 }
 
+/* Headings and lists inside markdown copy (prose-copy, prose-footnote, card
+   bodies). .how-we-analyse-page zeroes margins and list styles, so restate them. */
+.change-provider-page .prose-copy h3,
+.change-provider-page .prose-footnote h3 {
+    font-size: 22px;
+    margin: 28px 0 8px;
+}
+
+.change-provider-page .prose-footnote p + p {
+    margin-top: 14px;
+}
+
+.change-provider-page .tcard .tdesc {
+    font-size: 15px;
+    color: var(--grey-mid);
+    line-height: 1.6;
+}
+
+.change-provider-page .tcard .tdesc ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+.change-provider-page .tcard .tdesc li + li {
+    margin-top: 8px;
+}
+
 .change-provider-page .tcard .path-illo {
     display: block;
     width: auto;

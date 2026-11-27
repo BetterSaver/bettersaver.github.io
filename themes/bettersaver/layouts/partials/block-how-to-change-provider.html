@@ -15,6 +15,25 @@
     </section>
   </div> -->
 
+  {{/* ANSWER FIRST — short direct answer to the page's question, above the intro */}}
+  {{ with .Params.answer_heading }}
+  <div class="pt-9">
+    <div class="hwa-page">
+      <section>
+        <div class="framing">
+          <div>
+            {{ with $.Params.answer_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
+            <h2>{{ . | markdownify }}</h2>
+          </div>
+          <div>
+            <div class="prose-copy">{{ $.Params.answer_body | markdownify }}</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  {{ end }}
+
   {{/* INTRO / FRAMING */}}
   <div class="py-9">
     <div class="hwa-page">
@@ -140,7 +159,7 @@
         <div class="tcard white">
           <div class="tlab">{{ .label }}</div>
           <h3>{{ .title | markdownify }}</h3>
-          <p>{{ .description | markdownify }}</p>
+          <div class="tdesc">{{ .description | markdownify }}</div>
         </div>
         {{ end }}
       </div>

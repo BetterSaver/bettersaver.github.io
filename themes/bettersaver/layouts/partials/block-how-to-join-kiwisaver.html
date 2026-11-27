@@ -23,6 +23,25 @@
 {{- $appUrl := .Site.Params.appUrl -}}
 <div class="how-we-analyse-page change-provider-page join-kiwisaver-page">
 
+  {{/* ANSWER FIRST — short direct answer to the page's question, above the intro */}}
+  {{ with .Params.answer_heading }}
+  <div class="pt-9">
+    <div class="hwa-page">
+      <section>
+        <div class="framing">
+          <div>
+            {{ with $.Params.answer_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
+            <h2>{{ . | markdownify }}</h2>
+          </div>
+          <div>
+            <div class="prose-copy">{{ $.Params.answer_body | markdownify }}</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  {{ end }}
+
   {{/* INTRO / FRAMING */}}
   <div class="py-9">
     <div class="hwa-page">
@@ -57,7 +76,7 @@
         {{ end }}
       </ul>
       {{ with .Params.eligible_footnote }}
-      <p class="prose-footnote">{{ . | markdownify }}</p>
+      <div class="prose-footnote">{{ . | markdownify }}</div>
       {{ end }}
     </section>
   </div>
