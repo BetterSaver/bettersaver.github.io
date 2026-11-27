@@ -1,0 +1,202 @@
+{{ define "head" }}
+{{ partial "head-additions.html" . }}
+{{ partial "leaderboard/style.html" . }}
+{{ end }}
+
+{{ define "header" }}
+{{/* Nav only: the leaderboard carries its own hero, so skip the theme's grey title band. */}}
+<header>{{ partial "site-navigation.html" . }}</header>
+{{ end }}
+
+{{ define "main" }}
+{{ $d := site.Data.leaderboard.leaderboard }}
+{{ $asOf := dateFormat "2 January 2006" $d.asOf }}
+<div class="lb-scope">
+
+<section class="lb-hero">
+<div class="lb-hero-copy">
+<h1 class="serif">Here&rsquo;s the leaderboard. <em>Here&rsquo;s why you shouldn&rsquo;t pick a fund from it.</em></h1>
+<p>The top three KiwiSaver funds in every category over 3, 5 and 10 years, from the Disclose Register, refreshed every quarter. Nothing is ever deleted.</p>
+<div><a href="#record" class="pill-btn navy">See the record</a></div>
+</div>
+<div class="lb-hero-art">
+<div class="lb-hero-card">
+<div class="mini-ribbon" aria-hidden="true">
+<div class="r"><span style="flex:2;background:#783CF0"></span><span style="flex:1;background:#F6862A"></span><span style="flex:3;background:#F1375C"></span><span style="flex:2;background:#FFB236"></span></div>
+<div class="r"><span style="flex:4;background:#F6862A"></span><span style="flex:3;background:#783CF0"></span><span style="flex:2;background:#00A356"></span></div>
+</div>
+<span class="mini-ribbon-cap">The crown, changing hands since {{ $d.firstQuarter.year }}.</span>
+</div>
+</div>
+</section>
+
+<section class="band">
+<h2 class="serif">Someone is always #1. It&rsquo;s rarely the same someone for long.</h2>
+<p>{{ div $d.quarters 4 }} years of official data below. Count the colour changes.</p>
+</section>
+
+<div id="record">
+<div class="lb-wrap">
+<div class="section-head">
+<h2 class="serif">The podium right now</h2>
+<p class="sub">Returns to {{ $asOf }} &middot; As published, never edited</p>
+<div class="cat-pills" id="cat-pills" role="group" aria-label="KiwiSaver fund category"></div>
+</div>
+<div class="podium" id="podium"></div>
+<p class="lb-disclaimer">Returns are after fees and before tax, to {{ $asOf }}, from the Disclose Register. Past performance is not a reliable indicator of future performance.</p>
+</div>
+
+<section class="ribbon-section">
+<div class="lb-wrap ribbon-head">
+<h2 class="serif">Who has held #1, every quarter since {{ $d.firstQuarter.year }}</h2>
+<p class="sub">Each block is one quarter of official data. Each colour is a different fund. <strong>Count the colour changes.</strong></p>
+<div class="ribbon-card">
+<div class="ribbon-scroll">
+<div class="ribbon-grid" id="ribbon"></div>
+</div>
+<div class="legend" id="legend"></div>
+<p class="lb-disclaimer left">A caret marks the first quarter of a new reign. This record is append only: each quarter is added as published and never edited or removed. Returns are after fees and before tax, from the Disclose Register. Past performance is not a reliable indicator of future performance.</p>
+</div>
+</div>
+</section>
+
+<section class="lb-stats">
+<div class="stat-row">
+<span class="num" id="stat-changes">&ndash;</span>
+<span><span class="stat-title" id="stat-changes-title">times the 3 year #1 has changed in the last {{ div $d.quarters 4 }} years</span><span class="stat-sub">A new name at the top, again and again.</span></span>
+</div>
+<div class="stat-row" id="stat-lastyear-row" hidden>
+<span class="num" id="stat-lastyear">&ndash;</span>
+<span><span class="stat-title" id="stat-lastyear-title"></span><span class="stat-sub">Last year&rsquo;s winner, this year&rsquo;s mid table.</span></span>
+</div>
+</section>
+
+<section class="band">
+<h3 class="serif">This is not our recommended list.</h3>
+<p>A leaderboard rewards whoever had the best recent past. Advice starts from your timeframe, your goals and your stomach for the dips, which is a different question entirely.</p>
+<div class="actions">
+<a href="/pages/how-we-analyse" class="pill-btn white">How we choose funds</a>
+<a href="/kiwisaver-funds/" class="text-link">See every fund, rated</a>
+</div>
+</section>
+</div>
+
+<div class="compliance">
+<p>Data powered by Morningstar.</p>
+<p>Returns are after fees and before tax, from the Disclose Register. Past performance is not a reliable indicator of future performance.</p>
+<p>&copy; BetterSaver {{ now.Format "2006" }}</p>
+</div>
+
+</div>
+
+<script>
+(function () {
+var DATA = {{ $d | jsonify | safeJS }};
+var PERIODS = [["p3", "3 years", "3 yr"], ["p5", "5 years", "5 yr"], ["p10", "10 years", "10 yr"]];
+var activeCat = "gro";
+var baseQ = DATA.firstQuarter.year * 4 + (DATA.firstQuarter.q - 1);
+
+function quarterLabel(i, short) {
+  var t = baseQ + i;
+  var q = t % 4 + 1, y = Math.floor(t / 4);
+  return "Q" + q + " " + (short ? String(y).slice(2) : y);
+}
+function colour(key) { return DATA.providers[key].colour; }
+function fname(key) { return DATA.providers[key].name; }
+function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
+
+function render() {
+  var cat; DATA.categories.forEach(function (c) { if (c.id === activeCat) cat = c; });
+
+  var pills = document.getElementById("cat-pills");
+  pills.innerHTML = "";
+  DATA.categories.forEach(function (c) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "cat-pill";
+    b.textContent = c.label;
+    b.setAttribute("aria-pressed", c.id === activeCat ? "true" : "false");
+    b.addEventListener("click", function () { activeCat = c.id; render(); });
+    pills.appendChild(b);
+  });
+
+  var podium = document.getElementById("podium");
+  podium.innerHTML = "";
+  PERIODS.forEach(function (P) {
+    var key = P[0], label = P[1];
+    var col = document.createElement("div");
+    col.className = "podium-col";
+    col.innerHTML = '<div class="col-head"><span class="period serif">' + label + '</span><span class="note">annualised, after fees</span></div>';
+    cat.podium[key].forEach(function (row, i) {
+      var div = document.createElement("div");
+      div.className = "fund-row" + (i === 0 ? " first" : "");
+      div.innerHTML =
+        '<span class="rank">' + (i + 1) + '</span>' +
+        '<span class="bar" style="background:' + colour(row.fund) + '"></span>' +
+        '<span class="name">' + esc(fname(row.fund)) + (row.note ? '<span class="fund-note">' + esc(row.note) + '</span>' : '') + '</span>' +
+        '<span class="nums"><span class="ret">' + row.returnPct.toFixed(1) + '%</span><span class="fee">' + row.feePct.toFixed(2) + '% fee</span></span>';
+      col.appendChild(div);
+    });
+    podium.appendChild(col);
+  });
+
+  var ribbon = document.getElementById("ribbon");
+  ribbon.innerHTML = "";
+  var changes = 0;
+  PERIODS.forEach(function (P) {
+    var key = P[0], short = P[2];
+    var seq = cat.history[key];
+    var row = document.createElement("div");
+    row.className = "ribbon-row";
+    var ticks = seq.map(function (f, i) {
+      var isChange = i > 0 && seq[i - 1] !== f;
+      if (key === "p3" && isChange) changes++;
+      var cls = "tick" + (isChange ? " change" : "") + (i === seq.length - 1 ? " latest" : "");
+      return '<div class="' + cls + '" style="background:' + colour(f) + '" title="' + esc(quarterLabel(i, false) + ' · ' + fname(f)) + '"></div>';
+    }).join("");
+    row.innerHTML = '<span class="lab">' + short + '</span><div class="ticks">' + ticks + '</div>';
+    ribbon.appendChild(row);
+  });
+  var axisRow = document.createElement("div");
+  axisRow.className = "ribbon-row";
+  var axis = "";
+  for (var i = 0; i < DATA.quarters; i++) {
+    axis += "<span>" + ((i % 4 === 0 || i === DATA.quarters - 1) ? quarterLabel(i, true) : "") + "</span>";
+  }
+  axisRow.innerHTML = '<span class="lab"></span><div class="axis">' + axis + '</div>';
+  ribbon.appendChild(axisRow);
+
+  var legend = document.getElementById("legend");
+  legend.innerHTML = "";
+  var seen = {};
+  PERIODS.forEach(function (P) {
+    cat.history[P[0]].forEach(function (f) {
+      if (seen[f]) return;
+      seen[f] = true;
+      var item = document.createElement("span");
+      item.className = "item";
+      item.innerHTML = '<span class="dot" style="background:' + colour(f) + '"></span>' + esc(fname(f));
+      legend.appendChild(item);
+    });
+  });
+
+  document.getElementById("stat-changes").textContent = changes;
+  document.getElementById("stat-changes-title").textContent =
+    "times the 3 year #1 has changed in " + cat.label.toLowerCase() + " over " + Math.floor(DATA.quarters / 4) + " years";
+
+  var ly = cat.lastYear;
+  var lyRow = document.getElementById("stat-lastyear-row");
+  if (ly && ly.rankNow) {
+    lyRow.hidden = false;
+    document.getElementById("stat-lastyear").textContent = ly.rankNow;
+    document.getElementById("stat-lastyear-title").textContent =
+      "where last year’s #1, " + fname(ly.fund) + ", ranks today";
+  } else {
+    lyRow.hidden = true;
+  }
+}
+
+render();
+})();
+</script>
+{{ end }}
