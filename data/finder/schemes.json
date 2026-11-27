@@ -1,0 +1,1552 @@
+[
+ {
+  "scheme_slug": "ae-kiwisaver-plan",
+  "scheme_name": "AE KiwiSaver Plan",
+  "provider_name": "AE",
+  "members": 3619,
+  "about": "One fund, one job: investing to a strict ethical mandate shaped by Islamic principles, with no interest-earning lending, alcohol or gambling. Around 3,600 members and $105 million. As specialist as KiwiSaver gets.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$105 million",
+  "total_value_m": 105.3,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 1,
+  "rec_count": 0,
+  "avg_fee_pct": 4.26,
+  "sus_high": 0,
+  "sw_good": [
+   "Its fund with a five-year record beats the category average after fees"
+  ],
+  "sw_warn": [
+   "Its fund doesn't make our recommended list",
+   "Fees average 4.26% across its funds, above the market average of 0.82%",
+   "Independent ethical-screen and sustainability data isn't currently available for this fund"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "amp-kiwisaver-scheme",
+  "scheme_name": "AMP KiwiSaver Scheme",
+  "provider_name": "AMP",
+  "members": 220368,
+  "about": "Twenty-six funds covering an index-tracking core range, age-based Lifesteps and a few actively managed extras. A big menu with something for most settings, holding $10.8 billion for around 220,000 members.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$10.8 billion",
+  "total_value_m": 10823.9,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 23,
+  "sus_above": 8,
+  "nz_owned": "no",
+  "fund_count": 26,
+  "rec_count": 3,
+  "avg_fee_pct": 0.89,
+  "sus_high": 8,
+  "sw_good": [
+   "7 of its 13 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "23 of its 26 funds don't make our recommended list",
+   "Fees average 0.89% across its funds, above the market average of 0.82%",
+   "High exposure to gambling, alcohol"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "anz-default-kiwisaver-scheme",
+  "scheme_name": "ANZ Default KiwiSaver Scheme",
+  "provider_name": "ANZ Default",
+  "members": 28725,
+  "about": "Seven funds run by the same team as the main ANZ scheme, left over from its default-provider days. Closed to new members, with around 29,000 still in, holding $1.7 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$1.7 billion",
+  "total_value_m": 1698.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 5,
+  "nz_owned": "no",
+  "fund_count": 7,
+  "rec_count": 0,
+  "avg_fee_pct": 0.72,
+  "sus_high": 5,
+  "sw_good": [
+   "Fees average 0.72% across its funds, below the market average of 0.82%",
+   "5 of its 6 funds with a sustainability rating score High or Highest"
+  ],
+  "sw_warn": [
+   "7 of its 7 funds don't make our recommended list",
+   "5 of its 6 funds with a five-year record trail the category average after fees",
+   "High exposure to gambling, alcohol, tobacco"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "anz-kiwisaver-scheme",
+  "scheme_name": "ANZ KiwiSaver Scheme",
+  "provider_name": "ANZ",
+  "members": 557922,
+  "about": "Seven actively managed funds, one for each risk setting, run by one of the largest investment teams in the country. A simple ladder with serious scale behind it: around 558,000 members and $19.3 billion, more members than any other scheme.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$19.3 billion",
+  "total_value_m": 19322.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 4,
+  "nz_owned": "no",
+  "fund_count": 7,
+  "rec_count": 1,
+  "avg_fee_pct": 0.74,
+  "sus_high": 4,
+  "sw_good": [
+   "Fees average 0.74% across its funds, below the market average of 0.82%",
+   "4 of its 5 funds with a sustainability rating score High or Highest"
+  ],
+  "sw_warn": [
+   "6 of its 7 funds don't make our recommended list",
+   "5 of its 6 funds with a five-year record trail the category average after fees",
+   "High exposure to gambling, tobacco, civilian weapons"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "asb-kiwisaver-scheme",
+  "scheme_name": "ASB KiwiSaver Scheme",
+  "provider_name": "ASB",
+  "members": 514517,
+  "about": "Six funds, one per risk setting, largely index-tracking and built around keeping costs down. About as simple as KiwiSaver gets, which is most of the appeal, and at $22.0 billion for around 515,000 members, the biggest scheme in the country by money managed.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$22 billion",
+  "total_value_m": 22008.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Low",
+   "Civilian weapons": "Low",
+   "Gambling": "High",
+   "Nuclear power": "Highest",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 3,
+  "nz_owned": "no",
+  "fund_count": 6,
+  "rec_count": 4,
+  "avg_fee_pct": 0.58,
+  "sus_high": 3,
+  "sw_good": [
+   "4 of its 6 funds make our recommended list",
+   "4 of its 5 funds with a five-year record beat the category average after fees",
+   "Fees average 0.58% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "High exposure to gambling, nuclear power",
+   "Independent ethical-screen data isn't available for 1 of its 6 funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "bcf-kiwisaver-scheme",
+  "scheme_name": "BCF KiwiSaver Scheme",
+  "provider_name": "BCF",
+  "members": 728,
+  "about": "One fund, restricted to the Brethren community, invested mainly in bank term deposits to match the community's beliefs. Around 730 members and $20 million. You join through the community, not off the street.",
+  "restricted": true,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$20 million",
+  "total_value_m": 19.8,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 1,
+  "rec_count": 0,
+  "avg_fee_pct": 0.77,
+  "sus_high": 0,
+  "sw_good": [
+   "Its fund with a five-year record beats the category average after fees"
+  ],
+  "sw_warn": [
+   "Its fund doesn't make our recommended list",
+   "Independent ethical-screen and sustainability data isn't currently available for this fund"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "bnz-kiwisaver-scheme",
+  "scheme_name": "BNZ KiwiSaver Scheme",
+  "provider_name": "BNZ",
+  "members": 255545,
+  "about": "Eight straightforward funds from the bank's investment team, including one of the few in KiwiSaver built specifically for a first home deposit. No frills, and that's the point. Around 256,000 members and $7.3 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$7.3 billion",
+  "total_value_m": 7340.6,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Highest",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "High",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 7,
+  "sus_above": 4,
+  "nz_owned": "no",
+  "default_provider": "yes",
+  "fund_count": 8,
+  "rec_count": 4,
+  "avg_fee_pct": 0.42,
+  "sus_high": 4,
+  "sw_good": [
+   "4 of its 8 funds make our recommended list",
+   "4 of its 6 funds with a five-year record beat the category average after fees",
+   "Fees average 0.42% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "High exposure to alcohol, civilian weapons, animal testing"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "booster-kiwisaver-scheme",
+  "scheme_name": "Booster KiwiSaver Scheme",
+  "provider_name": "Booster",
+  "members": 237149,
+  "about": "Eighteen actively managed funds including a full socially responsible range, a geared option and KiwiSaver's rare capital guarantee. If the big banks don't offer it, Booster probably does. Around 237,000 members and $7.1 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "some",
+  "partnered": true,
+  "total_value": "$7.1 billion",
+  "total_value_m": 7126.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Highest",
+  "sus_rated": 14,
+  "sus_above": 13,
+  "nz_owned": "yes",
+  "default_provider": "yes",
+  "fund_count": 18,
+  "rec_count": 3,
+  "avg_fee_pct": 1.09,
+  "sus_high": 13,
+  "sw_good": [
+   "13 of its 14 funds with a sustainability rating score High or Highest"
+  ],
+  "sw_warn": [
+   "15 of its 18 funds don't make our recommended list",
+   "8 of its 15 funds with a five-year record trail the category average after fees",
+   "Fees average 1.09% across its funds, above the market average of 0.82%"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "christian-kiwisaver-scheme",
+  "scheme_name": "Christian KiwiSaver Scheme",
+  "provider_name": "Christian",
+  "members": 2802,
+  "about": "Three funds investing to Christian ethical principles, with holdings most schemes don't have, like forests and smart energy. Despite the name, anyone can join. Around 2,800 members and $110 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$110 million",
+  "total_value_m": 110.4,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 3,
+  "rec_count": 0,
+  "avg_fee_pct": 1.22,
+  "sus_high": 0,
+  "sw_good": [
+   "2 of its 3 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "3 of its 3 funds don't make our recommended list",
+   "Fees average 1.22% across its funds, above the market average of 0.82%",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "evidential-kiwisaver-scheme",
+  "scheme_name": "Evidential KiwiSaver Scheme",
+  "provider_name": "Evidential",
+  "members": 699,
+  "about": "Three funds built on one idea: follow the academic evidence, not forecasts or star stock pickers. A small, disciplined scheme mostly found through advisers, with around 700 members and $54 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$54 million",
+  "total_value_m": 54.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Low",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Highest"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 3,
+  "sus_above": 0,
+  "nz_owned": "no",
+  "fund_count": 3,
+  "rec_count": 0,
+  "avg_fee_pct": 0.75,
+  "sus_high": 0,
+  "sw_good": [
+   "Fees average 0.75% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "3 of its 3 funds don't make our recommended list",
+   "High exposure to tobacco, weapons of war, civilian weapons",
+   "Only 0 of its 3 funds with a sustainability rating score High or Highest"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "fisher-funds-kiwisaver-plan",
+  "scheme_name": "Fisher Funds KiwiSaver Plan",
+  "provider_name": "Fisher Funds",
+  "members": 533496,
+  "about": "Thirteen funds, all about hands-on active management rather than index tracking, plus an age-based GlidePath that adjusts as you go. One of the biggest specialist managers in the country, with around 533,000 members and $18.5 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "some",
+  "partnered": true,
+  "total_value": "$18.5 billion",
+  "total_value_m": 18484.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Highest",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "High"
+  },
+  "sus_band": "High",
+  "sus_rated": 4,
+  "sus_above": 2,
+  "nz_owned": "yes",
+  "default_provider": "yes",
+  "fund_count": 13,
+  "rec_count": 2,
+  "avg_fee_pct": 0.91,
+  "sus_high": 2,
+  "sw_good": [
+   "2 of its 13 funds make our recommended list"
+  ],
+  "sw_warn": [
+   "11 of its 13 funds don't make our recommended list",
+   "Fees average 0.91% across its funds, above the market average of 0.82%",
+   "High exposure to alcohol, tobacco, weapons of war"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "generate-kiwisaver-scheme",
+  "scheme_name": "Generate KiwiSaver Scheme",
+  "provider_name": "Generate",
+  "members": 246613,
+  "about": "A KiwiSaver specialist, it's close to all they do: 21 actively managed funds including age-based Stepping Stones options. Getting members advice is a big part of the pitch. Around 247,000 members and $10.9 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "some",
+  "partnered": true,
+  "total_value": "$10.9 billion",
+  "total_value_m": 10852.2,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "High",
+   "Tobacco": "Low",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 8,
+  "sus_above": 4,
+  "nz_owned": "yes",
+  "fund_count": 21,
+  "rec_count": 2,
+  "avg_fee_pct": 1.15,
+  "sus_high": 4,
+  "sw_good": [
+   "3 of its 3 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "19 of its 21 funds don't make our recommended list",
+   "Fees average 1.15% across its funds, above the market average of 0.82%",
+   "High exposure to alcohol, civilian weapons, nuclear power"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "goalsgetter-kiwisaver-scheme",
+  "scheme_name": "GoalsGetter KiwiSaver Scheme",
+  "provider_name": "GoalsGetter",
+  "members": 3293,
+  "about": "One account, 22 funds from several managers: Milford, Generate, Salt, Pathfinder, Smart and its own range, including an ARK disruptive innovation option. A menu scheme for people who want to choose, with around 3,300 members and $145 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$145 million",
+  "total_value_m": 145.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "High",
+   "Civilian weapons": "None",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Low"
+  },
+  "sus_band": "High",
+  "sus_rated": 10,
+  "sus_above": 5,
+  "nz_owned": "no",
+  "fund_count": 22,
+  "rec_count": 1,
+  "avg_fee_pct": 1.18,
+  "sus_high": 5,
+  "sw_good": [
+   "1 of its 22 funds make our recommended list"
+  ],
+  "sw_warn": [
+   "21 of its 22 funds don't make our recommended list",
+   "3 of its 5 funds with a five-year record trail the category average after fees",
+   "Fees average 1.18% across its funds, above the market average of 0.82%"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "hive-kiwisaver-scheme",
+  "scheme_name": "Hive KiwiSaver Scheme",
+  "provider_name": "Hive",
+  "members": 28802,
+  "about": "Hive under its former name: 14 funds mixing its own active options with boutique managers you don't see in the big schemes. Around 29,000 members and $672 million all up.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$672 million",
+  "total_value_m": 672.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "Medium",
+   "Civilian weapons": "None",
+   "Gambling": "None",
+   "Nuclear power": "Low",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 1,
+  "sus_above": 1,
+  "nz_owned": "yes",
+  "fund_count": 14,
+  "rec_count": 0,
+  "avg_fee_pct": 1.35,
+  "sus_high": 1,
+  "sw_good": [
+   "Little or no exposure in 5 of the 8 ethical areas we screen",
+   "Its only fund with a sustainability rating scores High or Highest"
+  ],
+  "sw_warn": [
+   "14 of its 14 funds don't make our recommended list",
+   "Fees average 1.35% across its funds, above the market average of 0.82%",
+   "High exposure to alcohol relative to other funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "investnow-kiwisaver-scheme",
+  "scheme_name": "InvestNow KiwiSaver Scheme",
+  "provider_name": "InvestNow",
+  "members": 26727,
+  "about": "Forty-five funds from more than a dozen managers in one account, plus its own ultra-low-fee Foundation Series. Real choice without juggling multiple schemes. Around 27,000 members and $909 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$909 million",
+  "total_value_m": 908.7,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 33,
+  "sus_above": 10,
+  "nz_owned": "no",
+  "fund_count": 45,
+  "rec_count": 6,
+  "avg_fee_pct": 0.75,
+  "sus_high": 10,
+  "sw_good": [
+   "Fees average 0.75% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "39 of its 45 funds don't make our recommended list",
+   "12 of its 20 funds with a five-year record trail the category average after fees",
+   "High exposure to nuclear power relative to other funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "kernel-kiwisaver-plan",
+  "scheme_name": "Kernel KiwiSaver Plan",
+  "provider_name": "Kernel",
+  "members": 36658,
+  "about": "Twenty-five funds, nearly all index-tracking, from pre-mixed options to single-market funds like the S&P 500 and clean energy. Low fees are the whole point, and it delivers on them. Around 37,000 members and $1.6 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$1.6 billion",
+  "total_value_m": 1593.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "High",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 22,
+  "sus_above": 8,
+  "nz_owned": "yes",
+  "fund_count": 25,
+  "rec_count": 0,
+  "avg_fee_pct": 0.27,
+  "sus_high": 8,
+  "sw_good": [
+   "Fees average 0.27% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "25 of its 25 funds don't make our recommended list",
+   "High exposure to alcohol, animal testing, nuclear power"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "k-ura-kiwisaver-scheme",
+  "scheme_name": "K\u014dura KiwiSaver Scheme",
+  "provider_name": "K\u014dura",
+  "members": 62299,
+  "about": "Rather than one-size-fits-all funds, K\u014dura builds you a personalised portfolio from its 13 building blocks using digital advice. Also home to KiwiSaver's first Bitcoin fund, for the brave. Around 62,000 members and $534 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$534 million",
+  "total_value_m": 534.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 9,
+  "sus_above": 4,
+  "nz_owned": "yes",
+  "fund_count": 13,
+  "rec_count": 0,
+  "avg_fee_pct": 0.84,
+  "sus_high": 4,
+  "sw_good": [
+   "2 of its 2 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "13 of its 13 funds don't make our recommended list",
+   "Independent ethical-screen data isn't available for 2 of its 13 funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "mas-kiwisaver-scheme",
+  "scheme_name": "MAS KiwiSaver Scheme",
+  "provider_name": "MAS",
+  "members": 20241,
+  "about": "Seven funds, all responsibly invested, from a member-owned mutual best known for looking after health professionals. No outside shareholders to please. Around 20,000 members and $1.8 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$1.8 billion",
+  "total_value_m": 1775.8,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Highest",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "High"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 3,
+  "nz_owned": "yes",
+  "fund_count": 7,
+  "rec_count": 3,
+  "avg_fee_pct": 0.85,
+  "sus_high": 3,
+  "sw_good": [
+   "5 of its 7 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "4 of its 7 funds don't make our recommended list",
+   "High exposure to alcohol, weapons of war, animal testing",
+   "Independent ethical-screen data isn't available for 1 of its 7 funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "maritime-kiwisaver-scheme",
+  "scheme_name": "Maritime KiwiSaver Scheme",
+  "provider_name": "Maritime",
+  "members": 309,
+  "about": "Three funds, restricted to New Zealand's maritime workers. Small and focused: around 310 members and $21 million, and not something you can join off the street.",
+  "restricted": true,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$21 million",
+  "total_value_m": 20.8,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 3,
+  "rec_count": 0,
+  "avg_fee_pct": 0.69,
+  "sus_high": 0,
+  "sw_good": [
+   "Fees average 0.69% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "3 of its 3 funds don't make our recommended list",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "mercer-kiwisaver-scheme",
+  "scheme_name": "Mercer KiwiSaver Scheme",
+  "provider_name": "Mercer",
+  "members": 53970,
+  "about": "Seven multi-manager funds: Mercer picks and blends specialist managers so you don't have to. The whole range is RIAA-certified for responsible investing. Around 54,000 members and $2.6 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$2.6 billion",
+  "total_value_m": 2641.9,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "Medium",
+   "Nuclear power": "High",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 5,
+  "nz_owned": "no",
+  "fund_count": 7,
+  "rec_count": 4,
+  "avg_fee_pct": 0.7,
+  "sus_high": 5,
+  "sw_good": [
+   "4 of its 7 funds make our recommended list",
+   "5 of its 7 funds with a five-year record beat the category average after fees",
+   "Fees average 0.70% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "High exposure to civilian weapons, animal testing, nuclear power"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "milford-kiwisaver-plan",
+  "scheme_name": "Milford KiwiSaver Plan",
+  "provider_name": "Milford",
+  "members": 226937,
+  "about": "Just 6 funds, all actively managed by one of the most awarded investment teams in the country. A tight menu done properly rather than a long one done thinly: around 227,000 members and $16.2 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "all",
+  "partnered": true,
+  "total_value": "$16.2 billion",
+  "total_value_m": 16232.3,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "Low",
+   "Civilian weapons": "Low",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 1,
+  "nz_owned": "yes",
+  "fund_count": 6,
+  "rec_count": 5,
+  "avg_fee_pct": 0.88,
+  "sus_high": 1,
+  "sw_good": [
+   "5 of its 6 funds make our recommended list",
+   "5 of its 6 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "Fees average 0.88% across its funds, above the market average of 0.82%",
+   "High exposure to gambling relative to other funds",
+   "Only 1 of its 5 funds with a sustainability rating score High or Highest"
+  ],
+  "consider": [
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme",
+   "sbs-wealth-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "nz-funds-kiwisaver-scheme",
+  "scheme_name": "NZ Funds KiwiSaver Scheme",
+  "provider_name": "NZ Funds",
+  "members": 86640,
+  "about": "Seven actively managed options with a wider toolkit than most: hedge funds, an inflation-protection strategy and age-based Life Cycle settings. A different recipe from the mainstream, holding $2.1 billion for around 87,000 members.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$2.1 billion",
+  "total_value_m": 2087.1,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 7,
+  "rec_count": 0,
+  "avg_fee_pct": 1.36,
+  "sus_high": 0,
+  "sw_good": [],
+  "sw_warn": [
+   "7 of its 7 funds don't make our recommended list",
+   "3 of its 4 funds with a five-year record trail the category average after fees",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "new-zealand-defence-force-kiwisaver-scheme",
+  "scheme_name": "New Zealand Defence Force KiwiSaver Scheme",
+  "provider_name": "New Zealand Defence Force",
+  "members": 9663,
+  "about": "Seven funds, restricted to the Defence community, with global manager Mercer running the money. The military's own corner of KiwiSaver: around 9,700 members and $355 million.",
+  "restricted": true,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$355 million",
+  "total_value_m": 355.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "High",
+   "Tobacco": "High",
+   "Weapons of war": "None"
+  },
+  "sus_band": "High",
+  "sus_rated": 6,
+  "sus_above": 2,
+  "nz_owned": "yes",
+  "fund_count": 7,
+  "rec_count": 0,
+  "avg_fee_pct": 0.73,
+  "sus_high": 2,
+  "sw_good": [
+   "5 of its 7 funds with a five-year record beat the category average after fees",
+   "Fees average 0.73% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "7 of its 7 funds don't make our recommended list",
+   "High exposure to gambling, alcohol, tobacco"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "oneanswer-kiwisaver-scheme",
+  "scheme_name": "OneAnswer KiwiSaver Scheme",
+  "provider_name": "OneAnswer",
+  "members": 50015,
+  "about": "Fourteen funds including single-sector building blocks you can mix yourself, from Australasian property to global shares. One of the more flexible menus going, usually reached through an adviser. Around 50,000 members and $2.9 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$2.9 billion",
+  "total_value_m": 2867.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "High",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Low"
+  },
+  "sus_band": "High",
+  "sus_rated": 11,
+  "sus_above": 7,
+  "nz_owned": "no",
+  "fund_count": 14,
+  "rec_count": 1,
+  "avg_fee_pct": 0.78,
+  "sus_high": 7,
+  "sw_good": [
+   "7 of its 11 funds with a sustainability rating score High or Highest"
+  ],
+  "sw_warn": [
+   "13 of its 14 funds don't make our recommended list",
+   "7 of its 8 funds with a five-year record trail the category average after fees",
+   "High exposure to gambling, tobacco, civilian weapons"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "pathfinder-kiwisaver-plan",
+  "scheme_name": "Pathfinder KiwiSaver Plan",
+  "provider_name": "Pathfinder",
+  "members": 13468,
+  "about": "Four funds, screened harder than almost anyone else's, with 20 percent of fees going to charity. Ethical investing with actual teeth. Around 13,000 members and $711 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "all",
+  "partnered": true,
+  "total_value": "$711 million",
+  "total_value_m": 710.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "Low",
+   "Civilian weapons": "None",
+   "Gambling": "None",
+   "Nuclear power": "Highest",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Highest",
+  "sus_rated": 2,
+  "sus_above": 2,
+  "nz_owned": "yes",
+  "fund_count": 4,
+  "rec_count": 3,
+  "avg_fee_pct": 1.28,
+  "sus_high": 2,
+  "sw_good": [
+   "3 of its 4 funds make our recommended list",
+   "2 of its 3 funds with a five-year record beat the category average after fees",
+   "Little or no exposure in 6 of the 8 ethical areas we screen"
+  ],
+  "sw_warn": [
+   "Fees average 1.28% across its funds, above the market average of 0.82%",
+   "High exposure to nuclear power relative to other funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme",
+   "sbs-wealth-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "pie-kiwisaver-scheme",
+  "scheme_name": "Pie KiwiSaver Scheme",
+  "provider_name": "Pie",
+  "members": 13324,
+  "about": "Four funds from a boutique that made its name picking smaller companies before bringing that high-conviction style to KiwiSaver. A manager with real opinions, backed by around 13,000 members and $611 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$611 million",
+  "total_value_m": 610.5,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "Highest",
+   "Tobacco": "High",
+   "Weapons of war": "High"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 4,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 4,
+  "rec_count": 0,
+  "avg_fee_pct": 0.97,
+  "sus_high": 0,
+  "sw_good": [
+   "Little or no exposure in 1 of the 8 ethical areas we screen"
+  ],
+  "sw_warn": [
+   "4 of its 4 funds don't make our recommended list",
+   "3 of its 3 funds with a five-year record trail the category average after fees",
+   "Fees average 0.97% across its funds, above the market average of 0.82%"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "quaystreet-kiwisaver-scheme",
+  "scheme_name": "QuayStreet KiwiSaver Scheme",
+  "provider_name": "QuayStreet",
+  "members": 7843,
+  "about": "Twelve funds built on direct, hands-on management, including the concentrated best-ideas Altum Fund. Boutique attention across a surprisingly wide menu. Around 7,800 members and $493 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "all",
+  "partnered": true,
+  "total_value": "$493 million",
+  "total_value_m": 492.6,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "High",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 11,
+  "sus_above": 1,
+  "nz_owned": "yes",
+  "fund_count": 12,
+  "rec_count": 6,
+  "avg_fee_pct": 1.07,
+  "sus_high": 1,
+  "sw_good": [
+   "6 of its 12 funds make our recommended list",
+   "6 of its 6 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "Fees average 1.07% across its funds, above the market average of 0.82%",
+   "High exposure to gambling, animal testing",
+   "Only 1 of its 11 funds with a sustainability rating score High or Highest"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "sbs-wealth-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "sbs-wealth-kiwisaver-scheme",
+  "scheme_name": "SBS Wealth KiwiSaver Scheme",
+  "provider_name": "SBS Wealth",
+  "members": 44005,
+  "about": "Nine funds built around the Lifestages idea: set it once and the scheme automatically adjusts your risk as you age. Hands-off by design. Around 44,000 members and $1.1 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "some",
+  "partnered": true,
+  "total_value": "$1.1 billion",
+  "total_value_m": 1115.2,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Low",
+   "Animal testing": "Highest",
+   "Civilian weapons": "Medium",
+   "Gambling": "Low",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Highest",
+  "sus_rated": 6,
+  "sus_above": 6,
+  "nz_owned": "yes",
+  "fund_count": 9,
+  "rec_count": 3,
+  "avg_fee_pct": 1.03,
+  "sus_high": 6,
+  "sw_good": [
+   "5 of its 7 funds with a five-year record beat the category average after fees",
+   "6 of its 6 funds with a sustainability rating score High or Highest"
+  ],
+  "sw_warn": [
+   "6 of its 9 funds don't make our recommended list",
+   "Fees average 1.03% across its funds, above the market average of 0.82%",
+   "High exposure to civilian weapons, animal testing"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "sharesies-kiwisaver-scheme",
+  "scheme_name": "Sharesies KiwiSaver Scheme",
+  "provider_name": "Sharesies",
+  "members": 54793,
+  "about": "Eleven base funds from managers like Milford, Generate and Pathfinder, plus the option to add shares you pick yourself. The most DIY-friendly scheme going. Around 55,000 members and $1.1 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$1.1 billion",
+  "total_value_m": 1077.4,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "Medium",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "High",
+  "sus_rated": 5,
+  "sus_above": 2,
+  "nz_owned": "yes",
+  "fund_count": 11,
+  "rec_count": 0,
+  "avg_fee_pct": 0.84,
+  "sus_high": 2,
+  "sw_good": [
+   "Little or no exposure in 1 of the 8 ethical areas we screen"
+  ],
+  "sw_warn": [
+   "11 of its 11 funds don't make our recommended list",
+   "High exposure to alcohol, civilian weapons",
+   "Independent ethical-screen data isn't available for 4 of its 11 funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "shaw-and-partners-kiwisaver-scheme",
+  "scheme_name": "Shaw and Partners KiwiSaver Scheme",
+  "provider_name": "Shaw and Partners",
+  "members": 219,
+  "about": "Three actively managed funds at the classic conservative, balanced and growth settings. A boutique alternative to the big-bank menus, mostly found through advisers, with around 220 members and $17 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$17 million",
+  "total_value_m": 16.8,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "High",
+   "Animal testing": "High",
+   "Civilian weapons": "Highest",
+   "Gambling": "Highest",
+   "Nuclear power": "Medium",
+   "Tobacco": "High",
+   "Weapons of war": "Highest"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 3,
+  "sus_above": 1,
+  "nz_owned": "no",
+  "fund_count": 3,
+  "rec_count": 2,
+  "avg_fee_pct": 1.21,
+  "sus_high": 1,
+  "sw_good": [
+   "2 of its 3 funds make our recommended list",
+   "3 of its 3 funds with a five-year record beat the category average after fees"
+  ],
+  "sw_warn": [
+   "Fees average 1.21% across its funds, above the market average of 0.82%",
+   "High exposure to gambling, alcohol, tobacco"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "simplicity-kiwisaver-scheme",
+  "scheme_name": "Simplicity KiwiSaver Scheme",
+  "provider_name": "Simplicity",
+  "members": 157873,
+  "about": "Six mostly index funds from the nonprofit, with some of the lowest fees in KiwiSaver and 15 percent of those fees going to charity. Plain, cheap and proud of it. Around 158,000 members and $7.4 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$7.4 billion",
+  "total_value_m": 7371.7,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "None",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "None",
+   "Nuclear power": "Low",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Highest",
+  "sus_rated": 5,
+  "sus_above": 5,
+  "nz_owned": "yes",
+  "default_provider": "yes",
+  "fund_count": 6,
+  "rec_count": 2,
+  "avg_fee_pct": 0.24,
+  "sus_high": 5,
+  "sw_good": [
+   "2 of its 3 funds with a five-year record beat the category average after fees",
+   "Fees average 0.24% across its funds, below the market average of 0.82%",
+   "Little or no exposure in 6 of the 8 ethical areas we screen"
+  ],
+  "sw_warn": [
+   "4 of its 6 funds don't make our recommended list",
+   "High exposure to animal testing relative to other funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "smart-kiwisaver-scheme",
+  "scheme_name": "Smart KiwiSaver Scheme",
+  "provider_name": "Smart",
+  "members": 142231,
+  "about": "The biggest menu in KiwiSaver: around 50 options from pre-mixed funds to automatic Age Steps and single-sector index funds. Formerly SuperLife, it's the pick-and-mix counter, at low fees. Around 142,000 members and $3.2 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$3.2 billion",
+  "total_value_m": 3248.1,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "Medium",
+   "Civilian weapons": "Medium",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "Medium",
+   "Weapons of war": "Medium"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 29,
+  "sus_above": 7,
+  "nz_owned": "yes",
+  "default_provider": "yes",
+  "fund_count": 50,
+  "rec_count": 6,
+  "avg_fee_pct": 0.59,
+  "sus_high": 7,
+  "sw_good": [
+   "8 of its 13 funds with a five-year record beat the category average after fees",
+   "Fees average 0.59% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "44 of its 50 funds don't make our recommended list",
+   "High exposure to gambling relative to other funds",
+   "Only 7 of its 29 funds with a sustainability rating score High or Highest"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "summer-kiwisaver-scheme",
+  "scheme_name": "Summer KiwiSaver Scheme",
+  "provider_name": "Summer",
+  "members": 6822,
+  "about": "Ten actively managed funds with a stronger New Zealand flavour than most, and you're encouraged to blend your own mix. A hands-on scheme for hands-on savers, with around 6,800 members and $351 million.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$351 million",
+  "total_value_m": 351.0,
+  "ethics": {
+   "Adult entertainment": "None",
+   "Alcohol": "Medium",
+   "Animal testing": "High",
+   "Civilian weapons": "Low",
+   "Gambling": "High",
+   "Nuclear power": "Medium",
+   "Tobacco": "None",
+   "Weapons of war": "None"
+  },
+  "sus_band": "Medium",
+  "sus_rated": 7,
+  "sus_above": 1,
+  "nz_owned": "yes",
+  "fund_count": 10,
+  "rec_count": 2,
+  "avg_fee_pct": 0.81,
+  "sus_high": 1,
+  "sw_good": [
+   "2 of its 10 funds make our recommended list"
+  ],
+  "sw_warn": [
+   "8 of its 10 funds don't make our recommended list",
+   "4 of its 6 funds with a five-year record trail the category average after fees",
+   "High exposure to gambling, animal testing"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "supereasy-kiwisaver-superannuation-scheme",
+  "scheme_name": "SuperEasy KiwiSaver Superannuation Scheme",
+  "provider_name": "SuperEasy",
+  "members": 2649,
+  "about": "Eight funds for the local government community, including an Automatic option that fine-tunes your risk every single month from age 20 to 80. The smoothest age-based dial in KiwiSaver, at very low fees. Around 2,600 members and $144 million.",
+  "restricted": true,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$144 million",
+  "total_value_m": 143.9,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "yes",
+  "fund_count": 8,
+  "rec_count": 0,
+  "avg_fee_pct": 0.32,
+  "sus_high": 0,
+  "sw_good": [
+   "Fees average 0.32% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "8 of its 8 funds don't make our recommended list",
+   "3 of its 3 funds with a five-year record trail the category average after fees",
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ },
+ {
+  "scheme_slug": "westpac-kiwisaver-scheme",
+  "scheme_name": "Westpac KiwiSaver Scheme",
+  "provider_name": "Westpac",
+  "members": 519132,
+  "about": "Eight funds from defensive to high growth, run by BT with specialist managers blended underneath. A big-bank scheme that keeps the choices simple. Around 519,000 members and $13.5 billion.",
+  "restricted": false,
+  "status": "open",
+  "partner_state": "none",
+  "partnered": false,
+  "total_value": "$13.5 billion",
+  "total_value_m": 13541.1,
+  "ethics": {
+   "Adult entertainment": null,
+   "Alcohol": null,
+   "Animal testing": null,
+   "Civilian weapons": null,
+   "Gambling": null,
+   "Nuclear power": null,
+   "Tobacco": null,
+   "Weapons of war": null
+  },
+  "sus_band": null,
+  "sus_rated": 0,
+  "sus_above": 0,
+  "nz_owned": "no",
+  "default_provider": "yes",
+  "fund_count": 8,
+  "rec_count": 5,
+  "avg_fee_pct": 0.45,
+  "sus_high": 0,
+  "sw_good": [
+   "5 of its 8 funds make our recommended list",
+   "5 of its 6 funds with a five-year record beat the category average after fees",
+   "Fees average 0.45% across its funds, below the market average of 0.82%"
+  ],
+  "sw_warn": [
+   "Independent ethical-screen and sustainability data isn't currently available for its funds"
+  ],
+  "consider": [
+   "milford-kiwisaver-plan",
+   "pathfinder-kiwisaver-plan",
+   "quaystreet-kiwisaver-scheme"
+  ]
+ }
+]

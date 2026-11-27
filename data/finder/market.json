@@ -1,0 +1,15 @@
+{
+ "ethics": {
+  "Adult entertainment": "None",
+  "Alcohol": "Medium",
+  "Animal testing": "Medium",
+  "Civilian weapons": "Medium",
+  "Gambling": "Medium",
+  "Nuclear power": "Medium",
+  "Tobacco": "Medium",
+  "Weapons of war": "Medium"
+ },
+ "avg_fee_pct": 0.82,
+ "sustainability_mean": 57.6,
+ "sus_band": "High"
+}

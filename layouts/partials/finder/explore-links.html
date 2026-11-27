@@ -1,0 +1,15 @@
+{{- /* Explore more funds card grid. dict: links = slice of (dict "title" "sub" "href") */ -}}
+<nav class="explore">
+  <h2 class="explore-label">Explore more funds</h2>
+  <div class="explore-grid">
+    {{ range .links }}
+    <a class="explore-card" href="{{ .href }}">
+      <span class="side-copy">
+        <span class="side-title">{{ .title }}</span>
+        <span class="side-sub">{{ .sub }}</span>
+      </span>
+      <span class="side-chev">{{ partial "finder/icon.html" (dict "name" "chevron-right" "size" 18) }}</span>
+    </a>
+    {{ end }}
+  </div>
+</nav>

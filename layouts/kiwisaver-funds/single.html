@@ -1,0 +1,18 @@
+{{ define "head" }}
+{{ partial "head-additions.html" . }}
+{{ partial "finder/style.html" . }}
+{{ if eq .Params.record_type "scheme" }}{{ partial "finder/schema.html" . }}{{ end }}
+{{ end }}
+
+{{ define "header" }}
+{{/* Nav only: the scheme hero replaces the theme's grey title band. */}}
+<header>{{ partial "site-navigation.html" . }}</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="finder-scope">
+{{ if eq .Params.record_type "scheme" }}
+{{ partial "finder/page-scheme.html" . }}
+{{ end }}
+</div>
+{{ end }}

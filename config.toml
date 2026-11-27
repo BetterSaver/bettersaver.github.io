@@ -187,3 +187,12 @@ enableRobotsTXT = true
     url = "/faq"
     weight = 5
 
+
+[params.finder]
+    # Fund finder stage 1 (provider/scheme pages). Shared copy + links.
+    quiz_url = "https://app.bettersaver.co.nz/kiwisaver/onboarding/flow/"
+    booking_url = "https://calendar.app.google/qNab1htWukV5SZTX8"
+    how_we_rate_url = "/pages/how-we-analyse"
+    market_avg_fee = "0.99%"
+    transfer_time = "10 to 15 business days"
+    fsp_line = "This page is general information, not personalised advice. BetterSaver Limited (FSP 600609) is a licensed Financial Advice Provider."

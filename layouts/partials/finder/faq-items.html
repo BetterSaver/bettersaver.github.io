@@ -1,0 +1,53 @@
+{{- /* FAQ copy for finder pages (stage 1: scheme pages + index). Returns slice of dicts (q, a).
+     Ported from the Fund Finder build; fund/category branches arrive with stage 2. */ -}}
+{{ $type := .Params.record_type }}
+{{ $g := .Site.Params.finder }}
+{{ $faqs := slice }}
+{{ if eq $type "scheme" }}
+  {{ $s := .Params.scheme }}
+  {{ $slug := $s.scheme_slug }}
+  {{ $prov := $s.provider_name }}
+  {{ $total := 0 }}{{ $rec := 0 }}{{ $minFee := 99.0 }}{{ $maxFee := 0.0 }}{{ $recNames := slice }}
+  {{ range site.Data.finder.funds }}{{ if and (eq .scheme_slug $slug) (eq .status "open") }}
+    {{ $total = add $total 1 }}
+    {{ if eq .public_rating "recommended" }}{{ $rec = add $rec 1 }}{{ $recNames = $recNames | append (.fund_label | default .fund_name) }}{{ end }}
+    {{ if lt .fee_pct $minFee }}{{ $minFee = .fee_pct }}{{ end }}
+    {{ if gt .fee_pct $maxFee }}{{ $maxFee = .fee_pct }}{{ end }}
+  {{ end }}{{ end }}
+  {{ if gt $rec 0 }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Is %s a good KiwiSaver provider?" $prov) "a" (printf "We currently recommend %d of %s's %d KiwiSaver funds. Those funds have delivered returns after fees above their group average over five years. Funds can move on or off our list at each review." $rec $prov $total)) }}
+  {{ else }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Is %s a good KiwiSaver provider?" $prov) "a" (printf "None of %s's %d KiwiSaver funds currently meet our criteria. Funds can move on or off our list at each review." $prov $total)) }}
+  {{ end }}
+  {{ $mktFee := printf "%.2f%%" site.Data.finder.market.avg_fee_pct }}
+  {{ if eq $minFee $maxFee }}
+  {{ $faqs = $faqs | append (dict "q" (printf "What are %s's KiwiSaver fees?" $prov) "a" (printf "Every %s KiwiSaver fund charges an annual fee of %.2f%% of your balance. The average across all KiwiSaver funds is around %s." $prov $minFee $mktFee)) }}
+  {{ else }}
+  {{ $faqs = $faqs | append (dict "q" (printf "What are %s's KiwiSaver fees?" $prov) "a" (printf "Annual fees across %s's KiwiSaver funds range from %.2f%% to %.2f%% of your balance. The average across all KiwiSaver funds is around %s." $prov $minFee $maxFee $mktFee)) }}
+  {{ end }}
+  {{ with $s.nz_owned }}
+  {{ $a := "" }}
+  {{ if eq . "yes" }}{{ $a = printf "Yes, %s is New Zealand-owned." $prov }}{{ else }}{{ $a = printf "No, %s isn't New Zealand-owned." $prov }}{{ end }}
+  {{ if $s.default_provider }}{{ $a = printf "%s It's one of the government-appointed default KiwiSaver providers." $a }}{{ else }}{{ $a = printf "%s It isn't a default KiwiSaver provider." $a }}{{ end }}
+  {{ $a = printf "%s It manages %s in KiwiSaver savings." $a $s.total_value }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Is %s New Zealand-owned?" $prov) "a" $a) }}
+  {{ end }}
+  {{ if gt $rec 0 }}
+  {{ $which := "" }}
+  {{ if eq $rec 1 }}{{ $which = printf "One: the %s." (index $recNames 0) }}{{ else }}{{ $which = printf "%d: the %s." $rec (delimit $recNames ", " " and the ") }}{{ end }}
+  {{ $faqs = $faqs | append (dict "q" (printf "Which %s funds does BetterSaver recommend?" $prov) "a" (printf "%s The right one for you depends mostly on when you'll need the money, and our free quiz works that out in about 2 minutes." $which)) }}
+  {{ end }}
+  {{ if $s.restricted }}
+  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "%s is a restricted scheme, generally only open to specific employees or members. If you're eligible, %s can tell you how to join." $s.scheme_name $prov)) }}
+  {{ else if $s.partnered }}
+  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "You can switch to any %s fund through BetterSaver in under 5 minutes. %s then arranges the transfer with your current provider. Switching is free." $prov $prov)) }}
+  {{ else }}
+  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch to %s?" $prov) "a" (printf "Switching to %s is done on their website, and we'll show you how. %s then arranges the transfer with your current provider. Switching is free." $prov $prov)) }}
+  {{ end }}
+  {{ $faqs = $faqs | append (dict "q" (printf "How do I switch from %s to another provider?" $prov) "a" (printf "Join the provider you'd like to move to and they arrange the transfer. You don't need to contact %s yourself, and there's no fee to switch." $prov)) }}
+{{ else }}
+  {{ $faqs = $faqs | append (dict "q" "How does BetterSaver rate KiwiSaver funds?" "a" "We compare every fund's five-year returns after fees against its risk-group average, alongside fees and consistency, using Morningstar and Disclose register data. Ratings are reviewed quarterly.") }}
+  {{ $faqs = $faqs | append (dict "q" "Is BetterSaver independent?" "a" "BetterSaver is a licensed Financial Advice Provider. We rate every fund on the same criteria whether or not the provider pays us, and our ratings show that: we recommend funds we earn nothing from.") }}
+  {{ $faqs = $faqs | append (dict "q" "Is this advice?" "a" "These pages are general information, not personalised advice. For a recommendation matched to your goals and risk comfort, take our two-minute quiz.") }}
+{{ end }}
+{{ return $faqs }}
