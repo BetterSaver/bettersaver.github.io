@@ -3,14 +3,27 @@
 {{ range site.Data.finder.schemes }}
   {{ if eq .status "open" }}
   {{ $scheme := . }}
+  {{/* SEO: title per the dev notes; "| BetterSaver" only while the total stays under 60 chars.
+       Meta description is generated with real figures (135-155 chars). */}}
+  {{ $title := printf "%s: Funds, Fees & Review" .scheme_name }}
+  {{ if lt (add (len $title) 14) 60 }}{{ $title = printf "%s | BetterSaver" $title }}{{ end }}
+  {{ $desc := "" }}
+  {{ $N := int .fund_count }}{{ $R := int .rec_count }}
+  {{ if eq $N 1 }}
+    {{ $state := cond (gt $R 0) "makes" "doesn't currently make" }}
+    {{ $desc = printf "%s's only KiwiSaver fund %s our recommended list. Its fee and five-year return are compared against the category average." .provider_name $state }}
+  {{ else }}
+    {{ $desc = printf "%d of %s's %d KiwiSaver funds make our recommended list. Fees average %.2f%%, with five-year returns compared against category averages." $R .provider_name $N (float .avg_fee_pct) }}
+  {{ end }}
   {{ $page := dict
     "path" .scheme_slug
     "kind" "page"
-    "title" (printf "%s: funds, ratings and fees" .scheme_name)
+    "title" .scheme_name
     "params" (dict
       "record_type" "scheme"
       "scheme" $scheme
-      "description" (printf "Independent ratings for every %s fund: which we recommend, fees, five-year returns and how to switch." .scheme_name)
+      "description" $desc
+      "seo" (dict "title" $title "description" $desc)
     )
   }}
   {{ $.AddPage $page }}

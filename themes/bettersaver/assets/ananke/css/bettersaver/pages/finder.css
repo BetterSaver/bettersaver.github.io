@@ -161,16 +161,16 @@
 .powered span:first-child{font:13px/1.2 var(--font-sans);color:var(--text-muted)}
 .ms-mark{font:600 16px/1 var(--font-sans);letter-spacing:.02em;color:#d0021b}
 .scheme-funds{display:flex;flex-direction:column;gap:16px}
-.ftable-head{padding:0 32px 4px}
+.ftable-head{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px;column-gap:16px;padding:0 32px 4px}
 .ftable-head span{font:500 12px/1.2 var(--font-sans);letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted)}
 .ftable-head .num{text-align:right}
-.fgroup{background:var(--surface-subtle);border-radius:16px;padding:14px 16px 16px}
+.fgroup{display:flex;flex-direction:column;background:var(--surface-subtle);border-radius:16px;padding:14px 16px 16px}
 .fgroup+.fgroup{margin-top:28px}
-.fgroup-head{background:transparent;padding:4px 6px 12px;border-radius:0}
+.fgroup-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px;padding:4px 6px 12px;border-radius:0;background:transparent}
 .fgroup-head h3{margin:0;font:600 16px/1.3 var(--font-sans);color:var(--bs-navy)}
 .fgroup-head span{font:13px/1.4 var(--font-sans);color:var(--text-muted)}
 .fgroup-head strong{font-weight:600;color:var(--bs-navy)}
-.frow{background:#fff;border-radius:8px;padding:14px 16px;border-bottom:none;margin-bottom:8px}
+.frow{display:grid;grid-template-columns:minmax(0,1.3fr)200px minmax(0,2fr)76px 96px;column-gap:16px;align-items:center;padding:14px 16px;border-bottom:none;background:#fff;border-radius:8px;margin-bottom:8px}
 .frow-name{font:600 15px/1.35 var(--font-sans);text-decoration:none;text-wrap:pretty}
 .frow-sub{display:block;font:400 12px/1.4 var(--font-sans);color:var(--text-muted);font-weight:400;margin-top:2px}
 .frow .verdict-pill{justify-self:start;padding:5px 10px;font-size:12px}
@@ -295,7 +295,7 @@
 .holding-pct{font:600 15px/1.3 var(--font-sans);color:var(--bs-navy);white-space:nowrap}
 .holdings-conc{margin:0;font:15px/1.5 var(--font-sans);color:var(--text-default);text-wrap:pretty}
 .fx-wrap{width:100%;max-width:1140px;margin:0 auto;padding:0 20px;box-sizing:border-box}
-.fx-hero{background:linear-gradient(135deg,#3a2cc8 0%,#7b5fe0 58%,#a78bf0 100%);color:#fff}
+.fx-hero{background:#ECEEF4;color:var(--bs-navy)}
 .fx-hero-in{display:flex;flex-wrap:wrap;gap:32px 56px;align-items:center;justify-content:space-between;padding-top:clamp(40px,6vw,72px);padding-bottom:clamp(88px,10vw,120px)}
 .fx-hero-copy{flex:1 1 480px;max-width:640px;display:flex;flex-direction:column;gap:18px}
 .fx-eyebrow{margin:0;font:600 12px/1 var(--font-sans);letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.8)}
@@ -303,10 +303,10 @@
 .fx-h1 em{font-style:normal;color:#9cf}
 .fx-sub{margin:0;font:clamp(16px,1.6vw,19px)/1.5 var(--font-sans);color:rgba(255,255,255,.9);max-width:540px;text-wrap:pretty}
 .fx-chips{display:flex;flex-wrap:wrap;gap:8px}
-.fx-chip{display:inline-flex;align-items:center;gap:8px;height:32px;padding:0 14px 0 10px;border-radius:999px;background:rgba(255,255,255,.14);box-shadow:inset 0 0 0 1px rgba(255,255,255,.24);font:500 13px/1 var(--font-sans);color:#fff}
+.fx-chip{display:inline-flex;align-items:center;gap:8px;height:32px;padding:0 14px 0 10px;border-radius:999px;background:#fff;box-shadow:inset 0 0 0 1px var(--border-soft);font:500 13px/1 var(--font-sans);color:var(--bs-navy)}
 .fx-hero .fx-chip>svg{color:var(--dot-on)}
 .fx-chip svg{color:#fff}
-.fx-quiz-card{flex:1 1 320px;max-width:400px;display:flex;flex-direction:column;gap:14px;padding:22px 24px 24px;border-radius:28px;background:#fff;color:var(--bs-navy);box-shadow:0 16px 48px -12px rgba(20,16,80,.45)}
+.fx-quiz-card{flex:1 1 320px;max-width:400px;display:flex;flex-direction:column;gap:14px;padding:22px 24px 24px;border-radius:28px;background:#fff;color:var(--bs-navy);box-shadow:0 16px 48px -12px rgba(36,46,84,.22)}
 .fx-quiz-head{display:flex;align-items:center;gap:14px}
 .fx-quiz-ico{flex:0 0 56px;width:56px;height:56px;border-radius:999px;background:rgba(172,129,255,.15);display:grid;place-items:center;color:var(--bs-purple-contrast)}
 .fx-quiz-title{font:clamp(22px,2.2vw,26px)/1.15 var(--font-display);letter-spacing:-.02em}
@@ -436,16 +436,16 @@ body.fx-traypad{padding-bottom:96px}
 .fx-vsep{width:1px;height:24px;background:var(--border-soft)}
 #fx-funds-view[hidden], #fx-schemes-view[hidden]{display:none}
 .fx-filterrow [hidden], .fx-listhead [hidden]{display:none!important}
-.scheme-hero{background:#ECEEF4;color:var(--bs-navy)}
+.scheme-hero{background:#ECEEF4;color:var(--bs-navy);padding:clamp(28px,5vw,48px) clamp(16px,5vw,32px) clamp(80px,9vw,110px)}
 .scheme-hero-in{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
 .scheme-hero .crumbs a{color:var(--bs-happy-blue)}
 .scheme-hero .crumbs a:hover{color:var(--bs-purple-contrast)}
 .scheme-hero .crumbs .here, .scheme-hero .crumbs .chev{color:rgba(255,255,255,.65)}
-.scheme-hero h1{color:var(--bs-navy)}
+.scheme-hero h1{color:var(--bs-navy);font-size:clamp(32px,4.5vw,46px)}
 .scheme-hero .hero-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
 .scheme-hero .hero-funds-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;background:var(--bs-navy);color:#fff;font:600 15px/1 var(--font-sans);text-decoration:none}
 .scheme-hero .hero-funds-btn:hover{color:var(--bs-purple-contrast)}
-.scheme-hero .howrate{color:var(--bs-happy-blue)}
+.scheme-hero .howrate{color:var(--bs-happy-blue);text-decoration:underline}
 .scheme-hero .howrate:hover{color:var(--bs-purple-contrast)}
 .fee-facts{grid-template-columns:repeat(3,minmax(0,1fr))}
 .fee-facts .fact{background:#fff;box-shadow:inset 0 0 0 1px var(--border-soft)}
@@ -483,7 +483,7 @@ body.fx-traypad{padding-bottom:96px}
 .pair-row .pr-figs strong{font-weight:600;color:var(--good-ink)}
 .fine-line{margin:0;font:400 12px/1.5 var(--font-sans);color:var(--text-muted)}
 .facts-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:-64px 0 0;position:relative;z-index:2}
-.facts-strip .fact{box-shadow:0 8px 32px -10px rgba(36,46,84,.22),inset 0 0 0 1px var(--border-soft)}
+.facts-strip .fact{background:#fff;box-shadow:0 8px 32px -10px rgba(36,46,84,.22),inset 0 0 0 1px var(--border-soft);padding:12px 14px;gap:4px}
 .facts-strip .fact-label{color:var(--bs-purple-contrast);letter-spacing:.09em}
 .facts-strip .fact-value{font-size:23px}
 .facts-strip .fact-ico{display:flex;width:28px;height:28px;align-items:center;justify-content:center;border-radius:8px;background:rgba(153,102,255,.12);color:var(--bs-purple-contrast)}

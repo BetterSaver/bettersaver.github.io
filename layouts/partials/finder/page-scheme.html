@@ -193,7 +193,7 @@
 
 {{ if $s.consider }}
 <section>
-<h2 class="rule-head">Providers you might also consider</h2>
+<h2 class="rule-head">Providers people compare with <strong>{{ $prov }}</strong></h2>
 <div class="prov-grid">
 {{ range $s.consider }}
 {{ $c := index (where site.Data.finder.schemes "scheme_slug" .) 0 }}
@@ -216,6 +216,7 @@
 {{ partial "finder/faq-block.html" . }}
 
 <section class="cta-plain">
+<div class="cta-illust" aria-hidden="true"></div>
 <h2>Find a better KiwiSaver fund today</h2>
 <p class="cta-sub">Tell us a bit about yourself and we'll recommend a KiwiSaver fund that fits your situation, whether you're joining for the first time or switching.</p>
 <a class="btn-navy" href="{{ $g.quiz_url }}">Get my KiwiSaver recommendation</a>
