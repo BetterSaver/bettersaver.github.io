@@ -70,12 +70,12 @@ enableRobotsTXT = true
 [menus]
     [[menus.main]]
     name = "How it works"
-    url = "/pages/how-it-works"
+    url = "/pages/how-it-works/"
     weight = 1
 
     [[menus.main]]
     name = "How we analyse"
-    url = "/pages/how-we-analyse"
+    url = "/pages/how-we-analyse/"
     weight = 2
 
     [[menus.main]]
@@ -85,22 +85,22 @@ enableRobotsTXT = true
 
     [[menus.main]]
     name = "How to join KiwiSaver"
-    url = "/pages/how-to-join-kiwisaver"
+    url = "/pages/how-to-join-kiwisaver/"
     weight = 4
 
     [[menus.main]]
     name = "How to change KiwiSaver"
-    url = "/pages/how-to-change-your-kiwisaver-provider"
+    url = "/pages/how-to-change-your-kiwisaver-provider/"
     weight = 5
 
     [[menus.main]]
     name = "About"
-    url = "/pages/about"
+    url = "/pages/about/"
     weight = 6
 
     [[menus.main]]
     name = "Financial tips"
-    url = "/financial-tips"
+    url = "/financial-tips/"
     weight = 7
 
     [[menus.main]]
@@ -123,12 +123,12 @@ enableRobotsTXT = true
 
     [[menus.footer_left]]
     name = "How it works"
-    url = "/pages/how-it-works"
+    url = "/pages/how-it-works/"
     weight = 2
 
     [[menus.footer_left]]
     name = "How we analyse"
-    url = "/pages/how-we-analyse"
+    url = "/pages/how-we-analyse/"
     weight = 3
 
     [[menus.footer_left]]
@@ -138,22 +138,22 @@ enableRobotsTXT = true
 
     [[menus.footer_left]]
     name = "How to join KiwiSaver"
-    url = "/pages/how-to-join-kiwisaver"
+    url = "/pages/how-to-join-kiwisaver/"
     weight = 5
 
     [[menus.footer_left]]
     name = "How to change KiwiSaver"
-    url = "/pages/how-to-change-your-kiwisaver-provider"
+    url = "/pages/how-to-change-your-kiwisaver-provider/"
     weight = 6
 
     [[menus.footer_left]]
     name = "About us"
-    url = "/pages/about"
+    url = "/pages/about/"
     weight = 7
 
     [[menus.footer_left]]
     name = "Financial tips"
-    url = "/financial-tips"
+    url = "/financial-tips/"
     weight = 8
 
     [[menus.footer_left]]
@@ -164,26 +164,26 @@ enableRobotsTXT = true
     # footer right
     [[menus.footer_right]]
     name = "Advice disclosure"
-    url = "/pages/advice-disclosure"
+    url = "/pages/advice-disclosure/"
     weight = 1
 
     [[menus.footer_right]]
     name = "Terms & conditions"
-    url = "/pages/terms-and-conditions"
+    url = "/pages/terms-and-conditions/"
     weight = 6
 
     [[menus.footer_right]]
     name = "Privacy policy"
-    url = "/pages/privacy-policy"
+    url = "/pages/privacy-policy/"
     weight = 7
 
     [[menus.footer_right]]
     name = "Contact us"
-    url = "/contact-us"
+    url = "/contact-us/"
     weight = 4
 
     [[menus.footer_right]]
     name = "FAQs"
-    url = "/faq"
+    url = "/faq/"
     weight = 5
 
