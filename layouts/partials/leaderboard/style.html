@@ -1,0 +1,4 @@
+{{- /* Leaderboard stylesheet, loaded only on /kiwisaver-leaderboard/. */ -}}
+{{ $css := resources.Get "ananke/css/bettersaver/pages/leaderboard.css" }}
+{{ if eq (getenv "HUGO_ENV") "production" }}{{ $css = $css | minify | fingerprint }}{{ end }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">

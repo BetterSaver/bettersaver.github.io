@@ -1,0 +1,615 @@
+{
+ "asOf": "2026-09-30",
+ "quarters": 24,
+ "firstQuarter": {
+  "q": 4,
+  "year": 2020
+ },
+ "quarterLabels": [
+  "Q4 20",
+  "Q1 21",
+  "Q2 21",
+  "Q3 21",
+  "Q4 21",
+  "Q1 22",
+  "Q2 22",
+  "Q3 22",
+  "Q4 22",
+  "Q1 23",
+  "Q2 23",
+  "Q3 23",
+  "Q4 23",
+  "Q1 24",
+  "Q2 24",
+  "Q3 24",
+  "Q4 24",
+  "Q1 25",
+  "Q2 25",
+  "Q3 25",
+  "Q4 25",
+  "Q1 26",
+  "Q2 26",
+  "Q3 26"
+ ],
+ "quarterLabelsFull": [
+  "Q4 2020",
+  "Q1 2021",
+  "Q2 2021",
+  "Q3 2021",
+  "Q4 2021",
+  "Q1 2022",
+  "Q2 2022",
+  "Q3 2022",
+  "Q4 2022",
+  "Q1 2023",
+  "Q2 2023",
+  "Q3 2023",
+  "Q4 2023",
+  "Q1 2024",
+  "Q2 2024",
+  "Q3 2024",
+  "Q4 2024",
+  "Q1 2025",
+  "Q2 2025",
+  "Q3 2025",
+  "Q4 2025",
+  "Q1 2026",
+  "Q2 2026",
+  "Q3 2026"
+ ],
+ "categories": [
+  {
+   "id": "def",
+   "label": "Defensive",
+   "eligible": 46,
+   "funds": {
+    "FND2177": {
+     "name": "OneAnswer NZ Fixed Interest",
+     "colour": "#00D671"
+    },
+    "FND1579": {
+     "name": "NZ Funds Income Strategy",
+     "colour": "#E8795A"
+    },
+    "FND1191": {
+     "name": "Summer Global Fixed Interest",
+     "colour": "#4C6FFF"
+    },
+    "FND2472": {
+     "name": "Smart Overseas Bonds",
+     "colour": "#8A5A2B"
+    },
+    "FND339": {
+     "name": "Westpac Cash",
+     "colour": "#B05BD6"
+    },
+    "FND9386": {
+     "name": "GoalsGetter Amova NZ Cash",
+     "colour": "#5E6E9E"
+    },
+    "FND480": {
+     "name": "QuayStreet Fixed Interest",
+     "colour": "#D14FA2"
+    },
+    "FND20538": {
+     "name": "InvestNow Harbour NZ Core Fixed Interest",
+     "colour": "#2E8B8B"
+    },
+    "FND9387": {
+     "name": "GoalsGetter Amova NZ Corporate Bond",
+     "colour": "#00A356"
+    },
+    "FND20532": {
+     "name": "InvestNow Mercer Macquarie NZ Fixed Interest",
+     "colour": "#F6862A"
+    },
+    "FND2463": {
+     "name": "Smart NZ Bonds",
+     "colour": "#C9A227"
+    },
+    "FND1153": {
+     "name": "MAS Cash",
+     "colour": "#F1375C"
+    },
+    "FND2473": {
+     "name": "Smart Overseas Non Govt Bd",
+     "colour": "#783CF0"
+    },
+    "FND550": {
+     "name": "Fisher Funds Cash",
+     "colour": "#0150EB"
+    }
+   },
+   "pods": {
+    "p3": [
+     [
+      "FND20538",
+      7.51,
+      0.65
+     ],
+     [
+      "FND9387",
+      5.93,
+      0.7
+     ],
+     [
+      "FND20532",
+      5.85,
+      0.64
+     ]
+    ],
+    "p5": [
+     [
+      "FND339",
+      3.98,
+      0.25
+     ],
+     [
+      "FND9386",
+      3.95,
+      0.4
+     ],
+     [
+      "FND1153",
+      3.92,
+      0.25
+     ]
+    ],
+    "p10": [
+     [
+      "FND2463",
+      2.98,
+      0.54
+     ],
+     [
+      "FND480",
+      2.98,
+      0.75
+     ],
+     [
+      "FND550",
+      2.92,
+      0.47
+     ]
+    ]
+   },
+   "rib": {
+    "p3": "FND2177 FND1579 FND1579 FND1191 FND2472 FND1579 FND1579 FND1579 FND1579 FND1579 FND1579 FND339 FND9386 FND9386 FND9386 FND9386 FND1579 FND9386 FND480 FND480 FND20538 FND20538 FND20538 FND20538",
+    "p5": "FND2472 FND1579 FND2463 FND2463 FND2463 FND1579 FND1579 FND1579 FND1579 FND1579 FND1579 FND1579 FND1579 FND1579 FND9386 FND9386 FND9386 FND1579 FND339 FND339 FND339 FND339 FND339 FND339",
+    "p10": "FND2473 FND2473 FND2473 FND2473 FND2473 FND1579 FND1579 FND1579 FND1579 FND2463 FND2463 FND2463 FND2463 FND2463 FND2463 FND2463 FND2463 FND480 FND1579 FND1579 FND1579 FND480 FND480 FND2463"
+   }
+  },
+  {
+   "id": "con",
+   "label": "Conservative",
+   "eligible": 41,
+   "funds": {
+    "FND695": {
+     "name": "Simplicity Conservative",
+     "colour": "#00A356"
+    },
+    "FND2174": {
+     "name": "OneAnswer Conservative Balanced",
+     "colour": "#E8795A"
+    },
+    "FND14932": {
+     "name": "Pathfinder Conservative",
+     "colour": "#F1375C"
+    },
+    "FND827": {
+     "name": "QuayStreet Income",
+     "colour": "#4C6FFF"
+    },
+    "FND1276": {
+     "name": "Booster Capital Guaranteed",
+     "colour": "#339CFD"
+    },
+    "FND825": {
+     "name": "QuayStreet Conservative",
+     "colour": "#8A5A2B"
+    },
+    "FND20408": {
+     "name": "InvestNow Milford Conservative",
+     "colour": "#5E6E9E"
+    },
+    "FND1289": {
+     "name": "Booster Asset Class Conservative",
+     "colour": "#00D671"
+    },
+    "FND36390": {
+     "name": "InvestNow Fisher Funds Conservative",
+     "colour": "#D14FA2"
+    },
+    "FND529": {
+     "name": "ASB Conservative",
+     "colour": "#2E8B8B"
+    },
+    "FND41804": {
+     "name": "Sharesies Smartshares Conservative",
+     "colour": "#B05BD6"
+    },
+    "FND747": {
+     "name": "Milford Conservative",
+     "colour": "#783CF0"
+    },
+    "FND553": {
+     "name": "Fisher Funds Core Conservative",
+     "colour": "#0150EB"
+    },
+    "FND2477": {
+     "name": "Smart Conservative",
+     "colour": "#C9A227"
+    }
+   },
+   "pods": {
+    "p3": [
+     [
+      "FND529",
+      7.82,
+      0.4
+     ],
+     [
+      "FND36390",
+      7.76,
+      0.93
+     ],
+     [
+      "FND41804",
+      7.7,
+      0.47
+     ]
+    ],
+    "p5": [
+     [
+      "FND825",
+      4.4,
+      0.75
+     ],
+     [
+      "FND827",
+      4.1,
+      0.75
+     ],
+     [
+      "FND1276",
+      3.79,
+      0.91
+     ]
+    ],
+    "p10": [
+     [
+      "FND825",
+      4.58,
+      0.75
+     ],
+     [
+      "FND2477",
+      4.47,
+      0.57
+     ],
+     [
+      "FND2174",
+      4.43,
+      0.72
+     ]
+    ]
+   },
+   "rib": {
+    "p3": "FND695 FND2174 FND2174 FND2174 FND2174 FND2174 FND14932 FND14932 FND14932 FND827 FND14932 FND827 FND827 FND14932 FND1276 FND827 FND825 FND825 FND20408 FND1289 FND36390 FND36390 FND36390 FND529",
+    "p5": "FND747 FND747 FND2174 FND2174 FND2174 FND2174 FND2174 FND827 FND827 FND827 FND827 FND827 FND2174 FND553 FND14932 FND14932 FND14932 FND2477 FND825 FND825 FND825 FND825 FND825 FND825",
+    "p10": "FND2174 FND2174 FND2174 FND2174 FND2174 FND2174 FND2174 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND747 FND2477 FND825"
+   }
+  },
+  {
+   "id": "bal",
+   "label": "Balanced",
+   "eligible": 56,
+   "funds": {
+    "FND748": {
+     "name": "Milford Balanced",
+     "colour": "#783CF0"
+    },
+    "FND2458": {
+     "name": "Smart Ethica",
+     "colour": "#00D671"
+    },
+    "FND10585": {
+     "name": "Pie Balanced",
+     "colour": "#E8795A"
+    },
+    "FND14931": {
+     "name": "Pathfinder Balanced",
+     "colour": "#F1375C"
+    },
+    "FND823": {
+     "name": "QuayStreet Balanced",
+     "colour": "#4C6FFF"
+    },
+    "FND824": {
+     "name": "QuayStreet Socially Responsible Investment",
+     "colour": "#8A5A2B"
+    },
+    "FND40599": {
+     "name": "Kernel Balanced",
+     "colour": "#FFB236"
+    },
+    "FND531": {
+     "name": "ASB Balanced",
+     "colour": "#5E6E9E"
+    }
+   },
+   "pods": {
+    "p3": [
+     [
+      "FND40599",
+      13.42,
+      0.25
+     ],
+     [
+      "FND824",
+      13.15,
+      1.0
+     ],
+     [
+      "FND531",
+      12.4,
+      0.65
+     ]
+    ],
+    "p5": [
+     [
+      "FND823",
+      8.59,
+      1.0
+     ],
+     [
+      "FND824",
+      8.26,
+      1.0
+     ],
+     [
+      "FND531",
+      6.36,
+      0.65
+     ]
+    ],
+    "p10": [
+     [
+      "FND823",
+      8.06,
+      1.0
+     ],
+     [
+      "FND748",
+      7.76,
+      1.05
+     ],
+     [
+      "FND824",
+      7.72,
+      1.0
+     ]
+    ]
+   },
+   "rib": {
+    "p3": "FND748 FND2458 FND2458 FND10585 FND2458 FND748 FND14931 FND14931 FND748 FND748 FND14931 FND823 FND823 FND823 FND823 FND823 FND824 FND824 FND824 FND824 FND824 FND40599 FND40599 FND40599",
+    "p5": "FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND14931 FND14931 FND823 FND748 FND824 FND823 FND823 FND823 FND823 FND823",
+    "p10": "FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND748 FND823 FND748 FND823"
+   }
+  },
+  {
+   "id": "gro",
+   "label": "Growth",
+   "eligible": 41,
+   "funds": {
+    "FND3138": {
+     "name": "AE KiwiSaver Plan",
+     "colour": "#00D671"
+    },
+    "FND10586": {
+     "name": "Pie Growth",
+     "colour": "#E8795A"
+    },
+    "FND750": {
+     "name": "Milford Active Growth",
+     "colour": "#783CF0"
+    },
+    "FND826": {
+     "name": "QuayStreet Growth",
+     "colour": "#4C6FFF"
+    },
+    "FND697": {
+     "name": "Simplicity Growth",
+     "colour": "#00A356"
+    },
+    "FND135": {
+     "name": "AMP Growth",
+     "colour": "#8A5A2B"
+    },
+    "FND1160": {
+     "name": "MAS Growth",
+     "colour": "#5E6E9E"
+    },
+    "FND14930": {
+     "name": "Pathfinder Growth",
+     "colour": "#F1375C"
+    },
+    "FND42062": {
+     "name": "SBS Wealth Lifestages Growth Option",
+     "colour": "#D14FA2"
+    }
+   },
+   "pods": {
+    "p3": [
+     [
+      "FND697",
+      15.54,
+      0.24
+     ],
+     [
+      "FND135",
+      15.22,
+      0.81
+     ],
+     [
+      "FND1160",
+      15.09,
+      0.98
+     ]
+    ],
+    "p5": [
+     [
+      "FND826",
+      10.48,
+      1.25
+     ],
+     [
+      "FND697",
+      8.3,
+      0.24
+     ],
+     [
+      "FND42062",
+      8.03,
+      1.17
+     ]
+    ],
+    "p10": [
+     [
+      "FND697",
+      9.89,
+      0.24
+     ],
+     [
+      "FND826",
+      9.72,
+      1.25
+     ],
+     [
+      "FND750",
+      9.68,
+      1.05
+     ]
+    ]
+   },
+   "rib": {
+    "p3": "FND3138 FND3138 FND3138 FND10586 FND10586 FND3138 FND3138 FND3138 FND3138 FND750 FND750 FND750 FND826 FND826 FND3138 FND826 FND826 FND826 FND826 FND697 FND826 FND826 FND135 FND697",
+    "p5": "FND750 FND750 FND750 FND750 FND750 FND750 FND3138 FND3138 FND3138 FND3138 FND3138 FND3138 FND3138 FND3138 FND3138 FND14930 FND14930 FND750 FND750 FND826 FND826 FND826 FND826 FND826",
+    "p10": "FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND750 FND697"
+   }
+  },
+  {
+   "id": "agg",
+   "label": "Aggressive",
+   "eligible": 28,
+   "funds": {
+    "FND1286": {
+     "name": "Booster Geared Growth",
+     "colour": "#339CFD"
+    },
+    "FND1583": {
+     "name": "NZ Funds Growth Strategy",
+     "colour": "#8A5A2B"
+    },
+    "FND15503": {
+     "name": "Milford Aggressive",
+     "colour": "#783CF0"
+    },
+    "FND1290": {
+     "name": "Booster Asset Class Growth",
+     "colour": "#00D671"
+    },
+    "FND2926": {
+     "name": "SBS Wealth High Growth",
+     "colour": "#5E6E9E"
+    },
+    "FND928": {
+     "name": "Generate Focused Growth",
+     "colour": "#F6862A"
+    },
+    "FND37625": {
+     "name": "Kernel High Growth",
+     "colour": "#FFB236"
+    },
+    "FND37523": {
+     "name": "Booster Socially Responsible Geared Growth",
+     "colour": "#E8795A"
+    },
+    "FND1162": {
+     "name": "MAS Global Equities",
+     "colour": "#2E8B8B"
+    },
+    "FND1288": {
+     "name": "Booster Socially Responsible High Growth",
+     "colour": "#4C6FFF"
+    },
+    "FND42061": {
+     "name": "SBS Wealth Lifestages Aggressive Option",
+     "colour": "#D14FA2"
+    },
+    "FND38": {
+     "name": "New Zealand Defence Force Shares",
+     "colour": "#C9A227"
+    }
+   },
+   "pods": {
+    "p3": [
+     [
+      "FND37625",
+      19.03,
+      0.25
+     ],
+     [
+      "FND37523",
+      18.4,
+      1.31
+     ],
+     [
+      "FND1162",
+      18.28,
+      0.98
+     ]
+    ],
+    "p5": [
+     [
+      "FND42061",
+      9.89,
+      1.24
+     ],
+     [
+      "FND2926",
+      9.73,
+      1.24
+     ],
+     [
+      "FND38",
+      9.13,
+      0.88
+     ]
+    ],
+    "p10": [
+     [
+      "FND1162",
+      11.7,
+      0.98
+     ],
+     [
+      "FND1286",
+      11.64,
+      1.41
+     ],
+     [
+      "FND928",
+      10.66,
+      1.27
+     ]
+    ]
+   },
+   "rib": {
+    "p3": "FND1286 FND1583 FND1583 FND1583 FND1286 FND1583 FND1583 FND1583 FND15503 FND15503 FND15503 FND1290 FND15503 FND15503 FND2926 FND2926 FND928 FND37625 FND37523 FND37523 FND37523 FND37625 FND37625 FND37625",
+    "p5": "FND1286 FND1583 FND1583 FND1583 FND1286 FND1286 FND1583 FND1583 FND1288 FND1286 FND1288 FND1288 FND1286 FND1288 FND15503 FND15503 FND15503 FND15503 FND15503 FND1290 FND42061 FND2926 FND42061 FND42061",
+    "p10": "FND1286 FND1583 FND1583 FND1583 FND1286 FND1286 FND1583 FND1583 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1286 FND1162"
+   }
+  }
+ ]
+}
