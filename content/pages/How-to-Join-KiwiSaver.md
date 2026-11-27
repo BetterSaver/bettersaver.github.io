@@ -5,6 +5,10 @@ description: Choose the right scheme from the start - not just the default one y
 featured_image: /uploads/bg-how-to-join-kiwisaver.jpg
 date: 2026-10-01T00:00:00.000Z
 page_block: block-how-to-join-kiwisaver
+last_updated: 2026-11-27T00:00:00.000Z
+answer_heading: How do I join KiwiSaver?
+answer_body: |-
+  You can join KiwiSaver if you're a New Zealand citizen or entitled to live here indefinitely, and you live or normally live in New Zealand. If you start a new job, your employer enrols you automatically. Otherwise, you apply directly with a KiwiSaver provider, or through BetterSaver, which recommends a fund that fits you first.
 intro_tag: Getting started
 intro_heading: Joining KiwiSaver starts with choosing a scheme.
 intro_body_2: |-
@@ -23,7 +27,7 @@ eligible_items:
 eligible_footnote: |-
   You can't join KiwiSaver on a temporary, visitor, work or student visa. Once you're entitled to live in New Zealand indefinitely, for example with a resident visa, you can join.
 
-  Joining under 18
+  ### Joining under 18
 
   If you're under 18, you join through a KiwiSaver provider, not your employer. At 16 or 17, a parent or legal guardian co-signs your application. Under 16, a guardian applies for you.
 
@@ -70,9 +74,9 @@ auto_heading: 'If you''re new to working, how do you enrol in KiwiSaver?'
 auto_body: |-
   Your employer enrols you automatically when you start a new job, if you're 18 to 65 and on a contract longer than 28 days. Deductions of 3.5% start from your first pay, unless you choose 4%, 6%, 8% or 10%. If you don't choose a provider, you're placed in your employer's chosen scheme or one of six default schemes.
 
-  You don't have to accept the default. You can choose your own provider before your first pay, or switch your KiwiSaver provider at any time after.
+  You don't have to accept the default. You can choose your own provider before your first pay, or [switch your KiwiSaver provider](/pages/how-to-change-your-kiwisaver-provider/) at any time after.
 
-  Can I opt out of KiwiSaver?
+  ### Can I opt out of KiwiSaver?
 
   Only if you were automatically enrolled, and only between week 2 and week 8 of your new job. If you joined yourself, you can't opt out, but once you've been a member for 12 months you can take a savings suspension of 3 months to a year.
 auto_cta_label: How to change your KiwiSaver provider
@@ -85,10 +89,10 @@ choose_body: |
   BetterSaver assesses every KiwiSaver scheme in New Zealand using data from Morningstar and fund providers, and we publish our reasoning in full — including the schemes that don’t make the cut and why.
 choose_cta_label: Get my KiwiSaver recommendation
 choose_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
-choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse).'
+choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse/).'
 privacy_body: '**BetterSaver is a licensed Financial Advice Provider (FSP 600609).** Our advice is based on the information you provide and the information available about each scheme at the time. All investing involves risk — KiwiSaver values can go up and down, and past performance is not a reliable indicator of future performance.'
 faq_heading: Frequently asked questions.
-faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:

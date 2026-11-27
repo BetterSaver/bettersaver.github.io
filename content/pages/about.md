@@ -4,6 +4,8 @@ title: Helping Kiwis make better KiwiSaver decisions.
 description: 'We''re an independent, licensed financial advice provider that analyses over 300 KiwiSaver options with Morningstar data to find the right one for you.'
 featured_image: /uploads/illustration-newtons-cradle.svg
 featured_image_fit: contain
+aliases:
+  - /about-us
 date: 2022-10-10T03:00:00.000Z
 page_block: block-about
 framing_tag: Why we exist
@@ -58,7 +60,7 @@ quotes_items:
 partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with organisations throughout New Zealand offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
-partner_button_url: /contact-us
+partner_button_url: /contact-us/
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'

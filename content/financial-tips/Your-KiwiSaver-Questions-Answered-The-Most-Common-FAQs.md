@@ -323,7 +323,7 @@ You can only be with one KiwiSaver scheme at a time, so switching means moving y
 
 You don't need to tell your employer when you [switch providers](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/). Once your new provider is confirmed with Inland Revenue, your employer's contributions continue as normal and are simply redirected to your new scheme, with no extra paperwork on your part.
 
-For a full step-by-step walkthrough of the process, see our guide on [How to Change Your KiwiSaver Provider.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider)
+For a full step-by-step walkthrough of the process, see our guide on [How to Change Your KiwiSaver Provider.](https://bettersaver.co.nz/pages/how-to-change-your-kiwisaver-provider/)
 
 ### How long does switching take?
 

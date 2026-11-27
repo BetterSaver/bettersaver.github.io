@@ -253,6 +253,13 @@
         &:hover { color: var(--purple-contrast); }
     }
 
+    /* "Last updated Month Year" line directly under the hero title */
+    .last-updated {
+        margin: 0 0 var(--size-2);
+        font-size: 14px;
+        color: var(--grey-mid);
+    }
+
     /* "Last reviewed / Next review" stamp under the hero CTA */
     .review-stamp {
         margin: 0;

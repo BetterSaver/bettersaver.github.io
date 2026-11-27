@@ -23,8 +23,26 @@
 {{- $appUrl := .Site.Params.appUrl -}}
 <div class="how-we-analyse-page change-provider-page join-kiwisaver-page">
 
-  {{/* INTRO / FRAMING */}}
+  {{/* ANSWER FIRST — short direct answer to the page's question, above the intro.
+       White, like every other page that opens with this hero. Sections below alternate grey/white from here, ending at the navy block. */}}
+  {{ with .Params.answer_heading }}
   <div class="py-9">
+    <section class="hwa-page">
+      <div class="framing">
+        <div>
+          {{ with $.Params.answer_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
+          <h2>{{ . | markdownify }}</h2>
+        </div>
+        <div>
+          <div class="prose-copy">{{ $.Params.answer_body | markdownify }}</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {{ end }}
+
+  {{/* INTRO / FRAMING */}}
+  <div class="band-grey">
     <div class="hwa-page">
       <section>
         <div class="framing">
@@ -44,7 +62,7 @@
   </div>
 
   {{/* WHO CAN JOIN */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="mb-2">
         {{ with .Params.eligible_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
@@ -57,13 +75,13 @@
         {{ end }}
       </ul>
       {{ with .Params.eligible_footnote }}
-      <p class="prose-footnote">{{ . | markdownify }}</p>
+      <div class="prose-footnote">{{ . | markdownify }}</div>
       {{ end }}
     </section>
   </div>
 
   {{/* WHY JOIN */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head prose-head">
         {{ with .Params.why_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
@@ -83,7 +101,7 @@
   </section>
 
   {{/* HOW TO JOIN — three steps */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="principles-head">
         {{ with .Params.how_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
@@ -103,7 +121,7 @@
   </div>
 
   {{/* WHAT YOU'LL NEED */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head">
         {{ with .Params.need_tag }}<div class="section-tag">{{ . }}</div>{{ end }}
@@ -130,7 +148,7 @@
   </section>
 
   {{/* AUTOMATIC ENROLMENT */}}
-  <div class="band-grey">
+  <div class="py-9">
     <section class="hwa-page">
       <div class="framing">
         <div>
@@ -148,7 +166,7 @@
   </div>
 
   {{/* READY TO CHOOSE */}}
-  <section class="pb-9">
+  <section class="band-grey">
     <div class="hwa-page">
       <div class="checks-head prose-head">
         {{ with .Params.choose_tag }}<div class="section-tag">{{ . }}</div>{{ end }}

@@ -130,7 +130,7 @@ cadence_sub: 'KiwiSaver is long-term, but funds change. Markets change. Fees, ma
 cadence_image: /uploads/illustration-hands-search.png
 cadence_image_alt: Annual refresh
 faq_heading: About our methodology.
-faq_subheading: 'The questions that come up most often. Can''t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can''t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:

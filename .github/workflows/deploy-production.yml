@@ -1,14 +1,29 @@
 name: Deploy to Production
 
+# main only accepts changes through a pull request (ruleset "main: PR only"),
+# so this opens a pull request from staging to main, merges it, and then starts
+# the Pages deploy. The deploy has to be started explicitly: a merge made with
+# the workflow's own token does not trigger other workflows, so hugo.yml's
+# push trigger would never fire.
+
 on:
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
 
 jobs:
   merge-staging-to-main:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -35,10 +50,23 @@ jobs:
             echo "::warning::main is $BEHIND commits ahead of staging — merge will be attempted"
           fi
 
-      - name: Merge staging into main
+      - name: Open (or reuse) the staging → main pull request
+        id: pr
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout main
-          git merge origin/staging --no-edit
-          git push origin main
+          NUMBER=$(gh pr list --base main --head staging --state open --json number --jq '.[0].number // empty')
+          if [ -z "$NUMBER" ]; then
+            URL=$(gh pr create --base main --head staging \
+              --title "Deploy staging to production" \
+              --body "Opened by the **Deploy to Production** workflow (run ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}), started by ${{ github.actor }}.")
+            NUMBER=${URL##*/}
+          fi
+          echo "number=$NUMBER" >> "$GITHUB_OUTPUT"
+          echo "Pull request: ${{ github.server_url }}/${{ github.repository }}/pull/$NUMBER" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Merge the pull request
+        run: gh pr merge "${{ steps.pr.outputs.number }}" --merge
+
+      - name: Start the Pages deploy
+        run: |
+          gh workflow run hugo.yml --ref main
+          echo "Started **Deploy Hugo site to Pages** on main." >> "$GITHUB_STEP_SUMMARY"
