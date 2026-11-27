@@ -89,10 +89,10 @@ choose_body: |
   BetterSaver assesses every KiwiSaver scheme in New Zealand using data from Morningstar and fund providers, and we publish our reasoning in full — including the schemes that don’t make the cut and why.
 choose_cta_label: Get my KiwiSaver recommendation
 choose_cta_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
-choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse).'
+choose_footnote: 'Want to see the method first? Read [how we analyse KiwiSaver schemes](/pages/how-we-analyse/).'
 privacy_body: '**BetterSaver is a licensed Financial Advice Provider (FSP 600609).** Our advice is based on the information you provide and the information available about each scheme at the time. All investing involves risk — KiwiSaver values can go up and down, and past performance is not a reliable indicator of future performance.'
 faq_heading: Frequently asked questions.
-faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:

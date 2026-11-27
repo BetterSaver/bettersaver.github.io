@@ -15,7 +15,7 @@ why_cards:
   - title: It takes minutes.
     description: Most people are done in under five minutes. We handle the paperwork and pass your application to the provider to finalise.
   - title: It’s transparent.
-    description: 'We publish the full list of schemes we assess - including the ones we don’t recommend and why. You can read exactly [how we analyse KiwiSaver schemes](/pages/how-we-analyse) before you start.'
+    description: 'We publish the full list of schemes we assess - including the ones we don’t recommend and why. You can read exactly [how we analyse KiwiSaver schemes](/pages/how-we-analyse/) before you start.'
 who_tag: Who am I with?
 who_heading: How do I find out who my KiwiSaver provider is?
 who_body: |
@@ -161,7 +161,7 @@ costs_cards:
       - text: 'You don''t pay this commission directly, and it doesn''t increase your fees.'
       - text: Our recommended list can include both schemes that pay us and schemes that don't — as long as they meet our analysis criteria.
 faq_heading: Frequently asked questions.
-faq_subheading: 'The questions that come up most often. Can''t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can''t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:

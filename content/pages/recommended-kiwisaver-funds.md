@@ -410,7 +410,7 @@ commissions_body: |-
 
   If a provider does not support switching through our platform, you may need to finish your signup or switch on the provider’s own website. We will tell you before you get that far.
 faq_heading: Frequently asked questions.
-faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us).'
+faq_subheading: 'The questions that come up most often. Can’t see yours? [Talk to us](/contact-us/).'
 faq_button_label: See more FAQs
 faq_button_url: /faq/
 faq_items:

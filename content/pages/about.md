@@ -60,7 +60,7 @@ quotes_items:
 partner_title: Looking to partner with us?
 partner_sub: 'BetterSaver works with organisations throughout New Zealand offering independent KiwiSaver advice to their customers, members or employees.'
 partner_button_label: Get in touch
-partner_button_url: /contact-us
+partner_button_url: /contact-us/
 cta_heading: Find a better KiwiSaver fund today
 cta_button_label: Get my fund recommendation
 cta_button_url: '{{appUrl}}/kiwisaver/onboarding/flow/goal'
