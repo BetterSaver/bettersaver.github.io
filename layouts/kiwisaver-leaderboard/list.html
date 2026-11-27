@@ -66,17 +66,6 @@
 </div>
 </section>
 
-<section class="lb-stats">
-<div class="stat-row">
-<span class="num" id="stat-changes">&ndash;</span>
-<span><span class="stat-title">times the 3 year #1 has changed since {{ $since }}</span><span class="stat-sub" id="stat-changes-sub"></span></span>
-</div>
-<div class="stat-row">
-<span class="num" id="stat-holders">&ndash;</span>
-<span><span class="stat-title">different funds have held the 3 year #1 since {{ $since }}</span><span class="stat-sub" id="stat-lastyear-sub"></span></span>
-</div>
-</section>
-
 <section class="band">
 <h3 class="serif">This is not our recommended list.</h3>
 <p>A leaderboard rewards whoever had the best recent past. Advice starts from your timeframe, your goals and your stomach for the dips, which is a different question entirely.</p>
@@ -198,23 +187,6 @@ function render() {
     });
   });
 
-  /* Teaching stats: computed from the data, never hardcoded. */
-  var h3 = cat.rib.p3.split(" ");
-  var holders = {};
-  h3.forEach(function (f) { holders[f] = true; });
-  var cadence = changes ? Math.round((h3.length - 1) / changes * 3) : 0;
-  document.getElementById("stat-changes").textContent = changes;
-  document.getElementById("stat-changes-sub").textContent = "A new name at the top roughly every " + cadence + " months.";
-  document.getElementById("stat-holders").textContent = Object.keys(holders).length;
-  var ly = h3[h3.length - 5];
-  var lyName = fname(ly);
-  var lyRank = 0;
-  cat.pods.p3.forEach(function (e, i) { if (e[0] === ly) lyRank = i + 1; });
-  var lyLine;
-  if (lyRank === 1) { lyLine = "Last year’s winner, " + lyName + ", is still on top. For now."; }
-  else if (lyRank > 1) { lyLine = "Last year’s winner, " + lyName + ", now sits " + (lyRank === 2 ? "2nd" : "3rd") + "."; }
-  else { lyLine = "Last year’s winner, " + lyName + ", is no longer in the top 3."; }
-  document.getElementById("stat-lastyear-sub").textContent = lyLine;
 }
 
 render();
