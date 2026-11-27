@@ -38,10 +38,6 @@
    "name": "OneAnswer Conservative Balanced Fund",
    "colour": "#DA62C3"
   },
-  "fnd2175": {
-   "name": "OneAnswer Conservative Fund",
-   "colour": "#531347"
-  },
   "fnd747": {
    "name": "Milford Conservative Fund",
    "colour": "#783CF0"
@@ -92,7 +88,7 @@
   },
   "fnd2171": {
    "name": "OneAnswer Growth Fund",
-   "colour": "#E48BD3"
+   "colour": "#531347"
   },
   "fnd2184": {
    "name": "ANZ Growth Fund",
@@ -136,7 +132,7 @@
   },
   "fnd2173": {
    "name": "OneAnswer Balanced Fund",
-   "colour": "#9D2586"
+   "colour": "#E48BD3"
   },
   "fnd555": {
    "name": "Fisher Funds Growth Fund",
@@ -204,11 +200,11 @@
   },
   "fnd825": {
    "name": "QuayStreet Conservative Fund",
-   "colour": "#CF7330"
+   "colour": "#7C231D"
   },
   "fnd827": {
    "name": "QuayStreet Income",
-   "colour": "#DAC062"
+   "colour": "#AD6129"
   },
   "fnd826": {
    "name": "QuayStreet Growth Fund",
@@ -240,7 +236,7 @@
   },
   "fnd2176": {
    "name": "OneAnswer Cash Fund",
-   "colour": "#D241B7"
+   "colour": "#9D2586"
   },
   "fnd1290": {
    "name": "Booster Asset Class Growth Fund",
@@ -570,8 +566,7 @@
     "fnd36390": "InvestNow Fisher Funds Conservative Fund",
     "fnd9436": "SBS Wealth Lifestages Conservative Option",
     "fnd529": "ASB Conservative Fund",
-    "fnd41804": "Sharesies Smartshares Conservative Fund",
-    "fnd2175": "OneAnswer Conservative Fund"
+    "fnd41804": "Sharesies Smartshares Conservative Fund"
    },
    "podium": {
     "p3": [
@@ -610,11 +605,6 @@
     ],
     "p10": [
      {
-      "fund": "fnd2175",
-      "returnPct": 37.83,
-      "feePct": 0.6
-     },
-     {
       "fund": "fnd825",
       "returnPct": 4.58,
       "feePct": 0.75
@@ -623,6 +613,11 @@
       "fund": "fnd2477",
       "returnPct": 4.47,
       "feePct": 0.57
+     },
+     {
+      "fund": "fnd2174",
+      "returnPct": 4.43,
+      "feePct": 0.72
      }
     ]
    },
@@ -654,10 +649,10 @@
      "fnd529"
     ],
     "p5": [
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
+     "fnd747",
+     "fnd747",
+     "fnd2174",
+     "fnd2174",
      "fnd2174",
      "fnd2174",
      "fnd2174",
@@ -680,36 +675,36 @@
      "fnd825"
     ],
     "p10": [
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175",
-     "fnd2175"
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd2174",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd747",
+     "fnd2477",
+     "fnd825"
     ]
    },
    "eligible": {
     "p3": 41,
     "p5": 36,
-    "p10": 28
+    "p10": 27
    }
   },
   {
