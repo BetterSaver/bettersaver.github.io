@@ -11,8 +11,9 @@
 {{ define "main" }}
 {{ $d := site.Data.leaderboard.leaderboard }}
 {{ $asOf := dateFormat "2 January 2006" $d.asOf }}
-{{ $sinceMonth := index (dict "1" "March" "2" "June" "3" "September" "4" "December") (printf "%d" $d.firstQuarter.q) }}
-{{ $since := printf "%s %d" $sinceMonth $d.firstQuarter.year }}
+{{ $q := int $d.firstQuarter.q }}{{ $yr := int $d.firstQuarter.year }}
+{{ $sinceMonth := index (slice "" "March" "June" "September" "December") $q }}
+{{ $since := printf "%s %d" $sinceMonth $yr }}
 <div class="lb-scope">
 
 <section class="lb-hero">
@@ -27,7 +28,7 @@
 <div class="r"><span style="flex:2;background:#783CF0"></span><span style="flex:1;background:#F6862A"></span><span style="flex:3;background:#F1375C"></span><span style="flex:2;background:#FFB236"></span></div>
 <div class="r"><span style="flex:4;background:#F6862A"></span><span style="flex:3;background:#783CF0"></span><span style="flex:2;background:#00A356"></span></div>
 </div>
-<span class="mini-ribbon-cap">The crown, changing hands since {{ $d.firstQuarter.year }}.</span>
+<span class="mini-ribbon-cap">The crown, changing hands since {{ $yr }}.</span>
 </div>
 </div>
 </section>
@@ -50,12 +51,14 @@
 
 <section class="ribbon-section">
 <div class="lb-wrap ribbon-head">
-<h2 class="serif" id="ribbon-heading">Who has held #1, every quarter since {{ $d.firstQuarter.year }}</h2>
+<h2 class="serif" id="ribbon-heading">Who has held #1, every quarter since {{ $yr }}</h2>
 <p class="sub">Each block is one quarter of official data. Each colour is a different fund. <strong>Count the colour changes.</strong></p>
 <div class="cat-pills" id="cat-pills-ribbon" role="group" aria-label="KiwiSaver fund category"></div>
 <div class="ribbon-card">
+<div class="ribbon-scrollwrap">
 <div class="ribbon-scroll">
 <div class="ribbon-grid" id="ribbon"></div>
+</div>
 </div>
 <div class="legend" id="legend"></div>
 <p class="lb-disclaimer left">A caret marks the first quarter of a new reign. This record is append only: each quarter is added as published and never edited or removed. Returns are after fees and before tax, from the Disclose Register. Past performance is not a reliable indicator of future performance.</p>
@@ -148,6 +151,15 @@ function render() {
 
   var ribbon = document.getElementById("ribbon");
   ribbon.innerHTML = "";
+  var scroller = ribbon.parentElement;
+  function fade() {
+    var atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 4;
+    scroller.classList.toggle("at-end", atEnd);
+    scroller.classList.toggle("scrollable", scroller.scrollWidth > scroller.clientWidth + 4);
+  }
+  scroller.addEventListener("scroll", fade);
+  window.addEventListener("resize", fade);
+  setTimeout(fade, 0);
   var changes = 0;
   PERIODS.forEach(function (P) {
     var key = P[0], short = P[2];
